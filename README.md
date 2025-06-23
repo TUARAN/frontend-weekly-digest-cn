@@ -50,7 +50,7 @@
 
 我已经计划并开始实践：每周逐期翻译《Frontend Weekly Digest》内的**每篇文章**，并将其整理发布到 GitHub 仓库中，持续更深度的分享。
 
-> 项目地址：https://github.com/atar42/frontend-weekly-digest-cn  
+> 项目地址：https://github.com/TUARAN/frontend-weekly-digest-cn  
 > 顺手点个 ⭐️ star 支持，是我持续输出的续航电池🔋✨！
 
 ---
