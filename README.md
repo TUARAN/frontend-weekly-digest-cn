@@ -28,6 +28,59 @@
 
 ---
 
+## 🤝 协作方式
+
+欢迎参与翻译！以下是参与流程：
+
+### 📝 翻译流程
+
+1. **Fork 项目**
+   - 点击右上角的 Fork 按钮，将项目 Fork 到你的 GitHub 账号
+
+2. **拉取最新代码**
+   ```bash
+   git clone https://github.com/你的用户名/frontend-weekly-digest-cn.git
+   cd frontend-weekly-digest-cn
+   git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
+   git pull upstream main
+   ```
+
+3. **创建翻译文档**
+   - 在对应的期数目录下（如 `weekly/441/`）创建对应的 markdown 文档
+   - 文件命名格式：`文章标题.md`（使用英文原标题或中文标题）
+   - 参考现有文章的格式和结构进行翻译
+
+4. **提交 PR**
+   ```bash
+   git checkout -b translate/文章标题
+   git add .
+   git commit -m "feat: 翻译《文章标题》"
+   git push origin translate/文章标题
+   ```
+   - 在 GitHub 上提交 Pull Request
+   - PR 标题格式：`feat: 翻译《文章标题》`
+   - 在 PR 描述中说明翻译的期数和文章链接
+
+5. **等待审核**
+   - 维护者会审核你的翻译
+   - 根据反馈进行修改（如有需要）
+
+### ✨ 翻译规范
+
+- 保持原文的技术准确性
+- 使用流畅、易懂的中文表达
+- 保留原文中的代码、链接和格式
+- 添加必要的注释说明（如需要）
+
+### 📋 翻译任务认领
+
+- 查看 [周刊目录](#周刊目录) 选择感兴趣的期数
+- 在对应期数的 markdown 文件中查看文章列表
+- 在 Issue 中认领翻译任务（如已创建）
+- 或直接提交翻译 PR
+
+---
+
 ## 📅 更新节奏
 
 - 每周翻译一整期（通常在每周一~周三发布）
