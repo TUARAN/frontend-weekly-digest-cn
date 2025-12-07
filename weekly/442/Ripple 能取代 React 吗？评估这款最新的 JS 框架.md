@@ -246,6 +246,8 @@ export component App() {
 
 如果你这样做，代码会抛出类似这样的错误：
 
+![](https://blog.logrocket.com/wp-content/uploads/2025/11/image4_845b07.png)
+
 该[框架强制规定](https://www.ripplejs.com/docs/guide/reactivity) `track()` 必须在响应式上下文（组件、函数或由组件创建的类）中使用。这是一个有意的架构决策。
 
 这是故意的。在 RippleJS 中，一切都关乎被追踪的值与使用它们的组件之间的直接关系。没有内置的“所有组件都可以接入的全局存储”这一概念。
@@ -329,6 +331,8 @@ export component StyledCounter() {
 ```
 
 样式效果如下所示：
+
+![](https://blog.logrocket.com/wp-content/uploads/2025/11/image2_a9ab13.png)
 
 这其中的美妙之处在于：
 
@@ -556,6 +560,8 @@ npm run dev
 -   转到扩展 (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 -   搜索 "Ripple for VS Code"
 -   安装官方扩展
+
+![](https://blog.logrocket.com/wp-content/uploads/2025/11/image3_650503.png)
 
 这将为你提供 `.ripple` 文件的语法高亮、智能提示、类型检查和实时诊断。
 
@@ -786,6 +792,8 @@ export component App() {
 -   动态 class 处理得很干净；在底层，Ripple 使用类似 `clsx` 的机制来合并它们。
 
 这是我们应用程序的样子：
+
+![](https://blog.logrocket.com/wp-content/uploads/2025/11/image1_47d80a.png)
 
 ### React 等效代码（用于对比）
 
