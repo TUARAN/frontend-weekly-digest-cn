@@ -3,8 +3,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingSidebar from "@/components/FloatingSidebar";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { getWeeklyMenu } from "@/lib/weekly";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "前端周刊 - 紧跟全球前端技术动态",
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <body className={`font-sans min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100`} suppressHydrationWarning>
-        <GoogleAnalytics />
+        <Script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" strategy="afterInteractive" />
         <Header />
         <main className="flex-1">
           {children}

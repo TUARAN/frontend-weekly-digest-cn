@@ -8,8 +8,12 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
             <div className="flex items-center gap-2">
-              <span>PV: <span id="ga-pv">-</span></span>
-              <span>UV: <span id="ga-uv">-</span></span>
+              <span id="busuanzi_container_site_pv">
+                本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+              </span>
+              <span id="busuanzi_container_site_uv">
+                本站访客数 <span id="busuanzi_value_site_uv"></span> 人
+              </span>
             </div>
             <p>Designed for Developers</p>
           </div>
