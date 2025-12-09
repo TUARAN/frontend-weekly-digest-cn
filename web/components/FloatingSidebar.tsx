@@ -24,8 +24,7 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
         isOpen ? "px-2 py-1.5" : "justify-center py-2"
       )}>
         {isYear ? (
-             <button
-                onClick={handleToggle}
+             <div
                 className={cn(
                     "flex flex-1 items-center gap-2 overflow-hidden text-left",
                     !isOpen && "justify-center"
@@ -41,7 +40,7 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
                         {item.title}
                     </span>
                  )}
-            </button>
+            </div>
         ) : (
             <Link
             href={item.path}
@@ -58,13 +57,24 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
                 </span>
             ) : (
                 <span className="truncate text-sm font-medium text-gray-700 dark:text-gray-200">
-                {item.title}
+                  {(() => {
+                    const match = item.title.match(/^(.*?)（(.*?)）$/);
+                    if (match) {
+                      return (
+                        <>
+                          {match[1]}
+                          <span className="text-xs text-gray-400 ml-0.5">({match[2]})</span>
+                        </>
+                      );
+                    }
+                    return item.title;
+                  })()}
                 </span>
             )}
             </Link>
         )}
         
-        {hasChildren && isOpen && (
+        {hasChildren && isOpen && !isYear && (
           <button 
             onClick={handleToggle}
             className="ml-1 rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -98,7 +108,7 @@ export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
       <div 
         className={cn(
           "relative flex flex-col rounded-2xl border border-gray-200 bg-white/95 shadow-xl backdrop-blur-md transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) dark:border-gray-800 dark:bg-gray-950/95 overflow-hidden",
-          isOpen ? "w-72" : "w-16"
+          isOpen ? "w-64" : "w-16"
         )}
       >
         {/* Header / Toggle Button */}
@@ -114,7 +124,7 @@ export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
              <>
                <div className="flex items-center gap-2 text-sm font-bold text-gray-900 dark:text-white">
                  <History className="h-4 w-4" />
-                 <span>往期回顾</span>
+                 <span>周刊合集</span>
                </div>
                <ChevronRight className="h-4 w-4 text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-200" />
              </>
