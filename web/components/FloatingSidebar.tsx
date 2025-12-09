@@ -7,8 +7,15 @@ import { WeeklyMenuItem } from '@/lib/weekly';
 import { cn } from '@/lib/utils';
 
 const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }) => {
-  const [expanded, setExpanded] = useState(false);
+  // Default expand if it's a year (path is #)
+  const isYear = item.path === '#';
+  const [expanded, setExpanded] = useState(isYear);
   const hasChildren = item.children && item.children.length > 0;
+
+  const handleToggle = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setExpanded(!expanded);
+  };
 
   return (
     <li className="mb-1">
@@ -16,56 +23,66 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
         "flex items-center justify-between rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-800",
         isOpen ? "px-2 py-1.5" : "justify-center py-2"
       )}>
-        <Link
-          href={item.path}
-          className={cn(
-            "flex flex-1 items-center gap-2 overflow-hidden",
-            !isOpen && "justify-center"
-          )}
-          title={item.title}
-        >
-          {!isOpen ? (
-             <span className="text-xs font-bold text-gray-500">
-               #{item.path.split('/')[2]}
-             </span>
-          ) : (
-            <span className="truncate text-sm font-medium text-gray-700 dark:text-gray-200">
-              {item.title}
-            </span>
-          )}
-        </Link>
+        {isYear ? (
+             <button
+                onClick={handleToggle}
+                className={cn(
+                    "flex flex-1 items-center gap-2 overflow-hidden text-left",
+                    !isOpen && "justify-center"
+                )}
+                title={item.title}
+            >
+                 {!isOpen ? (
+                    <span className="text-xs font-bold text-gray-500">
+                        {item.title.replace('年', '')}
+                    </span>
+                 ) : (
+                    <span className="truncate text-sm font-bold text-gray-900 dark:text-white">
+                        {item.title}
+                    </span>
+                 )}
+            </button>
+        ) : (
+            <Link
+            href={item.path}
+            className={cn(
+                "flex flex-1 items-center gap-2 overflow-hidden",
+                !isOpen && "justify-center"
+            )}
+            title={item.title}
+            target={item.path.startsWith('http') ? '_blank' : undefined}
+            >
+            {!isOpen ? (
+                <span className="text-xs font-bold text-gray-500">
+                {item.path.split('/')[2] ? `#${item.path.split('/')[2]}` : ''}
+                </span>
+            ) : (
+                <span className="truncate text-sm font-medium text-gray-700 dark:text-gray-200">
+                {item.title}
+                </span>
+            )}
+            </Link>
+        )}
         
         {hasChildren && isOpen && (
           <button 
-            onClick={(e) => {
-              e.preventDefault();
-              setExpanded(!expanded);
-            }}
+            onClick={handleToggle}
             className="ml-1 rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
           >
             {expanded ? (
-              <ChevronDown className="h-4 w-4 text-gray-500" />
+              <ChevronDown className="h-4 w-4 text-blue-600 dark:text-blue-400" />
             ) : (
-              <ChevronRight className="h-4 w-4 text-gray-500" />
+              <ChevronRight className="h-4 w-4 text-blue-600 dark:text-blue-400" />
             )}
           </button>
         )}
       </div>
 
-      {/* Sub-menu */}
+      {/* Sub-menu (Recursive) */}
       {hasChildren && expanded && isOpen && (
         <ul className="mt-1 space-y-1 border-l-2 border-gray-100 pl-2 ml-2 dark:border-gray-800">
           {item.children!.map((child, idx) => (
-            <li key={idx}>
-              <Link
-                href={child.path}
-                className="block rounded px-2 py-1 text-xs text-gray-600 hover:bg-gray-100 hover:text-blue-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-blue-400 truncate"
-                title={child.title}
-                target={child.path.startsWith('http') ? '_blank' : undefined}
-              >
-                {child.title}
-              </Link>
-            </li>
+            <SidebarItem key={idx} item={child} isOpen={isOpen} />
           ))}
         </ul>
       )}

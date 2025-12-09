@@ -28,10 +28,25 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
   const lines = content.split('\n');
   
   const menu: WeeklyMenuItem[] = [];
+  let currentYearItem: WeeklyMenuItem | null = null;
   let currentIssue: WeeklyMenuItem | null = null;
   
   for (const line of lines) {
     const trimmed = line.trim();
+    
+    // Check for Year Header
+    if (line.startsWith('### ') && line.includes('年')) {
+        const yearTitle = line.replace('### ', '').trim();
+        currentYearItem = {
+            title: yearTitle,
+            path: '#',
+            children: []
+        };
+        menu.push(currentYearItem);
+        currentIssue = null;
+        continue;
+    }
+
     if (!trimmed.startsWith('-')) continue;
     
     const isIndented = line.startsWith('  -') || line.startsWith('\t-');
@@ -54,7 +69,12 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
           slug,
           children: []
         };
-        menu.push(currentIssue);
+        
+        if (currentYearItem) {
+            currentYearItem.children?.push(currentIssue);
+        } else {
+            menu.push(currentIssue);
+        }
       }
     } else if (currentIssue) {
       // It's an article under the current issue

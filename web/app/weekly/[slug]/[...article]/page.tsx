@@ -1,4 +1,4 @@
-import { getArticleContent, getWeeklyMenu } from '@/lib/weekly';
+import { getArticleContent, getWeeklyMenu, WeeklyMenuItem } from '@/lib/weekly';
 import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -13,23 +13,25 @@ export async function generateStaticParams() {
   const menu = getWeeklyMenu();
   const params: { slug: string; article: string[] }[] = [];
   
-  menu.forEach(issue => {
-    if (issue.children && issue.slug) {
-      issue.children.forEach(child => {
-        if (!child.path.startsWith('http')) {
-           // path is /weekly/slug/path/to/article
-           // e.g. /weekly/442/subdir/file
-           const parts = child.path.split('/').slice(3); // remove empty, weekly, slug
-           if (parts.length > 0) {
-               params.push({
-                   slug: issue.slug!,
-                   article: parts
-               });
-           }
-        }
-      });
-    }
-  });
+  const processItem = (item: WeeklyMenuItem) => {
+      if (item.slug && item.children) {
+          item.children.forEach(child => {
+            if (!child.path.startsWith('http')) {
+               const parts = child.path.split('/').slice(3);
+               if (parts.length > 0) {
+                   params.push({
+                       slug: item.slug!,
+                       article: parts
+                   });
+               }
+            }
+          });
+      } else if (item.children) {
+          item.children.forEach(processItem);
+      }
+  };
+
+  menu.forEach(processItem);
   
   return params;
 }
