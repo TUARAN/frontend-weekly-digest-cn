@@ -14,6 +14,7 @@ export interface WeeklyMenuItem {
   title: string;
   path: string;
   slug?: string;
+  date?: string;
   children?: WeeklyMenuItem[];
 }
 
@@ -54,7 +55,7 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
     const match = trimmed.match(/^-\s+\[(.*?)\]\((.*?)\)/);
     if (!match) continue;
     
-    const title = match[1];
+    const rawTitle = match[1];
     const link = match[2];
     
     if (!isIndented) {
@@ -63,10 +64,20 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
       const slug = slugMatch ? slugMatch[1] : '';
       
       if (slug) {
+        // Extract date from title: "第443期（12月1日–12月7日）" -> title: "第443期", date: "12月1日–12月7日"
+        let title = rawTitle;
+        let date = '';
+        const dateMatch = rawTitle.match(/^(.+?)(?:（(.+?)）)?$/);
+        if (dateMatch) {
+            title = dateMatch[1];
+            date = dateMatch[2] || '';
+        }
+
         currentIssue = {
           title,
           path: `/weekly/${slug}`,
           slug,
+          date,
           children: []
         };
         
@@ -92,7 +103,7 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
       }
       
       currentIssue.children?.push({
-        title,
+        title: rawTitle,
         path: itemPath
       });
     }
@@ -116,6 +127,22 @@ export function getAllWeeklies(): WeeklyPost[] {
     return [];
   }
 
+  // Get date mapping from menu
+  const menu = getWeeklyMenu();
+  const dateMap = new Map<string, string>();
+  
+  const traverse = (items: WeeklyMenuItem[]) => {
+    for (const item of items) {
+        if (item.slug && item.date) {
+            dateMap.set(item.slug, item.date);
+        }
+        if (item.children) {
+            traverse(item.children);
+        }
+    }
+  };
+  traverse(menu);
+
   const folders = fs.readdirSync(weeklyDirectory).filter(folder => {
     return /^\d+$/.test(folder); // Only numeric folders
   });
@@ -136,7 +163,7 @@ export function getAllWeeklies(): WeeklyPost[] {
     return {
       slug,
       title: `前端周刊第 ${slug} 期`,
-      date: '', // TODO: Extract date from content or map it manually if needed
+      date: dateMap.get(slug) || '',
       content,
     };
   });
@@ -152,12 +179,28 @@ export function getWeeklyBySlug(slug: string): WeeklyPost | null {
     return null;
   }
 
+  // Get date from menu
+  const menu = getWeeklyMenu();
+  let date = '';
+  const traverse = (items: WeeklyMenuItem[]) => {
+    for (const item of items) {
+        if (item.slug === slug && item.date) {
+            date = item.date;
+            return;
+        }
+        if (item.children) {
+            traverse(item.children);
+        }
+    }
+  };
+  traverse(menu);
+
   const content = fs.readFileSync(fullPath, 'utf8');
   
   return {
     slug,
     title: `前端周刊第 ${slug} 期`,
-    date: '',
+    date,
     content,
   };
 }

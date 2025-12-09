@@ -45,52 +45,45 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
             <Link
             href={item.path}
             className={cn(
-                "flex flex-1 items-center gap-2 overflow-hidden",
+                "flex flex-1 items-center justify-between gap-2 overflow-hidden",
                 !isOpen && "justify-center"
             )}
             title={item.title}
             target={item.path.startsWith('http') ? '_blank' : undefined}
+            onClick={() => {
+              if (hasChildren) setExpanded(!expanded);
+            }}
             >
-            {!isOpen ? (
-                <span className="text-xs font-bold text-gray-500">
-                {item.path.split('/')[2] ? `#${item.path.split('/')[2]}` : ''}
-                </span>
-            ) : (
-                <span className="truncate text-sm font-medium text-gray-700 dark:text-gray-200">
-                  {(() => {
-                    const match = item.title.match(/^(.*?)（(.*?)）$/);
-                    if (match) {
-                      return (
-                        <>
-                          {match[1]}
-                          <span className="text-xs text-gray-400 ml-0.5">({match[2]})</span>
-                        </>
-                      );
-                    }
-                    return item.title;
-                  })()}
-                </span>
+            <div className="flex flex-1 items-center gap-2 overflow-hidden">
+              {!isOpen ? (
+                  <span className="text-xs font-bold text-gray-500">
+                  {item.path.split('/')[2] ? `#${item.path.split('/')[2]}` : ''}
+                  </span>
+              ) : (
+                  <span className="truncate text-sm font-medium text-gray-700 dark:text-gray-200">
+                    {item.title}
+                  </span>
+              )}
+            </div>
+            
+            {hasChildren && isOpen && (
+              <div 
+                className="ml-1 shrink-0 rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
+              >
+                {expanded ? (
+                  <ChevronDown className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+                ) : (
+                  <ChevronRight className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+                )}
+              </div>
             )}
             </Link>
-        )}
-        
-        {hasChildren && isOpen && !isYear && (
-          <button 
-            onClick={handleToggle}
-            className="ml-1 rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
-          >
-            {expanded ? (
-              <ChevronDown className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-            ) : (
-              <ChevronRight className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-            )}
-          </button>
         )}
       </div>
 
       {/* Sub-menu (Recursive) */}
       {hasChildren && expanded && isOpen && (
-        <ul className="mt-1 space-y-1 border-l-2 border-gray-100 pl-2 ml-2 dark:border-gray-800">
+        <ul className="mt-1 space-y-1 pl-2 ml-2">
           {item.children!.map((child, idx) => (
             <SidebarItem key={idx} item={child} isOpen={isOpen} />
           ))}
@@ -108,7 +101,7 @@ export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
       <div 
         className={cn(
           "relative flex flex-col rounded-2xl border border-gray-200 bg-white/95 shadow-xl backdrop-blur-md transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) dark:border-gray-800 dark:bg-gray-950/95 overflow-hidden",
-          isOpen ? "w-64" : "w-16"
+          isOpen ? "w-48" : "w-16"
         )}
       >
         {/* Header / Toggle Button */}
