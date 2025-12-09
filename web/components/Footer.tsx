@@ -7,6 +7,10 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Frontend Weekly Digest CN. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-2">
+              <span>PV: <span id="ga-pv">-</span></span>
+              <span>UV: <span id="ga-uv">-</span></span>
+            </div>
             <p>Designed for Developers</p>
           </div>
         </div>

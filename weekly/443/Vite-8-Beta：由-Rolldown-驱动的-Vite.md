@@ -1,6 +1,12 @@
 # Vite 8 Beta：由 Rolldown 驱动的 Vite
 2025年12月3日
 
+原文：[Vite 8 Beta: The Rolldown-powered Vite](https://vite.dev/blog/announcing-vite8-beta)
+作者：Vite Team
+翻译：[TUARAN](https://github.com/TUARAN)
+
+> 欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 ![Vite 8 Beta Announcement Cover Image](https://raw.githubusercontent.com/TUARAN/frontend-weekly-digest-cn/main/weekly/443/img/og-image-announcing-vite8-beta.webp)
 
 **简述**：由 Rolldown 驱动的 Vite 8 首个 Beta 版本现已发布。Vite 8 带来了显著更快的生产构建速度，并开启了未来改进的可能性。你可以通过将 `vite` 升级到 `8.0.0-beta.0` 版本并阅读迁移指南来尝试新版本。
