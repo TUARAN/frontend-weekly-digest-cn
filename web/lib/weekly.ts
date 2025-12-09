@@ -6,8 +6,89 @@ const weeklyDirectory = path.join(process.cwd(), '../weekly');
 export interface WeeklyPost {
   slug: string;
   title: string;
-  date: string; // We might need to infer this or extract from content if not in filename
+  date: string;
   content: string;
+}
+
+export interface WeeklyMenuItem {
+  title: string;
+  path: string;
+  slug?: string;
+  children?: WeeklyMenuItem[];
+}
+
+export function getWeeklyMenu(): WeeklyMenuItem[] {
+  const readmePath = path.join(process.cwd(), '../README.md');
+  
+  if (!fs.existsSync(readmePath)) {
+    return [];
+  }
+  
+  const content = fs.readFileSync(readmePath, 'utf8');
+  const lines = content.split('\n');
+  
+  const menu: WeeklyMenuItem[] = [];
+  let currentIssue: WeeklyMenuItem | null = null;
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed.startsWith('-')) continue;
+    
+    const isIndented = line.startsWith('  -') || line.startsWith('\t-');
+    
+    const match = trimmed.match(/^-\s+\[(.*?)\]\((.*?)\)/);
+    if (!match) continue;
+    
+    const title = match[1];
+    const link = match[2];
+    
+    if (!isIndented) {
+      // It's an issue
+      const slugMatch = link.match(/\/(\d+)\//);
+      const slug = slugMatch ? slugMatch[1] : '';
+      
+      if (slug) {
+        currentIssue = {
+          title,
+          path: `/weekly/${slug}`,
+          slug,
+          children: []
+        };
+        menu.push(currentIssue);
+      }
+    } else if (currentIssue) {
+      // It's an article under the current issue
+      let itemPath = link;
+      if (!link.startsWith('http')) {
+         const relative = link.replace(/^(\.\/)?weekly\//, '');
+         const parts = relative.split('/');
+         
+         if (parts.length > 1) {
+             const slug = parts[0];
+             const rest = parts.slice(1).join('/');
+             const routePath = rest.replace(/\.md$/, '');
+             itemPath = `/weekly/${slug}/${routePath}`;
+         }
+      }
+      
+      currentIssue.children?.push({
+        title,
+        path: itemPath
+      });
+    }
+  }
+  
+  return menu;
+}
+
+export function getArticleContent(slug: string, articlePath: string[]): string | null {
+  const relativePath = articlePath.join('/');
+  const fullPath = path.join(weeklyDirectory, slug, `${relativePath}.md`);
+  
+  if (fs.existsSync(fullPath)) {
+      return fs.readFileSync(fullPath, 'utf8');
+  }
+  return null;
 }
 
 export function getAllWeeklies(): WeeklyPost[] {

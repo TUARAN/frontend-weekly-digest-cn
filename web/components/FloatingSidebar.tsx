@@ -2,11 +2,78 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ChevronRight, ChevronLeft, List, History } from 'lucide-react';
-import { WeeklyPost } from '@/lib/weekly';
+import { ChevronRight, ChevronDown, History } from 'lucide-react';
+import { WeeklyMenuItem } from '@/lib/weekly';
 import { cn } from '@/lib/utils';
 
-export default function FloatingSidebar({ weeklies }: { weeklies: WeeklyPost[] }) {
+const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }) => {
+  const [expanded, setExpanded] = useState(false);
+  const hasChildren = item.children && item.children.length > 0;
+
+  return (
+    <li className="mb-1">
+      <div className={cn(
+        "flex items-center justify-between rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-800",
+        isOpen ? "px-2 py-1.5" : "justify-center py-2"
+      )}>
+        <Link
+          href={item.path}
+          className={cn(
+            "flex flex-1 items-center gap-2 overflow-hidden",
+            !isOpen && "justify-center"
+          )}
+          title={item.title}
+        >
+          {!isOpen ? (
+             <span className="text-xs font-bold text-gray-500">
+               #{item.path.split('/')[2]}
+             </span>
+          ) : (
+            <span className="truncate text-sm font-medium text-gray-700 dark:text-gray-200">
+              {item.title}
+            </span>
+          )}
+        </Link>
+        
+        {hasChildren && isOpen && (
+          <button 
+            onClick={(e) => {
+              e.preventDefault();
+              setExpanded(!expanded);
+            }}
+            className="ml-1 rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
+          >
+            {expanded ? (
+              <ChevronDown className="h-4 w-4 text-gray-500" />
+            ) : (
+              <ChevronRight className="h-4 w-4 text-gray-500" />
+            )}
+          </button>
+        )}
+      </div>
+
+      {/* Sub-menu */}
+      {hasChildren && expanded && isOpen && (
+        <ul className="mt-1 space-y-1 border-l-2 border-gray-100 pl-2 ml-2 dark:border-gray-800">
+          {item.children!.map((child, idx) => (
+            <li key={idx}>
+              <Link
+                href={child.path}
+                className="block rounded px-2 py-1 text-xs text-gray-600 hover:bg-gray-100 hover:text-blue-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-blue-400 truncate"
+                title={child.title}
+                target={child.path.startsWith('http') ? '_blank' : undefined}
+              >
+                {child.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+};
+
+export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -14,7 +81,7 @@ export default function FloatingSidebar({ weeklies }: { weeklies: WeeklyPost[] }
       <div 
         className={cn(
           "relative flex flex-col rounded-2xl border border-gray-200 bg-white/95 shadow-xl backdrop-blur-md transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) dark:border-gray-800 dark:bg-gray-950/95 overflow-hidden",
-          isOpen ? "w-36" : "w-12"
+          isOpen ? "w-72" : "w-16"
         )}
       >
         {/* Header / Toggle Button */}
@@ -22,7 +89,7 @@ export default function FloatingSidebar({ weeklies }: { weeklies: WeeklyPost[] }
           onClick={() => setIsOpen(!isOpen)}
           className={cn(
             "flex w-full items-center transition-colors hover:bg-gray-50 dark:hover:bg-gray-900/50 outline-none",
-            isOpen ? "h-10 justify-between px-3 border-b border-gray-100 dark:border-gray-800" : "h-12 justify-center"
+            isOpen ? "h-12 justify-between px-4 border-b border-gray-100 dark:border-gray-800" : "h-12 justify-center"
           )}
           aria-label={isOpen ? "收起导航" : "展开导航"}
         >
@@ -30,7 +97,7 @@ export default function FloatingSidebar({ weeklies }: { weeklies: WeeklyPost[] }
              <>
                <div className="flex items-center gap-2 text-sm font-bold text-gray-900 dark:text-white">
                  <History className="h-4 w-4" />
-                 <span>导航</span>
+                 <span>往期回顾</span>
                </div>
                <ChevronRight className="h-4 w-4 text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-200" />
              </>
@@ -42,19 +109,12 @@ export default function FloatingSidebar({ weeklies }: { weeklies: WeeklyPost[] }
         {/* List */}
         <div className={cn(
           "transition-all duration-500 ease-in-out bg-transparent",
-          isOpen ? "max-h-[60vh] opacity-100" : "max-h-0 opacity-0"
+          isOpen ? "max-h-[70vh] opacity-100" : "max-h-0 opacity-0"
         )}>
-          <div className="overflow-y-auto max-h-[60vh] p-2 custom-scrollbar">
+          <div className="overflow-y-auto max-h-[70vh] p-2 custom-scrollbar">
             <ul className="space-y-1">
-              {weeklies.map((post) => (
-                <li key={post.slug}>
-                  <Link 
-                    href={`/weekly/${post.slug}`}
-                    className="group flex items-center justify-between rounded-lg px-2 py-1.5 text-sm text-gray-600 hover:bg-blue-50 hover:text-blue-600 dark:text-gray-400 dark:hover:bg-blue-900/20 dark:hover:text-blue-400 transition-colors"
-                  >
-                    <span className="font-medium">第 {post.slug} 期</span>
-                  </Link>
-                </li>
+              {menu.map((item) => (
+                <SidebarItem key={item.path} item={item} isOpen={isOpen} />
               ))}
             </ul>
           </div>

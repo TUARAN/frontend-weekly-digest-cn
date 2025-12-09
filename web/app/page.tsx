@@ -2,7 +2,6 @@ import { getAllWeeklies } from '@/lib/weekly';
 import WeeklyCard from '@/components/WeeklyCard';
 import Image from 'next/image';
 import { Github } from 'lucide-react';
-import FloatingSidebar from '@/components/FloatingSidebar';
 
 export default function Home() {
   const weeklies = getAllWeeklies();
@@ -53,9 +52,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
-      {/* Floating Sidebar */}
-      <FloatingSidebar weeklies={weeklies} />
     </div>
   );
 }
