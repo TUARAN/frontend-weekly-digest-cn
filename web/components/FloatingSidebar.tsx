@@ -42,17 +42,15 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
                  )}
             </div>
         ) : (
+            <>
             <Link
             href={item.path}
             className={cn(
-                "flex flex-1 items-center justify-between gap-2 overflow-hidden",
+                "flex flex-1 items-center gap-2 overflow-hidden",
                 !isOpen && "justify-center"
             )}
             title={item.title}
             target={item.path.startsWith('http') ? '_blank' : undefined}
-            onClick={() => {
-              if (hasChildren) setExpanded(!expanded);
-            }}
             >
             <div className="flex flex-1 items-center gap-2 overflow-hidden">
               {!isOpen ? (
@@ -65,10 +63,15 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
                   </span>
               )}
             </div>
+            </Link>
             
             {hasChildren && isOpen && (
               <div 
-                className="ml-1 shrink-0 rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
+                className="ml-1 shrink-0 cursor-pointer rounded p-0.5 hover:bg-gray-200 dark:hover:bg-gray-700"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setExpanded(!expanded);
+                }}
               >
                 {expanded ? (
                   <ChevronDown className="h-4 w-4 text-blue-600 dark:text-blue-400" />
@@ -77,7 +80,7 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
                 )}
               </div>
             )}
-            </Link>
+            </>
         )}
       </div>
 

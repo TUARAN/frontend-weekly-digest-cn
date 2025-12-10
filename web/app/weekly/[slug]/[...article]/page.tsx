@@ -19,9 +19,11 @@ export async function generateStaticParams() {
             if (!child.path.startsWith('http')) {
                const parts = child.path.split('/').slice(3);
                if (parts.length > 0) {
+                   // Ensure parts are decoded
+                   const decodedParts = parts.map(p => decodeURIComponent(p));
                    params.push({
                        slug: item.slug!,
-                       article: parts
+                       article: decodedParts
                    });
                }
             }
@@ -33,11 +35,13 @@ export async function generateStaticParams() {
 
   menu.forEach(processItem);
   
+  // console.log('Generated Params:', JSON.stringify(params, null, 2));
   return params;
 }
 
 export default async function ArticlePage({ params }: PageProps) {
   const { slug, article } = await params;
+  // console.log('Page Params:', slug, article);
   const content = getArticleContent(slug, article);
 
   if (!content) {

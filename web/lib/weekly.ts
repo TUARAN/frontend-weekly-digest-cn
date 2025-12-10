@@ -56,7 +56,15 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
     if (!match) continue;
     
     const rawTitle = match[1];
-    const link = match[2];
+    let link = match[2];
+    try {
+        // Decode URI component to handle %20 etc.
+        link = decodeURIComponent(link);
+        // Normalize to NFC to ensure consistency with file system and URL
+        link = link.normalize('NFC');
+    } catch (e) {
+        console.error('Error decoding link:', link, e);
+    }
     
     if (!isIndented) {
       // It's an issue
@@ -90,7 +98,14 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
     } else if (currentIssue) {
       // It's an article under the current issue
       let itemPath = link;
-      if (!link.startsWith('http')) {
+
+      // Special handling for issue 442 articles to link directly to GitHub due to routing issues
+      if (currentIssue.slug === '442' && !link.startsWith('http')) {
+          const cleanLink = link.replace(/^\.\//, '');
+          // Re-encode the path for GitHub URL to ensure special characters work
+          const encodedPath = cleanLink.split('/').map(p => encodeURIComponent(p)).join('/');
+          itemPath = `https://github.com/TUARAN/frontend-weekly-digest-cn/blob/main/${encodedPath}`;
+      } else if (!link.startsWith('http')) {
          const relative = link.replace(/^(\.\/)?weekly\//, '');
          const parts = relative.split('/');
          
