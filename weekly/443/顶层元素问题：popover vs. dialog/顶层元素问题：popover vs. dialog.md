@@ -1,9 +1,9 @@
 顶层元素问题：popover vs. dialog
 
 > 原文：[Top layer troubles: popover vs. dialog](https://htmhell.dev/adventcalendar/2025/1/)  
-> 作者：Stephanie Eckles
-> 日期：2025年12月1日
-> 翻译：田八
+> 作者：Stephanie Eckles  
+> 日期：2025年12月1日  
+> 翻译：田八  
 
 你是否曾尝试通过设置 `z-index: 9999` 解决元素层级问题？如果是，那你其实是在与一个基础的CSS概念 _——**层叠上下文**——_ 斗争。
 
