@@ -1,4 +1,4 @@
-# React已经改变了，你的 Hooks 也应该改变
+# React 已经改变了，你的 Hooks 也应该改变
 
 > 原文： [React has changed, your Hooks should too](https://allthingssmitty.com/2025/12/01/react-has-changed-your-hooks-should-too/)
 >
