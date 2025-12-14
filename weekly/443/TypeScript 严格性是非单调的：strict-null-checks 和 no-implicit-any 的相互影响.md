@@ -1,6 +1,7 @@
 # TypeScript 严格性是非单调的：strict-null-checks 和 no-implicit-any 的相互影响
 
 > 原文： [TypeScript strictness is non-monotonic: strict-null-checks and no-implicit-any interact](https://huonw.github.io/blog/2025/12/typescript-monotonic/)
+> 
 > 翻译： [嘿嘿](https://blog.heyfe.org/blog)
 
 TypeScript 编译器选项 `strictNullChecks` 和 `noImplicitAny` 以一种奇怪的方式相互作用：仅启用 `strictNullChecks` 会导致类型错误，而在同时启用 `noImplicitAny` 后这些错误却消失了。这意味着更严格的设置反而导致更少的错误！
