@@ -81,6 +81,12 @@
 - [第445期（12月15日–12月21日）](./weekly/445/前端周刊第445期.md) ⭐ **最新**
 - [第444期（12月8日–12月14日）](./weekly/444/前端周刊第444期.md)
 - [第443期（12月1日–12月7日）](./weekly/443/前端周刊第443期.md)
+
+  - [顶层元素问题：popover vs. dialog](./weekly/443/%E9%A1%B6%E5%B1%82%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98%EF%BC%9Apopover%20vs.%20dialog/%E9%A1%B6%E5%B1%82%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98%EF%BC%9Apopover%20vs.%20dialog.md)
+  - [Vite 8 Beta：由 Rolldown 驱动的 Vite](./weekly/443/Vite-8-Beta%EF%BC%9A%E7%94%B1-Rolldown-%E9%A9%B1%E5%8A%A8%E7%9A%84-Vite.md)
+  - [TypeScript 严格性是非单调的：strict-null-checks 和 no-implicit-any 的相互影响](./weekly/443/TypeScript%20%E4%B8%A5%E6%A0%BC%E6%80%A7%E6%98%AF%E9%9D%9E%E5%8D%95%E8%B0%83%E7%9A%84%EF%BC%9Astrict-null-checks%20%E5%92%8C%20no-implicit-any%20%E7%9A%84%E7%9B%B8%E4%BA%92%E5%BD%B1%E5%93%8D.md)
+  - [React 已经改变了，你的 Hooks 也应该改变](./weekly/443/React%E5%B7%B2%E7%BB%8F%E6%94%B9%E5%8F%98%E4%BA%86%EF%BC%8C%E4%BD%A0%E7%9A%84%20Hooks%20%E4%B9%9F%E5%BA%94%E8%AF%A5%E6%94%B9%E5%8F%98.md)
+  - [React 的新时代已经到来：你需要知道的一切](./weekly/443/React%20%E7%9A%84%E6%96%B0%E6%97%B6%E4%BB%A3%E5%B7%B2%E7%BB%8F%E5%88%B0%E6%9D%A5%EF%BC%9A%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87/index.md)
 - [第442期（11月24日–11月30日）](./weekly/442/前端周刊第442期.md)
 
   - [构建“巨石”：为13幕WebGL史诗打造可组合渲染系统](./weekly/442/构建“巨石”：为13幕WebGL史诗打造可组合渲染系统/构建“巨石”：为13幕WebGL史诗打造可组合渲染系统.md)
