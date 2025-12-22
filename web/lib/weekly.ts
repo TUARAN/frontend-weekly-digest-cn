@@ -99,22 +99,11 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
       // It's an article under the current issue
       let itemPath = link;
 
-      // Special handling for issue 442 articles to link directly to GitHub due to routing issues
-      if (currentIssue.slug === '442' && !link.startsWith('http')) {
+      // For static export, link per-article entries directly to GitHub blob URLs
+      if (!link.startsWith('http')) {
           const cleanLink = link.replace(/^\.\//, '');
-          // Re-encode the path for GitHub URL to ensure special characters work
           const encodedPath = cleanLink.split('/').map(p => encodeURIComponent(p)).join('/');
           itemPath = `https://github.com/TUARAN/frontend-weekly-digest-cn/blob/main/${encodedPath}`;
-      } else if (!link.startsWith('http')) {
-         const relative = link.replace(/^(\.\/)?weekly\//, '');
-         const parts = relative.split('/');
-         
-         if (parts.length > 1) {
-             const slug = parts[0];
-             const rest = parts.slice(1).join('/');
-             const routePath = rest.replace(/\.md$/, '');
-             itemPath = `/weekly/${slug}/${routePath}`;
-         }
       }
       
       currentIssue.children?.push({

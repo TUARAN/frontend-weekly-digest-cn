@@ -6,10 +6,12 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: { slug: string } | Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
+export const dynamicParams = false;
+
+export function generateStaticParams() {
   const weeklies = getAllWeeklies();
   return weeklies.map((post) => ({
     slug: post.slug,
