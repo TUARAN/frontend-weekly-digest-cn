@@ -105,6 +105,8 @@
   - [Google 禁用&#34;一次性抓取100条搜索结果&#34;，SEO迎来变革？](https://flowus.cn/e1ee4ada-5c03-42c2-90f9-a9ed710a7f91)
 - [第433期（9月22日–9月28日）](./weekly/433/前端周刊第433期.md)
 - [第432期（9月15日–9月21日）](./weekly/432/前端周刊第432期.md)
+
+  - [用 RAG 和 LangChain.js 打造更聪明的前端聊天机器人](./weekly/432/用%20RAG%20和%20LangChain.js%20打造更聪明的前端聊天机器人/index.md)
 - [第431期（9月8日–9月14日）](./weekly/431/前端周刊第431期.md)
 
   - [bun install：安装过程的幕后揭秘](https://flowus.cn/c39228d2-c070-4868-8e29-da3041e2e2ca)
