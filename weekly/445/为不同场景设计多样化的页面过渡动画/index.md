@@ -73,7 +73,7 @@ window.addEventListener('pagereveal', async e => {
 在我的这个例子里，假设有一个内容区域 `<main>` 设置了 `view-transition-name: main;`，所以这个元素在这里就是被专门指定的目标。现在，当我切换页面（仅仅点
 击普通的旧链接）时，就会得到这个效果：
 
-<iframe title="VideoPress Video Player" aria-label="VideoPress Video Player" width="380" height="430" src="https://videopress.com/embed/ekBvCWFC?cover=1&amp;autoPlay=0&amp;controls=1&amp;loop=0&amp;muted=0&amp;persistVolume=1&amp;playsinline=0&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=0" frameborder="0" allowfullscreen="" data-resize-to-parent="true" allow="clipboard-write" style=""></iframe>
+https://videopress.com/embed/ekBvCWFC?cover=1&amp;autoPlay=0&amp;controls=1&amp;loop=0&amp;muted=0&amp;persistVolume=1&amp;playsinline=0&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=0
 
 ## 为自定义动画使用自定义类型
 
@@ -97,7 +97,7 @@ html:active-view-transition-type(toShowsPage) {
 因为它比单纯的 `::view-transition-new` 具有更高的优先级，这让我们有机会用一组新的关键帧来 _覆盖_ 默认的 `animation`。现在，_只有_ 演出页面会从顶部下来
 。看看区别：
 
-<iframe title="VideoPress Video Player" aria-label="VideoPress Video Player" width="394" height="551" src="https://videopress.com/embed/rE06avRv?cover=1&amp;autoPlay=0&amp;controls=1&amp;loop=0&amp;muted=0&amp;persistVolume=1&amp;playsinline=0&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=0" frameborder="0" allowfullscreen="" data-resize-to-parent="true" allow="clipboard-write" style=""></iframe>
+https://videopress.com/embed/rE06avRv?cover=1&amp;autoPlay=0&amp;controls=1&amp;loop=0&amp;muted=0&amp;persistVolume=1&amp;playsinline=0&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=0
 
 ## 补充说明
 
