@@ -79,8 +79,17 @@
 ### 2025年
 
 - [第446期（12月22日–12月28日）](./weekly/446/前端周刊第446期.md) ⭐ **最新**
+
+  - [Web Components Are the Comeback Nobody Saw Coming](https://github.com/TUARAN/frontend-weekly-digest-cn/issues/21)
+  - [Lazy-Loading Optional Fonts with Native Browser API](https://github.com/TUARAN/frontend-weekly-digest-cn/issues/22)
+  - [text-decoration-inset is Like Padding for Text Decorations](https://github.com/TUARAN/frontend-weekly-digest-cn/issues/23)
 - [第445期（12月15日–12月21日）](./weekly/445/前端周刊第445期.md)
+
+  - [Vercel：我们为 React2Shell 发起了一项价值 100 万美元的黑客挑战](./weekly/445/Vercel%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%BA%20React2Shell%20%E5%8F%91%E8%B5%B7%E4%BA%86%E4%B8%80%E9%A1%B9%E4%BB%B7%E5%80%BC%20100%20%E4%B8%87%E7%BE%8E%E5%85%83%E7%9A%84%E9%BB%91%E5%AE%A2%E6%8C%91%E6%88%98/Vercel%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%BA%20React2Shell%20%E5%8F%91%E8%B5%B7%E4%BA%86%E4%B8%80%E9%A1%B9%E4%BB%B7%E5%80%BC%20100%20%E4%B8%87%E7%BE%8E%E5%85%83%E7%9A%84%E9%BB%91%E5%AE%A2%E6%8C%91%E6%88%98.md)
+  - [为不同场景设计多样化的页面过渡动画](./weekly/445/%E4%B8%BA%E4%B8%8D%E5%90%8C%E5%9C%BA%E6%99%AF%E8%AE%BE%E8%AE%A1%E5%A4%9A%E6%A0%B7%E5%8C%96%E7%9A%84%E9%A1%B5%E9%9D%A2%E8%BF%87%E6%B8%A1%E5%8A%A8%E7%94%BB/%E4%B8%BA%E4%B8%8D%E5%90%8C%E5%9C%BA%E6%99%AF%E8%AE%BE%E8%AE%A1%E5%A4%9A%E6%A0%B7%E5%8C%96%E7%9A%84%E9%A1%B5%E9%9D%A2%E8%BF%87%E6%B8%A1%E5%8A%A8%E7%94%BB.md)
 - [第444期（12月8日–12月14日）](./weekly/444/前端周刊第444期.md)
+
+  - [浏览器处理 Base64 数据的速度有多快？](./weekly/444/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A4%84%E7%90%86Base64%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%9F%E5%BA%A6%E6%9C%89%E5%A4%9A%E5%BF%AB%EF%BC%9F/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%A4%84%E7%90%86Base64%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%9F%E5%BA%A6%E6%9C%89%E5%A4%9A%E5%BF%AB%EF%BC%9F.md)
 - [第443期（12月1日–12月7日）](./weekly/443/前端周刊第443期.md)
 
   - [顶层元素问题：popover vs. dialog](./weekly/443/%E9%A1%B6%E5%B1%82%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98%EF%BC%9Apopover%20vs.%20dialog/%E9%A1%B6%E5%B1%82%E5%85%83%E7%B4%A0%E9%97%AE%E9%A2%98%EF%BC%9Apopover%20vs.%20dialog.md)
