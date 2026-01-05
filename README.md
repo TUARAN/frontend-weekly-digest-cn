@@ -81,9 +81,9 @@
 ### 2025年
 
 - [第446期（12月22日–12月28日）](./weekly/446/前端周刊第446期.md) ⭐ **最新**
-  - [前端年度盘点 2025：定义这一年的 10 个核心大事件](./weekly/446/前端年度盘点-2025：定义这一年的-10-个核心大事件/index.md)
-
-  - [2025 年定义 JavaScript 的趋势](.weekly/446/2025年定义JavaScript的趋势.md)
+  - [前端年度盘点 2025：定义这一年的 10 个核心大事件](./weekly/446/前端年度盘点%202025：定义这一年的%2010%20个核心大事件/index.md)
+  - [2025 年定义 JavaScript 的趋势](./weekly/446/2025年定义JavaScript的趋势.md)
+  - [Zustand 入门指南](./weekly/446/Zustand%20入门指南/index.md)
 - [第445期（12月15日–12月21日）](./weekly/445/前端周刊第445期.md)
 
   - [Vercel：我们为 React2Shell 发起了一项价值 100 万美元的黑客挑战](./weekly/445/Vercel%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%BA%20React2Shell%20%E5%8F%91%E8%B5%B7%E4%BA%86%E4%B8%80%E9%A1%B9%E4%BB%B7%E5%80%BC%20100%20%E4%B8%87%E7%BE%8E%E5%85%83%E7%9A%84%E9%BB%91%E5%AE%A2%E6%8C%91%E6%88%98/Vercel%EF%BC%9A%E6%88%91%E4%BB%AC%E4%B8%BA%20React2Shell%20%E5%8F%91%E8%B5%B7%E4%BA%86%E4%B8%80%E9%A1%B9%E4%BB%B7%E5%80%BC%20100%20%E4%B8%87%E7%BE%8E%E5%85%83%E7%9A%84%E9%BB%91%E5%AE%A2%E6%8C%91%E6%88%98.md)
