@@ -87,8 +87,8 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
       {/* Sub-menu (Recursive) */}
       {hasChildren && expanded && isOpen && (
         <ul className="mt-1 space-y-1 pl-2 ml-2">
-          {item.children!.map((child, idx) => (
-            <SidebarItem key={idx} item={child} isOpen={isOpen} />
+          {item.children!.map((child) => (
+            <SidebarItem key={`${child.path}::${child.title}`} item={child} isOpen={isOpen} />
           ))}
         </ul>
       )}
@@ -137,7 +137,7 @@ export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
           <div className="overflow-y-auto max-h-[70vh] p-2 custom-scrollbar">
             <ul className="space-y-1">
               {menu.map((item) => (
-                <SidebarItem key={item.path} item={item} isOpen={isOpen} />
+                <SidebarItem key={`${item.path}::${item.title}`} item={item} isOpen={isOpen} />
               ))}
             </ul>
           </div>
