@@ -2,6 +2,132 @@ import fs from 'fs';
 import path from 'path';
 
 const weeklyDirectory = path.join(process.cwd(), '../weekly');
+const repoRoot = path.join(process.cwd(), '..');
+
+function canonicalizePathPart(part: string): string {
+  return part
+    .normalize('NFKC')
+    // remove whitespace and common separators
+    .replace(/[\s\-_]+/g, '')
+    // remove common punctuation (both ASCII and CJK)
+    .replace(/["'“”‘’`·•.,，。．、:：;；!！?？()（）【】\[\]{}<>《》]/g, '');
+}
+
+function fuzzyResolveWithinWeekly(relativePath: string): string | null {
+  // Only attempt fuzzy resolution for paths under weekly/<digits>/...
+  const normalized = relativePath.replace(/\\/g, '/');
+  const match = normalized.match(/^weekly\/(\d+)\/(.+)$/);
+  if (!match) return null;
+
+  const slug = match[1];
+  const rest = match[2].replace(/\/$/, '');
+
+  const baseDir = path.join(repoRoot, 'weekly', slug);
+  if (!fs.existsSync(baseDir)) return null;
+
+  const parts = rest.split('/').filter(Boolean);
+  if (parts.length === 0) return null;
+
+  // Walk directories, fuzzy-matching each segment when needed.
+  let currentAbs = baseDir;
+  const resolvedParts: string[] = [];
+
+  for (let i = 0; i < parts.length; i++) {
+    const part = parts[i];
+    const isLast = i === parts.length - 1;
+
+    const tryExact = path.join(currentAbs, part);
+    if (fs.existsSync(tryExact)) {
+      currentAbs = tryExact;
+      resolvedParts.push(part);
+      continue;
+    }
+
+    // If this is the last segment and looks like a markdown file, we allow matching against files.
+    const wantMarkdownFile = isLast && part.toLowerCase().endsWith('.md');
+
+    let entries: fs.Dirent[] = [];
+    try {
+      entries = fs.readdirSync(currentAbs, { withFileTypes: true });
+    } catch {
+      return null;
+    }
+
+    const targetCanon = canonicalizePathPart(part);
+    const matches = entries.filter((ent) => {
+      if (wantMarkdownFile) {
+        return ent.isFile() && canonicalizePathPart(ent.name) === targetCanon;
+      }
+      return ent.isDirectory() && canonicalizePathPart(ent.name) === targetCanon;
+    });
+
+    if (matches.length !== 1) {
+      return null;
+    }
+
+    const chosen = matches[0].name;
+    currentAbs = path.join(currentAbs, chosen);
+    resolvedParts.push(chosen);
+  }
+
+  const resolvedRelative = path.posix.join('weekly', slug, ...resolvedParts);
+
+  // If the resolved path is a directory, prefer its index.md.
+  const resolvedAbs = path.join(repoRoot, resolvedRelative);
+  if (fs.existsSync(resolvedAbs) && fs.statSync(resolvedAbs).isDirectory()) {
+    const indexAbs = path.join(resolvedAbs, 'index.md');
+    if (fs.existsSync(indexAbs)) {
+      return path.posix.join(resolvedRelative, 'index.md');
+    }
+  }
+
+  // If the resolved path is already a markdown file, keep it.
+  if (resolvedRelative.toLowerCase().endsWith('.md')) {
+    return resolvedRelative;
+  }
+
+  // Otherwise, try the two conventional markdown variants.
+  const indexCandidate = path.posix.join(resolvedRelative, 'index.md');
+  if (fs.existsSync(path.join(repoRoot, indexCandidate))) return indexCandidate;
+
+  const mdCandidate = `${resolvedRelative}.md`;
+  if (fs.existsSync(path.join(repoRoot, mdCandidate))) return mdCandidate;
+
+  return null;
+}
+
+function resolveRepoMarkdownPathFromLink(link: string): string {
+  // link is already decodeURIComponent()'d and NFC-normalized.
+  const cleanLink = link.replace(/^\.\//, '');
+  const withoutTrailingSlash = cleanLink.replace(/\/$/, '');
+
+  const candidates: string[] = [];
+
+  if (withoutTrailingSlash.endsWith('.md')) {
+    candidates.push(withoutTrailingSlash);
+  } else {
+    // Prefer directory-style content first, then single-file markdown.
+    candidates.push(`${withoutTrailingSlash}/index.md`);
+    candidates.push(`${withoutTrailingSlash}.md`);
+    candidates.push(withoutTrailingSlash);
+  }
+
+  for (const candidate of candidates) {
+    const abs = path.join(repoRoot, candidate);
+    if (fs.existsSync(abs)) {
+      return candidate;
+    }
+  }
+
+  // Fallback: try fuzzy resolution for weekly paths (e.g., spaces vs hyphens).
+  for (const candidate of candidates) {
+    const fuzzy = fuzzyResolveWithinWeekly(candidate);
+    if (fuzzy) return fuzzy;
+  }
+
+  // Fall back to whatever was in README.
+  return withoutTrailingSlash;
+}
 
 export interface WeeklyPost {
   slug: string;
@@ -101,8 +227,8 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
 
       // For static export, link per-article entries directly to GitHub blob URLs
       if (!link.startsWith('http')) {
-          const cleanLink = link.replace(/^\.\//, '');
-          const encodedPath = cleanLink.split('/').map(p => encodeURIComponent(p)).join('/');
+          const resolved = resolveRepoMarkdownPathFromLink(link);
+          const encodedPath = resolved.split('/').map(p => encodeURIComponent(p)).join('/');
           itemPath = `https://github.com/TUARAN/frontend-weekly-digest-cn/blob/main/${encodedPath}`;
       }
       
@@ -117,12 +243,25 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
 }
 
 export function getArticleContent(slug: string, articlePath: string[]): string | null {
-  const relativePath = articlePath.join('/');
-  const fullPath = path.join(weeklyDirectory, slug, `${relativePath}.md`);
-  
-  if (fs.existsSync(fullPath)) {
-      return fs.readFileSync(fullPath, 'utf8');
+  const relativePath = articlePath.join('/').replace(/\/$/, '');
+  const basePath = path.join(weeklyDirectory, slug, relativePath);
+
+  const candidates: string[] = [];
+
+  if (relativePath.endsWith('.md')) {
+    candidates.push(basePath);
+  } else {
+    // Prefer directory index first, then single-file markdown.
+    candidates.push(path.join(basePath, 'index.md'));
+    candidates.push(`${basePath}.md`);
   }
+
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) {
+      return fs.readFileSync(candidate, 'utf8');
+    }
+  }
+
   return null;
 }
 
