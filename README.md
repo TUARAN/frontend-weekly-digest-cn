@@ -6,7 +6,7 @@
 
 ![preview](https://raw.githubusercontent.com/TUARAN/frontend-weekly-digest-cn/main/img/preview.png)
 
-在线阅读：[https://fwdc.pages.dev/](https://fwdc.pages.dev/)
+在线阅读：[https://frontendweekly.cn/](https://frontendweekly.cn/)
 
 **内容涵盖：** Web 开发、CSS、JavaScript、React、开发工具、性能优化、动效设计等多个方向。每期精选 20~30 篇文章，力求信息密度高、可读性强、技术趋势清晰。
 
