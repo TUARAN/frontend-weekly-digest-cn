@@ -270,3 +270,19 @@
 ---
 
 ## 🔗 相关链接
+
+- 在线阅读：https://fwdc.pages.dev/
+- GitHub：https://github.com/TUARAN/frontend-weekly-digest-cn
+
+---
+
+## 📈 流量统计说明
+
+本站页面中的“本站总访问量 / 本站访客数”来自 **不蒜子（Busuanzi）** 统计服务：
+
+- **本站总访问量**：通常对应 PV（Page Views，页面浏览量）
+- **本站访客数**：通常对应 UV（Unique Visitors，独立访客数）
+
+实现方式：在站点前端通过脚本方式加载不蒜子的统计脚本（见 `web/app/layout.tsx`），并在页面中渲染对应的统计占位元素。
+
+注意：统计结果可能会受到广告拦截/隐私插件、浏览器策略、缓存与网络失败等因素影响，因此数值仅作参考。
