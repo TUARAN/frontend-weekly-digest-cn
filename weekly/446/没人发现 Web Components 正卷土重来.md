@@ -1,4 +1,4 @@
-无人预见 Web Components 正卷土重来
+没人发现 Web Components 正卷土重来
 
 > 原文：[Web Components Are the Comeback Nobody Saw Coming](https://thenewstack.io/web-components-are-the-comeback-nobody-saw-coming/)  
 > 作者：Alexander T. Williams  
