@@ -89,6 +89,7 @@
 
 ### 2025年
 
+  - [我一直在用的 Chrome DevTools 宝藏功能](./weekly/447/我一直在用的 Chrome DevTools 宝藏功能/index.md)
 - [第446期（12月22日–12月28日）](./weekly/446/前端周刊第446期.md)
   - [前端年度盘点 2025：定义这一年的 10 个核心大事件](./weekly/446/前端年度盘点%202025：定义这一年的%2010%20个核心大事件/index.md)
   - [2025 年定义 JavaScript 的趋势](./weekly/446/2025年定义JavaScript的趋势.md)
