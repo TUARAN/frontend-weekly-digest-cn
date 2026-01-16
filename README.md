@@ -83,10 +83,8 @@
 - [第448期（2026年1月4日–1月10日）](./weekly/448/前端周刊第448期.md) ⭐ **最新**
 
 - [第447期（2025年12月28日–2026年1月3日）](./weekly/447/前端周刊第447期.md)
-
   - [在 TypeScript 中设计类型安全的同步/异步模式支持](./weekly/447/在TypeScript中设计类型安全的同步-异步模式支持.md)
   - [Efecto：使用 WebGL 着色器构建实时 ASCII 和抖动效果](./weekly/447/Efecto：使用%20WebGL%20着色器构建实时%20ASCII%20和抖动效果/Efecto：使用%20WebGL%20着色器构建实时%20ASCII%20和抖动效果.md)
-
   - [我一直在用的 Chrome DevTools 宝藏功能](./weekly/447/%E6%88%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E7%94%A8%E7%9A%84%20Chrome%20DevTools%20%E5%AE%9D%E8%97%8F%E5%8A%9F%E8%83%BD/index.md)
 ### 2025年
 
