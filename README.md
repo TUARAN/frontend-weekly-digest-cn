@@ -83,6 +83,7 @@
 - [第447期（2025年12月28日–2026年1月3日）](./weekly/447/前端周刊第447期.md) ⭐ **最新**
 
   - [在 TypeScript 中设计类型安全的同步/异步模式支持](./weekly/447/在TypeScript中设计类型安全的同步-异步模式支持.md)
+  - [Efecto：使用 WebGL 着色器构建实时 ASCII 和抖动效果](./weekly/447/Efecto：使用%20WebGL%20着色器构建实时%20ASCII%20和抖动效果/Efecto：使用%20WebGL%20着色器构建实时%20ASCII%20和抖动效果.md)
 
 ### 2025年
 
@@ -273,7 +274,7 @@
 
 ## 🔗 相关链接
 
-- 在线阅读：https://fwdc.pages.dev/
+- 在线阅读：https://frontendweekly.cn/
 - GitHub：https://github.com/TUARAN/frontend-weekly-digest-cn
 
 ---
