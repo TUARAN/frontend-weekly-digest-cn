@@ -82,6 +82,7 @@
 
 - [第448期（2026年1月4日–1月10日）](./weekly/448/前端周刊第448期.md) ⭐ **最新**
 
+  - [告别 RxJS：TanStack Pacer 使用指南](./weekly/448/%E5%91%8A%E5%88%AB%20RxJS%EF%BC%9ATanStack%20Pacer%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.md)
 - [第447期（2025年12月28日–2026年1月3日）](./weekly/447/前端周刊第447期.md)
 
   - [在 TypeScript 中设计类型安全的同步/异步模式支持](./weekly/447/在TypeScript中设计类型安全的同步-异步模式支持.md)
