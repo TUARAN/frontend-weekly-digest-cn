@@ -87,6 +87,7 @@
   - [2026 年每一位前端开发者都应该掌握的 4 个 CSS 特性](./weekly/448/2026%20%E5%B9%B4%E6%AF%8F%E4%B8%80%E4%BD%8D%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E9%83%BD%E5%BA%94%E8%AF%A5%E6%8E%8C%E6%8F%A1%E7%9A%84%204%20%E4%B8%AA%20CSS%20%E7%89%B9%E6%80%A7/index.md)
 
 
+  - [告别 RxJS：TanStack Pacer 使用指南](./weekly/448/%E5%91%8A%E5%88%AB%20RxJS%EF%BC%9ATanStack%20Pacer%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.md)
 - [第447期（2025年12月28日–2026年1月3日）](./weekly/447/前端周刊第447期.md)
 
   - [在 TypeScript 中设计类型安全的同步/异步模式支持](./weekly/447/在TypeScript中设计类型安全的同步-异步模式支持.md)
