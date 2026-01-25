@@ -81,6 +81,7 @@
 ### 2026年
 
 - [第449期（1月12日–1月18日）](./weekly/449/前端周刊第449期.md) ⭐ **最新**
+  - [深入理解 React 的 useEffectEvent：解决闭包陷阱的终极指南](./weekly/449/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%20React%20%E7%9A%84%20useEffectEvent%EF%BC%9A%E8%A7%A3%E5%86%B3%E9%97%AD%E5%8C%85%E9%99%B7%E9%98%B1%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97/index.md)
 
 - [第448期（2026年1月4日–1月10日）](./weekly/448/前端周刊第448期.md) 
   - [无需媒体查询的响应式六边形网格](./weekly/448/%E6%97%A0%E9%9C%80%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%85%AD%E8%BE%B9%E5%BD%A2%E7%BD%91%E6%A0%BC/index.md)
