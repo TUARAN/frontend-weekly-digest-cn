@@ -81,6 +81,7 @@
 ### 2026年
 
 - [第449期（1月12日–1月18日）](./weekly/449/前端周刊第449期.md) ⭐ **最新**
+  - [useOptimistic 救不了你](./weekly/449/useOptimistic%20%E6%95%91%E4%B8%8D%E4%BA%86%E4%BD%A0/index.md)
 
 - [第448期（2026年1月4日–1月10日）](./weekly/448/前端周刊第448期.md) 
   - [无需媒体查询的响应式六边形网格](./weekly/448/%E6%97%A0%E9%9C%80%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%85%AD%E8%BE%B9%E5%BD%A2%E7%BD%91%E6%A0%BC/index.md)
