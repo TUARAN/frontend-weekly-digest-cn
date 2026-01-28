@@ -81,6 +81,7 @@
 ### 2026年
 
 - [第449期（1月12日–1月18日）](./weekly/449/前端周刊第449期.md) ⭐ **最新**
+  - [TanStack AI 对比 Vercel AI SDK：如何为 React 项目选择 AI 库](./weekly/449/TanStack%20AI%20%E5%AF%B9%E6%AF%94%20Vercel%20AI%20SDK%EF%BC%9A%E5%A6%82%E4%BD%95%E4%B8%BA%20React%20%E9%A1%B9%E7%9B%AE%E9%80%89%E6%8B%A9%20AI%20%E5%BA%93/index.md)
   - [useOptimistic 救不了你](./weekly/449/useOptimistic%20%E6%95%91%E4%B8%8D%E4%BA%86%E4%BD%A0/index.md)
   - [React 最佳实践发布：Vercel 官方出品的性能优化指南](./weekly/449/React%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%8F%91%E5%B8%83%EF%BC%9AVercel%20%E5%AE%98%E6%96%B9%E5%87%BA%E5%93%81%E7%9A%84%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E6%8C%87%E5%8D%97/index.md)
   - [深入理解 React 的 useEffectEvent：解决闭包陷阱的终极指南](./weekly/449/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%20React%20%E7%9A%84%20useEffectEvent%EF%BC%9A%E8%A7%A3%E5%86%B3%E9%97%AD%E5%8C%85%E9%99%B7%E9%98%B1%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97/index.md)
