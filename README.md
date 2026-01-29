@@ -21,15 +21,15 @@
 
 欢迎参与翻译！以下是参与流程：
 
-### 📝 翻译流程
-
-1. **Fork 项目**
-
-   - 点击右上角的 Fork 按钮，将项目 Fork 到你的 GitHub 账号
-2. **拉取最新代码**
-
-   ```bash
-   git clone https://github.com/你的用户名/frontend-weekly-digest-cn.git
+> 原文：[文章标题](原文链接)
+>
+> 翻译：[译者署名](译者主页链接)
+>
+> 来源：前端周刊-xxx
+>
+> 在线阅读：https://frontendweekly.cn/
+>
+> 加群：微信 **atar24**，备注【前端周刊】
    cd frontend-weekly-digest-cn
    git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
    git pull upstream main
@@ -294,6 +294,21 @@
 - GitHub：https://github.com/TUARAN/frontend-weekly-digest-cn
 
 ---
+
+## 🧩 分发楔子
+
+如果你需要在公众号/社群/朋友圈等渠道分发本站翻译内容，请在正文开头附上以下信息（建议原样保留，便于追溯与回链）：
+
+> 原文：[文章标题](原文链接)
+>
+> 翻译：[译者署名](译者主页链接)
+>
+> 📘 前端周刊：每周更新国外论坛的前端热门文章，推荐大家阅读/翻译，紧跟时事，掌握前端技术动态。
+>
+> 在线阅读：https://frontendweekly.cn/
+>
+> 加群：微信 **atar24**，备注【前端周刊】
+
 
 ## 📈 流量统计说明
 
