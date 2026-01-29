@@ -21,18 +21,9 @@
 
 欢迎参与翻译！以下是参与流程：
 
-> 原文：[文章标题](原文链接)
->
-> 翻译：[译者署名](译者主页链接)
->
-> 来源：前端周刊-xxx
->
-> 在线阅读：https://frontendweekly.cn/
->
-> 加群：微信 **atar24**，备注【前端周刊】
-> cd frontend-weekly-digest-cn
-> git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
-> git pull upstream main
+cd frontend-weekly-digest-cn
+git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
+git pull upstream main
 
 ```
 3. **创建翻译文档**
