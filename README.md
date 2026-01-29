@@ -302,11 +302,9 @@
 >
 > 翻译：[译者署名](译者主页链接)
 >
-> 来源：[前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)（每周更新国外论坛的前端热门文章，推荐大家阅读/翻译，紧跟时事，掌握前端技术动态）
+> 项目：[前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)（每周更新国外论坛的前端热门文章，推荐大家阅读/翻译，紧跟时事，掌握前端技术动态）
 >
 > 网址：https://frontendweekly.cn/
->
-> 加群：微 atar24
 
 ## 📈 流量统计说明
 
