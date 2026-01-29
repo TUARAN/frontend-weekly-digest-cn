@@ -30,10 +30,11 @@
 > 在线阅读：https://frontendweekly.cn/
 >
 > 加群：微信 **atar24**，备注【前端周刊】
-   cd frontend-weekly-digest-cn
-   git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
-   git pull upstream main
-   ```
+> cd frontend-weekly-digest-cn
+> git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
+> git pull upstream main
+
+```
 3. **创建翻译文档**
 
    - 在对应的期数目录下（如 `weekly/441/`）创建对应的 markdown 文档
@@ -46,11 +47,12 @@
    git add .
    git commit -m "feat: 翻译《文章标题》"
    git push origin translate/文章标题
-   ```
+```
 
-   - 在 GitHub 上提交 Pull Request
-   - PR 标题格式：`feat: 翻译《文章标题》`
-   - 在 PR 描述中说明翻译的期数和文章链接
+- 在 GitHub 上提交 Pull Request
+- PR 标题格式：`feat: 翻译《文章标题》`
+- 在 PR 描述中说明翻译的期数和文章链接
+
 5. **等待审核**
 
    - 维护者会审核你的翻译
@@ -81,7 +83,6 @@
 ### 2026年
 
 - [第450期（1月19日–1月25日）](./weekly/450/前端周刊第450期.md) ⭐ **最新**
-
 - [第449期（1月12日–1月18日）](./weekly/449/前端周刊第449期.md)
 
   - [掌握前端权衡：2026 高级开发者指南](./weekly/449/%E6%8E%8C%E6%8F%A1%E5%89%8D%E7%AB%AF%E6%9D%83%E8%A1%A1%EF%BC%9A2026%20%E9%AB%98%E7%BA%A7%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/index.md)
@@ -90,12 +91,13 @@
   - [React 最佳实践发布：Vercel 官方出品的性能优化指南](./weekly/449/React%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%8F%91%E5%B8%83%EF%BC%9AVercel%20%E5%AE%98%E6%96%B9%E5%87%BA%E5%93%81%E7%9A%84%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E6%8C%87%E5%8D%97/index.md)
   - [深入理解 React 的 useEffectEvent：解决闭包陷阱的终极指南](./weekly/449/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%20React%20%E7%9A%84%20useEffectEvent%EF%BC%9A%E8%A7%A3%E5%86%B3%E9%97%AD%E5%8C%85%E9%99%B7%E9%98%B1%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97/index.md)
   - [适配 AI 的前端架构设计指南](./weekly/449/%E9%80%82%E9%85%8D%20AI%20%E7%9A%84%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%8C%87%E5%8D%97/index.md)
-
 - [第448期（2026年1月4日–1月10日）](./weekly/448/前端周刊第448期.md)
+
   - [无需媒体查询的响应式六边形网格](./weekly/448/%E6%97%A0%E9%9C%80%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2%E7%9A%84%E5%93%8D%E5%BA%94%E5%BC%8F%E5%85%AD%E8%BE%B9%E5%BD%A2%E7%BD%91%E6%A0%BC/index.md)
   - [2026 年每一位前端开发者都应该掌握的 4 个 CSS 特性](./weekly/448/2026%20%E5%B9%B4%E6%AF%8F%E4%B8%80%E4%BD%8D%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E9%83%BD%E5%BA%94%E8%AF%A5%E6%8E%8C%E6%8F%A1%E7%9A%84%204%20%E4%B8%AA%20CSS%20%E7%89%B9%E6%80%A7/index.md)
   - [告别 RxJS：TanStack Pacer 使用指南](./weekly/448/%E5%91%8A%E5%88%AB%20RxJS%EF%BC%9ATanStack%20Pacer%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.md)
 - [第447期（2025年12月28日–2026年1月3日）](./weekly/447/前端周刊第447期.md)
+
   - [在 TypeScript 中设计类型安全的同步/异步模式支持](./weekly/447/在TypeScript中设计类型安全的同步-异步模式支持.md)
   - [Efecto：使用 WebGL 着色器构建实时 ASCII 和抖动效果](./weekly/447/Efecto：使用%20WebGL%20着色器构建实时%20ASCII%20和抖动效果/Efecto：使用%20WebGL%20着色器构建实时%20ASCII%20和抖动效果.md)
   - [我一直在用的 Chrome DevTools 宝藏功能](./weekly/447/%E6%88%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E7%94%A8%E7%9A%84%20Chrome%20DevTools%20%E5%AE%9D%E8%97%8F%E5%8A%9F%E8%83%BD/index.md)
@@ -303,12 +305,11 @@
 >
 > 翻译：[译者署名](译者主页链接)
 >
-> 📘 前端周刊：每周更新国外论坛的前端热门文章，推荐大家阅读/翻译，紧跟时事，掌握前端技术动态。
+> 来源：📘 前端周刊（每周更新国外论坛的前端热门文章，推荐大家阅读/翻译，紧跟时事，掌握前端技术动态。）
 >
-> 在线阅读：https://frontendweekly.cn/
+> 网址：https://frontendweekly.cn/
 >
-> 加群：微信 **atar24**，备注【前端周刊】
-
+> 加群：微 **atar24**，备注【前端周刊】
 
 ## 📈 流量统计说明
 
