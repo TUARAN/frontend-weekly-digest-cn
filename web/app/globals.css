@@ -52,3 +52,18 @@ body {
 .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background-color: #374151; /* gray-700 */
 }
+
+@keyframes breathing {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.breathing {
+  animation: breathing 2.8s ease-in-out infinite;
+  will-change: transform;
+}

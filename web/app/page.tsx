@@ -52,6 +52,23 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      <div className="fixed bottom-4 left-4 z-50">
+        <div className="breathing overflow-hidden rounded-xl bg-white/90 ring-1 ring-gray-900/10 backdrop-blur dark:bg-gray-900/80 dark:ring-white/10">
+          <Image
+            src="/qrcode1.png"
+            alt="扫码加群"
+            width={140}
+            height={140}
+            className="h-auto w-[140px]"
+            priority={false}
+            loading="lazy"
+          />
+          <div className="px-2 py-1 text-center text-sm font-medium text-gray-900 dark:text-gray-100">
+            扫码加群
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
