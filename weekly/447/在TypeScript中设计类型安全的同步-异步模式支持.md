@@ -1,5 +1,9 @@
 # 在 TypeScript 中设计类型安全的同步/异步模式支持
 
+> 原文： [Designing type-safe sync/async mode support in TypeScript](https://hackers.pub/@hongminhee/2026/typescript-sync-async-type-safety)
+>
+> 翻译： [樱吹雪](https://juejin.cn/user/1179091901098269)
+
 我最近为 Optique 添加了同步/异步模式支持，[Optique](https://optique.dev/) 是一个我开发的类型安全的 TypeScript CLI 解析器。事实证明，这是我实现过的最棘手的功能之一——仅 `object()` 组合子（combinator）就需要从其所有子解析器中计算出一个合并后的模式，而 TypeScript 的类型推导总是遇到各种边缘情况。
 
 ## 什么是 Optique？
