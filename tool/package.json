@@ -1,0 +1,25 @@
+{
+  "name": "article-fetcher",
+  "version": "1.0.0",
+  "description": "批量抓取文章并转换为 Markdown 的工具",
+  "main": "fetch-articles.js",
+  "scripts": {
+    "fetch": "node fetch-articles.js",
+    "test": "node fetch-articles.js urls.txt",
+    "ui": "node ui-server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "keywords": [
+    "markdown",
+    "scraper",
+    "article",
+    "batch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

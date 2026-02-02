@@ -1,0 +1,8 @@
+# 每行一个 URL，以 # 开头的行为注释
+
+# 示例链接
+https://example.com/article1
+https://example.com/article2
+https://example.com/article3
+
+# 添加你要抓取的链接

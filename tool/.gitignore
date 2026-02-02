@@ -1,0 +1,5 @@
+# 输出目录会自动创建
+output/
+
+# Dependencies
+node_modules/
