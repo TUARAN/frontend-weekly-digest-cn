@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>批量链接解析工具</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>批量链接解析工具</h1>
+      <p class="muted">粘贴 URL 列表（每行一个），点击开始后会生成本地 Markdown + 图片（tool/output）。</p>
+
+      <section class="card">
+        <label for="urls">链接列表</label>
+        <textarea id="urls" rows="10" placeholder="https://example.com/a\nhttps://example.com/b\n..." spellcheck="false"></textarea>
+        <div class="row">
+          <button id="start" type="button">开始抓取</button>
+          <button id="clear" type="button" class="secondary">清空</button>
+          <a class="link" href="/output/" target="_blank" rel="noreferrer">打开输出目录</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <section class="card">
+          <div class="row between">
+            <h2>状态</h2>
+            <div id="status" class="pill">idle</div>
+          </div>
+          <div class="kv">
+            <div class="k">进度</div>
+            <div class="v"><span id="progress">0/0</span></div>
+          </div>
+          <div class="kv">
+            <div class="k">任务 ID</div>
+            <div class="v"><span id="jobId">-</span></div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>日志</h2>
+          <pre id="logs" class="logs"></pre>
+        </section>
+      </section>
+
+      <section class="card">
+        <h2>结果</h2>
+        <div id="results" class="results"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

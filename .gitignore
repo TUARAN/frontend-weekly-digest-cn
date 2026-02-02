@@ -1,3 +1,6 @@
 .DS_Store
 .history
 /temp.md
+
+# Tool dependencies (do not commit)
+/tool/node_modules/
