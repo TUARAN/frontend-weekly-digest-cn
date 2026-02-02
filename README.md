@@ -75,6 +75,8 @@ git pull upstream main
 
 - [第451期（1月26日–2月1日）](./weekly/451/前端周刊第451期.md) ⭐ **最新**
 - [第450期（1月19日–1月25日）](./weekly/450/前端周刊第450期.md)
+
+  - [Vercel 的 json-render：迈向生成式 UI 的一步](./weekly//450/Vercel的json-render：迈向生成式%20UI%20的一步.md)
 - [第449期（1月12日–1月18日）](./weekly/449/前端周刊第449期.md)
 
   - [掌握前端权衡：2026 高级开发者指南](./weekly/449/%E6%8E%8C%E6%8F%A1%E5%89%8D%E7%AB%AF%E6%9D%83%E8%A1%A1%EF%BC%9A2026%20%E9%AB%98%E7%BA%A7%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/index.md)
