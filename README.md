@@ -25,6 +25,36 @@ cd frontend-weekly-digest-cn
 git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
 git pull upstream main
 
+### 🧩 工作流（Issue → 抓取 → 翻译）
+
+我们采用「先创建 Issue、再用工具抓取到本地」的方式沉淀材料，避免翻译前的信息散落在各处。
+
+1. 在 GitHub 创建 Issue（或认领已有 Issue），记录原文链接、期数、负责人
+2. 用抓取工具把原文拉到本地（生成 Markdown + 图片资源）
+
+```bash
+cd tool
+npm install
+
+# 可视化方式（推荐）
+npm run ui
+
+# 或命令行方式
+node fetch-articles.js <url>
+```
+
+3. 把抓取后的 Markdown 移动到对应期数目录，按现有文章格式整理
+
+更多工具细节见：`tool/README.md`
+
+### 🤖 大模型辅助翻译的定位
+
+大模型主要承担「初稿生成」与「结构梳理」的工作，后续翻译重心在：
+
+- review（校对技术准确性）
+- 通俗化（把复杂表达写得更易读）
+- 个性化（保留作者语气与译者判断）
+
 ```
 3. **创建翻译文档**
 

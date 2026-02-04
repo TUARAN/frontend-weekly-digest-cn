@@ -75,26 +75,68 @@ function httpGet(url, options = {}, config = DEFAULT_CONFIG) {
   });
 }
 
+function toAbsoluteUrl(maybeRelativeUrl, baseUrl) {
+  try {
+    return new URL(maybeRelativeUrl, baseUrl).href;
+  } catch {
+    return maybeRelativeUrl;
+  }
+}
+
+function getLongestCapture(html, patterns) {
+  let longest = null;
+  for (const pattern of patterns) {
+    const globalPattern = new RegExp(pattern.source, pattern.flags.includes('g') ? pattern.flags : `${pattern.flags}g`);
+    for (const match of html.matchAll(globalPattern)) {
+      const captured = match[1];
+      if (!captured) continue;
+      if (!longest || captured.length > longest.length) {
+        longest = captured;
+      }
+    }
+  }
+  return longest;
+}
+
 // 简单的 HTML 转 Markdown
 function htmlToMarkdown(html, baseUrl) {
   // 移除 script 和 style 标签
   html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
   html = html.replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
   
-  // 提取文章内容（尝试常见的内容容器）
+  // 提取文章内容（尝试常见的内容容器，取“最长”的那段以避免过早截断）
   const contentPatterns = [
     /<article[^>]*>([\s\S]*?)<\/article>/i,
     /<main[^>]*>([\s\S]*?)<\/main>/i,
-    /<div[^>]*class="[^"]*content[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
-    /<div[^>]*class="[^"]*post[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
-  ];
-  
-  let content = html;
-  for (const pattern of contentPatterns) {
-    const match = html.match(pattern);
-    if (match) {
-      content = match[1];
-      break;
+    /<div[^>]*class=['"][^'"]*(content|post|prose|markdown|article)[^'"]*['"][^>]*>([\s\S]*?)<\/div>/i,
+    /<div[^>]*id=['"][^'"]*(content|main|article)[^'"]*['"][^>]*>([\s\S]*?)<\/div>/i,
+  ].map((pattern) => {
+    // 标准化成单捕获组：如果 pattern 有多个捕获组，取最后一个内容组
+    const source = pattern.source;
+    if (source.includes('(content|post|prose|markdown|article)')) {
+      return new RegExp(source.replace('(content|post|prose|markdown|article)', '(?:content|post|prose|markdown|article)').replace('(\\[\\s\\S\\]*?)', '([\\s\\S]*?)'), pattern.flags);
+    }
+    if (source.includes('(content|main|article)')) {
+      return new RegExp(source.replace('(content|main|article)', '(?:content|main|article)').replace('(\\[\\s\\S\\]*?)', '([\\s\\S]*?)'), pattern.flags);
+    }
+    return pattern;
+  });
+
+  let content = getLongestCapture(html, contentPatterns) || html;
+
+  // 回退策略：部分站点（大量嵌套 div）会导致用正则截取容器时“过早结束”。
+  // 如果提取结果过短，则从首个 <h1> 开始截取到订阅区/页脚附近。
+  if (content.length < 2000) {
+    const h1Index = html.search(/<h1\b/i);
+    if (h1Index !== -1) {
+      const endCandidates = [
+        html.search(/<footer\b/i),
+        html.search(/Subscribe to our monthly newsletter/i),
+        html.search(/Interested in the future of Javascript tooling\?/i),
+      ].filter((idx) => idx !== -1 && idx > h1Index);
+
+      const endIndex = endCandidates.length > 0 ? Math.min(...endCandidates) : html.length;
+      content = html.slice(h1Index, endIndex);
     }
   }
   
@@ -109,13 +151,34 @@ function htmlToMarkdown(html, baseUrl) {
   
   // 提取图片
   const images = [];
-  content = content.replace(/<img[^>]*src=["']([^"']+)["'][^>]*>/gi, (match, src) => {
+  const seenImageNames = new Set();
+  function reserveImageName(candidateName) {
+    const clean = (candidateName || '').split('?')[0].split('#')[0] || `image-${images.length + 1}.jpg`;
+    let name = clean;
+    let suffix = 2;
+    while (seenImageNames.has(name)) {
+      const ext = path.extname(clean) || '.jpg';
+      const base = path.basename(clean, ext);
+      name = `${base}-${suffix}${ext}`;
+      suffix++;
+    }
+    seenImageNames.add(name);
+    return name;
+  }
+
+  content = content.replace(/<img\b([^>]*?)>/gi, (fullMatch, attrs) => {
+    const srcMatch = attrs.match(/\bsrc=["']([^"']+)["']/i);
+    const srcsetMatch = attrs.match(/\bsrcset=["']([^"']+)["']/i);
+    const candidateSrc = srcMatch?.[1] || srcsetMatch?.[1]?.split(',')?.pop()?.trim()?.split(' ')?.[0];
+    if (!candidateSrc || candidateSrc.startsWith('data:')) return '';
+
+    const imgUrl = toAbsoluteUrl(candidateSrc, baseUrl);
     try {
-      const imgUrl = new URL(src, baseUrl).href;
-      const imgName = path.basename(new URL(imgUrl).pathname) || `image-${images.length + 1}.jpg`;
+      const imgPathname = new URL(imgUrl).pathname;
+      const imgName = reserveImageName(path.basename(imgPathname));
       images.push({ url: imgUrl, name: imgName });
       return `![](images/${imgName})`;
-    } catch (e) {
+    } catch {
       return '';
     }
   });
@@ -128,8 +191,11 @@ function htmlToMarkdown(html, baseUrl) {
   content = content.replace(/<h5[^>]*>(.*?)<\/h5>/gi, '\n##### $1\n');
   content = content.replace(/<h6[^>]*>(.*?)<\/h6>/gi, '\n###### $1\n');
   
-  // 转换链接
-  content = content.replace(/<a[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gi, '[$2]($1)');
+  // 转换链接（相对路径转绝对 URL）
+  content = content.replace(/<a[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gi, (match, href, text) => {
+    const abs = toAbsoluteUrl(href, baseUrl);
+    return `[${text}](${abs})`;
+  });
   
   // 转换列表
   content = content.replace(/<li[^>]*>(.*?)<\/li>/gi, '- $1\n');
