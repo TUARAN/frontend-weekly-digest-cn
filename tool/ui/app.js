@@ -1,5 +1,9 @@
 const els = {
   urls: document.getElementById('urls'),
+  issue: document.getElementById('issue'),
+  modeWeekly: document.getElementById('modeWeekly'),
+  modeManual: document.getElementById('modeManual'),
+  weeklyOptions: document.getElementById('weeklyOptions'),
   start: document.getElementById('start'),
   clear: document.getElementById('clear'),
   status: document.getElementById('status'),
@@ -33,10 +37,11 @@ function renderResults(results) {
     const title = r.title ? escapeHtml(r.title) : '';
     const urlText = escapeHtml(r.url);
     const urlHref = escapeAttr(r.url);
+    const issueText = r.issue ? `第 ${escapeHtml(r.issue)} 期` : '';
 
     const openLink = `<a href="${urlHref}" target="_blank" rel="noreferrer">打开原文</a>`;
-    const fileLink = ok && r.filename
-      ? `<a href="/output/${encodeURIComponent(r.filename)}" target="_blank" rel="noreferrer">下载 Markdown</a>`
+    const fileLink = ok && (r.fileUrl || r.filename)
+      ? `<a href="${escapeAttr(r.fileUrl || `/output/${encodeURIComponent(r.filename)}`)}" target="_blank" rel="noreferrer">下载 Markdown</a>`
       : '';
 
     const err = !ok ? `<div class="error">${escapeHtml(r.error || '失败')}</div>` : '';
@@ -47,6 +52,7 @@ function renderResults(results) {
           <div class="title">${title || '(无标题)'}</div>
           <div class="tag">${ok ? 'success' : 'failed'}</div>
         </div>
+        ${issueText ? `<div class="meta">${issueText}</div>` : ''}
         <div class="url">${urlText}</div>
         <div class="actions">${openLink}${fileLink ? ` · ${fileLink}` : ''}</div>
         ${err}
@@ -72,10 +78,16 @@ function escapeAttr(str) {
 }
 
 async function createJob(urlsText) {
+  const mode = els.modeWeekly.checked ? 'weekly' : 'manual';
+  const issueValue = (els.issue.value || '').trim();
   const resp = await fetch('/api/jobs', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ urlsText }),
+    body: JSON.stringify({
+      mode,
+      issue: issueValue || null,
+      urlsText,
+    }),
   });
 
   if (!resp.ok) {
@@ -138,5 +150,18 @@ els.clear.addEventListener('click', () => {
   els.urls.value = '';
 });
 
+function updateMode() {
+  const weekly = els.modeWeekly.checked;
+  els.weeklyOptions.style.display = weekly ? 'flex' : 'none';
+  els.urls.disabled = weekly;
+  els.urls.placeholder = weekly
+    ? '周刊模式下无需填写链接'
+    : 'https://example.com/a\nhttps://example.com/b\n...';
+}
+
+els.modeWeekly.addEventListener('change', updateMode);
+els.modeManual.addEventListener('change', updateMode);
+
 setStatus('idle');
 renderResults([]);
+updateMode();

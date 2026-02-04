@@ -9,15 +9,28 @@
   <body>
     <main class="container">
       <h1>批量链接解析工具</h1>
-      <p class="muted">粘贴 URL 列表（每行一个），点击开始后会生成本地 Markdown + 图片（tool/output）。</p>
+      <p class="muted">支持从 weekly 周刊 Markdown 自动提取链接，或手动粘贴 URL 列表。生成结果会写入对应期数目录。</p>
 
       <section class="card">
-        <label for="urls">链接列表</label>
+        <label>抓取方式</label>
+        <div class="row">
+          <label class="inline"><input id="modeWeekly" type="radio" name="mode" value="weekly" checked /> 从 weekly 周刊读取</label>
+          <label class="inline"><input id="modeManual" type="radio" name="mode" value="manual" /> 手动粘贴链接</label>
+        </div>
+
+        <div id="weeklyOptions" class="row">
+          <label for="issue" class="inline-label">期号</label>
+          <input id="issue" type="text" class="text-input" placeholder="例如 451（留空则处理全部）" />
+          <span class="muted">默认读取项目根目录 weekly/</span>
+        </div>
+
+        <label for="urls" class="mt">链接列表（手动模式）</label>
         <textarea id="urls" rows="10" placeholder="https://example.com/a\nhttps://example.com/b\n..." spellcheck="false"></textarea>
         <div class="row">
           <button id="start" type="button">开始抓取</button>
           <button id="clear" type="button" class="secondary">清空</button>
-          <a class="link" href="/output/" target="_blank" rel="noreferrer">打开输出目录</a>
+          <a class="link" href="/output/" target="_blank" rel="noreferrer">打开 tool/output</a>
+          <a class="link" href="/weekly/" target="_blank" rel="noreferrer">打开 weekly</a>
         </div>
       </section>
 

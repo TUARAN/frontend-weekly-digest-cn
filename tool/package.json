@@ -6,6 +6,7 @@
   "scripts": {
     "fetch": "node fetch-articles.js",
     "test": "node fetch-articles.js urls.txt",
+    "weekly": "node fetch-articles.js --weekly",
     "ui": "node ui-server.js"
   },
   "dependencies": {

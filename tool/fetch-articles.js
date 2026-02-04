@@ -312,6 +312,59 @@ function readUrlsFromFile(filePath) {
   }
 }
 
+function sanitizeUrl(raw) {
+  return raw.replace(/[\s\)\]\}>,.;:]+$/g, '').trim();
+}
+
+function isLikelyArticleUrl(url) {
+  const lower = url.toLowerCase();
+  if (!/^https?:\/\//i.test(lower)) return false;
+  if (/(\.(png|jpe?g|gif|webp|svg|mp4|mov|webm|mp3|pdf|zip))(\?|#|$)/i.test(lower)) return false;
+  return true;
+}
+
+function extractUrlsFromMarkdown(markdown) {
+  const matches = markdown.matchAll(/https?:\/\/[^\s<>")\]]+/gi);
+  const urls = new Set();
+  for (const match of matches) {
+    const cleaned = sanitizeUrl(match[0]);
+    if (isLikelyArticleUrl(cleaned)) {
+      urls.add(cleaned);
+    }
+  }
+  return Array.from(urls);
+}
+
+function findWeeklyIssues(weeklyDir, issueFilter = null) {
+  if (!fs.existsSync(weeklyDir)) {
+    console.error(`未找到 weekly 目录: ${weeklyDir}`);
+    return [];
+  }
+
+  const dirents = fs.readdirSync(weeklyDir, { withFileTypes: true });
+  return dirents
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name)
+    .filter((name) => /^\d+$/.test(name))
+    .filter((name) => (issueFilter ? name === String(issueFilter) : true))
+    .sort((a, b) => Number(a) - Number(b));
+}
+
+function findIssueMainMarkdown(issueDir, issueNumber) {
+  const files = fs.readdirSync(issueDir).filter((file) => file.endsWith('.md'));
+  const exactName = `前端周刊第${issueNumber}期.md`;
+  if (files.includes(exactName)) {
+    return path.join(issueDir, exactName);
+  }
+
+  const candidates = files.filter((file) => new RegExp(`前端周刊第${issueNumber}期`, 'i').test(file));
+  if (candidates.length > 0) {
+    return path.join(issueDir, candidates[0]);
+  }
+
+  return files.length > 0 ? path.join(issueDir, files[0]) : null;
+}
+
 // 主函数
 async function main() {
   console.log('========================================');
@@ -320,63 +373,129 @@ async function main() {
   
   const args = process.argv.slice(2);
   
+  const weeklyIndex = args.indexOf('--weekly');
+  const issueIndex = args.indexOf('--issue');
+
+  const useWeekly = args.length === 0 || weeklyIndex !== -1 || issueIndex !== -1;
+  const issueFilter = issueIndex !== -1 ? args[issueIndex + 1] : null;
+
+  if (useWeekly) {
+    const weeklyPath = weeklyIndex !== -1 && args[weeklyIndex + 1] && !args[weeklyIndex + 1].startsWith('--')
+      ? path.resolve(args[weeklyIndex + 1])
+      : path.resolve(__dirname, '..', 'weekly');
+
+    const issues = findWeeklyIssues(weeklyPath, issueFilter);
+    if (issues.length === 0) {
+      console.error('错误: 没有找到可处理的周刊目录');
+      process.exit(1);
+    }
+
+    const allResults = [];
+    for (const issue of issues) {
+      const issueDir = path.join(weeklyPath, issue);
+      const mainMdPath = findIssueMainMarkdown(issueDir, issue);
+      if (!mainMdPath) {
+        console.log(`跳过第 ${issue} 期：未找到周刊 Markdown 文件`);
+        continue;
+      }
+
+      const markdown = fs.readFileSync(mainMdPath, 'utf-8');
+      const urls = extractUrlsFromMarkdown(markdown);
+      if (urls.length === 0) {
+        console.log(`跳过第 ${issue} 期：未找到可抓取链接`);
+        continue;
+      }
+
+      console.log(`\n第 ${issue} 期：找到 ${urls.length} 个链接`);
+
+      const issueImagesDir = path.join(issueDir, 'images');
+      ensureDirectoryExists(issueDir);
+      ensureDirectoryExists(issueImagesDir);
+
+      const issueResults = [];
+      for (let i = 0; i < urls.length; i++) {
+        const result = await processUrl(urls[i], i + 1, {
+          outputDir: issueDir,
+          imagesDir: issueImagesDir,
+        });
+        issueResults.push({ url: urls[i], ...result });
+
+        if (i < urls.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      }
+
+      allResults.push({ issue, results: issueResults });
+    }
+
+    console.log('\n========================================');
+    console.log('  处理完成');
+    console.log('========================================');
+
+    for (const { issue, results } of allResults) {
+      const successCount = results.filter(r => r.success).length;
+      console.log(`第 ${issue} 期：成功 ${successCount}/${results.length}`);
+      if (successCount < results.length) {
+        console.log('  失败的链接:');
+        results.filter(r => !r.success).forEach(r => {
+          console.log(`    - ${r.url}: ${r.error}`);
+        });
+      }
+    }
+
+    console.log(`\n输出目录: ${path.resolve(weeklyPath)}`);
+    return;
+  }
+
   if (args.length === 0) {
     console.log('用法:');
+    console.log('  node fetch-articles.js --weekly [weekly目录] [--issue 451]');
     console.log('  node fetch-articles.js <链接文件路径>');
     console.log('  node fetch-articles.js <URL1> <URL2> ...');
-    console.log('\n示例:');
-    console.log('  node fetch-articles.js urls.txt');
-    console.log('  node fetch-articles.js https://example.com/article1 https://example.com/article2');
     process.exit(1);
   }
-  
+
   // 确保输出目录存在
   ensureDirectoryExists(DEFAULT_CONFIG.outputDir);
-  
-  // 获取 URL 列表
+
   let urls = [];
   if (args.length === 1 && fs.existsSync(args[0])) {
-    // 从文件读取
     console.log(`从文件读取链接: ${args[0]}`);
     urls = readUrlsFromFile(args[0]);
   } else {
-    // 从命令行参数读取
     urls = args.filter(arg => /^https?:\/\//i.test(arg));
   }
-  
+
   if (urls.length === 0) {
     console.error('错误: 没有找到有效的 URL');
     process.exit(1);
   }
-  
+
   console.log(`找到 ${urls.length} 个链接\n`);
-  
-  // 处理所有链接
+
   const results = [];
   for (let i = 0; i < urls.length; i++) {
     const result = await processUrl(urls[i], i + 1);
     results.push({ url: urls[i], ...result });
-    
-    // 添加延迟避免请求过快
+
     if (i < urls.length - 1) {
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
-  
-  // 输出统计
+
   console.log('\n========================================');
   console.log('  处理完成');
   console.log('========================================');
   const successCount = results.filter(r => r.success).length;
   console.log(`成功: ${successCount}/${results.length}`);
-  
+
   if (successCount < results.length) {
     console.log('\n失败的链接:');
     results.filter(r => !r.success).forEach(r => {
       console.log(`  - ${r.url}: ${r.error}`);
     });
   }
-  
+
   console.log(`\n输出目录: ${path.resolve(DEFAULT_CONFIG.outputDir)}`);
 }
 
@@ -388,4 +507,10 @@ if (require.main === module) {
   });
 }
 
-module.exports = { processUrl, htmlToMarkdown };
+module.exports = {
+  processUrl,
+  htmlToMarkdown,
+  extractUrlsFromMarkdown,
+  findWeeklyIssues,
+  findIssueMainMarkdown,
+};

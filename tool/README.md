@@ -43,7 +43,27 @@ npm run ui
 
 - `tool/output/`
 
-### 方式一：从文件读取链接
+### 方式一：从 weekly 目录读取周刊链接（推荐）
+
+默认会读取项目根目录的 `weekly/`，并从每一期的周刊 Markdown 中提取链接，抓取结果输出到对应期数目录：
+
+```bash
+node fetch-articles.js --weekly
+```
+
+只处理某一期：
+
+```bash
+node fetch-articles.js --weekly --issue 451
+```
+
+指定 weekly 目录：
+
+```bash
+node fetch-articles.js --weekly /path/to/weekly
+```
+
+### 方式二：从文件读取链接（兼容模式）
 
 1. 编辑 `urls.txt` 文件，每行添加一个要抓取的 URL：
 
@@ -59,7 +79,7 @@ https://example.com/article3
 node fetch-articles.js urls.txt
 ```
 
-### 方式二：直接传入链接
+### 方式三：直接传入链接（兼容模式）
 
 ```bash
 node fetch-articles.js https://example.com/article1 https://example.com/article2
@@ -68,8 +88,8 @@ node fetch-articles.js https://example.com/article1 https://example.com/article2
 ### 使用 npm scripts
 
 ```bash
-# 使用 urls.txt 文件
-npm run test
+# 使用 weekly 目录（默认）
+npm run weekly
 
 # 自定义命令
 npm run fetch urls.txt

@@ -41,6 +41,20 @@ h2 { margin: 0 0 12px; font-size: 16px; }
 }
 
 label { display: block; margin-bottom: 8px; font-weight: 600; }
+label.inline { display: inline-flex; align-items: center; gap: 6px; margin: 0; font-weight: 500; }
+label.inline input { margin: 0; }
+
+.inline-label { margin: 0; font-weight: 500; }
+.text-input {
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid #d9dde3;
+  padding: 6px 10px;
+  font-size: 13px;
+  min-width: 220px;
+}
+
+.mt { margin-top: 12px; }
 textarea {
   width: 100%;
   border-radius: 8px;
@@ -148,6 +162,12 @@ button:disabled {
   color: #666;
   font-size: 12px;
   word-break: break-all;
+}
+
+.result .meta {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #0b57d0;
 }
 
 .result .actions {
