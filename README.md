@@ -33,7 +33,7 @@ git pull upstream main
 2. 用抓取工具把原文拉到本地（生成 Markdown + 图片资源）
 
 ```bash
-cd tool
+cd web/fetch-translate-tool
 npm install
 
 # 可视化方式（推荐）
@@ -45,7 +45,9 @@ node fetch-articles.js <url>
 
 3. 把抓取后的 Markdown 移动到对应期数目录，按现有文章格式整理
 
-更多工具细节见：`tool/README.md`
+说明：本地抓取工具位于 `web/fetch-translate-tool/`，Web 站点提供在线版本入口（/tool）。
+
+更多工具细节见：`web/fetch-translate-tool/README.md`
 
 ### 🤖 大模型辅助翻译的定位
 

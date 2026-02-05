@@ -26,6 +26,15 @@ export default function Header() {
               首页
             </Link>
             <Link 
+              href="/tool" 
+              className={cn(
+                "transition-colors hover:text-blue-600 dark:hover:text-blue-400",
+                pathname === "/tool" ? "text-blue-600 dark:text-blue-400 font-bold" : ""
+              )}
+            >
+              工具
+            </Link>
+            <Link 
               href="/about" 
               className={cn(
                 "transition-colors hover:text-blue-600 dark:hover:text-blue-400",

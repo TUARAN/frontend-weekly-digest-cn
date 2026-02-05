@@ -1,4 +1,6 @@
-# 批量链接解析工具
+# 抓取翻译工具（本地）
+
+> 本目录用于本地运行抓取工具；Web 站点内置了在线版本入口（/tool）。
 
 一个用于批量读取链接、抓取原文并转换为本地 Markdown 文件的工具（图片下载可选）。
 
@@ -20,7 +22,7 @@
 要求：Node.js >= 14.0.0
 
 ```bash
-cd tool
+cd web/fetch-translate-tool
 npm install
 ```
 
@@ -31,7 +33,7 @@ npm install
 启动本地 UI：
 
 ```bash
-cd tool
+cd web/fetch-translate-tool
 npm run ui
 ```
 
@@ -41,7 +43,7 @@ npm run ui
 
 生成的文件会出现在：
 
-- `tool/output/`
+- `web/fetch-translate-tool/output/`
 
 ### 方式一：从 weekly 目录读取周刊链接（推荐）
 

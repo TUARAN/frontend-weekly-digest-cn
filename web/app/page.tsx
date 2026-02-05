@@ -37,6 +37,12 @@ export default function Home() {
             <Github className="h-5 w-5" />
             GitHub 仓库
           </a>
+          <a
+            href="/tool"
+            className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-8 py-3 text-lg font-medium text-gray-900 transition-all hover:border-gray-400 hover:scale-105 dark:border-gray-700 dark:text-gray-100"
+          >
+            周刊工具
+          </a>
         </div>
       </section>
 

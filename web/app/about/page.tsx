@@ -25,6 +25,8 @@ const content = `
 ## 🤝 协作方式
 
 欢迎参与翻译！详情请查看 [GitHub 仓库](https://github.com/TUARAN/frontend-weekly-digest-cn)。
+
+> 备注：抓取与 AI 翻译只是效率工具，最终内容必须经过人工 Review。我们更鼓励在译文中加入个性化观点、故事化表达与上下文补充，让读者读到“有温度”的内容。
 `;
 
 export default function AboutPage() {

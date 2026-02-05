@@ -188,7 +188,7 @@ app.get('/output/', (req, res) => {
 
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.setHeader('Cache-Control', 'no-store');
-    res.end(`<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Output</title></head><body style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif; padding: 16px;"><h1>tool/output</h1><ul>${items || '<li>(empty)</li>'}</ul></body></html>`);
+    res.end(`<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Output</title></head><body style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif; padding: 16px;"><h1>fetch-translate-tool/output</h1><ul>${items || '<li>(empty)</li>'}</ul></body></html>`);
   } catch (e) {
     res.status(500).json({ error: e && e.message ? e.message : String(e) });
   }
