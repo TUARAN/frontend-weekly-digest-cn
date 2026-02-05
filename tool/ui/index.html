@@ -9,7 +9,7 @@
   <body>
     <main class="container">
       <h1>批量链接解析工具</h1>
-      <p class="muted">支持从 weekly 周刊 Markdown 自动提取链接，或手动粘贴 URL 列表。生成结果会写入对应期数目录。</p>
+      <p class="muted">支持从 weekly 周刊 Markdown 自动提取链接，或手动粘贴 URL 列表。默认保留图片外链；如需下载图片到本地可手动勾选。</p>
 
       <section class="card">
         <label>抓取方式</label>
@@ -21,15 +21,16 @@
         <div id="weeklyOptions" class="row">
           <label for="issue" class="inline-label">期号</label>
           <input id="issue" type="text" class="text-input" placeholder="例如 451（留空则处理全部）" />
-          <span class="muted">默认读取项目根目录 weekly/</span>
+          <span class="muted">默认读取项目根目录 weekly/，留空会处理全部期数</span>
         </div>
 
         <label for="urls" class="mt">链接列表（手动模式）</label>
         <textarea id="urls" rows="10" placeholder="https://example.com/a\nhttps://example.com/b\n..." spellcheck="false"></textarea>
         <div class="row">
           <label class="inline">
-            <input id="downloadImages" type="checkbox" /> 抓取图片到本地（可选，默认外链）
+            <input id="downloadImages" type="checkbox" /> 抓取图片到本地（默认不勾选）
           </label>
+          <span class="muted">勾选后图片会写入 images/，未勾选则保持原始外链</span>
         </div>
         <div class="row">
           <button id="start" type="button">开始抓取</button>
