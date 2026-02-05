@@ -1,6 +1,6 @@
 # 批量链接解析工具
 
-一个用于批量读取链接、抓取原文和图片，并转换为本地 Markdown 文件的工具。
+一个用于批量读取链接、抓取原文并转换为本地 Markdown 文件的工具（图片下载可选）。
 
 ## 功能特性
 
@@ -8,7 +8,7 @@
 - ✅ 自动抓取网页内容
 - ✅ 智能提取文章正文
 - ✅ HTML 转 Markdown
-- ✅ 下载并保存图片到本地
+- ✅ 图片下载可选（默认使用外链）
 - ✅ 自动处理重定向
 - ✅ 支持中文文件名
 - ✅ 零依赖（仅使用 Node.js 内置模块）
@@ -57,6 +57,12 @@ node fetch-articles.js --weekly
 node fetch-articles.js --weekly --issue 451
 ```
 
+如需下载图片到本地：
+
+```bash
+node fetch-articles.js --weekly --issue 451 --download-images
+```
+
 指定 weekly 目录：
 
 ```bash
@@ -79,10 +85,22 @@ https://example.com/article3
 node fetch-articles.js urls.txt
 ```
 
+如需下载图片到本地：
+
+```bash
+node fetch-articles.js urls.txt --download-images
+```
+
 ### 方式三：直接传入链接（兼容模式）
 
 ```bash
 node fetch-articles.js https://example.com/article1 https://example.com/article2
+```
+
+如需下载图片到本地：
+
+```bash
+node fetch-articles.js https://example.com/article1 https://example.com/article2 --download-images
 ```
 
 ### 使用 npm scripts
@@ -97,7 +115,7 @@ npm run fetch urls.txt
 
 ## 输出结果
 
-工具会在 `output` 目录下生成以下内容：
+默认只保存 Markdown，图片保留外链。若使用 `--download-images`，会在 `output` 目录下生成以下内容：
 
 ```
 output/
@@ -117,6 +135,7 @@ output/
 const CONFIG = {
   outputDir: './output',        // 输出目录
   imagesDir: './output/images', // 图片目录
+  downloadImages: false,        // 是否下载图片（默认 false）
   userAgent: '...',             // User-Agent
   timeout: 30000,               // 请求超时时间（毫秒）
 };
@@ -131,8 +150,8 @@ const CONFIG = {
    - 智能识别正文内容（article、main、content 等容器）
    - 移除 script 和 style 标签
 4. **转换格式**：将 HTML 转换为 Markdown 格式
-5. **下载图片**：提取图片 URL 并下载到本地
-6. **保存文件**：生成 Markdown 文件，图片使用相对路径引用
+5. **下载图片**：可选下载图片到本地（默认关闭，使用外链）
+6. **保存文件**：生成 Markdown 文件，图片使用外链或相对路径引用
 
 ## 支持的 HTML 元素
 
@@ -150,7 +169,7 @@ const CONFIG = {
 1. **请求频率**：工具会在每个请求之间添加 1 秒延迟，避免对目标网站造成压力
 2. **反爬虫**：某些网站可能有反爬虫机制，可能需要调整 User-Agent 或添加其他请求头
 3. **内容提取**：工具使用启发式方法提取正文，对于复杂或非标准的网页结构可能效果不佳
-4. **图片下载**：某些图片可能因为防盗链或其他原因无法下载
+4. **图片下载**：图片下载为可选（默认关闭）；若开启，某些图片可能因为防盗链或其他原因无法下载
 5. **编码问题**：工具默认使用 UTF-8 编码，某些网站可能需要特殊处理
 
 ## 故障排除

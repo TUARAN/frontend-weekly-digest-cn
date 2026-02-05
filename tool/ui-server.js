@@ -45,7 +45,7 @@ function parseUrls(urlsText) {
 app.get('/healthz', (req, res) => res.json({ ok: true }));
 
 app.post('/api/jobs', async (req, res) => {
-  const { urlsText, mode, issue, weeklyPath } = req.body || {};
+  const { urlsText, mode, issue, weeklyPath, downloadImages } = req.body || {};
 
   const useWeekly = mode === 'weekly';
   const urls = useWeekly ? [] : parseUrls(urlsText);
@@ -108,11 +108,12 @@ app.post('/api/jobs', async (req, res) => {
           const issueDir = path.join(targetWeeklyPath, issueNumber);
           const issueImagesDir = path.join(issueDir, 'images');
           ensureDir(issueDir);
-          ensureDir(issueImagesDir);
+          if (downloadImages) ensureDir(issueImagesDir);
 
           const result = await processUrl(url, i + 1, {
             outputDir: issueDir,
             imagesDir: issueImagesDir,
+            downloadImages: Boolean(downloadImages),
           });
 
           const fileUrl = result.success && result.filename
@@ -133,6 +134,7 @@ app.post('/api/jobs', async (req, res) => {
           const result = await processUrl(url, i + 1, {
             outputDir: OUTPUT_DIR,
             imagesDir: path.join(OUTPUT_DIR, 'images'),
+            downloadImages: Boolean(downloadImages),
           });
           const fileUrl = result.success && result.filename
             ? `/output/${encodeURIComponent(result.filename)}`

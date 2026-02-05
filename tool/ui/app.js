@@ -4,6 +4,7 @@ const els = {
   modeWeekly: document.getElementById('modeWeekly'),
   modeManual: document.getElementById('modeManual'),
   weeklyOptions: document.getElementById('weeklyOptions'),
+  downloadImages: document.getElementById('downloadImages'),
   start: document.getElementById('start'),
   clear: document.getElementById('clear'),
   status: document.getElementById('status'),
@@ -80,6 +81,7 @@ function escapeAttr(str) {
 async function createJob(urlsText) {
   const mode = els.modeWeekly.checked ? 'weekly' : 'manual';
   const issueValue = (els.issue.value || '').trim();
+  const downloadImages = Boolean(els.downloadImages?.checked);
   const resp = await fetch('/api/jobs', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -87,6 +89,7 @@ async function createJob(urlsText) {
       mode,
       issue: issueValue || null,
       urlsText,
+      downloadImages,
     }),
   });
 

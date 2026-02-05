@@ -27,6 +27,11 @@
         <label for="urls" class="mt">链接列表（手动模式）</label>
         <textarea id="urls" rows="10" placeholder="https://example.com/a\nhttps://example.com/b\n..." spellcheck="false"></textarea>
         <div class="row">
+          <label class="inline">
+            <input id="downloadImages" type="checkbox" /> 抓取图片到本地（可选，默认外链）
+          </label>
+        </div>
+        <div class="row">
           <button id="start" type="button">开始抓取</button>
           <button id="clear" type="button" class="secondary">清空</button>
           <a class="link" href="/output/" target="_blank" rel="noreferrer">打开 tool/output</a>

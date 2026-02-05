@@ -15,6 +15,7 @@ const { URL } = require('url');
 const DEFAULT_CONFIG = {
   outputDir: path.join(__dirname, 'output'),
   imagesDir: path.join(__dirname, 'output', 'images'),
+  downloadImages: false,
   userAgent:
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
   timeout: 30000,
@@ -99,7 +100,8 @@ function getLongestCapture(html, patterns) {
 }
 
 // 简单的 HTML 转 Markdown
-function htmlToMarkdown(html, baseUrl) {
+function htmlToMarkdown(html, baseUrl, options = {}) {
+  const { downloadImages = false } = options;
   // 移除 script 和 style 标签
   html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
   html = html.replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
@@ -173,6 +175,10 @@ function htmlToMarkdown(html, baseUrl) {
     if (!candidateSrc || candidateSrc.startsWith('data:')) return '';
 
     const imgUrl = toAbsoluteUrl(candidateSrc, baseUrl);
+    if (!downloadImages) {
+      return `![](${imgUrl})`;
+    }
+
     try {
       const imgPathname = new URL(imgUrl).pathname;
       const imgName = reserveImageName(path.basename(imgPathname));
@@ -264,7 +270,9 @@ async function processUrl(url, index, configOverride = {}) {
     
     // 转换为 Markdown
     console.log('  转换为 Markdown...');
-    const { markdown, images, title } = htmlToMarkdown(html, url);
+    const { markdown, images, title } = htmlToMarkdown(html, url, {
+      downloadImages: config.downloadImages,
+    });
     
     // 生成安全的文件名
     const safeTitle = title
@@ -280,7 +288,7 @@ async function processUrl(url, index, configOverride = {}) {
     console.log(`  ✓ Markdown 已保存: ${outputPath}`);
     
     // 下载图片
-    if (images.length > 0) {
+    if (config.downloadImages && images.length > 0) {
       console.log(`  找到 ${images.length} 张图片`);
       ensureDirectoryExists(config.imagesDir);
       
@@ -375,6 +383,7 @@ async function main() {
   
   const weeklyIndex = args.indexOf('--weekly');
   const issueIndex = args.indexOf('--issue');
+  const downloadImages = args.includes('--download-images');
 
   const useWeekly = args.length === 0 || weeklyIndex !== -1 || issueIndex !== -1;
   const issueFilter = issueIndex !== -1 ? args[issueIndex + 1] : null;
@@ -410,13 +419,14 @@ async function main() {
 
       const issueImagesDir = path.join(issueDir, 'images');
       ensureDirectoryExists(issueDir);
-      ensureDirectoryExists(issueImagesDir);
+      if (downloadImages) ensureDirectoryExists(issueImagesDir);
 
       const issueResults = [];
       for (let i = 0; i < urls.length; i++) {
         const result = await processUrl(urls[i], i + 1, {
           outputDir: issueDir,
           imagesDir: issueImagesDir,
+          downloadImages,
         });
         issueResults.push({ url: urls[i], ...result });
 
@@ -449,9 +459,9 @@ async function main() {
 
   if (args.length === 0) {
     console.log('用法:');
-    console.log('  node fetch-articles.js --weekly [weekly目录] [--issue 451]');
+    console.log('  node fetch-articles.js --weekly [weekly目录] [--issue 451] [--download-images]');
     console.log('  node fetch-articles.js <链接文件路径>');
-    console.log('  node fetch-articles.js <URL1> <URL2> ...');
+    console.log('  node fetch-articles.js <URL1> <URL2> ... [--download-images]');
     process.exit(1);
   }
 
@@ -475,7 +485,9 @@ async function main() {
 
   const results = [];
   for (let i = 0; i < urls.length; i++) {
-    const result = await processUrl(urls[i], i + 1);
+    const result = await processUrl(urls[i], i + 1, {
+      downloadImages,
+    });
     results.push({ url: urls[i], ...result });
 
     if (i < urls.length - 1) {
