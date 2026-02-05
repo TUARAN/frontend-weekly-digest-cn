@@ -3,6 +3,7 @@ import path from 'path';
 import { NextResponse } from 'next/server';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 function getRepoRoot() {
   return process.cwd();
@@ -10,7 +11,7 @@ function getRepoRoot() {
 
 function isPathAllowed(targetPath: string) {
   const repoRoot = getRepoRoot();
-  const weeklyRoot = path.join(repoRoot, 'weekly');
+  const weeklyRoot = path.join(repoRoot, '..', 'weekly');
   const outputRoot = path.join(repoRoot, 'fetch-translate-tool', 'output');
   return targetPath.startsWith(weeklyRoot) || targetPath.startsWith(outputRoot);
 }
@@ -39,7 +40,7 @@ export async function GET(request: Request) {
     status: 200,
     headers: {
       'Content-Type': 'text/markdown; charset=utf-8',
-      'Content-Disposition': `inline; filename="${path.basename(resolved)}"`,
+      'Content-Disposition': `attachment; filename="${path.basename(resolved)}"`,
       'Cache-Control': 'no-store',
     },
   });

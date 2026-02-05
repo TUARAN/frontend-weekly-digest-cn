@@ -43,7 +43,8 @@ npm run ui
 
 生成的文件会出现在：
 
-- `web/fetch-translate-tool/output/`
+- 手动模式：`web/fetch-translate-tool/output/`
+- weekly 模式：对应期数目录（例如 `weekly/451/`）
 
 ### 方式一：从 weekly 目录读取周刊链接（推荐）
 
@@ -117,7 +118,11 @@ npm run fetch urls.txt
 
 ## 输出结果
 
-默认只保存 Markdown，图片保留外链。若使用 `--download-images`，会在 `output` 目录下生成以下内容：
+默认只保存 Markdown，图片保留外链。
+
+### 手动模式输出（`output/`）
+
+若使用 `--download-images`，会在 `output` 目录下生成以下内容：
 
 ```
 output/
@@ -127,6 +132,21 @@ output/
     ├── image1.jpg
     ├── image2.png
     └── ...
+
+### weekly 模式输出（期数目录）
+
+weekly 模式会从 `weekly/` 目录下对应期数的周刊 Markdown 中提取链接，并把抓取结果写回对应期数目录：
+
+```
+weekly/
+└── 451/
+  ├── 前端周刊第451期.md
+  ├── 文章标题-时间戳.md
+  ├── 另一篇文章-时间戳.md
+  └── images/               # 仅在开启 --download-images 时生成
+    ├── image1.jpg
+    └── ...
+```
 ```
 
 ## 配置选项

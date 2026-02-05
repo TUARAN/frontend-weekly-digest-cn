@@ -22,12 +22,11 @@ interface JobResponse {
 }
 
 export default function ToolPage() {
-  const [mode, setMode] = useState<'weekly' | 'manual'>('weekly');
   const [issue, setIssue] = useState('');
   const [urlsText, setUrlsText] = useState('');
   const [downloadImages, setDownloadImages] = useState(false);
-  const [llmProvider, setLlmProvider] = useState('');
-  const [llmModel, setLlmModel] = useState('');
+  const [llmProvider] = useState('openai');
+  const [llmModel, setLlmModel] = useState('gpt-5.2');
   const [status, setStatus] = useState<'idle' | 'running' | 'done' | 'error' | 'creating'>('idle');
   const [progress, setProgress] = useState('0/0');
   const [jobId, setJobId] = useState('-');
@@ -35,8 +34,10 @@ export default function ToolPage() {
   const [results, setResults] = useState<JobResult[]>([]);
   const pollingRef = useRef<number | null>(null);
 
-  const isWeekly = mode === 'weekly';
   const canStart = status !== 'running' && status !== 'creating';
+  const progressValue = Number(progress.split('/')[0]);
+  const progressTotal = Number(progress.split('/')[1]);
+  const progressPercent = progressTotal > 0 ? Math.round((progressValue / progressTotal) * 100) : 0;
 
   const logsText = useMemo(() => logs.join('\n'), [logs]);
 
@@ -46,7 +47,7 @@ export default function ToolPage() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        mode,
+        mode: 'weekly',
         issue: issue.trim() || null,
         urlsText,
         downloadImages,
@@ -99,11 +100,14 @@ export default function ToolPage() {
     setResults([]);
     setLogs([]);
     setProgress('0/0');
+    setStatus('creating');
+    setLogs(['正在创建任务...']);
 
     try {
       const { id } = await createJob();
       setJobId(id);
       setStatus('running');
+      setLogs([`任务已创建：${id}`]);
       startPolling(id);
     } catch (error) {
       setStatus('error');
@@ -132,54 +136,18 @@ export default function ToolPage() {
           </div>
 
           <div className="mt-6 space-y-6">
-            <div>
-              <label className="text-sm font-medium text-gray-700 dark:text-gray-200">抓取方式</label>
-              <div className="mt-2 flex flex-wrap gap-4 text-sm">
-                <label className="inline-flex items-center gap-2">
-                  <input
-                    type="radio"
-                    name="mode"
-                    checked={isWeekly}
-                    onChange={() => setMode('weekly')}
-                  />
-                  从 weekly 周刊读取
-                </label>
-                <label className="inline-flex items-center gap-2">
-                  <input
-                    type="radio"
-                    name="mode"
-                    checked={!isWeekly}
-                    onChange={() => setMode('manual')}
-                  />
-                  手动粘贴链接
-                </label>
-              </div>
-            </div>
-
-            {isWeekly && (
-              <div className="flex flex-wrap items-center gap-3 text-sm">
-                <label className="font-medium text-gray-700 dark:text-gray-200">期号</label>
-                <input
-                  value={issue}
-                  onChange={(event) => setIssue(event.target.value)}
-                  placeholder="例如 451（留空则处理全部）"
-                  className="w-56 rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 shadow-sm focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-                />
-                <span className="text-xs text-gray-500 dark:text-gray-400">默认读取项目根目录 weekly/，留空会处理全部期数</span>
-              </div>
-            )}
-
-            <div>
-              <label className="text-sm font-medium text-gray-700 dark:text-gray-200">链接列表（手动模式）</label>
-              <textarea
-                value={urlsText}
-                onChange={(event) => setUrlsText(event.target.value)}
-                rows={8}
-                placeholder="https://example.com/a\nhttps://example.com/b\n..."
-                disabled={isWeekly}
-                className="mt-2 w-full rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:outline-none disabled:cursor-not-allowed disabled:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:disabled:bg-gray-800"
+            <div className="flex flex-wrap items-center gap-3 text-sm">
+              <label className="font-medium text-gray-700 dark:text-gray-200">期号</label>
+              <input
+                value={issue}
+                onChange={(event) => setIssue(event.target.value)}
+                placeholder="例如 451（留空则处理全部）"
+                className="w-56 rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 shadow-sm focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
               />
+              <span className="text-xs text-gray-500 dark:text-gray-400">留空会处理全部期数</span>
             </div>
+
+
 
             <div className="flex flex-wrap items-center gap-3 text-sm">
               <label className="inline-flex items-center gap-2">
@@ -201,25 +169,18 @@ export default function ToolPage() {
               <div className="mt-3 grid gap-3 md:grid-cols-2">
                 <div>
                   <label className="text-xs text-gray-500 dark:text-gray-400">模型服务</label>
-                  <select
-                    value={llmProvider}
-                    onChange={(event) => setLlmProvider(event.target.value)}
-                    className="mt-1 w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-                  >
-                    <option value="">未选择（预留）</option>
-                    <option value="openai">OpenAI</option>
-                    <option value="azure-openai">Azure OpenAI</option>
-                    <option value="anthropic">Anthropic</option>
-                    <option value="ollama">Ollama（本地）</option>
-                    <option value="custom">自定义</option>
-                  </select>
+                  <input
+                    value="OpenAI"
+                    readOnly
+                    className="mt-1 w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                  />
                 </div>
                 <div>
                   <label className="text-xs text-gray-500 dark:text-gray-400">模型名称</label>
                   <input
                     value={llmModel}
                     onChange={(event) => setLlmModel(event.target.value)}
-                    placeholder="例如 gpt-4.1 / claude-3.5 / qwen2.5"
+                    placeholder="例如 gpt-5.2"
                     className="mt-1 w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
                   />
                 </div>
@@ -233,7 +194,7 @@ export default function ToolPage() {
                 disabled={!canStart}
                 className="rounded-full bg-blue-600 px-6 py-2 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-blue-400"
               >
-                开始抓取
+                开始抓取与翻译
               </button>
               <button
                 type="button"
@@ -258,6 +219,12 @@ export default function ToolPage() {
               <div className="flex items-center justify-between text-gray-600 dark:text-gray-400">
                 <span>进度</span>
                 <span className="font-medium text-gray-900 dark:text-gray-100">{progress}</span>
+              </div>
+              <div className="h-2 w-full overflow-hidden rounded-full bg-gray-200 dark:bg-gray-800">
+                <div
+                  className="h-full rounded-full bg-blue-600 transition-all"
+                  style={{ width: `${progressPercent}%` }}
+                />
               </div>
               <div className="flex items-center justify-between text-gray-600 dark:text-gray-400">
                 <span>任务 ID</span>

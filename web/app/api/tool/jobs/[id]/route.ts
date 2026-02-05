@@ -1,6 +1,9 @@
+import fs from 'fs';
+import path from 'path';
 import { NextResponse } from 'next/server';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 interface JobRecord {
   id: string;
@@ -23,10 +26,33 @@ interface JobRecord {
 const jobStore = (globalThis as { __toolJobs?: Map<string, JobRecord> }).__toolJobs ?? new Map<string, JobRecord>();
 (globalThis as { __toolJobs?: Map<string, JobRecord> }).__toolJobs = jobStore;
 
-export async function GET(_: Request, { params }: { params: { id: string } }) {
-  const job = jobStore.get(params.id);
-  if (!job) {
-    return NextResponse.json({ error: 'job not found' }, { status: 404 });
+const JOBS_DIR = path.join(process.cwd(), '.tool-jobs');
+
+function jobFilePath(id: string) {
+  return path.join(JOBS_DIR, `${id}.json`);
+}
+
+export async function GET(request: Request, context?: { params?: { id?: string } }) {
+  const url = new URL(request.url);
+  const fallbackId = url.pathname.split('/').pop();
+  const id = context?.params?.id || fallbackId;
+
+  if (!id) {
+    return NextResponse.json({ error: 'job id missing' }, { status: 400 });
   }
-  return NextResponse.json(job);
+
+  const cached = jobStore.get(id);
+  if (cached) {
+    return NextResponse.json(cached);
+  }
+
+  const filePath = jobFilePath(id);
+  if (fs.existsSync(filePath)) {
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const job = JSON.parse(raw) as JobRecord;
+    jobStore.set(id, job);
+    return NextResponse.json(job);
+  }
+
+  return NextResponse.json({ error: 'job not found' }, { status: 404 });
 }
