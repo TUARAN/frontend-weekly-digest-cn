@@ -49,37 +49,34 @@ node fetch-articles.js <url>
 
 更多工具细节见：`web/fetch-translate-tool/README.md`
 
-### 🤖 大模型辅助翻译的定位
+4. **创建翻译文档**
 
-大模型主要承担「初稿生成」与「结构梳理」的工作，后续翻译重心在：
+  - 在对应的期数目录下（如 `weekly/441/`）创建对应的 markdown 文档
+  - 文件命名格式：`文章标题.md`（推荐中文标题）
+  - 参考现有文章的格式和结构进行翻译
 
-- review（校对技术准确性）
-- 通俗化（把复杂表达写得更易读）
-- 个性化（保留作者语气与译者判断）
+5. **提交 PR**
 
-```
-3. **创建翻译文档**
+  ```bash
+  git checkout -b translate/文章标题
+  git add .
+  git commit -m "feat: 翻译《文章标题》"
+  git push origin translate/文章标题
+  ```
 
-   - 在对应的期数目录下（如 `weekly/441/`）创建对应的 markdown 文档
-   - 文件命名格式：`文章标题.md`（推荐中文标题）
-   - 参考现有文章的格式和结构进行翻译
-4. **提交 PR**
+  - 在 GitHub 上提交 Pull Request
+  - PR 标题格式：`feat: 翻译《文章标题》`
+  - 在 PR 描述中说明翻译的期数和文章链接
 
-   ```bash
-   git checkout -b translate/文章标题
-   git add .
-   git commit -m "feat: 翻译《文章标题》"
-   git push origin translate/文章标题
-```
+6. **等待审核**
 
-- 在 GitHub 上提交 Pull Request
-- PR 标题格式：`feat: 翻译《文章标题》`
-- 在 PR 描述中说明翻译的期数和文章链接
+  - 维护者会审核你的翻译
+  - 根据反馈进行修改（如有需要）
 
-5. **等待审核**
+### 🤖 AI翻译辅助说明
 
-   - 维护者会审核你的翻译
-   - 根据反馈进行修改（如有需要）
+我们接受 AI 辅助，但抓取与 AI 翻译只是辅助，最终质量依赖人工 review。
+更好的译文应体现个性化观点、故事化表达与上下文补充，避免机械直译。
 
 ### ✨ 翻译规范
 
