@@ -17,83 +17,6 @@
 
 ---
 
-## 🤝 协作方式
-
-欢迎参与翻译！以下是参与流程：
-
-cd frontend-weekly-digest-cn
-git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
-git pull upstream main
-
-### 🧩 工作流（Issue → 抓取 → 翻译）
-
-我们采用「先创建 Issue、再用工具抓取到本地」的方式沉淀材料，避免翻译前的信息散落在各处。
-
-1. 在 GitHub 创建 Issue（或认领已有 Issue），记录原文链接、期数、负责人
-2. 用抓取工具把原文拉到本地（生成 Markdown + 图片资源）
-
-```bash
-cd web/fetch-translate-tool
-npm install
-
-# 可视化方式（推荐）
-npm run ui
-
-# 或命令行方式
-node fetch-articles.js <url>
-```
-
-3. 把抓取后的 Markdown 移动到对应期数目录，按现有文章格式整理
-
-说明：本地抓取工具位于 `web/fetch-translate-tool/`，Web 站点提供在线版本入口（/tool）。
-
-更多工具细节见：`web/fetch-translate-tool/README.md`
-
-4. **创建翻译文档**
-
-  - 在对应的期数目录下（如 `weekly/441/`）创建对应的 markdown 文档
-  - 文件命名格式：`文章标题.md`（推荐中文标题）
-  - 参考现有文章的格式和结构进行翻译
-
-5. **提交 PR**
-
-  ```bash
-  git checkout -b translate/文章标题
-  git add .
-  git commit -m "feat: 翻译《文章标题》"
-  git push origin translate/文章标题
-  ```
-
-  - 在 GitHub 上提交 Pull Request
-  - PR 标题格式：`feat: 翻译《文章标题》`
-  - 在 PR 描述中说明翻译的期数和文章链接
-
-6. **等待审核**
-
-  - 维护者会审核你的翻译
-  - 根据反馈进行修改（如有需要）
-
-### 🤖 AI翻译辅助说明
-
-我们接受 AI 辅助，但抓取与 AI 翻译只是辅助，最终质量依赖人工 review。
-更好的译文应体现个性化观点、故事化表达与上下文补充，避免机械直译。
-
-### ✨ 翻译规范
-
-- 保持原文的技术准确性
-- 使用流畅、易懂的中文表达
-- 保留原文中的代码、链接和格式
-- 添加必要的注释说明（如需要）
-
-### 📋 翻译任务认领
-
-- 查看 [周刊目录](#周刊目录) 选择感兴趣的期数
-- 在对应期数的 markdown 文件中查看文章列表
-- 在 Issue 中认领翻译任务（如已创建）
-- 或直接提交翻译 PR
-
----
-
 ## 🗂️ 周刊目录
 
 > 💡 **号召参与翻译**：我们号召更多的小伙伴参与到每篇技术文章的翻译中来！
@@ -257,6 +180,45 @@ node fetch-articles.js <url>
 - [第412期（5月12日–5月18日）](./weekly/412/前端周刊第412期.md)
 - [第411期（5月5日–5月11日）](./weekly/411/前端周刊第411期.md)
 - 更多内容持续更新中...
+
+---
+
+## 🤝 协作方式
+
+欢迎参与翻译！以下是参与流程：
+
+cd frontend-weekly-digest-cn
+git remote add upstream https://github.com/TUARAN/frontend-weekly-digest-cn.git
+git pull upstream main
+
+### 🧩 工作流（抓取 → 翻译 → Review）
+
+我们采用「自动化批量抓取 + 大模型初稿 + 人工 review」的方式沉淀材料，避免信息散落在各处。
+
+| 阶段 | 操作 | 说明 / 输出 |
+| --- | --- | --- |
+| 抓取 | 运行抓取工具 | `cd web/fetch-translate-tool` → `npm install`<br>可视化：`npm run ui`<br>命令行：`node fetch-articles.js <url>` |
+| 整理 | 迁移与整理文档 | 把抓取后的 Markdown 移动到对应期数目录，并按现有文章格式整理 |
+| 导出 | 自动化批量翻译与导出 | 已实现自动化批量抓取、大模型翻译与导出文档 |
+| Review | 人工精修 | review（技术准确性）<br>个性化、故事化、联想化、标题化 |
+| 提交 | 提交 PR | `git checkout -b translate/文章标题` → `git add .` → `git commit -m "feat: 翻译《文章标题》"` → `git push origin translate/文章标题`<br>PR 标题格式：`feat: 翻译《文章标题》`，描述说明期数与文章链接 |
+| 审核 | 维护者审核 | 根据反馈进行修改（如有需要） |
+
+说明：本地抓取工具位于 `web/fetch-translate-tool/`，Web 站点提供在线版本入口（/tool）。
+更多工具细节见：`web/fetch-translate-tool/README.md`
+
+### ✨ 翻译规范
+
+- 保持原文的技术准确性
+- 使用流畅、易懂的中文表达
+- 保留原文中的代码、链接和格式
+- 添加必要的注释说明（如需要）
+
+### 📋 翻译任务认领
+
+- 查看 [周刊目录](#周刊目录) 选择感兴趣的期数
+- 在对应期数的 markdown 文件中查看文章列表
+- 直接提交翻译 PR（重点在 review 与个性化完善）
 
 ---
 
