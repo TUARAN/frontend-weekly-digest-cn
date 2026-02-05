@@ -32,10 +32,9 @@ function jobFilePath(id: string) {
   return path.join(JOBS_DIR, `${id}.json`);
 }
 
-export async function GET(request: Request, context?: { params?: { id?: string } }) {
-  const url = new URL(request.url);
-  const fallbackId = url.pathname.split('/').pop();
-  const id = context?.params?.id || fallbackId;
+export async function GET(request: Request, context: { params: Promise<{ id: string }> }) {
+  const params = await context.params;
+  const id = params.id;
 
   if (!id) {
     return NextResponse.json({ error: 'job id missing' }, { status: 400 });
