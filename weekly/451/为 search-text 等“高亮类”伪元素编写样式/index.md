@@ -48,24 +48,15 @@ body {
 }
 ```
 
-Demo（CodePen）：
-
-<iframe
-    height="480"
-    style="width: 100%;"
-    title="CodePen demo"
-    src="https://codepen.io/anon/embed/ogLZeQN?default-tab=result"
-    loading="lazy"
-    allowtransparency="true"
-    allowfullscreen></iframe>
-
-链接地址：https://codepen.io/anon/pen/ogLZeQN
+Demo（CodePen）： https://codepen.io/anon/pen/ogLZeQN
 
 你的浏览器可能还不支持这些特性，所以这里有一段视频，展示高亮文本如何随着背景颜色变化而自适应。
 
 <video controls preload="metadata" style="max-width: 100%;">
   <source src="./assets/videos/screen-recording-2026-01-21.mov" type="video/quicktime" />
 </video>
+
+原视频地址： https://css-tricks.com/wp-content/uploads/2026/01/Screen-Recording-2026-01-21-at-10.28.07-AM.mov
 
 这里发生的事情是：我把容器的背景色转换成 RGB 格式，然后从每个通道（`r`、`g` 和 `b`）的最大值 `255` 中减去该通道的值。这样每个通道都会被“反相”，从而得到整体反相后的颜色。然后把这个颜色作为高亮背景色，就能保证它无论在什么背景上都足够显眼。并且多亏了新的 [CodePen slideVars](https://css-tricks.com/playing-with-codepen-slidevars/)，你可以在 demo 里随便调参数来观察效果。也许除了 RGB 之外还有别的颜色格式也能做到，但 RGB 最简单。
 
@@ -82,6 +73,8 @@ Demo（CodePen）：
 <video controls preload="metadata" style="max-width: 100%;">
   <source src="./assets/videos/highlights.mov" type="video/quicktime" />
 </video>
+
+原视频地址：https://css-tricks.com/wp-content/uploads/2026/01/highlights.mov
 
 ```css
 body {
@@ -122,18 +115,7 @@ body {
 }
 ```
 
-Demo（CodePen）：
-
-<iframe
-    height="480"
-    style="width: 100%;"
-    title="CodePen demo"
-    src="https://codepen.io/anon/embed/GgqWzax?default-tab=result"
-    loading="lazy"
-    allowtransparency="true"
-    allowfullscreen></iframe>
-
-链接地址：https://codepen.io/anon/pen/GgqWzax
+Demo（CodePen）：https://codepen.io/anon/pen/GgqWzax
 
 `::spelling-error` 和 `::grammar-error` 没有包含在这些示例里，因为它们有自己的视觉提示（分别是红色下划线和绿色下划线），并且通常是在类似 `<textarea>` 这样的可编辑元素的中性背景上显示。
 
