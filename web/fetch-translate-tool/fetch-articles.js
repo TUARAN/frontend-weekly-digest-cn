@@ -99,6 +99,24 @@ function getLongestCapture(html, patterns) {
   return longest;
 }
 
+function parseJinaMarkdownProxy(text, fallbackTitle = 'Untitled') {
+  if (typeof text !== 'string' || text.length === 0) return null;
+  const marker = 'Markdown Content:';
+  const idx = text.indexOf(marker);
+  if (idx === -1) return null;
+
+  const header = text.slice(0, idx);
+  const body = text.slice(idx + marker.length).trim();
+  if (!body) return null;
+
+  const titleMatch = header.match(/\bTitle:\s*(.+)\s*$/m);
+  const title = (titleMatch?.[1] || fallbackTitle).trim();
+
+  // Many sites return a generic title via the proxy; keep it but ensure a stable H1.
+  const markdown = `# ${title}\n\n${body}\n`;
+  return { markdown, title };
+}
+
 // 简单的 HTML 转 Markdown
 function htmlToMarkdown(html, baseUrl, options = {}) {
   const { downloadImages = false } = options;
@@ -270,9 +288,32 @@ async function processUrl(url, index, configOverride = {}) {
     
     // 转换为 Markdown
     console.log('  转换为 Markdown...');
-    const { markdown, images, title } = htmlToMarkdown(html, url, {
+    let { markdown, images, title } = htmlToMarkdown(html, url, {
       downloadImages: config.downloadImages,
     });
+
+    // 对于 SPA/JS 渲染页面，HTML 往往没有正文；提取结果会非常短。
+    // 这里做一个保守的兜底：内容过短则通过 jina.ai 的文本代理重试。
+    if ((markdown || '').trim().length < 800) {
+      try {
+        console.log('  内容过短，尝试使用 Jina 代理抓取...');
+        const proxyConfig = {
+          ...config,
+          // jina.ai 对部分浏览器 UA（例如 Chrome/120 这一串）会返回 403。
+          // 这里使用更“温和”的 UA 来提高命中率。
+          userAgent: 'Mozilla/5.0',
+        };
+        const jinaText = await httpGet(`https://r.jina.ai/http://${url}`, {}, proxyConfig);
+        const parsed = parseJinaMarkdownProxy(jinaText, title);
+        if (parsed?.markdown && parsed.markdown.trim().length > markdown.trim().length) {
+          markdown = parsed.markdown;
+          title = parsed.title;
+          images = [];
+        }
+      } catch (proxyError) {
+        // ignore proxy errors and continue with the original extraction
+      }
+    }
     
     // 生成安全的文件名
     const safeTitle = title
