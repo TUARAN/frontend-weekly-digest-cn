@@ -36,6 +36,7 @@
   - [JavaScript 框架——迈向 2026](./weekly/451/JavaScript框架——迈向2026/index.md)
   - [TanStack Start 的 Single Flight Mutations（Part 2）](./weekly/451/TanStack%20Start%20的%20Single%20Flight%20Mutations（Part%202）/index.md)
   - [一个月手搓 JavaScript runtime（Ant）](./weekly/451/一个月手搓%20JavaScript%20runtime/index.md)
+  - [我用一个月写了个 JavaScript 运行时](./weekly/451/%E6%88%91%E7%94%A8%E4%B8%80%E4%B8%AA%E6%9C%88%E5%86%99%E4%BA%86%E4%B8%AA%20JavaScript%20%E8%BF%90%E8%A1%8C%E6%97%B6/index.md)
 - [第450期（1月19日–1月25日）](./weekly/450/前端周刊第450期.md)
 
   - [Vercel 的 json-render：迈向生成式 UI 的一步](./weekly//450/Vercel的json-render：迈向生成式%20UI%20的一步.md)
