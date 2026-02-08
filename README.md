@@ -36,6 +36,7 @@
   - [JavaScript 框架——迈向 2026](./weekly/451/JavaScript框架——迈向2026/index.md)
   - [TanStack Start 的 Single Flight Mutations（Part 2）](./weekly/451/TanStack%20Start%20的%20Single%20Flight%20Mutations（Part%202）/index.md)
   - [一个月手搓 JavaScript runtime（Ant）](./weekly/451/一个月手搓%20JavaScript%20runtime/index.md)
+  - [TypeScript 中的 async/await 完全指南](./weekly/451/TypeScript%20%E4%B8%AD%E7%9A%84%20async/await%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/index.md)
 - [第450期（1月19日–1月25日）](./weekly/450/前端周刊第450期.md)
 
   - [Vercel 的 json-render：迈向生成式 UI 的一步](./weekly//450/Vercel的json-render：迈向生成式%20UI%20的一步.md)
