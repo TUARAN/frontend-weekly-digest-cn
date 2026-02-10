@@ -1,3 +1,7 @@
+原文：Is it scrolled? Is it not? Let's find out with CSS @container scroll-state() queries
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # 到底滚了没有？用 CSS @container scroll-state 查询判断
 
 [原文链接：Is it scrolled? Is it not? Let's find out with CSS @container scroll-state() queries](https://utilitybend.com/blog/is-it-scrolled-is-it-not-lets-find-out-with-css-container-scroll-state-queries)

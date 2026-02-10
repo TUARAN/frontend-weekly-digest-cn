@@ -1,6 +1,11 @@
-# Deno Deploy 正式可用（GA）
+原文：Deno Deploy Is GA
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://deno.com/blog/deno-deploy-is-ga
+# Deno Deploy 正式可用（GA）
+原文链接：https://deno.com/blog/deno-deploy-is-ga
+
+
 
 作者：Luca Casonato、Ryan Dahl、Andy Jiang
 

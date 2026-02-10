@@ -1,6 +1,11 @@
-# JS Bin 在 2026 年宕机
+原文：JS Bin down in 2026
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-- 原文：[JS Bin down in 2026](https://remysharp.com/2026/02/02/js-bin-down-in-2026)
+# JS Bin 在 2026 年宕机
+原文链接：https://remysharp.com/2026/02/02/js-bin-down-in-2026
+
+
 
 1 月 27 日，我收到了邮件通知：JS Bin 挂了。第二天，真实的人类用户开始问「怎么回事」。一直到 30 日晚上 11 点左右，最后一批问题才被解决。
 

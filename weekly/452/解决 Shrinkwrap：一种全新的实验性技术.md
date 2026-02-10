@@ -1,6 +1,11 @@
-# 解决 Shrinkwrap：一种全新的实验性技术
+原文：Shrinkwrap Solution
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://kizu.dev/shrinkwrap-solution/
+# 解决 Shrinkwrap：一种全新的实验性技术
+原文链接：https://kizu.dev/shrinkwrap-solution/
+
+
 
 本文介绍一种用于解决被认为“不可能”的 CSS 问题的新技巧：让包含自动换行内容的元素 实现真正的 shrinkwrap（紧贴包裹）。通过结合锚点定位（anchor positioning）与滚动驱动动画（scroll-driven animations），我们可以通过“测量内部内容”来调整元素 的外部尺寸。
 

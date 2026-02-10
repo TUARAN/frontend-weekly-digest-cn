@@ -1,6 +1,11 @@
-# Nice Select：把可定制的原生 `<select>` 玩到极致
+原文：Nice Select
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://nerdy.dev/nice-select
+# Nice Select：把可定制的原生 `<select>` 玩到极致
+原文链接：https://nerdy.dev/nice-select
+
+
 
 发布时间：2026-02-03
 

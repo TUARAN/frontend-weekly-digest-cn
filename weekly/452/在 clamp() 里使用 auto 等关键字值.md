@@ -1,3 +1,7 @@
+原文：How to use the "auto" value with clamp
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # 在 clamp() 里使用 auto 等关键字值
 
 [原文链接：How to use the "auto" value with clamp](https://css-tip.com/clamp-auto/)

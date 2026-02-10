@@ -1,3 +1,7 @@
+原文：Node.js 16 to 25 Benchmarks: How Performance Evolved Over Time
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # Node.js 16 到 25 的性能基准
 
 [原文链接：Node.js 16 to 25 Benchmarks: How Performance Evolved Over Time](https://www.repoflow.io/blog/node-js-16-to-25-benchmarks-how-performance-evolved-over-time)

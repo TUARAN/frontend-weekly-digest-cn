@@ -1,3 +1,7 @@
+原文：Measuring SVG rendering time
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # 测量 SVG 渲染时间
 
 [原文链接：Measuring SVG rendering time](https://www.phpied.com/measuring-svg-rendering-time/)

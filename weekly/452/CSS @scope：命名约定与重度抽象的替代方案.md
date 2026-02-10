@@ -1,3 +1,7 @@
+原文：CSS @scope: An Alternative To Naming Conventions And Heavy Abstractions
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # CSS @scope：命名约定与重度抽象的替代方案
 
 [原文链接：CSS @scope: An Alternative To Naming Conventions And Heavy Abstractions](https://www.smashingmagazine.com/2026/02/css-scope-alternative-naming-conventions/)

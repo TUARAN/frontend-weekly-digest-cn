@@ -1,3 +1,7 @@
+原文：React Compiler and why class objects can work against memoization
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # React Compiler 与类对象对 memoization 的影响
 
 [原文链接：React Compiler and why class objects can work against memoization](https://anita-app.com/blog/articles/react-compiler-and-why-class-objects-work-against-memoization.html)

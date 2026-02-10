@@ -1,6 +1,11 @@
-# Shadcn UI 采用指南：概览、示例与替代方案
+原文：Shadcn UI Adoption Guide
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://blog.logrocket.com/shadcn-ui-adoption-guide/
+# Shadcn UI 采用指南：概览、示例与替代方案
+原文链接：https://blog.logrocket.com/shadcn-ui-adoption-guide/
+
+
 
 更新说明：本文在 2026 年 2 月被作者/编辑复审更新，以覆盖 Shadcn UI 生态的近期变化（如 Shadcn Create、Blocks 与 Lift mode 等）。
 

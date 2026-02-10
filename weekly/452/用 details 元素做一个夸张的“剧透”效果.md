@@ -1,6 +1,11 @@
-# 用 `<details>` 元素做一个夸张的“剧透”效果
+原文：An Over The Top Spoiler Design With The Details Element
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://frontendmasters.com/blog/an-over-the-top-spoiler-design-with-the-details-element/
+# 用 `<details>` 元素做一个夸张的“剧透”效果
+原文链接：https://frontendmasters.com/blog/an-over-the-top-spoiler-design-with-the-details-element/
+
+
 
 作者：Chris Coyier
 

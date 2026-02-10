@@ -1,6 +1,11 @@
-# Angular 中的增量水合：构建“秒开且可交互”的 SSR 应用
+原文：Incremental Hydration In Angular Apps
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://www.syncfusion.com/blogs/post/incremental-hydration-in-angular-apps
+# Angular 中的增量水合：构建“秒开且可交互”的 SSR 应用
+原文链接：https://www.syncfusion.com/blogs/post/incremental-hydration-in-angular-apps
+
+
 
 ![增量水合封面图](https://www.syncfusion.com/blogs/wp-content/uploads/2026/01/Build-High%E2%80%91Performance-Angular-Apps-with-Incremental-Hydration.jpg)
 

@@ -1,6 +1,11 @@
-# ESLint v10.0.0 发布
+原文：ESLint v10.0.0 Released
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://eslint.org/blog/2026/02/eslint-v10.0.0-released/
+# ESLint v10.0.0 发布
+原文链接：https://eslint.org/blog/2026/02/eslint-v10.0.0-released/
+
+
 
 发布时间：2026-02-06（Release Notes）
 
@@ -204,4 +209,3 @@ ESLint v10.0.0 在加载 TypeScript 配置文件时，会因为已知兼容性�
 - 发布说明：https://eslint.org/blog/2026/02/eslint-v10.0.0-released/
 - 迁移指南：https://eslint.org/docs/latest/use/migrate-to-10.0.0
 - 配置查找 RFC：https://github.com/eslint/rfcs/tree/main/designs/2024-config-lookup-from-file
-

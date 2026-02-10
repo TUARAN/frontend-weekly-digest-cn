@@ -1,6 +1,11 @@
-# Remix vs Next.js vs SvelteKit：框架对比与选型
+原文：React Remix Vs Next JS Vs SvelteKit
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-原文：https://blog.logrocket.com/react-remix-vs-next-js-vs-sveltekit/
+# Remix vs Next.js vs SvelteKit：框架对比与选型
+原文链接：https://blog.logrocket.com/react-remix-vs-next-js-vs-sveltekit/
+
+
 
 编者按：本文在 2026 年 1 月更新，以反映 Remix 与 React Router v7 的合并、静态站点生成能力的演进、更现代的错误处理模式，以及最新的框架约定。
 

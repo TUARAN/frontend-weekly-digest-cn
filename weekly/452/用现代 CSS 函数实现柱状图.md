@@ -1,3 +1,7 @@
+原文：CSS Bar Charts Using Modern Functions
+翻译：TUARAN
+欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+
 # 用现代 CSS 函数实现柱状图
 
 [原文链接：CSS Bar Charts Using Modern Functions](https://css-tricks.com/css-bar-charts-using-modern-functions/)
