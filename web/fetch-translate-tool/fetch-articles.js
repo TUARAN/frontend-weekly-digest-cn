@@ -21,6 +21,12 @@ const DEFAULT_CONFIG = {
   timeout: 30000,
 };
 
+// OpenAI-compatible translation (optional)
+const LLM_BASE_URL = process.env.OPENAI_BASE_URL || '';
+const LLM_API_KEY = process.env.OPENAI_API_KEY || '';
+const LLM_MODEL = process.env.OPENAI_MODEL || '';
+const LLM_ENABLED = process.env.OPENAI_ENABLE_TRANSLATION === 'true';
+
 function resolveConfig(override = {}) {
   return {
     ...DEFAULT_CONFIG,
@@ -74,6 +80,120 @@ function httpGet(url, options = {}, config = DEFAULT_CONFIG) {
       });
     }).on('error', reject);
   });
+}
+
+function httpPostJson(url, body, options = {}, config = DEFAULT_CONFIG) {
+  return new Promise((resolve, reject) => {
+    const parsedUrl = new URL(url);
+    const protocol = parsedUrl.protocol === 'https:' ? https : http;
+
+    const payload = Buffer.from(JSON.stringify(body));
+    const requestOptions = {
+      method: 'POST',
+      headers: {
+        'User-Agent': config.userAgent,
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        'Content-Length': String(payload.length),
+        ...(options.headers || {}),
+      },
+      timeout: config.timeout,
+    };
+
+    const req = protocol.request(parsedUrl, requestOptions, (res) => {
+      const chunks = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => {
+        const text = Buffer.concat(chunks).toString('utf-8');
+        resolve({ statusCode: res.statusCode || 0, text });
+      });
+    });
+
+    req.on('error', reject);
+    req.on('timeout', () => {
+      req.destroy(new Error(`Request timeout: ${url}`));
+    });
+    req.write(payload);
+    req.end();
+  });
+}
+
+async function translateWithLLM(text, config = DEFAULT_CONFIG) {
+  if (!LLM_ENABLED || !LLM_BASE_URL || !LLM_API_KEY || !LLM_MODEL) return null;
+
+  const endpoint = `${LLM_BASE_URL.replace(/\/$/, '')}/chat/completions`;
+  const { statusCode, text: respText } = await httpPostJson(
+    endpoint,
+    {
+      model: LLM_MODEL,
+      messages: [
+        { role: 'system', content: 'You are a professional translator.' },
+        { role: 'user', content: text },
+      ],
+      temperature: 0.3,
+    },
+    {
+      headers: {
+        Authorization: `Bearer ${LLM_API_KEY}`,
+      },
+    },
+    {
+      ...config,
+      userAgent: config.userAgent,
+    }
+  );
+
+  if (statusCode < 200 || statusCode >= 300) {
+    throw new Error(`LLM request failed: HTTP ${statusCode} ${respText}`);
+  }
+
+  let data;
+  try {
+    data = JSON.parse(respText);
+  } catch {
+    throw new Error(`LLM response is not JSON: ${respText.slice(0, 300)}`);
+  }
+
+  const content = data && data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
+  return typeof content === 'string' ? content : null;
+}
+
+function splitMarkdown(markdown, maxChars = 6000) {
+  const blocks = String(markdown || '').split(/\n\n+/g);
+  const chunks = [];
+  let buffer = '';
+
+  for (const block of blocks) {
+    const next = buffer ? `${buffer}\n\n${block}` : block;
+    if (next.length <= maxChars) {
+      buffer = next;
+      continue;
+    }
+
+    if (buffer) chunks.push(buffer);
+    if (block.length > maxChars) {
+      chunks.push(block);
+      buffer = '';
+    } else {
+      buffer = block;
+    }
+  }
+
+  if (buffer) chunks.push(buffer);
+  return chunks;
+}
+
+async function translateMarkdown(markdown, config = DEFAULT_CONFIG) {
+  const chunks = splitMarkdown(markdown);
+  const translated = [];
+
+  for (const chunk of chunks) {
+    const prompt = `请把下面 Markdown 翻译成中文。要求：\n- 保留 Markdown 结构、链接、代码块、内联代码、列表与引用\n- 不要添加多余内容\n- 保留专有名词，必要时加括号中文释义\n\n${chunk}`;
+    const result = await translateWithLLM(prompt, config);
+    translated.push(result || chunk);
+  }
+
+  return translated.join('\n\n');
 }
 
 function toAbsoluteUrl(maybeRelativeUrl, baseUrl) {
@@ -315,6 +435,16 @@ async function processUrl(url, index, configOverride = {}) {
       }
     }
     
+    // 可选：翻译 Markdown（覆盖写回同一文件内容）
+    if (LLM_ENABLED && LLM_BASE_URL && LLM_API_KEY && LLM_MODEL) {
+      try {
+        console.log('  翻译为中文...');
+        markdown = await translateMarkdown(markdown, config);
+      } catch (e) {
+        console.warn(`  ⚠ 翻译失败（将保留原文）: ${e && e.message ? e.message : String(e)}`);
+      }
+    }
+
     // 生成安全的文件名
     const safeTitle = title
       .replace(/[^\w\s\u4e00-\u9fa5-]/g, '')
@@ -350,6 +480,11 @@ async function processUrl(url, index, configOverride = {}) {
 function readUrlsFromFile(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
+
+    // If this is a markdown/doc file, extract URLs from the whole content.
+    const extracted = extractUrlsFromMarkdown(content);
+    if (extracted && extracted.length) return extracted;
+
     return content
       .split('\n')
       .map(line => line.trim())
@@ -425,14 +560,68 @@ async function main() {
   const weeklyIndex = args.indexOf('--weekly');
   const issueIndex = args.indexOf('--issue');
   const downloadImages = args.includes('--download-images');
+  const translateOnlyIndex = args.indexOf('--translate-only');
+
+  const outIndex = args.indexOf('--out');
+  const imagesDirIndex = args.indexOf('--images-dir');
+  const outputDirOverride = outIndex !== -1 && args[outIndex + 1] && !args[outIndex + 1].startsWith('--')
+    ? path.resolve(args[outIndex + 1])
+    : null;
+  const imagesDirOverride = imagesDirIndex !== -1 && args[imagesDirIndex + 1] && !args[imagesDirIndex + 1].startsWith('--')
+    ? path.resolve(args[imagesDirIndex + 1])
+    : null;
 
   const useWeekly = args.length === 0 || weeklyIndex !== -1 || issueIndex !== -1;
   const issueFilter = issueIndex !== -1 ? args[issueIndex + 1] : null;
 
+  if (translateOnlyIndex !== -1) {
+    const targetDir = translateOnlyIndex !== -1 && args[translateOnlyIndex + 1] && !args[translateOnlyIndex + 1].startsWith('--')
+      ? path.resolve(args[translateOnlyIndex + 1])
+      : null;
+
+    if (!LLM_ENABLED || !LLM_BASE_URL || !LLM_API_KEY || !LLM_MODEL) {
+      console.error('错误: 未启用翻译。请设置 OPENAI_ENABLE_TRANSLATION=true，并提供 OPENAI_BASE_URL / OPENAI_API_KEY / OPENAI_MODEL');
+      process.exit(1);
+    }
+
+    const dirToTranslate = targetDir || outputDirOverride || DEFAULT_CONFIG.outputDir;
+    if (!fs.existsSync(dirToTranslate)) {
+      console.error(`错误: 目录不存在: ${dirToTranslate}`);
+      process.exit(1);
+    }
+
+    const files = fs.readdirSync(dirToTranslate)
+      .filter((f) => f.endsWith('.md'))
+      .filter((f) => !/^前端周刊第\d+期\.md$/.test(f));
+
+    if (!files.length) {
+      console.log(`未找到可翻译的 Markdown 文件: ${dirToTranslate}`);
+      return;
+    }
+
+    console.log(`开始翻译：${files.length} 个文件 -> ${dirToTranslate}`);
+    for (let i = 0; i < files.length; i += 1) {
+      const file = files[i];
+      const filePath = path.join(dirToTranslate, file);
+      try {
+        console.log(`[${i + 1}/${files.length}] 翻译: ${file}`);
+        const original = fs.readFileSync(filePath, 'utf-8');
+        const translated = await translateMarkdown(original, resolveConfig({ outputDir: dirToTranslate }));
+        fs.writeFileSync(filePath, translated);
+        console.log(`  ✓ 完成: ${file}`);
+      } catch (e) {
+        console.log(`  ✗ 失败: ${file} - ${e && e.message ? e.message : String(e)}`);
+      }
+    }
+
+    console.log('翻译任务完成');
+    return;
+  }
+
   if (useWeekly) {
     const weeklyPath = weeklyIndex !== -1 && args[weeklyIndex + 1] && !args[weeklyIndex + 1].startsWith('--')
       ? path.resolve(args[weeklyIndex + 1])
-      : path.resolve(__dirname, '..', 'weekly');
+      : path.resolve(__dirname, '..', '..', 'weekly');
 
     const issues = findWeeklyIssues(weeklyPath, issueFilter);
     if (issues.length === 0) {
@@ -501,20 +690,40 @@ async function main() {
   if (args.length === 0) {
     console.log('用法:');
     console.log('  node fetch-articles.js --weekly [weekly目录] [--issue 451] [--download-images]');
-    console.log('  node fetch-articles.js <链接文件路径>');
+    console.log('  node fetch-articles.js <链接文件路径> [--out 输出目录] [--images-dir 图片目录] [--download-images]');
     console.log('  node fetch-articles.js <URL1> <URL2> ... [--download-images]');
+    console.log('  node fetch-articles.js --translate-only [目录]  # 翻译目录下已抓取的 Markdown 文件');
     process.exit(1);
   }
 
   // 确保输出目录存在
-  ensureDirectoryExists(DEFAULT_CONFIG.outputDir);
+  const manualOutputDir = outputDirOverride || DEFAULT_CONFIG.outputDir;
+  const manualImagesDir = imagesDirOverride || path.join(manualOutputDir, 'images');
+  ensureDirectoryExists(manualOutputDir);
 
   let urls = [];
-  if (args.length === 1 && fs.existsSync(args[0])) {
-    console.log(`从文件读取链接: ${args[0]}`);
-    urls = readUrlsFromFile(args[0]);
+
+  // Extract positionals (exclude flags and their values)
+  const consumed = new Set();
+  const flagsWithValues = new Set(['--weekly', '--issue', '--out', '--images-dir']);
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i];
+    if (a.startsWith('--')) {
+      consumed.add(i);
+      if (flagsWithValues.has(a) && args[i + 1] && !args[i + 1].startsWith('--')) {
+        consumed.add(i + 1);
+        i += 1;
+      }
+    }
+  }
+  const positionals = args.filter((_, idx) => !consumed.has(idx));
+
+  const fileArg = positionals.length === 1 && fs.existsSync(positionals[0]) ? positionals[0] : null;
+  if (fileArg) {
+    console.log(`从文件读取链接: ${fileArg}`);
+    urls = readUrlsFromFile(fileArg);
   } else {
-    urls = args.filter(arg => /^https?:\/\//i.test(arg));
+    urls = positionals.filter(arg => /^https?:\/\//i.test(arg));
   }
 
   if (urls.length === 0) {
@@ -527,6 +736,8 @@ async function main() {
   const results = [];
   for (let i = 0; i < urls.length; i++) {
     const result = await processUrl(urls[i], i + 1, {
+      outputDir: manualOutputDir,
+      imagesDir: manualImagesDir,
       downloadImages,
     });
     results.push({ url: urls[i], ...result });

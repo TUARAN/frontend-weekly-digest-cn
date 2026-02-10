@@ -14,6 +14,7 @@
 - ✅ 自动处理重定向
 - ✅ 支持中文文件名
 - ✅ 零依赖（仅使用 Node.js 内置模块）
+- ✅ 可选：抓取后自动翻译为中文（OpenAI 兼容接口，需配置环境变量）
 
 ## 安装
 
@@ -88,6 +89,18 @@ https://example.com/article3
 node fetch-articles.js urls.txt
 ```
 
+也支持直接传入一个 Markdown（例如项目根目录的 temp.md），工具会自动从全文提取 URL：
+
+```bash
+node fetch-articles.js ../../temp.md
+```
+
+指定输出目录：
+
+```bash
+node fetch-articles.js ../../temp.md --out ../../weekly/452
+```
+
 如需下载图片到本地：
 
 ```bash
@@ -114,6 +127,23 @@ npm run weekly
 
 # 自定义命令
 npm run fetch urls.txt
+```
+
+## 可选：抓取后自动翻译（OpenAI 兼容）
+
+抓取脚本支持在本地通过 OpenAI 兼容接口把抓取到的 Markdown 自动翻译为中文。
+
+需要配置环境变量（不要提交到仓库）：
+
+- `OPENAI_BASE_URL`
+- `OPENAI_API_KEY`
+- `OPENAI_MODEL`
+- `OPENAI_ENABLE_TRANSLATION`（设为 `true` 才会启用）
+
+仅翻译某个目录下已抓取的 Markdown（不重新抓取）：
+
+```bash
+node fetch-articles.js --translate-only ../../weekly/452
 ```
 
 ## 输出结果
