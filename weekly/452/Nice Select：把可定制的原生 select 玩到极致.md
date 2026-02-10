@@ -1,9 +1,8 @@
-原文：Nice Select
+原文：[Nice Select](https://nerdy.dev/nice-select)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # Nice Select：把可定制的原生 `<select>` 玩到极致
-原文链接：https://nerdy.dev/nice-select
 
 
 

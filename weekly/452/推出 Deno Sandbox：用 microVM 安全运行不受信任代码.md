@@ -1,9 +1,8 @@
-原文：Introducing Deno Sandbox
+原文：[Introducing Deno Sandbox](https://deno.com/blog/introducing-deno-sandbox)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 推出 Deno Sandbox：用 microVM 安全运行不受信任代码
-原文链接：https://deno.com/blog/introducing-deno-sandbox
 
 
 

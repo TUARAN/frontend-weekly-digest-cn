@@ -1,10 +1,9 @@
-原文：Performance-Optimized Video Embeds with Zero JavaScript
+原文：[Performance-Optimized Video Embeds with Zero JavaScript](https://frontendmasters.com/blog/performance-optimized-video-embeds-with-zero-javascript/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 零 JavaScript 的性能优化视频嵌入
 
-[原文链接：Performance-Optimized Video Embeds with Zero JavaScript](https://frontendmasters.com/blog/performance-optimized-video-embeds-with-zero-javascript/)
 
 作者：Stefan Bauer
 

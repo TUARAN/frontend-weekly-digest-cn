@@ -1,10 +1,9 @@
-原文：Debugging with AI: Can It Replace an Experienced Developer?
+原文：[Debugging with AI: Can It Replace an Experienced Developer?](https://www.developerway.com/posts/debugging-with-ai)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 用 AI 调试：能取代资深开发者吗？
 
-[原文链接：Debugging with AI: Can It Replace an Experienced Developer?](https://www.developerway.com/posts/debugging-with-ai)
 
 作者：Nadia Makarevich
 

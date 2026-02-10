@@ -1,10 +1,9 @@
-原文：Reducing local dev time by 83%: Why we migrated off Next.js
+原文：[Reducing local dev time by 83%: Why we migrated off Next.js](https://www.inngest.com/blog/migrating-off-nextjs-tanstack-start)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 本地开发时间减少 83%：为何迁出 Next.js
 
-[原文链接：Reducing local dev time by 83%: Why we migrated off Next.js](https://www.inngest.com/blog/migrating-off-nextjs-tanstack-start)
 
 作者：Jacob Heric
 

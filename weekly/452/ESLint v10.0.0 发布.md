@@ -1,9 +1,8 @@
-原文：ESLint v10.0.0 Released
+原文：[ESLint v10.0.0 Released](https://eslint.org/blog/2026/02/eslint-v10.0.0-released/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # ESLint v10.0.0 发布
-原文链接：https://eslint.org/blog/2026/02/eslint-v10.0.0-released/
 
 
 

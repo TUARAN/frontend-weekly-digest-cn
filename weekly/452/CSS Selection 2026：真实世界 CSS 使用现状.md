@@ -1,10 +1,9 @@
-原文：The CSS Selection (2026 edition)
+原文：[The CSS Selection (2026 edition)](https://www.projectwallace.com/the-css-selection/2026)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # CSS Selection 2026：真实世界 CSS 使用现状
 
-[原文链接：The CSS Selection (2026 edition)](https://www.projectwallace.com/the-css-selection/2026)
 
 作者：Bart Veneman（Project Wallace）
 

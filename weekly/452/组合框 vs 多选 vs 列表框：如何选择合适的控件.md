@@ -1,10 +1,9 @@
-原文：Combobox vs. Multiselect vs. Listbox: How To Choose The Right One
+原文：[Combobox vs. Multiselect vs. Listbox: How To Choose The Right One](https://www.smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 组合框 vs 多选 vs 列表框：如何选择合适的控件
 
-[原文链接：Combobox vs. Multiselect vs. Listbox: How To Choose The Right One](https://www.smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/)
 
 作者：Vitaly Friedman
 

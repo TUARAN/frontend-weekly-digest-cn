@@ -1,9 +1,8 @@
-原文：Shrinkwrap Solution
+原文：[Shrinkwrap Solution](https://kizu.dev/shrinkwrap-solution/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 解决 Shrinkwrap：一种全新的实验性技术
-原文链接：https://kizu.dev/shrinkwrap-solution/
 
 
 

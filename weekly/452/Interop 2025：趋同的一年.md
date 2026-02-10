@@ -1,10 +1,9 @@
-原文：Interop 2025: A year of convergence
+原文：[Interop 2025: A year of convergence](https://webkit.org/blog/17808/interop-2025-review/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # Interop 2025：趋同的一年
 
-[原文链接：Interop 2025: A year of convergence](https://webkit.org/blog/17808/interop-2025-review/)
 
 作者：Nicole Sullivan
 

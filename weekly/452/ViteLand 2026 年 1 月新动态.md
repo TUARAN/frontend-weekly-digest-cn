@@ -1,10 +1,9 @@
-原文：What’s New in ViteLand — January 2026 Recap
+原文：[What’s New in ViteLand — January 2026 Recap](https://voidzero.dev/posts/whats-new-jan-2026)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # ViteLand 2026 年 1 月新动态
 
-[原文链接：What’s New in ViteLand — January 2026 Recap](https://voidzero.dev/posts/whats-new-jan-2026)
 
 本文回顾 Vite+、Vite、Vitest、Rolldown、Oxc 的项目更新，以及社区动态。
 

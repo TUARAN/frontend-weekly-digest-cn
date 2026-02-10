@@ -1,10 +1,9 @@
-原文：Implementing the Temporal proposal in JavaScriptCore
+原文：[Implementing the Temporal proposal in JavaScriptCore](https://blogs.igalia.com/compilers/2026/01/31/implementing-the-temporal-proposal-in-javascriptcore/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # 在 JavaScriptCore 中实现 Temporal 提案
 
-[原文链接：Implementing the Temporal proposal in JavaScriptCore](https://blogs.igalia.com/compilers/2026/01/31/implementing-the-temporal-proposal-in-javascriptcore/)
 
 作者：Tim Chevalier
 

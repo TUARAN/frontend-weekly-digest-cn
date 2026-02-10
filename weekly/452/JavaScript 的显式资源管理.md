@@ -1,10 +1,9 @@
-原文：Explicit resource management in JavaScript
+原文：[Explicit resource management in JavaScript](https://allthingssmitty.com/2026/02/02/explicit-resource-management-in-javascript/)
 翻译：TUARAN
-欢迎关注 {{前端周刊}}，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+欢迎关注 [{{前端周刊}}](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # JavaScript 的显式资源管理
 
-[原文链接：Explicit resource management in JavaScript](https://allthingssmitty.com/2026/02/02/explicit-resource-management-in-javascript/)
 
 （原文作者站点：allthingssmitty.com）
 
