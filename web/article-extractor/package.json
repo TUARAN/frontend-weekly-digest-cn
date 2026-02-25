@@ -1,0 +1,25 @@
+{
+  "name": "article-extractor-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start:server": "node server/index.js",
+    "start:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "multer": "^1.4.5-lts.1",
+    "p-limit": "^4.0.0",
+    "uuid": "^9.0.0",
+    "archiver": "^5.3.1",
+    "cross-env": "^7.0.3",
+    "https-proxy-agent": "^6.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

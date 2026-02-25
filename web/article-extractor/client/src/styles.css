@@ -1,0 +1,52 @@
+:root {
+  --bg: #ffffff;
+  --fg: #222;
+  --muted: #666;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.step-upload {
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 12px auto;
+  max-width: 980px;
+  width: 100%;
+}
+
+.step-confirm, .step-preview {
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+a { color: #2563eb; }
+
+.url-list { max-height: 240px; overflow: auto; }
+
+.preview { border: 1px solid #ddd; padding: 12px; background: #fff; }
