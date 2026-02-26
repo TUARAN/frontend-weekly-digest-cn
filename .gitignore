@@ -2,5 +2,5 @@
 .history
 /temp.md
 
-# Tool dependencies (do not commit)
-/tool/node_modules/
+# Dependencies (do not commit)
+node_modules/
