@@ -4,7 +4,7 @@
 
 # 用现代 CSS 打造响应式金字塔网格
 
-在[上一篇文章](https://css-tricks.com/responsive-hexagon-grid-using-modern-css/)中，我们构建了经典的六边形网格。那是一个无需媒体查询的响应式实现。当时的挑战是用现代 CSS 改进一种[五年前的方法](https://css-tricks.com/hexagons-and-beyond-flexible-responsive-grid-patterns-sans-media-queries/)。
+在[上一篇文章](https://css-tricks.com/responsive-hexagon-grid-using-modern-css/)里，我们构建了经典六边形网格：一个无需媒体查询的响应式实现。那篇文章的目标，是用现代 CSS 改进一种[五年前的方法](https://css-tricks.com/hexagons-and-beyond-flexible-responsive-grid-patterns-sans-media-queries/)。
 
 由于该技术使用了近期发布的新特性，包括 [corner-shape](https://css-tricks.com/almanac/properties/c/corner-shape/)、[sibling-index()](https://css-tricks.com/almanac/functions/s/sibling-index/) 和[单位除法](https://caniuse.com/mdn-css_types_calc_typed_division_produces_unitless_number)，目前仅限 Chrome 支持。
 
@@ -18,7 +18,7 @@ CodePen Embed Fallback
 
 为了更好地观察效果，请打开[演示的整页视图](https://codepen.io/t_afif/full/bNeYmwb)查看金字塔结构。在调整屏幕大小时，你会看到底部开始呈现出与上一篇文章中创建的网格类似的响应式行为！
 
-酷吧？这一切都是在没有任何媒体查询、JavaScript 或大量 hacky CSS 的情况下完成的。你可以添加任意数量的元素，一切都会自动完美调整。
+很有意思，对吧？这一切都不需要媒体查询、不需要 JavaScript，也不需要大量权宜式 CSS。你可以添加任意数量元素，布局会自动调整。
 
 在开始之前，建议你先阅读[上一篇文章](https://css-tricks.com/responsive-hexagon-grid-using-modern-css/)，如果你还没读过的话。我会跳过一些在那里已经解释过的内容，比如形状是如何创建的，以及我将在这里复用的一些公式。与上一篇文章类似，金字塔网格的实现是对[五年前方法](https://css-tricks.com/hexagons-and-beyond-flexible-responsive-grid-patterns-sans-media-queries/)的改进，所以如果你想比较 2021 年和 2026 年的实现，也可以查看那篇旧文章。
 
@@ -350,6 +350,8 @@ CodePen Embed Fallback
 
 ### 结论
 
-还记得我说过我们离完成网格只差一个属性吗？那个属性（`grid-column-start`）让我们花了整篇文章来讨论！这说明 CSS 已经 evolved，需要新的思维方式来使用。CSS 不再是一种你只需设置静态值的语言，比如 `color: red`、`margin: 10px`、`display: flex` 等。
+还记得我前面说“离完成只差一个属性”吗？就是 `grid-column-start`。结果我们几乎整篇都在讨论它。
 
-现在我们可以通过复杂计算定义动态行为。这是一个完整的思考过程：找公式、定义变量、创建条件等等。这并不是什么新鲜事，因为我在 2021 年就能做到同样的事情。然而，我们现在有了更强大的特性，使我们能够拥有更少 hacky 的代码和更灵活的实现。
+这也说明，CSS 的使用方式正在变化。它不再只是设置静态值（比如 `color: red`、`margin: 10px`、`display: flex`），我们现在可以借助计算、变量和条件来表达动态行为。
+
+这种思路并非全新——我在 2021 年也做过类似尝试——但今天我们有了更强的新特性，因此代码可以更干净、实现也更灵活。

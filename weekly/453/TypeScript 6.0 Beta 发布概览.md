@@ -1,58 +1,99 @@
-原文：[Announcing TypeScript 6.0 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/)
-翻译：TUARAN
-欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+> 原文：[Announcing TypeScript 6.0 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta/)
+> 翻译：TUARAN
+> 欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-# TypeScript 6.0 Beta 发布概览
+# TypeScript 6.0 Beta 发布说明（结构化整理翻译）
 
-TypeScript 6.0 作为一次「大版本号」更新，并不是完全推翻现有生态的重写，而是**在类型系统表达力、错误信息可读性、编译体验和与现代 JS 特性的对齐**上做了多处增强。  
-这篇官方博文从几个维度介绍了 6.0 Beta 的主要变化，以及它们对日常开发意味着什么。
+TypeScript 6.0 Beta 的官方文章按“新特性 + 破坏性变更/弃用 + 后续计划”组织。下面按原文章节顺序整理。
+
+## 主要新特性（原文标题）
+
+### Less Context-Sensitivity on `this`-less Functions
+
+对不使用 `this` 的函数，类型推断与上下文敏感性策略做了调整，减少不必要的上下文耦合。
+
+### Subpath Imports Starting with `#/`
+
+支持以 `#/` 开头的子路径导入写法（结合项目配置使用），用于更清晰地表达工程内模块路径。
+
+### Combining `--moduleResolution bundler` with `--module commonjs`
+
+对 `moduleResolution: bundler` 与 `module: commonjs` 的组合做了支持/改进，帮助部分工具链迁移场景。
+
+### The `--stableTypeOrdering` Flag
+
+新增 `--stableTypeOrdering` 开关，用于获得更稳定的类型排序表现（例如输出/比较场景更可预测）。
+
+### `es2025` option for `target` and `lib`
+
+`target` 与 `lib` 新增 `es2025` 选项。
+
+### New Types for `Temporal`
+
+加入对 `Temporal` 相关 API 的类型支持。
+
+### New Types for “upsert” Methods (a.k.a. `getOrInsert`)
+
+为“upsert”一类方法（如 `getOrInsert`）提供了新的类型定义支持。
+
+### `RegExp.escape`
+
+加入 `RegExp.escape` 的类型支持。
+
+### The `dom` lib Now Contains `dom.iterable` and `dom.asynciterable`
+
+`dom` 库现在包含 `dom.iterable` 与 `dom.asynciterable` 相关类型。
+
+## TypeScript 6.0 的 Breaking Changes 与弃用项
+
+原文在这一节下给出了分组。
+
+### Up-Front Adjustments
+
+这一组是建议先处理的迁移调整项。
+
+### Simple Default Changes
+
+默认行为有若干变化，其中明确列出的包括：
+
+- `rootDir` 现在默认是 `.`
+- `types` 现在默认是 `[]`
+
+### 弃用（Deprecated）项目
+
+原文列出了以下弃用项：
+
+- `target: es5`
+- `--downlevelIteration`
+- `--moduleResolution node`（也即 `node10`）
+- `module` 中的 `amd` / `umd` / `systemjs`
+- `--baseUrl`
+- `--moduleResolution classic`
+- `--esModuleInterop false` 与 `--allowSyntheticDefaultImports false`
+- `--alwaysStrict false`
+- `outFile`
+- namespace 的旧 `module` 语法
+- `imports` 上的 `asserts` 关键字
+- `no-default-lib` 指令
+
+另有一个行为变更：当存在 `tsconfig.json` 时，再在命令行直接指定文件会报错。
+
+## Preparing for TypeScript 7.0
+
+官方在 6.0 Beta 中也提前给出了对 7.0 的准备方向，建议团队尽早清理旧配置与弃用能力，降低后续升级成本。
+
+## What’s Next?
+
+下一步是继续收集 Beta 反馈、修复问题并推进正式版发布。
 
 ---
 
-## 更强的类型系统表达力
+## 迁移建议（实践向）
 
-6.0 引入和增强了一些有代表性的类型系统能力，用来更好地刻画真实代码中的模式：
+对现有项目，建议按以下顺序推进：
 
-- **改进的控制流分析**：在条件分支、循环与早返回场景下，编译器能更准确地推断变量是否已被赋值、是否为 `null` / `undefined`；  
-- **内置工具类型与内联推断增强**：在处理复杂泛型工具类型（如条件映射、联合分发）时，推断结果更加精确，能减少你为绕过编译器限制而写的「类型体操」；  
-- **对现代 JS 模式的更好支持**：包括装饰器、模块解析、`import` 形态等，让 TS 和最新的 ECMAScript 规范保持同步。
-
-整体感觉是：**原本需要「和编译器对抗」才能表达的类型，现在可以更自然地写出来**。
-
----
-
-## DX：错误信息与编辑器体验的改进
-
-这次版本在开发体验（DX）上也做了不少投入：
-
-- **更可读的错误提示**：在复杂泛型出错时，错误信息会尽量展示对你有用的那部分类型结构，而不是整棵类型树；  
-- **更智能的代码补全与重构建议**：依托改进后的控制流分析，编辑器内联提示更贴合真实运行时行为；  
-- 在某些场景下，编译器会主动给出「类型标注建议」，帮助你在边写代码的同时逐步增强类型信息，而不是「一次性补完」。
-
-这些改动对大型代码库尤为重要 —— **越是在复杂项目里，编译器越应该成为你的助手，而不是额外的负担**。
-
----
-
-## 与生态的兼容与迁移
-
-文章也特别强调了迁移与兼容性：
-
-- 大多数项目可以在少量改动下直接从 5.x 升级到 6.0 Beta；  
-- 对于可能破坏兼容的变更，官方给出了清单与对应的迁移指南（例如某些边界类型推断不再默默退化为 `any`）；  
-- 部分新能力可以通过编译选项渐进开启，让你在团队内部试点验证后再全面推广。
-
-从维护者角度看，这一版更像是「为接下来几年打基础」的版本：  
-既继续增强类型系统上限，又在错误信息与工具链上减轻日常使用成本。
-
----
-
-## 对前端团队的实际意义
-
-如果你正在维护中大型前端/Node.js 项目，升级到 TypeScript 6.0 带来的收益主要体现在：
-
-- 更可靠的类型收窄与控制流分析，有助于减少一类「本不该发生」的运行时错误；  
-- 更清晰的错误信息与编辑器提示，能降低新人上手成本，让类型系统不再显得晦涩；  
-- 与 ECMAScript 新特性更好地对齐，减少「TS 写法」和「原生 JS 写法」之间的割裂。
-
-建议的实践是：**先在非关键服务或内部工具项目上试点 6.0 Beta，观察错误信息与类型行为的变化，再在核心业务仓库中逐步推进升级**。
+1. 先在非核心仓库试点 6.0 Beta
+2. 优先处理默认值变化与已弃用选项
+3. 再处理 `module/moduleResolution` 等工具链敏感配置
+4. 最后统一清理历史配置，给 7.0 预留空间
 

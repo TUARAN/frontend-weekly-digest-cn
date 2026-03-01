@@ -1,61 +1,141 @@
-原文：[WebMCP: Making the web AI-agent ready](https://techhub.iodigital.com/articles/web-mcp-making-the-web-ai-agent-ready)
-翻译：TUARAN
-欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+> 原文：[WebMCP: Making the web AI-agent ready](https://techhub.iodigital.com/articles/web-mcp-making-the-web-ai-agent-ready)
+> 翻译：TUARAN
+> 欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
 # WebMCP：让 Web 为 AI Agent 准备就绪
 
-大模型和智能 Agent 崛起后，一个尖锐问题逐渐浮现：  
-**今天的大部分网站，是为「人」设计的，而不是为「Agent」设计的。**  
-HTML 结构、交互流程、登录与权限、API 接口等，都默认前端是浏览器 + 人类，而不是一个需要可靠操作网页的自动化代理。
+Web 正在变化。AI Agent 越来越多地代表用户与网站交互：订机票、提工单、下单购物。
 
-这篇文章介绍的 **WebMCP（Web Model Context Protocol）**，试图给出一个更系统的方案：  
-通过一套协议和实践，让网站可以**显式声明自身结构、能力与限制**，从而让 AI Agent 能够安全、可靠地与之协作，而不是依赖脆弱的 DOM 抓取和启发式行为。
+问题是：Web 天生是为人设计的，不是为 Agent 设计的。按钮、表单、可视化流程都面向“阅读与点击”，而不是面向稳定的程序化调用。
 
----
+[WebMCP](https://webmachinelearning.github.io/webmcp/) 试图解决这个问题。它于 2026 年 2 月 10 日以 [W3C Draft Community Group Report](https://webmachinelearning.github.io/webmcp/) 形式发布，目标是让网站具备“AI-agent ready”能力。
 
-## 问题现状：Agent 在「黑盒网页」里摸索
+## 什么是 WebMCP？
 
-作者首先总结了当前 Agent 操作网页时常见的痛点：
+WebMCP 全称 Web Model Context Protocol。它建立在 Anthropic 的 [MCP](https://modelcontextprotocol.io/) 之上，但把能力带到了浏览器侧。
 
-- **结构不稳定**：前端改个 className 或 DOM 层级，Agent 的「定位逻辑」就全盘失效；  
-- **语义信息缺失**：按钮、表单、链接没有明确的意图标注，Agent 很难判断点击的后果；  
-- **状态与权限不透明**：登录状态、节流/风控限制、操作副作用等，对 Agent 来说都几乎是黑盒；  
-- **缺少「安全护栏」**：网站很难限制 Agent 的行为范围（只读/只在沙箱环境写入等）。
+核心思想是：不要让 Agent 继续通过抓 DOM、猜按钮、模拟点击来“摸索”网站能力；而是由网站显式声明可用动作及调用方式。
 
-这导致目前的 Agent-Web 交互，大多停留在「高成本、易碎的自动化脚本」阶段，而不是一种可工程化、可演进的协作关系。
+这种声明形式是“工具（tools）”：
 
----
+- 用 JavaScript 函数实现
+- 带自然语言描述
+- 带结构化 schema
+- 可被 Agent 发现并调用
 
-## WebMCP 的核心理念：把「可操作性」变成第一原则
+可以把它理解成“浏览器内、基于现有会话上下文的可调用 API”。
 
-WebMCP 的设计目标可以简单概括为三点：
+## 两套 API
 
-1. **可发现（Discoverable）**：Agent 能够通过标准入口，了解站点支持哪些任务、数据和操作；  
-2. **可约束（Constrained）**：站点可以清晰地为 Agent 定义权限边界和资源配额；  
-3. **可演进（Evolvable）**：协议和声明是版本化的，网站可以在不破坏旧 Agent 的前提下演进。
+根据 Chrome for Developers 的介绍，WebMCP 提供两种方式让浏览器 Agent 代表用户执行动作。
 
-具体来说，WebMCP 引入了类似「能力描述文档」的概念，用来描述：
+### Declarative API
 
-- 支持的任务（Task）与对应输入输出；  
-- 可调用的 API 或页面操作，以及安全约束；  
-- 推荐的交互流程（例如表单提交、支付、状态变更等）。
+Declarative API 可以直接在 HTML 表单中定义标准动作。
 
-这些信息既可以通过 API 暴露，也可以与现有 HTML 结构结合，形成一种「对人和对 Agent 都友好」的双通道设计。
+适合“动作与表单提交天然一一对应”的场景，例如：搜索、结算、联系表单等。已有表单页面几乎不需要额外 JavaScript 就能对 Agent 可发现。
 
----
+### Imperative API
 
-## 对前端与产品设计的启示
+Imperative API 面向更复杂、动态的交互。
 
-从前端工程和产品角度看，WebMCP 的出现传递了一个重要信号：
+它的核心入口是 `navigator.modelContext`，通过 `ModelContextContainer` 注册工具。
 
-> Web 不是「对人类友好」和「对 Agent 友好」二选一，而是可以通过额外的结构化声明，让两者共存。
+## 一个实际示例
 
-这意味着在未来：
+假设你在做电商站点，希望 Agent 能代用户把商品加入购物车。可以这样注册工具：
 
-- 设计组件和页面时，除了考虑可访问性（a11y），还可以多问一句：**「这个流程对 Agent 是否也足够清晰？」**；  
-- 在后端/BFF 层，为 Agent 提供**更语义化、更稳定的接口**，而不是让它去解析真实用户页面；  
-- 在安全和合规上，通过 WebMCP 的约束声明，避免 Agent 误操作高风险功能。
+```js
+if ('modelContext' in navigator) {
+	navigator.modelContext.registerTool({
+		name: 'add_to_cart',
+		description: 'Add a product to the shopping cart by its product ID and a specified quantity',
+		inputSchema: {
+			type: 'object',
+			properties: {
+				productId: {
+					type: 'string',
+					description: 'The unique identifier of the product',
+				},
+				quantity: {
+					type: 'number',
+					description: 'The number of items to add',
+				},
+			},
+			required: ['productId', 'quantity'],
+		},
+		async execute({ productId, quantity }) {
+			const response = await fetch('/api/cart', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ productId, quantity }),
+			})
 
-对于想要提前拥抱「Agent 友好型 Web」的团队来说，WebMCP 是一个很值得持续跟进的方向：  
-它并非要求你立刻重写站点，而是提供了一条把现有系统渐进式对 Agent 开放的路径。
+			const result = await response.json()
+			return { success: true, cartTotal: result.total }
+		},
+	})
+}
+```
+
+这个示例对应四个关键部分：
+
+- `name`
+- 面向人的 `description`
+- 参数结构 `inputSchema`
+- 真正执行业务的 `execute`
+
+Agent 由此可以直接发现工具、理解能力、按 schema 传参调用，不再依赖“界面猜测”。
+
+## WebMCP 与 MCP 的区别
+
+文中给出的区分很直接：
+
+- **MCP**：更偏后端服务与 server-to-agent 通信
+- **WebMCP**：更偏浏览器内工具调用（用户在场）
+
+二者是互补关系。
+
+- 当 Agent 需要直连后端服务时，用 MCP
+- 当交互发生在浏览器并希望复用用户会话/登录态/上下文时，用 WebMCP
+
+## 典型使用场景
+
+文章列举了几个高价值场景：
+
+- **电商**：找商品、配规格、走结算流程
+- **旅游**：搜索与筛选航班、完成预订
+- **客服**：自动填充技术细节，辅助创建更完整工单
+
+本质上，只要网站存在可由用户执行的操作，就有机会暴露为 WebMCP 工具：表单密集型流程、仪表盘、预订系统、内容后台等都适用。
+
+## 落地前要考虑的事
+
+### 1) 还很早期
+
+截至 2026 年 2 月，WebMCP 仍处在 early preview，W3C 文档是社区草案而非正式标准，API 表面仍可能变化。
+
+### 2) 浏览器尚无原生支持
+
+文中指出，当前浏览器尚未原生支持 `navigator.modelContext`。
+
+[MCP-B](https://docs.mcp-b.ai/) 作为参考实现（兼 polyfill）可在浏览器中补充该 API，并把 WebMCP 工具桥接到 MCP 格式，以兼容现有 AI 框架。源码可见 [WebMCP-org](https://github.com/WebMCP-org)。
+
+### 3) 安全与用户同意
+
+WebMCP 工具运行在用户现有会话中，会继承当前认证与权限。这很方便，也意味着“暴露什么工具、授权给谁”必须慎重设计。规范中的安全与隐私章节值得完整阅读。
+
+## 结语
+
+WebMCP 的意义在于：为网站提供了一种结构化方式，把应用能力安全、清晰地暴露给 AI Agent。
+
+它让 Agent 从“脆弱 UI 自动化脚本”走向“应用能力的原生扩展”。
+
+虽然仍在早期阶段，但方向很明确：API 简单、可复用既有应用逻辑、且基于标准化路径推进。
+
+如果你想开始尝试，可以从以下入口入手：
+
+- [Early Preview Program](https://developer.chrome.com/blog/webmcp-epp)
+- [WebMCP 规范](https://webmachinelearning.github.io/webmcp/)
+- [MCP-B 文档](https://docs.mcp-b.ai/)
 

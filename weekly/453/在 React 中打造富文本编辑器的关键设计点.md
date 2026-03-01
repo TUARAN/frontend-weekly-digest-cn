@@ -2,94 +2,304 @@
 > 翻译：TUARAN
 > 欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-# 在 React 中打造富文本编辑器的关键设计点
+# 在 React 中构建富文本编辑器
 
-富文本编辑器看起来只是「一个能加粗/斜体/插入图片的输入框」，  
-但真正从零在 React 中实现时，你很快会发现它远比普通表单控件复杂得多。
+[富文本编辑](https://puckeditor.com/docs/integrating-puck/rich-text-editing)是现代 React 应用中的常见需求，但很少有“简单实现”的方案。允许用户使用标题、列表、强调等格式化能力，会带来状态管理、内容一致性和可维护性等方面的挑战。
 
-这篇文章基于作者构建 Puck Editor 的经验，总结了在 React 里设计富文本编辑器时需要注意的几个关键点：**数据模型、选区管理、渲染架构与可扩展性**。
+很多应用依赖原始 HTML 字符串，或者直接使用 [`contenteditable`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable)。这种方式一开始可能可行，但随着应用规模增长，经常会出现不可预测的行为。内容会变得更难校验、更难版本管理，在多用户或自动化系统参与时也更容易被破坏。
 
----
+更可靠的做法是把富文本视为结构化数据，而不是仅仅当作标记字符串。显式的内容模型能让应用更好地控制内容创建、渲染与扩展，同时也天然契合 React 声明式、状态驱动的模型。
 
-## 一、用什么数据结构来描述文档？
+本文将讨论：为什么在 React 里做富文本很难，结构化内容如何缓解这些问题，以及基于扩展机制的编辑器如何支持安全定制。文章还会通过 [Puck](https://puckeditor.com/) 的富文本编辑器给出一个循序渐进的示例来展示这些概念。
 
-作者首先讨论了「**文档数据模型**」的问题：
+## 为什么富文本在 React 中很难
 
-- 纯 HTML 字符串虽然直观，但在做撤销/重做、块级操作或协作编辑时非常笨重；  
-- 更推荐使用一种结构化的「节点树」模型，例如：
+富文本编辑与 React 应用设计中的一些核心原则存在冲突。很多传统方案依赖浏览器层 API，而不是显式的 React 状态；复杂度一上来就会更难控制。
 
-```ts
-type Node =
-  | { type: 'paragraph'; children: Node[] }
-  | { type: 'heading'; level: 1 | 2 | 3; children: Node[] }
-  | { type: 'text'; text: string; bold?: boolean; italic?: boolean }
-  | { type: 'list'; ordered: boolean; children: Node[] }
-  // ...
+- 许多实现依赖 `contentEditable` 和浏览器管理的 HTML 变更。这些行为发生在 React 状态模型之外，使编辑器行为更难推理。
+
+- 在没有显式内容模型的情况下渲染用户生成 HTML，会限制应用长期可靠地校验、转换和理解内容的能力，进而让 diff、版本管理和审计变得困难，尤其在协作编辑或高频编辑场景中更明显。
+
+- 很小的标记改动也可能轻易破坏布局，或违反设计与可访问性规则，而且应用本身并不会收到明确告警。
+
+- 仅有原始 HTML 并不表达“意图（intent）”，因此在缺乏额外结构和控制层时，它并不适合自动化转换、程序化编辑或 AI 驱动工作流。
+
+在实践中，很多编辑器对外暴露 HTML 接口，但内部维护的是结构化状态。核心问题并不在于“有没有 HTML”，而在于应用是否仍然掌握对 HTML 生成与演进过程的控制权与语义意图。
+
+## 为什么用 Puck 做富文本编辑
+
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688333/blog-1_oulzw2.png)
+
+[Puck 是一个面向 React 的开源可视化编辑器](https://puckeditor.com/)，团队可以基于自己的组件构建定制化页面编辑器。Puck 的核心就是一个 React 编辑器和一个渲染器，因此很容易接入任意 React 应用，并通过配置来定义编辑行为。
+
+- **Schema 驱动字段：**在 Puck 中，富文本通过显式字段 schema 定义，允许的结构和行为在应用层清晰且可强制执行。
+
+- **基于 TipTap：**Puck 的富文本编辑器由 [TipTap](https://tiptap.dev/docs) 驱动。TipTap 是一个广泛采用的编辑器引擎，以可扩展、状态驱动架构著称。
+
+- **可定制：**可以开启或关闭格式化选项、标题级别与编辑器能力。
+
+- **面向扩展设计：**可以通过扩展新增格式能力和行为，而不需要修改或 fork 编辑器核心。
+
+- **天然适配 React：**Puck 的配置模型与 [React 组件驱动方式](https://puckeditor.com/docs/integrating-puck/component-configuration)一致，使富文本编辑更易理解和维护。
+
+## 分步教程：使用 Puck 进行富文本编辑
+
+完整可运行示例位于这个 [GitHub 仓库](https://github.com/Studio1HQ/puck_demo_richtext)。建议你 clone 仓库并在本地运行，以便查看完整实现；或者按下文步骤从零搭建。
+
+在本地运行示例，请使用以下命令：
+
+```bash
+git clone https://github.com/Studio1HQ/puck_demo_richtext.git
+cd puck_demo_richtext
+npm install
+npm run dev
 ```
 
-优点是：
+然后访问 http://localhost:3000/edit 体验编辑器。
 
-- 更容易在逻辑层面做块级操作（比如整段移动、列表缩进）；  
-- 可以精确控制哪些节点允许嵌套在一起；  
-- 序列化/反序列化到 HTML、Markdown 或 JSON 变得更可控。
+### 1）安装并初始化 Puck
 
----
+如果你要把 Puck 接入现有项目，可以直接安装：
 
-## 二、选区（Selection）管理是核心难题
+```bash
+npm install @puckeditor/core
+```
 
-在富文本编辑器里，**选区状态几乎是最复杂的一块**：
+也可以通过官方 recipe 脚手架快速创建一个完整项目：
 
-- 用户的光标可能位于文本节点中间、两个块级节点之间，甚至跨越多个节点；  
-- 每次按键、鼠标操作、快捷键都可能改变选区；  
-- 工具栏按钮（加粗、列表、引用等）需要基于当前选区判断状态。
+```bash
+npx create-puck-app rich-text-demo
+cd rich-text-demo
+npm run dev
+```
 
-文章强调的几个实践点：
+服务启动后，`/edit` 用于编辑页面，`/` 用于查看渲染结果。
 
-- 不要完全依赖浏览器原生的 `contenteditable` 行为，而是为选区建立自己的抽象；  
-- 在 React 状态中只存「语义化」的选区（例如「第 N 段第 M 个字符到第 P 段第 Q 个字符」），  
-  再映射到 DOM 上；
-- 通过自定义 hook 或独立模块封装选区管理，避免它的复杂度污染整个组件树。
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688332/blog-2_v6v5og.png)
 
----
+Next.js 的 Puck recipe 通常包含：
 
-## 三、渲染架构：不要让编辑器变成「巨型组件」
+- **Editor**：可视化编辑界面，用于添加和编辑内容块。
+- **Renderer**：读取已保存数据并按同一套组件配置渲染出页面。
+- **配置驱动**：通过单一配置文件定义可用区块、字段类型和编辑行为，而不是手写大量编辑器逻辑。
 
-作者建议把编辑器拆成几层：
+本文聚焦编辑器配置及富文本行为定义，路由、持久化和部署细节会刻意简化。
 
-- **内容视图层**：负责根据文档节点树渲染出对应的 React 元素；  
-- **输入控制层**：监听键盘/鼠标事件，翻译成对文档模型的操作（插入、删除、包裹、拆分等）；  
-- **工具栏与插件层**：基于当前选区和文档状态，渲染出按钮、菜单、气泡工具条等。
+### 2）在 Puck 中添加富文本字段
 
-这样做的好处是：
+Puck 的富文本编辑是通过配置声明式实现的。你不需要手写 DOM 更新逻辑，也不需要自己维护选区状态；只需在组件定义里添加 `richtext` 类型字段。
 
-- 生命周期更清晰：文档更新 → 触发视图重渲染；  
-- 渐进式扩展更容易：新增一个「高亮」或「代码块」插件，只需扩展节点类型 + 渲染逻辑，而不必改动整个编辑器核心。
+下面是 `puck.config.tsx` 的基础示例（含一个对照用标题块 + 一个富文本块）：
 
----
+```tsx
+import type { Config } from "@puckeditor/core";
 
-## 四、可扩展性与插件系统
+type Props = {
+	HeadingBlock: { title: string };
+	RichTextBlock: { content: string };
+};
 
-一个实用的富文本编辑器，往往需要：
+export const config: Config<Props> = {
+	components: {
+		HeadingBlock: {
+			fields: {
+				title: { type: "text" },
+			},
+			defaultProps: {
+				title: "Heading",
+			},
+			render: ({ title }) => (
+				<div style={{ padding: 64 }}>
+					<h1>{title}</h1>
+				</div>
+			),
+		},
+		RichTextBlock: {
+			label: "Rich Text",
+			fields: {
+				content: {
+					type: "richtext",
+				},
+			},
+			render: ({ content }) => (
+				<div style={{ padding: 64, maxWidth: 700, margin: "0 auto" }}>
+					{content}
+				</div>
+			),
+		},
+	},
+};
 
-- 插入图片、视频、代码块、引用卡片等自定义块；  
-- 针对不同业务定制格式限制和快捷键；  
-- 与外部数据源（如 CMS、协作服务）集成。
+export default config;
+```
 
-作者建议在设计之初就考虑：
+要开启内联编辑，可在 `content` 字段上添加 `contentEditable: true`：
 
-- 为节点类型、按键映射、命令（Command）等预留扩展点；  
-- 用统一的「命令总线」来调度操作，而不是在各处散落 `setState`；  
-- 为插件定义清晰的生命周期钩子（初始化、渲染、销毁等）。
+```tsx
+RichTextBlock: {
+	fields: {
+		content: {
+			type: "richtext",
+			contentEditable: true,
+		},
+	},
+}
+```
 
----
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688332/blog-3_zs0o49.png)
 
-## 五、小结：把富文本编辑器当作一个「小型文档系统」
+内联编辑很适合简单改文案、快速微调，以及“在最终视觉上下文中直接编辑内容”的工作流。
 
-文章最后总结道：
+### 3）定制编辑器行为（Control）
 
-> 如果把富文本编辑器当成「一个大输入框」，实现一定会越来越难维护；  
-> 如果一开始就把它当作「一个小型文档系统」，用数据模型 + 状态机的方式思考，它反而会变得更可控。
+真实项目里，默认工具栏往往选项太多，容易造成内容风格不一致。多数团队需要“有限且明确”的格式能力，以保证可读性、可访问性和可维护性。
 
-在 React 里打造一个生产可用的富文本编辑器，并不是一蹴而就的事情，  
-但只要在数据模型、选区管理、渲染架构和可扩展性上做了合理设计，就可以在不牺牲 DX 的前提下，支撑起相当复杂的内容编辑体验。
+#### 关闭某个格式能力（以粗体为例）
+
+在 `content` 字段的 `options` 中配置：
+
+```tsx
+content: {
+	type: "richtext",
+	options: {
+		bold: false,
+	},
+}
+```
+
+这样会禁用粗体能力。
+
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688331/blog-4_gqnyxq.png)
+
+#### 限制标题级别（Structure）
+
+无限制地开放标题层级，往往会带来层级混乱与可访问性问题。很多应用只需要 H1、H2。
+
+```tsx
+content: {
+	type: "richtext",
+	options: {
+		heading: {
+			levels: [1, 2],
+		},
+	},
+}
+```
+
+应用后，编辑器只允许 H1/H2，其他级别会从界面移除，快捷键也不能再应用它们。
+
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688332/blog-5_vn6a3m.png)
+
+#### 自定义工具栏（UI Control）
+
+你可以重写富文本菜单栏，只暴露需要的控件：
+
+```tsx
+import { RichTextMenu } from "@puckeditor/core";
+
+content: {
+	type: "richtext",
+	renderMenu: () => (
+		<RichTextMenu>
+			<RichTextMenu.Group>
+				<RichTextMenu.Bold />
+			</RichTextMenu.Group>
+		</RichTextMenu>
+	),
+}
+```
+
+这会把默认工具栏替换成“仅含粗体”的最小菜单。
+
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688332/blog-6_xsdpzw.png)
+
+### 4）添加自定义扩展（Extensibility）
+
+现代富文本编辑器不应是“所有功能都塞进核心”的单体系统。更常见的做法是：核心保持轻量，能力通过扩展注入。
+
+Puck 的富文本基于 TipTap，因此可以通过配置注册扩展。下面以上标 `Superscript` 为例。
+
+先安装扩展：
+
+```bash
+npm install @tiptap/extension-superscript
+```
+
+在 `puck.config.tsx` 里注册：
+
+```tsx
+import Superscript from "@tiptap/extension-superscript";
+
+content: {
+	type: "richtext",
+	tiptap: {
+		extensions: [Superscript],
+	},
+}
+```
+
+这一步只是在“编辑器引擎层”启用了能力，用户界面还没有按钮。
+
+#### 通过自定义控件暴露扩展能力
+
+要让用户可用，需要把该能力接到工具栏上。通常通过 `selector` 暴露编辑器状态，再由 `renderMenu` 渲染对应控件。
+
+```tsx
+RichTextBlock: {
+	label: "Rich Text",
+	fields: {
+		content: {
+			type: "richtext",
+			tiptap: {
+				extensions: [Superscript],
+				selector: ({ editor }) => ({
+					isSuperscript: editor?.isActive("superscript"),
+					canSuperscript: editor?.can().chain().focus().toggleSuperscript().run(),
+				}),
+			},
+			renderMenu: ({ children, editor, editorState }) => (
+				<RichTextMenu>
+					{children}
+					<RichTextMenu.Group>
+						<RichTextMenu.Control
+							title="Superscript"
+							onClick={() => editor?.chain().focus().toggleSuperscript().run()}
+							active={editorState?.isSuperscript}
+							disabled={!editorState?.canSuperscript}
+						/>
+					</RichTextMenu.Group>
+				</RichTextMenu>
+			),
+		},
+	},
+}
+```
+
+![](https://res.cloudinary.com/die3nptcg/image/upload/v1769688333/blog-7_xfsmgb.png)
+
+这份配置把 Superscript 扩展和界面打通了：`selector` 提供“当前是否激活、当前能否执行”的状态，工具栏控件据此展示并响应交互。
+
+## 进一步探索（Further Exploration）
+
+你可以在这个示例基础上继续扩展：
+
+- 添加更多 TipTap 扩展
+- 增加更多编辑约束（options）
+- 试验不同工具栏布局
+- 接入持久化或协作能力
+
+## 关键结论（Key Takeaways）
+
+富文本编辑最稳妥的方式，是把它当成“结构化系统”，而不是“自由输入框”。通过有意图的内容建模、明确规则约束和配置式扩展，团队可以构建能随应用规模稳定演进的编辑器。
+
+Puck 与这种模式天然契合：它把结构化富文本引擎与配置驱动方式结合起来，且与现代 React 开发习惯一致。
+
+- **结构优先于无约束标记：**富文本应编码语义与层级，而不是只依赖浏览器托管 HTML。
+- **控制优先于放任自由：**编辑器应主动执行设计与内容规则，而非事后人工清理。
+- **通过配置扩展：**新增能力无需修改核心逻辑，风险更可控。
+- **关注点分离：**编辑行为、界面展示、最终渲染彼此解耦。
+
+可继续查看完整示例仓库，基于你自己的业务约束扩展编辑器：
+
+- https://github.com/Studio1HQ/puck_demo_richtext
 

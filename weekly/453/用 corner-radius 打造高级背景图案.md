@@ -2,69 +2,141 @@
 > 翻译：TUARAN
 > 欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-# 用 `corner-radius` 打造高级背景图案
+# 用 CSS `corner-shape` 制作背景图案
 
-这篇文章展示了一个看似「冷门」却充满潜力的 CSS 能力：**`corner-radius`**。  
-作者通过一系列示例说明：只用少量代码，就可以用它在背景里构建出细腻的几何图案、分隔带和装饰块，而不必依赖图片或复杂的 SVG。
+CSS 里的 `corner-shape` 属性能做出不少很酷的设计。提到 `corner-shape`，大家通常会想到这类效果：像复古票券那样向内裁切的角、科幻风切角、标签形状等等。
 
----
+`corner-shape` 提供了很多不错的基础关键字，比如 `round`（默认值）、`bevel`、`scoop`、`squircle`，以及[功能非常强的 `superellipse()`](https://frontendmasters.com/blog/understanding-css-corner-shape-and-the-power-of-the-superellipse/)。其实，用它做出有趣形状并不难，而且用途不只限于角落装饰。
 
-## `corner-radius` 能做什么？
+例如：做背景图案。
 
-与我们熟悉的 `border-radius` 不同，`corner-radius` 更偏向于「**控制角落形状**」本身，而不仅仅是让矩形四角变圆。  
-通过对不同角落设置半径与形状，可以实现：
+![](https://i0.wp.com/frontendmasters.com/blog/wp-content/uploads/2026/02/mgdkr_7X.png?resize=1024%2C522&ssl=1)
 
-- 局部圆角与非对称圆角；  
-- 像「切角卡片」一样的裁剪效果；  
-- 组合成波浪、斜分割、卡片叠层等视觉元素。
+**注意：**当浏览器不支持 `corner-shape` 时，我们可以选择保留，或者去掉由 `border-radius` 带来的默认圆角。
 
-这些效果在过去往往需要：
+可以使用 CSS 的 `@supports` 来处理：
 
-- 预制的位图或 SVG 背景；  
-- 或者在 DOM 中增加额外包装元素，再配合伪元素实现。
+```css
+@supports not (corner-shape: notch) {
+  /* 改用其他方案 */
+}
+```
 
-现在则可以更直接地通过 `corner-radius` 来描述。
+## `corner-shape` 属性
 
----
+`border-radius` 决定角的大小，`corner-shape` 决定角的形状。要得到目标样式，通常两个都需要。和 `border-radius` 一样，`corner-shape` 也会影响元素的边框与阴影。
 
-## 一些常见的图案套路
+它是以下四个属性的简写：
 
-作者给出了几个实用示例（这里抽象成思路而非一一抄代码）：
+- `corner-top-left-shape`
+- `corner-top-right-shape`
+- `corner-bottom-left-shape`
+- `corner-bottom-right-shape`
 
-- **卡片顶部的彩色条带**：  
-  用线性渐变或单色背景配合上侧的特殊角半径，做出「弧形标题区」或「标签页」效果；
+## 嵌入到背景里
 
-- **背景中的「浮动气泡」与「云朵」**：  
-  通过多个重叠层的 `corner-radius` 组合，模拟有机形状，而不必为每一种形态切图；
+技巧在这里。
 
-- **版心两侧的装饰块**：  
-  使用伪元素 + `corner-radius`，营造纸质杂志/卡片 UI 风格的边缘装饰。
+我们可以把 HTML 元素通过 SVG 以 data URL 的形式嵌入，从而把它变成 `background`。像这样：
 
-这些 demo 的共同点是：**在保证代码量很小的前提下，大幅提升了界面的「精致感」**。
+```css
+.element-with-the-background {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org"><foreignObject width="100%" height="100%"><div xmlns="http://www.w3.org/1999/xhtml">Styled HTML</div></foreignObject></svg>');
+}
+```
 
----
+上面 URL 中未包装的 SVG 部分如下：
 
-## 与现代 CSS 能力的组合：变量、容器与主题
+```xml
+<svg xmlns="http://www.w3.org">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">Styled HTML</div>
+  </foreignObject>
+</svg>
+```
 
-文章还展示了如何把 `corner-radius` 和其它现代 CSS 能力结合起来：
+核心做法是：先用 `corner-shape` 把元素做成想要的形状，再把这段标记放进背景的 data URL。
 
-- 使用自定义属性（CSS 变量）统一管理圆角大小和形状；  
-- 在不同主题（light/dark）或布局密度（紧凑/宽松）下切换角落风格；  
-- 配合容器查询，在小屏上使用更简洁的角形状，在大屏上解锁复杂装饰。
+## 形状
 
-这让 `corner-radius` 不再只是「静态美术效果」，而是设计系统的一部分：  
-**角落风格也能成为一种可配置的设计语言。**
+假设我们要基于一个带如下样式的 `<div>` 来做图案：
 
----
+```css
+background: red;
+width: 30px;
+aspect-ratio: 1;
+border-radius: 30%;
+corner-shape: superellipse(-3);
+```
 
-## 何时应该用 `corner-radius`？
+为了缩短 URL 中的代码长度，我们把这些样式都写成内联样式，直接放到要嵌入 SVG 的 `<div>` 上：
 
-作者的建议是：
+```xml
+<div style='background:red;width:30px;height:30px;corner-shape:superellipse(-3);border-radius:30%;'></div>
+```
 
-- 当你只想要一个「轻量的视觉细节」，又不想引入图片或 SVG 资源时；  
-- 当某个装饰形状需要跟随容器尺寸、主题或布局变化而自适应时；
-- 当你希望把 UI 的「角落风格」统一纳入设计系统，而不是每个组件各自为政时。
+这样四个角都会使用 `superellipse(-3)`（效果类似 scoop），角的尺寸由 `border-radius: 30%` 决定。
 
-如果你过去总是第一时间想到「切图 + 背景图像」，不妨在下个组件里尝试一次 `corner-radius` ——  
-你可能会惊讶于它在现代浏览器中的表现力，以及对代码和资源体积的友好程度。
+接下来把这个已设样式的 div 放进 SVG，再在 CSS 里通过 data URL 作为背景并配合标准背景属性进行重复：
+
+```css
+.pattern {
+  width: 150px;
+  aspect-ratio: 1;
+  background-size: 50px 50px;
+  background-position:left 10px top 10px;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><foreignObject width='30px' height='100%'><div xmlns='http://www.w3.org/1999/xhtml' style='background:deepskyblue;width:90%;aspect-ratio:1;corner-shape:superellipse(-1);border-radius:30%;'></div></foreignObject></svg>");
+  background-color: ghostwhite;
+  /* etc. */
+}
+```
+
+CodePen 嵌入回退
+
+### 不同设计 #1
+
+因为可以分别设置每个角，所以我们还能尝试完全不同的设计：
+
+```css
+border-top-left-radius: 12px;
+corner-top-left-shape: scoop;
+border-bottom-right-radius: 26px;
+corner-bottom-right-shape: notch;
+
+transform: rotate(-135deg) scale(0.8) translate(-3px);
+background: conic-gradient(red 265deg, blue 265deg);
+```
+
+这里仅设置了左上角和右下角，然后把整体旋转到想要的角度。
+
+CodePen 嵌入回退
+
+### 不同设计 #2
+
+我们也可以把边框与阴影一起用上：
+
+```css
+border-bottom-left-radius: 66%;
+corner-bottom-left-shape: notch;
+
+box-shadow: -26px 16px 0 6px blue;
+background: linear-gradient(to right, blue, deepskyblue);
+```
+
+左下角使用 notch，另外还加了一个向左偏移的蓝色阴影。
+
+CodePen 嵌入回退
+
+## 一个真实示例
+
+下面是一些示例图案。由于图案设计本身就是基于 HTML 与 CSS 来实现的，除了角形状之外，我们还可以结合 `transform`、渐变和滤镜等特性做出不同设计。
+
+这里作者把一个实体产品放在用这种方式创建的图案上。别忘了，这种方式给了我们对图案的编程式控制，因此改颜色、尺寸、重复方式等都很直接。
+
+CodePen 嵌入回退
+
+## 图库
+
+CodePen 嵌入回退
 

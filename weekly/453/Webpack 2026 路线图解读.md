@@ -1,71 +1,96 @@
-原文：[Webpack: Roadmap 2026](https://webpack.js.org/blog/2026-04-02-roadmap-2026/)
-翻译：TUARAN
-欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
+> 原文：[Webpack: Roadmap 2026](https://webpack.js.org/blog/2026-04-02-roadmap-2026/)
+> 翻译：TUARAN
+> 欢迎关注 [前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)，每周更新国外论坛的前端热门文章，紧跟时事，掌握前端技术动态。
 
-# Webpack 2026 路线图解读
+# Webpack 2026 路线图
 
-在 Vite、esbuild、Rspack、Rolldown 等新一代打包/构建工具层出不穷的今天，Webpack 仍然是大量成熟项目的基础设施。  
-这篇官方路线图文章，给出了 **Webpack 在 2026 年的演进方向**：一方面继续维护庞大的存量生态，另一方面在性能、架构和 DX 上做有针对性的升级。
+Webpack TSC 在文中表示：尽管新工具不断出现，Webpack 依然会继续作为稳定、可靠的构建工具持续演进。2026 年的重点不仅是维护现有能力，也包括为 Webpack 6 与多运行时未来做准备。
 
----
+## 2026 年重点方向
 
-## 目标一：稳定与长期维护
+### 1) `webpack#14893`：CSS 能力内建，减少插件依赖
 
-首先，团队明确了一个现实前提：  
-> Webpack 不再追求「成为所有人首选的新项目脚手架」，而是更加聚焦于「稳定支撑现有庞大生态」。
+目前已有 `experiments.css`，可以在不依赖 `mini-css-extract-plugin` 这类插件的情况下启用原生 CSS 支持。
 
-因此 2026 年路线图的第一层是「稳」：
+团队表示该能力已接近完成，计划先以实验特性继续收集反馈；到 Webpack 6 目标是转为非实验状态，相关插件在此任务上将不再是必需。
 
-- **持续修复长期遗留的边缘 bug**，尤其是和模块解析、Tree Shaking、Source Map 等相关的问题；  
-- **兼容性更新**：跟进 Node.js、浏览器目标、ECMAScript 新特性，保证 Webpack 仍能作为现代工具链的一部分工作；  
-- 为一些老旧插件/loader 提供迁移指引或替代方案，避免生态出现太多「无人维护但又被广泛使用」的组件。
+### 2) `webpack#6525`：`universal` target（跨运行时构建目标）
 
----
+目标是新增 `universal` target，让产物可运行于 Node、Web、Bun、Deno 等不同运行时。
 
-## 目标二：性能与资源利用
+即使项目里有 CommonJS，Webpack 也会进行包装，最终输出尽量走纯 ESM，以实现运行时无关。
 
-尽管很多新工具在冷启动和增量构建上拥有优势，Webpack 仍有不少可优化空间。路线图中提到的方向包括：
+这项工作已有明显进展，但仍需继续补齐：ESM 输出细节、CommonJS wrapper 完整性、缺失测试等。
 
-- **更高效的缓存策略**：改进持久化缓存与增量编译逻辑，减少「改一点点却重算半天」的情况；  
-- **并行与分布式构建**：在多核/多机环境中更好地利用资源，对大型单体仓库和多包仓库尤其重要；  
-- **分析与可观测性工具**：提供更好的 stats/分析接口，让你能更快找到构建瓶颈。
+### 3) TypeScript 直构建（无 loader）
 
-文章强调，这些优化更多是「聚焦在真实企业级项目上」：  
-不是为了在 Hello World benchmark 上赢过某个新工具，而是让实际的大型代码库在 Webpack 上跑得更顺畅。
+Webpack 5.105 已支持读取 TS 配置路径（减少 `tsconfig-paths-webpack-plugin` 依赖）。接下来要进一步推进：减少对 `ts-loader` 等 loader 的依赖，直接在 Webpack 内完成 TS 转译流程。
 
----
+### 4) `webpack#536`：HTML 作为入口点的内建支持
 
-## 目标三：与生态工具更好协作
+当前把 HTML 作为入口通常要依赖 `html-webpack-plugin`。路线图希望把这一常见能力并入核心（初期以实验形态），类似 CSS 的推进方式，长期目标是在 Webpack 6 里减少这类基础插件依赖。
 
-Webpack 团队也意识到，当下前端工具链已经不再是「单一 bundler 一统天下」，而是：
+### 5) Webpack Everywhere（Node / Deno / Bun / Web）
 
-- Dev Server、HMR、测试框架、打包器、Linter、类型检查、Monorepo 管理工具等协同工作的生态。
+目标是让 Webpack 本身在不同运行时中都能平滑运行，并逐步降低对 Node 内部能力与 `Buffer` 的耦合。
 
-因此路线图里还提到：
+文中还提到现实进展差异：例如 Deno/Bun 方向当前仍需完善测试与资产支持；同时计划增加站点 playground，用于验证 Webpack 在不同环境中的运行情况。
 
-- 提供更清晰的插件/loader API，方便生态工具与构建流程集成；  
-- 在导出统计信息、构建产物描述（Manifest）等方面做标准化，方便其他工具消费；  
-- 尽可能减少和其它工具（如 Jest/Vitest、Storybook 等）之间的重复配置。
+### 6) 评估 Lazy Barrel Optimization
 
----
+团队在评估类似 Rspack 的 lazy barrel 思路：对于 side-effect-free 的 barrel 文件，跳过未使用重导出模块的构建，从而降低大型工程里的无效构建成本。
 
-## 目标四：开发者体验与文档
+这属于“先评估再落地”的方向，意在吸收生态中已验证有效的优化策略。
 
-最后，文章也强调了 DX（Developer Experience）的重要性：
+### 7) 统一资源压缩能力（minimizer）
 
-- 梳理和更新官方文档，使之更贴近现代使用场景，而非停留在早期版本心智模型；  
-- 提供更多「真实项目模板」级别的示例，而不仅仅是最小可用配置；  
-- 改进错误信息和警告文案，帮助开发者更快定位问题所在。
+当前压缩通常依赖多插件协作（JS/CSS/HTML/JSON 各自一个）。路线图提出整合为更统一的 minimizer 方案，减少配置重复与维护成本。
 
----
+### 8) 优化开发体验（Dev Experience）
 
-## 小结：让 Webpack 成为靠谱的「长期资产」
+#### Dev Tooling
 
-综合来看，Webpack 2026 路线图传递的关键信号是：
+包括：
 
-- 对于已经深度绑定 Webpack 的大型项目，可以继续安心演进，而不是被迫「一次性重写工具链」；  
-- 与其纠结「要不要立刻迁到某个新工具」，不如先评估现有项目在 Webpack 上是否已经用上了缓存、分析、并行构建等能力；  
-- Webpack 本身也在主动适应多工具协作时代，而不是固守单体地位。
+- 合并 `webpack-dev-middleware` 与 `webpack-hot-middleware`
+- 从 dev-server 中抽离 overlay 并复用
+- 统一 overlay + WebSocket/EventSource 逻辑
+- 为 dev-server 增加插件支持
 
-如果你的团队手上有一两个「难以迁移的大型 Webpack 项目」，这份路线图值得作为中长期决策的参考背景。
+核心目标是降低维护复杂度，同时保留可扩展性。
+
+#### CLI 改进
+
+路线图提到会继续整理 CLI 包结构、重构 help/subcommand 逻辑，并提升易用性与可维护性（参考 `webpack-cli#4619`）。
+
+### 9) 文档准确性与一致性
+
+目标是从类型与 schema 自动生成 API / 配置文档，确保网站文档与真实行为同步（含新选项、废弃项、类型变化），缓解历史上的文档不一致问题。
+
+### 10) 社区与生态投入
+
+路线图把社区建设单列为重点，包括：
+
+- 持续内容输出（文章、演讲等）
+- 视觉与品牌资产建设（项目视觉物料、周边等）
+- GSoC 指导与维护者培养
+- 争取更多捐赠与赞助，增强可持续维护能力
+
+### 11) 多线程 API（探索中）
+
+受 `thread-loader` 启发，团队在探索更正式的多线程 API。该项仍处于设计/讨论阶段，目标是在保持易用与可维护的前提下提升大项目并行构建效率。
+
+### 12) 为 Webpack 6 做准备
+
+文章把很多方向都归拢到 Webpack 6 准备工作中，包括：
+
+- Core 与 Loader 改进（如把 `loader-runner` 进一步并入核心）
+- 提高测试覆盖和类型覆盖，减少 `any` / `unknown` 滥用
+- 增加 benchmark，并纳入 CI 做跨版本性能对比
+
+## 结语
+
+官方在文末强调：2026 的工作重点之一是提升项目可持续性（包括资金层面），并欢迎社区通过 Discord、邮件或联系 TSC 参与贡献。
+
+整体信号是：Webpack 在继续维护存量生态的同时，正在系统性为“跨运行时 + 更低配置成本 + Webpack 6”铺路。
 
