@@ -133,6 +133,8 @@ npm run fetch urls.txt
 
 抓取脚本支持在本地通过 OpenAI 兼容接口把抓取到的 Markdown 自动翻译为中文。
 
+> 默认不会调用翻译接口；只有显式传入 `--llm-translate` 时才会启用。
+
 需要配置环境变量（不要提交到仓库）：
 
 - `OPENAI_BASE_URL`
@@ -143,7 +145,7 @@ npm run fetch urls.txt
 仅翻译某个目录下已抓取的 Markdown（不重新抓取）：
 
 ```bash
-node fetch-articles.js --translate-only ../../weekly/452
+node fetch-articles.js --translate-only ../../weekly/452 --llm-translate
 ```
 
 ## 输出结果

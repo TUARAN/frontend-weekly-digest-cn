@@ -21,11 +21,63 @@ const DEFAULT_CONFIG = {
   timeout: 30000,
 };
 
+function loadEnvFile(filePath) {
+  if (!fs.existsSync(filePath)) return;
+  const content = fs.readFileSync(filePath, 'utf-8');
+  for (const rawLine of content.split('\n')) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith('#')) continue;
+
+    const eq = line.indexOf('=');
+    if (eq <= 0) continue;
+
+    const key = line.slice(0, eq).trim();
+    let value = line.slice(eq + 1).trim();
+    if (!key) continue;
+
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    if (process.env[key] === undefined) {
+      process.env[key] = value;
+    }
+  }
+}
+
+function bootstrapEnv() {
+  const candidates = [
+    path.join(__dirname, '.env'),
+    path.join(__dirname, '.env.local'),
+    path.join(__dirname, '..', '.env'),
+    path.join(__dirname, '..', '.env.local'),
+    path.join(__dirname, '..', '..', '.env'),
+    path.join(__dirname, '..', '..', '.env.local'),
+  ];
+
+  for (const file of candidates) {
+    loadEnvFile(file);
+  }
+}
+
+bootstrapEnv();
+
 // OpenAI-compatible translation (optional)
 const LLM_BASE_URL = process.env.OPENAI_BASE_URL || '';
 const LLM_API_KEY = process.env.OPENAI_API_KEY || '';
 const LLM_MODEL = process.env.OPENAI_MODEL || '';
 const LLM_ENABLED = process.env.OPENAI_ENABLE_TRANSLATION === 'true';
+
+function isLlmTranslationReady(enableByFlag = false) {
+  return Boolean(enableByFlag && LLM_ENABLED && LLM_BASE_URL && LLM_API_KEY && LLM_MODEL);
+}
+const TRANSLATION_PROMPT_FILE = path.join(__dirname, 'prompt.md');
+const TRANSLATION_WORKFLOW_PROMPT = fs.existsSync(TRANSLATION_PROMPT_FILE)
+  ? fs.readFileSync(TRANSLATION_PROMPT_FILE, 'utf-8').trim()
+  : '';
 
 function resolveConfig(override = {}) {
   return {
@@ -188,7 +240,7 @@ async function translateMarkdown(markdown, config = DEFAULT_CONFIG) {
   const translated = [];
 
   for (const chunk of chunks) {
-    const prompt = `请把下面 Markdown 翻译成中文。要求：\n- 保留 Markdown 结构、链接、代码块、内联代码、列表与引用\n- 不要添加多余内容\n- 保留专有名词，必要时加括号中文释义\n\n${chunk}`;
+    const prompt = `${TRANSLATION_WORKFLOW_PROMPT || '请把下面 Markdown 翻译成中文。'}\n\n---\n\n请翻译以下 Markdown 内容（逐段全译，不要摘要）：\n\n${chunk}`;
     const result = await translateWithLLM(prompt, config);
     translated.push(result || chunk);
   }
@@ -436,7 +488,7 @@ async function processUrl(url, index, configOverride = {}) {
     }
     
     // 可选：翻译 Markdown（覆盖写回同一文件内容）
-    if (LLM_ENABLED && LLM_BASE_URL && LLM_API_KEY && LLM_MODEL) {
+    if (isLlmTranslationReady(config.enableLlmTranslate)) {
       try {
         console.log('  翻译为中文...');
         markdown = await translateMarkdown(markdown, config);
@@ -561,6 +613,7 @@ async function main() {
   const issueIndex = args.indexOf('--issue');
   const downloadImages = args.includes('--download-images');
   const translateOnlyIndex = args.indexOf('--translate-only');
+  const enableLlmTranslate = args.includes('--llm-translate');
 
   const outIndex = args.indexOf('--out');
   const imagesDirIndex = args.indexOf('--images-dir');
@@ -579,8 +632,8 @@ async function main() {
       ? path.resolve(args[translateOnlyIndex + 1])
       : null;
 
-    if (!LLM_ENABLED || !LLM_BASE_URL || !LLM_API_KEY || !LLM_MODEL) {
-      console.error('错误: 未启用翻译。请设置 OPENAI_ENABLE_TRANSLATION=true，并提供 OPENAI_BASE_URL / OPENAI_API_KEY / OPENAI_MODEL');
+    if (!isLlmTranslationReady(enableLlmTranslate)) {
+      console.error('错误: 当前未启用接口翻译。请传入 --llm-translate，并设置 OPENAI_ENABLE_TRANSLATION=true、OPENAI_BASE_URL、OPENAI_API_KEY、OPENAI_MODEL');
       process.exit(1);
     }
 
@@ -606,7 +659,7 @@ async function main() {
       try {
         console.log(`[${i + 1}/${files.length}] 翻译: ${file}`);
         const original = fs.readFileSync(filePath, 'utf-8');
-        const translated = await translateMarkdown(original, resolveConfig({ outputDir: dirToTranslate }));
+        const translated = await translateMarkdown(original, resolveConfig({ outputDir: dirToTranslate, enableLlmTranslate }));
         fs.writeFileSync(filePath, translated);
         console.log(`  ✓ 完成: ${file}`);
       } catch (e) {
@@ -657,6 +710,7 @@ async function main() {
           outputDir: issueDir,
           imagesDir: issueImagesDir,
           downloadImages,
+          enableLlmTranslate,
         });
         issueResults.push({ url: urls[i], ...result });
 
@@ -690,9 +744,12 @@ async function main() {
   if (args.length === 0) {
     console.log('用法:');
     console.log('  node fetch-articles.js --weekly [weekly目录] [--issue 451] [--download-images]');
+    console.log('  node fetch-articles.js --weekly [weekly目录] [--issue 451] [--download-images] [--llm-translate]');
     console.log('  node fetch-articles.js <链接文件路径> [--out 输出目录] [--images-dir 图片目录] [--download-images]');
+    console.log('  node fetch-articles.js <链接文件路径> [--out 输出目录] [--images-dir 图片目录] [--download-images] [--llm-translate]');
     console.log('  node fetch-articles.js <URL1> <URL2> ... [--download-images]');
-    console.log('  node fetch-articles.js --translate-only [目录]  # 翻译目录下已抓取的 Markdown 文件');
+    console.log('  node fetch-articles.js <URL1> <URL2> ... [--download-images] [--llm-translate]');
+    console.log('  node fetch-articles.js --translate-only [目录] --llm-translate  # 翻译目录下已抓取的 Markdown 文件');
     process.exit(1);
   }
 
@@ -739,6 +796,7 @@ async function main() {
       outputDir: manualOutputDir,
       imagesDir: manualImagesDir,
       downloadImages,
+      enableLlmTranslate,
     });
     results.push({ url: urls[i], ...result });
 
