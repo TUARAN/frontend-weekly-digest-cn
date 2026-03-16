@@ -25,7 +25,35 @@
 
 ### 2026年
 
-- [第454期（2月16日–2月22日）](./weekly/454/前端周刊第454期.md) ⭐ **最新**
+- [第456期（3月2日–3月8日）](./weekly/456/前端周刊第456期.md) ⭐ **最新**
+
+  - [SPA vs 超媒体：真实负载下的性能对比](./weekly/456/SPA%20vs%20超媒体：真实负载下的性能对比.md)
+  - [前端内存泄漏：500 个仓库静态分析与五种场景基准研究](./weekly/456/前端内存泄漏：500%20个仓库静态分析与五种场景基准研究.md)
+  - [Popover API 还是 Dialog API：该怎么选？](./weekly/456/Popover%20API%20还是%20Dialog%20API：该怎么选？.md)
+  - [Popover API 入门](./weekly/456/Popover%20API%20入门.md)
+  - [用 NestJS 和 Google Gemini 构建 AI 聊天机器人](./weekly/456/用%20NestJS%20和%20Google%20Gemini%20构建%20AI%20聊天机器人.md)
+  - [七年迁移到 TypeScript：Patreon 的 11000 文件改造](./weekly/456/七年迁移到%20TypeScript：Patreon%20的%2011000%20文件改造.md)
+  - [2026 如何选择样式架构：Tailwind、UI Kit 还是 CSS-in-JS](./weekly/456/2026%20如何选择样式架构：Tailwind、UI%20Kit%20还是%20CSS-in-JS.md)
+  - [Anchor Positioning 最大的坑](./weekly/456/Anchor%20Positioning%20最大的坑.md)
+  - [在 CSS 中选中 html 的几种方式](./weekly/456/在%20CSS%20中选中%20html%20的几种方式.md)
+  - [用 CSS 实现折角效果](./weekly/456/用%20CSS%20实现折角效果.md)
+  - [实验：用 View Transitions 动画化 CSS position-area](./weekly/456/实验：用%20View%20Transitions%20动画化%20CSS%20position-area.md)
+  - [不用 JavaScript 实现里程表滚动效果](./weekly/456/不用%20JavaScript%20实现里程表滚动效果.md)
+  - [用 CSS 画出 x86 CPU](./weekly/456/用%20CSS%20画出%20x86%20CPU.md)
+  - [不止模糊：CSS backdrop-filter 快速指南](./weekly/456/不止模糊：CSS%20backdrop-filter%20快速指南.md)
+  - [在 JavaScript 中安全解析 JSON](./weekly/456/在%20JavaScript%20中安全解析%20JSON.md)
+  - [理解 ToggleEvent.source 与 dialog.closedBy](./weekly/456/理解%20ToggleEvent.source%20与%20dialog.closedBy.md)
+  - [今天就能用的外部 import maps](./weekly/456/今天就能用的外部%20import%20maps.md)
+  - [面向下一个十亿用户的 Next.js：为高延迟市场优化](./weekly/456/面向下一个十亿用户的%20Next.js：为高延迟市场优化.md)
+  - [React 用 Activity 组件重塑流媒体交互](./weekly/456/React%20用%20Activity%20组件重塑流媒体交互.md)
+  - [React 基金会独立了，但 Meta 还没完全放手](./weekly/456/React%20基金会独立了，但%20Meta%20还没完全放手.md)
+  - [Pinia Colada：Vue 的数据获取层](./weekly/456/Pinia%20Colada：Vue%20的数据获取层.md)
+  - [Angular 21 SSR 本地开发：变化、故障与修复](./weekly/456/Angular%2021%20SSR%20本地开发：变化、故障与修复.md)
+  - [单例还是不是？正确理解 Angular Service](./weekly/456/单例还是不是？正确理解%20Angular%20Service.md)
+
+- [第455期（2月23日–3月1日）](./weekly/455/前端周刊第455期.md)
+
+- [第454期（2月16日–2月22日）](./weekly/454/前端周刊第454期.md)
 
 - [第453期（2月9日–2月15日）](./weekly/453/前端周刊第453期.md)
 
