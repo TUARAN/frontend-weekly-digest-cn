@@ -7,9 +7,6 @@ interface WeeklyCardProps {
 }
 
 export default function WeeklyCard({ post }: WeeklyCardProps) {
-  // Extract a brief summary or description if possible, otherwise just show title
-  // For now, we just show title and a "Read more" link
-  
   return (
     <Link 
       href={`/weekly/${post.slug}`}
@@ -32,8 +29,12 @@ export default function WeeklyCard({ post }: WeeklyCardProps) {
           {post.title}
         </h3>
         
+        <p className="text-sm leading-6 text-gray-600 dark:text-gray-400">
+          查看本期原始周刊内容，继续浏览当周收录的文章与链接。
+        </p>
+
         <div className="flex items-center text-sm font-medium text-blue-600 dark:text-blue-400">
-          阅读周刊
+          进入本期
           <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </div>
       </div>

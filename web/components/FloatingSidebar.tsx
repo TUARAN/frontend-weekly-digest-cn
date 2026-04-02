@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { ChevronRight, ChevronDown, History } from 'lucide-react';
 import { WeeklyMenuItem } from '@/lib/weekly';
 import { cn } from '@/lib/utils';
@@ -11,11 +12,6 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
   const isYear = item.path === '#';
   const [expanded, setExpanded] = useState(isYear);
   const hasChildren = item.children && item.children.length > 0;
-
-  const handleToggle = (e: React.MouseEvent) => {
-    e.preventDefault();
-    setExpanded(!expanded);
-  };
 
   return (
     <li className="mb-1">
@@ -98,27 +94,36 @@ const SidebarItem = ({ item, isOpen }: { item: WeeklyMenuItem; isOpen: boolean }
 
 export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
   const [isOpen, setIsOpen] = useState(true);
+  const pathname = usePathname();
+
+  if (pathname === '/') {
+    return null;
+  }
 
   return (
-    <aside className="fixed right-4 top-1/2 z-40 hidden -translate-y-1/2 xl:block">
+    <aside
+      className={cn(
+        "hidden shrink-0 border-l border-gray-200 bg-white/70 transition-[width] duration-300 dark:border-gray-800 dark:bg-gray-950/40 xl:block",
+        isOpen ? "w-56" : "w-20"
+      )}
+    >
       <div 
         className={cn(
-          "relative flex flex-col rounded-2xl border border-gray-200 bg-white/95 shadow-xl backdrop-blur-md transition-all duration-500 cubic-bezier(0.4, 0, 0.2, 1) dark:border-gray-800 dark:bg-gray-950/95 overflow-hidden",
-          isOpen ? "w-48" : "w-16"
+          "sticky top-16 flex max-h-[calc(100vh-4rem)] flex-col overflow-hidden backdrop-blur-md transition-all duration-300"
         )}
       >
         {/* Header / Toggle Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className={cn(
-            "flex w-full items-center transition-colors hover:bg-gray-50 dark:hover:bg-gray-900/50 outline-none",
-            isOpen ? "h-12 justify-between px-4 border-b border-gray-100 dark:border-gray-800" : "h-12 justify-center"
+            "flex w-full items-center border-b border-gray-200/80 outline-none transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-900/50",
+            isOpen ? "min-h-14 justify-between px-4 py-3" : "h-14 justify-center"
           )}
           aria-label={isOpen ? "收起导航" : "展开导航"}
         >
            {isOpen ? (
              <>
-               <div className="flex items-center gap-2 text-sm font-bold text-gray-900 dark:text-white">
+               <div className="flex items-center gap-2 py-0.5 text-sm font-bold leading-none text-gray-900 dark:text-white">
                  <History className="h-4 w-4" />
                  <span>周刊合集</span>
                </div>
@@ -131,10 +136,10 @@ export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
 
         {/* List */}
         <div className={cn(
-          "transition-all duration-500 ease-in-out bg-transparent",
-          isOpen ? "max-h-[70vh] opacity-100" : "max-h-0 opacity-0"
+          "flex-1 overflow-hidden transition-all duration-300 ease-in-out bg-transparent",
+          isOpen ? "opacity-100" : "opacity-100"
         )}>
-          <div className="overflow-y-auto max-h-[70vh] p-2 custom-scrollbar">
+          <div className="custom-scrollbar h-full overflow-y-auto p-2">
             <ul className="space-y-1">
               {menu.map((item) => (
                 <SidebarItem key={`${item.path}::${item.title}`} item={item} isOpen={isOpen} />

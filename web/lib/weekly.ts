@@ -129,6 +129,16 @@ function resolveRepoMarkdownPathFromLink(link: string): string {
   return withoutTrailingSlash;
 }
 
+function decodeLinkSafely(link: string): string {
+  const escapedBarePercents = link.replace(/%(?![0-9A-Fa-f]{2})/g, '%25');
+
+  try {
+    return decodeURIComponent(escapedBarePercents).normalize('NFC');
+  } catch {
+    return link.normalize('NFC');
+  }
+}
+
 export interface WeeklyPost {
   slug: string;
   title: string;
@@ -182,15 +192,7 @@ export function getWeeklyMenu(): WeeklyMenuItem[] {
     if (!match) continue;
     
     const rawTitle = match[1];
-    let link = match[2];
-    try {
-        // Decode URI component to handle %20 etc.
-        link = decodeURIComponent(link);
-        // Normalize to NFC to ensure consistency with file system and URL
-        link = link.normalize('NFC');
-    } catch (e) {
-        console.error('Error decoding link:', link, e);
-    }
+    const link = decodeLinkSafely(match[2]);
     
     if (!isIndented) {
       // It's an issue

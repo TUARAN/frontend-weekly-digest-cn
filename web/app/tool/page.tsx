@@ -121,17 +121,17 @@ export default function ToolPage() {
     <div className="container mx-auto px-4 py-8 md:px-6 lg:py-12">
       <div className="mx-auto max-w-5xl space-y-8">
         <section className="rounded-2xl border border-gray-200 bg-white/80 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950/70">
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">批量链接解析工具</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">周刊抓取与翻译工作台</h1>
           <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-            支持从 weekly 周刊 Markdown 自动提取链接，或手动粘贴 URL 列表。默认保留图片外链；如需下载图片到本地可手动勾选。
+            从周刊 Markdown 或手工 URL 列表批量抽取原始信号，进入结构化抓取、清洗与后续 AI 处理流程。
           </p>
           <p className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-            本页面为在线版入口，本地运行工具位于 web/fetch-translate-tool/。
+            在线入口对应本地工具链位于 `web/fetch-translate-tool/`，适合沉淀为后续情报生产流水线。
           </p>
           <div className="mt-4 rounded-xl border border-dashed border-blue-200 bg-blue-50/60 p-4 text-sm text-blue-900 dark:border-blue-900/40 dark:bg-blue-900/20 dark:text-blue-100">
-            <p className="font-medium">提示：</p>
+            <p className="font-medium">工作原则</p>
             <p className="mt-1">
-              抓取与 AI 翻译只是辅助，最终质量依赖人工 Review。更好的译文应体现个性化观点、故事化表达与上下文补充，避免机械直译。
+              抓取、翻译、摘要、标签生成都只是中间层。最终目标不是产出更多文本，而是沉淀可复用的事实、结论、风险与行动建议。
             </p>
           </div>
 
@@ -141,10 +141,10 @@ export default function ToolPage() {
               <input
                 value={issue}
                 onChange={(event) => setIssue(event.target.value)}
-                placeholder="例如 451（留空则处理全部）"
+                placeholder="例如 458（留空则处理全部）"
                 className="w-56 rounded-lg border border-gray-200 bg-white px-3 py-2 text-gray-900 shadow-sm focus:border-blue-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
               />
-              <span className="text-xs text-gray-500 dark:text-gray-400">留空会处理全部期数</span>
+              <span className="text-xs text-gray-500 dark:text-gray-400">留空会回扫全部期数，适合批量补齐结构化数据</span>
             </div>
 
 
@@ -162,9 +162,9 @@ export default function ToolPage() {
             </div>
 
             <div className="rounded-xl border border-dashed border-gray-200 bg-gray-50/70 p-4 text-sm text-gray-700 dark:border-gray-800 dark:bg-gray-900/40 dark:text-gray-200">
-              <div className="font-medium">AI 翻译（预留）</div>
+              <div className="font-medium">AI Agent 处理（预留）</div>
               <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
-                在线运行时将支持接入大模型翻译，此处先预留配置。当前仅抓取与整理，不会实际调用模型。
+                后续这里会接入摘要、翻译、标签分类、趋势归因与面试知识映射。目前先保留模型配置，当前仅执行抓取与整理。
               </p>
               <div className="mt-3 grid gap-3 md:grid-cols-2">
                 <div>
@@ -194,7 +194,7 @@ export default function ToolPage() {
                 disabled={!canStart}
                 className="rounded-full bg-blue-600 px-6 py-2 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-blue-400"
               >
-                开始抓取与翻译
+                开始处理信号
               </button>
               <button
                 type="button"
