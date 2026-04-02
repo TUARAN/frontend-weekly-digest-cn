@@ -67,3 +67,29 @@ body {
   animation: breathing 2.8s ease-in-out infinite;
   will-change: transform;
 }
+
+@keyframes signal-marquee-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes signal-marquee-down {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.signal-track {
+  animation: signal-marquee-up 28s linear infinite;
+}
+
+.signal-track-reverse {
+  animation-name: signal-marquee-down;
+}
