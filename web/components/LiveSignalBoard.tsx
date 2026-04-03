@@ -21,6 +21,14 @@ const signals: SignalItem[] = [
     href: 'https://anygen.io/home',
     time: '刚刚',
   },
+  {
+    topic: 'AI Agent',
+    title: 'Claude Code 原理可视化站点上线，Agent Loop 动画讲得很直观',
+    summary: '这个交互式网页把 Claude Code 的 agent loop、工具系统和多 Agent 编排拆开讲清楚了，重点是动画和点击式探索明显比 PDF 教程更容易看懂，也更适合反复对照理解。',
+    source: 'Claude Code Unpacked',
+    href: 'https://ccunpacked-zh.pages.dev/',
+    time: '6 分钟前',
+  },
 ];
 
 function SignalCard({ item }: { item: SignalItem }) {
