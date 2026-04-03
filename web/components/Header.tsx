@@ -28,6 +28,7 @@ export default function Header({ weeklyHref }: HeaderProps) {
             >
               AI情报站
             </Link>
+            <span className="select-none text-gray-300 dark:text-gray-700">|</span>
             {weeklyHref ? (
               <a
                 href={weeklyHref}

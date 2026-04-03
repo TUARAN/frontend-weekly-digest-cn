@@ -51,7 +51,23 @@
 
 ### 2026年
 
-- [第458期（3月16日–3月22日）](./weekly/458/前端周刊第458期.md) ⭐ **最新**
+- [第459期（3月23日–3月29日）](./weekly/459/前端周刊第459期.md) ⭐ **最新**
+
+  - [Chrome 147：元素级 View Transitions 来了](./weekly/459/Chrome%20147：元素级%20View%20Transitions%20来了.md)
+  - [更多网站支持自动进入视频画中画](./weekly/459/更多网站支持自动进入视频画中画.md)
+  - [三月 Web 平台新动态](./weekly/459/三月%20Web%20平台新动态.md)
+  - [Deno Sandbox：内建、零配置的安全访问](./weekly/459/Deno%20Sandbox：内建、零配置的安全访问.md)
+  - [支撑下一个十亿开发者的工具](./weekly/459/支撑下一个十亿开发者的工具.md)
+  - [Chrome 146 DevTools 新变化](./weekly/459/Chrome%20146%20DevTools%20新变化.md)
+  - [Shadow DOM Focus Delegation：把 delegatesFocus 用对](./weekly/459/Shadow%20DOM%20Focus%20Delegation：把%20delegatesFocus%20用对.md)
+  - [告别 innerHTML，迎接 setHTML](./weekly/459/告别%20innerHTML，迎接%20setHTML.md)
+  - [State of JavaScript 2025：TypeScript 统治力继续巩固](./weekly/459/State%20of%20JavaScript%202025：TypeScript%20统治力继续巩固.md)
+  - [两个圆、一个箭头与 Anchor Positioning](./weekly/459/两个圆、一个箭头与%20Anchor%20Positioning.md)
+  - [用 Details 和 @scope 做钻取菜单](./weekly/459/用%20Details%20和%20@scope%20做钻取菜单.md)
+  - [Anchor Positioning 最大的坑](./weekly/459/Anchor%20Positioning%20最大的坑.md)
+  - [Motion Highlights #17 动效精选](./weekly/459/Motion%20Highlights%20%2317%20动效精选.md)
+
+- [第458期（3月16日–3月22日）](./weekly/458/前端周刊第458期.md)
 
   - [原生 JSON Modules 终于成真](./weekly/458/原生%20JSON%20Modules%20终于成真.md)
   - [用 Webflow、GSAP 和 Three.js 构建无缝 3D 转场](./weekly/458/用%20Webflow、GSAP%20和%20Three.js%20构建无缝%203D%20转场.md)

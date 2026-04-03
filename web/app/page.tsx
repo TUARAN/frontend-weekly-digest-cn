@@ -56,19 +56,19 @@ export default function Home() {
         {focusAreas.map(({ title, description, icon: Icon, ctaLabel, ctaHref }) => (
           <div
             key={title}
-            className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950"
+            className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-950"
           >
-            <div className="mb-4 inline-flex rounded-xl bg-blue-50 p-3 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300">
-              <Icon className="h-5 w-5" />
+            <div className="mb-3 inline-flex rounded-xl bg-blue-50 p-2.5 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300">
+              <Icon className="h-4.5 w-4.5" />
             </div>
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white">{title}</h2>
-            <p className="mt-3 text-sm leading-6 text-gray-600 dark:text-gray-400">{description}</p>
+            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">{title}</h2>
+            <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">{description}</p>
             {ctaLabel && ctaHref ? (
               <Link
                 href={ctaHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center rounded-full border border-gray-300 px-4 py-2 text-sm font-medium text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
+                className="mt-3 inline-flex items-center rounded-full border border-gray-300 px-3.5 py-1.5 text-sm font-medium text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
               >
                 {ctaLabel}
               </Link>
