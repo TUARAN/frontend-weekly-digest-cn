@@ -29,6 +29,14 @@ const signals: SignalItem[] = [
     href: 'https://ccunpacked-zh.pages.dev/',
     time: '6 分钟前',
   },
+  {
+    topic: 'GitHub 项目',
+    title: 'Career-Ops 把 AI 求职流程做成了开源流水线，GitHub 已冲到 19.8k stars',
+    summary: '这个项目把 JD 解析、岗位匹配评估、定制简历与 Cover Letter、职位扫描和申请跟踪串成一套 agent 工作流。亮点不只是“一键投递”，而是把求职这件事做成了可复用、可批处理、可人工接管的本地化系统。',
+    source: 'santifer / career-ops',
+    href: 'https://github.com/santifer/career-ops',
+    time: '12 分钟前',
+  },
 ];
 
 function SignalCard({ item }: { item: SignalItem }) {
