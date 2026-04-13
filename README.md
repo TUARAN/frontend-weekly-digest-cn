@@ -51,7 +51,43 @@
 
 ### 2026年
 
-- [第459期（3月23日–3月29日）](./weekly/459/前端周刊第459期.md) ⭐ **最新**
+- [第461期（4月6日–4月12日）](./weekly/461/前端周刊第461期.md) ⭐ **最新**
+
+  - [Chrome 147 正式发布：元素级转场和高级配色进入稳定视野](./weekly/461/Chrome%20147%20正式发布：元素级转场和高级配色进入稳定视野.md)
+  - [Chrome 147 发布说明：哪些底层变化值得纳入基线](./weekly/461/Chrome%20147%20发布说明：哪些底层变化值得纳入基线.md)
+  - [Chrome 147 DevTools 新变化：调试成本继续下降](./weekly/461/Chrome%20147%20DevTools%20新变化：调试成本继续下降.md)
+  - [Name-Only Containers：CSS 作用域终于有了更顺手的表达](./weekly/461/Name-Only%20Containers：CSS%20作用域终于有了更顺手的表达.md)
+  - [React 基金会：React 的新治理结构正式成形](./weekly/461/React%20基金会：React%20的新治理结构正式成形.md)
+  - [Chrome Web Store：更聪明、更快的申诉流程上线](./weekly/461/Chrome%20Web%20Store：更聪明、更快的申诉流程上线.md)
+
+- [第460期（3月30日–4月5日）](./weekly/460/前端周刊第460期.md)
+
+  - [Front-End Fools：史上 10 个最离谱的愚人节 UI 恶作剧](./weekly/460/Front-End%20Fools：史上%2010%20个最离谱的愚人节%20UI%20恶作剧.md)
+  - [axios npm 投毒：恶意版本植入远程控制木马](./weekly/460/axios%20npm%20投毒：恶意版本植入远程控制木马.md)
+  - [拆解 Pretext 代码库：从别人项目里学真实工程取舍](./weekly/460/拆解%20Pretext%20代码库：从别人项目里学真实工程取舍.md)
+  - [Astro 2026 年 3 月更新](./weekly/460/Astro%202026%20年%203%20月更新.md)
+  - [用 Google Web MCP 让网站对 Agent 更友好](./weekly/460/用%20Google%20Web%20MCP%20让网站对%20Agent%20更友好.md)
+  - [攻击者正在围猎高影响力 Node.js 维护者](./weekly/460/攻击者正在围猎高影响力%20Node.js%20维护者.md)
+  - [图解 npm workspaces：一篇温和但够用的入门](./weekly/460/图解%20npm%20workspaces：一篇温和但够用的入门.md)
+  - [vinext explained：Cloudflare 的 Vite 系 Next.js 替代方案](./weekly/460/vinext%20explained：Cloudflare%20的%20Vite%20系%20Next.js%20替代方案.md)
+  - [EmDash：Cloudflare 想重做插件安全模型](./weekly/460/EmDash：Cloudflare%20想重做插件安全模型.md)
+  - [view-transitions-toolkit：让 View Transitions 更容易落地](./weekly/460/view-transitions-toolkit：让%20View%20Transitions%20更容易落地.md)
+  - [用 16 万个 Three.js 立方体把抖动可视化](./weekly/460/用%2016%20万个%20Three.js%20立方体把抖动可视化.md)
+  - [Arnaud Rocca 的作品集：从 GSAP 动效系统到流体 WebGL](./weekly/460/Arnaud%20Rocca%20的作品集：从%20GSAP%20动效系统到流体%20WebGL.md)
+  - [CSS or BS？重新审视 CSS 的表达边界](./weekly/460/CSS%20or%20BS？重新审视%20CSS%20的表达边界.md)
+  - [Too Much Color：颜色系统不是越多越好](./weekly/460/Too%20Much%20Color：颜色系统不是越多越好.md)
+  - [用 shape() 构建复杂 CSS 图形](./weekly/460/用%20shape()%20构建复杂%20CSS%20图形.md)
+  - [用 Details 和 @scope 做钻取菜单](./weekly/460/用%20Details%20和%20@scope%20做钻取菜单.md)
+  - [position sticky 现在会按轴吸附到最近滚动容器](./weekly/460/position%20sticky%20现在会按轴吸附到最近滚动容器.md)
+  - [What To Know in JavaScript（2026 版）](./weekly/460/What%20To%20Know%20in%20JavaScript（2026%20版）.md)
+  - [JavaScript 里预加载图片的几种方式](./weekly/460/JavaScript%20里预加载图片的几种方式.md)
+  - [Signals 的 push-pull 算法到底在做什么](./weekly/460/Signals%20的%20push-pull%20算法到底在做什么.md)
+  - [什么时候你才真的需要 startTransition](./weekly/460/什么时候你才真的需要%20startTransition.md)
+  - [如何构建高性能 AI Markdown 渲染器](./weekly/460/如何构建高性能%20AI%20Markdown%20渲染器.md)
+  - [React 里的可提升 SVG Defs](./weekly/460/React%20里的可提升%20SVG%20Defs.md)
+  - [如何修复 React 应用里的内存泄漏](./weekly/460/如何修复%20React%20应用里的内存泄漏.md)
+
+- [第459期（3月23日–3月29日）](./weekly/459/前端周刊第459期.md)
 
   - [Chrome 147：元素级 View Transitions 来了](./weekly/459/Chrome%20147：元素级%20View%20Transitions%20来了.md)
   - [更多网站支持自动进入视频画中画](./weekly/459/更多网站支持自动进入视频画中画.md)
