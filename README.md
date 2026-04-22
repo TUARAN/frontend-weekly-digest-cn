@@ -51,7 +51,33 @@
 
 ### 2026年
 
-- [第461期（4月6日–4月12日）](./weekly/461/前端周刊第461期.md) ⭐ **最新**
+- [第462期（4月13日–4月19日）](./weekly/462/前端周刊第462期.md) ⭐ **最新**
+
+  - [Cloudflare：Agent Readiness 分数来了，你的网站准备好给 Agent 用了吗？](./weekly/462/Cloudflare：Agent%20Readiness%20分数来了，你的网站准备好给%20Agent%20用了吗？.md)
+  - [用 TanStack 搭一个博客（上）](./weekly/462/用%20TanStack%20搭一个博客（上）.md)
+  - [masonry-gridlanes-wc：一个原生优先的 Masonry Web Component](./weekly/462/masonry-gridlanes-wc：一个原生优先的%20Masonry%20Web%20Component.md)
+  - [让网站被 LLM 看见：6 个有效方法与 8 个无效招数](./weekly/462/让网站被%20LLM%20看见：6%20个有效方法与%208%20个无效招数.md)
+  - [不用断点也能构建响应式 UI](./weekly/462/不用断点也能构建响应式%20UI.md)
+  - [AI 生成的 UI 默认并不无障碍](./weekly/462/AI%20生成的%20UI%20默认并不无障碍.md)
+  - [HTMX 4.0：超媒体开发进入新档位](./weekly/462/HTMX%204.0：超媒体开发进入新档位.md)
+  - [2026 年 3 月 Baseline 月报](./weekly/462/2026%20年%203%20月%20Baseline%20月报.md)
+  - [为什么 AI 不擅长前端](./weekly/462/为什么%20AI%20不擅长前端.md)
+  - [Shadow DOM 的现代 CSS 特性支持现状](./weekly/462/Shadow%20DOM%20的现代%20CSS%20特性支持现状.md)
+  - [CSS 里的弹簧物理](./weekly/462/CSS%20里的弹簧物理.md)
+  - [CSS 多重描边文字效果](./weekly/462/CSS%20多重描边文字效果.md)
+  - [Squash and Stretch：让动画活起来的小秘密](./weekly/462/Squash%20and%20Stretch：让动画活起来的小秘密.md)
+  - [CSS 游戏：4Connect](./weekly/462/CSS%20游戏：4Connect.md)
+  - [CSS Breakpoint Units：像素设计与流式无障碍布局的新思路](./weekly/462/CSS%20Breakpoint%20Units：像素设计与流式无障碍布局的新思路.md)
+  - [TanStack：按你的方式使用 React Server Components](./weekly/462/TanStack：按你的方式使用%20React%20Server%20Components.md)
+  - [你不能取消 JavaScript Promise，但有时又可以](./weekly/462/你不能取消%20JavaScript%20Promise，但有时又可以.md)
+  - [ES2026 来了：真正会改变写法的 JavaScript 特性](./weekly/462/ES2026%20来了：真正会改变写法的%20JavaScript%20特性.md)
+  - [如何在 React 应用中测试多语言无障碍](./weekly/462/如何在%20React%20应用中测试多语言无障碍.md)
+  - [用 dialog 做一个能优雅进出场的 React 模态框](./weekly/462/用%20dialog%20做一个能优雅进出场的%20React%20模态框.md)
+  - [什么时候该把 API 逻辑移出 Next.js](./weekly/462/什么时候该把%20API%20逻辑移出%20Next.js.md)
+  - [Astro vs Next.js：内容型网站里 SSG 何时胜过 React](./weekly/462/Astro%20vs%20Next.js：内容型网站里%20SSG%20何时胜过%20React.md)
+  - [在 React 中嵌入安全的内联 PDF 查看器](./weekly/462/在%20React%20中嵌入安全的内联%20PDF%20查看器.md)
+
+- [第461期（4月6日–4月12日）](./weekly/461/前端周刊第461期.md)
 
   - [Chrome 147 正式发布：元素级转场和高级配色进入稳定视野](./weekly/461/Chrome%20147%20正式发布：元素级转场和高级配色进入稳定视野.md)
   - [Chrome 147 发布说明：哪些底层变化值得纳入基线](./weekly/461/Chrome%20147%20发布说明：哪些底层变化值得纳入基线.md)
