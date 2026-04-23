@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" fill="#f0fdf4" rx="8"/>
+  <rect x="16" y="16" width="208" height="208" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="6 6" rx="6"/>
+  <g transform="translate(120 95)" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" fill="#065f46">
+    <text font-size="14" font-weight="700">微信支付</text>
+    <text y="22" font-size="11">占位图</text>
+  </g>
+  <g transform="translate(120 150)" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" fill="#065f46" font-size="10">
+    <text>请把您的微信收款码</text>
+    <text y="14">替换到</text>
+    <text y="30" font-family="monospace" font-weight="700">public/wechat-pay-qr.png</text>
+  </g>
+</svg>

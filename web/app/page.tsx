@@ -1,103 +1,155 @@
 import Image from 'next/image';
-import { BrainCircuit, Radar, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import { Sparkles, ArrowRight, Bot, Map, ScrollText, MessageCircle, VolumeX } from 'lucide-react';
 import LiveSignalBoard from '@/components/LiveSignalBoard';
+import BriefCard from '@/components/BriefCard';
+import NewsletterSignup from '@/components/NewsletterSignup';
+import { getAllBriefs } from '@/lib/briefs';
 
-const focusAreas = [
+const pillars = [
   {
-    title: '前端技术演进',
-    description: '持续跟踪框架、浏览器 API、构建工具、性能与交互范式的真实变化。',
-    icon: Radar,
-    ctaLabel: '前端周刊',
-    ctaHref: '/weekly',
+    icon: ScrollText,
+    title: '决策简报',
+    desc: '每篇围绕一个决策：该不该上、怎么上、别人踩过的坑。',
+    href: '/brief',
   },
   {
-    title: 'AI Agent 与大模型',
-    description: '观察模型能力、Agent 基础设施、MCP、工作流与产品落地的有效信号。',
-    icon: BrainCircuit,
-    ctaLabel: '学习资料库',
-    ctaHref: 'https://matrix-ai-pdfs.pages.dev/',
+    icon: Map,
+    title: '转型路线',
+    desc: '前端 → AI Agent 的能力地图，分阶段，不贪多。',
+    href: '/roadmap',
   },
   {
-    title: '面试与能力体系',
-    description: '把高频技术问题、趋势议题与知识图谱打通，形成可复用的判断框架。',
-    icon: Sparkles,
-    ctaLabel: '转型面试',
-    ctaHref: 'https://frontend2aiagent.com/',
+    icon: MessageCircle,
+    title: '1v1 定制化',
+    desc: '聊你的阶段和困惑，把判断真正融进你的项目。',
+    href: '/pro',
   },
 ];
 
 const principles = [
-  'AI Agent 用来放大效率，不替代判断。',
-  '结构化沉淀优先于一次性输出。',
-  '人工 Review 仍然是最终质量门槛。',
-  '目标不是提供更多内容，而是提供更高密度的信号。',
+  '不追"最新"，只挑"值得停下来"的那 1%。',
+  '不制造焦虑，不贩卖恐慌。',
+  '每一条信号都要能回答"然后我该做什么"。',
+  '如果一条信息不能融进你的体系，它就是噪音。',
 ];
 
 export default function Home() {
+  const briefs = getAllBriefs().slice(0, 3);
+
   return (
-    <div className="container mx-auto px-4 py-8 md:px-6 lg:py-12">
-      <section className="mb-16 flex flex-col items-center text-center">
-        <h1 className="mx-auto max-w-5xl text-4xl font-bold tracking-tight text-gray-900 dark:text-white md:text-6xl">
-          从信息搬运，转向技术判断
+    <div className="container mx-auto px-4 py-8 md:px-6 lg:py-14">
+      {/* Hero — 反噪音立场（全站只在这里完整表达一次） */}
+      <section className="mb-24 flex flex-col items-center text-center">
+        <div className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-semibold text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300">
+          <VolumeX className="h-3 w-3" />
+          为前端开发者筛选 · 反信息焦虑
+        </div>
+        <h1 className="mx-auto mt-5 max-w-5xl text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-6xl">
+          99% 的前端资讯是<span className="text-gray-400 line-through decoration-red-400 decoration-[3px]">噪音</span><br className="hidden md:block" />
+          你要的是能<span className="bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">融进成长体系</span>的那 1%
         </h1>
 
-        <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-600 dark:text-gray-300 md:text-2xl md:leading-10">
-          本站不再只整理“前端周刊”，而是持续追踪前端、AI Agent、大模型，以及前端转向 AI Agent 开发所需的面试与能力体系。
+        <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300 md:text-xl">
+          信息差大多是焦虑的源头，不是成长的燃料。这里不追最新、不凑数，只做当周真正值得停下来的 1-2 个判断。
         </p>
 
-        <p className="mx-auto mt-4 max-w-4xl text-base leading-7 text-gray-500 dark:text-gray-400 md:text-lg">
-          帮助前端开发者快速看清趋势、做出技术决策，并找到真正值得投入的方向。
-        </p>
-
-      </section>
-
-      <section className="mx-auto mb-16 grid max-w-6xl gap-6 md:grid-cols-3">
-        {focusAreas.map(({ title, description, icon: Icon, ctaLabel, ctaHref }) => (
-          <div
-            key={title}
-            className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-950"
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <Link
+            href="/brief"
+            className="inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
           >
-            <div className="mb-3 inline-flex rounded-xl bg-blue-50 p-2.5 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300">
-              <Icon className="h-4.5 w-4.5" />
-            </div>
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-white">{title}</h2>
-            <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">{description}</p>
-            {ctaLabel && ctaHref ? (
-              <Link
-                href={ctaHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center rounded-full border border-gray-300 px-3.5 py-1.5 text-sm font-medium text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
-              >
-                {ctaLabel}
-              </Link>
-            ) : null}
-          </div>
-        ))}
+            看本周决策简报
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+          <Link
+            href="/pro"
+            className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
+          >
+            <MessageCircle className="h-4 w-4" />
+            1v1 定制化交流
+          </Link>
+        </div>
       </section>
 
+      {/* 三个产品入口 */}
+      <section className="mx-auto mb-20 max-w-6xl">
+        <div className="mb-10 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">What You Get</p>
+          <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">这里不是"更多信息"，是三件具体的事</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {pillars.map(({ icon: Icon, title, desc, href }) => (
+            <Link
+              key={title}
+              href={href}
+              className="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md dark:border-gray-800 dark:bg-gray-950"
+            >
+              <div className="mb-3 inline-flex rounded-xl bg-blue-50 p-2.5 text-blue-700 dark:bg-blue-900/20 dark:text-blue-300">
+                <Icon className="h-5 w-5" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white">{title}</h3>
+              <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-400">{desc}</p>
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-1.5 dark:text-blue-400">
+                了解详情
+                <ArrowRight className="h-3.5 w-3.5" />
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* 本周简报 */}
+      {briefs.length > 0 ? (
+        <section className="mx-auto mb-20 max-w-6xl">
+          <div className="mb-8 flex items-end justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Decision Brief</p>
+              <h2 className="mt-2 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">本周值得停下来的决策</h2>
+            </div>
+            <Link
+              href="/brief"
+              className="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:underline dark:text-blue-400"
+            >
+              查看全部
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3">
+            {briefs.map((b) => (
+              <BriefCard key={b.slug} brief={b} />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {/* Newsletter */}
+      <section className="mx-auto mb-20 max-w-4xl rounded-3xl border border-gray-200 bg-gradient-to-br from-blue-50 via-white to-indigo-50 p-8 dark:border-gray-800 dark:from-blue-950/40 dark:via-gray-950 dark:to-indigo-950/40 md:p-12">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">每周一封，少即是多</h2>
+          <p className="mt-3 text-base leading-7 text-gray-600 dark:text-gray-300">
+            不转发、不凑数。周一早上一封邮件，告诉你这周哪 1-2 件事值得认真想一想。
+          </p>
+          <div className="mt-6">
+            <NewsletterSignup />
+          </div>
+          <p className="mt-3 text-xs text-gray-500 dark:text-gray-500">一键退订，绝不发广告。</p>
+        </div>
+      </section>
+
+      {/* Raw signals — 原料，不鼓励刷 */}
       <LiveSignalBoard />
 
-      <section className="mx-auto mb-16 grid max-w-6xl gap-8 lg:grid-cols-2">
-        <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Why Now</p>
-          <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white">为什么从周刊走向情报站</h2>
-          <div className="mt-5 space-y-4 text-sm leading-7 text-gray-600 dark:text-gray-400 md:text-base">
-            <p>大模型正在重塑软件开发的分工边界。过去前端的核心价值在于把设计稿变成可交互的界面；而现在，越来越多的交互逻辑、流程编排、甚至用户意图的理解，都在被 AI 接管。</p>
-            <p>前端如果只会写组件，正在失去不可替代性。</p>
-            <p>真正的机会在于向上转型——成为能够设计、构建、调试 AI Agent 的开发者。这不是追风口，而是顺应一个基本事实：当 AI 成为产品的核心交互层，懂得驾驭 AI 能力的工程师，才是下一代应用真正需要的人。</p>
-          </div>
-        </div>
-
-        <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+      {/* Principles */}
+      <section className="mx-auto mb-16 max-w-5xl">
+        <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm dark:border-gray-800 dark:bg-gray-950 md:p-12">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Principles</p>
-          <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white">AI情报站的工作原则</h2>
-          <div className="mt-5 space-y-4">
+          <h2 className="mt-3 text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">工作原则</h2>
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
             {principles.map((item) => (
               <div
                 key={item}
-                className="rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm leading-6 text-gray-600 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-300"
+                className="rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm leading-6 text-gray-700 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-300"
               >
                 {item}
               </div>

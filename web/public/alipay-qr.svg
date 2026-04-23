@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" fill="#eff6ff" rx="8"/>
+  <rect x="16" y="16" width="208" height="208" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="6 6" rx="6"/>
+  <g transform="translate(120 95)" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" fill="#1e3a8a">
+    <text font-size="14" font-weight="700">支付宝</text>
+    <text y="22" font-size="11">占位图</text>
+  </g>
+  <g transform="translate(120 150)" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" fill="#1e3a8a" font-size="10">
+    <text>请把您的支付宝收款码</text>
+    <text y="14">替换到</text>
+    <text y="30" font-family="monospace" font-weight="700">public/alipay-qr.png</text>
+  </g>
+</svg>

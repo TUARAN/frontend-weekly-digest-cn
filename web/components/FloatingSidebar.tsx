@@ -96,7 +96,8 @@ export default function FloatingSidebar({ menu }: { menu: WeeklyMenuItem[] }) {
   const [isOpen, setIsOpen] = useState(true);
   const pathname = usePathname();
 
-  if (pathname === '/') {
+  // 周刊合集侧栏只在周刊相关路径下显示
+  if (!pathname.startsWith('/weekly')) {
     return null;
   }
 
