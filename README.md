@@ -1,8 +1,8 @@
 # 🧭 前端下一步 · 技术情报站
 
-专注前端工程化与 AI 智能体，致力技术社区共建。
+本站不再只整理“前端周刊”，而是持续追踪前端、AI Agent、大模型，以及前端转向 AI Agent 开发所需的面试与能力体系。
 
-在 AI 时代，探索个体规模化创作的极限。
+帮助前端开发者快速看清趋势、做出技术决策，并找到真正值得投入的方向。
 
 ![preview](https://raw.githubusercontent.com/TUARAN/frontend-weekly-digest-cn/main/img/preview.png)
 
