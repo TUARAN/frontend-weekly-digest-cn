@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Sparkles, ArrowRight, Bot, Map, ScrollText, MessageCircle, VolumeX } from 'lucide-react';
+import { ArrowRight, Map, ScrollText, MessageCircle, VolumeX } from 'lucide-react';
 import LiveSignalBoard from '@/components/LiveSignalBoard';
 import BriefCard from '@/components/BriefCard';
 import NewsletterSignup from '@/components/NewsletterSignup';
@@ -76,7 +76,7 @@ export default function Home() {
       <section className="mx-auto mb-20 max-w-6xl">
         <div className="mb-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">What You Get</p>
-          <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">这里不是"更多信息"，是三件具体的事</h2>
+          <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">这里不是&ldquo;更多信息&rdquo;，是三件具体的事</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
           {pillars.map(({ icon: Icon, title, desc, href }) => (

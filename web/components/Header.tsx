@@ -10,15 +10,14 @@ interface HeaderProps {
   weeklyHref?: string;
 }
 
-const navItems: { href: string; label: string; match: (p: string) => boolean }[] = [
-  { href: '/', label: '每日情报', match: (p) => p === '/' },
-  { href: '/brief', label: '决策简报', match: (p) => p.startsWith('/brief') },
-  { href: '/roadmap', label: '转型路线', match: (p) => p.startsWith('/roadmap') },
-  { href: '/weekly', label: '前端周刊', match: (p) => p.startsWith('/weekly') },
-];
-
-export default function Header({ weeklyHref: _weeklyHref }: HeaderProps) {
+export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const pathname = usePathname();
+  const navItems: { href: string; label: string; match: (p: string) => boolean }[] = [
+    { href: '/', label: 'AI 雷达', match: (p) => p === '/' || p.startsWith('/ai-radar') },
+    { href: '/brief', label: '决策简报', match: (p) => p.startsWith('/brief') },
+    { href: '/roadmap', label: '转型路线', match: (p) => p.startsWith('/roadmap') },
+    { href: weeklyHref, label: '前端周刊', match: (p) => p.startsWith('/weekly') },
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md dark:border-gray-800 dark:bg-gray-950/80">
