@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     default: "前端下一步 · 帮前端在 AI 时代做对技术决策",
     template: "%s · 前端下一步",
   },
-  description: "面向前端开发者的技术情报站：每日 AI / 前端情报、带观点的决策简报、从前端到 AI Agent 的转型路线图。加入 Pro 解锁完整判断、AI 问答与专属社群。",
+  description: "面向前端开发者的 AI 雷达：过滤海外 AI 信号，沉淀 AI 转型路线和以人为主的个体决策案例。",
   keywords: ["前端周刊", "AI Agent", "前端转型", "技术情报", "决策简报", "前端 AI", "MCP", "LLM"],
   openGraph: {
     title: "前端下一步 · 帮前端在 AI 时代做对技术决策",
-    description: "AI 雷达 + 决策简报 + 转型路线——帮你在信息过载里，挑出真正值得投入的那 5%。",
+    description: "AI 雷达 + 转型路线 + 个体决策案例——帮你过滤噪声，把外部信号融进自己的路线。",
     type: "website",
   },
 };

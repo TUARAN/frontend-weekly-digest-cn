@@ -4,7 +4,7 @@ import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const metadata = {
   title: '订阅邮件周报 · 前端下一步',
-  description: '每周一封，当周最值得停下来的 1-2 个技术决策。',
+  description: '每周一封，收到值得停下来的 AI 信号和个体决策案例。',
 };
 
 export default function SubscribePage() {
@@ -23,7 +23,7 @@ export default function SubscribePage() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Newsletter</p>
           <h1 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">每周一封邮件</h1>
           <p className="mt-3 text-base leading-7 text-gray-600 dark:text-gray-400">
-            当周最值得停下来的 1-2 个技术决策，周一早上发到你邮箱。
+            当周最值得停下来的 AI 信号、转型线索和个体决策案例，周一早上发到你邮箱。
           </p>
 
           <div className="mt-8">

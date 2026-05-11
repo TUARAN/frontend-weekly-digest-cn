@@ -24,12 +24,17 @@ function parseFile(fullPath: string): Brief | null {
     const raw = fs.readFileSync(fullPath, 'utf-8');
     const { data, content } = matter(raw);
     const fileSlug = path.basename(fullPath, '.md');
+    const rawDate = data.date;
+    const date =
+      rawDate instanceof Date
+        ? rawDate.toISOString().slice(0, 10)
+        : String(rawDate ?? '');
 
     return {
       title: String(data.title ?? fileSlug),
       slug: String(data.slug ?? fileSlug),
-      date: String(data.date ?? ''),
-      category: String(data.category ?? '技术决策'),
+      date,
+      category: String(data.category ?? '个体案例'),
       tldr: String(data.tldr ?? ''),
       readMinutes: Number(data.readMinutes ?? 5),
       pro: Boolean(data.pro ?? false),
@@ -48,8 +53,16 @@ export function getAllBriefs(): BriefMeta[] {
   for (const file of files) {
     const brief = parseFile(path.join(briefsDir, file));
     if (brief) {
-      const { content: _content, ...meta } = brief;
-      briefs.push(meta);
+      briefs.push({
+        title: brief.title,
+        slug: brief.slug,
+        date: brief.date,
+        category: brief.category,
+        tldr: brief.tldr,
+        readMinutes: brief.readMinutes,
+        pro: brief.pro,
+        tags: brief.tags,
+      });
     }
   }
   return briefs.sort((a, b) => (a.date < b.date ? 1 : -1));

@@ -13,7 +13,7 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default function NewsletterSignup({
   variant = 'default',
-  placeholder = '输入你的邮箱，获取每周决策简报',
+  placeholder = '输入你的邮箱，获取每周个体决策案例',
   buttonLabel = '免费订阅',
 }: NewsletterSignupProps) {
   const [email, setEmail] = useState('');

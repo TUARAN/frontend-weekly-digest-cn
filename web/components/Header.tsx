@@ -14,8 +14,8 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const pathname = usePathname();
   const navItems: { href: string; label: string; match: (p: string) => boolean }[] = [
     { href: '/', label: 'AI 雷达', match: (p) => p === '/' || p.startsWith('/ai-radar') },
-    { href: '/brief', label: '决策简报', match: (p) => p.startsWith('/brief') },
     { href: '/roadmap', label: '转型路线', match: (p) => p.startsWith('/roadmap') },
+    { href: '/brief', label: '决策简报', match: (p) => p.startsWith('/brief') },
     { href: weeklyHref, label: '前端周刊', match: (p) => p.startsWith('/weekly') },
   ];
 
@@ -26,7 +26,7 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
           <BrandLogo />
           <nav className="hidden md:flex items-center gap-5 text-sm font-medium text-gray-600 dark:text-gray-400">
             {navItems.map((item, idx) => (
-              <span key={item.href} className="inline-flex items-center gap-5">
+              <span key={item.label} className="inline-flex items-center gap-5">
                 {idx > 0 ? (
                   <span className="select-none text-gray-300 dark:text-gray-700">|</span>
                 ) : null}

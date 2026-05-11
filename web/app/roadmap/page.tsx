@@ -92,7 +92,7 @@ export default function RoadmapPage() {
             前端 → AI Agent 转型路线
           </h1>
           <p className="mx-auto mt-5 max-w-3xl text-base leading-7 text-gray-600 dark:text-gray-300 md:text-lg">
-            给 3-5 年经验前端的一张能力地图。把从"写组件"到"构建 Agent"拆成 5 个可执行的阶段，每个阶段都有明确的目标、技能清单和交付物。
+            给 3-5 年经验前端的一张能力地图。把从&ldquo;写组件&rdquo;到&ldquo;构建 Agent&rdquo;拆成 5 个可执行的阶段，每个阶段都有明确的目标、技能清单和交付物。
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
@@ -107,7 +107,7 @@ export default function RoadmapPage() {
               href="/brief"
               className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
             >
-              看决策简报
+              看个体决策案例
             </Link>
           </div>
         </div>

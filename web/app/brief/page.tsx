@@ -5,7 +5,7 @@ import { getAllBriefs } from '@/lib/briefs';
 
 export const metadata = {
   title: '决策简报 · 前端下一步',
-  description: '不只是告诉你发生了什么，而是告诉你该不该上、怎么上。带观点的前端 / AI Agent 技术决策简报。',
+  description: '以真实个体为主线的决策案例：一个人在某个阶段如何判断、取舍、试错，并把 AI 与前端能力融进自己的路线。',
 };
 
 export default function BriefIndexPage() {
@@ -19,10 +19,10 @@ export default function BriefIndexPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Decision Brief</p>
             <h1 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">决策简报</h1>
             <p className="mt-3 max-w-2xl text-base leading-7 text-gray-500 dark:text-gray-400">
-              每篇只围绕一个具体决策：事实 / 反方观点 / 作者判断 / 然后你该做什么。
+              这里不再做资讯复述，而是写人的决策案例：一个前端开发者、独立创作者或团队负责人，在具体阶段里如何判断方向、分配时间、选择工具、承担风险。
             </p>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-gray-500 dark:text-gray-500">
-              我们不追最新、不凑数量。宁可一周只出一篇，也不发那种读完"又多知道一件事"但不会改变你任何行为的东西。
+              每篇都围绕一个人和一个选择展开：背景是什么、纠结点在哪里、做过哪些尝试、最后如何把外部信号融入自己的成长体系和项目节奏。
             </p>
           </div>
           <Link
@@ -50,7 +50,7 @@ export default function BriefIndexPage() {
         <div className="mt-16 rounded-3xl border border-gray-200 bg-gradient-to-br from-blue-50 via-white to-indigo-50 p-8 dark:border-gray-800 dark:from-blue-950/40 dark:via-gray-950 dark:to-indigo-950/40 md:p-12">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">想拆解一个属于你自己的决策？</h2>
           <p className="mt-3 max-w-3xl text-base leading-7 text-gray-600 dark:text-gray-300">
-            通用简报给你思考框架，但真正有效的判断一定是和你的阶段、项目、业务绑定的。公开简报只是原料，真正值钱的是 1v1 把它融进你自己的成长体系。
+            公开案例给你参考样本，但真正有效的判断一定要回到你自己的阶段、约束、项目和生活节奏。1v1 会把案例里的方法拆回到你本人身上。
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
