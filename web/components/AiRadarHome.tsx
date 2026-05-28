@@ -66,8 +66,8 @@ export default function AiRadarHome() {
           </div>
           <div className="flex justify-center rounded-3xl border border-gray-200 bg-gray-50 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900/50">
             <iframe
-              src="/ai-daily-0528.html"
-              title="AI 早报 2026-05-28"
+              src="/ai-daily-latest.html"
+              title="AI 每日早报"
               className="rounded-2xl"
               style={{ width: '500px', height: '820px', border: 'none' }}
               scrolling="no"
