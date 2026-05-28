@@ -50,6 +50,32 @@ export default function AiRadarHome() {
   return (
     <div className="container mx-auto px-4 py-12 md:px-6">
       <div className="mx-auto max-w-6xl">
+
+        {/* ── AI 早报板块 ── */}
+        <section className="mb-14">
+          <div className="mb-6 flex items-end justify-between gap-4">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">AI Daily · 今日早报</p>
+              <h2 className="mt-2 text-3xl font-bold text-gray-900 dark:text-white">每日 AI 早报</h2>
+              <p className="mt-2 text-sm leading-6 text-gray-500 dark:text-gray-400">精选 AI Coding &amp; 具身智能最新动态，每日 09:00 自动更新</p>
+            </div>
+            <span className="flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+              <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500"></span>
+              今日已更新
+            </span>
+          </div>
+          <div className="flex justify-center rounded-3xl border border-gray-200 bg-gray-50 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-900/50">
+            <iframe
+              src="/ai-daily-0528.html"
+              title="AI 早报 2026-05-28"
+              className="rounded-2xl"
+              style={{ width: '500px', height: '820px', border: 'none' }}
+              scrolling="no"
+            />
+          </div>
+        </section>
+        {/* ── /AI 早报板块 ── */}
+
         <section className="mb-14 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700 dark:border-blue-900/60 dark:bg-blue-950/40 dark:text-blue-300">

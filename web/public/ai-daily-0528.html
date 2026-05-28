@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI早报 2026·05·28</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 500px;
+    min-height: 100%;
+    background: #0d0d12;
+    font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    padding: 0;
+  }
+
+  .card {
+    width: 500px;
+    background: #0d0d12;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 36px 44px;
+  }
+
+  /* 装饰性光斑 */
+  .glow-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(100,120,255,0.13) 0%, transparent 70%);
+    top: -80px;
+    right: -60px;
+    pointer-events: none;
+  }
+  .glow-2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,210,150,0.09) 0%, transparent 70%);
+    bottom: 60px;
+    left: -40px;
+    pointer-events: none;
+  }
+
+  /* 顶部 header */
+  .header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .header-left {}
+
+  .badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #5c6ef8, #7c5cf8);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .main-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+  .main-title span {
+    color: #6c7ff8;
+  }
+
+  .date-block {
+    text-align: right;
+  }
+  .date-num {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.08);
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .date-label {
+    font-size: 11px;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+
+  /* 分割线 */
+  .divider {
+    height: 1px;
+    background: linear-gradient(to right, rgba(108,127,248,0.6), rgba(108,127,248,0.1), transparent);
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* 标签区 */
+  .tag-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 2;
+  }
+  .tag {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid;
+  }
+  .tag-coding {
+    color: #6c9af8;
+    border-color: rgba(108,154,248,0.35);
+    background: rgba(108,154,248,0.08);
+  }
+  .tag-embodied {
+    color: #50d4a0;
+    border-color: rgba(80,212,160,0.35);
+    background: rgba(80,212,160,0.08);
+  }
+
+  /* 新闻列表 */
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .news-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 16px 18px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .news-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    border-radius: 12px 0 0 12px;
+  }
+  .news-item.coding::before { background: #6c9af8; }
+  .news-item.embodied::before { background: #50d4a0; }
+
+  .news-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .news-num {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .coding .news-num { background: rgba(108,154,248,0.2); color: #6c9af8; }
+  .embodied .news-num { background: rgba(80,212,160,0.2); color: #50d4a0; }
+
+  .news-cat {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    padding: 2px 7px;
+    border-radius: 8px;
+  }
+  .coding .news-cat { color: #6c9af8; background: rgba(108,154,248,0.1); }
+  .embodied .news-cat { color: #50d4a0; background: rgba(80,212,160,0.1); }
+
+  .news-title {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #f0f0f4;
+    line-height: 1.45;
+    margin-bottom: 7px;
+  }
+
+  .news-desc {
+    font-size: 11.5px;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.6;
+  }
+
+  .news-highlight {
+    display: inline;
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+  }
+
+  /* 原因标签 */
+  .reason-row {
+    margin-top: 9px;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .reason-icon {
+    font-size: 10px;
+    color: rgba(255,200,60,0.8);
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .reason-text {
+    font-size: 11px;
+    color: rgba(255,200,60,0.65);
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  /* 底部 */
+  .footer {
+    margin-top: 24px;
+    position: relative;
+    z-index: 2;
+  }
+  .footer-ip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding: 10px 14px;
+    background: rgba(108,127,248,0.08);
+    border: 1px solid rgba(108,127,248,0.2);
+    border-radius: 10px;
+  }
+  .ip-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ip-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6c7ff8, #50d4a0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .ip-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 0.3px;
+  }
+  .ip-slogan {
+    font-size: 10px;
+    color: rgba(255,255,255,0.35);
+    margin-top: 1px;
+    letter-spacing: 0.2px;
+  }
+  .ip-tag {
+    font-size: 10px;
+    color: #6c9af8;
+    background: rgba(108,154,248,0.12);
+    border: 1px solid rgba(108,154,248,0.25);
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .footer-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-left {
+    font-size: 10px;
+    color: rgba(255,255,255,0.2);
+    letter-spacing: 0.5px;
+  }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #6c7ff8;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  .footer-brand {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="glow-1"></div>
+  <div class="glow-2"></div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <div class="badge">AI DAILY</div>
+      <div class="main-title">今日 <span>AI</span> 早报</div>
+    </div>
+    <div class="date-block">
+      <div class="date-num">0528</div>
+      <div class="date-label">2026 · THU</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Tags -->
+  <div class="tag-row">
+    <span class="tag tag-coding"># AI CODING</span>
+    <span class="tag tag-embodied"># 具身智能</span>
+  </div>
+
+  <!-- News -->
+  <div class="news-list">
+
+    <!-- 01 -->
+    <div class="news-item coding">
+      <div class="news-meta">
+        <div class="news-num">01</div>
+        <span class="news-cat">AI Coding</span>
+      </div>
+      <div class="news-title">OpenAI GPT-5.6 曝 "ultrafast 模式"，向企业发 $400 迁移补贴</div>
+      <div class="news-desc">
+        内部测试版推理速度提升 <span class="news-highlight">2–3×</span>，OpenAI 向迁移至 Codex 企业提供 <span class="news-highlight">400 美元补贴</span>，正面迎战 Anthropic Claude Code 切换 Opus 4.7 默认快速模式。
+      </div>
+      <div class="reason-row">
+        <span class="reason-icon">→</span>
+        <span class="reason-text">AI 编程赛道从模型比拼正式进入补贴大战，格局可能加速固化</span>
+      </div>
+    </div>
+
+    <!-- 02 -->
+    <div class="news-item coding">
+      <div class="news-meta">
+        <div class="news-num">02</div>
+        <span class="news-cat">AI Coding</span>
+      </div>
+      <div class="news-title">DeepSeek 秘密组建 Harness 团队，对标 Claude Code 入局代码 Agent</div>
+      <div class="news-desc">
+        正式招募 Agent Harness 产品经理 + 研究员，API 同步永久降价 <span class="news-highlight">75%</span>，输入价格降至 <span class="news-highlight">0.435 美元 / 百万 token</span>。
+      </div>
+      <div class="reason-row">
+        <span class="reason-icon">→</span>
+        <span class="reason-text">DeepSeek 首次产品化转型，极低价策略可能冲击三强（Cursor / Claude Code / Codex）格局</span>
+      </div>
+    </div>
+
+    <!-- 03 -->
+    <div class="news-item embodied">
+      <div class="news-meta">
+        <div class="news-num">03</div>
+        <span class="news-cat">具身智能</span>
+      </div>
+      <div class="news-title">2026 世界智能产业博览会今日开幕，具身智能单独成展区</div>
+      <div class="news-desc">
+        天津举办，13 万㎡展览、<span class="news-highlight">28 家世界 500 强</span>参展，专设具身智能主题展区 + 人工智能主题日，同期举办成果发布与项目签约。
+      </div>
+      <div class="reason-row">
+        <span class="reason-icon">→</span>
+        <span class="reason-text">具身智能首次在国家级展会独立成区，标志赛道从概念升格为主流产业方向</span>
+      </div>
+    </div>
+
+    <!-- 04 -->
+    <div class="news-item embodied">
+      <div class="news-meta">
+        <div class="news-num">04</div>
+        <span class="news-cat">具身智能 · 资本</span>
+      </div>
+      <div class="news-title">宇树科技 6月1日科创板上会，有望成 A 股"具身智能第一股"</div>
+      <div class="news-desc">
+        受理到上会仅历时 <span class="news-highlight">73 天</span>，估值至少 <span class="news-highlight">420 亿元</span>，拟融资 42 亿，2025 年前三季度营收 11.67 亿、净利润 1.05 亿。
+      </div>
+      <div class="reason-row">
+        <span class="reason-icon">→</span>
+        <span class="reason-text">6月1日上会结果是近期具身智能板块最关键的催化剂事件，将带动概念股估值重定价</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-ip">
+      <div class="ip-left">
+        <div class="ip-avatar">安</div>
+        <div>
+          <div class="ip-name">前端下一步 · AI 早报</div>
+          <div class="ip-slogan">by 安东尼 · 每日精选 AI Coding &amp; 具身智能动态</div>
+        </div>
+      </div>
+      <span class="ip-tag">Daily</span>
+    </div>
+    <div class="footer-meta">
+      <span class="footer-left">数据来源：新浪财经 · 财新 · 同花顺 · 中新网</span>
+      <div class="footer-right">
+        <div class="dot"></div>
+        <span class="footer-brand">Auto Generated</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
