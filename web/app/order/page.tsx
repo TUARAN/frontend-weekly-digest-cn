@@ -576,10 +576,10 @@ function OrderContent() {
                 <p className="mt-2">我会在 1 个工作日内把问卷模板发给你；你填完后约首次连麦时间。</p>
               </div>
               <Link
-                href="/brief"
+                href="/"
                 className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
               >
-                回去看简报
+                返回首页
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

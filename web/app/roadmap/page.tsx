@@ -103,12 +103,6 @@ export default function RoadmapPage() {
               解锁完整路线图
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <Link
-              href="/brief"
-              className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
-            >
-              看个体决策案例
-            </Link>
           </div>
         </div>
 

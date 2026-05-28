@@ -15,7 +15,6 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const navItems: { href: string; label: string; match: (p: string) => boolean }[] = [
     { href: '/', label: 'AI 雷达', match: (p) => p === '/' || p.startsWith('/ai-radar') },
     { href: '/roadmap', label: '转型路线', match: (p) => p.startsWith('/roadmap') },
-    { href: '/brief', label: '决策简报', match: (p) => p.startsWith('/brief') },
     { href: weeklyHref, label: '前端周刊', match: (p) => p.startsWith('/weekly') },
   ];
 
@@ -41,6 +40,17 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
                 </Link>
               </span>
             ))}
+            <span className="inline-flex items-center gap-5">
+              <span className="select-none text-gray-300 dark:text-gray-700">|</span>
+              <a
+                href="https://md.tuaran666.workers.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
+              >
+                博主联盟同步工具
+              </a>
+            </span>
           </nav>
         </div>
         <div className="flex items-center gap-3">

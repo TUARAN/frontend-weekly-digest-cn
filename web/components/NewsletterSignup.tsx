@@ -45,7 +45,7 @@ export default function NewsletterSignup({
       if (res.ok) {
         const data = await res.json().catch(() => null);
         setState('ok');
-        setMessage(data?.message ?? '订阅成功，我们会把每周简报发到你邮箱。');
+        setMessage(data?.message ?? '订阅成功，我们会把每周精选发到你邮箱。');
         setEmail('');
         return;
       }

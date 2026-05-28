@@ -3,7 +3,6 @@ import Link from 'next/link';
 const productLinks = [
   { label: 'AI 雷达', href: '/' },
   { label: '转型路线', href: '/roadmap' },
-  { label: '决策简报', href: '/brief' },
   { label: '前端周刊', href: '/weekly' },
 ];
 
@@ -14,6 +13,7 @@ const membershipLinks = [
 ];
 
 const communityLinks = [
+  { label: '博主联盟同步工具', href: 'https://md.tuaran666.workers.dev/', external: true },
   { label: 'GitHub 仓库', href: 'https://github.com/TUARAN/frontend-weekly-digest-cn', external: true },
   { label: '公众号《前端周看》', href: '#', external: false },
   { label: '微信群（备注"前端周刊"）', href: '#', external: false },
