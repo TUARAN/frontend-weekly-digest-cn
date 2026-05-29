@@ -8,13 +8,13 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
-    default: "前端下一步 · 帮前端在 AI 时代做对技术决策",
-    template: "%s · 前端下一步",
+    default: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
+    template: "%s · 前端周看",
   },
   description: "面向前端开发者的 AI 雷达：过滤 AI 信号，沉淀转型路线和以人为主的个体决策案例。",
   keywords: ["前端周刊", "AI Agent", "前端转型", "技术情报", "前端 AI", "MCP", "LLM"],
   openGraph: {
-    title: "前端下一步 · 帮前端在 AI 时代做对技术决策",
+    title: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
     description: "AI 雷达 + 转型路线 + 个体决策案例——帮你过滤噪声，把外部信号融进自己的路线。",
     type: "website",
   },

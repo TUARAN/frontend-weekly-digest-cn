@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Check, Filter, MessageCircle, Target } from 'lucide-react';
 
 export const metadata = {
-  title: '1v1 定制化交流 · 前端下一步',
+  title: '1v1 定制化交流 · 前端周看',
   description: '不是又一个付费订阅。是一个人帮你把判断真正融进你自己的阶段和项目里。',
 };
 

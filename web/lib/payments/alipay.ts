@@ -55,7 +55,7 @@ export function createAlipayPayment(order: StoredOrder, device: 'desktop' | 'mob
     biz_content: JSON.stringify({
       out_trade_no: order.orderNo,
       total_amount: order.amount.toFixed(2),
-      subject: order.plan === '1v1' ? '前端下一步 1v1 定制化交流' : '前端下一步 Pro 年度会员',
+      subject: order.plan === '1v1' ? '前端周看 1v1 定制化交流' : '前端周看 Pro 年度会员',
       product_code: productCode,
       quit_url: returnUrl,
     }),

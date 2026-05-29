@@ -78,7 +78,7 @@ function DailyContent() {
   useEffect(() => {
     if (entry) {
       const displayDate = entry.date.replace(/-/g, '·');
-      document.title = `AI 早报 ${displayDate} · 前端下一步`;
+      document.title = `AI 早报 ${displayDate} · 前端周看`;
     }
   }, [entry]);
 
@@ -194,7 +194,7 @@ function DailyContent() {
             className="inline-flex items-center gap-1.5 text-sm font-medium text-gray-400 transition hover:text-white"
           >
             <ArrowLeft className="h-4 w-4" />
-            前端下一步
+            前端周看
           </Link>
           <div className="flex items-center gap-2">
             <button

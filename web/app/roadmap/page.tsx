@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { CheckCircle2, Circle, Lock, Sparkles, ArrowRight } from 'lucide-react';
 
 export const metadata = {
-  title: '前端 → AI Agent 转型路线 · 前端下一步',
+  title: '前端 → AI Agent 转型路线 · 前端周看',
   description: '一张为 3-5 年前端打造的能力地图，把从"写组件"到"构建 Agent"的路径拆成可执行的阶段。',
 };
 

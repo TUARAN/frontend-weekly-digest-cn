@@ -59,7 +59,7 @@ export const workflowSteps = [
   {
     title: 'Claude 初译',
     owner: '翻译 Prompt',
-    detail: '按「前端下一步」译者 prompt 输出结构化 HTML，先解决信息完整度。',
+    detail: '按「前端周看」译者 prompt 输出结构化 HTML，先解决信息完整度。',
   },
   {
     title: '人工审校',

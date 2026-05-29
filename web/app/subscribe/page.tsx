@@ -3,7 +3,7 @@ import { ArrowLeft, Mail, MessageCircle } from 'lucide-react';
 import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const metadata = {
-  title: '订阅邮件周报 · 前端下一步',
+  title: '订阅邮件周报 · 前端周看',
   description: '每周一封，收到值得停下来的 AI 信号和个体决策案例。',
 };
 

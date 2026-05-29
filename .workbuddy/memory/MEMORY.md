@@ -8,11 +8,12 @@
 ## 内容结构
 - `weekly/` — 历史周刊 Markdown（按期数目录）
 - `web/content/briefs/` — 精读/简报类 Markdown，frontmatter：`title/slug/date/category/tldr/readMinutes/pro/tags`
-- `web/components/LiveSignalBoard.tsx` — 首页信号流组件，`signals[]` 数组硬编码在第 15 行
+- `web/components/LiveSignalBoard.tsx` — 首页信号流组件，`signals[]` 数组硬编码在第 15 行，由 `AiRadarHome.tsx` 在 PageCarousel 下方渲染
+- `web/components/AiDailyBoard.tsx` — AI 早报展示组件（iframe + 摘要面板 + 导出/分享），导出图片时会临时解除外层容器高度限制以完整截图
 
 ## AI 早报自动化
 - **自动化 ID**：`automation-1779852562690`
-- **名称**：前端下一步 · AI 早报 | by 安东尼
+- **名称**：前端周看 · AI 早报 | by 安东尼
 - **时间**：每天 09:00 执行
 - **工作流**（8 Steps）：
   1. 搜索当天 AI 动态
