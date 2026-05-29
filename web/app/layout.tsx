@@ -11,11 +11,11 @@ export const metadata: Metadata = {
     default: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
     template: "%s · 前端周看",
   },
-  description: "面向前端开发者的 AI 雷达：过滤 AI 信号，沉淀转型路线和以人为主的个体决策案例。",
-  keywords: ["前端周刊", "AI Agent", "前端转型", "技术情报", "前端 AI", "MCP", "LLM"],
+  description: "每周为前端开发者精选并梳理 AI Coding、AI Agent、大模型与前端工程的关键动态——过滤噪声，只看真正该看的。",
+  keywords: ["前端周报", "前端周刊", "AI Coding", "AI Agent", "前端 AI", "大模型", "前端工程", "MCP", "LLM"],
   openGraph: {
     title: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
-    description: "AI 雷达 + 转型路线 + 个体决策案例——帮你过滤噪声，把外部信号融进自己的路线。",
+    description: "每周一份前端 × AI 的精选信息流：AI Coding、Agent、大模型与前端工程的关键变化，帮你用更少时间跟上节奏。",
     type: "website",
   },
 };

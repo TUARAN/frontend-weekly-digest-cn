@@ -18,7 +18,7 @@ export const ORDER_PLANS: Record<OrderPlanId, OrderPlan> = {
     price: 299,
     priceLabel: '¥299 / 年',
     features: [
-      'AI 早报 + 深度内容',
+      '每日精选 + 深度内容',
       '转型路线图完整版',
       '每月一封会员信',
       '专属读者微信群',

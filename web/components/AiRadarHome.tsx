@@ -11,15 +11,15 @@ import type { PageDefinition } from '@/components/PageCarousel';
 
 export const metadata = {
   title: 'AI 雷达',
-  description: '从 AI 噪声中筛出前端能用的判断：每日早报、短文速递、精译长文、深度解读。',
+  description: '从 AI 噪声中筛出前端能用的判断：每日精选、短文速递、精译长文、深度解读。',
 };
 
 export default function AiRadarHome() {
   const pages: PageDefinition[] = [
-    /* ── Page 1 · AI 早报 ── */
+    /* ── Page 1 · 每日精选 ── */
     {
       key: 'daily',
-      label: 'AI 早报',
+      label: '每日精选',
       icon: <Zap className="h-4 w-4" />,
       content: <AiDailyBoard />,
     },

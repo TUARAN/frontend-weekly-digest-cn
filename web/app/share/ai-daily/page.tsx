@@ -78,7 +78,7 @@ function DailyContent() {
   useEffect(() => {
     if (entry) {
       const displayDate = entry.date.replace(/-/g, '·');
-      document.title = `AI 早报 ${displayDate} · 前端周看`;
+      document.title = `每日精选 ${displayDate} · 前端周看`;
     }
   }, [entry]);
 
@@ -122,7 +122,7 @@ function DailyContent() {
         style: { margin: '0', padding: '0' },
       });
       const link = document.createElement('a');
-      link.download = `AI早报-${date}.png`;
+      link.download = `前端周看-每日精选-${date}.png`;
       link.href = dataUrl;
       link.click();
     } catch (err) {
@@ -159,7 +159,7 @@ function DailyContent() {
       <div className="flex min-h-screen items-center justify-center bg-[#0d0d12]">
         <div className="flex flex-col items-center gap-4">
           <Loader2 className="h-8 w-8 animate-spin text-blue-400" />
-          <p className="text-sm text-gray-400">加载早报...</p>
+          <p className="text-sm text-gray-400">加载每日精选...</p>
         </div>
       </div>
     );
@@ -170,7 +170,7 @@ function DailyContent() {
       <div className="flex min-h-screen items-center justify-center bg-[#0d0d12]">
         <div className="flex flex-col items-center gap-4 text-center">
           <FileText className="h-12 w-12 text-gray-600" />
-          <p className="text-lg font-semibold text-white">未找到该期早报</p>
+          <p className="text-lg font-semibold text-white">未找到该期每日精选</p>
           <p className="text-sm text-gray-400">日期：{date}</p>
           <Link
             href="/"
@@ -226,14 +226,14 @@ function DailyContent() {
         <div className="mb-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-blue-500/10 px-4 py-1.5 text-xs font-semibold text-blue-400">
             <FileText className="h-3 w-3" />
-            AI 早报 · {entry.displayDate}
+            每日精选 · {entry.displayDate}
           </div>
           {entry.count > 0 && (
             <p className="mt-2 text-sm text-gray-500">{entry.count} 条精选</p>
           )}
         </div>
 
-        {/* 早报卡片 iframe（原始大小展示） */}
+        {/* 每日精选卡片 iframe（原始大小展示） */}
         <div className="flex justify-center">
           <div
             className="overflow-hidden rounded-2xl shadow-2xl shadow-black/40"
@@ -242,7 +242,7 @@ function DailyContent() {
             <iframe
               ref={iframeRef}
               src={entry.file}
-              title={`AI 早报 ${date}`}
+              title={`每日精选 ${date}`}
               style={{
                 width: '100%',
                 minHeight: '820px',
@@ -275,7 +275,7 @@ function DailyContent() {
         {/* 底部操作 */}
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-white/10 pt-8">
           <p className="text-xs text-gray-500">
-            分享这篇早报给你的朋友和团队
+            分享这篇每日精选给你的朋友和团队
           </p>
           <div className="flex items-center gap-3">
             <button

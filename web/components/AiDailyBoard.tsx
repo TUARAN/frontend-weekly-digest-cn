@@ -48,7 +48,7 @@ export default function AiDailyBoard() {
     try {
       const iframe = iframeRef.current;
       if (!iframe || !iframe.contentDocument) {
-        alert('导出失败：无法读取早报内容');
+        alert('导出失败：无法读取内容');
         return;
       }
 
@@ -91,7 +91,7 @@ export default function AiDailyBoard() {
 
       // 触发下载
       const link = document.createElement('a');
-      link.download = `AI早报-${entry.date}.png`;
+      link.download = `前端周看-每日精选-${entry.date}.png`;
       link.href = dataUrl;
       link.click();
     } catch (err) {
@@ -192,7 +192,7 @@ export default function AiDailyBoard() {
         <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={false} />
         <div className="flex h-80 flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900/50">
           <FileText className="h-10 w-10 text-gray-300 dark:text-gray-600" />
-          <p className="text-sm text-gray-400">早报数据正在赶来...</p>
+          <p className="text-sm text-gray-400">每日精选正在赶来...</p>
           <p className="text-xs text-gray-300 dark:text-gray-600">每日 09:00 自动更新，敬请期待</p>
         </div>
       </section>
@@ -268,7 +268,7 @@ export default function AiDailyBoard() {
         onWheel={handleWheel}
       >
         <div className="flex flex-col lg:flex-row">
-          {/* 左侧：早报 iframe（全显示，无滚动条） */}
+          {/* 左侧：每日精选 iframe（全显示，无滚动条） */}
           <div className="flex justify-center p-4 sm:p-6 lg:flex-1">
             <div
               className="rounded-2xl"
@@ -282,7 +282,7 @@ export default function AiDailyBoard() {
               <iframe
                 ref={iframeRef}
                 src={entry.file}
-                title={`AI 早报 ${entry.date}`}
+                title={`每日精选 ${entry.date}`}
                 style={{
                   width: '500px',
                   height: '1150px',
@@ -316,7 +316,7 @@ export default function AiDailyBoard() {
             {total > 1 && (
               <div className="mt-6 rounded-xl border border-dashed border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800/50">
                 <p className="text-xs text-gray-500 dark:text-gray-400">
-                  共 <span className="font-semibold text-gray-700 dark:text-gray-200">{total}</span> 期早报 · 左右箭头切换
+                  共 <span className="font-semibold text-gray-700 dark:text-gray-200">{total}</span> 期 · 左右箭头切换
                 </p>
               </div>
             )}
@@ -348,7 +348,7 @@ function HeaderStrip({
           AI Daily
         </p>
         <h2 className="mt-1 text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl">
-          每日 AI 早报
+          每日精选
         </h2>
         <p className="mt-1.5 text-sm leading-6 text-gray-500 dark:text-gray-400">
           精选 AI Coding &amp; 具身智能最新动态 · 每日 09:00 自动更新
