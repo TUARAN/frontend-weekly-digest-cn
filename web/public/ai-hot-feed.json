@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-29T06:53:08.239Z",
+  "updatedAt": "2026-05-29T09:15:07.694Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "谷歌 DeepMind CEO 哈萨比斯：AGI 最快三年内到来，研发速度远超预期",
+      "summary": "谷歌 DeepMind 首席执行官德米斯·哈萨比斯预测，AGI 研发速度远超预期，最快可能在 2029 年至 2030 年前后出现。作为 AlphaGo、AlphaFold 的主导者，他认为当前 AI 智能体是未来更强智能的预演，随着多模态和自主决策能力成熟，三年内迎来 AGI 关键突破已非科幻。但他同时警示，全球社会对 AGI 到来的准备严重不足，必须提前建立规则与防护机制。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/957/154.htm",
+      "publishedAt": "2026-05-29T07:18:53.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "阿里云开源百炼 CLI，Agent 可调用全套模型和应用能力",
+      "summary": "",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/957/149.htm",
+      "publishedAt": "2026-05-29T07:15:20.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Adam's Law：用高频词写Prompt效果更好",
@@ -225,22 +241,6 @@
       "source": "Google Blog：AI（RSS）",
       "href": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
       "publishedAt": "2026-05-28T15:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter 支持模型现可选 Flex 与 Priority 服务层级",
-      "summary": "提示：您可以为支持的模型（OpenAI、Google Vertex 等）使用 Flex 和 Priority 层级。\n定价信息请查看各模型页面。文档：https：//openrouter.ai/docs/guides/features/service-tiers",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2060007875590697088",
-      "publishedAt": "2026-05-28T14:38:45.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "AI生成短片《昨夜》探索记忆碎片中的东京之夜",
-      "summary": "昨夜。一部完全由AI生成的短片，通过破碎记忆的视角，探索了在东京改变人生的一个夜晚。由一人使用Runway在一天内创作完成。\n\n这是Project Luxo的一部分：一个探索AI生成视频如何跨越恐怖谷的新项目。\n\n通过下方链接了解更多关于《昨夜》和Project Luxo的信息。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2059998751742128635",
-      "publishedAt": "2026-05-28T14:02:29.000Z"
     }
   ]
 }
