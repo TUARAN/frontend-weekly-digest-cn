@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-05-29T15:10:47.007Z",
+  "updatedAt": "2026-05-29T17:13:34.819Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "OpenRouter支持模型生成文件补丁",
+      "summary": "OpenRouter 现已支持 \"apply_patch\"，这是一个服务器工具，允许任何模型通过 Responses API 使用 V4A diffs 提出文件编辑建议。\n\n模型生成一个补丁（创建、更新或删除文件）。OpenRouter 在服务器端验证 diff 语法。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2060395056196936054",
+      "publishedAt": "2026-05-29T16:17:16.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Cognition的Scott Wu表示：AI编程智能体不应取代人类",
+      "summary": "Cognition公司开发了Devvin，这是一个号称首个且最成功的AI编程智能体。其著名程序员创始人Scott Wu明确表示，该智能体并非旨在取代人类程序员。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans",
+      "publishedAt": "2026-05-29T16:13:47.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Gemini架构师分享AI前沿探索幕后故事",
+      "summary": "聆听Gemini的架构师们回顾他们持续推动AI前沿的旅程，本期Release Notes节目。\n\n@JeffDean、@koraykv、@OriolVinyalsML和@NoamShazeer一同出镜，分享模型背后团队的幕后故事，以及他们如何见证愿景的实现。",
+      "source": "X：Google AI (@GoogleAI)",
+      "href": "https://x.com/GoogleAI/status/2060392191508488493",
+      "publishedAt": "2026-05-29T16:05:53.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Canvas新功能与Clerk自定义登录介绍",
+      "summary": "Canvas 新功能 + 使用 Clerk 自定义登录 https：//x.com/i/broadcasts/1pJdRRzreMRKW",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2060390354910859401",
+      "publishedAt": "2026-05-29T15:58:35.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Gemini 本月更新：全新界面与智能体助手",
+      "summary": "从全新设计的 Gemini 界面，到 Gemini Spark 提供的全天候智能体辅助，以下是本月 Gemini 更新概览。🧵",
+      "source": "X：Gemini (@GeminiApp)",
+      "href": "https://x.com/GeminiApp/status/2060389565052096911",
+      "publishedAt": "2026-05-29T15:55:27.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Kling AI助力电影RAPHAEL创作全流程揭秘",
+      "summary": "Kling AI戛纳展示--RAPHAEL：AI工作流幕后\n\n深入了解RAPHAEL，一部使用Kling AI创作的AI驱动故事片。看看创作者如何在整个电影制作流程中运用Kling AI，从创意构思到最终电影画面，简化制作并释放新的创作可能性。",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
+      "href": "https://x.com/Kling_ai/status/2060375625404432757",
+      "publishedAt": "2026-05-29T15:00:03.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "波士顿儿童医院利用AI解锁新诊断",
+      "summary": "波士顿儿童医院通过部署OpenAI技术，用于改善患者护理并减轻运营负担，成功帮助诊断了超过40种罕见病病例。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/boston-childrens-hospital",
+      "publishedAt": "2026-05-29T12:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Claude Code--文档中未提及的所有可配置选项",
@@ -25,6 +81,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/957/282.htm",
       "publishedAt": "2026-05-29T09:13:13.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Qwen-VLA：从理解世界到在其中行动",
+      "summary": "Qwen Studio提供全面功能，涵盖聊天机器人、图像与视频理解、图像生成、文档处理、网络搜索集成、工具利用及Artifacts。",
+      "source": "Qwen：Blog Retrieval（API）",
+      "href": "https://qwen.ai/blog?id=qwenvla",
+      "publishedAt": "2026-05-29T09:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -100,6 +164,22 @@
     },
     {
       "topic": "技巧",
+      "title": "可信第三方评估的共享操作手册",
+      "summary": "OpenAI 发布了一份关于第三方 AI 评估的指导框架，内容涵盖如何评估前沿系统的能力、安全防护措施及评估本身的有效性。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "publishedAt": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "技能提炼",
+      "summary": "\"技能提炼\"是一种知识转移方法，由前沿大模型（如 Opus 4.7、GPT-5.1、Gemini 3 Pro）负责撰写并优化标准化的 SKILL.md 流程文件。然后，本地运行的小模型（如 Qwen 35B、Gemma 26B）直接执行这些文件。此过程不同于压缩模型权重的知识蒸馏、训练权重的指令微调或检索事实的 RAG，其核心是提取并转移操作流程，让小模型按步骤执行，从而形成前沿模型作教师、小模型作执行者的循环。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/the-pi-agent-skill-distillation",
+      "publishedAt": "2026-05-29T00:00:00.000Z"
+    },
+    {
+      "topic": "技巧",
       "title": "PyTorch 中的性能分析（第一部分）：torch.profiler 初学者指南",
       "summary": "该指南旨在介绍如何在 PyTorch 中使用 torch.profiler 进行性能分析。文章是系列教程的第一部分，面向初学者，讲解如何通过该工具分析模型训练与推理过程的性能瓶颈。",
       "source": "Hugging Face：Blog（RSS）",
@@ -161,86 +241,6 @@
       "source": "X：MiniMax (@MiniMax_AI)",
       "href": "https://x.com/MiniMax_AI/status/2060071852970844377",
       "publishedAt": "2026-05-28T18:52:58.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "使用 Google Pay & Wallet Developer MCP server 加速你的集成工作流",
-      "summary": "Google 推出 Google Pay & Wallet Developer MCP server，这是一款开放标准工具，旨在将 AI 开发助手和 IDE 安全连接到实时的 API 与账户上下文。开发者无需离开开发环境，即可搜索官方文档、验证 Wallet pass 定义、检查集成状态以及管理商户账户。该集成旨在通过减少上下文切换并提供实时、可靠的 AI 支持来减少开发摩擦，从而加速开发工作流。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server",
-      "publishedAt": "2026-05-28T18:41:20.382Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元",
-      "summary": "Anthropic 宣布完成由 Altimeter Capital 等领投的 650 亿美元 H 轮融资，投后估值达 9650 亿美元。公司表示其旗舰模型 Claude 的企业部署持续增长，年化收入已突破 470 亿美元。此轮融资将用于推进 AI 安全与可解释性研究、扩展算力以满足 Claude 的需求，并规模化产品与合作伙伴关系。Anthropic 近期已显著扩大计算容量，并宣布 Claude 已登陆 AWS、Google Cloud 和 Microsoft Azure 三大云平台。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/series-h",
-      "publishedAt": "2026-05-28T18:35:40.238Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Apple 正努力将庞大的 Gemini 模型塞进 iPhone 以驱动新 Siri",
-      "summary": "Apple 正尝试将大型 Gemini 模型集成到 iPhone 中，以支持全新的 Siri 功能。由于模型规模庞大，本地处理可能无法完全实现，因此一个云端组件很可能是必然的选择。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/ai/2026/05/apple-reportedly-trying-to-distill-googles-multi-trillion-parameter-gemini-ai-to-run-on-iphone",
-      "publishedAt": "2026-05-28T18:30:48.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "hexoai开源SIA框架：AI智能体实现递归自我改进",
-      "summary": "hexoai开源了SIA（自我改进AI）框架。该框架展示了AI智能体不仅能优化其外部工作流（harness），还能通过任务反馈直接更新自身的模型权重，从而在领域知识和能力上实现自主提升，而非仅依赖人类提供的提示或工具改进。论文报告显示，SIA在LawBench基准上性能提升56.6%，在GPU kernels运行上耗时减少91.9%，在单细胞RNA去噪任务中相比基线提升502%。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2060063592448446778",
-      "publishedAt": "2026-05-28T18:20:09.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "四步保障AI生成应用安全",
-      "summary": "如何用四步保障你的vibecoded应用安全 🔒\n\n速度若无安全加持，便是隐患。以下是使用Replit发布应用时，如何避免留下后门的方法。\n\n🧵展开阅读 ↓",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2060052289155375532",
-      "publishedAt": "2026-05-28T17:35:14.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Nano Banana Pro与Nano Banana 2正式发布",
-      "summary": "🍌 Nano Banana Pro 【gemini-3-pro-image】 和 Nano Banana 2 【gemini-3.1-flash-image】 现已正式发布，可通过 Gemini API 投入生产使用。查看这些优秀的社区示例，了解两个模型的实际能力 🧵↓",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "href": "https://x.com/googleaidevs/status/2060049962356916377",
-      "publishedAt": "2026-05-28T17:25:59.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "在Claude Code中引入动态工作流",
-      "summary": "Claude Code 推出\"动态工作流\"功能，使 Claude 能端到端处理复杂任务。该功能通过动态编写脚本，在单个会话中并行运行数十到数百个子智能体来完成工作，并会在结果呈现前进行验证。它适用于跨代码库的 bug 查找、大规模迁移（如将 Bun 从 Zig 移植到 Rust）等需要多角度分析的任务。该功能现已在研究预览阶段可用，支持 Claude Code CLI、桌面端、VS Code 扩展以及 API、Amazon Bedrock、Vertex AI 等平台，面向 Max、Team 及已启用的 Enterprise 计划用户。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-      "publishedAt": "2026-05-28T17:21:01.868Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Claude Opus 4.8 发布：在编码、智能体技能与推理方面实现全面升级",
-      "summary": "Anthropic 发布了新一代模型 Claude Opus 4.8，作为 Opus 4.7 的升级版本，其在编码、智能体技能、推理和实用知识工作等各项基准测试中均取得进步。Claude Opus 4.8 现已可用，价格与前代相同。同步推出的新功能包括：用户可控制任务投入程度、Claude Code 新增\"动态工作流\"特性，以及 Opus 4.8 的 2.5 倍速模式价格降低为以往的三分之一。早期测试者反馈其在智能体任务中的判断力更可靠、工具调用更高效。该模型在 Online-Mind2Web 测评中得分 84%，超越了 Opus 4.7 和 GPT-5.5。此外，其诚实度与对齐表现也得到提升，代码错误漏检率降低了约 75%。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/claude-opus-4-8",
-      "publishedAt": "2026-05-28T17:05:39.037Z"
-    },
-    {
-      "topic": "论文",
-      "title": "SGLang 团队与 AMD 合作，使 AMD InstinctTM MI355X GPU 的大规模 DeepSeek-R1 分离式推理在总拥有成本上具备竞争力",
-      "summary": "SGLang 与 AMD 团队合作，通过一系列全栈优化，使 AMD InstinctTM MI355X GPU 在运行 DeepSeek-R1 大模型推理时实现了极具竞争力的总拥有成本。在 129 tok/s/user 的交互延迟下，其成本为每百万 token $0.169，比 NVIDIA B200（Dynamo TRT-LLM）方案低 5%，比 B200（SGLang）方案低 40%。吞吐量方面，24 块 AMD GPU 达到 2，436 tok/s/GPU，比使用 48 块 GPU 的 B200 SGLang 方案每 GPU 吞吐量高 1.25 倍。核心优化包括：MoRI 混合 FP4/FP8 量化全到全通信、MoRI-IO KV Cache 后端、两批重叠与 SDMA、ROCm 上的 Specv2 MTP 以及 CPU 流式处理优化。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-05-28-mori",
-      "publishedAt": "2026-05-28T16:34:57.702Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Data Formulator 推出企业数据 AI 分析工具",
-      "summary": "Data Formulator 为企业数据工作流引入了 AI 驱动的分析功能。数据团队可以轻松将企业数据带入一个 AI 就绪的工作空间，用户可以使用 AI 智能体来探索、分析和可视化数据，将原始数据转化为可操作的洞察：https：//msft.it/6013vZzUl",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "href": "https://x.com/MSFTResearch/status/2060028999229735199",
-      "publishedAt": "2026-05-28T16:02:41.000Z"
     }
   ]
 }
