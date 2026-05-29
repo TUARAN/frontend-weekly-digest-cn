@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-28",
+  "displayDate": "May 28",
+  "dateNum": "0528",
+  "year": 2026,
+  "dayOfWeek": "THU",
+  "topics": [
+    "AI Coding",
+    "具身智能"
+  ],
+  "sources": "新浪财经 · 财新 · 同花顺 · 中新网",
+  "count": 4,
+  "highlights": [
+    "OpenAI GPT-5.6 曝 \"ul",
+    "DeepSeek 秘密组建 Harnes",
+    "2026 世界智能产业博览会今日开幕，具",
+    "宇树科技 6月1日科创板上会，有望成 A"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "OpenAI GPT-5.6 曝 \"ultrafast 模式\"，向企业发 $400 迁移补贴",
+      "summary": "内部测试版推理速度提升 2–3×，OpenAI 向迁移至 Codex 企业提供 400 美元补贴，正面迎战 Anthropic Claude Code 切换 Opus 4.7 默认快速模式。",
+      "reason": "AI 编程赛道从模型比拼正式进入补贴大战，格局可能加速固化"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "DeepSeek 秘密组建 Harness 团队，对标 Claude Code 入局代码 Agent",
+      "summary": "正式招募 Agent Harness 产品经理 + 研究员，API 同步永久降价 75%，输入价格降至 0.435 美元 / 百万 token。",
+      "reason": "DeepSeek 首次产品化转型，极低价策略可能冲击三强（Cursor / Claude Code / Codex）格局"
+    },
+    {
+      "num": "03",
+      "topic": "具身智能",
+      "title": "2026 世界智能产业博览会今日开幕，具身智能单独成展区",
+      "summary": "天津举办，13 万㎡展览、28 家世界 500 强参展，专设具身智能主题展区 + 人工智能主题日，同期举办成果发布与项目签约。",
+      "reason": "具身智能首次在国家级展会独立成区，标志赛道从概念升格为主流产业方向"
+    },
+    {
+      "num": "04",
+      "topic": "具身智能",
+      "title": "宇树科技 6月1日科创板上会，有望成 A 股\"具身智能第一股\"",
+      "summary": "受理到上会仅历时 73 天，估值至少 420 亿元，拟融资 42 亿，2025 年前三季度营收 11.67 亿、净利润 1.05 亿。",
+      "reason": "6月1日上会结果是近期具身智能板块最关键的催化剂事件，将带动概念股估值重定价"
+    }
+  ]
+}

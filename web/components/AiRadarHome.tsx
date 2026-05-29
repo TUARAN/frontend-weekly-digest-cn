@@ -10,6 +10,7 @@ import AiDailyBoard from '@/components/AiDailyBoard';
 import LiveSignalBoard from '@/components/LiveSignalBoard';
 import { getAllWeeklies } from '@/lib/weekly';
 import { getAiHotFeed } from '@/lib/ai-hot-feed';
+import { getDailyManifest, getLatestDaily } from '@/lib/ai-daily';
 
 export const metadata = {
   description:
@@ -45,6 +46,8 @@ export default function AiRadarHome() {
   const [featured, ...rest] = weeklies;
   const recent = rest.slice(0, 3);
   const feed = getAiHotFeed();
+  const dailyManifest = getDailyManifest();
+  const latestDaily = getLatestDaily();
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-6">
@@ -67,7 +70,7 @@ export default function AiRadarHome() {
 
         {/* ── 每日精选 ── */}
         <section className="mt-16">
-          <AiDailyBoard />
+          <AiDailyBoard manifest={dailyManifest.list} initial={latestDaily} />
         </section>
 
         {/* ── 更多内容形态：短文 / 中文 / 长文 ── */}

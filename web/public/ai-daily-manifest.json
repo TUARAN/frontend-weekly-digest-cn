@@ -1,29 +1,29 @@
 {
   "list": [
     {
+      "date": "2026-05-29",
+      "displayDate": "May 29",
+      "json": "/ai-daily/2026-05-29.json",
+      "count": 5,
+      "highlights": [
+        "阶跃星辰 Step 3.7 Flash ",
+        "Claude Opus 4.8 发布：在",
+        "Cursor 团队发布《开发者习惯报告》",
+        "别只看基准测试，要看全面表现",
+        "使用 Google Pay & Wall"
+      ]
+    },
+    {
       "date": "2026-05-28",
       "displayDate": "May 28",
-      "file": "/ai-daily-0528.html",
       "count": 4,
       "highlights": [
         "OpenAI GPT-5.6 曝 ultrafast 模式，向企业发 $400 迁移补贴",
         "DeepSeek 秘密组建 Harness 团队，对标 Claude Code 入局代码 Agent",
         "2026 世界智能产业博览会今日开幕，具身智能单独成展区",
         "宇树科技 6月1日科创板上会，有望成 A 股具身智能第一股"
-      ]
-    },
-    {
-      "date": "2026-05-29",
-      "displayDate": "May 29",
-      "file": "/ai-daily-0529.html",
-      "count": 5,
-      "highlights": [
-        "Claude Opus 4.8 发布：代码漏检率降75%",
-        "Claude Code 动态工作流：并行数百子Agent",
-        "阶跃星辰开源Step 3.7 Flash 兼容Claude Code",
-        "Cursor报告：周均代码产出翻倍至8.6K行",
-        "Anthropic $650亿融资，年化收入$470亿"
-      ]
+      ],
+      "json": "/ai-daily/2026-05-28.json"
     }
   ],
   "latest": "2026-05-29"

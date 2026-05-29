@@ -36,7 +36,7 @@ jobs:
           git config user.name "CodeMiner-掘金安东尼"
           git config user.email "729922845@qq.com"
 
-          git add web/public/ai-daily-*.html \
+          git add web/public/ai-daily/ \
                   web/public/ai-daily-manifest.json \
                   web/content/briefs/ai-daily-*.md
 

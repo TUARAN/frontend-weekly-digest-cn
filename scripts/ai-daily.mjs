@@ -11,7 +11,7 @@
  * 由 .github/workflows/ai-daily.yml 每日 09:00 CST 自动触发
  */
 
-import { writeFileSync, readFileSync } from 'fs';
+import { writeFileSync, readFileSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -160,49 +160,6 @@ function getDateYMD(date) {
   return `${y}-${m}-${d}`;
 }
 
-function renderNewsItem(item, topic, index) {
-  const num = String(index + 1).padStart(2, '0');
-  const cls = topic === 'AI Coding' ? 'coding' : 'embodied';
-  const catLabel = topic === 'AI Coding' ? 'AI Coding' : '具身智能';
-  const reason = generateReason(item, topic);
-
-  // 提取来源名称
-  const source = item.source || 'AI HOT';
-
-  return `
-    <!-- ${num} -->
-    <div class="news-item ${cls}">
-      <div class="news-meta">
-        <div class="news-num">${num}</div>
-        <span class="news-cat">${catLabel}</span>
-      </div>
-      <div class="news-title">${escapeHtml(item.title)}</div>
-      <div class="news-desc">
-        ${highlightNumbers(escapeHtml(item.summary))}
-      </div>
-      <div class="reason-row">
-        <span class="reason-icon">→</span>
-        <span class="reason-text">${escapeHtml(reason)}</span>
-      </div>
-    </div>`;
-}
-
-function escapeHtml(str) {
-  return (str || '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-
-function highlightNumbers(text) {
-  // 高亮数字、百分比、金额
-  return text.replace(
-    /(\d[\d,.]*(?:%|亿|万|倍|美元|分|行)?)/g,
-    '<span class="news-highlight">$1</span>'
-  );
-}
-
 /**
  * 提取所有数据的来源汇总
  */
@@ -216,404 +173,28 @@ function collectSources(selected) {
   return arr.slice(0, 3).join(' · ') + ' 等';
 }
 
-function generateHTML(selected, date) {
-  const mmdd = getMMDD(date);
-  const weekday = getDayOfWeek(date);
-  const year = date.getFullYear();
-  const sources = collectSources(selected);
-  const newsHtml = selected.map((s, i) => renderNewsItem(s.item, s.topic, i)).join('\n');
-  const totalCount = selected.length;
-  const codingCount = selected.filter(s => s.topic === 'AI Coding').length;
-  const embodiedCount = selected.filter(s => s.topic === '具身智能').length;
-
-  // 动态标签行
-  let tagRow = '';
-  if (codingCount > 0) {
-    tagRow += '    <span class="tag tag-coding"># AI CODING</span>\n';
-  }
-  if (embodiedCount > 0) {
-    tagRow += '    <span class="tag tag-embodied"># 具身智能</span>\n';
-  }
-
-  return `<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>每日精选 ${year}·${mmdd}</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  body {
-    width: 500px;
-    min-height: 100%;
-    background: #0d0d12;
-    font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    padding: 0;
-  }
-
-  .card {
-    width: 500px;
-    background: #0d0d12;
-    position: relative;
-    overflow: hidden;
-    padding: 40px 36px 44px;
-  }
-
-  /* 装饰性光斑 */
-  .glow-1 {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(100,120,255,0.13) 0%, transparent 70%);
-    top: -80px;
-    right: -60px;
-    pointer-events: none;
-  }
-  .glow-2 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(0,210,150,0.09) 0%, transparent 70%);
-    bottom: 60px;
-    left: -40px;
-    pointer-events: none;
-  }
-
-  /* 顶部 header */
-  .header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    position: relative;
-    z-index: 2;
-  }
-
-  .badge {
-    display: inline-block;
-    background: linear-gradient(135deg, #5c6ef8, #7c5cf8);
-    color: #fff;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    padding: 3px 10px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-
-  .main-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.15;
-    color: #fff;
-    letter-spacing: -0.5px;
-  }
-  .main-title span {
-    color: #6c7ff8;
-  }
-
-  .date-block {
-    text-align: right;
-  }
-  .date-num {
-    font-size: 36px;
-    font-weight: 700;
-    color: rgba(255,255,255,0.08);
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-  .date-label {
-    font-size: 11px;
-    color: rgba(255,255,255,0.3);
-    letter-spacing: 0.5px;
-    margin-top: 2px;
-  }
-
-  /* 分割线 */
-  .divider {
-    height: 1px;
-    background: linear-gradient(to right, rgba(108,127,248,0.6), rgba(108,127,248,0.1), transparent);
-    margin-bottom: 24px;
-    position: relative;
-    z-index: 2;
-  }
-
-  /* 标签区 */
-  .tag-row {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 24px;
-    position: relative;
-    z-index: 2;
-  }
-  .tag {
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.8px;
-    padding: 3px 10px;
-    border-radius: 12px;
-    border: 1px solid;
-  }
-  .tag-coding {
-    color: #6c9af8;
-    border-color: rgba(108,154,248,0.35);
-    background: rgba(108,154,248,0.08);
-  }
-  .tag-embodied {
-    color: #50d4a0;
-    border-color: rgba(80,212,160,0.35);
-    background: rgba(80,212,160,0.08);
-  }
-
-  /* 新闻列表 */
-  .news-list {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    position: relative;
-    z-index: 2;
-  }
-
-  .news-item {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 12px;
-    padding: 16px 18px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .news-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    border-radius: 12px 0 0 12px;
-  }
-  .news-item.coding::before { background: #6c9af8; }
-  .news-item.embodied::before { background: #50d4a0; }
-
-  .news-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
-  }
-
-  .news-num {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    font-weight: 700;
-    flex-shrink: 0;
-  }
-  .coding .news-num { background: rgba(108,154,248,0.2); color: #6c9af8; }
-  .embodied .news-num { background: rgba(80,212,160,0.2); color: #50d4a0; }
-
-  .news-cat {
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.6px;
-    padding: 2px 7px;
-    border-radius: 8px;
-  }
-  .coding .news-cat { color: #6c9af8; background: rgba(108,154,248,0.1); }
-  .embodied .news-cat { color: #50d4a0; background: rgba(80,212,160,0.1); }
-
-  .news-title {
-    font-size: 13.5px;
-    font-weight: 600;
-    color: #f0f0f4;
-    line-height: 1.45;
-    margin-bottom: 7px;
-  }
-
-  .news-desc {
-    font-size: 11.5px;
-    color: rgba(255,255,255,0.45);
-    line-height: 1.6;
-    word-break: break-word;
-  }
-
-  .news-highlight {
-    display: inline;
-    color: rgba(255,255,255,0.7);
-    font-weight: 500;
-  }
-
-  /* 原因标签 */
-  .reason-row {
-    margin-top: 9px;
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-  }
-  .reason-icon {
-    font-size: 10px;
-    color: rgba(255,200,60,0.8);
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
-  .reason-text {
-    font-size: 11px;
-    color: rgba(255,200,60,0.65);
-    line-height: 1.5;
-    font-style: italic;
-  }
-
-  /* 底部 */
-  .footer {
-    margin-top: 24px;
-    position: relative;
-    z-index: 2;
-  }
-  .footer-ip {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 12px;
-    padding: 10px 14px;
-    background: rgba(108,127,248,0.08);
-    border: 1px solid rgba(108,127,248,0.2);
-    border-radius: 10px;
-  }
-  .ip-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .ip-avatar {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #6c7ff8, #50d4a0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 11px;
-    font-weight: 700;
-    color: #fff;
-    flex-shrink: 0;
-  }
-  .ip-name {
-    font-size: 12px;
-    font-weight: 600;
-    color: rgba(255,255,255,0.8);
-    letter-spacing: 0.3px;
-  }
-  .ip-slogan {
-    font-size: 10px;
-    color: rgba(255,255,255,0.35);
-    margin-top: 1px;
-    letter-spacing: 0.2px;
-  }
-  .ip-tag {
-    font-size: 10px;
-    color: #6c9af8;
-    background: rgba(108,154,248,0.12);
-    border: 1px solid rgba(108,154,248,0.25);
-    padding: 2px 8px;
-    border-radius: 8px;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-  .footer-meta {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .footer-left {
-    font-size: 10px;
-    color: rgba(255,255,255,0.2);
-    letter-spacing: 0.5px;
-  }
-  .footer-right {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #6c7ff8;
-    animation: pulse 2s ease-in-out infinite;
-  }
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-  }
-  .footer-brand {
-    font-size: 11px;
-    font-weight: 600;
-    color: rgba(255,255,255,0.25);
-    letter-spacing: 0.5px;
-  }
-</style>
-</head>
-<body>
-<div class="card">
-  <div class="glow-1"></div>
-  <div class="glow-2"></div>
-
-  <!-- Header -->
-  <div class="header">
-    <div class="header-left">
-      <div class="badge">AI DAILY</div>
-      <div class="main-title">每日<span>精选</span></div>
-    </div>
-    <div class="date-block">
-      <div class="date-num">${mmdd}</div>
-      <div class="date-label">${year} · ${weekday}</div>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <!-- Tags -->
-  <div class="tag-row">
-${tagRow}  </div>
-
-  <!-- News -->
-  <div class="news-list">
-${newsHtml}
-  </div>
-
-  <!-- Footer -->
-  <div class="footer">
-    <div class="footer-ip">
-      <div class="ip-left">
-        <div class="ip-avatar">安</div>
-        <div>
-          <div class="ip-name">前端周看 · 每日精选</div>
-          <div class="ip-slogan">by 安东尼 · 每日精选 AI Coding &amp; 具身智能动态</div>
-        </div>
-      </div>
-      <span class="ip-tag">Daily</span>
-    </div>
-    <div class="footer-meta">
-      <span class="footer-left">数据来源：${escapeHtml(sources)} · AI HOT</span>
-      <div class="footer-right">
-        <div class="dot"></div>
-        <span class="footer-brand">Auto Generated</span>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
-</html>
-`;
+// ============================================================
+// Step 3: 构建结构化 JSON（前端用 DailyCard 组件渲染）
+// ============================================================
+function buildDayData(selected, date) {
+  return {
+    date: getDateYMD(date),
+    displayDate: getDisplayDate(date),
+    dateNum: getMMDD(date),
+    year: date.getFullYear(),
+    dayOfWeek: getDayOfWeek(date),
+    topics: [...new Set(selected.map(s => s.topic))],
+    sources: collectSources(selected),
+    count: selected.length,
+    highlights: selected.map(s => s.item.title.slice(0, 20)),
+    items: selected.map((s, i) => ({
+      num: String(i + 1).padStart(2, '0'),
+      topic: s.topic,
+      title: s.item.title,
+      summary: s.item.summary || '',
+      reason: generateReason(s.item, s.topic),
+    })),
+  };
 }
 
 // ============================================================
@@ -625,12 +206,11 @@ function updateManifest(selected, date) {
   const manifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
 
   const ymd = getDateYMD(date);
-  const mmdd = getMMDD(date);
   const displayDate = getDisplayDate(date);
-  const file = `/ai-daily-${mmdd}.html`;
+  const json = `/ai-daily/${ymd}.json`;
   const highlights = selected.map(s => s.item.title.slice(0, 20));
 
-  const entry = { date: ymd, displayDate, file, count: selected.length, highlights };
+  const entry = { date: ymd, displayDate, json, count: selected.length, highlights };
 
   // 幂等：同日期替换，否则追加
   const idx = manifest.list.findIndex(e => e.date === ymd);
@@ -719,16 +299,15 @@ by 安东尼 · [前端周看](https://frontend-weekly-digest-cn.vercel.app)
 // 写入文件
 // ============================================================
 function writeOutputs(selected, date) {
-  const mmdd = getMMDD(date);
   const ymd = getDateYMD(date);
 
-  // HTML
-  const htmlPath = resolve(PUBLIC, `ai-daily-${mmdd}.html`);
-  const html = generateHTML(selected, date);
-  writeFileSync(htmlPath, html);
-  console.log(`  ✅ HTML → ${htmlPath}`);
+  // 结构化 JSON（前端 DailyCard 组件渲染）
+  const jsonDir = resolve(PUBLIC, 'ai-daily');
+  mkdirSync(jsonDir, { recursive: true });
+  const jsonPath = resolve(jsonDir, `${ymd}.json`);
+  writeFileSync(jsonPath, JSON.stringify(buildDayData(selected, date), null, 2) + '\n');
+  console.log(`  ✅ JSON → ${jsonPath}`);
 
-  // Manifest（在 updateManifest 内部已写入）
   // MD Brief
   const mdPath = resolve(BRIEFS, `ai-daily-${ymd.replace(/-/g, '')}.md`);
   const md = generateBriefMD(selected, date);
