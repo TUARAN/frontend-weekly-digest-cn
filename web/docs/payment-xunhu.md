@@ -53,7 +53,7 @@ XUNHU_ALIPAY_APP_SECRET=你的支付宝应用密钥
 
 - `SITE_URL` 必须和外部访问域名一致
 - 回调必须是公网 HTTPS
-- 如果站点部署在 Vercel / Node 服务，确保 API 路由可被公网访问
+- 本站只通过 Cloudflare Pages 部署；若启用动态 API，请改用 Cloudflare Pages Functions / Workers 而非 Vercel
 
 ## 现在的订单状态流转
 

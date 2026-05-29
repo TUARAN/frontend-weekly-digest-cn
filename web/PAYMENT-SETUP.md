@@ -36,7 +36,7 @@ FN + YYYYMMDD + HHMM + 4位随机
 1. **用户本地浏览器 localStorage**：key 为 `fn_last_order`，包含姓名、微信、邮箱、套餐。
 2. **用户主动联系**：done 页面引导用户加微信 `atar24`，把订单号发给你。
 
-如果需要服务端收集，请把站点迁移到 Vercel / Node server，去掉 `output: "export"`，`/api/order/route.ts` 就会生效，可以接 Notion / Airtable / 自建数据库。
+如果未来需要服务端收集，可以把 `/api/order` 这类逻辑迁到 **Cloudflare Workers / Pages Functions**（与现有 Cloudflare Pages 部署同源），写入 D1 / KV / Notion / Airtable 都可以。**不要切换到 Vercel** —— 本项目只通过 Cloudflare Pages 部署。
 
 ## 四、开通权益的人工流程（建议）
 
@@ -49,7 +49,7 @@ FN + YYYYMMDD + HHMM + 4位随机
 
 当每月订单 > 30 单时再考虑：
 
-- 切换为带 Node server 的部署（Vercel / 自建）。
+- 用 Cloudflare Pages Functions / Workers 承担订单收集与回调（保持单一部署平台）。
 - 用微信 Native 扫码支付或支付宝 Precreate API（都需要营业执照开通商户号）。
 - 或接入 Stripe + 支持微信/支付宝（海外商户更容易）。
 

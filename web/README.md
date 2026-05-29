@@ -6,6 +6,8 @@
 - **原·前端周刊**：保留历史周刊内容，并继续按周更新。
 - **周刊抓取与翻译工作台**：服务于原·前端周刊的抓取、整理、翻译流程。
 
+> **部署**：本项目**只通过 Cloudflare Pages 部署**（DNS 解析也在 Cloudflare）。`next.config.ts` 锁定 `output: "export"`，所有路由必须可静态导出 —— 不允许新增动态 API 路由或使用 `await searchParams` 的 page。不要引入 Vercel 或 `vercel.json`。
+
 ## 目录结构
 
 - **Next.js 应用**
