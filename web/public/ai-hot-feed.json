@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-29T19:50:45.060Z",
+  "updatedAt": "2026-05-29T20:50:43.175Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Runway API持续扩展模型与端点支持",
+      "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。",
+      "source": "X：Runway (@runwayml)",
+      "href": "https://x.com/runwayml/status/2060453805519765548",
+      "publishedAt": "2026-05-29T20:10:43.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "OpenAI推出实时翻译模型，支持70+语言输入",
+      "summary": "OpenAI 实时翻译功能--使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。",
+      "source": "X：Greg Brockman (@gdb)",
+      "href": "https://x.com/gdb/status/2060452095279415725",
+      "publishedAt": "2026-05-29T20:03:55.000Z"
+    },
     {
       "topic": "技巧",
       "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
@@ -225,22 +241,6 @@
       "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
       "href": "https://x.com/StepFun_ai/status/2060149124117475791",
       "publishedAt": "2026-05-29T00:00:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "可信第三方评估的共享操作手册",
-      "summary": "OpenAI 发布了一份关于第三方 AI 评估的指导框架，内容涵盖如何评估前沿系统的能力、安全防护措施及评估本身的有效性。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "publishedAt": "2026-05-29T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "技能提炼",
-      "summary": "\"技能提炼\"是一种知识转移方法，由前沿大模型（如 Opus 4.7、GPT-5.1、Gemini 3 Pro）负责撰写并优化标准化的 SKILL.md 流程文件。然后，本地运行的小模型（如 Qwen 35B、Gemma 26B）直接执行这些文件。此过程不同于压缩模型权重的知识蒸馏、训练权重的指令微调或检索事实的 RAG，其核心是提取并转移操作流程，让小模型按步骤执行，从而形成前沿模型作教师、小模型作执行者的循环。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/the-pi-agent-skill-distillation",
-      "publishedAt": "2026-05-29T00:00:00.000Z"
     }
   ]
 }
