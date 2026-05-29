@@ -1,14 +1,30 @@
 {
-  "updatedAt": "2026-05-29T18:55:42.762Z",
+  "updatedAt": "2026-05-29T19:50:45.060Z",
   "count": 30,
   "items": [
     {
+      "topic": "技巧",
+      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
+      "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "href": "https://x.com/googleaidevs/status/2060439904929382700",
+      "publishedAt": "2026-05-29T19:15:29.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "参与我们的 I/O 2026 测验：该测验由 Google AI Studio 氛围编程生成",
+      "summary": "Google 使用其开发工具 Google AI Studio，通过氛围编程（vibe coding）方式，创建了一个关于 Google I/O 2026 主要公告的在线测验。",
+      "source": "Google Blog：AI（RSS）",
+      "href": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz",
+      "publishedAt": "2026-05-29T19:00:00.000Z"
+    },
+    {
       "topic": "产品",
-      "title": "Opus 4.8支持对话中途添加系统指令",
-      "summary": "使用 Opus 4.8，您可以在对话中途添加系统指令，而不会破坏提示词缓存。\n更多缓存命中意味着您的 API 请求成本更低、延迟更小。",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2060432688281251998",
-      "publishedAt": "2026-05-29T18:46:48.000Z"
+      "title": "Gemini Omni可将草图变为现实",
+      "summary": "Gemini Omni甚至能将简单的草图变为新的现实。\n\n在Gemini应用中亲自尝试。上传一段有人画圆的视频，然后输入这个提示词：当我画完这个圆时，它变成了___。",
+      "source": "X：Gemini (@GeminiApp)",
+      "href": "https://x.com/GeminiApp/status/2060435981946503243",
+      "publishedAt": "2026-05-29T18:59:53.000Z"
     },
     {
       "topic": "产品",
@@ -225,22 +241,6 @@
       "source": "Tomer Tunguz 博客（VC 分析）",
       "href": "https://www.tomtunguz.com/the-pi-agent-skill-distillation",
       "publishedAt": "2026-05-29T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "PyTorch 中的性能分析（第一部分）：torch.profiler 初学者指南",
-      "summary": "该指南旨在介绍如何在 PyTorch 中使用 torch.profiler 进行性能分析。文章是系列教程的第一部分，面向初学者，讲解如何通过该工具分析模型训练与推理过程的性能瓶颈。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/torch-profiler",
-      "publishedAt": "2026-05-29T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "llm-anthropic 0.25.1",
-      "summary": "llm-anthropic 发布 0.25.1 版本。主要更新包括：新增 Claude Opus 4.8 （`claude-opus-4.8`） 模型；为账户启用了该功能的组织新增了 `-o fast 1` 选项以使用快速模式；调整了各模型的默认 `max_tokens` 值，使其直接使用模型的最大输出长度，而非固定的 8，192。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/May/28/llm-anthropic",
-      "publishedAt": "2026-05-28T23:54:56.000Z"
     }
   ]
 }
