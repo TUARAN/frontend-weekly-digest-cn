@@ -9,6 +9,7 @@ import {
 import AiDailyBoard from '@/components/AiDailyBoard';
 import LiveSignalBoard from '@/components/LiveSignalBoard';
 import { getAllWeeklies } from '@/lib/weekly';
+import { getAiHotFeed } from '@/lib/ai-hot-feed';
 
 export const metadata = {
   description:
@@ -43,6 +44,7 @@ export default function AiRadarHome() {
   const weeklies = getAllWeeklies();
   const [featured, ...rest] = weeklies;
   const recent = rest.slice(0, 3);
+  const feed = getAiHotFeed();
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-6">
@@ -54,13 +56,13 @@ export default function AiRadarHome() {
             <span className="text-blue-600 dark:text-blue-400">每周看世界所发生的变化</span>
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-gray-500 dark:text-gray-400">
-            7×24 小时实时资讯，每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——每条都帮你回答：这对前端意味着什么？
+            7×24 小时实时资讯，每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——不求多，有一条能给你一点启发就够。
           </p>
         </header>
 
         {/* ── 7×24 小时资讯 ── */}
         <section>
-          <LiveSignalBoard />
+          <LiveSignalBoard items={feed.items} updatedAt={feed.updatedAt} />
         </section>
 
         {/* ── 每日精选 ── */}

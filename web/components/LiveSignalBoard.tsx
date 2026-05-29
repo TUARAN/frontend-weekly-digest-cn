@@ -1,41 +1,23 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Copy, ExternalLink, Radio } from 'lucide-react';
+import type { FeedItem } from '@/lib/ai-hot-feed';
 
-interface SignalItem {
-  topic: string;
-  title: string;
-  summary: string;
-  source: string;
-  href: string;
-  publishedAt?: string | null;
-}
-
-interface FeedPayload {
-  updatedAt: string;
-  count: number;
-  items: SignalItem[];
-}
-
-const POLL_MS = 30 * 60 * 1000; // 30 分钟
-
-function relativeTime(iso?: string | null): string {
+// 固定按 UTC+8 格式化，保证服务端构建与客户端渲染一致（避免水合不匹配）。
+function fmtCST(iso?: string | null): string {
   if (!iso) return '';
   const t = Date.parse(iso);
   if (Number.isNaN(t)) return '';
-  const diff = Date.now() - t;
-  const m = Math.floor(diff / 60000);
-  if (m < 1) return '刚刚';
-  if (m < 60) return `${m} 分钟前`;
-  const h = Math.floor(m / 60);
-  if (h < 24) return `${h} 小时前`;
-  const d = Math.floor(h / 24);
-  if (d < 30) return `${d} 天前`;
-  return new Date(t).toLocaleDateString('zh-CN', { month: 'numeric', day: 'numeric' });
+  const d = new Date(t + 8 * 60 * 60 * 1000);
+  const M = d.getUTCMonth() + 1;
+  const D = d.getUTCDate();
+  const h = String(d.getUTCHours()).padStart(2, '0');
+  const m = String(d.getUTCMinutes()).padStart(2, '0');
+  return `${M}月${D}日 ${h}:${m}`;
 }
 
-function SignalCard({ item }: { item: SignalItem }) {
+function SignalCard({ item }: { item: FeedItem }) {
   const [copied, setCopied] = useState(false);
 
   async function handleCopy() {
@@ -58,7 +40,7 @@ function SignalCard({ item }: { item: SignalItem }) {
               {item.topic}
             </span>
             {item.publishedAt && (
-              <span className="text-xs text-gray-500 dark:text-gray-400">{relativeTime(item.publishedAt)}</span>
+              <span className="text-xs text-gray-500 dark:text-gray-400">{fmtCST(item.publishedAt)}</span>
             )}
           </div>
           <h3 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">{item.title}</h3>
@@ -95,7 +77,7 @@ function SignalCard({ item }: { item: SignalItem }) {
   );
 }
 
-function SignalStream({ items }: { items: SignalItem[] }) {
+function SignalStream({ items }: { items: FeedItem[] }) {
   // 至少复制一遍以实现无缝循环滚动
   const loopItems = useMemo(() => (items.length > 0 ? [...items, ...items] : []), [items]);
 
@@ -112,36 +94,12 @@ function SignalStream({ items }: { items: SignalItem[] }) {
   );
 }
 
-export default function LiveSignalBoard() {
-  const [items, setItems] = useState<SignalItem[]>([]);
-  const [updatedAt, setUpdatedAt] = useState<string | null>(null);
-  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
+interface LiveSignalBoardProps {
+  items: FeedItem[];
+  updatedAt?: string | null;
+}
 
-  useEffect(() => {
-    let alive = true;
-
-    const load = async () => {
-      try {
-        const res = await fetch(`/ai-hot-feed.json?t=${Date.now()}`, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data: FeedPayload = await res.json();
-        if (!alive) return;
-        setItems(Array.isArray(data.items) ? data.items : []);
-        setUpdatedAt(data.updatedAt ?? null);
-        setStatus('ready');
-      } catch {
-        if (alive) setStatus((s) => (s === 'ready' ? 'ready' : 'error'));
-      }
-    };
-
-    load();
-    const timer = window.setInterval(load, POLL_MS);
-    return () => {
-      alive = false;
-      window.clearInterval(timer);
-    };
-  }, []);
-
+export default function LiveSignalBoard({ items, updatedAt }: LiveSignalBoardProps) {
   return (
     <section className="mx-auto max-w-6xl rounded-3xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900">
       <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
@@ -152,24 +110,22 @@ export default function LiveSignalBoard() {
           </p>
           <h2 className="mt-1 text-3xl font-bold text-gray-900 dark:text-white">7×24 小时资讯</h2>
           <p className="mt-1.5 text-sm leading-6 text-gray-500 dark:text-gray-400">
-            AI、Agent、前端、科技实时播报 · 每 30 分钟自动抓取
+            AI、Agent、前端、科技实时播报 · 每小时自动更新
           </p>
         </div>
         {updatedAt && (
           <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
             <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
-            最近更新 {relativeTime(updatedAt)}
+            更新于 {fmtCST(updatedAt)}
           </span>
         )}
       </div>
 
-      {status === 'loading' && items.length === 0 && (
-        <div className="flex h-40 items-center justify-center text-sm text-gray-400">资讯加载中...</div>
+      {items.length > 0 ? (
+        <SignalStream items={items} />
+      ) : (
+        <div className="flex h-40 items-center justify-center text-sm text-gray-400">资讯即将上线，敬请期待</div>
       )}
-      {status === 'error' && items.length === 0 && (
-        <div className="flex h-40 items-center justify-center text-sm text-gray-400">暂时无法加载资讯，请稍后再试</div>
-      )}
-      {items.length > 0 && <SignalStream items={items} />}
     </section>
   );
 }

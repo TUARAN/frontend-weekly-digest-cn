@@ -2,8 +2,8 @@ name: 7x24 资讯
 
 on:
   schedule:
-    # 每 30 分钟（GitHub 计划任务为尽力执行，可能略有延迟）
-    - cron: '*/30 * * * *'
+    # 每小时（GitHub 计划任务为尽力执行，可能略有延迟）
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 # 避免与其它推送任务（每日精选）并发抢锁
