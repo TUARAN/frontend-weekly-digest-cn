@@ -7,6 +7,7 @@ import { getWeeklyMenu } from "@/lib/weekly";
 import Script from "next/script";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://frontendweekly.cn"),
   title: {
     default: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
     template: "%s · 前端周看",
