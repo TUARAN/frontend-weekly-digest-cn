@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import {
-  FileText,
-  Languages,
-  BookOpen,
   ArrowRight,
   CalendarDays,
+  ClipboardList,
+  Newspaper,
+  QrCode,
+  Radio,
 } from 'lucide-react';
 import HomeSignalTabs from '@/components/HomeSignalTabs';
-import UniversalShareButton from '@/components/UniversalShareButton';
 import { getAllWeeklies } from '@/lib/weekly';
 import { getAiHotFeed } from '@/lib/ai-hot-feed';
 import { getDailyManifest, getLatestDaily } from '@/lib/ai-daily';
@@ -17,33 +17,6 @@ export const metadata = {
     '每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选。',
 };
 
-const moreFormats = [
-  {
-    icon: <FileText className="h-4 w-4" />,
-    accent: 'text-orange-600 dark:text-orange-400',
-    eyebrow: '每日速递',
-    title: '短文速递 · 24h 快讯',
-    desc: '300-500 字，每日 1-3 条。把关键信号转成中文判断，适合快速浏览和转发。',
-    tier: '短文',
-  },
-  {
-    icon: <Languages className="h-4 w-4" />,
-    accent: 'text-violet-600 dark:text-violet-400',
-    eyebrow: '每周精译',
-    title: '中文精译 · 优质长文翻译',
-    desc: '1500-3000 字，每周 2-3 篇。重写标题、结构和表达，读起来像中文作者写的。',
-    tier: '中文精译',
-  },
-  {
-    icon: <BookOpen className="h-4 w-4" />,
-    accent: 'text-amber-600 dark:text-amber-400',
-    eyebrow: '月度深读',
-    title: '长文深读 · 论文级解读',
-    desc: '5000+ 字，每月 1-2 篇。补足背景、画出技术关系图，给出明确行动建议。',
-    tier: '长文深读',
-  },
-];
-
 export default function AiRadarHome() {
   const weeklies = getAllWeeklies();
   const [featured, ...rest] = weeklies;
@@ -51,19 +24,86 @@ export default function AiRadarHome() {
   const feed = getAiHotFeed();
   const dailyManifest = getDailyManifest();
   const latestDaily = getLatestDaily();
+  const boardCards = [
+    {
+      href: '#live',
+      icon: Radio,
+      label: '7×24 资讯',
+      value: `${feed.items.length} 条`,
+      desc: '实时捕捉 AI、Agent、前端和科技信号。',
+    },
+    {
+      href: '#daily',
+      icon: Newspaper,
+      label: '每日精选',
+      value: dailyManifest.latest ? dailyManifest.latest.slice(5) : '09:00',
+      desc: '每天把噪音过滤成少量值得看的判断。',
+    },
+    {
+      href: '#plan',
+      icon: ClipboardList,
+      label: '计划',
+      value: '5 阶段',
+      desc: '从信息摄入落到前端转 AI Agent 的行动路线。',
+    },
+    {
+      href: '#contact',
+      icon: QrCode,
+      label: '二维码',
+      value: '扫码',
+      desc: '获取更新、联系作者或咨询 1v1。',
+    },
+  ];
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-6">
       <div className="mx-auto max-w-6xl">
         {/* ── Hero ── */}
-        <header className="mb-10">
-          <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white md:text-4xl">
-            站在前沿端点，
-            <span className="text-blue-600 dark:text-blue-400">每周看世界所发生的变化</span>
-          </h1>
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-gray-500 dark:text-gray-400">
-            7×24 小时实时资讯，每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——不求多，有一条能给你一点启发就够。
-          </p>
+        <header className="mb-10 overflow-hidden rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950 md:p-8">
+          <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Frontend Weekly Radar</p>
+              <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white md:text-5xl">
+                一个看板，串起资讯、精选、计划和联系入口
+              </h1>
+              <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-500 dark:text-gray-400 md:text-base">
+                先看 7×24 实时信号，再读每日精选判断；如果想把信息变成行动，就进入转型计划，最后通过二维码获取更新或联系作者。
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  href="#live"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
+                >
+                  进入看板
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+                <Link
+                  href="/roadmap"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
+                >
+                  查看计划
+                </Link>
+              </div>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {boardCards.map(({ href, icon: Icon, label, value, desc }) => (
+                <Link
+                  key={label}
+                  href={href}
+                  className="group rounded-3xl border border-gray-200 bg-gray-50 p-4 transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50/70 dark:border-gray-800 dark:bg-gray-900 dark:hover:border-blue-900/60 dark:hover:bg-blue-950/20"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-blue-600 shadow-sm dark:bg-gray-950 dark:text-blue-300">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <span className="text-sm font-black text-gray-900 dark:text-white">{value}</span>
+                  </div>
+                  <h2 className="mt-4 text-sm font-bold text-gray-900 dark:text-white">{label}</h2>
+                  <p className="mt-1 text-xs leading-5 text-gray-500 dark:text-gray-400">{desc}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
         </header>
 
         <HomeSignalTabs
@@ -72,40 +112,6 @@ export default function AiRadarHome() {
           dailyManifest={dailyManifest.list}
           latestDaily={latestDaily}
         />
-
-        {/* ── 更多内容形态：短文 / 中文 / 长文 ── */}
-        <section className="mt-16">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500">
-            更多内容形态
-          </p>
-          <div className="grid gap-4 md:grid-cols-3">
-            {moreFormats.map((f) => (
-              <div
-                key={f.title}
-                className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950"
-              >
-                <p className={`flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] ${f.accent}`}>
-                  {f.icon}
-                  {f.eyebrow}
-                </p>
-                <h3 className="mt-3 text-lg font-bold text-gray-900 dark:text-white">{f.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-gray-500 dark:text-gray-400">{f.desc}</p>
-                <div className="mt-4">
-                  <UniversalShareButton
-                    kind="format"
-                    title={f.title}
-                    summary={f.desc}
-                    source="前端周看"
-                    tier={f.tier}
-                    href="/"
-                    label="分享模版"
-                    className="inline-flex items-center gap-1 rounded-full border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-200"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* ── 本周精选 ── */}
         {featured && (

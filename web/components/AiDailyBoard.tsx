@@ -109,7 +109,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
 
   if (total === 0 || !meta) {
     return (
-      <section>
+      <section className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-950 sm:p-6">
         <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={false} />
         <TabMenu tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
         <div className="flex h-80 flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900/50">
@@ -121,7 +121,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
   }
 
   return (
-    <section>
+    <section className="rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-950 sm:p-6">
       <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={!!data} />
       <TabMenu tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
 
@@ -178,7 +178,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
           id="daily-panel-card"
           role="tabpanel"
           aria-labelledby="daily-tab-card"
-          className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 shadow-sm dark:border-gray-800 dark:bg-gray-900/50"
+          className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900/50"
         >
           <div className="flex justify-center overflow-x-auto p-4 sm:p-6">
             {data ? (
@@ -197,7 +197,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
           id="daily-panel-highlights"
           role="tabpanel"
           aria-labelledby="daily-tab-highlights"
-          className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:p-6"
+          className="rounded-3xl border border-gray-200 bg-gray-50 p-5 dark:border-gray-800 dark:bg-gray-900 sm:p-6"
         >
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">本期摘要</p>
           <ul className="mt-4 space-y-3">
@@ -254,15 +254,15 @@ function HeaderStrip({
   hasContent: boolean;
 }) {
   return (
-    <div className="mb-4 flex items-end justify-between gap-4">
+    <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
       <div>
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">AI Daily</p>
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Daily Brief</p>
         <h2 className="mt-1 text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl">每日精选</h2>
         <p className="mt-1.5 text-sm leading-6 text-gray-500 dark:text-gray-400">
           精选 AI Coding &amp; 具身智能最新动态 · 每日 09:00 自动更新
         </p>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
           <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
           自动同步中
@@ -302,9 +302,8 @@ function TabMenu({
   onChange: (tab: 'card' | 'highlights') => void;
 }) {
   return (
-    <div className="mb-4 border-b border-gray-200 dark:border-gray-800">
-      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">二级菜单</p>
-      <div className="flex items-center gap-2 overflow-x-auto pb-2" role="tablist" aria-label="每日精选二级菜单">
+    <div className="mb-4">
+      <div className="inline-flex rounded-full border border-gray-200 bg-gray-50 p-1 dark:border-gray-800 dark:bg-gray-900" role="tablist" aria-label="每日精选视图切换">
         {tabs.map((tab) => {
           const isActive = tab.key === activeTab;
           return (
@@ -318,8 +317,8 @@ function TabMenu({
               onClick={() => onChange(tab.key)}
               className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
                 isActive
-                  ? 'bg-blue-600 text-white shadow-sm'
-                  : 'border border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:text-gray-800 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-gray-600'
+                  ? 'bg-gray-900 text-white shadow-sm dark:bg-white dark:text-gray-950'
+                  : 'text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white'
               }`}
             >
               {tab.label}
