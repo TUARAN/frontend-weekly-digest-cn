@@ -50,8 +50,8 @@ export default function HomeSignalTabs({
 
   return (
     <section className="mt-8" aria-label="首页情报看板">
-      <div id="live" className="scroll-mt-24" />
-      <div id="daily" className="scroll-mt-24" />
+      <div id="live" className="scroll-mt-28 md:scroll-mt-24" />
+      <div id="daily" className="scroll-mt-28 md:scroll-mt-24" />
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
           <div
