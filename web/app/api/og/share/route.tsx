@@ -4,7 +4,6 @@ import { ImageResponse } from 'next/og';
 import QRCode from 'qrcode';
 
 export const runtime = 'nodejs';
-export const dynamic = 'force-static';
 
 const OG_WIDTH = 1200;
 const OG_HEIGHT = 630;
@@ -30,12 +29,12 @@ function kindLabel(kind: string): string {
   }
 }
 
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const kind = searchParams.get('kind') || 'other';
-  const title = clip(searchParams.get('title') || '前端周看');
-  const summary = clip(searchParams.get('summary') || '给忙碌开发者的高信噪比信息流', 100);
-  const target = searchParams.get('target') || 'https://frontendweekly.cn';
+export async function GET() {
+  // Static export cannot inspect per-request query params; use a generic share image.
+  const kind = 'other';
+  const title = clip('前端周看');
+  const summary = clip('给忙碌开发者的高信噪比信息流', 100);
+  const target = 'https://frontendweekly.cn';
   const qrDataUrl = await QRCode.toDataURL(target, {
     margin: 1,
     width: 170,
