@@ -1,0 +1,46 @@
+name: 每日精选
+
+on:
+  schedule:
+    # 每天 UTC 01:00 = CST 09:00
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 生成每日精选
+        run: node scripts/ai-daily.mjs
+
+      - name: 提交 & 推送
+        run: |
+          git config user.name "CodeMiner-掘金安东尼"
+          git config user.email "729922845@qq.com"
+
+          git add web/public/ai-daily-*.html \
+                  web/public/ai-daily-manifest.json \
+                  web/components/LiveSignalBoard.tsx \
+                  web/content/briefs/ai-daily-*.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          DATE=$(date +%Y-%m-%d)
+          git commit -m "chore: 每日精选 ${DATE} - Auto Generated"
+          git push
