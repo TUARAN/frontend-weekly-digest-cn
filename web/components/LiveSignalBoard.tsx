@@ -95,7 +95,6 @@ function SignalCard({ item, featured = false }: { item: FeedItem; featured?: boo
       </div>
     </article>
   );
-  );
 }
 
 interface LiveSignalBoardProps {
