@@ -54,6 +54,16 @@ export default function AiRadarHome() {
       desc: '获取更新、联系作者或咨询 1v1。',
     },
   ];
+  const mobileQuickNav = [
+    ...boardCards,
+    {
+      href: '/weekly',
+      icon: CalendarDays,
+      label: '前端周刊',
+      value: `${weeklies.length} 期`,
+      desc: '沉淀后的每周精选。',
+    },
+  ];
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-6">
@@ -105,6 +115,33 @@ export default function AiRadarHome() {
             </div>
           </div>
         </header>
+
+        <section className="mb-6 rounded-[1.75rem] border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-950 md:hidden">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-600 dark:text-blue-400">H5 Nav</p>
+              <h2 className="mt-1 text-lg font-bold text-gray-900 dark:text-white">今日阅读导航</h2>
+            </div>
+            <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500 dark:bg-gray-900 dark:text-gray-400">
+              滑动选择
+            </span>
+          </div>
+          <div className="custom-scrollbar flex gap-3 overflow-x-auto pb-1">
+            {mobileQuickNav.map(({ href, icon: Icon, label, value }) => (
+              <Link
+                key={label}
+                href={href}
+                className="flex min-w-[118px] shrink-0 flex-col rounded-2xl border border-gray-200 bg-gray-50 p-3 transition active:scale-[0.98] dark:border-gray-800 dark:bg-gray-900"
+              >
+                <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-white text-blue-600 shadow-sm dark:bg-gray-950 dark:text-blue-300">
+                  <Icon className="h-4 w-4" />
+                </span>
+                <span className="mt-3 text-sm font-bold text-gray-900 dark:text-white">{label}</span>
+                <span className="mt-1 text-xs text-gray-500 dark:text-gray-400">{value}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <HomeSignalTabs
           feedItems={feed.items}
