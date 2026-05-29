@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-29T11:09:28.207Z",
+  "updatedAt": "2026-05-29T13:10:50.949Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Claude Code--文档中未提及的所有可配置选项",
+      "summary": "该篇文章标题涉及\"Claude Code\"的可配置选项，但提供的正文内容仅包含一张图片和一个外部链接，未给出任何关于模型版本、参数、性能、价格或功能的具体信息。根据规则，无法在摘要中提及原文不存在的细节。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "publishedAt": "2026-05-29T10:37:09.818Z"
+    },
+    {
+      "topic": "行业",
+      "title": "中央网信办等四部门：提升全民人工智能素养，加快人才培育、深化普及应用",
+      "summary": "中央网信办等四部门联合印发《2026年提升全民数字素养与技能工作要点》，部署了六项重点任务。其中明确要求\"提升全民人工智能素养\"，具体包括强化人工智能赋能教育、加快人工智能人才培育、深化人工智能普及应用。其他任务涵盖数字资源供给、应用场景建设、普惠包容发展、安全有序网络空间以及协同联动机制。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/957/319.htm",
+      "publishedAt": "2026-05-29T10:21:56.000Z"
+    },
     {
       "topic": "模型",
       "title": "小米开源可控视频音效生成模型 ControlFoley，让声音\"按你想要的来\"",
@@ -81,6 +97,14 @@
       "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
       "href": "https://x.com/StepFun_ai/status/2060149124117475791",
       "publishedAt": "2026-05-29T00:00:01.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "PyTorch 中的性能分析（第一部分）：torch.profiler 初学者指南",
+      "summary": "该指南旨在介绍如何在 PyTorch 中使用 torch.profiler 进行性能分析。文章是系列教程的第一部分，面向初学者，讲解如何通过该工具分析模型训练与推理过程的性能瓶颈。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/torch-profiler",
+      "publishedAt": "2026-05-29T00:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -217,30 +241,6 @@
       "source": "X：Microsoft Research (@MSFTResearch)",
       "href": "https://x.com/MSFTResearch/status/2060028999229735199",
       "publishedAt": "2026-05-28T16:02:41.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "社区如何利用Tunix和TPU训练Gemma学会\"思考\"",
-      "summary": "Google在Kaggle举办的Tunix黑客马拉松，挑战开发者利用TPU和有限算力，将小型基础模型转变为通用推理引擎。获胜团队通过多阶段后训练流程实现了这一目标，该流程结合了监督微调（SFT）与GRPO、SimPO等先进对齐技术。比赛结果表明，社区能够借助开源资源成功训练出高能力的结构化推理模型。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus",
-      "publishedAt": "2026-05-28T15:41:17.293Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Sesame，这家由Oculus创始人创办的对话式AI初创公司，发布其iOS应用",
-      "summary": "由Oculus创始人创办的AI初创公司Sesame发布了其iOS应用，该应用将对话式AI智能体带给公众。应用提供更自然的来回交互体验，设计上区别于传统聊天机器人，旨在让用户感觉更像在和真人对话。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app",
-      "publishedAt": "2026-05-28T15:35:43.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "商汤发布信息图生成模型升级，增强多项核心能力",
-      "summary": "商汤科技介绍了其升级后的信息图生成模型 SenseNova-U1-8B-MoT-Infographic。该模型参数为8B，在四个关键维度进行了优化：文本准确性与可读性增强，减少了重复和不当放大；布局的一致性与合理性提升，背景更稳定；图表与示意图的质量提高；并新增了学术内容的渲染支持。推文提供了在 Hugging Face 上的模型页面链接及能力展示页面。",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "href": "https://x.com/SenseTime_AI/status/2060015749826240724",
-      "publishedAt": "2026-05-28T15:10:02.000Z"
     }
   ]
 }
