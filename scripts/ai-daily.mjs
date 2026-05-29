@@ -64,6 +64,8 @@ function relevanceScore(item) {
   for (const kw of NEGATIVE_KW) {
     if (text.includes(kw.toLowerCase())) score -= 10;
   }
+  // 版本号/库更新类型（如 "llm-anthropic 0.25.1"）→ 大幅减分
+  if (/\d+\.\d+\.\d+/.test(text)) score -= 8;
   // 正向加分
   for (const kw of AI_CODING_KW) {
     if (text.includes(kw.toLowerCase())) score += 1;
