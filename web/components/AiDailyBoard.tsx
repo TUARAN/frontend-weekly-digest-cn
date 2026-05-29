@@ -5,7 +5,6 @@ import { ChevronLeft, ChevronRight, FileText, Download, Share2, Check } from 'lu
 import { toPng } from 'html-to-image';
 import DailyCard from '@/components/DailyCard';
 import type { DailyData, DailyMeta } from '@/lib/ai-daily';
-import { buildShareTemplatePath } from '@/lib/share-template';
 
 interface AiDailyBoardProps {
   manifest: DailyMeta[];
@@ -74,17 +73,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
 
   const handleShare = async () => {
     if (!meta || sharing) return;
-    const dailyShareUrl = `${window.location.origin}/share/ai-daily?date=${meta.date}`;
-    const sharePath = buildShareTemplatePath({
-      kind: 'daily',
-      title: `每日精选 · ${meta.displayDate}`,
-      summary: meta.highlights.slice(0, 2).join('；'),
-      source: '前端周看',
-      date: meta.displayDate,
-      tier: '每日精选',
-      href: dailyShareUrl,
-    });
-    const shareUrl = `${window.location.origin}${sharePath}`;
+    const shareUrl = `${window.location.origin}/share/ai-daily?date=${meta.date}`;
     try {
       if (navigator.share) {
         await navigator.share({

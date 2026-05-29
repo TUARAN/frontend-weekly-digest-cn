@@ -18,7 +18,38 @@ interface SharePayload {
   href: string;
 }
 
-function parsePayload(params: URLSearchParams): SharePayload {
+interface FeedItem {
+  topic: string;
+  title: string;
+  summary: string;
+  source: string;
+  href: string;
+  publishedAt?: string | null;
+}
+
+const EMPTY_PAYLOAD: SharePayload = {
+  kind: 'other',
+  title: '前端周看',
+  summary: '',
+  source: '',
+  date: '',
+  tier: '',
+  href: '',
+};
+
+function fmtCST(iso?: string | null): string {
+  if (!iso) return '';
+  const t = Date.parse(iso);
+  if (Number.isNaN(t)) return '';
+  const d = new Date(t + 8 * 60 * 60 * 1000);
+  const M = d.getUTCMonth() + 1;
+  const D = d.getUTCDate();
+  const h = String(d.getUTCHours()).padStart(2, '0');
+  const m = String(d.getUTCMinutes()).padStart(2, '0');
+  return `${M}月${D}日 ${h}:${m}`;
+}
+
+function parseLegacyPayload(params: URLSearchParams): SharePayload {
   const kind = params.get('kind') || 'other';
   const title = params.get('title') || '前端周看';
   const summary = params.get('summary') || '';
@@ -30,16 +61,77 @@ function parsePayload(params: URLSearchParams): SharePayload {
   return { kind, title, summary, source, date, tier, href };
 }
 
+function payloadFromLiveItem(item: FeedItem): SharePayload {
+  return {
+    kind: 'live',
+    title: item.title,
+    summary: item.summary || '',
+    source: item.source || '',
+    date: fmtCST(item.publishedAt),
+    tier: '7×24 实时资讯',
+    href: item.href,
+  };
+}
+
 function ShareTemplateBody() {
   const searchParams = useSearchParams();
-  const [payload, setPayload] = useState<SharePayload>(() => parsePayload(searchParams));
+  const [payload, setPayload] = useState<SharePayload>(EMPTY_PAYLOAD);
+  const [resolving, setResolving] = useState(false);
 
   useEffect(() => {
-    setPayload(parsePayload(searchParams));
-    const next = parsePayload(searchParams);
-    const heading = resolveShareKindLabel(next.kind);
-    document.title = `${next.title} · ${heading}`;
+    const shortKind = searchParams.get('k');
+
+    // 短链：?k=l&u=<href> — 7×24 实时资讯
+    if (shortKind === 'l') {
+      const u = searchParams.get('u') || '';
+      setResolving(true);
+      setPayload({ ...EMPTY_PAYLOAD, kind: 'live', title: '加载中…', href: u });
+      let cancelled = false;
+      fetch('/ai-hot-feed.json', { cache: 'no-store' })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data: { items?: FeedItem[] } | null) => {
+          if (cancelled) return;
+          const found = data?.items?.find((it) => it.href === u);
+          if (found) {
+            setPayload(payloadFromLiveItem(found));
+          } else {
+            // 该条目已滚出 feed —— 退化为只显示原文跳转
+            setPayload({
+              ...EMPTY_PAYLOAD,
+              kind: 'live',
+              title: '该条资讯已归档',
+              summary: '点击下方按钮跳转到原文查看。',
+              tier: '7×24 实时资讯',
+              href: u,
+            });
+          }
+        })
+        .catch(() => {
+          if (cancelled) return;
+          setPayload({
+            ...EMPTY_PAYLOAD,
+            kind: 'live',
+            title: '加载失败',
+            summary: '请直接点击下方按钮查看原文。',
+            tier: '7×24 实时资讯',
+            href: u,
+          });
+        })
+        .finally(() => !cancelled && setResolving(false));
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    // 旧长链兼容
+    setPayload(parseLegacyPayload(searchParams));
+    return undefined;
   }, [searchParams]);
+
+  useEffect(() => {
+    const heading = resolveShareKindLabel(payload.kind);
+    document.title = `${payload.title} · ${heading}`;
+  }, [payload.kind, payload.title]);
 
   const { kind, title, summary, source, date, tier, href } = payload;
   const heading = resolveShareKindLabel(kind);
@@ -66,6 +158,11 @@ function ShareTemplateBody() {
               <Sparkles className="h-3.5 w-3.5 text-blue-300" />
               Signals over noise.
             </p>
+            {resolving ? (
+              <span className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1 text-[11px] text-gray-300">
+                加载中…
+              </span>
+            ) : null}
           </div>
 
           <h1 className="mt-5 text-2xl font-black leading-tight text-white sm:text-4xl">{title}</h1>

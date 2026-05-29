@@ -8,7 +8,21 @@ export interface ShareTemplatePayload {
   href?: string;
 }
 
+/**
+ * Build a short share URL.
+ *
+ * `live`: ?k=l&u=<href> — share page looks up item in /ai-hot-feed.json
+ * `daily`: callers should share /share/ai-daily?date=... directly (don't use this)
+ * other kinds: fall back to legacy long format (still supported for backward compat)
+ */
 export function buildShareTemplatePath(payload: ShareTemplatePayload): string {
+  if (payload.kind === 'live' && payload.href) {
+    const p = new URLSearchParams();
+    p.set('k', 'l');
+    p.set('u', payload.href);
+    return `/share/template?${p.toString()}`;
+  }
+
   const params = new URLSearchParams();
   params.set('kind', payload.kind);
   params.set('title', payload.title);
@@ -34,4 +48,3 @@ export function resolveShareKindLabel(kind: string): string {
       return '前端周看分享';
   }
 }
-
