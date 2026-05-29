@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Github, Sparkles, ExternalLink } from 'lucide-react';
+import { Github, Sparkles } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import BrandLogo from '@/components/BrandLogo';
 
@@ -40,18 +40,6 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
                 </Link>
               </span>
             ))}
-            <span className="inline-flex items-center gap-5">
-              <span className="select-none text-gray-300 dark:text-gray-700">|</span>
-              <a
-                href="https://syncblog.cn/sync"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 rounded-full border border-dashed border-orange-300 bg-orange-50 px-2.5 py-0.5 text-xs font-medium text-orange-600 transition-colors hover:border-orange-400 hover:bg-orange-100 dark:border-orange-700 dark:bg-orange-950/40 dark:text-orange-400 dark:hover:border-orange-600 dark:hover:bg-orange-950/60"
-              >
-                <ExternalLink className="h-3 w-3" />
-                博主联盟同步
-              </a>
-            </span>
           </nav>
         </div>
         <div className="flex items-center gap-3">

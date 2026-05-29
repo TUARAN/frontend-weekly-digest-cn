@@ -130,28 +130,28 @@ export default function SyncToBlogButton({
         return (
           <>
             <RefreshCw className="h-3.5 w-3.5 animate-spin" />
-            {!isCompact && <span>同步中...</span>}
+            <span>同步中...</span>
           </>
         );
       case 'synced':
         return (
           <>
             <Check className="h-3.5 w-3.5 text-emerald-500" />
-            {!isCompact && <span>已发送</span>}
+            <span>已发送</span>
           </>
         );
       case 'copied':
         return (
           <>
             <Copy className="h-3.5 w-3.5 text-emerald-500" />
-            {!isCompact && <span>已复制</span>}
+            <span>已复制</span>
           </>
         );
       default:
         return (
           <>
             <RefreshCw className="h-3.5 w-3.5" />
-            {!isCompact && <span>同步到 syncblog</span>}
+            <span>{isCompact ? '一键分发' : '同步到 syncblog'}</span>
           </>
         );
     }
@@ -162,8 +162,8 @@ export default function SyncToBlogButton({
       <button
         onClick={handleSync}
         disabled={status !== 'idle'}
-        title={status === 'idle' ? '同步到 syncblog' : status === 'syncing' ? '同步中...' : status === 'synced' ? '已发送' : '已复制到剪贴板'}
-        className="inline-flex items-center justify-center rounded-full border border-gray-200 bg-white p-1.5 text-gray-500 transition hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400 dark:hover:border-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-200"
+        title={status === 'idle' ? '一键分发' : status === 'syncing' ? '同步中...' : status === 'synced' ? '已发送' : '已复制到剪贴板'}
+        className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-white px-2.5 py-1 text-xs font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-200"
       >
         {getButtonContent()}
       </button>

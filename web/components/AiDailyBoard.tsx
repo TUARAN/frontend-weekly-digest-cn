@@ -13,10 +13,16 @@ interface AiDailyBoardProps {
 
 export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
   const list = manifest;
+  const tabs = [
+    { key: 'card', label: '精选卡片' },
+    { key: 'highlights', label: '本期摘要' },
+  ] as const;
+  type TabKey = (typeof tabs)[number]['key'];
   const [cache, setCache] = useState<Record<string, DailyData>>(
     initial ? { [initial.date]: initial } : {},
   );
   const [index, setIndex] = useState(0);
+  const [activeTab, setActiveTab] = useState<TabKey>('card');
   const [exporting, setExporting] = useState(false);
   const [sharing, setSharing] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -98,6 +104,29 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
     <section>
       <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={!!data} />
 
+      <div className="mb-4 border-b border-gray-200 dark:border-gray-800">
+        <div className="flex items-center gap-2 overflow-x-auto pb-2">
+          {tabs.map((tab) => {
+            const isActive = tab.key === activeTab;
+            return (
+              <button
+                key={tab.key}
+                type="button"
+                onClick={() => setActiveTab(tab.key)}
+                aria-selected={isActive}
+                className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
+                  isActive
+                    ? 'bg-blue-600 text-white shadow-sm'
+                    : 'border border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:text-gray-800 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-gray-600'
+                }`}
+              >
+                {tab.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* 日期导航 */}
       <div className="mb-4 flex items-center gap-3">
         <button
@@ -146,10 +175,9 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
         </button>
       </div>
 
-      {/* 卡片 + 摘要 */}
-      <div className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 shadow-sm dark:border-gray-800 dark:bg-gray-900/50">
-        <div className="flex flex-col lg:flex-row">
-          <div className="flex justify-center overflow-x-auto p-4 sm:p-6 lg:flex-1">
+      {activeTab === 'card' ? (
+        <div className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 shadow-sm dark:border-gray-800 dark:bg-gray-900/50">
+          <div className="flex justify-center overflow-x-auto p-4 sm:p-6">
             {data ? (
               <div className="overflow-hidden rounded-2xl">
                 <DailyCard ref={cardRef} data={data} />
@@ -160,29 +188,46 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
               </div>
             )}
           </div>
-
-          <div className="border-t border-gray-200 bg-white p-5 dark:border-gray-700 dark:bg-gray-900 lg:w-72 lg:border-l lg:border-t-0 lg:shrink-0">
-            <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">本期摘要</p>
-            <ul className="mt-4 space-y-3">
-              {meta.highlights.map((h, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-50 text-[11px] font-bold text-blue-600 dark:bg-blue-900/30 dark:text-blue-300">
-                    {i + 1}
-                  </span>
-                  <span className="text-sm leading-5 text-gray-600 dark:text-gray-300">{h}</span>
-                </li>
-              ))}
-            </ul>
-            {total > 1 && (
-              <div className="mt-6 rounded-xl border border-dashed border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800/50">
-                <p className="text-xs text-gray-500 dark:text-gray-400">
-                  共 <span className="font-semibold text-gray-700 dark:text-gray-200">{total}</span> 期 · 左右箭头切换
-                </p>
-              </div>
-            )}
-          </div>
         </div>
-      </div>
+      ) : (
+        <div className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:p-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">本期摘要</p>
+          <ul className="mt-4 space-y-3">
+            {meta.highlights.map((h, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-50 text-[11px] font-bold text-blue-600 dark:bg-blue-900/30 dark:text-blue-300">
+                  {i + 1}
+                </span>
+                <span className="text-sm leading-6 text-gray-600 dark:text-gray-300">{h}</span>
+              </li>
+            ))}
+          </ul>
+
+          {data && data.items.length > 0 && (
+            <div className="mt-6 border-t border-gray-200 pt-5 dark:border-gray-700">
+              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">条目速览</p>
+              <ul className="mt-3 space-y-2">
+                {data.items.map((item) => (
+                  <li key={item.num} className="text-sm text-gray-600 dark:text-gray-300">
+                    <span className="mr-2 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-semibold text-gray-500 dark:bg-gray-800 dark:text-gray-400">
+                      {item.topic}
+                    </span>
+                    {item.title}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {total > 1 && (
+            <div className="mt-6 rounded-xl border border-dashed border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800/50">
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                共 <span className="font-semibold text-gray-700 dark:text-gray-200">{total}</span> 期 · 左右箭头切换
+              </p>
+            </div>
+          )}
+        </div>
+      )}
     </section>
   );
 }

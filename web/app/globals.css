@@ -87,7 +87,7 @@ body {
 }
 
 .signal-track {
-  animation: signal-marquee-up 28s linear infinite;
+  animation: signal-marquee-up 48s linear infinite;
 }
 
 .signal-track-reverse {
