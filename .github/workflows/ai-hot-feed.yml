@@ -1,18 +1,18 @@
-name: 每日精选
+name: 7x24 资讯
 
 on:
   schedule:
-    # 每天 UTC 01:00 = CST 09:00
-    - cron: '0 1 * * *'
-  workflow_dispatch:  # 支持手动触发
+    # 每 30 分钟（GitHub 计划任务为尽力执行，可能略有延迟）
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
-# 与 7x24 资讯任务共用一个推送串行组，避免并发推送冲突
+# 避免与其它推送任务（每日精选）并发抢锁
 concurrency:
   group: content-push
   cancel-in-progress: false
 
 jobs:
-  generate:
+  feed:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -28,23 +28,21 @@ jobs:
         with:
           node-version: 22
 
-      - name: 生成每日精选
-        run: node scripts/ai-daily.mjs
+      - name: 抓取 7x24 资讯
+        run: node scripts/ai-hot-feed.mjs
 
       - name: 提交 & 推送
         run: |
           git config user.name "CodeMiner-掘金安东尼"
           git config user.email "729922845@qq.com"
 
-          git add web/public/ai-daily-*.html \
-                  web/public/ai-daily-manifest.json \
-                  web/content/briefs/ai-daily-*.md
+          git add web/public/ai-hot-feed.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
 
-          DATE=$(date +%Y-%m-%d)
-          git commit -m "chore: 每日精选 ${DATE} - Auto Generated"
+          git pull --rebase --autostash origin main || true
+          git commit -m "chore: 7x24 资讯更新 $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
           git push

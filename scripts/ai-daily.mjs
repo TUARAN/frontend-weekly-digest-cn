@@ -19,7 +19,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const PUBLIC = resolve(ROOT, 'web/public');
 const BRIEFS = resolve(ROOT, 'web/content/briefs');
-const COMPONENTS = resolve(ROOT, 'web/components');
 
 // ============================================================
 // 关键词配置
@@ -652,40 +651,6 @@ function updateManifest(selected, date) {
   return { entry, manifest };
 }
 
-// ============================================================
-// Step 5: 更新 LiveSignalBoard.tsx
-// ============================================================
-function updateSignals(selected, date) {
-  console.log('[5/6] 更新 LiveSignalBoard.tsx...');
-  const filePath = resolve(COMPONENTS, 'LiveSignalBoard.tsx');
-  let content = readFileSync(filePath, 'utf-8');
-
-  const signalsJson = selected.map(s => ({
-    topic: s.topic,
-    title: s.item.title,
-    summary: s.item.summary,
-    source: s.item.source || 'AI HOT',
-    href: s.item.url || '#',
-    time: '今日',
-  }));
-
-  const arrStr = JSON.stringify(signalsJson, null, 2)
-    .replace(/"([^"]+)":/g, '$1:')       // 去 key 引号
-    .replace(/: "([^"]*)"/g, ": '$1'");   // 值引号变单引号
-
-  // 匹配 const signals: SignalItem[] = [ ... ];
-  const regex = /const signals: SignalItem\[\] = \[[\s\S]*?\];/;
-  const replacement = `const signals: SignalItem[] = ${arrStr};`;
-
-  if (!regex.test(content)) {
-    console.error('  ⚠️ 未找到 signals 数组，跳过更新');
-    return;
-  }
-
-  content = content.replace(regex, replacement);
-  writeFileSync(filePath, content);
-  console.log(`  已写入 ${selected.length} 条信号`);
-}
 
 // ============================================================
 // Step 6: 生成 MD Brief
@@ -795,9 +760,6 @@ async function main() {
 
   // 4. 更新 Manifest
   updateManifest(selected, date);
-
-  // 5. 更新 LiveSignalBoard
-  updateSignals(selected, date);
 
   console.log(`\n✅ 完成！共 ${selected.length} 条动态\n`);
 }

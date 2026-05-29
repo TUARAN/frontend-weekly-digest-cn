@@ -54,13 +54,40 @@ export default function AiRadarHome() {
             <span className="text-blue-600 dark:text-blue-400">每周看世界所发生的变化</span>
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-gray-500 dark:text-gray-400">
-            每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——每条都帮你回答：这对前端意味着什么？
+            7×24 小时实时资讯，每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——每条都帮你回答：这对前端意味着什么？
           </p>
         </header>
 
-        {/* ── 每日精选 ── */}
+        {/* ── 7×24 小时资讯 ── */}
         <section>
+          <LiveSignalBoard />
+        </section>
+
+        {/* ── 每日精选 ── */}
+        <section className="mt-16">
           <AiDailyBoard />
+        </section>
+
+        {/* ── 更多内容形态：短文 / 中文 / 长文 ── */}
+        <section className="mt-16">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500">
+            更多内容形态
+          </p>
+          <div className="grid gap-4 md:grid-cols-3">
+            {moreFormats.map((f) => (
+              <div
+                key={f.title}
+                className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950"
+              >
+                <p className={`flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] ${f.accent}`}>
+                  {f.icon}
+                  {f.eyebrow}
+                </p>
+                <h3 className="mt-3 text-lg font-bold text-gray-900 dark:text-white">{f.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-gray-500 dark:text-gray-400">{f.desc}</p>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* ── 本周精选 ── */}
@@ -140,33 +167,6 @@ export default function AiRadarHome() {
             </Link>
           </section>
         )}
-
-        {/* ── 实时信号流 ── */}
-        <section className="mt-16">
-          <LiveSignalBoard />
-        </section>
-
-        {/* ── 更多内容形态 ── */}
-        <section className="mt-16">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500">
-            更多内容形态
-          </p>
-          <div className="grid gap-4 md:grid-cols-3">
-            {moreFormats.map((f) => (
-              <div
-                key={f.title}
-                className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950"
-              >
-                <p className={`flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] ${f.accent}`}>
-                  {f.icon}
-                  {f.eyebrow}
-                </p>
-                <h3 className="mt-3 text-lg font-bold text-gray-900 dark:text-white">{f.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-gray-500 dark:text-gray-400">{f.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
       </div>
     </div>
   );

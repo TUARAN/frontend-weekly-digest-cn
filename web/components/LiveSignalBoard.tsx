@@ -1,7 +1,7 @@
 'use client';
 
-import { useMemo, useState } from 'react';
-import { Copy, ExternalLink } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
+import { Copy, ExternalLink, Radio } from 'lucide-react';
 
 interface SignalItem {
   topic: string;
@@ -9,51 +9,31 @@ interface SignalItem {
   summary: string;
   source: string;
   href: string;
-  time: string;
+  publishedAt?: string | null;
 }
 
-const signals: SignalItem[] = [
-  {
-    topic: 'AI Coding',
-    title: 'Claude Opus 4.8 发布：代码漏检率降 75%，Agent 判断力全面升级',
-    summary: 'Anthropic 发布 Opus 4.8，Online-Mind2Web 评测 84%，代码错误漏检率降约 75%，诚实度与对齐表现提升。2.5 倍速模式价格降至前代 1/3，已登陆 Claude Code 等全平台。',
-    source: 'Anthropic Newsroom',
-    href: 'https://www.anthropic.com/news/claude-opus-4-8',
-    time: '今日',
-  },
-  {
-    topic: 'AI Coding',
-    title: 'Claude Code 推出"动态工作流"，单会话并行调度数百子 Agent',
-    summary: '通过动态编写脚本在单次会话中并行运行数十至数百个子 Agent，用于跨代码库 bug 查找、Bun 从 Zig 到 Rust 语言移植等复杂任务，结果验证后呈现，研究预览阶段已可用。',
-    source: 'Claude Blog',
-    href: 'https://claude.com/blog/introducing-dynamic-workflows-in-claude-code',
-    time: '今日',
-  },
-  {
-    topic: 'AI Coding',
-    title: '阶跃星辰开源 Step 3.7 Flash：198B MoE，兼容 Claude Code / MCP',
-    summary: '198B 参数 MoE（11B 活跃），ClawEval-1.1 得分 67.1 分第一，兼容 Claude Code、MCP 协议，支持 Mac Studio M4 Max 本地运行，Apache 2.0 许可开源，工具调用 τ2-bench 超 98%。',
-    source: 'X @StepFun_ai',
-    href: 'https://x.com/StepFun_ai/status/2060149124117475791',
-    time: '今日',
-  },
-  {
-    topic: 'AI Coding',
-    title: 'Cursor《开发者习惯报告》：周均代码产出翻倍，Agent 调用增 30%',
-    summary: '周均代码产出从 3.6K 行增至 8.6K 行，AI Agent 单次会话工具调用数增约 30%，AI 代码 60 分钟留存率从 76% 升至 81%，数据表明 AI 正深刻重构软件开发工作形态。',
-    source: 'X @shao__meng',
-    href: 'https://x.com/shao__meng/status/2060167182777249886',
-    time: '今日',
-  },
-  {
-    topic: 'AI Coding',
-    title: 'Anthropic 完成 650 亿美元 H 轮融资，年化收入突破 470 亿美元',
-    summary: 'Altimeter Capital 领投，投后估值 9650 亿美元。Claude 年化收入突破 470 亿美元，已登陆 AWS、Google Cloud、Azure 三大云平台，资金将用于 AI 安全研究与算力扩展。',
-    source: 'Anthropic Newsroom',
-    href: 'https://www.anthropic.com/news/series-h',
-    time: '今日',
-  },
-];
+interface FeedPayload {
+  updatedAt: string;
+  count: number;
+  items: SignalItem[];
+}
+
+const POLL_MS = 30 * 60 * 1000; // 30 分钟
+
+function relativeTime(iso?: string | null): string {
+  if (!iso) return '';
+  const t = Date.parse(iso);
+  if (Number.isNaN(t)) return '';
+  const diff = Date.now() - t;
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return '刚刚';
+  if (m < 60) return `${m} 分钟前`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h} 小时前`;
+  const d = Math.floor(h / 24);
+  if (d < 30) return `${d} 天前`;
+  return new Date(t).toLocaleDateString('zh-CN', { month: 'numeric', day: 'numeric' });
+}
 
 function SignalCard({ item }: { item: SignalItem }) {
   const [copied, setCopied] = useState(false);
@@ -77,13 +57,17 @@ function SignalCard({ item }: { item: SignalItem }) {
             <span className="rounded-full bg-blue-50 px-2.5 py-1 text-xs font-semibold text-blue-700 dark:bg-blue-900/20 dark:text-blue-300">
               {item.topic}
             </span>
-            <span className="text-xs text-gray-500 dark:text-gray-400">{item.time}</span>
+            {item.publishedAt && (
+              <span className="text-xs text-gray-500 dark:text-gray-400">{relativeTime(item.publishedAt)}</span>
+            )}
           </div>
           <h3 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">{item.title}</h3>
         </div>
       </div>
 
-      <p className="mt-3 text-sm leading-6 text-gray-600 dark:text-gray-400">{item.summary}</p>
+      {item.summary && (
+        <p className="mt-3 line-clamp-4 text-sm leading-6 text-gray-600 dark:text-gray-400">{item.summary}</p>
+      )}
 
       <div className="mt-4 flex items-center justify-between gap-3">
         <span className="truncate text-xs text-gray-500 dark:text-gray-400">{item.source}</span>
@@ -112,13 +96,14 @@ function SignalCard({ item }: { item: SignalItem }) {
 }
 
 function SignalStream({ items }: { items: SignalItem[] }) {
-  const loopItems = useMemo(() => [...items, ...items], [items]);
+  // 至少复制一遍以实现无缝循环滚动
+  const loopItems = useMemo(() => (items.length > 0 ? [...items, ...items] : []), [items]);
 
   return (
     <div className="signal-marquee relative h-[640px] overflow-hidden">
       <div className="signal-track">
         {loopItems.map((item, index) => (
-          <div key={`${item.title}-${index}`} className="mb-4">
+          <div key={`${item.href}-${index}`} className="mb-4">
             <SignalCard item={item} />
           </div>
         ))}
@@ -128,14 +113,63 @@ function SignalStream({ items }: { items: SignalItem[] }) {
 }
 
 export default function LiveSignalBoard() {
+  const [items, setItems] = useState<SignalItem[]>([]);
+  const [updatedAt, setUpdatedAt] = useState<string | null>(null);
+  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
+
+  useEffect(() => {
+    let alive = true;
+
+    const load = async () => {
+      try {
+        const res = await fetch(`/ai-hot-feed.json?t=${Date.now()}`, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data: FeedPayload = await res.json();
+        if (!alive) return;
+        setItems(Array.isArray(data.items) ? data.items : []);
+        setUpdatedAt(data.updatedAt ?? null);
+        setStatus('ready');
+      } catch {
+        if (alive) setStatus((s) => (s === 'ready' ? 'ready' : 'error'));
+      }
+    };
+
+    load();
+    const timer = window.setInterval(load, POLL_MS);
+    return () => {
+      alive = false;
+      window.clearInterval(timer);
+    };
+  }, []);
+
   return (
-    <section className="mx-auto mb-16 max-w-6xl rounded-3xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900">
-      <div className="mb-8 flex flex-col gap-3">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">7×24h Feed</p>
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white">AI、Agent、前端、科技 实时播报</h2>
+    <section className="mx-auto max-w-6xl rounded-3xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900">
+      <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+            <Radio className="h-4 w-4" />
+            7×24H LIVE
+          </p>
+          <h2 className="mt-1 text-3xl font-bold text-gray-900 dark:text-white">7×24 小时资讯</h2>
+          <p className="mt-1.5 text-sm leading-6 text-gray-500 dark:text-gray-400">
+            AI、Agent、前端、科技实时播报 · 每 30 分钟自动抓取
+          </p>
+        </div>
+        {updatedAt && (
+          <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+            <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
+            最近更新 {relativeTime(updatedAt)}
+          </span>
+        )}
       </div>
 
-      <SignalStream items={signals} />
+      {status === 'loading' && items.length === 0 && (
+        <div className="flex h-40 items-center justify-center text-sm text-gray-400">资讯加载中...</div>
+      )}
+      {status === 'error' && items.length === 0 && (
+        <div className="flex h-40 items-center justify-center text-sm text-gray-400">暂时无法加载资讯，请稍后再试</div>
+      )}
+      {items.length > 0 && <SignalStream items={items} />}
     </section>
   );
 }
