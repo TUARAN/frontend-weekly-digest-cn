@@ -42,6 +42,17 @@ npm run dev
 
 - `http://localhost:3000` 或自动切换后的可用端口
 
+## Cloudflare 部署
+
+当前站点按静态导出部署，Cloudflare Pages 或 Workers Static Assets 都可以直接使用 `out/` 产物：
+
+```bash
+npm ci
+npm run build:cloudflare
+```
+
+旧 Cloudflare 项目接 Git 自动发布时，推荐配置见 [`docs/cloudflare-deployment.md`](./docs/cloudflare-deployment.md)。
+
 ## 相关子工具
 
 - **Article Extractor**

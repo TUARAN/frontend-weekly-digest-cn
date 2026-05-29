@@ -2,7 +2,7 @@
 
 ## 项目概况
 - **仓库**：`/Users/tuaran/Documents/GitHub/frontend-weekly-digest-cn`
-- **部署**：Vercel 自动构建，push main 分支即触发
+- **部署**：Cloudflare 优先（旧 Cloudflare/Flare 项目接 Git 自动构建）；`web/` 静态导出到 `out/`，配置见 `web/docs/cloudflare-deployment.md`
 - **框架**：Next.js（App Router），位于 `web/` 子目录
 
 ## 内容结构
