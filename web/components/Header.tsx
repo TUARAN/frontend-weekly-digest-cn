@@ -13,7 +13,7 @@ interface HeaderProps {
 export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const pathname = usePathname();
   const navItems: { href: string; label: string; match: (p: string) => boolean }[] = [
-    { href: '/', label: 'AI 雷达', match: (p) => p === '/' || p.startsWith('/ai-radar') },
+    { href: '/', label: '每日精选', match: (p) => p === '/' || p.startsWith('/ai-radar') },
     { href: '/roadmap', label: '转型路线', match: (p) => p.startsWith('/roadmap') },
     { href: weeklyHref, label: '前端周刊', match: (p) => p.startsWith('/weekly') },
   ];

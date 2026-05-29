@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const productLinks = [
-  { label: 'AI 雷达', href: '/' },
+  { label: '每日精选', href: '/' },
   { label: '转型路线', href: '/roadmap' },
   { label: '前端周刊', href: '/weekly' },
 ];
