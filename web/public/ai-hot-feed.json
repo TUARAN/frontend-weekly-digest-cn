@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-29T22:34:01.016Z",
+  "updatedAt": "2026-05-29T23:31:37.466Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
+      "summary": "claude-design-card 是一款专为中文内容创作者设计的 Skill。它能将文字、URL 或文章直接转化为可发布的视觉卡片，如公众号首图、小红书图文卡、教程步骤卡等，支持 28 种布局与 10 种主题。其核心价值在于自动化了\"写完文章\"后最繁琐的流程：自动提炼重点、选择版式、生成 HTML 并截图成 PNG，替代了以往手动使用 Figma 或 Canva 等工具的步骤。该工具开源，适合经常撰写相关内容的创作者尝试。",
+      "source": "X：洪明 (@hongming731)",
+      "href": "https://x.com/hongming731/status/2060487110906527820",
+      "publishedAt": "2026-05-29T22:23:03.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Codex可自主管理对话线程与并行任务",
+      "summary": "Codex用于管理Codex界面：\n\n【引用 @guinnesschen】：如果你厌倦了管理Codex对话线程，就让Codex自己管理自己吧！Codex现在可以创建对话线程、搜索它们、整理它们、固定重要的线程，并为并行任务启动工作树。",
+      "source": "X：Greg Brockman (@gdb)",
+      "href": "https://x.com/gdb/status/2060486309886443787",
+      "publishedAt": "2026-05-29T22:19:52.000Z"
+    },
     {
       "topic": "产品",
       "title": "ChatGPT对话目录功能现已上线",
@@ -139,6 +155,14 @@
       "publishedAt": "2026-05-29T15:00:03.000Z"
     },
     {
+      "topic": "产品",
+      "title": "Guardrails：保护你的智能体、数据与成本",
+      "summary": "Guardrails 是一套可配置的安全与治理工具，提供预算执行、零数据保留、模型与提供商限制、提示词注入防御及数据丢失预防等功能，旨在保护智能体（Agents）、数据与控制成本。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/announcements/guardrails",
+      "publishedAt": "2026-05-29T12:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "Braintrust如何用Codex将客户请求转化为代码",
       "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。",
@@ -217,30 +241,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
       "publishedAt": "2026-05-29T03:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "15秒动画IP预告片制作全流程分享",
-      "summary": "我们制作了一个15秒的动画IP预告片--从角色设定到最终视频。认识一下MILO和BUMBLE：地下邮政骑手\n转发+关注+回复=我们会私信发送工作流程和提示词",
-      "source": "X：PixVerse (@PixVerse_)",
-      "href": "https://x.com/PixVerse_/status/2060184048920826340",
-      "publishedAt": "2026-05-29T02:18:48.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Cursor 团队发布《开发者习惯报告》",
-      "summary": "报告显示，AI正深刻改变开发工作形态。开发者周均代码产出从约3.6K行增至8.6K行，更大规模的PR（千行以上）占比上升。AI智能体在单次会话中的工具调用数增加约30%，正在处理更复杂的任务。同时，被接受的AI代码在60分钟后的留存率从约76%提升至约81%，表明更多AI生成内容进入了实际代码库。这些趋势共同指向AI已从个人辅助工具，演进为推动开发向更大规模任务与自动化基础设施发展的核心力量。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2060167182777249886",
-      "publishedAt": "2026-05-29T01:11:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "特斯拉 FSD 安全性宣称遭质疑",
-      "summary": "特斯拉声称其全自动驾驶软件（FSD）安全性最高可达人类的10倍，但路透社调查发现此数据经不起推敲。参与训练FSD的员工表示该技术远未成熟，其安全演示高度依赖人工。统计方法被11位交通安全研究人员指出存在缺陷，例如与更广泛的联邦事故数据进行不恰当比较。相比之下，竞争对手Waymo采用了更严谨的统计方法。目前，特斯拉FSD仍需驾驶员主动监督，安全部署可能还需数年。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/956/864.htm",
-      "publishedAt": "2026-05-29T01:07:40.000Z"
     }
   ]
 }
