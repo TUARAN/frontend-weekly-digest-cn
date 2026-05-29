@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-05-29T17:13:34.819Z",
+  "updatedAt": "2026-05-29T18:55:42.762Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Opus 4.8支持对话中途添加系统指令",
+      "summary": "使用 Opus 4.8，您可以在对话中途添加系统指令，而不会破坏提示词缓存。\n更多缓存命中意味着您的 API 请求成本更低、延迟更小。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2060432688281251998",
+      "publishedAt": "2026-05-29T18:46:48.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Codex现已支持Windows端计算机使用功能",
+      "summary": "Windows用户，这条消息是给你的。\n\n计算机使用功能现已在Windows上可用，因此Codex可以在你的Windows电脑上执行操作。\n\n通过ChatGPT移动应用中Codex的Windows支持，你可以在工作继续在Windows电脑上进行时，随时随地启动、审查和引导任务。\n\n这是一项早期体验，但我们正在努力提供更多方式，让你的工作无论身在何处都能持续进行。",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2060428604727771421",
+      "publishedAt": "2026-05-29T18:30:34.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "当公司过于\"AI上瘾\"时会发生什么？",
+      "summary": "Box创始人Aaron Levie指出，决定用AI替代员工的人往往最不了解工作的实际内容，他将此称为\"AI psychosis\"。ClickUp近期为部署AI智能体裁员22%即是一例。2026年的科技行业裁员规模已接近2025年全年。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled",
+      "publishedAt": "2026-05-29T17:57:05.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "亲测为实：难以置信的推理速度",
+      "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3，000 tokens/s，在8× NVIDIA H200上达到2，100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2060409504693645440",
+      "publishedAt": "2026-05-29T17:14:41.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "GPIC：大规模视觉生成基准数据集发布",
+      "summary": "我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋！🤩",
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "href": "https://x.com/drfeifei/status/2060404846734512205",
+      "publishedAt": "2026-05-29T16:56:10.000Z"
+    },
     {
       "topic": "产品",
       "title": "OpenRouter支持模型生成文件补丁",
@@ -49,6 +89,14 @@
       "source": "X：可灵 Kling AI (@Kling_ai)",
       "href": "https://x.com/Kling_ai/status/2060375625404432757",
       "publishedAt": "2026-05-29T15:00:03.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Braintrust如何用Codex将客户请求转化为代码",
+      "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/braintrust",
+      "publishedAt": "2026-05-29T12:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -193,54 +241,6 @@
       "source": "Simon Willison 博客",
       "href": "https://simonwillison.net/2026/May/28/llm-anthropic",
       "publishedAt": "2026-05-28T23:54:56.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "别只看基准测试，要看全面表现",
-      "summary": "不要只依赖基准测试；要看全面情况！\n\n试试我们的新比较页面，它还能让你可视化模型性能：https：//openrouter.ai/compare/openai/gpt-5.5/anthropic/claude-opus-4.7/anthropic/claude-opus-4.8",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2060142412408717518",
-      "publishedAt": "2026-05-28T23:33:21.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "萨姆·阿尔特曼和达里奥·阿莫代伊都纷纷收回了关于AI将引发就业危机的预测",
-      "summary": "",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo",
-      "publishedAt": "2026-05-28T21:49:31.492Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Grok Build 0.2.7 发布，新增多项功能",
-      "summary": "Grok Build 0.2.7 现已发布，包含 /usage、/login、跨子智能体共享终端，以及改进的图像理解功能。\n所有更新请查看 https：//x.ai/build/changelog",
-      "source": "X：xAI (@xai)",
-      "href": "https://x.com/xai/status/2060102590122385460",
-      "publishedAt": "2026-05-28T20:55:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit Canvas：智能体设计工具发布",
-      "summary": "最好的设计工作不会在聊天框里发生。你需要空间来探索想法、创建变体并进行迭代。\n认识新的 Replit Canvas。\n你的智能体设计工具，用于构建精美的网站、应用、营销资产等。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2060097656207413613",
-      "publishedAt": "2026-05-28T20:35:30.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Gemini Omni向印度用户开放视频编辑功能",
-      "summary": "好消息！印度用户现在可以上传视频（来自相册或已保存文件），并使用Gemini Omni进行编辑和转换。快来试试，并告诉我们你的想法。",
-      "source": "X：Gemini (@GeminiApp)",
-      "href": "https://x.com/GeminiApp/status/2060074415304610168",
-      "publishedAt": "2026-05-28T19:03:09.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "MiniMax M2.7 免费智能体编程限时开放",
-      "summary": "在 @OpenHandsDev 上使用 MiniMax M2.7 进行免费智能体编程？\n\n是的，请给我！限时提供 ⚡👀",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "href": "https://x.com/MiniMax_AI/status/2060071852970844377",
-      "publishedAt": "2026-05-28T18:52:58.000Z"
     }
   ]
 }
