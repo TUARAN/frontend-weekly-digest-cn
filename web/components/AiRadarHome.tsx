@@ -1,13 +1,7 @@
 import Link from 'next/link';
-import {
-  ArrowRight,
-  CalendarDays,
-  ClipboardList,
-  Newspaper,
-  QrCode,
-  Radio,
-} from 'lucide-react';
-import HomeSignalTabs from '@/components/HomeSignalTabs';
+import { ArrowRight, CalendarDays, Map } from 'lucide-react';
+import AiDailyBoard from '@/components/AiDailyBoard';
+import LiveSignalBoard from '@/components/LiveSignalBoard';
 import { getAllWeeklies } from '@/lib/weekly';
 import { getAiHotFeed } from '@/lib/ai-hot-feed';
 import { getDailyManifest, getLatestDaily } from '@/lib/ai-daily';
@@ -24,141 +18,40 @@ export default function AiRadarHome() {
   const feed = getAiHotFeed();
   const dailyManifest = getDailyManifest();
   const latestDaily = getLatestDaily();
-  const boardCards = [
-    {
-      href: '#live',
-      icon: Radio,
-      label: '7×24 资讯',
-      value: `${feed.items.length} 条`,
-      desc: '实时捕捉 AI、Agent、前端和科技信号。',
-    },
-    {
-      href: '#daily',
-      icon: Newspaper,
-      label: '每日精选',
-      value: dailyManifest.latest ? dailyManifest.latest.slice(5) : '09:00',
-      desc: '每天把噪音过滤成少量值得看的判断。',
-    },
-    {
-      href: '#plan',
-      icon: ClipboardList,
-      label: '计划',
-      value: '5 阶段',
-      desc: '从信息摄入落到前端转 AI Agent 的行动路线。',
-    },
-    {
-      href: '#contact',
-      icon: QrCode,
-      label: '二维码',
-      value: '扫码',
-      desc: '获取更新、联系作者或咨询 1v1。',
-    },
-  ];
-  const mobileQuickNav = [
-    ...boardCards,
-    {
-      href: '/weekly',
-      icon: CalendarDays,
-      label: '前端周刊',
-      value: `${weeklies.length} 期`,
-      desc: '沉淀后的每周精选。',
-    },
-  ];
 
   return (
-    <div className="container mx-auto px-4 py-8 md:px-6">
+    <div className="container mx-auto px-4 py-6 md:px-6 md:py-8">
       <div className="mx-auto max-w-6xl">
         {/* ── Hero ── */}
-        <header className="mb-10 overflow-hidden rounded-[2rem] border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950 md:p-8">
-          <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">Frontend Weekly Radar</p>
-              <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white md:text-5xl">
-                一个看板，串起资讯、精选、计划和联系入口
-              </h1>
-              <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-500 dark:text-gray-400 md:text-base">
-                先看 7×24 实时信号，再读每日精选判断；如果想把信息变成行动，就进入转型计划，最后通过二维码获取更新或联系作者。
-              </p>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <Link
-                  href="#live"
-                  className="inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
-                >
-                  进入看板
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
-                <Link
-                  href="/roadmap"
-                  className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
-                >
-                  查看计划
-                </Link>
-              </div>
-            </div>
-            <div className="grid gap-3 sm:grid-cols-2">
-              {boardCards.map(({ href, icon: Icon, label, value, desc }) => (
-                <Link
-                  key={label}
-                  href={href}
-                  className="group rounded-3xl border border-gray-200 bg-gray-50 p-4 transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50/70 dark:border-gray-800 dark:bg-gray-900 dark:hover:border-blue-900/60 dark:hover:bg-blue-950/20"
-                >
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-blue-600 shadow-sm dark:bg-gray-950 dark:text-blue-300">
-                      <Icon className="h-5 w-5" />
-                    </span>
-                    <span className="text-sm font-black text-gray-900 dark:text-white">{value}</span>
-                  </div>
-                  <h2 className="mt-4 text-sm font-bold text-gray-900 dark:text-white">{label}</h2>
-                  <p className="mt-1 text-xs leading-5 text-gray-500 dark:text-gray-400">{desc}</p>
-                </Link>
-              ))}
-            </div>
-          </div>
+        <header className="mb-8 md:mb-10">
+          <h1 className="text-2xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white sm:text-3xl md:text-4xl">
+            站在前沿端点，
+            <span className="text-blue-600 dark:text-blue-400">每周看世界所发生的变化</span>
+          </h1>
+          <p className="mt-3 max-w-2xl text-[13px] leading-6 text-gray-500 dark:text-gray-400 md:text-sm">
+            7×24 小时实时资讯，每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——不求多，有一条能给你一点启发就够。
+          </p>
         </header>
 
-        <section className="mb-6 rounded-[1.75rem] border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-950 md:hidden">
-          <div className="mb-3 flex items-center justify-between gap-3">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-600 dark:text-blue-400">H5 Nav</p>
-              <h2 className="mt-1 text-lg font-bold text-gray-900 dark:text-white">今日阅读导航</h2>
-            </div>
-            <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500 dark:bg-gray-900 dark:text-gray-400">
-              滑动选择
-            </span>
-          </div>
-          <div className="custom-scrollbar flex gap-3 overflow-x-auto pb-1">
-            {mobileQuickNav.map(({ href, icon: Icon, label, value }) => (
-              <Link
-                key={label}
-                href={href}
-                className="flex min-w-[118px] shrink-0 flex-col rounded-2xl border border-gray-200 bg-gray-50 p-3 transition active:scale-[0.98] dark:border-gray-800 dark:bg-gray-900"
-              >
-                <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-white text-blue-600 shadow-sm dark:bg-gray-950 dark:text-blue-300">
-                  <Icon className="h-4 w-4" />
-                </span>
-                <span className="mt-3 text-sm font-bold text-gray-900 dark:text-white">{label}</span>
-                <span className="mt-1 text-xs text-gray-500 dark:text-gray-400">{value}</span>
-              </Link>
-            ))}
-          </div>
+        {/* ── 1. 资讯：7×24 实时 ── */}
+        <section id="live" className="scroll-mt-32 md:scroll-mt-20">
+          <LiveSignalBoard items={feed.items} updatedAt={feed.updatedAt} />
         </section>
 
-        <HomeSignalTabs
-          feedItems={feed.items}
-          feedUpdatedAt={feed.updatedAt}
-          dailyManifest={dailyManifest.list}
-          latestDaily={latestDaily}
-        />
+        {/* ── 2. 每日精选 ── */}
+        <section id="daily" className="mt-10 scroll-mt-32 md:mt-16 md:scroll-mt-20">
+          <AiDailyBoard manifest={dailyManifest.list} initial={latestDaily} />
+        </section>
 
-        {/* ── 本周精选 ── */}
+        {/* ── 3. 周刊 ── */}
         {featured && (
-          <section className="mt-16">
-            <div className="mb-4 flex items-end justify-between gap-4">
+          <section id="weekly" className="mt-10 scroll-mt-32 md:mt-16 md:scroll-mt-20">
+            <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
-                  本周精选
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 md:text-sm">
+                  本周周刊
                 </p>
-                <h2 className="mt-1 text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl">
+                <h2 className="mt-1 text-xl font-bold text-gray-900 dark:text-white sm:text-2xl md:text-3xl">
                   前端周刊 · 每周一份精选
                 </h2>
               </div>
@@ -171,7 +64,6 @@ export default function AiRadarHome() {
               </Link>
             </div>
 
-            {/* 最新一期：突出展示 */}
             <Link
               href={`/weekly/${featured.slug}`}
               className="group block overflow-hidden rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm transition hover:shadow-md dark:border-blue-900/40 dark:from-blue-950/30 dark:to-gray-950 md:p-8"
@@ -192,7 +84,6 @@ export default function AiRadarHome() {
               </span>
             </Link>
 
-            {/* 近期几期 */}
             {recent.length > 0 && (
               <div className="mt-4 grid gap-4 sm:grid-cols-3">
                 {recent.map((w) => (
@@ -227,6 +118,35 @@ export default function AiRadarHome() {
             </Link>
           </section>
         )}
+
+        {/* ── 4. 转型路线入口 ── */}
+        <section className="mt-10 md:mt-16">
+          <Link
+            href="/roadmap"
+            className="group flex flex-col gap-4 rounded-3xl border border-gray-200 bg-gradient-to-br from-gray-50 to-white p-6 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:from-gray-900 dark:to-gray-950 md:flex-row md:items-center md:justify-between md:p-8"
+          >
+            <div className="flex items-start gap-4">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-blue-600/10 text-blue-600 dark:bg-blue-400/10 dark:text-blue-400">
+                <Map className="h-6 w-6" />
+              </span>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500">
+                  Roadmap
+                </p>
+                <h3 className="mt-1 text-xl font-bold text-gray-900 dark:text-white">
+                  前端 → AI Agent 转型路线图
+                </h3>
+                <p className="mt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
+                  一张为 3-5 年前端打造的能力地图，把"写组件"到"构建 Agent"拆成可执行阶段。
+                </p>
+              </div>
+            </div>
+            <span className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400">
+              查看路线图
+              <ArrowRight className="h-4 w-4" />
+            </span>
+          </Link>
+        </section>
       </div>
     </div>
   );
