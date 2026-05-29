@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-29T09:15:07.694Z",
+  "updatedAt": "2026-05-29T11:09:28.207Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "小米开源可控视频音效生成模型 ControlFoley，让声音\"按你想要的来\"",
+      "summary": "小米大模型应用团队发布开源可控视频音效生成模型 ControlFoley，旨在解决创作中的可控性难题。该模型统一支持文本引导视频配音、文本控制视频配音和参考音频控制视频配音三类任务。ControlFoley 在 VGGSound-Test 等多个 benchmark 上取得开源 SOTA 表现，其代码、模型权重和在线 Demo 均已开放。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/957/282.htm",
+      "publishedAt": "2026-05-29T09:13:13.000Z"
+    },
     {
       "topic": "技巧",
       "title": "谷歌 DeepMind CEO 哈萨比斯：AGI 最快三年内到来，研发速度远超预期",
@@ -25,6 +33,14 @@
       "source": "X：Berry Xia (@berryxia)",
       "href": "https://x.com/berryxia/status/2060212428584202428",
       "publishedAt": "2026-05-29T04:11:34.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "用 Rosalind Biodefense 增强社会韧性",
+      "summary": "OpenAI 推出 Rosalind Biodefense，为通过审核的开发者和美国政府伙伴提供 GPT-Rosalind 的可信访问，以推动前沿 AI 在生物防御、公共卫生和大流行病准备方面的应用。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "publishedAt": "2026-05-29T03:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -225,22 +241,6 @@
       "source": "X：商汤 SenseTime (@SenseTime_AI)",
       "href": "https://x.com/SenseTime_AI/status/2060015749826240724",
       "publishedAt": "2026-05-28T15:10:02.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Perplexity Computer现已集成微软Office套件",
-      "summary": "Perplexity Computer现已登陆Microsoft Excel、Word、PowerPoint和Outlook。\n\n您可以在应用程序的侧边栏中直接使用Computer来协调工作，起草文档、建模、制作演示文稿并处理电子邮件。\n\n现已推出：https：//www.perplexity.ai/hub/products/integrations/microsoft",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2060013442720010598",
-      "publishedAt": "2026-05-28T15:00:52.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google I/O 2026 一文速览：12 大重要时刻",
-      "summary": "Google I/O 2026 发布会上披露了 12 个重要时刻，其中包括 Gemini Omni 和 Gemini 3.5 Flash 等产品的相关消息。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
-      "publishedAt": "2026-05-28T15:00:00.000Z"
     }
   ]
 }
