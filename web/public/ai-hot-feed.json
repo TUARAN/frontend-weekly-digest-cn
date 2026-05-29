@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-29T20:50:43.175Z",
+  "updatedAt": "2026-05-29T21:37:12.636Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "ChatGPT对话目录功能现已上线",
+      "summary": "对于每个始于\"就问一件事\"却演变成完整长篇的ChatGPT对话：目录功能现已推出。\n适用于包含5条以上回复的对话。",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "href": "https://x.com/ChatGPTapp/status/2060467129066070182",
+      "publishedAt": "2026-05-29T21:03:39.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Luma Agents 自动生成宣传图，输入内容即可",
+      "summary": "博客文章完成了思考。现在让宣传来发挥作用。\n\n输入内容。定义钩子。Luma Agents 从那里构建每一张宣传图。\n\n投入使用 → http：//lumalabs.ai/app",
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "href": "https://x.com/LumaLabsAI/status/2060461313713909783",
+      "publishedAt": "2026-05-29T20:40:33.000Z"
+    },
     {
       "topic": "产品",
       "title": "Runway API持续扩展模型与端点支持",
@@ -225,22 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/956/864.htm",
       "publishedAt": "2026-05-29T01:07:40.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "三星电子业内率先出样 HBM4E 内存",
-      "summary": "",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/956/851.htm",
-      "publishedAt": "2026-05-29T00:45:13.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "阶跃星辰 Step 3.7 Flash 发布，聚焦智能体效率",
-      "summary": "阶跃星辰（Step）发布了开源大模型 Step 3.7 Flash，主打智能体（Agent）工作流的效率。该模型在 ClawEval-1.1（67.1分）和 SimpleVQA Search（79.2分）评测中排名第一。其架构为 198B 参数的 MoE，约 11B 为活跃参数，支持 256K 上下文。模型具备多模态理解能力，能处理图像、文档并生成代码或调用工具执行任务。在工具使用方面，它致力于高可靠性，τ2-bench 得分超过 98%。Step 3.7 Flash 兼容 Claude Code、MCP 协议等工具链，并支持在 Mac Studio M4 Max 等设备上本地运行。模型权重以 Apache 2.0 许可开源。",
-      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-      "href": "https://x.com/StepFun_ai/status/2060149124117475791",
-      "publishedAt": "2026-05-29T00:00:01.000Z"
     }
   ]
 }
