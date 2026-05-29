@@ -4,6 +4,7 @@ import { ImageResponse } from 'next/og';
 import QRCode from 'qrcode';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-static';
 
 const OG_WIDTH = 1200;
 const OG_HEIGHT = 630;
