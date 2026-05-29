@@ -5,6 +5,7 @@ import {
   BookOpen,
 } from 'lucide-react';
 import AiDailyBoard from '@/components/AiDailyBoard';
+import LiveSignalBoard from '@/components/LiveSignalBoard';
 import PageCarousel from '@/components/PageCarousel';
 import type { PageDefinition } from '@/components/PageCarousel';
 
@@ -100,6 +101,11 @@ export default function AiRadarHome() {
         </div>
 
         <PageCarousel pages={pages} />
+
+        {/* ── 实时信号流 ── */}
+        <div className="mt-12">
+          <LiveSignalBoard />
+        </div>
       </div>
     </div>
   );

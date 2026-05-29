@@ -62,13 +62,32 @@ export default function AiDailyBoard() {
         return;
       }
 
+      // 临时解除外层容器高度限制，避免卡片底部被截断
+      const wrapperEl = iframe.parentElement as HTMLElement | null;
+      const origHeight = wrapperEl?.style.height;
+      const origOverflow = wrapperEl?.style.overflow;
+      if (wrapperEl) {
+        wrapperEl.style.height = 'auto';
+        wrapperEl.style.overflow = 'visible';
+      }
+
+      // 获取 card 实际完整高度后再截图
+      const cardHeight = cardEl.scrollHeight;
+
       const dataUrl = await toPng(cardEl, {
         width: 500,
+        height: cardHeight,
         quality: 1,
         pixelRatio: 2,
         backgroundColor: '#0d0d12',
         style: { margin: '0', padding: '0' },
       });
+
+      // 恢复外层容器原始样式
+      if (wrapperEl) {
+        wrapperEl.style.height = origHeight || '';
+        wrapperEl.style.overflow = origOverflow || '';
+      }
 
       // 触发下载
       const link = document.createElement('a');
