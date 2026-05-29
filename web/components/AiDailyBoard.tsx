@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight, FileText, Download, Share2, Check } from 'lu
 import { toPng } from 'html-to-image';
 import DailyCard from '@/components/DailyCard';
 import type { DailyData, DailyMeta } from '@/lib/ai-daily';
+import { buildShareTemplatePath } from '@/lib/share-template';
 
 interface AiDailyBoardProps {
   manifest: DailyMeta[];
@@ -73,9 +74,27 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
 
   const handleShare = async () => {
     if (!meta || sharing) return;
-    const shareUrl = `${window.location.origin}/share/ai-daily?date=${meta.date}`;
+    const dailyShareUrl = `${window.location.origin}/share/ai-daily?date=${meta.date}`;
+    const sharePath = buildShareTemplatePath({
+      kind: 'daily',
+      title: `每日精选 · ${meta.displayDate}`,
+      summary: meta.highlights.slice(0, 2).join('；'),
+      source: '前端周看',
+      date: meta.displayDate,
+      tier: '每日精选',
+      href: dailyShareUrl,
+    });
+    const shareUrl = `${window.location.origin}${sharePath}`;
     try {
-      await navigator.clipboard.writeText(shareUrl);
+      if (navigator.share) {
+        await navigator.share({
+          title: `每日精选 · ${meta.displayDate}`,
+          text: meta.highlights.slice(0, 1).join('；') || '前端周看每日精选',
+          url: shareUrl,
+        });
+      } else {
+        await navigator.clipboard.writeText(shareUrl);
+      }
     } catch {
       const input = document.createElement('input');
       input.value = shareUrl;
@@ -92,6 +111,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
     return (
       <section>
         <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={false} />
+        <TabMenu tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
         <div className="flex h-80 flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900/50">
           <FileText className="h-10 w-10 text-gray-300 dark:text-gray-600" />
           <p className="text-sm text-gray-400">每日精选即将上线，敬请期待</p>
@@ -103,29 +123,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
   return (
     <section>
       <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={!!data} />
-
-      <div className="mb-4 border-b border-gray-200 dark:border-gray-800">
-        <div className="flex items-center gap-2 overflow-x-auto pb-2">
-          {tabs.map((tab) => {
-            const isActive = tab.key === activeTab;
-            return (
-              <button
-                key={tab.key}
-                type="button"
-                onClick={() => setActiveTab(tab.key)}
-                aria-selected={isActive}
-                className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
-                  isActive
-                    ? 'bg-blue-600 text-white shadow-sm'
-                    : 'border border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:text-gray-800 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-gray-600'
-                }`}
-              >
-                {tab.label}
-              </button>
-            );
-          })}
-        </div>
-      </div>
+      <TabMenu tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
 
       {/* 日期导航 */}
       <div className="mb-4 flex items-center gap-3">
@@ -176,7 +174,12 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
       </div>
 
       {activeTab === 'card' ? (
-        <div className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 shadow-sm dark:border-gray-800 dark:bg-gray-900/50">
+        <div
+          id="daily-panel-card"
+          role="tabpanel"
+          aria-labelledby="daily-tab-card"
+          className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 shadow-sm dark:border-gray-800 dark:bg-gray-900/50"
+        >
           <div className="flex justify-center overflow-x-auto p-4 sm:p-6">
             {data ? (
               <div className="overflow-hidden rounded-2xl">
@@ -190,7 +193,12 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
           </div>
         </div>
       ) : (
-        <div className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:p-6">
+        <div
+          id="daily-panel-highlights"
+          role="tabpanel"
+          aria-labelledby="daily-tab-highlights"
+          className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:p-6"
+        >
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">本期摘要</p>
           <ul className="mt-4 space-y-3">
             {meta.highlights.map((h, i) => (
@@ -279,6 +287,45 @@ function HeaderStrip({
             </button>
           </>
         )}
+      </div>
+    </div>
+  );
+}
+
+function TabMenu({
+  tabs,
+  activeTab,
+  onChange,
+}: {
+  tabs: readonly { key: 'card' | 'highlights'; label: string }[];
+  activeTab: 'card' | 'highlights';
+  onChange: (tab: 'card' | 'highlights') => void;
+}) {
+  return (
+    <div className="mb-4 border-b border-gray-200 dark:border-gray-800">
+      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">二级菜单</p>
+      <div className="flex items-center gap-2 overflow-x-auto pb-2" role="tablist" aria-label="每日精选二级菜单">
+        {tabs.map((tab) => {
+          const isActive = tab.key === activeTab;
+          return (
+            <button
+              key={tab.key}
+              type="button"
+              role="tab"
+              aria-selected={isActive}
+              aria-controls={`daily-panel-${tab.key}`}
+              id={`daily-tab-${tab.key}`}
+              onClick={() => onChange(tab.key)}
+              className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
+                isActive
+                  ? 'bg-blue-600 text-white shadow-sm'
+                  : 'border border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:text-gray-800 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-gray-600'
+              }`}
+            >
+              {tab.label}
+            </button>
+          );
+        })}
       </div>
     </div>
   );

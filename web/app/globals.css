@@ -87,7 +87,13 @@ body {
 }
 
 .signal-track {
-  animation: signal-marquee-up 48s linear infinite;
+  animation: signal-marquee-up var(--signal-duration, 120s) linear infinite;
+  will-change: transform;
+}
+
+.signal-marquee:hover .signal-track,
+.signal-marquee:focus-within .signal-track {
+  animation-play-state: paused;
 }
 
 .signal-track-reverse {

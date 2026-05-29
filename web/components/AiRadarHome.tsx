@@ -6,8 +6,8 @@ import {
   ArrowRight,
   CalendarDays,
 } from 'lucide-react';
-import AiDailyBoard from '@/components/AiDailyBoard';
-import LiveSignalBoard from '@/components/LiveSignalBoard';
+import HomeSignalTabs from '@/components/HomeSignalTabs';
+import UniversalShareButton from '@/components/UniversalShareButton';
 import { getAllWeeklies } from '@/lib/weekly';
 import { getAiHotFeed } from '@/lib/ai-hot-feed';
 import { getDailyManifest, getLatestDaily } from '@/lib/ai-daily';
@@ -24,6 +24,7 @@ const moreFormats = [
     eyebrow: '每日速递',
     title: '短文速递 · 24h 快讯',
     desc: '300-500 字，每日 1-3 条。把关键信号转成中文判断，适合快速浏览和转发。',
+    tier: '短文',
   },
   {
     icon: <Languages className="h-4 w-4" />,
@@ -31,6 +32,7 @@ const moreFormats = [
     eyebrow: '每周精译',
     title: '中文精译 · 优质长文翻译',
     desc: '1500-3000 字，每周 2-3 篇。重写标题、结构和表达，读起来像中文作者写的。',
+    tier: '中文精译',
   },
   {
     icon: <BookOpen className="h-4 w-4" />,
@@ -38,6 +40,7 @@ const moreFormats = [
     eyebrow: '月度深读',
     title: '长文深读 · 论文级解读',
     desc: '5000+ 字，每月 1-2 篇。补足背景、画出技术关系图，给出明确行动建议。',
+    tier: '长文深读',
   },
 ];
 
@@ -63,15 +66,12 @@ export default function AiRadarHome() {
           </p>
         </header>
 
-        {/* ── 7×24 小时资讯 ── */}
-        <section>
-          <LiveSignalBoard items={feed.items} updatedAt={feed.updatedAt} />
-        </section>
-
-        {/* ── 每日精选 ── */}
-        <section className="mt-16">
-          <AiDailyBoard manifest={dailyManifest.list} initial={latestDaily} />
-        </section>
+        <HomeSignalTabs
+          feedItems={feed.items}
+          feedUpdatedAt={feed.updatedAt}
+          dailyManifest={dailyManifest.list}
+          latestDaily={latestDaily}
+        />
 
         {/* ── 更多内容形态：短文 / 中文 / 长文 ── */}
         <section className="mt-16">
@@ -90,6 +90,18 @@ export default function AiRadarHome() {
                 </p>
                 <h3 className="mt-3 text-lg font-bold text-gray-900 dark:text-white">{f.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-gray-500 dark:text-gray-400">{f.desc}</p>
+                <div className="mt-4">
+                  <UniversalShareButton
+                    kind="format"
+                    title={f.title}
+                    summary={f.desc}
+                    source="前端周看"
+                    tier={f.tier}
+                    href="/"
+                    label="分享模版"
+                    className="inline-flex items-center gap-1 rounded-full border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-200"
+                  />
+                </div>
               </div>
             ))}
           </div>

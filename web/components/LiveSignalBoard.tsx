@@ -1,8 +1,10 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import type { CSSProperties } from 'react';
 import { Copy, ExternalLink, Radio } from 'lucide-react';
 import type { FeedItem } from '@/lib/ai-hot-feed';
+import UniversalShareButton from '@/components/UniversalShareButton';
 
 // 固定按 UTC+8 格式化，保证服务端构建与客户端渲染一致（避免水合不匹配）。
 function fmtCST(iso?: string | null): string {
@@ -51,13 +53,24 @@ function SignalCard({ item }: { item: FeedItem }) {
         <p className="mt-3 line-clamp-4 text-sm leading-6 text-gray-600 dark:text-gray-400">{item.summary}</p>
       )}
 
-      <div className="mt-4 flex items-center justify-between gap-3">
+      <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <span className="truncate text-xs text-gray-500 dark:text-gray-400">{item.source}</span>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <UniversalShareButton
+            kind="live"
+            title={item.title}
+            summary={item.summary}
+            source={item.source}
+            date={fmtCST(item.publishedAt)}
+            tier="7×24 实时资讯"
+            href={item.href}
+            label="分享"
+            className="inline-flex min-h-9 items-center gap-1 rounded-full border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-200"
+          />
           <button
             type="button"
             onClick={handleCopy}
-            className="inline-flex items-center gap-1 rounded-full border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-200"
+            className="inline-flex min-h-9 items-center gap-1 rounded-full border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:border-gray-400 dark:border-gray-700 dark:text-gray-200"
           >
             <Copy className="h-3.5 w-3.5" />
             {copied ? '已复制' : '复制转发'}
@@ -66,7 +79,7 @@ function SignalCard({ item }: { item: FeedItem }) {
             href={item.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 rounded-full bg-gray-900 px-3 py-1.5 text-xs font-medium text-white transition hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100"
+            className="inline-flex min-h-9 items-center gap-1 rounded-full bg-gray-900 px-3 py-1.5 text-xs font-medium text-white transition hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100"
           >
             查看出处
             <ExternalLink className="h-3.5 w-3.5" />
@@ -80,10 +93,19 @@ function SignalCard({ item }: { item: FeedItem }) {
 function SignalStream({ items }: { items: FeedItem[] }) {
   // 至少复制一遍以实现无缝循环滚动
   const loopItems = useMemo(() => (items.length > 0 ? [...items, ...items] : []), [items]);
+  // 关键：条目越多，总滚动距离越长，时长也要同步拉长，避免体感“越多越快”。
+  const durationSeconds = useMemo(() => Math.max(180, items.length * 16), [items.length]);
+  const trackStyle = useMemo(
+    () =>
+      ({
+        '--signal-duration': `${durationSeconds}s`,
+      }) as CSSProperties,
+    [durationSeconds]
+  );
 
   return (
-    <div className="signal-marquee relative h-[640px] overflow-hidden">
-      <div className="signal-track">
+    <div className="signal-marquee relative h-[520px] overflow-hidden sm:h-[640px]">
+      <div className="signal-track" style={trackStyle}>
         {loopItems.map((item, index) => (
           <div key={`${item.href}-${index}`} className="mb-4">
             <SignalCard item={item} />
@@ -101,14 +123,14 @@ interface LiveSignalBoardProps {
 
 export default function LiveSignalBoard({ items, updatedAt }: LiveSignalBoardProps) {
   return (
-    <section className="mx-auto max-w-6xl rounded-3xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900">
+    <section className="mx-auto max-w-6xl rounded-3xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-5 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900 sm:p-8">
       <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
             <Radio className="h-4 w-4" />
             7×24H LIVE
           </p>
-          <h2 className="mt-1 text-3xl font-bold text-gray-900 dark:text-white">7×24 小时资讯</h2>
+          <h2 className="mt-1 text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl">7×24 小时资讯</h2>
           <p className="mt-1.5 text-sm leading-6 text-gray-500 dark:text-gray-400">
             AI、Agent、前端、科技实时播报 · 每小时自动更新
           </p>

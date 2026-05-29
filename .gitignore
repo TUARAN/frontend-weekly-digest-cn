@@ -2,6 +2,7 @@
 .history
 /temp.md
 .claude/
+.workbuddy/
 
 # Dependencies (do not commit)
 node_modules/
