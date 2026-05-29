@@ -1,7 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
-import type { CSSProperties } from 'react';
+import { useState } from 'react';
 import { Copy, ExternalLink, Radio } from 'lucide-react';
 import type { FeedItem } from '@/lib/ai-hot-feed';
 import UniversalShareButton from '@/components/UniversalShareButton';
@@ -19,7 +18,7 @@ function fmtCST(iso?: string | null): string {
   return `${M}月${D}日 ${h}:${m}`;
 }
 
-function SignalCard({ item }: { item: FeedItem }) {
+function SignalCard({ item, featured = false }: { item: FeedItem; featured?: boolean }) {
   const [copied, setCopied] = useState(false);
 
   async function handleCopy() {
@@ -34,7 +33,11 @@ function SignalCard({ item }: { item: FeedItem }) {
   }
 
   return (
-    <article className="rounded-2xl border border-gray-200 bg-white/90 p-4 shadow-sm backdrop-blur dark:border-gray-800 dark:bg-gray-950/85">
+    <article
+      className={`rounded-2xl border border-gray-200 bg-white/90 shadow-sm backdrop-blur transition hover:border-blue-200 hover:shadow-md dark:border-gray-800 dark:bg-gray-950/85 dark:hover:border-blue-900/60 ${
+        featured ? 'p-5 sm:p-6' : 'p-4'
+      }`}
+    >
       <div className="flex items-start justify-between gap-3">
         <div className="space-y-2">
           <div className="flex flex-wrap items-center gap-2">
@@ -45,12 +48,16 @@ function SignalCard({ item }: { item: FeedItem }) {
               <span className="text-xs text-gray-500 dark:text-gray-400">{fmtCST(item.publishedAt)}</span>
             )}
           </div>
-          <h3 className="text-base font-semibold leading-6 text-gray-900 dark:text-white">{item.title}</h3>
+          <h3 className={`${featured ? 'text-xl leading-7' : 'text-base leading-6'} font-semibold text-gray-900 dark:text-white`}>
+            {item.title}
+          </h3>
         </div>
       </div>
 
       {item.summary && (
-        <p className="mt-3 line-clamp-4 text-sm leading-6 text-gray-600 dark:text-gray-400">{item.summary}</p>
+        <p className={`${featured ? 'line-clamp-5' : 'line-clamp-3'} mt-3 text-sm leading-6 text-gray-600 dark:text-gray-400`}>
+          {item.summary}
+        </p>
       )}
 
       <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -88,31 +95,6 @@ function SignalCard({ item }: { item: FeedItem }) {
       </div>
     </article>
   );
-}
-
-function SignalStream({ items }: { items: FeedItem[] }) {
-  // 至少复制一遍以实现无缝循环滚动
-  const loopItems = useMemo(() => (items.length > 0 ? [...items, ...items] : []), [items]);
-  // 关键：条目越多，总滚动距离越长，时长也要同步拉长，避免体感“越多越快”。
-  const durationSeconds = useMemo(() => Math.max(180, items.length * 16), [items.length]);
-  const trackStyle = useMemo(
-    () =>
-      ({
-        '--signal-duration': `${durationSeconds}s`,
-      }) as CSSProperties,
-    [durationSeconds]
-  );
-
-  return (
-    <div className="signal-marquee relative h-[520px] overflow-hidden sm:h-[640px]">
-      <div className="signal-track" style={trackStyle}>
-        {loopItems.map((item, index) => (
-          <div key={`${item.href}-${index}`} className="mb-4">
-            <SignalCard item={item} />
-          </div>
-        ))}
-      </div>
-    </div>
   );
 }
 
@@ -122,8 +104,11 @@ interface LiveSignalBoardProps {
 }
 
 export default function LiveSignalBoard({ items, updatedAt }: LiveSignalBoardProps) {
+  const [featured, ...rest] = items;
+  const visibleRest = rest.slice(0, 6);
+
   return (
-    <section className="mx-auto max-w-6xl rounded-3xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-5 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900 sm:p-8">
+    <section className="mx-auto rounded-[2rem] border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-5 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900 sm:p-8">
       <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
@@ -136,15 +121,34 @@ export default function LiveSignalBoard({ items, updatedAt }: LiveSignalBoardPro
           </p>
         </div>
         {updatedAt && (
-          <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
-            <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
-            更新于 {fmtCST(updatedAt)}
-          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="rounded-full bg-gray-100 px-3 py-1.5 text-xs font-semibold text-gray-600 dark:bg-gray-800 dark:text-gray-300">
+              {items.length} 条信号
+            </span>
+            <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+              <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
+              更新于 {fmtCST(updatedAt)}
+            </span>
+          </div>
         )}
       </div>
 
-      {items.length > 0 ? (
-        <SignalStream items={items} />
+      {featured ? (
+        <div className="space-y-4">
+          <SignalCard item={featured} featured />
+          {visibleRest.length > 0 ? (
+            <div className="grid gap-4 xl:grid-cols-2">
+              {visibleRest.map((item) => (
+                <SignalCard key={item.href} item={item} />
+              ))}
+            </div>
+          ) : null}
+          {items.length > visibleRest.length + 1 ? (
+            <p className="rounded-2xl border border-dashed border-gray-200 bg-white/70 px-4 py-3 text-center text-xs text-gray-500 dark:border-gray-800 dark:bg-gray-950/60 dark:text-gray-400">
+              当前看板先展示最新 {visibleRest.length + 1} 条，其余信号会在后续精选中沉淀。
+            </p>
+          ) : null}
+        </div>
       ) : (
         <div className="flex h-40 items-center justify-center text-sm text-gray-400">资讯即将上线，敬请期待</div>
       )}

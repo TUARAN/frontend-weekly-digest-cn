@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Github, Sparkles } from 'lucide-react';
+import { Github, MessageCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import BrandLogo from '@/components/BrandLogo';
 
@@ -13,8 +13,10 @@ interface HeaderProps {
 export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const pathname = usePathname();
   const navItems: { href: string; label: string; match: (p: string) => boolean }[] = [
-    { href: '/', label: '每日精选', match: (p) => p === '/' || p.startsWith('/ai-radar') },
-    { href: '/roadmap', label: '转型路线', match: (p) => p.startsWith('/roadmap') },
+    { href: '/', label: '情报看板', match: (p) => p === '/' || p.startsWith('/ai-radar') },
+    { href: '/#live', label: '7×24 资讯', match: () => false },
+    { href: '/#daily', label: '每日精选', match: () => false },
+    { href: '/roadmap', label: '转型计划', match: (p) => p.startsWith('/roadmap') },
     { href: weeklyHref, label: '前端周刊', match: (p) => p.startsWith('/weekly') },
   ];
 
@@ -23,17 +25,14 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-6">
           <BrandLogo />
-          <nav className="hidden md:flex items-center gap-5 text-sm font-medium text-gray-600 dark:text-gray-400">
-            {navItems.map((item, idx) => (
-              <span key={item.label} className="inline-flex items-center gap-5">
-                {idx > 0 ? (
-                  <span className="select-none text-gray-300 dark:text-gray-700">|</span>
-                ) : null}
+          <nav className="hidden md:flex items-center gap-1 text-sm font-medium text-gray-600 dark:text-gray-400">
+            {navItems.map((item) => (
+              <span key={item.label} className="inline-flex items-center">
                 <Link
                   href={item.href}
                   className={cn(
-                    'transition-colors hover:text-blue-600 dark:hover:text-blue-400',
-                    item.match(pathname) ? 'text-blue-600 dark:text-blue-400 font-bold' : ''
+                    'rounded-full px-3 py-1.5 transition-colors hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/40 dark:hover:text-blue-300',
+                    item.match(pathname) ? 'bg-blue-50 text-blue-700 dark:bg-blue-950/40 dark:text-blue-300 font-bold' : ''
                   )}
                 >
                   {item.label}
@@ -44,14 +43,11 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
         </div>
         <div className="flex items-center gap-3">
           <Link
-            href="/pro"
-            className={cn(
-              'hidden sm:inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200',
-              pathname.startsWith('/pro') ? 'ring-2 ring-gray-400 dark:ring-gray-600' : ''
-            )}
+            href="/#contact"
+            className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
           >
-            <Sparkles className="h-3.5 w-3.5" />
-            1v1 交流
+            <MessageCircle className="h-3.5 w-3.5" />
+            联系/二维码
           </Link>
           <a
             href="https://github.com/TUARAN/frontend-weekly-digest-cn"
