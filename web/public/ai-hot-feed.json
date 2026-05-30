@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-30T12:29:47.065Z",
-  "count": 26,
+  "updatedAt": "2026-05-30T13:33:46.448Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+      "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "publishedAt": "2026-05-30T13:00:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "新加坡防务论坛：AI 风险超过核武器",
+      "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+      "publishedAt": "2026-05-30T11:59:32.000Z"
+    },
     {
       "topic": "模型",
       "title": "Nano Banana Pro与Nano Banana 2正式发布",
@@ -57,6 +73,14 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2060511136932315259",
       "publishedAt": "2026-05-29T23:58:32.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "DynoSim：模拟帕累托前沿",
+      "summary": "现代大语言模型服务难以调优，因为每个部署都涉及模型后端、张量并行形状、预填充/解码分割、Worker数量、调度器设置、路由策略、KV缓存行为、自动扩展阈值和拓扑等相互关联的选择。这些选择在多个层级相互作用，局部优化可能导致瓶颈转移至其他环节。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
+      "publishedAt": "2026-05-29T22:31:03.000Z"
     },
     {
       "topic": "技巧",
@@ -147,6 +171,14 @@
       "publishedAt": "2026-05-29T17:57:05.000Z"
     },
     {
+      "topic": "行业",
+      "title": "Anthropic估值9650亿美元超越OpenAI",
+      "summary": "Anthropic在最新融资轮中筹集了650亿美元，融资后公司估值达到9650亿美元，首次超越竞争对手OpenAI的估值水平。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video",
+      "publishedAt": "2026-05-29T17:26:32.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "亲测为实：难以置信的推理速度",
       "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3，000 tokens/s，在8× NVIDIA H200上达到2，100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。",
@@ -187,6 +219,14 @@
       "publishedAt": "2026-05-29T16:05:53.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "如何使用 NVIDIA MCG Toolkit 实现 AI 模型文档自动化",
+      "summary": "随着 AI 模型复杂性增加及加州 AB-2013、欧盟 AI 法案等监管框架加强，软件团队面临在模型发布前生成全面、可审计文档的挑战。NVIDIA MCG Toolkit 旨在自动化模型卡创建流程，该文档需涵盖模型工作原理、预期用途、许可证、训练数据与性能等关键信息。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/how-to-automate-ai-model-documentation-with-the-nvidia-mcg-toolkit",
+      "publishedAt": "2026-05-29T16:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Canvas新功能与Clerk自定义登录介绍",
       "summary": "Canvas 新功能 + 使用 Clerk 自定义登录 https：//x.com/i/broadcasts/1pJdRRzreMRKW",
@@ -201,14 +241,6 @@
       "source": "X：Gemini (@GeminiApp)",
       "href": "https://x.com/GeminiApp/status/2060389565052096911",
       "publishedAt": "2026-05-29T15:55:27.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Kling AI助力电影RAPHAEL创作全流程揭秘",
-      "summary": "Kling AI戛纳展示--RAPHAEL：AI工作流幕后\n\n深入了解RAPHAEL，一部使用Kling AI创作的AI驱动故事片。看看创作者如何在整个电影制作流程中运用Kling AI，从创意构思到最终电影画面，简化制作并释放新的创作可能性。",
-      "source": "X：可灵 Kling AI (@Kling_ai)",
-      "href": "https://x.com/Kling_ai/status/2060375625404432757",
-      "publishedAt": "2026-05-29T15:00:03.000Z"
     }
   ]
 }
