@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T08:51:41.354Z",
-  "count": 30,
+  "updatedAt": "2026-05-30T09:39:41.392Z",
+  "count": 29,
   "items": [
     {
       "topic": "技巧",
@@ -233,14 +233,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/957/319.htm",
       "publishedAt": "2026-05-29T10:21:56.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "小米开源可控视频音效生成模型 ControlFoley，让声音\"按你想要的来\"",
-      "summary": "小米大模型应用团队发布开源可控视频音效生成模型 ControlFoley，旨在解决创作中的可控性难题。该模型统一支持文本引导视频配音、文本控制视频配音和参考音频控制视频配音三类任务。ControlFoley 在 VGGSound-Test 等多个 benchmark 上取得开源 SOTA 表现，其代码、模型权重和在线 Demo 均已开放。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/957/282.htm",
-      "publishedAt": "2026-05-29T09:13:13.000Z"
     }
   ]
 }
