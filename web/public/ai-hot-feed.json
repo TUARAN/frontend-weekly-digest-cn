@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-29T23:31:37.466Z",
+  "updatedAt": "2026-05-30T00:48:59.211Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
+      "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2060520586489770167",
+      "publishedAt": "2026-05-30T00:36:05.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ComfyUI现已支持OpenRouter模型直接调用",
+      "summary": "现在你可以直接在ComfyUI工作流中使用你的OpenRouter模型了！\n\n【引用 @ComfyUI】：ComfyUI刚刚添加了@OpenRouter支持。\n\n你不再局限于单一的大语言模型，现在可以直接在Comfy中访问20多个模型。\n\n更多灵活性，更少摩擦，同样的工作流。\n\n工作流链接在下方👇",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2060511136932315259",
+      "publishedAt": "2026-05-29T23:58:32.000Z"
+    },
     {
       "topic": "技巧",
       "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
@@ -225,22 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/957/149.htm",
       "publishedAt": "2026-05-29T07:15:20.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Adam's Law：用高频词写Prompt效果更好",
-      "summary": "FaceMind团队用100种语言和四大核心任务实验发现，在语义不变的前提下，使用预训练语料中出现频率更高的词汇（高频表达）来撰写提示词或进行微调，可以显著提升大语言模型的表现。这被总结为Adam's Law（文本频率定律），它为数据工程补上了\"频率\"这一新维度。原理在于高频表达能让模型在它最熟悉的概率空间内工作，从而优化输出质量。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2060212428584202428",
-      "publishedAt": "2026-05-29T04:11:34.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "用 Rosalind Biodefense 增强社会韧性",
-      "summary": "OpenAI 推出 Rosalind Biodefense，为通过审核的开发者和美国政府伙伴提供 GPT-Rosalind 的可信访问，以推动前沿 AI 在生物防御、公共卫生和大流行病准备方面的应用。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "publishedAt": "2026-05-29T03:00:00.000Z"
     }
   ]
 }
