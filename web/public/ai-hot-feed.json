@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T20:25:03.485Z",
-  "count": 19,
+  "updatedAt": "2026-05-30T21:23:27.787Z",
+  "count": 17,
   "items": [
     {
       "topic": "行业",
@@ -137,22 +137,6 @@
       "source": "X：Greg Brockman (@gdb)",
       "href": "https://x.com/gdb/status/2060486309886443787",
       "publishedAt": "2026-05-29T22:19:52.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT对话目录功能现已上线",
-      "summary": "对于每个始于\"就问一件事\"却演变成完整长篇的ChatGPT对话：目录功能现已推出。\n适用于包含5条以上回复的对话。",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "href": "https://x.com/ChatGPTapp/status/2060467129066070182",
-      "publishedAt": "2026-05-29T21:03:39.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Luma Agents 自动生成宣传图，输入内容即可",
-      "summary": "博客文章完成了思考。现在让宣传来发挥作用。\n\n输入内容。定义钩子。Luma Agents 从那里构建每一张宣传图。\n\n投入使用 → http：//lumalabs.ai/app",
-      "source": "X：Luma AI (@LumaLabsAI)",
-      "href": "https://x.com/LumaLabsAI/status/2060461313713909783",
-      "publishedAt": "2026-05-29T20:40:33.000Z"
     }
   ]
 }
