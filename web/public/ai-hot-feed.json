@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T22:23:26.193Z",
-  "count": 16,
+  "updatedAt": "2026-05-30T23:24:35.624Z",
+  "count": 15,
   "items": [
     {
       "topic": "技巧",
@@ -121,14 +121,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2060511136932315259",
       "publishedAt": "2026-05-29T23:58:32.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "DynoSim：模拟帕累托前沿",
-      "summary": "现代大语言模型服务难以调优，因为每个部署都涉及模型后端、张量并行形状、预填充/解码分割、Worker数量、调度器设置、路由策略、KV缓存行为、自动扩展阈值和拓扑等相互关联的选择。这些选择在多个层级相互作用，局部优化可能导致瓶颈转移至其他环节。",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "href": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
-      "publishedAt": "2026-05-29T22:31:03.000Z"
     }
   ]
 }
