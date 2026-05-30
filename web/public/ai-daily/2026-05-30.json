@@ -1,0 +1,56 @@
+{
+  "date": "2026-05-30",
+  "displayDate": "May 30",
+  "dateNum": "0530",
+  "year": 2026,
+  "dayOfWeek": "SAT",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "OpenAI：官网动态（RSS · 排除企业/客户案例） · IT之家（RSS） · X：Berry Xia (@berryxia) 等",
+  "count": 5,
+  "highlights": [
+    "Braintrust如何用Codex将客",
+    "小米开源可控视频音效生成模型 Contr",
+    "OpenAI Codex登陆Window",
+    "OpenAI推出实时翻译模型，支持70+",
+    "LlamaIndex 团队基于 Goog"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "Braintrust如何用Codex将客户请求转化为代码",
+      "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "小米开源可控视频音效生成模型 ControlFoley，让声音\"按你想要的来\"",
+      "summary": "小米大模型应用团队发布开源可控视频音效生成模型 ControlFoley，旨在解决创作中的可控性难题。该模型统一支持文本引导视频配音、文本控制视频配音和参考音频控制视频配音三类任务。ControlFoley 在 VGGSound-Test 等多个 benchmark 上取得开源 SOTA 表现，其代码、模型权重和在线 Demo 均已开放。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "OpenAI Codex登陆Windows，支持手机远程控制",
+      "summary": "OpenAI宣布其AI智能体Codex的Computer Use功能现已登陆Windows，允许Codex在Windows真实桌面执行任务。同时，ChatGPT手机App新增了对Windows端Codex的支持，用户可在移动端远程启动、查看和控制任务，实现跨设备协同。该功能目前处于早期体验阶段。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "OpenAI推出实时翻译模型，支持70+语言输入",
+      "summary": "OpenAI 实时翻译功能--使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
+      "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}

@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-05-30",
+      "displayDate": "May 30",
+      "json": "/ai-daily/2026-05-30.json",
+      "count": 5,
+      "highlights": [
+        "Braintrust如何用Codex将客",
+        "小米开源可控视频音效生成模型 Contr",
+        "OpenAI Codex登陆Window",
+        "OpenAI推出实时翻译模型，支持70+",
+        "LlamaIndex 团队基于 Goog"
+      ]
+    },
+    {
       "date": "2026-05-29",
       "displayDate": "May 29",
       "json": "/ai-daily/2026-05-29.json",
@@ -26,5 +39,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-05-29"
+  "latest": "2026-05-30"
 }
