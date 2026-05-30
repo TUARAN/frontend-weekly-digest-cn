@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-30T21:23:27.787Z",
-  "count": 17,
+  "updatedAt": "2026-05-30T22:23:26.193Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
+      "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
+      "publishedAt": "2026-05-30T21:02:16.000Z"
+    },
     {
       "topic": "行业",
       "title": "据报道：软银将在法国投资750亿欧元用于AI",
@@ -121,22 +129,6 @@
       "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
       "href": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
       "publishedAt": "2026-05-29T22:31:03.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
-      "summary": "claude-design-card 是一款专为中文内容创作者设计的 Skill。它能将文字、URL 或文章直接转化为可发布的视觉卡片，如公众号首图、小红书图文卡、教程步骤卡等，支持 28 种布局与 10 种主题。其核心价值在于自动化了\"写完文章\"后最繁琐的流程：自动提炼重点、选择版式、生成 HTML 并截图成 PNG，替代了以往手动使用 Figma 或 Canva 等工具的步骤。该工具开源，适合经常撰写相关内容的创作者尝试。",
-      "source": "X：洪明 (@hongming731)",
-      "href": "https://x.com/hongming731/status/2060487110906527820",
-      "publishedAt": "2026-05-29T22:23:03.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex可自主管理对话线程与并行任务",
-      "summary": "Codex用于管理Codex界面：\n\n【引用 @guinnesschen】：如果你厌倦了管理Codex对话线程，就让Codex自己管理自己吧！Codex现在可以创建对话线程、搜索它们、整理它们、固定重要的线程，并为并行任务启动工作树。",
-      "source": "X：Greg Brockman (@gdb)",
-      "href": "https://x.com/gdb/status/2060486309886443787",
-      "publishedAt": "2026-05-29T22:19:52.000Z"
     }
   ]
 }
