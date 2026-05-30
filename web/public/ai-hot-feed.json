@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-30T03:10:28.619Z",
+  "updatedAt": "2026-05-30T05:20:29.347Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "xAI放弃JAX GPU转向自研训练框架",
+      "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build\"氛围编程\"一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "href": "https://x.com/SemiAnalysis_/status/2060571944575963482",
+      "publishedAt": "2026-05-30T04:00:09.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Show HN： Tiny-vLLM--基于 C 和 CUDA 的高性能大型语言模型推理引擎",
+      "summary": "Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/jmaczan/tiny-vllm",
+      "publishedAt": "2026-05-30T03:25:01.798Z"
+    },
     {
       "topic": "行业",
       "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
@@ -225,22 +241,6 @@
       "source": "Qwen：Blog Retrieval（API）",
       "href": "https://qwen.ai/blog?id=qwenvla",
       "publishedAt": "2026-05-29T09:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "谷歌 DeepMind CEO 哈萨比斯：AGI 最快三年内到来，研发速度远超预期",
-      "summary": "谷歌 DeepMind 首席执行官德米斯·哈萨比斯预测，AGI 研发速度远超预期，最快可能在 2029 年至 2030 年前后出现。作为 AlphaGo、AlphaFold 的主导者，他认为当前 AI 智能体是未来更强智能的预演，随着多模态和自主决策能力成熟，三年内迎来 AGI 关键突破已非科幻。但他同时警示，全球社会对 AGI 到来的准备严重不足，必须提前建立规则与防护机制。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/957/154.htm",
-      "publishedAt": "2026-05-29T07:18:53.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "阿里云开源百炼 CLI，Agent 可调用全套模型和应用能力",
-      "summary": "",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/957/149.htm",
-      "publishedAt": "2026-05-29T07:15:20.000Z"
     }
   ]
 }
