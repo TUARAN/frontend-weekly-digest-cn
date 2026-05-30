@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T17:26:14.680Z",
-  "count": 25,
+  "updatedAt": "2026-05-30T18:26:38.127Z",
+  "count": 23,
   "items": [
     {
       "topic": "行业",
@@ -185,22 +185,6 @@
       "source": "X：OpenAI (@OpenAI)",
       "href": "https://x.com/OpenAI/status/2060428604727771421",
       "publishedAt": "2026-05-29T18:30:34.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "当公司过于\"AI上瘾\"时会发生什么？",
-      "summary": "Box创始人Aaron Levie指出，决定用AI替代员工的人往往最不了解工作的实际内容，他将此称为\"AI psychosis\"。ClickUp近期为部署AI智能体裁员22%即是一例。2026年的科技行业裁员规模已接近2025年全年。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled",
-      "publishedAt": "2026-05-29T17:57:05.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic估值9650亿美元超越OpenAI",
-      "summary": "Anthropic在最新融资轮中筹集了650亿美元，融资后公司估值达到9650亿美元，首次超越竞争对手OpenAI的估值水平。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video",
-      "publishedAt": "2026-05-29T17:26:32.000Z"
     }
   ]
 }
