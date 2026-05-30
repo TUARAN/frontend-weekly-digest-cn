@@ -52,7 +52,7 @@ router.post('/upload', upload.single('file'), async (req, res) => {
     const links = extractLinksWithText(content || '');
 
     // filter out unwanted domains
-    const IGNORED_DOMAINS = ['frontendweekly.cn', 'github.com'];
+    const IGNORED_DOMAINS = ['frontendnext.com', 'frontendweekly.cn', 'github.com'];
     function isIgnoredDomain(raw) {
       if (!raw) return false;
       try {

@@ -2,13 +2,14 @@ import Link from 'next/link';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { WeeklyPost } from '@/lib/weekly';
 import SyncToBlogButton from '@/components/SyncToBlogButton';
+import { buildWeeklyUrl } from '@/lib/site-matrix';
 
 interface WeeklyCardProps {
   post: WeeklyPost;
 }
 
 export default function WeeklyCard({ post }: WeeklyCardProps) {
-  const canonicalUrl = `https://frontendweekly.cn/weekly/${post.slug}`;
+  const canonicalUrl = buildWeeklyUrl(`/weekly/${post.slug}`);
 
   return (
     <div className="group relative rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md hover:border-blue-200 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-blue-900">

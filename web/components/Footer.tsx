@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import { BRAND_SITE_URL, buildWeeklyUrl } from '@/lib/site-matrix';
 
 const productLinks = [
   { label: '每日精选', href: '/' },
   { label: '转型路线', href: '/roadmap' },
-  { label: '前端周刊', href: '/weekly' },
-  { label: '创作日历', href: '/weekly/calendar' },
+  { label: '前端周刊（子站）', href: buildWeeklyUrl('/weekly'), external: true },
+  { label: '创作日历', href: buildWeeklyUrl('/weekly/calendar'), external: true },
 ];
 
 const membershipLinks = [
@@ -40,12 +41,23 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {productLinks.map((l) => (
                 <li key={l.label}>
-                  <Link
-                    href={l.href}
-                    className="text-sm text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
-                  >
-                    {l.label}
-                  </Link>
+                  {l.external ? (
+                    <a
+                      href={l.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+                    >
+                      {l.label}
+                    </a>
+                  ) : (
+                    <Link
+                      href={l.href}
+                      className="text-sm text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+                    >
+                      {l.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -99,7 +111,7 @@ export default function Footer() {
               本站访客数 <span id="busuanzi_value_site_uv"></span> 人
             </span>
           </div>
-          <p className="font-medium">Signals over noise.</p>
+          <p className="font-medium">主站：{BRAND_SITE_URL} · 周刊子站：frontendweekly.cn</p>
         </div>
       </div>
     </footer>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import WeeklyKnowledgeBase from '@/components/WeeklyKnowledgeBase';
 import { getWeeklyTimeEntries } from '@/lib/weekly-time';
+import { buildBrandUrl } from '@/lib/site-matrix';
 
 export default function WeeklyIndexPage() {
   const weeklies = getAllWeeklies();
@@ -19,6 +20,13 @@ export default function WeeklyIndexPage() {
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
+            <Link
+              href={buildBrandUrl('/')}
+              className="inline-flex items-center gap-2 self-start rounded-full border border-blue-200 bg-blue-50 px-5 py-2.5 text-sm font-medium text-blue-700 transition-all hover:border-blue-300 hover:bg-blue-100 dark:border-blue-900/40 dark:bg-blue-950/40 dark:text-blue-300"
+            >
+              返回主站 frontendnext.com
+              <ArrowRight className="h-4 w-4" />
+            </Link>
             <Link
               href="/weekly/calendar"
               className="inline-flex items-center gap-2 self-start rounded-full border border-blue-200 bg-blue-50 px-5 py-2.5 text-sm font-medium text-blue-700 transition-all hover:border-blue-300 hover:bg-blue-100 dark:border-blue-900/40 dark:bg-blue-950/40 dark:text-blue-300"

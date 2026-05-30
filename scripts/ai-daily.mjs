@@ -291,7 +291,7 @@ ${itemsMd}
 
 「前端周看 · 每日精选」每天精选 AI Coding & 具身智能领域的核心动态，帮助前端开发者高效追踪 AI 进展。
 
-by 安东尼 · [前端周看](https://frontend-weekly-digest-cn.vercel.app)
+by 安东尼 · [前端周看](https://frontendnext.com)
 `;
 }
 

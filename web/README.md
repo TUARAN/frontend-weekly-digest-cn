@@ -27,6 +27,7 @@
 
 - **支付接入文档**
   - `docs/payment-xunhu.md`：虎皮椒支付接入与部署说明
+  - `docs/domain-matrix-cloudflare.md`：主品牌 + 周刊子站的域名矩阵与重定向策略
 
 - **运行产物**
   - `.next/`、`output/` 等目录都属于构建或运行产物，可删除重建

@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import SyncToBlogButton from '@/components/SyncToBlogButton';
+import { buildBrandUrl, buildWeeklyUrl } from '@/lib/site-matrix';
 
 interface PageProps {
   params: { slug: string } | Promise<{ slug: string }>;
@@ -27,7 +28,7 @@ export default async function WeeklyPage({ params }: PageProps) {
     notFound();
   }
 
-  const canonicalUrl = `https://frontendweekly.cn/weekly/${slug}`;
+  const canonicalUrl = buildWeeklyUrl(`/weekly/${slug}`);
 
   return (
     <div className="container mx-auto px-4 py-12 md:px-6">
@@ -39,11 +40,19 @@ export default async function WeeklyPage({ params }: PageProps) {
           <ArrowLeft className="mr-1 h-4 w-4" />
           返回列表
         </Link>
-        <SyncToBlogButton
-          title={post.title}
-          markdown={post.content}
-          canonicalUrl={canonicalUrl}
-        />
+        <div className="flex items-center gap-2">
+          <Link
+            href={buildBrandUrl('/')}
+            className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs font-semibold text-blue-700 transition-colors hover:bg-blue-100 dark:border-blue-900/40 dark:bg-blue-950/30 dark:text-blue-300"
+          >
+            返回主站 frontendnext.com
+          </Link>
+          <SyncToBlogButton
+            title={post.title}
+            markdown={post.content}
+            canonicalUrl={canonicalUrl}
+          />
+        </div>
       </div>
 
       <article className="prose prose-lg mx-auto dark:prose-invert prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 hover:prose-a:text-blue-800 dark:hover:prose-a:text-blue-300 prose-img:rounded-xl">

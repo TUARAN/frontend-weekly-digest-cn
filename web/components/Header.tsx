@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { Github, Sparkles } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import BrandLogo from '@/components/BrandLogo';
+import { buildWeeklyUrl } from '@/lib/site-matrix';
 
 interface HeaderProps {
   weeklyHref?: string;
@@ -14,10 +15,11 @@ type NavItem = { href: string; label: string; match: (p: string) => boolean };
 
 export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const pathname = usePathname();
+  const resolvedWeeklyHref = weeklyHref === '/weekly' ? buildWeeklyUrl('/weekly') : weeklyHref;
   const contentNav: NavItem[] = [
     { href: '/live', label: '资讯', match: (p) => p.startsWith('/live') },
     { href: '/daily', label: '每日', match: (p) => p.startsWith('/daily') },
-    { href: weeklyHref, label: '周刊', match: (p) => p.startsWith('/weekly') },
+    { href: resolvedWeeklyHref, label: '周刊', match: (p) => p.startsWith('/weekly') },
   ];
   const serviceNav: NavItem[] = [
     { href: '/roadmap', label: '路线图', match: (p) => p.startsWith('/roadmap') },

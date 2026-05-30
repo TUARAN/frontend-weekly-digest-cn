@@ -5,6 +5,7 @@ import LiveSignalBoard from '@/components/LiveSignalBoard';
 import { getAllWeeklies } from '@/lib/weekly';
 import { getAiHotFeed } from '@/lib/ai-hot-feed';
 import { getDailyManifest, getLatestDaily } from '@/lib/ai-daily';
+import { buildWeeklyUrl } from '@/lib/site-matrix';
 
 export const metadata = {
   description:
@@ -55,17 +56,21 @@ export default function AiRadarHome() {
                   前端周刊 · 每周一份精选
                 </h2>
               </div>
-              <Link
-                href="/weekly"
+              <a
+                href={buildWeeklyUrl('/weekly')}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden shrink-0 items-center gap-1 text-sm font-medium text-blue-600 transition hover:gap-2 dark:text-blue-400 sm:flex"
               >
                 查看全部 {weeklies.length} 期
                 <ArrowRight className="h-4 w-4" />
-              </Link>
+              </a>
             </div>
 
-            <Link
-              href={`/weekly/${featured.slug}`}
+            <a
+              href={buildWeeklyUrl(`/weekly/${featured.slug}`)}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group block overflow-hidden rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-6 shadow-sm transition hover:shadow-md dark:border-blue-900/40 dark:from-blue-950/30 dark:to-gray-950 md:p-8"
             >
               <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-600/10 px-3 py-1 text-xs font-semibold text-blue-700 dark:bg-blue-400/10 dark:text-blue-300">
@@ -82,14 +87,16 @@ export default function AiRadarHome() {
                 阅读本期
                 <ArrowRight className="h-4 w-4" />
               </span>
-            </Link>
+            </a>
 
             {recent.length > 0 && (
               <div className="mt-4 grid gap-4 sm:grid-cols-3">
                 {recent.map((w) => (
-                  <Link
+                  <a
                     key={w.slug}
-                    href={`/weekly/${w.slug}`}
+                    href={buildWeeklyUrl(`/weekly/${w.slug}`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group flex flex-col justify-between rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-700"
                   >
                     <div>
@@ -104,18 +111,20 @@ export default function AiRadarHome() {
                       阅读
                       <ArrowRight className="h-3.5 w-3.5" />
                     </span>
-                  </Link>
+                  </a>
                 ))}
               </div>
             )}
 
-            <Link
-              href="/weekly"
+            <a
+              href={buildWeeklyUrl('/weekly')}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition hover:gap-2 dark:text-blue-400 sm:hidden"
             >
               查看全部 {weeklies.length} 期
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </a>
           </section>
         )}
 

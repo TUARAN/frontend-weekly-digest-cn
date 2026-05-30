@@ -1,0 +1,17 @@
+# =========================
+# Domain Matrix (Cloudflare Pages)
+# - Brand:  frontendnext.com
+# - Weekly: frontendweekly.cn
+# =========================
+
+# 1) Canonicalize weekly content to weekly domain.
+https://frontendnext.com/weekly https://frontendweekly.cn/weekly 301
+https://frontendnext.com/weekly/* https://frontendweekly.cn/weekly/:splat 301
+
+# 2) Weekly domain only serves weekly section.
+https://frontendweekly.cn/ https://frontendweekly.cn/weekly 301
+https://frontendweekly.cn/weekly https://frontendweekly.cn/weekly 200
+https://frontendweekly.cn/weekly/* https://frontendweekly.cn/weekly/:splat 200
+
+# 3) Any non-weekly path on weekly domain flows back to brand site.
+https://frontendweekly.cn/* https://frontendnext.com/:splat 301

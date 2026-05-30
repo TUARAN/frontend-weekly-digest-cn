@@ -6,7 +6,7 @@
 
 ![preview](https://raw.githubusercontent.com/TUARAN/frontend-weekly-digest-cn/main/img/preview.png)
 
-在线阅读：[https://frontendweekly.cn/](https://frontendweekly.cn/)
+在线阅读：[https://frontendnext.com/](https://frontendnext.com/)
 
 ## 现在这个项目是什么
 
@@ -549,7 +549,7 @@ git pull upstream main
 
 ## 🔗 相关链接
 
-- 在线阅读：https://frontendweekly.cn/
+- 在线阅读：https://frontendnext.com/
 - GitHub：https://github.com/TUARAN/frontend-weekly-digest-cn
 
 ---
@@ -564,7 +564,7 @@ git pull upstream main
 >
 > 来源项目：[前端周刊](https://github.com/TUARAN/frontend-weekly-digest-cn)（每周更新国外论坛的前端热门文章，推荐大家阅读/翻译，紧跟时事，掌握前端技术动态）
 >
-> 网址/进群：https://frontendweekly.cn/
+> 网址/进群：https://frontendnext.com/
 
 ## 📈 流量统计说明
 

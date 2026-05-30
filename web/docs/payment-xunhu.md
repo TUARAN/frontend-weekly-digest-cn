@@ -41,13 +41,13 @@ XUNHU_ALIPAY_APP_SECRET=你的支付宝应用密钥
 
 ## 虎皮椒后台需要配置什么
 
-以你的正式域名为例 `https://frontendweekly.cn`：
+以你的正式域名为例 `https://frontendnext.com`：
 
 - 异步通知地址：
-  - 微信：`https://frontendweekly.cn/api/payments/xunhu/notify?payMethod=wechat`
-  - 支付宝：`https://frontendweekly.cn/api/payments/xunhu/notify?payMethod=alipay`
+  - 微信：`https://frontendnext.com/api/payments/xunhu/notify?payMethod=wechat`
+  - 支付宝：`https://frontendnext.com/api/payments/xunhu/notify?payMethod=alipay`
 - 返回地址：
-  - `https://frontendweekly.cn/order`
+  - `https://frontendnext.com/order`
 
 注意：
 

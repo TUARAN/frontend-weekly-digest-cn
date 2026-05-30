@@ -5,9 +5,10 @@ import Footer from "@/components/Footer";
 import FloatingSidebar from "@/components/FloatingSidebar";
 import { getWeeklyMenu } from "@/lib/weekly";
 import Script from "next/script";
+import { BRAND_SITE_URL } from "@/lib/site-matrix";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://frontendweekly.cn"),
+  metadataBase: new URL(BRAND_SITE_URL),
   title: {
     default: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
     template: "%s · 前端周看",
