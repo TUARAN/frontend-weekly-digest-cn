@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T19:32:45.461Z",
-  "count": 21,
+  "updatedAt": "2026-05-30T20:25:03.485Z",
+  "count": 19,
   "items": [
     {
       "topic": "行业",
@@ -153,22 +153,6 @@
       "source": "X：Luma AI (@LumaLabsAI)",
       "href": "https://x.com/LumaLabsAI/status/2060461313713909783",
       "publishedAt": "2026-05-29T20:40:33.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway API持续扩展模型与端点支持",
-      "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2060453805519765548",
-      "publishedAt": "2026-05-29T20:10:43.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI推出实时翻译模型，支持70+语言输入",
-      "summary": "OpenAI 实时翻译功能--使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。",
-      "source": "X：Greg Brockman (@gdb)",
-      "href": "https://x.com/gdb/status/2060452095279415725",
-      "publishedAt": "2026-05-29T20:03:55.000Z"
     }
   ]
 }
