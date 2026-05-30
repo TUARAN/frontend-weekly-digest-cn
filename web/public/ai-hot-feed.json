@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-30T16:25:07.306Z",
-  "count": 26,
+  "updatedAt": "2026-05-30T17:26:14.680Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "行业",
+      "title": "\"开玩笑吧\"：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
+      "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
+      "publishedAt": "2026-05-30T16:30:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "随着成本飙升，美国企业开始对人工智能实施配给",
@@ -193,22 +201,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video",
       "publishedAt": "2026-05-29T17:26:32.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "亲测为实：难以置信的推理速度",
-      "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3，000 tokens/s，在8× NVIDIA H200上达到2，100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2060409504693645440",
-      "publishedAt": "2026-05-29T17:14:41.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "GPIC：大规模视觉生成基准数据集发布",
-      "summary": "我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋！🤩",
-      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-      "href": "https://x.com/drfeifei/status/2060404846734512205",
-      "publishedAt": "2026-05-29T16:56:10.000Z"
     }
   ]
 }
