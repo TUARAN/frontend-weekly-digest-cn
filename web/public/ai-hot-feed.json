@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-30T07:05:14.896Z",
+  "updatedAt": "2026-05-30T08:51:41.354Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "最后一次技术面试",
+      "summary": "Steve Yegge 在 Medium 发表观点文章《最后一次技术面试》，探讨 AI 时代传统技术面试的意义变化。文章在 Hacker News 社区获得 100 分关注。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "publishedAt": "2026-05-30T07:25:10.263Z"
+    },
     {
       "topic": "行业",
       "title": "xAI放弃JAX GPU转向自研训练框架",
@@ -233,14 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/957/282.htm",
       "publishedAt": "2026-05-29T09:13:13.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Qwen-VLA：从理解世界到在其中行动",
-      "summary": "Qwen Studio提供全面功能，涵盖聊天机器人、图像与视频理解、图像生成、文档处理、网络搜索集成、工具利用及Artifacts。",
-      "source": "Qwen：Blog Retrieval（API）",
-      "href": "https://qwen.ai/blog?id=qwenvla",
-      "publishedAt": "2026-05-29T09:00:00.000Z"
     }
   ]
 }
