@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T09:39:41.392Z",
-  "count": 29,
+  "updatedAt": "2026-05-30T10:36:57.634Z",
+  "count": 28,
   "items": [
     {
       "topic": "技巧",
@@ -225,14 +225,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
       "publishedAt": "2026-05-29T10:37:09.818Z"
-    },
-    {
-      "topic": "行业",
-      "title": "中央网信办等四部门：提升全民人工智能素养，加快人才培育、深化普及应用",
-      "summary": "中央网信办等四部门联合印发《2026年提升全民数字素养与技能工作要点》，部署了六项重点任务。其中明确要求\"提升全民人工智能素养\"，具体包括强化人工智能赋能教育、加快人工智能人才培育、深化人工智能普及应用。其他任务涵盖数字资源供给、应用场景建设、普惠包容发展、安全有序网络空间以及协同联动机制。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/957/319.htm",
-      "publishedAt": "2026-05-29T10:21:56.000Z"
     }
   ]
 }
