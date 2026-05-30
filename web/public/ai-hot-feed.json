@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-30T15:29:30.182Z",
-  "count": 30,
+  "updatedAt": "2026-05-30T16:25:07.306Z",
+  "count": 26,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "随着成本飙升，美国企业开始对人工智能实施配给",
+      "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+      "publishedAt": "2026-05-30T15:40:48.502Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "免费领取6个月ChatGPT Pro及AI工具思考",
+      "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是\"agent型\"（如Claude Code、Codex），可自主运行；另一类是\"实习生型\"（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了\"实习生型\"工具的地点限制问题。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2060740414273941874",
+      "publishedAt": "2026-05-30T15:09:36.000Z"
+    },
     {
       "topic": "行业",
       "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
@@ -193,54 +209,6 @@
       "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
       "href": "https://x.com/drfeifei/status/2060404846734512205",
       "publishedAt": "2026-05-29T16:56:10.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter支持模型生成文件补丁",
-      "summary": "OpenRouter 现已支持 \"apply_patch\"，这是一个服务器工具，允许任何模型通过 Responses API 使用 V4A diffs 提出文件编辑建议。\n\n模型生成一个补丁（创建、更新或删除文件）。OpenRouter 在服务器端验证 diff 语法。",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2060395056196936054",
-      "publishedAt": "2026-05-29T16:17:16.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Cognition的Scott Wu表示：AI编程智能体不应取代人类",
-      "summary": "Cognition公司开发了Devvin，这是一个号称首个且最成功的AI编程智能体。其著名程序员创始人Scott Wu明确表示，该智能体并非旨在取代人类程序员。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans",
-      "publishedAt": "2026-05-29T16:13:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Gemini架构师分享AI前沿探索幕后故事",
-      "summary": "聆听Gemini的架构师们回顾他们持续推动AI前沿的旅程，本期Release Notes节目。\n\n@JeffDean、@koraykv、@OriolVinyalsML和@NoamShazeer一同出镜，分享模型背后团队的幕后故事，以及他们如何见证愿景的实现。",
-      "source": "X：Google AI (@GoogleAI)",
-      "href": "https://x.com/GoogleAI/status/2060392191508488493",
-      "publishedAt": "2026-05-29T16:05:53.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "如何使用 NVIDIA MCG Toolkit 实现 AI 模型文档自动化",
-      "summary": "随着 AI 模型复杂性增加及加州 AB-2013、欧盟 AI 法案等监管框架加强，软件团队面临在模型发布前生成全面、可审计文档的挑战。NVIDIA MCG Toolkit 旨在自动化模型卡创建流程，该文档需涵盖模型工作原理、预期用途、许可证、训练数据与性能等关键信息。",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "href": "https://developer.nvidia.com/blog/how-to-automate-ai-model-documentation-with-the-nvidia-mcg-toolkit",
-      "publishedAt": "2026-05-29T16:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Canvas新功能与Clerk自定义登录介绍",
-      "summary": "Canvas 新功能 + 使用 Clerk 自定义登录 https：//x.com/i/broadcasts/1pJdRRzreMRKW",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2060390354910859401",
-      "publishedAt": "2026-05-29T15:58:35.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Gemini 本月更新：全新界面与智能体助手",
-      "summary": "从全新设计的 Gemini 界面，到 Gemini Spark 提供的全天候智能体辅助，以下是本月 Gemini 更新概览。🧵",
-      "source": "X：Gemini (@GeminiApp)",
-      "href": "https://x.com/GeminiApp/status/2060389565052096911",
-      "publishedAt": "2026-05-29T15:55:27.000Z"
     }
   ]
 }
