@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-30T18:26:38.127Z",
-  "count": 23,
+  "updatedAt": "2026-05-30T19:32:45.461Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "行业",
+      "title": "据报道：软银将在法国投资750亿欧元用于AI",
+      "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+      "publishedAt": "2026-05-30T18:55:33.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
+      "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2060779431648547016",
+      "publishedAt": "2026-05-30T17:44:38.000Z"
+    },
     {
       "topic": "行业",
       "title": "\"开玩笑吧\"：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
@@ -153,38 +169,6 @@
       "source": "X：Greg Brockman (@gdb)",
       "href": "https://x.com/gdb/status/2060452095279415725",
       "publishedAt": "2026-05-29T20:03:55.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
-      "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "href": "https://x.com/googleaidevs/status/2060439904929382700",
-      "publishedAt": "2026-05-29T19:15:29.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "参与我们的 I/O 2026 测验：该测验由 Google AI Studio 氛围编程生成",
-      "summary": "Google 使用其开发工具 Google AI Studio，通过氛围编程（vibe coding）方式，创建了一个关于 Google I/O 2026 主要公告的在线测验。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz",
-      "publishedAt": "2026-05-29T19:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Gemini Omni可将草图变为现实",
-      "summary": "Gemini Omni甚至能将简单的草图变为新的现实。\n\n在Gemini应用中亲自尝试。上传一段有人画圆的视频，然后输入这个提示词：当我画完这个圆时，它变成了___。",
-      "source": "X：Gemini (@GeminiApp)",
-      "href": "https://x.com/GeminiApp/status/2060435981946503243",
-      "publishedAt": "2026-05-29T18:59:53.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex现已支持Windows端计算机使用功能",
-      "summary": "Windows用户，这条消息是给你的。\n\n计算机使用功能现已在Windows上可用，因此Codex可以在你的Windows电脑上执行操作。\n\n通过ChatGPT移动应用中Codex的Windows支持，你可以在工作继续在Windows电脑上进行时，随时随地启动、审查和引导任务。\n\n这是一项早期体验，但我们正在努力提供更多方式，让你的工作无论身在何处都能持续进行。",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2060428604727771421",
-      "publishedAt": "2026-05-29T18:30:34.000Z"
     }
   ]
 }
