@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-05-31",
+      "displayDate": "May 31",
+      "json": "/ai-daily/2026-05-31.json",
+      "count": 5,
+      "highlights": [
+        "免费领取6个月ChatGPT Pro及A",
+        "在浏览器中通过 Pyodide 和 Se",
+        "\"开玩笑吧\"：GitHub Copilo",
+        "小即是美：开源多模态模型发布",
+        "NVIDIA 或将于六月发布整合 Bla"
+      ]
+    },
+    {
       "date": "2026-05-30",
       "displayDate": "May 30",
       "json": "/ai-daily/2026-05-30.json",
@@ -39,5 +52,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-05-30"
+  "latest": "2026-05-31"
 }
