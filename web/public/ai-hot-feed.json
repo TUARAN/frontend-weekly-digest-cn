@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-05-31T15:31:17.484Z",
-  "count": 8,
+  "updatedAt": "2026-05-31T16:29:31.148Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI正式进军机器人领域并启动招聘",
+      "summary": "OpenAI宣布成立OpenAI Robotics团队，并开始招聘全栈硬件、系统及ML工程师，以编程和制造能服务社会的机器人。该项目由Aditya Ramesh领导，其世界模拟研究计划已演变为机器人研究，强调硬件与ML研究的协同设计。短期目标是支持技术工人构建未来基础设施，长期愿景是为每个人提供个人机器人。",
+      "source": "X：Sam Altman (@sama)",
+      "href": "https://x.com/sama/status/2061117302528188712",
+      "publishedAt": "2026-05-31T16:07:13.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "我花200英镑把一台数据中心级GPU装进了我的游戏电脑",
+      "summary": "一名用户以200英镑的价格购入了一块数据中心级GPU，并将其成功安装到自己的游戏电脑中。文章记述了这一非标准硬件改装过程、遇到的技术挑战以及最终实现本地运行大语言模型的体验。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.tymscar.com/posts/v100localllm",
+      "publishedAt": "2026-05-31T15:55:27.025Z"
+    },
     {
       "topic": "产品",
       "title": "OpenAI发布生物防御AI工具Rosalind",
@@ -57,14 +73,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
       "publishedAt": "2026-05-30T16:30:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "随着成本飙升，美国企业开始对人工智能实施配给",
-      "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
-      "publishedAt": "2026-05-30T15:40:48.502Z"
     }
   ]
 }
