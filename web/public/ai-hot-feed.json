@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-31T12:33:03.113Z",
-  "count": 9,
+  "updatedAt": "2026-05-31T13:35:04.752Z",
+  "count": 8,
   "items": [
     {
       "topic": "行业",
@@ -65,14 +65,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2060740414273941874",
       "publishedAt": "2026-05-30T15:09:36.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
-      "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
-      "publishedAt": "2026-05-30T13:00:00.000Z"
     }
   ]
 }
