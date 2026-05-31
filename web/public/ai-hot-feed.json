@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-31T03:12:54.944Z",
-  "count": 14,
+  "updatedAt": "2026-05-31T05:34:31.035Z",
+  "count": 12,
   "items": [
     {
       "topic": "行业",
@@ -97,22 +97,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
       "publishedAt": "2026-05-30T07:25:10.263Z"
-    },
-    {
-      "topic": "行业",
-      "title": "xAI放弃JAX GPU转向自研训练框架",
-      "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build\"氛围编程\"一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "href": "https://x.com/SemiAnalysis_/status/2060571944575963482",
-      "publishedAt": "2026-05-30T04:00:09.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Show HN： Tiny-vLLM--基于 C 和 CUDA 的高性能大型语言模型推理引擎",
-      "summary": "Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/jmaczan/tiny-vllm",
-      "publishedAt": "2026-05-30T03:25:01.798Z"
     }
   ]
 }
