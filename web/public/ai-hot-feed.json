@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-31T16:29:31.148Z",
+  "updatedAt": "2026-05-31T17:26:39.012Z",
   "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "教皇似乎比Geoffrey Hinton更懂人工智能",
+      "summary": "这一观点强调，单纯分析AI的输出内容，无法还原其生成过程与背后的推理逻辑，触及了当前AI可解释性研究的核心挑战。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai",
+      "publishedAt": "2026-05-31T16:38:20.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI正式进军机器人领域并启动招聘",
@@ -65,14 +73,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2060779431648547016",
       "publishedAt": "2026-05-30T17:44:38.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "\"开玩笑吧\"：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
-      "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
-      "publishedAt": "2026-05-30T16:30:00.000Z"
     }
   ]
 }
