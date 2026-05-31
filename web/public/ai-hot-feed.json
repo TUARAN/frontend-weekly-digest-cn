@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-31T20:27:17.654Z",
-  "count": 8,
+  "updatedAt": "2026-05-31T21:23:20.801Z",
+  "count": 7,
   "items": [
     {
       "topic": "产品",
@@ -57,14 +57,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/957/718.htm",
       "publishedAt": "2026-05-31T01:30:46.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
-      "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
-      "publishedAt": "2026-05-30T21:02:16.000Z"
     }
   ]
 }
