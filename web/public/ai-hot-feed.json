@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-31T18:28:24.378Z",
+  "updatedAt": "2026-05-31T19:32:24.033Z",
   "count": 8,
   "items": [
+    {
+      "topic": "产品",
+      "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
+      "summary": "DeepSeek V4 Flash 现已在 OpenCode Zen 上线。",
+      "source": "X：opencode (@opencode)",
+      "href": "https://x.com/opencode/status/2061153857321775209",
+      "publishedAt": "2026-05-31T18:32:28.000Z"
+    },
     {
       "topic": "技巧",
       "title": "教皇似乎比Geoffrey Hinton更懂人工智能",
@@ -57,14 +65,6 @@
       "source": "Simon Willison 博客",
       "href": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
       "publishedAt": "2026-05-30T21:02:16.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "据报道：软银将在法国投资750亿欧元用于AI",
-      "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
-      "publishedAt": "2026-05-30T18:55:33.000Z"
     }
   ]
 }
