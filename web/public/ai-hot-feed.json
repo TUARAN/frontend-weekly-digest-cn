@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-31T11:34:51.456Z",
+  "updatedAt": "2026-05-31T12:33:03.113Z",
   "count": 9,
   "items": [
+    {
+      "topic": "行业",
+      "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
+      "summary": "苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本。但该技术栈大部分源自外部：本地模型由Gemini蒸馏，设备无法处理的复杂查询将路由至Google Cloud处理，并采用了Nvidia的机密计算技术。苹果据称正在寻觅小型设备端AI初创公司以加速模型缩减工作。此外，苹果2024年承诺的Private Cloud Compute方案原计划使用苹果芯片，因无法承载完整Gemini模型，现已部分转向谷歌云，但该名称仍将保留。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2061058117304262999",
+      "publishedAt": "2026-05-31T12:12:02.000Z"
+    },
     {
       "topic": "行业",
       "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
@@ -65,14 +73,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
       "publishedAt": "2026-05-30T13:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "新加坡防务论坛：AI 风险超过核武器",
-      "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
-      "publishedAt": "2026-05-30T11:59:32.000Z"
     }
   ]
 }
