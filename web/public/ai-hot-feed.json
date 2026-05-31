@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-05-31T14:35:57.817Z",
+  "updatedAt": "2026-05-31T15:31:17.484Z",
   "count": 8,
   "items": [
+    {
+      "topic": "产品",
+      "title": "OpenAI发布生物防御AI工具Rosalind",
+      "summary": "我们希望帮助世界在生物防御领域抢占先机：",
+      "source": "X：Sam Altman (@sama)",
+      "href": "https://x.com/sama/status/2061101875303530871",
+      "publishedAt": "2026-05-31T15:05:55.000Z"
+    },
     {
       "topic": "行业",
       "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
@@ -57,14 +65,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
       "publishedAt": "2026-05-30T15:40:48.502Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "免费领取6个月ChatGPT Pro及AI工具思考",
-      "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是\"agent型\"（如Claude Code、Codex），可自主运行；另一类是\"实习生型\"（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了\"实习生型\"工具的地点限制问题。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2060740414273941874",
-      "publishedAt": "2026-05-30T15:09:36.000Z"
     }
   ]
 }
