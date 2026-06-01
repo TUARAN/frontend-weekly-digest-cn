@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-01T22:04:54.763Z",
+  "updatedAt": "2026-06-01T23:33:40.704Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Sam Altman强调AI发展应以人为本",
+      "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2061586179292831774",
+      "publishedAt": "2026-06-01T23:10:22.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ChatGPT 新增长文编辑与保存功能",
+      "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "href": "https://x.com/ChatGPTapp/status/2061571468992126982",
+      "publishedAt": "2026-06-01T22:11:55.000Z"
+    },
     {
       "topic": "产品",
       "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
@@ -225,22 +241,6 @@
       "source": "X：腾讯混元 (@TencentHunyuan)",
       "href": "https://x.com/TencentHunyuan/status/2061372535267357029",
       "publishedAt": "2026-06-01T09:01:25.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
-      "summary": "",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/958/109.htm",
-      "publishedAt": "2026-06-01T06:13:32.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "介绍Cosmos Coalition",
-      "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
-      "source": "Runway：News（网页）",
-      "href": "https://runwayml.com/news/introducing-cosmos-coalition",
-      "publishedAt": "2026-06-01T05:24:22.746Z"
     }
   ]
 }
