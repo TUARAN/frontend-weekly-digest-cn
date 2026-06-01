@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-06-01T12:02:32.554Z",
-  "count": 21,
+  "updatedAt": "2026-06-01T15:07:52.555Z",
+  "count": 28,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "构建每周千美元预算上限的智能体教程",
+      "summary": "视频教程：如何构建一个每周预算上限为1000美元的智能体，包含模型拒绝列表与自定义数据保留\n\n使用了新的、可堆叠的护栏架构：\n\n【引用 @OpenRouter】：OpenRouter 上的护栏是市场上最强大的：为您的 AI 流量提供集中式安全与治理\n\n预算限制、ZDR、模型与提供商限制、提示词注入防御以及 DLP / 敏感信息检测，分层为您控制的规则！🧵",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2061452942385783050",
+      "publishedAt": "2026-06-01T14:20:56.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "AI Pulse 探讨智能体时代新指标 DAA",
+      "summary": "ICYMI：我们最新的 AI Pulse 探讨了日活跃智能体（DAA）--一个衡量智能体时代价值的指标--以及我们的智能体组合。",
+      "source": "X：百度 Baidu (@Baidu_Inc)",
+      "href": "https://x.com/Baidu_Inc/status/2061447687028039854",
+      "publishedAt": "2026-06-01T14:00:03.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "超越LLM：为何可扩展的企业AI采用取决于智能体逻辑",
+      "summary": "可扩展的企业AI采用需超越大语言模型，依靠智能体逻辑来引导模型执行动态、长周期且受约束的企业工作流，从而提升质量、降低成本并建立信任。文中以IBM watsonx Code Assistant for Z为例，展示了智能体逻辑如何通过程序分析等技术，在理解大型遗留代码库时，相比纯LLM基线方法，能以约30倍更低的token消耗达到更优性能。在加速测试生成任务中，该方法亦能使代码覆盖度提升20%-45%，同时token消耗降低最高达15倍。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "publishedAt": "2026-06-01T13:51:18.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "作者分享使用 Codex App 开发的开源项目合集",
+      "summary": "作者分享了使用 Codex App 等工具开发的一系列开源项目，包括4个 Chrome 插件（如快捷提示词、新标签页）、4个网站（如艺术家风格对比、音乐展示）和5个 AI Skill（如论文解读、阅读助手）。项目基于 GPT-Image-2 API、Suno 等技术，并整合了 Read-frog、Hyperframe 等开源项目。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2061443708374208769",
+      "publishedAt": "2026-06-01T13:44:14.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "微软研究聚焦：智能体评估与价值对齐",
+      "summary": "大规模评估智能体行为，论证代码库优于文档，并邀请全球研究人员共同解决价值对齐问题。深入了解最新研究焦点。",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "href": "https://x.com/MSFTResearch/status/2061440352859361521",
+      "publishedAt": "2026-06-01T13:30:54.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "开源与闭源模型在不同的增长曲线上",
+      "summary": "当模型智能的微小提升能直接转化为实际价值时，开源与闭源模型正沿着不同的增长路径发展。闭源模型通过在特定场景下提供更高的边际智能来创造价值，而开源模型则在其他维度寻找增长点，两者形成了差异化的竞争格局。",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "href": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
+      "publishedAt": "2026-06-01T13:03:48.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenBMB发布UltraData两大开源数据集，登顶HuggingFace趋势榜",
+      "summary": "OpenBMB联合清华NLP与Modelbest发布两个开源数据集：Ultra-FineWeb-L3（预训练合成数据）包含600B+ tokens（超400B英文、200B+中文），是迄今最大开源中文预训练合成数据集；UltraData-SFT-2605（后训练SFT数据）包含15M+样本，是中国首个开源且包含思考与非思考标注的大规模SFT数据集，覆盖数学、代码、知识和指令遵循。两者均基于UltraData L0-L4框架构建，并在MiniCPM5-1B训练中完成验证。数据集已在HuggingFace免费开放。",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2061432928492810535",
+      "publishedAt": "2026-06-01T13:01:24.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
+      "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/958/410.htm",
+      "publishedAt": "2026-06-01T12:34:05.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "使用Claude Opus 4.8将书籍转化为AI技能的教程",
+      "summary": "本文以《非暴力沟通》为例，提供了一个将书籍转化为可调用AI技能（Skill）的六步教程。作者使用Claude Opus 4.8模型，因其具备100万token上下文窗口、结构化输出及多步智能体（Agent）能力，能一次性处理全书逻辑。流程包含文本准备、全局结构分析、五类提炼（框架/原则/技法/反模式/作者声音）、技能生成及关键的自检步骤。生成的技能保留了书中原始框架命名（如OFNR四要素、长颈鹿语言），并将触发词优化为\"怎么提意见不像在指责\"等日常表达。整个流程耗时约45分钟，消耗约30万token，成本不到20元人民币。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2061419197154857286",
+      "publishedAt": "2026-06-01T12:06:50.000Z"
+    },
     {
       "topic": "产品",
       "title": "Apache RocketMQ 发布 AI 专用消息引擎",
@@ -153,22 +225,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://blog.tymscar.com/posts/v100localllm",
       "publishedAt": "2026-05-31T15:55:27.025Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI发布生物防御AI工具Rosalind",
-      "summary": "我们希望帮助世界在生物防御领域抢占先机：",
-      "source": "X：Sam Altman (@sama)",
-      "href": "https://x.com/sama/status/2061101875303530871",
-      "publishedAt": "2026-05-31T15:05:55.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
-      "summary": "苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本。但该技术栈大部分源自外部：本地模型由Gemini蒸馏，设备无法处理的复杂查询将路由至Google Cloud处理，并采用了Nvidia的机密计算技术。苹果据称正在寻觅小型设备端AI初创公司以加速模型缩减工作。此外，苹果2024年承诺的Private Cloud Compute方案原计划使用苹果芯片，因无法承载完整Gemini模型，现已部分转向谷歌云，但该名称仍将保留。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2061058117304262999",
-      "publishedAt": "2026-05-31T12:12:02.000Z"
     }
   ]
 }
