@@ -34,13 +34,6 @@ export default function WeeklyIndexPage() {
               创作日历
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <Link
-              href="/tool"
-              className="inline-flex items-center gap-2 self-start rounded-full border border-gray-300 px-5 py-2.5 text-sm font-medium text-gray-900 transition-all hover:border-gray-400 dark:border-gray-700 dark:text-gray-100"
-            >
-              周刊工作台
-              <ArrowRight className="h-4 w-4" />
-            </Link>
           </div>
         </div>
 

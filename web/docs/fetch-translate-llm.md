@@ -1,6 +1,6 @@
-# Cloudflare 部署：配置 OpenAI 兼容大模型
+# 本地抓取工具：配置 OpenAI 兼容大模型
 
-> 目标：在 Cloudflare 部署环境中，为 Web 工具提供可选的大模型翻译能力（OpenAI 兼容接口）。
+> 目标：为本地抓取翻译工具配置可选的大模型翻译能力（OpenAI 兼容接口）。
 
 ## 1. 准备环境变量
 
@@ -20,11 +20,11 @@
 
 ## 2. 代码调用位置
 
-服务端调用位于：
+当前调用位于本地脚本工具：
 
-- [web/app/api/tool/jobs/route.ts](web/app/api/tool/jobs/route.ts)
+- [web/fetch-translate-tool/fetch-articles.js](web/fetch-translate-tool/fetch-articles.js)
 
-当前仅预留了调用方法，启用后可在抓取流程里接入翻译逻辑。
+启用后可在抓取流程里执行翻译逻辑。
 
 ## 3. Python SDK 参考（本地调试）
 

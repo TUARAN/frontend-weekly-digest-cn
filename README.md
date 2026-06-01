@@ -14,7 +14,6 @@
 
 - **AI情报站**：7×24h 跟踪 AI、Agent、前端、科技资讯，以卡片流形式持续播报，支持复制转发与查看出处。
 - **原·前端周刊**：保留并继续更新历史周刊内容，作为长期积累的一线信号源。
-- **周刊抓取与翻译工作台**：用于抓取、整理、翻译原始周刊链接的工具入口。
 
 ## 为什么要转型
 
@@ -29,7 +28,6 @@
 - `/`：AI情报站首页
 - `/weekly`：原·前端周刊列表页
 - `/weekly/[slug]`：具体某一期周刊正文
-- `/tool`：周刊抓取与翻译工作台
 
 ## 追踪范围
 
@@ -51,7 +49,13 @@
 
 ### 2026年
 
-- [第467期（5月18日–5月24日）](./weekly/467/前端周刊第467期.md) ⭐ **最新**
+- [第468期（5月25日–5月31日）](./weekly/468/前端周刊第468期.md) ⭐ **最新**
+
+  - [我为什么从Nextjs+RSC退回了普通SPA+独立后端](./weekly/468/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8ENextjs+RSC%E9%80%80%E5%9B%9E%E4%BA%86%E6%99%AE%E9%80%9ASPA+%E7%8B%AC%E7%AB%8B%E5%90%8E%E7%AB%AF.md)
+  - [CSS vs. JavaScript动画性能深度测评](./weekly/468/CSS%20vs.%20JavaScript%E5%8A%A8%E7%94%BB%E6%80%A7%E8%83%BD%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%84.md)
+  - [跨文档视图过渡扩展实战](./weekly/468/%E8%B7%A8%E6%96%87%E6%A1%A3%E8%A7%86%E5%9B%BE%E8%BF%87%E6%B8%A1%E6%89%A9%E5%B1%95%E5%AE%9E%E6%88%98.md)
+  - [Nodejs流泄漏生产实战手册](./weekly/468/Nodejs%E6%B5%81%E6%B3%8A%E6%BC%8F%E7%94%9F%E4%BA%A7%E5%AE%9E%E6%88%98%E6%89%8B%E5%86%8C.md)
+- [第467期（5月18日–5月24日）](./weekly/467/前端周刊第467期.md)
 
 - [第466期（5月11日–5月17日）](./weekly/466/前端周刊第466期.md)
 
@@ -479,7 +483,7 @@ git pull upstream main
 | 提交 | 提交 PR | `git checkout -b translate/文章标题` → `git add .` → `git commit -m "feat: 翻译《文章标题》"` → `git push origin translate/文章标题`<br>PR 标题格式：`feat: 翻译《文章标题》`，描述说明期数与文章链接 |
 | 审核 | 维护者审核 | 根据反馈进行修改（如有需要） |
 
-说明：本地抓取工具位于 `web/fetch-translate-tool/`，Web 站点提供在线版本入口（/tool）。
+说明：本地抓取工具位于 `web/fetch-translate-tool/`。
 更多工具细节见：`web/fetch-translate-tool/README.md`
 
 ### ✨ 翻译规范

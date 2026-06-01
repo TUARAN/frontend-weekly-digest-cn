@@ -58,6 +58,23 @@ const tiers = [
     highlight: false,
   },
   {
+    name: '1v1 · 单次试水',
+    subtitle: '先聊一次，再决定要不要继续',
+    price: '¥499',
+    period: '单次 · 1 小时',
+    description: '适合还在犹豫"1v1 是不是适合我"的前端',
+    features: [
+      '1 次 1 小时 1v1 连麦',
+      '会前问卷 + 我读完再见你',
+      '会后一页"你的下一步"纪要',
+      '如果选择继续升级到 1v1 包年，这次费用可抵扣',
+      '不满意全额退款',
+    ],
+    cta: '预约单次',
+    ctaHref: '/order?plan=trial',
+    highlight: false,
+  },
+  {
     name: '1v1 定制化',
     subtitle: '把想法融进你的成长体系',
     price: '¥1,499',
@@ -132,11 +149,11 @@ export default function ProPage() {
         </div>
 
         {/* Tiers */}
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {tiers.map((tier) => (
             <div
               key={tier.name}
-              className={`relative flex flex-col rounded-3xl border p-8 shadow-sm ${
+              className={`relative flex flex-col rounded-3xl border p-6 shadow-sm xl:p-7 ${
                 tier.highlight
                   ? 'border-blue-500 bg-gradient-to-br from-blue-50 via-white to-indigo-50 ring-2 ring-blue-500 dark:border-blue-400 dark:from-blue-950/40 dark:via-gray-950 dark:to-indigo-950/40 dark:ring-blue-400'
                   : 'border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-950'

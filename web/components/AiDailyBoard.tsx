@@ -4,25 +4,65 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, FileText, Download, Share2, Check } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import DailyCard from '@/components/DailyCard';
-import type { DailyData, DailyMeta } from '@/lib/ai-daily';
+import type { DailyData, DailyItem, DailyMeta } from '@/lib/ai-daily';
 
 interface AiDailyBoardProps {
   manifest: DailyMeta[];
   initial: DailyData | null;
 }
 
+const TOPIC_STYLE: Record<string, { accent: string; chip: string; chipText: string; bar: string }> = {
+  '具身智能': {
+    accent: '#10b981',
+    chip: 'bg-emerald-50 dark:bg-emerald-900/20',
+    chipText: 'text-emerald-700 dark:text-emerald-300',
+    bar: 'bg-emerald-500',
+  },
+  default: {
+    accent: '#3b82f6',
+    chip: 'bg-blue-50 dark:bg-blue-900/20',
+    chipText: 'text-blue-700 dark:text-blue-300',
+    bar: 'bg-blue-500',
+  },
+};
+
+function topicStyle(topic: string) {
+  return TOPIC_STYLE[topic] ?? TOPIC_STYLE.default;
+}
+
+function ItemCard({ item }: { item: DailyItem }) {
+  const s = topicStyle(item.topic);
+  return (
+    <article className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:bg-gray-950 dark:hover:border-gray-700">
+      <span className={`absolute left-0 top-5 bottom-5 w-0.5 rounded-r ${s.bar}`} aria-hidden />
+      <div className="mb-2 flex items-center gap-2 pl-2">
+        <span className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[11px] font-bold ${s.chip} ${s.chipText}`}>
+          {item.num}
+        </span>
+        <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${s.chip} ${s.chipText}`}>
+          {item.topic}
+        </span>
+      </div>
+      <h3 className="pl-2 text-base font-semibold leading-6 text-gray-900 dark:text-white">{item.title}</h3>
+      {item.summary && (
+        <p className="mt-2 pl-2 text-sm leading-6 text-gray-600 dark:text-gray-400">{item.summary}</p>
+      )}
+      {item.reason && (
+        <p className="mt-3 ml-2 flex gap-1.5 rounded-lg border border-amber-200/60 bg-amber-50/60 px-3 py-2 text-xs italic leading-5 text-amber-800 dark:border-amber-900/40 dark:bg-amber-950/20 dark:text-amber-300/90">
+          <span className="shrink-0">→</span>
+          <span>{item.reason}</span>
+        </p>
+      )}
+    </article>
+  );
+}
+
 export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
   const list = manifest;
-  const tabs = [
-    { key: 'card', label: '精选卡片' },
-    { key: 'highlights', label: '本期摘要' },
-  ] as const;
-  type TabKey = (typeof tabs)[number]['key'];
   const [cache, setCache] = useState<Record<string, DailyData>>(
     initial ? { [initial.date]: initial } : {},
   );
   const [index, setIndex] = useState(0);
-  const [activeTab, setActiveTab] = useState<TabKey>('card');
   const [exporting, setExporting] = useState(false);
   const [sharing, setSharing] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -96,226 +136,145 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
     setTimeout(() => setSharing(false), 2000);
   };
 
-  if (total === 0 || !meta) {
-    return (
-      <section>
-        <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={false} />
-        <TabMenu tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
-        <div className="flex h-80 flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900/50">
+  return (
+    <section className="mx-auto max-w-6xl rounded-2xl border border-gray-200 bg-gradient-to-br from-white to-gray-50 p-4 shadow-sm dark:border-gray-800 dark:from-gray-950 dark:to-gray-900 sm:rounded-3xl sm:p-8">
+      {/* Header */}
+      <div className="mb-5 flex flex-wrap items-end justify-between gap-3 sm:mb-6">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 md:text-sm">
+            AI DAILY
+          </p>
+          <h2 className="mt-1 text-xl font-bold text-gray-900 dark:text-white sm:text-2xl md:text-3xl">
+            每日精选
+          </h2>
+          <p className="mt-1.5 text-[13px] leading-6 text-gray-500 dark:text-gray-400 md:text-sm">
+            精选 AI Coding &amp; 具身智能最新动态 · 每日 09:00 自动更新
+          </p>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+            <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
+            自动同步中
+          </span>
+          {data && (
+            <>
+              <button
+                onClick={handleShare}
+                disabled={sharing}
+                className="flex shrink-0 items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300"
+              >
+                {sharing ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Share2 className="h-3.5 w-3.5" />}
+                {sharing ? '已复制' : '分享'}
+              </button>
+              <button
+                onClick={handleExport}
+                disabled={exporting}
+                className="flex shrink-0 items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300"
+                title="导出为竖版海报图片，便于在社交平台分享"
+              >
+                <Download className="h-3.5 w-3.5" />
+                {exporting ? '导出中...' : '导出海报'}
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+
+      {total === 0 || !meta ? (
+        <div className="flex h-64 flex-col items-center justify-center gap-4 rounded-2xl border border-dashed border-gray-200 bg-gray-50/50 dark:border-gray-800 dark:bg-gray-900/30">
           <FileText className="h-10 w-10 text-gray-300 dark:text-gray-600" />
           <p className="text-sm text-gray-400">每日精选即将上线，敬请期待</p>
         </div>
-      </section>
-    );
-  }
-
-  return (
-    <section>
-      <HeaderStrip onExport={handleExport} onShare={handleShare} exporting={exporting} sharing={sharing} hasContent={!!data} />
-      <TabMenu tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
-
-      {/* 日期导航 */}
-      <div className="mb-4 flex items-center gap-3">
-        <button
-          onClick={goPrev}
-          disabled={index >= total - 1}
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 text-gray-400 transition hover:border-gray-300 hover:text-gray-600 disabled:cursor-not-allowed disabled:opacity-25 dark:border-gray-700 dark:text-gray-500"
-          aria-label="更早一期"
-        >
-          <ChevronLeft className="h-4 w-4" />
-        </button>
-
-        <div className="flex flex-1 items-center gap-2 overflow-hidden">
-          <span className="text-sm font-bold text-gray-900 dark:text-white">{meta.displayDate}</span>
-          {isLatest && (
-            <span className="flex shrink-0 items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
-              <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
-              最新
-            </span>
-          )}
-          <span className="text-xs text-gray-400">
-            {meta.count} 条精选{total > 1 && ` · ${index + 1}/${total}`}
-          </span>
-          {total > 1 && (
-            <div className="ml-auto flex gap-1">
-              {list.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setIndex(i)}
-                  className={`rounded-full transition-all ${
-                    i === index ? 'h-1.5 w-5 bg-blue-500' : 'h-1.5 w-1.5 bg-gray-300 hover:bg-gray-400 dark:bg-gray-600'
-                  }`}
-                  aria-label={`第 ${i + 1} 期`}
-                />
-              ))}
-            </div>
-          )}
-        </div>
-
-        <button
-          onClick={goNext}
-          disabled={index <= 0}
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 text-gray-400 transition hover:border-gray-300 hover:text-gray-600 disabled:cursor-not-allowed disabled:opacity-25 dark:border-gray-700 dark:text-gray-500"
-          aria-label="更新一期"
-        >
-          <ChevronRight className="h-4 w-4" />
-        </button>
-      </div>
-
-      {activeTab === 'card' ? (
-        <div
-          id="daily-panel-card"
-          role="tabpanel"
-          aria-labelledby="daily-tab-card"
-          className="overflow-hidden rounded-3xl border border-gray-200 bg-gray-50 shadow-sm dark:border-gray-800 dark:bg-gray-900/50"
-        >
-          <div className="flex justify-center overflow-x-auto p-4 sm:p-6">
-            {data ? (
-              <div className="overflow-hidden rounded-2xl">
-                <DailyCard ref={cardRef} data={data} />
-              </div>
-            ) : (
-              <div className="flex h-[600px] w-[500px] max-w-full items-center justify-center text-sm text-gray-400">
-                加载中...
-              </div>
-            )}
-          </div>
-        </div>
       ) : (
-        <div
-          id="daily-panel-highlights"
-          role="tabpanel"
-          aria-labelledby="daily-tab-highlights"
-          className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:p-6"
-        >
-          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">本期摘要</p>
-          <ul className="mt-4 space-y-3">
-            {meta.highlights.map((h, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-blue-50 text-[11px] font-bold text-blue-600 dark:bg-blue-900/30 dark:text-blue-300">
-                  {i + 1}
-                </span>
-                <span className="text-sm leading-6 text-gray-600 dark:text-gray-300">{h}</span>
-              </li>
-            ))}
-          </ul>
+        <>
+          {/* 日期导航 */}
+          <div className="mb-5 flex items-center gap-3 border-y border-gray-200 py-3 dark:border-gray-800">
+            <button
+              onClick={goPrev}
+              disabled={index >= total - 1}
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 text-gray-400 transition hover:border-gray-300 hover:text-gray-600 disabled:cursor-not-allowed disabled:opacity-25 dark:border-gray-700 dark:text-gray-500"
+              aria-label="更早一期"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
 
-          {data && data.items.length > 0 && (
-            <div className="mt-6 border-t border-gray-200 pt-5 dark:border-gray-700">
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">条目速览</p>
+            <div className="flex flex-1 flex-wrap items-center gap-2 overflow-hidden">
+              <span className="text-sm font-bold text-gray-900 dark:text-white">{meta.displayDate}</span>
+              {isLatest && (
+                <span className="flex shrink-0 items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+                  <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
+                  最新
+                </span>
+              )}
+              <span className="text-xs text-gray-400">
+                {meta.count} 条精选{total > 1 && ` · ${index + 1}/${total}`}
+              </span>
+              {total > 1 && (
+                <div className="ml-auto flex gap-1">
+                  {list.map((_, i) => (
+                    <button
+                      key={i}
+                      onClick={() => setIndex(i)}
+                      className={`rounded-full transition-all ${
+                        i === index ? 'h-1.5 w-5 bg-blue-500' : 'h-1.5 w-1.5 bg-gray-300 hover:bg-gray-400 dark:bg-gray-600'
+                      }`}
+                      aria-label={`第 ${i + 1} 期`}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <button
+              onClick={goNext}
+              disabled={index <= 0}
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 text-gray-400 transition hover:border-gray-300 hover:text-gray-600 disabled:cursor-not-allowed disabled:opacity-25 dark:border-gray-700 dark:text-gray-500"
+              aria-label="更新一期"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+
+          {/* TL;DR 摘要 */}
+          {meta.highlights.length > 0 && (
+            <div className="mb-5 rounded-2xl border border-blue-100 bg-blue-50/40 p-4 dark:border-blue-900/30 dark:bg-blue-950/20 sm:p-5">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
+                TL;DR · 本期速读
+              </p>
               <ul className="mt-3 space-y-2">
-                {data.items.map((item) => (
-                  <li key={item.num} className="text-sm text-gray-600 dark:text-gray-300">
-                    <span className="mr-2 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-semibold text-gray-500 dark:bg-gray-800 dark:text-gray-400">
-                      {item.topic}
-                    </span>
-                    {item.title}
+                {meta.highlights.map((h, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm leading-6 text-gray-700 dark:text-gray-300">
+                    <span className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
+                    <span>{h}</span>
                   </li>
                 ))}
               </ul>
             </div>
           )}
 
-          {total > 1 && (
-            <div className="mt-6 rounded-xl border border-dashed border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800/50">
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                共 <span className="font-semibold text-gray-700 dark:text-gray-200">{total}</span> 期 · 左右箭头切换
-              </p>
+          {/* 内容主体 - 响应式网格 */}
+          {data ? (
+            <div className="grid gap-4 sm:grid-cols-2">
+              {data.items.map((item) => (
+                <ItemCard key={item.num} item={item} />
+              ))}
             </div>
+          ) : (
+            <div className="flex h-40 items-center justify-center text-sm text-gray-400">加载中...</div>
           )}
+        </>
+      )}
+
+      {/* 离屏渲染：用于导出海报 PNG */}
+      {data && (
+        <div
+          aria-hidden
+          className="pointer-events-none fixed -left-[9999px] top-0 opacity-0"
+          style={{ zIndex: -1 }}
+        >
+          <DailyCard ref={cardRef} data={data} />
         </div>
       )}
     </section>
-  );
-}
-
-function HeaderStrip({
-  onExport,
-  onShare,
-  exporting,
-  sharing,
-  hasContent,
-}: {
-  onExport: () => void;
-  onShare: () => void;
-  exporting: boolean;
-  sharing: boolean;
-  hasContent: boolean;
-}) {
-  return (
-    <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
-      <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 md:text-sm">AI Daily</p>
-        <h2 className="mt-1 text-xl font-bold text-gray-900 dark:text-white sm:text-2xl md:text-3xl">每日精选</h2>
-        <p className="mt-1.5 text-[13px] leading-6 text-gray-500 dark:text-gray-400 md:text-sm">
-          精选 AI Coding &amp; 具身智能最新动态 · 每日 09:00 自动更新
-        </p>
-      </div>
-      <div className="flex flex-wrap items-center gap-2">
-        <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
-          <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" />
-          自动同步中
-        </span>
-        {hasContent && (
-          <>
-            <button
-              onClick={onShare}
-              disabled={sharing}
-              className="flex shrink-0 items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300"
-            >
-              {sharing ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Share2 className="h-3.5 w-3.5" />}
-              {sharing ? '已复制' : '分享'}
-            </button>
-            <button
-              onClick={onExport}
-              disabled={exporting}
-              className="flex shrink-0 items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-600 transition hover:border-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300"
-            >
-              <Download className="h-3.5 w-3.5" />
-              {exporting ? '导出中...' : '导出图片'}
-            </button>
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function TabMenu({
-  tabs,
-  activeTab,
-  onChange,
-}: {
-  tabs: readonly { key: 'card' | 'highlights'; label: string }[];
-  activeTab: 'card' | 'highlights';
-  onChange: (tab: 'card' | 'highlights') => void;
-}) {
-  return (
-    <div className="mb-4 border-b border-gray-200 dark:border-gray-800">
-      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.15em] text-gray-400 dark:text-gray-500">二级菜单</p>
-      <div className="flex items-center gap-2 overflow-x-auto pb-2" role="tablist" aria-label="每日精选二级菜单">
-        {tabs.map((tab) => {
-          const isActive = tab.key === activeTab;
-          return (
-            <button
-              key={tab.key}
-              type="button"
-              role="tab"
-              aria-selected={isActive}
-              aria-controls={`daily-panel-${tab.key}`}
-              id={`daily-tab-${tab.key}`}
-              onClick={() => onChange(tab.key)}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
-                isActive
-                  ? 'bg-blue-600 text-white shadow-sm'
-                  : 'border border-gray-200 bg-white text-gray-600 hover:border-gray-300 hover:text-gray-800 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 dark:hover:border-gray-600'
-              }`}
-            >
-              {tab.label}
-            </button>
-          );
-        })}
-      </div>
-    </div>
   );
 }

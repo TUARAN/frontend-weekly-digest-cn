@@ -1,4 +1,4 @@
-export type OrderPlanId = 'yearly' | '1v1';
+export type OrderPlanId = 'yearly' | 'trial' | '1v1';
 
 export interface OrderPlan {
   id: OrderPlanId;
@@ -23,6 +23,20 @@ export const ORDER_PLANS: Record<OrderPlanId, OrderPlan> = {
       '每月一封会员信',
       '专属读者微信群',
     ],
+  },
+  trial: {
+    id: 'trial',
+    name: '1v1 · 单次试水',
+    subtitle: '单次 1 小时，先聊一次再决定要不要继续',
+    price: 499,
+    priceLabel: '¥499 / 次',
+    features: [
+      '1 次 1 小时 1v1 连麦',
+      '会前问卷 + 会后一页纪要',
+      '后续升级 1v1 包年可抵扣',
+      '不满意全额退款',
+    ],
+    needsQuestionnaire: true,
   },
   '1v1': {
     id: '1v1',
