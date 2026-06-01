@@ -1,7 +1,71 @@
 {
-  "updatedAt": "2026-06-01T03:14:30.304Z",
-  "count": 9,
+  "updatedAt": "2026-06-01T05:41:39.940Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "介绍Cosmos Coalition",
+      "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
+      "source": "Runway：News（网页）",
+      "href": "https://runwayml.com/news/introducing-cosmos-coalition",
+      "publishedAt": "2026-06-01T05:24:22.746Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NVIDIA发布RTX Spark个人电脑新纪元",
+      "summary": "NVIDIA RTX Spark：一款1 petaflop的超级芯片，完整的CUDA和RTX生态系统，以及Windows原生智能体。个人电脑的新起点。",
+      "source": "X：NVIDIA (@nvidia)",
+      "href": "https://x.com/nvidia/status/2061313474005737829",
+      "publishedAt": "2026-06-01T05:06:44.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
+      "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
+      "publishedAt": "2026-06-01T04:49:15.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
+      "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
+      "publishedAt": "2026-06-01T04:43:58.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Nemotron 3 Ultra 本周即将发布",
+      "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "href": "https://x.com/NVIDIAAI/status/2061305524700758050",
+      "publishedAt": "2026-06-01T04:35:08.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
+      "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
+      "publishedAt": "2026-06-01T03:59:15.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+      "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
+      "source": "MiniMax：Blog（网页）",
+      "href": "https://www.minimax.io/blog/minimax-m3",
+      "publishedAt": "2026-06-01T03:39:41.634Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
+      "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
+      "publishedAt": "2026-06-01T03:36:52.000Z"
+    },
     {
       "topic": "行业",
       "title": "上海：支持多模态智能体开发与应用，有序推进智能驾驶在共享出行、物流运输等多场景应用",
@@ -17,22 +81,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/957/938.htm",
       "publishedAt": "2026-06-01T00:55:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "MiniMax M3即将发布，可免费试用",
-      "summary": "MiniMax M3即将发布\n你现在就可以在OpenCode中免费试用",
-      "source": "X：opencode (@opencode)",
-      "href": "https://x.com/opencode/status/2061233503337906187",
-      "publishedAt": "2026-05-31T23:48:57.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
-      "summary": "DeepSeek V4 Flash 现已在 OpenCode Zen 上线。",
-      "source": "X：opencode (@opencode)",
-      "href": "https://x.com/opencode/status/2061153857321775209",
-      "publishedAt": "2026-05-31T18:32:28.000Z"
     },
     {
       "topic": "技巧",
