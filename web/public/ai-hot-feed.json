@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-01T18:04:31.466Z",
+  "updatedAt": "2026-06-01T20:29:17.407Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Replit 用单个提示词免费构建完整业务",
+      "summary": "你能用单个提示词免费构建一个真正的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从单个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n\n此外，还能解锁来自 @stripe @atlas、@QuickBooks、@mercury 和 @doolaHQ 的福利。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2061537387726119165",
+      "publishedAt": "2026-06-01T19:56:29.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit 用单个提示词构建完整业务",
+      "summary": "你能用单个提示词免费构建一个真实的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从一个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n此外，还能解锁使用 @stripe @atlas， @QuickBooks， @mercury & @doolaHQ 运营业务的福利。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2061534759520760112",
+      "publishedAt": "2026-06-01T19:46:02.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Meta的AI被利用来劫持Instagram账号",
+      "summary": "Meta的AI聊天机器人被发现存在安全漏洞，黑客可以通过请求该AI关联一个新的电子邮件地址，从而接管目标用户的Instagram账号。该漏洞利用了AI智能体直接执行账户管理操作的能力。",
+      "source": "The Verge：订阅版科技（RSS）",
+      "href": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+      "publishedAt": "2026-06-01T19:20:47.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "佛罗里达州起诉OpenAI与Sam Altman：涉多起ChatGPT相关谋杀案",
+      "summary": "佛罗里达州对OpenAI及其CEO Sam Altman提起诉讼。该州总检察长指控Altman对人命\"完全漠视\"，案件与多起涉及ChatGPT的谋杀事件相关。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders",
+      "publishedAt": "2026-06-01T18:52:19.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Google AI 展示并行子智能体自动整理文件",
+      "summary": "从杂乱到清晰。观看 @Antigravity 中的并行子智能体对数百个营销资产进行分类和重命名，消除手动文件管理。",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "href": "https://x.com/googleaidevs/status/2061515177166844317",
+      "publishedAt": "2026-06-01T18:28:13.000Z"
+    },
     {
       "topic": "产品",
       "title": "Perplexity发布Search as Code搜索架构",
@@ -139,6 +179,14 @@
       "publishedAt": "2026-06-01T12:06:50.000Z"
     },
     {
+      "topic": "行业",
+      "title": "OpenAI在密歇根州启动Stargate 1GW数据中心建设",
+      "summary": "OpenAI在密歇根州启动了名为Stargate的1GW数据中心项目。作为AI基础设施建设的一部分，该项目旨在扩大人工智能技术的可及性、为当地创造就业机会并支持社区发展。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/stargate-michigan-data-center",
+      "publishedAt": "2026-06-01T12:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Apache RocketMQ 发布 AI 专用消息引擎",
       "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative",
@@ -193,54 +241,6 @@
       "source": "NVIDIA Blog：Agentic AI（网页）",
       "href": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
       "publishedAt": "2026-06-01T05:00:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
-      "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "href": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
-      "publishedAt": "2026-06-01T04:49:15.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
-      "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "href": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
-      "publishedAt": "2026-06-01T04:43:58.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Nemotron 3 Ultra 本周即将发布",
-      "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2061305524700758050",
-      "publishedAt": "2026-06-01T04:35:08.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
-      "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
-      "source": "NVIDIA Blog：Agentic AI（网页）",
-      "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
-      "publishedAt": "2026-06-01T04:30:11.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
-      "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "href": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
-      "publishedAt": "2026-06-01T03:59:15.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
-      "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
-      "source": "MiniMax：Blog（网页）",
-      "href": "https://www.minimax.io/blog/minimax-m3",
-      "publishedAt": "2026-06-01T03:39:41.634Z"
     }
   ]
 }
