@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-01T05:41:39.940Z",
-  "count": 15,
+  "updatedAt": "2026-06-01T07:52:26.407Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "行业",
+      "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
+      "summary": "",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/958/109.htm",
+      "publishedAt": "2026-06-01T06:13:32.000Z"
+    },
     {
       "topic": "行业",
       "title": "介绍Cosmos Coalition",
@@ -11,12 +19,20 @@
       "publishedAt": "2026-06-01T05:24:22.746Z"
     },
     {
+      "topic": "行业",
+      "title": "NVIDIA与Google Cloud助力下一波AI构建者",
+      "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
+      "source": "NVIDIA Blog：Generative AI（网页）",
+      "href": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
+      "publishedAt": "2026-06-01T05:00:56.000Z"
+    },
+    {
       "topic": "产品",
-      "title": "NVIDIA发布RTX Spark个人电脑新纪元",
-      "summary": "NVIDIA RTX Spark：一款1 petaflop的超级芯片，完整的CUDA和RTX生态系统，以及Windows原生智能体。个人电脑的新起点。",
-      "source": "X：NVIDIA (@nvidia)",
-      "href": "https://x.com/nvidia/status/2061313474005737829",
-      "publishedAt": "2026-06-01T05:06:44.000Z"
+      "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
+      "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
+      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "href": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
+      "publishedAt": "2026-06-01T05:00:47.000Z"
     },
     {
       "topic": "技巧",
@@ -41,6 +57,14 @@
       "source": "X：NVIDIA AI (@NVIDIAAI)",
       "href": "https://x.com/NVIDIAAI/status/2061305524700758050",
       "publishedAt": "2026-06-01T04:35:08.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
+      "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
+      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "href": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+      "publishedAt": "2026-06-01T04:30:11.000Z"
     },
     {
       "topic": "产品",
