@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-01T09:54:57.720Z",
-  "count": 19,
+  "updatedAt": "2026-06-01T12:02:32.554Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Apache RocketMQ 发布 AI 专用消息引擎",
+      "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2061400724018217381",
+      "publishedAt": "2026-06-01T10:53:26.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Runway 在伦敦设立欧洲总部及世界模型研究中心",
+      "summary": "Runway 宣布在伦敦建立新的欧洲总部和专注于通用世界模型的研究中心。公司计划在未来18个月向英国AI生态投资$100M，到2028年投资额将翻倍以上。过去12个月，其在欧洲的订阅销量增长了50%，企业客户占比超20%。新总部将扩大其在欧洲的研究与商业布局，公司正招聘欧洲负责人以组建跨研究、产品、工程和销售的团队，并深化与BBC、Fremantle、WPP等企业的合作。世界模型是其研究的核心，旨在将生成式AI的应用扩展至机器人、科学研究与工业模拟等领域。",
+      "source": "Runway：News（网页）",
+      "href": "https://runwayml.com/news/runway-opens-london-hq",
+      "publishedAt": "2026-06-01T10:24:49.447Z"
+    },
     {
       "topic": "产品",
       "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
