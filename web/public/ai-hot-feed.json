@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-06-01T20:29:17.407Z",
+  "updatedAt": "2026-06-01T22:04:54.763Z",
   "count": 30,
   "items": [
     {
       "topic": "产品",
-      "title": "Replit 用单个提示词免费构建完整业务",
-      "summary": "你能用单个提示词免费构建一个真正的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从单个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n\n此外，还能解锁来自 @stripe @atlas、@QuickBooks、@mercury 和 @doolaHQ 的福利。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2061537387726119165",
-      "publishedAt": "2026-06-01T19:56:29.000Z"
+      "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
+      "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇",
+      "source": "X：Krea AI (@krea_ai)",
+      "href": "https://x.com/krea_ai/status/2061554472925696128",
+      "publishedAt": "2026-06-01T21:04:22.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
+      "summary": "Alphabet正在通过发行股票等方式筹集800亿美元资金，其中包括与Berkshire Hathaway的投资协议，以资助其雄心勃勃的AI支出计划。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
+      "publishedAt": "2026-06-01T20:50:33.000Z"
     },
     {
       "topic": "产品",
@@ -204,6 +212,14 @@
     },
     {
       "topic": "产品",
+      "title": "OpenAI前沿模型与Codex现可在AWS上使用",
+      "summary": "OpenAI的前沿模型与Codex现已在AWS上全面可用。企业客户可通过其现有的AWS环境、控制与采购流程来使用OpenAI的AI技术，从而加速从评估到生产部署的过程。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "publishedAt": "2026-06-01T10:00:00.000Z"
+    },
+    {
+      "topic": "产品",
       "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
       "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。",
       "source": "X：腾讯混元 (@TencentHunyuan)",
@@ -225,22 +241,6 @@
       "source": "Runway：News（网页）",
       "href": "https://runwayml.com/news/introducing-cosmos-coalition",
       "publishedAt": "2026-06-01T05:24:22.746Z"
-    },
-    {
-      "topic": "行业",
-      "title": "NVIDIA与Google Cloud助力下一波AI构建者",
-      "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
-      "source": "NVIDIA Blog：Generative AI（网页）",
-      "href": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
-      "publishedAt": "2026-06-01T05:00:56.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
-      "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
-      "source": "NVIDIA Blog：Agentic AI（网页）",
-      "href": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-      "publishedAt": "2026-06-01T05:00:47.000Z"
     }
   ]
 }
