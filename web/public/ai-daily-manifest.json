@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-01",
+      "displayDate": "Jun 1",
+      "json": "/ai-daily/2026-06-01.json",
+      "count": 5,
+      "highlights": [
+        "全球首次：MWC26 上海将举办\"人形机",
+        "OpenAI正式进军机器人领域并启动招聘",
+        "OpenAI发布生物防御AI工具Rosa",
+        "MiniMax M3即将发布，可免费试用",
+        "DeepSeek V4 Flash 已上"
+      ]
+    },
+    {
       "date": "2026-05-31",
       "displayDate": "May 31",
       "json": "/ai-daily/2026-05-31.json",
@@ -52,5 +65,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-05-31"
+  "latest": "2026-06-01"
 }

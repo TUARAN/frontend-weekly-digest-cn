@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-01",
+  "displayDate": "Jun 1",
+  "dateNum": "0601",
+  "year": 2026,
+  "dayOfWeek": "MON",
+  "topics": [
+    "具身智能",
+    "AI Coding"
+  ],
+  "sources": "IT之家（RSS） · X：Sam Altman (@sama) · X：opencode (@opencode)",
+  "count": 5,
+  "highlights": [
+    "全球首次：MWC26 上海将举办\"人形机",
+    "OpenAI正式进军机器人领域并启动招聘",
+    "OpenAI发布生物防御AI工具Rosa",
+    "MiniMax M3即将发布，可免费试用",
+    "DeepSeek V4 Flash 已上"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "具身智能",
+      "title": "全球首次：MWC26 上海将举办\"人形机器人点球大战\"，宇树科技等 8 支队伍参赛、参演",
+      "summary": "全球首次\"人形机器人点球大战\"将于2026年6月在MWC上海举行。8支中国顶尖具身智能战队将进行自主对抗，无需人工操控或预设脚本。赛事旨在集中展示人形机器人在动态平衡、精准控制与自主决策等方面的技术突破。",
+      "reason": "具身智能领域关键信号，影响产业落地节奏"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "OpenAI正式进军机器人领域并启动招聘",
+      "summary": "OpenAI宣布成立OpenAI Robotics团队，并开始招聘全栈硬件、系统及ML工程师，以编程和制造能服务社会的机器人。该项目由Aditya Ramesh领导，其世界模拟研究计划已演变为机器人研究，强调硬件与ML研究的协同设计。短期目标是支持技术工人构建未来基础设施，长期愿景是为每个人提供个人机器人。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "OpenAI发布生物防御AI工具Rosalind",
+      "summary": "我们希望帮助世界在生物防御领域抢占先机：",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "MiniMax M3即将发布，可免费试用",
+      "summary": "MiniMax M3即将发布\n你现在就可以在OpenCode中免费试用",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
+      "summary": "DeepSeek V4 Flash 现已在 OpenCode Zen 上线。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}
