@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-01T00:55:31.088Z",
-  "count": 7,
+  "updatedAt": "2026-06-01T01:51:48.749Z",
+  "count": 8,
   "items": [
+    {
+      "topic": "行业",
+      "title": "全球首次：MWC26 上海将举办\"人形机器人点球大战\"，宇树科技等 8 支队伍参赛、参演",
+      "summary": "全球首次\"人形机器人点球大战\"将于2026年6月在MWC上海举行。8支中国顶尖具身智能战队将进行自主对抗，无需人工操控或预设脚本。赛事旨在集中展示人形机器人在动态平衡、精准控制与自主决策等方面的技术突破。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/957/938.htm",
+      "publishedAt": "2026-06-01T00:55:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "MiniMax M3即将发布，可免费试用",
+      "summary": "MiniMax M3即将发布\n你现在就可以在OpenCode中免费试用",
+      "source": "X：opencode (@opencode)",
+      "href": "https://x.com/opencode/status/2061233503337906187",
+      "publishedAt": "2026-05-31T23:48:57.000Z"
+    },
     {
       "topic": "产品",
       "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
@@ -49,14 +65,6 @@
       "source": "X：Kim (@kimmonismus)",
       "href": "https://x.com/kimmonismus/status/2061058117304262999",
       "publishedAt": "2026-05-31T12:12:02.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
-      "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/957/718.htm",
-      "publishedAt": "2026-05-31T01:30:46.000Z"
     }
   ]
 }
