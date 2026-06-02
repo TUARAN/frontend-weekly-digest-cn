@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-02T03:15:03.713Z",
+  "updatedAt": "2026-06-02T05:38:05.703Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "阶跃星辰谈Step 3.7 Flash的\"可用性\"突破",
+      "summary": "我们可能对\"可用性\"的讨论还不够。\n当Flash模型同时将速度、成本和智能带入\"可用\"范围时，智能的供给方式发生了结构性变化。",
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "href": "https://x.com/StepFun_ai/status/2061679846699516347",
+      "publishedAt": "2026-06-02T05:22:34.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+      "summary": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "href": "https://x.com/Khazix0918/status/2061669881725309048",
+      "publishedAt": "2026-06-02T04:42:58.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+      "summary": "阶跃星辰发布其推理优化型模型Step 3.7 Flash。该模型为196B MoE架构，从设计之初就专注于推理效率。其采用多矩阵分解注意力机制，使KV-cache成本仅为DeepSeek模型的约22%；同时通过注意力与FFN解耦技术，实现了硬件优化的高效服务。该模型已通过Fireworks AI提供，采用Apache 2.0许可，并可用于构建智能体应用。",
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "href": "https://x.com/StepFun_ai/status/2061655529731342402",
+      "publishedAt": "2026-06-02T03:45:56.000Z"
+    },
     {
       "topic": "产品",
       "title": "NVIDIA JetPack 7.2支持内存优化的边缘智能体部署",
@@ -217,30 +241,6 @@
       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "href": "https://x.com/OpenBMB/status/2061432928492810535",
       "publishedAt": "2026-06-01T13:01:24.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
-      "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/958/410.htm",
-      "publishedAt": "2026-06-01T12:34:05.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "使用Claude Opus 4.8将书籍转化为AI技能的教程",
-      "summary": "本文以《非暴力沟通》为例，提供了一个将书籍转化为可调用AI技能（Skill）的六步教程。作者使用Claude Opus 4.8模型，因其具备100万token上下文窗口、结构化输出及多步智能体（Agent）能力，能一次性处理全书逻辑。流程包含文本准备、全局结构分析、五类提炼（框架/原则/技法/反模式/作者声音）、技能生成及关键的自检步骤。生成的技能保留了书中原始框架命名（如OFNR四要素、长颈鹿语言），并将触发词优化为\"怎么提意见不像在指责\"等日常表达。整个流程耗时约45分钟，消耗约30万token，成本不到20元人民币。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2061419197154857286",
-      "publishedAt": "2026-06-01T12:06:50.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI在密歇根州启动Stargate 1GW数据中心建设",
-      "summary": "OpenAI在密歇根州启动了名为Stargate的1GW数据中心项目。作为AI基础设施建设的一部分，该项目旨在扩大人工智能技术的可及性、为当地创造就业机会并支持社区发展。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/stargate-michigan-data-center",
-      "publishedAt": "2026-06-01T12:00:00.000Z"
     }
   ]
 }
