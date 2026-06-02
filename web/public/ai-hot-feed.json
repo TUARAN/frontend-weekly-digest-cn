@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-02T11:32:31.940Z",
+  "updatedAt": "2026-06-02T13:22:13.479Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Gemini Spark：最令人印象深刻也最可怕的AI体验",
+      "summary": "Google DeepMind的AI模型Gemini Spark提供了一次极为深刻但同时令人感到不安的用户体验。该模型展现的强大能力令人印象深刻，但其带来的影响和潜力也引发了深刻的恐惧感。",
+      "source": "The Verge：订阅版科技（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+      "publishedAt": "2026-06-02T12:38:08.000Z"
+    },
     {
       "topic": "论文",
       "title": "Anthropic可解释性研究：区分因果效应相似的特征",
@@ -233,14 +241,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
       "publishedAt": "2026-06-01T13:51:18.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "作者分享使用 Codex App 开发的开源项目合集",
-      "summary": "作者分享了使用 Codex App 等工具开发的一系列开源项目，包括4个 Chrome 插件（如快捷提示词、新标签页）、4个网站（如艺术家风格对比、音乐展示）和5个 AI Skill（如论文解读、阅读助手）。项目基于 GPT-Image-2 API、Suno 等技术，并整合了 Read-frog、Hyperframe 等开源项目。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2061443708374208769",
-      "publishedAt": "2026-06-01T13:44:14.000Z"
     }
   ]
 }
