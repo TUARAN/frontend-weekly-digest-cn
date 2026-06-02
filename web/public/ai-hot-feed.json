@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-02T07:44:08.271Z",
+  "updatedAt": "2026-06-02T09:31:42.355Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+      "summary": "SK海力士会长崔泰源宣布，计划在未来五年内将整体晶圆产能提高一倍，以应对AI普及带来的持续存储供应短缺。他预测AI数据中心和AI PC的普及将持续拉动存储需求，供需紧张局面可能延续至2030年。SK海力士将投入大规模资金用于设备、建设等扩张，尽管面临前置时间长（新建晶圆厂至少三年）和资源成本上涨等挑战。目前，SK海力士市值已首次突破1万亿美元。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/958/810.htm",
+      "publishedAt": "2026-06-02T08:31:12.000Z"
+    },
     {
       "topic": "技巧",
       "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
@@ -17,6 +25,14 @@
       "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
       "href": "https://x.com/StepFun_ai/status/2061655529731342402",
       "publishedAt": "2026-06-02T03:45:56.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Codex正在成为每个人的生产力工具",
+      "summary": "The Next Era of Knowledge Work报告指出，Codex正通过AI增强的研究、数据分析、工作流自动化与内容创作，变革知识工作的生产力。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/codex-for-knowledge-work",
+      "publishedAt": "2026-06-02T02:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -225,22 +241,6 @@
       "source": "Nathan Lambert：Interconnects（RSS）",
       "href": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
       "publishedAt": "2026-06-01T13:03:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenBMB发布UltraData两大开源数据集，登顶HuggingFace趋势榜",
-      "summary": "OpenBMB联合清华NLP与Modelbest发布两个开源数据集：Ultra-FineWeb-L3（预训练合成数据）包含600B+ tokens（超400B英文、200B+中文），是迄今最大开源中文预训练合成数据集；UltraData-SFT-2605（后训练SFT数据）包含15M+样本，是中国首个开源且包含思考与非思考标注的大规模SFT数据集，覆盖数学、代码、知识和指令遵循。两者均基于UltraData L0-L4框架构建，并在MiniCPM5-1B训练中完成验证。数据集已在HuggingFace免费开放。",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2061432928492810535",
-      "publishedAt": "2026-06-01T13:01:24.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
-      "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/958/410.htm",
-      "publishedAt": "2026-06-01T12:34:05.000Z"
     }
   ]
 }
