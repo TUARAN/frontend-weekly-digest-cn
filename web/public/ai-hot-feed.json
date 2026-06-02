@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-02T13:22:13.479Z",
+  "updatedAt": "2026-06-02T15:28:23.426Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "商汤开源SenseNova-Skills AI办公技能套件",
+      "summary": "商汤开源了AI办公技能套件SenseNova-Skills。这是一个为任何技能兼容智能体（如OpenClaw与HermesAgent）设计的开源技能集合，提供四大核心功能：图像信息图表生成（可镜像参考风格）、数据分析（支持多表解析、清洗与可视化）、PPT创建（生成大纲内容并智能排版，输出可编辑文件）以及深度研究（跨学术、技术、社交等多源搜索并生成报告）。该技能套件现已完全开源。",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "href": "https://x.com/SenseTime_AI/status/2061822148076093625",
+      "publishedAt": "2026-06-02T14:48:01.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Holo3.1：快速本地计算机使用智能体",
+      "summary": "Holo3.1 是基于 Qwen 模型家族的计算机使用智能体系列，旨在提升在桌面、网页和移动环境中的鲁棒性。新模型提供 0.8B、4B、9B 和 35B-A3B 四种尺寸，并首次发布量化检查点，包括 FP8、Q4 GGUF 和 NVFP4，以优化本地推理。在 AndroidWorld 基准测试中，35B-A3B 模型得分从 67% 提升至 79.3%。在 DGX Spark 上，NVFP4 量化相比 BF16 实现 1.74 倍 token 吞吐量提升，并将平均步骤时间从 6.8 秒缩短至 3.3 秒。模型支持函数调用协议，可在第三方智能体框架中部署。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/Hcompany/holo31",
+      "publishedAt": "2026-06-02T14:13:23.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Nathan Lambert离开Ai2，结束2.5年OLMO等项目工作",
+      "summary": "Ai2（Allen Institute for AI）研究员Nathan Lambert宣布离职。他在Ai2工作超过2.5年，期间主导或参与了OLMO和Tulu等开源模型项目，称其为职业生涯的巅峰。他表示将暂时休息，未来仍会继续深耕开源模型与开放科学领域。",
+      "source": "X：Nathan Lambert (@natolambert)",
+      "href": "https://x.com/natolambert/status/2061813361848029631",
+      "publishedAt": "2026-06-02T14:13:06.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "MiniCPM-V 4.6 现已支持 vLLM v0.22.0",
+      "summary": "MiniCPM-V 4.6 现已完全支持 vLLM v0.22.0！\n无需自定义分支，无需额外编译。\n只需拉取预构建包即可运行。\n非常感谢 @vllm_project 的顺畅集成！ 🤝\n🤗 http：//huggingface.co/openbmb/MiniCPM-V-4.6",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2061810723169415205",
+      "publishedAt": "2026-06-02T14:02:37.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Anthropic扩展Project Glasswing计划",
+      "summary": "Anthropic正将其Project Glasswing计划扩展至约150个新组织，此前首批约50个合作伙伴。新伙伴分布于十五个多国家，覆盖电力、水务、医疗、通信和硬件等关键基础设施行业。这些合作伙伴的共同点在于，其代码库若遭成功攻击，后果可能极其严重，影响或超1亿人。项目旨在利用Claude Mythos Preview等前沿模型扫描漏洞并协助修复，以应对AI驱动的网络安全挑战。同时，Anthropic推出了基于Claude Opus 4.8等公开模型的Claude Security产品，用于扫描代码并建议补丁。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "publishedAt": "2026-06-02T13:28:13.607Z"
+    },
     {
       "topic": "技巧",
       "title": "Gemini Spark：最令人印象深刻也最可怕的AI体验",
@@ -33,6 +73,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/958/810.htm",
       "publishedAt": "2026-06-02T08:31:12.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI呼吁通过全球领导力推进青年AI安全与机遇",
+      "summary": "OpenAI呼吁通过设立专门的AI安全研究所，在全球范围内采取行动，以保障青少年在使用AI时的安全，并创造更多发展机遇。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "publishedAt": "2026-06-02T07:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -193,54 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/958/444.htm",
       "publishedAt": "2026-06-01T15:53:42.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "介绍 Mellum2：JetBrains 推出的 12B 混合专家模型",
-      "summary": "JetBrains 在 Hugging Face 发布博客，介绍其新发布的 Mellum2 模型。该模型采用混合专家架构，参数规模为 12B。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "publishedAt": "2026-06-01T15:45:17.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "SenseNova新模型解决AI图表生成难题",
-      "summary": "大多数AI模型在生成图表时存在数值错误（如负值显示为正）、柱状图位置偏移、元素关系混乱等问题。SenseNova-U1-8B-MoT-Infographic（SenseNova-U1）专为解决此类图表生成问题而设计，能够生成准确的图表，并支持实时调整设计和布局。项目在Hugging Face提供了模型，并在GitHub展示了效果案例。",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "href": "https://x.com/SenseTime_AI/status/2061465029959209106",
-      "publishedAt": "2026-06-01T15:08:57.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Luma成立开放物理AI实验室攻克泛化难题",
-      "summary": "为改善人类生活，AI系统必须能帮助我们改善物理世界。阻碍我们迈向这一繁荣未来的是物理AI的泛化问题。\n\n为解决此问题，我们在Luma建立了一个新的开放科学物理AI实验室。\n\n阅读更多 → https：//lumalabs.ai/news/luma-open-physical-ai-lab",
-      "source": "X：Luma AI (@LumaLabsAI)",
-      "href": "https://x.com/LumaLabsAI/status/2061460217616027961",
-      "publishedAt": "2026-06-01T14:49:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "构建每周千美元预算上限的智能体教程",
-      "summary": "视频教程：如何构建一个每周预算上限为1000美元的智能体，包含模型拒绝列表与自定义数据保留\n\n使用了新的、可堆叠的护栏架构：\n\n【引用 @OpenRouter】：OpenRouter 上的护栏是市场上最强大的：为您的 AI 流量提供集中式安全与治理\n\n预算限制、ZDR、模型与提供商限制、提示词注入防御以及 DLP / 敏感信息检测，分层为您控制的规则！🧵",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2061452942385783050",
-      "publishedAt": "2026-06-01T14:20:56.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI Pulse 探讨智能体时代新指标 DAA",
-      "summary": "ICYMI：我们最新的 AI Pulse 探讨了日活跃智能体（DAA）--一个衡量智能体时代价值的指标--以及我们的智能体组合。",
-      "source": "X：百度 Baidu (@Baidu_Inc)",
-      "href": "https://x.com/Baidu_Inc/status/2061447687028039854",
-      "publishedAt": "2026-06-01T14:00:03.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "超越LLM：为何可扩展的企业AI采用取决于智能体逻辑",
-      "summary": "可扩展的企业AI采用需超越大语言模型，依靠智能体逻辑来引导模型执行动态、长周期且受约束的企业工作流，从而提升质量、降低成本并建立信任。文中以IBM watsonx Code Assistant for Z为例，展示了智能体逻辑如何通过程序分析等技术，在理解大型遗留代码库时，相比纯LLM基线方法，能以约30倍更低的token消耗达到更优性能。在加速测试生成任务中，该方法亦能使代码覆盖度提升20%-45%，同时token消耗降低最高达15倍。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "publishedAt": "2026-06-01T13:51:18.000Z"
     }
   ]
 }
