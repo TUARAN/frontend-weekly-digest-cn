@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-06-02T05:38:05.703Z",
+  "updatedAt": "2026-06-02T07:44:08.271Z",
   "count": 30,
   "items": [
-    {
-      "topic": "模型",
-      "title": "阶跃星辰谈Step 3.7 Flash的\"可用性\"突破",
-      "summary": "我们可能对\"可用性\"的讨论还不够。\n当Flash模型同时将速度、成本和智能带入\"可用\"范围时，智能的供给方式发生了结构性变化。",
-      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-      "href": "https://x.com/StepFun_ai/status/2061679846699516347",
-      "publishedAt": "2026-06-02T05:22:34.000Z"
-    },
     {
       "topic": "技巧",
       "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
@@ -241,6 +233,14 @@
       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "href": "https://x.com/OpenBMB/status/2061432928492810535",
       "publishedAt": "2026-06-01T13:01:24.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
+      "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/958/410.htm",
+      "publishedAt": "2026-06-01T12:34:05.000Z"
     }
   ]
 }
