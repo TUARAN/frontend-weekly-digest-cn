@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <p className="text-lg font-semibold text-gray-900 dark:text-white">前端周看</p>
             <p className="mt-3 max-w-sm text-sm leading-6 text-gray-500 dark:text-gray-400">
-              站在前沿端点，每周看世界所发生的变化。
+              站在前沿端点，每周“胡乱”看看。不制造焦虑，不传播焦虑，但不拒绝新潮观点。
             </p>
             <p className="mt-4 text-xs text-gray-500 dark:text-gray-500">
               &copy; {new Date().getFullYear()} Frontend Weekly Digest CN

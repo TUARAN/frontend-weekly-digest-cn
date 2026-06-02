@@ -156,7 +156,7 @@ function ShareTemplateBody() {
             </p>
             <p className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs font-medium text-gray-300">
               <Sparkles className="h-3.5 w-3.5 text-blue-300" />
-              Signals over noise.
+              不制造焦虑
             </p>
             {resolving ? (
               <span className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1 text-[11px] text-gray-300">
@@ -166,7 +166,7 @@ function ShareTemplateBody() {
           </div>
 
           <h1 className="mt-5 text-2xl font-black leading-tight text-white sm:text-4xl">{title}</h1>
-          <p className={`mt-3 text-sm font-medium ${theme.eyebrowClass}`}>前端周看 · 给忙碌开发者的高信噪比信息流</p>
+          <p className={`mt-3 text-sm font-medium ${theme.eyebrowClass}`}>前端周看 · 站在前沿端点，每周“胡乱”看看</p>
 
           {summary ? <p className="mt-4 text-sm leading-7 text-gray-200 sm:text-base">{summary}</p> : null}
 
@@ -179,7 +179,7 @@ function ShareTemplateBody() {
           <div className={`mt-8 rounded-2xl border ${theme.panelClass} p-4 sm:p-5`}>
             <p className="text-xs uppercase tracking-[0.2em] text-gray-300">为什么分享这条</p>
             <p className="mt-2 text-sm leading-6 text-gray-100">
-              这是一条经过筛选的关键信号，不追求信息堆叠，而是帮助你更快理解变化、判断影响并转化为行动。
+              这是一条值得停下来看的变化。不制造焦虑，不传播焦虑，但也不拒绝新潮观点。
             </p>
           </div>
 
@@ -203,7 +203,7 @@ function ShareTemplateBody() {
           </div>
 
           <div className="mt-8 border-t border-white/10 pt-5 text-xs text-gray-400">
-            <p>前端周看 · 站在前沿端点，每周看世界所发生的变化</p>
+            <p>前端周看 · 站在前沿端点，每周“胡乱”看看</p>
           </div>
         </article>
       </div>

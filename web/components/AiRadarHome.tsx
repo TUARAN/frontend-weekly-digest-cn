@@ -9,7 +9,7 @@ import { buildWeeklyUrl } from '@/lib/site-matrix';
 
 export const metadata = {
   description:
-    '每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选。',
+    '关注前端、AI Coding、Agent 与工程实践的新变化。不制造焦虑，不传播焦虑，但不拒绝新潮观点。',
 };
 
 function extractWeeklySnippet(content: string, maxLen = 120): string {
@@ -54,10 +54,10 @@ export default function AiRadarHome() {
         <header className="mb-8 md:mb-10">
           <h1 className="text-2xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white sm:text-3xl md:text-4xl">
             站在前沿端点，
-            <span className="text-blue-600 dark:text-blue-400">每周看世界所发生的变化</span>
+            <span className="text-blue-600 dark:text-blue-400">每周“胡乱”看看</span>
           </h1>
           <p className="mt-3 max-w-2xl text-[13px] leading-6 text-gray-500 dark:text-gray-400 md:text-sm">
-            7×24 小时实时资讯，每日精选 AI Coding / Agent / 大模型动态，每周沉淀一份前端周刊。不做信息搬运，只做信号筛选——不求多，有一条能给你一点启发就够。
+            这里关注前端、AI Coding、Agent、大模型与工程实践。不是信息轰炸，不制造焦虑，也不传播焦虑；只是把值得停下来看的变化筛一筛、想一想、讲清楚。
           </p>
           <div className="mt-5 flex flex-wrap items-center gap-3">
             {featured && (
@@ -202,7 +202,7 @@ export default function AiRadarHome() {
                 前端 → AI Agent 转型路线图
               </h3>
               <p className="mt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
-                一张为 3-5 年前端打造的能力地图，把"写组件"到"构建 Agent"拆成可执行阶段。
+                一张为 3-5 年前端打造的能力地图，把&ldquo;写组件&rdquo;到&ldquo;构建 Agent&rdquo;拆成可执行阶段。
               </p>
             </div>
             <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400">

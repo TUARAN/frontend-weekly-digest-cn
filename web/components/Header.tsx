@@ -17,9 +17,9 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const pathname = usePathname();
   const resolvedWeeklyHref = weeklyHref === '/weekly' ? buildWeeklyUrl('/weekly') : weeklyHref;
   const contentNav: NavItem[] = [
-    { href: '/live', label: '资讯', match: (p) => p.startsWith('/live') },
+    { href: resolvedWeeklyHref, label: '每周', match: (p) => p.startsWith('/weekly') },
     { href: '/daily', label: '每日', match: (p) => p.startsWith('/daily') },
-    { href: resolvedWeeklyHref, label: '周刊', match: (p) => p.startsWith('/weekly') },
+    { href: '/live', label: '每时', match: (p) => p.startsWith('/live') },
   ];
   const serviceNav: NavItem[] = [
     { href: '/roadmap', label: '路线图', match: (p) => p.startsWith('/roadmap') },

@@ -10,14 +10,14 @@ import { BRAND_SITE_URL } from "@/lib/site-matrix";
 export const metadata: Metadata = {
   metadataBase: new URL(BRAND_SITE_URL),
   title: {
-    default: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
+    default: "前端周看 · 站在前沿端点，每周“胡乱”看看",
     template: "%s · 前端周看",
   },
-  description: "每周为前端开发者精选并梳理 AI Coding、AI Agent、大模型与前端工程的关键动态——过滤噪声，只看真正该看的。",
+  description: "关注前端、AI Coding、Agent 与工程实践的新变化。不制造焦虑，不传播焦虑，但不拒绝新潮观点。",
   keywords: ["前端周报", "前端周刊", "AI Coding", "AI Agent", "前端 AI", "大模型", "前端工程", "MCP", "LLM"],
   openGraph: {
-    title: "前端周看 · 站在前沿端点，每周看世界所发生的变化",
-    description: "每周一份前端 × AI 的精选信息流：AI Coding、Agent、大模型与前端工程的关键变化，帮你用更少时间跟上节奏。",
+    title: "前端周看 · 站在前沿端点，每周“胡乱”看看",
+    description: "关注前端、AI Coding、Agent 与工程实践的新变化。不制造焦虑，不传播焦虑，但不拒绝新潮观点。",
     type: "website",
   },
 };

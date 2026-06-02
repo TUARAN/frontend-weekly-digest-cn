@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 import { join } from 'path';
 
 export const dynamic = 'force-static';
-export const alt = '前端周看 · 站在前沿端点，每周看世界所发生的变化';
+export const alt = '前端周看 · 站在前沿端点，每周“胡乱”看看';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -68,7 +68,7 @@ export default function OpengraphImage() {
             maxWidth: '900px',
           }}
         >
-          站在前沿端点，每周看世界所发生的变化
+          站在前沿端点，每周“胡乱”看看
         </div>
 
         {/* footer tags */}
@@ -81,7 +81,7 @@ export default function OpengraphImage() {
             letterSpacing: '0.5px',
           }}
         >
-          AI Coding · AI Agent · 大模型 · 前端工程
+          不制造焦虑 · 不传播焦虑 · 不拒绝新潮观点
         </div>
       </div>
     ),
