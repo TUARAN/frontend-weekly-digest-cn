@@ -1,7 +1,87 @@
 {
-  "updatedAt": "2026-06-02T15:28:23.426Z",
+  "updatedAt": "2026-06-02T17:36:52.826Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "NVIDIA NemoClaw 部署 Hermes Agent 教程",
+      "summary": "教一个智能体一次工作流，让它在每次重建后都记住。\n本教程展示如何使用 NVIDIA NemoClaw 和 OpenShell 部署 NousResearch Hermes Agent，将其连接到 Slack、Outlook、GitHub 和 NVIDIA 开发者论坛，然后将聊天纠正转化为可复用的技能。\n私有数据保留在运行时策略之后。学到的技能在部署之间持续存在。",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "href": "https://x.com/NVIDIAAI/status/2061858457519575280",
+      "publishedAt": "2026-06-02T17:12:18.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google DeepMind 发布 Gemini 多智能体科研系统",
+      "summary": "我们相信 AI 可以成为专属研究伙伴，帮助发现下一个突破。\n\n隆重推出 Co-Scientist：我们最新的基于 Gemini 的多智能体系统，能够为复杂科学问题生成、辩论和演进新颖的假设 🧵",
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "href": "https://x.com/GoogleDeepMind/status/2061857539977842793",
+      "publishedAt": "2026-06-02T17:08:39.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude Code团队实践：智能体编程如何重塑工程组织与流程",
+      "summary": "在Code w/ Claude SF 2026活动上，Claude Code工程团队分享了将智能体编程设为默认工作方式后带来的流程与结构变革。核心变化包括：规划转向即时（JIT）模式，强调快速原型与反馈；上下文收集变为\"先问Claude\"；代码审查中Claude处理风格与测试，人工专注于法律、安全等专业判断。新范式下，工程瓶颈从编写代码转向验证、审查与安全维护。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "publishedAt": "2026-06-02T16:45:23.372Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI Codex 发布 Python SDK，可直接嵌入应用",
+      "summary": "这个有点厉害，Codex 出 Python SDK了。\n\n安装指令：pip install openai-codex\n\n整合到自己的代码中，相当于直接内置了顶级编程和生图Agent？\n\n最关键的是，可以复用 Codex 登录态。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2061846741885018296",
+      "publishedAt": "2026-06-02T16:25:45.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "特朗普签署修订版AI行政命令，要求自愿预发布审查",
+      "summary": "在业界反对后，特朗普总统签署了修订版AI行政命令，该命令要求对先进模型进行自愿预发布政府审查，而非强制要求。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections",
+      "publishedAt": "2026-06-02T16:23:08.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI Codex Sites 功能发布",
+      "summary": "构建应用从未如此简单。\n通过 Sites，Codex 可以将你的工作、想法和计划转化为一个交互式网站或应用，你的团队可以通过一个 URL 进行探索、使用和分享。\n该功能将首先向 Business 和 Enterprise 计划推出，之后会更广泛地扩展。",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2061845949170045346",
+      "publishedAt": "2026-06-02T16:22:36.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "DigitalOcean AI云服务上线OpenRouter",
+      "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2061840338973806961",
+      "publishedAt": "2026-06-02T16:00:18.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit Canvas 推出多项新功能",
+      "summary": "Replit Canvas 有一些新更新！⭐️\n\n了解更多请访问：http：//replit.com/canvas\n\n展开讨论 🧵 ↓",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2061840304534102036",
+      "publishedAt": "2026-06-02T16:00:10.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "微软 Build 2026 开发者大会：关于 Windows、AI、RTX Spark 等的所有新闻",
+      "summary": "微软年度开发者大会 Build 2026 于 6 月 2 日在旧金山举行，主题演讲提供直播。预计将宣布新的 AI 模型、类似 OpenClaw 的智能体工具，以及配合 Windows 11 重大变革的 Copilot \"超级应用\"。此外，鉴于微软刚发布了搭载 Nvidia RTX Spark 的 Surface Laptop Ultra，本次大会可能还会有更多关于 Windows on ARM 的动态。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
+      "publishedAt": "2026-06-02T15:59:58.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Gary Marcus：为什么事情终将崩塌",
+      "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/why-things-will-eventually-fall-apart",
+      "publishedAt": "2026-06-02T15:41:57.000Z"
+    },
     {
       "topic": "技巧",
       "title": "商汤开源SenseNova-Skills AI办公技能套件",
@@ -83,6 +163,14 @@
       "publishedAt": "2026-06-02T07:00:00.000Z"
     },
     {
+      "topic": "产品",
+      "title": "为什么金融机构正汇聚在交易基础模型上来构建自身智能",
+      "summary": "金融机构正从为每个业务线构建独立AI模型，转向采用基于Transformer的交易基础模型，以统一理解消费者行为并克服数据孤岛限制。NVIDIA报告显示，65%的金融机构已使用AI，近90%正在部署或评估。实践案例包括：Revolut与NVIDIA合作构建了PRAGMA模型系列，在240亿事件上训练，单个模型在信用评分等领域超越特定任务模型；Mastercard正开发专有大型表格基础模型；Adyen的模型处理了1万亿美元支付；Stripe利用相关平台构建模型，去年阻止了近1120亿美元欺诈。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models",
+      "publishedAt": "2026-06-02T06:00:36.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
       "summary": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。",
@@ -116,19 +204,19 @@
     },
     {
       "topic": "技巧",
-      "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
-      "summary": "Anthropic 核心开发者分享了一套用于 Claude Code 的「理解验证」工作流。该工作流将 AI 定位为\"高效且睿智的教师\"，成功标准不仅是完成任务，更是确保人类对问题、方案及影响有可复述、可辩护的掌握。它通过增量教学、用户复述、清单+测验等方式，围绕问题域、方案域和语境域三条轴线展开，具体包含8个可执行步骤，强调在进入下一阶段前需确认用户已真正理解。此工作流旨在对抗长会话中人类易沦为\"审批按钮\"的\"智能体黑箱\"问题，强制沉淀决策上下文，实现可审计的深度理解。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2061612512580346245",
-      "publishedAt": "2026-06-02T00:55:00.000Z"
-    },
-    {
-      "topic": "技巧",
       "title": "Karpathy 分享学习方法论",
       "summary": "🎯 Andrej Karpathy 谈如何学习。",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2061601689841648120",
       "publishedAt": "2026-06-02T00:12:00.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "开放模型的繁荣生态",
+      "summary": "根据OpenRouter平台数据，自2025年以来，开放模型使用量显著增长。最新数据显示，开放权重模型产生了69.1%的token使用量，闭源模型为30.9%。新模型的发布会吸引开发者测试，推动token使用量达到新的平台期。开放模型市场内部竞争激烈，领导地位频繁更迭，如DeepSeek的早期优势在2025年末至2026年初被MiniMax与Kimi模型取代，随后MiMo、Qwen、腾讯Hy3、阿里巴巴及Arcee等模型的发布再次改变了份额格局。尽管开放模型目前仍只占推理总量的一小部分，但激烈的竞争与增长表明，开发者正越来越愿意将生产流量路由至开放模型。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/the-thriving-ecosystem-of-open-models",
+      "publishedAt": "2026-06-02T00:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -153,94 +241,6 @@
       "source": "X：Krea AI (@krea_ai)",
       "href": "https://x.com/krea_ai/status/2061554472925696128",
       "publishedAt": "2026-06-01T21:04:22.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
-      "summary": "Alphabet正在通过发行股票等方式筹集800亿美元资金，其中包括与Berkshire Hathaway的投资协议，以资助其雄心勃勃的AI支出计划。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
-      "publishedAt": "2026-06-01T20:50:33.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit 用单个提示词构建完整业务",
-      "summary": "你能用单个提示词免费构建一个真实的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从一个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n此外，还能解锁使用 @stripe @atlas， @QuickBooks， @mercury & @doolaHQ 运营业务的福利。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2061534759520760112",
-      "publishedAt": "2026-06-01T19:46:02.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Meta的AI被利用来劫持Instagram账号",
-      "summary": "Meta的AI聊天机器人被发现存在安全漏洞，黑客可以通过请求该AI关联一个新的电子邮件地址，从而接管目标用户的Instagram账号。该漏洞利用了AI智能体直接执行账户管理操作的能力。",
-      "source": "The Verge：订阅版科技（RSS）",
-      "href": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
-      "publishedAt": "2026-06-01T19:20:47.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "佛罗里达州起诉OpenAI与Sam Altman：涉多起ChatGPT相关谋杀案",
-      "summary": "佛罗里达州对OpenAI及其CEO Sam Altman提起诉讼。该州总检察长指控Altman对人命\"完全漠视\"，案件与多起涉及ChatGPT的谋杀事件相关。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders",
-      "publishedAt": "2026-06-01T18:52:19.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Google AI 展示并行子智能体自动整理文件",
-      "summary": "从杂乱到清晰。观看 @Antigravity 中的并行子智能体对数百个营销资产进行分类和重命名，消除手动文件管理。",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "href": "https://x.com/googleaidevs/status/2061515177166844317",
-      "publishedAt": "2026-06-01T18:28:13.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Perplexity发布Search as Code搜索架构",
-      "summary": "推出Search as Code，我们为AI智能体打造的全新搜索架构。\n\n它直接编写Python代码调用我们的搜索栈，而非逐个循环函数调用。\n\n现已在Perplexity Agent API中提供，并成为Computer的默认选项。\n\nhttps：//research.perplexity.ai/articles/rethinking-search-as-code-generation",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2061506359326384319",
-      "publishedAt": "2026-06-01T17:53:11.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI的AI政策与政治倡导观点",
-      "summary": "OpenAI阐述了其在AI政策与政治倡导方面的立场，包括对透明度、深思熟虑的监管以及AI安全的支持。同时，公司明确表示，任何外部政治组织均不能代表OpenAI发言。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "publishedAt": "2026-06-01T17:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 保密向 SEC 提交 S-1 草案",
-      "summary": "Anthropic， PBC 今日保密向美国证券交易委员会提交了 S-1 表格草案，计划进行普通股的首次公开发行。这使其在 SEC 完成审核后拥有上市的选择权。IPO 的具体发行股数和价格尚未确定，将取决于市场条件等因素。公司近期刚完成由 Altimeter Capital 等领投的 650 亿美元 H 轮融资，估值达 9650 亿美元，并发布了 Claude Opus 4.8 模型。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "publishedAt": "2026-06-01T16:24:52.982Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Gemini Omni支持创建个人数字分身",
-      "summary": "轻松将自己添加到Gemini的视频创作中。\n\n以下是如何使用Gemini Omni创建一个外观和声音都像你的数字分身。🧵",
-      "source": "X：Gemini (@GeminiApp)",
-      "href": "https://x.com/GeminiApp/status/2061480944905982276",
-      "publishedAt": "2026-06-01T16:12:12.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Auto Router 新增成本质量权衡参数",
-      "summary": "Auto Router 现在允许你调整其在成本与质量之间的权衡。\n新增 `cost_quality_tradeoff` 参数，范围 0 到 10：\n设为 0 时，它总是选择最强大的模型，无论价格如何。设为 10 时，最便宜的模型胜出。",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2061476882470580329",
-      "publishedAt": "2026-06-01T15:56:03.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "智谱：建议 A 股发行并在科创板上市",
-      "summary": "智谱计划向中国监管机构申请发行A股并在科创板上市。发行股份数量占发行完成后总股本的2%至8%，预计全部为新股，原股东不发售。本次发行募集资金净额将投资于人工智能通用基座大模型、大模型MaaS一站式服务平台及补充流动资金。此外，公司拟将英文名称由\"Knowledge Atlas Technology Joint Stock Company Limited\"变更为\"Z.AI Co.， Ltd.\"。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/958/444.htm",
-      "publishedAt": "2026-06-01T15:53:42.000Z"
     }
   ]
 }
