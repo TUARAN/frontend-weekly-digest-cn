@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-01T23:33:40.704Z",
+  "updatedAt": "2026-06-02T00:55:30.837Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Karpathy 分享学习方法论",
+      "summary": "🎯 Andrej Karpathy 谈如何学习。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2061601689841648120",
+      "publishedAt": "2026-06-02T00:12:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Sam Altman强调AI发展应以人为本",
@@ -73,6 +81,14 @@
       "source": "X：Perplexity (@perplexity_ai)",
       "href": "https://x.com/perplexity_ai/status/2061506359326384319",
       "publishedAt": "2026-06-01T17:53:11.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI的AI政策与政治倡导观点",
+      "summary": "OpenAI阐述了其在AI政策与政治倡导方面的立场，包括对透明度、深思熟虑的监管以及AI安全的支持。同时，公司明确表示，任何外部政治组织均不能代表OpenAI发言。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "publishedAt": "2026-06-01T17:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -225,22 +241,6 @@
       "source": "Runway：News（网页）",
       "href": "https://runwayml.com/news/runway-opens-london-hq",
       "publishedAt": "2026-06-01T10:24:49.447Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI前沿模型与Codex现可在AWS上使用",
-      "summary": "OpenAI的前沿模型与Codex现已在AWS上全面可用。企业客户可通过其现有的AWS环境、控制与采购流程来使用OpenAI的AI技术，从而加速从评估到生产部署的过程。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "publishedAt": "2026-06-01T10:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
-      "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "href": "https://x.com/TencentHunyuan/status/2061372535267357029",
-      "publishedAt": "2026-06-01T09:01:25.000Z"
     }
   ]
 }
