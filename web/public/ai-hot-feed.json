@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-02T01:54:32.226Z",
+  "updatedAt": "2026-06-02T03:15:03.713Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "NVIDIA JetPack 7.2支持内存优化的边缘智能体部署",
+      "summary": "NVIDIA JetPack 7.2发布，支持一键部署开源NVIDIA NemoClaw堆栈，该堆栈为OpenClaw添加了隐私与安全控制。同时引入NVIDIA agent skills for Jetson，为Jetson设备提供智能体技能。该版本优化了内存效率，旨在加速AI代理从数字世界向物理环境的边缘部署。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
+      "publishedAt": "2026-06-02T02:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
@@ -233,14 +241,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/stargate-michigan-data-center",
       "publishedAt": "2026-06-01T12:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Apache RocketMQ 发布 AI 专用消息引擎",
-      "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2061400724018217381",
-      "publishedAt": "2026-06-01T10:53:26.000Z"
     }
   ]
 }
