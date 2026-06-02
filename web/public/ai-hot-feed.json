@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-02T17:36:52.826Z",
+  "updatedAt": "2026-06-02T19:19:02.148Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "微软发布开源框架 Adaptive Spec-driven Scoring：支持用文本描述创建 AI 评估测试",
+      "summary": "微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架。开发者可通过文本描述快速生成 AI 行为测试，用于模型评估与回归测试。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions",
+      "publishedAt": "2026-06-02T19:02:21.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Platform 新增 CLI 工具",
+      "summary": "我们为 Claude Platform 添加了一个 CLI，使每个 API 端点都可以从你的终端运行。\n调用 Messages API，启动 Claude 托管智能体，并将结果直接管道传输到你的 shell。\nant CLI 被使用 claude-api 技能的编码智能体（Claude Code）很好地理解。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2061877343078244459",
+      "publishedAt": "2026-06-02T18:27:21.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
+      "summary": "微软在Build 2026上发布了其首款高级推理AI模型MAI-Thinking-1。该模型被定位为\"中等规模\"，能在\"关键\"软件工程基准测试中达到领先模型的水平。微软称其完全从头使用干净数据进行训练，未涉及从第三方模型进行知识蒸馏。这标志着微软在自研AI模型上迈出重要一步，此前其主要依赖OpenAI。近期两家公司已重新协商合作协议，关系有所松绑。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+      "publishedAt": "2026-06-02T18:12:44.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NVIDIA发布自进化Hermes智能体",
+      "summary": "自进化Hermes智能体：随使用而改进的企业AI | Nemotron Labs",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "href": "https://x.com/NVIDIAAI/status/2061870499232190967",
+      "publishedAt": "2026-06-02T18:00:09.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenClaw 与微软合作进入企业生态",
+      "summary": "\"你现在可以在公司内部运行 OpenClaw 了。\" 宣布我们与 @Microsoft 的合作，将 OpenClaw 带入微软和 Windows 生态系统。Claws 现在可以在企业环境中安全运行。",
+      "source": "X：OpenClaw (@openclaw)",
+      "href": "https://x.com/openclaw/status/2061869633624580452",
+      "publishedAt": "2026-06-02T17:56:42.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "GitHub Copilot应用：智能体原生的桌面体验",
+      "summary": "在微软 Build 2026 大会上，GitHub 发布了新的工具和更新，并将 Copilot 应用定位为\"智能体原生的桌面体验\"。其核心目标是让 AI 智能体能够以用户已经习惯的方式进行工作。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience",
+      "publishedAt": "2026-06-02T17:30:03.000Z"
+    },
     {
       "topic": "技巧",
       "title": "NVIDIA NemoClaw 部署 Hermes Agent 教程",
@@ -65,14 +113,6 @@
       "source": "X：Replit (@Replit)",
       "href": "https://x.com/Replit/status/2061840304534102036",
       "publishedAt": "2026-06-02T16:00:10.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "微软 Build 2026 开发者大会：关于 Windows、AI、RTX Spark 等的所有新闻",
-      "summary": "微软年度开发者大会 Build 2026 于 6 月 2 日在旧金山举行，主题演讲提供直播。预计将宣布新的 AI 模型、类似 OpenClaw 的智能体工具，以及配合 Windows 11 重大变革的 Copilot \"超级应用\"。此外，鉴于微软刚发布了搭载 Nvidia RTX Spark 的 Surface Laptop Ultra，本次大会可能还会有更多关于 Windows on ARM 的动态。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-      "publishedAt": "2026-06-02T15:59:58.000Z"
     },
     {
       "topic": "技巧",
@@ -201,46 +241,6 @@
       "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
       "href": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
       "publishedAt": "2026-06-02T02:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Karpathy 分享学习方法论",
-      "summary": "🎯 Andrej Karpathy 谈如何学习。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2061601689841648120",
-      "publishedAt": "2026-06-02T00:12:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "开放模型的繁荣生态",
-      "summary": "根据OpenRouter平台数据，自2025年以来，开放模型使用量显著增长。最新数据显示，开放权重模型产生了69.1%的token使用量，闭源模型为30.9%。新模型的发布会吸引开发者测试，推动token使用量达到新的平台期。开放模型市场内部竞争激烈，领导地位频繁更迭，如DeepSeek的早期优势在2025年末至2026年初被MiniMax与Kimi模型取代，随后MiMo、Qwen、腾讯Hy3、阿里巴巴及Arcee等模型的发布再次改变了份额格局。尽管开放模型目前仍只占推理总量的一小部分，但激烈的竞争与增长表明，开发者正越来越愿意将生产流量路由至开放模型。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/the-thriving-ecosystem-of-open-models",
-      "publishedAt": "2026-06-02T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Sam Altman强调AI发展应以人为本",
-      "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2061586179292831774",
-      "publishedAt": "2026-06-01T23:10:22.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT 新增长文编辑与保存功能",
-      "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "href": "https://x.com/ChatGPTapp/status/2061571468992126982",
-      "publishedAt": "2026-06-01T22:11:55.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
-      "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇",
-      "source": "X：Krea AI (@krea_ai)",
-      "href": "https://x.com/krea_ai/status/2061554472925696128",
-      "publishedAt": "2026-06-01T21:04:22.000Z"
     }
   ]
 }
