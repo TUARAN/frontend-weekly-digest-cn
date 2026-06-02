@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-02",
+      "displayDate": "Jun 2",
+      "json": "/ai-daily/2026-06-02.json",
+      "count": 5,
+      "highlights": [
+        "Anthropic 保密向 SEC 提交",
+        "Perplexity发布Search a",
+        "Anthropic 开发者分享 Clau",
+        "作者分享使用 Codex App 开发的",
+        "OpenBMB发布UltraData两大"
+      ]
+    },
+    {
       "date": "2026-06-01",
       "displayDate": "Jun 1",
       "json": "/ai-daily/2026-06-01.json",
@@ -65,5 +78,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-01"
+  "latest": "2026-06-02"
 }
