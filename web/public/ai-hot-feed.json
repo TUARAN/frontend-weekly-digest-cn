@@ -1,14 +1,38 @@
 {
-  "updatedAt": "2026-06-02T21:07:02.528Z",
+  "updatedAt": "2026-06-02T22:44:26.526Z",
   "count": 30,
   "items": [
     {
+      "topic": "论文",
+      "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
+      "summary": "天气预报速度比传统超级计算机快数千倍。听听Kenji Takeda在#MSBuild微软研究实验室关于Aurora的分享。了解更多：https：//msft.it/6018vjGUA",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "href": "https://x.com/MSFTResearch/status/2061927189977727450",
+      "publishedAt": "2026-06-02T21:45:25.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Anthropic支持美国AI行政令实施",
+      "summary": "这项行政令是加强美国AI领导地位的重要一步。\n\n我们期待与白宫合作，支持其实施。\n\nhttps：//www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "href": "https://x.com/AnthropicAI/status/2061924580222968183",
+      "publishedAt": "2026-06-02T21:35:03.000Z"
+    },
+    {
       "topic": "产品",
-      "title": "Claude Code 动态工作流功能发布：为每个任务创建专属框架",
-      "summary": "Claude Code 新增动态工作流功能，使 Claude 能根据任务动态创建定制化的执行框架。该功能通过执行 JavaScript 文件来协调子智能体，并可指定模型与工作区隔离级别。它适用于研究、安全分析、代码审查等复杂任务，支持共享与复用。需要注意，动态工作流会消耗更多 token。",
-      "source": "X：Thariq (@trq212)",
-      "href": "https://x.com/trq212/status/2061907337154367865",
-      "publishedAt": "2026-06-02T20:26:32.000Z"
+      "title": "Google DeepMind 开源科学智能体工具包",
+      "summary": "构建用于科学发现的自主智能体？🧬🤖\n\n@GoogleDeepMind Science Skills 现已在 GitHub 上发布。我们已开源这个专用工具包，以科学基础和更高的 token 效率加速您的智能体工作流。\n\n立即下载 ↓\nhttps：//github.com/google-deepmind/science-skills",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "href": "https://x.com/googleaidevs/status/2061924472245153863",
+      "publishedAt": "2026-06-02T21:34:37.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Code 新增动态工作流功能",
+      "summary": "Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务。该功能通过执行特定的 JavaScript 文件来生成和协调拥有独立上下文窗口的子代理，可解决单一上下文窗口中长时间执行任务可能出现的智能惰性等问题。工作流适用于研究、安全分析、代码审查等场景，通常消耗更多 token，更适合高价值复杂任务，其最佳实践仍在发展中。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+      "publishedAt": "2026-06-02T21:16:49.491Z"
     },
     {
       "topic": "产品",
@@ -147,14 +171,6 @@
       "publishedAt": "2026-06-02T16:25:45.000Z"
     },
     {
-      "topic": "行业",
-      "title": "特朗普签署修订版AI行政命令，要求自愿预发布审查",
-      "summary": "在业界反对后，特朗普总统签署了修订版AI行政命令，该命令要求对先进模型进行自愿预发布政府审查，而非强制要求。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections",
-      "publishedAt": "2026-06-02T16:23:08.000Z"
-    },
-    {
       "topic": "产品",
       "title": "OpenAI Codex Sites 功能发布",
       "summary": "构建应用从未如此简单。\n通过 Sites，Codex 可以将你的工作、想法和计划转化为一个交互式网站或应用，你的团队可以通过一个 URL 进行探索、使用和分享。\n该功能将首先向 Business 和 Enterprise 计划推出，之后会更广泛地扩展。",
@@ -225,22 +241,6 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/expanding-project-glasswing",
       "publishedAt": "2026-06-02T13:28:13.607Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Gemini Spark：最令人印象深刻也最可怕的AI体验",
-      "summary": "Google DeepMind的AI模型Gemini Spark提供了一次极为深刻但同时令人感到不安的用户体验。该模型展现的强大能力令人印象深刻，但其带来的影响和潜力也引发了深刻的恐惧感。",
-      "source": "The Verge：订阅版科技（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
-      "publishedAt": "2026-06-02T12:38:08.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic可解释性研究：区分因果效应相似的特征",
-      "summary": "Anthropic可解释性团队介绍了其Circuits研究的新进展。为区分那些激活模式相似但因果效应不同的模型特征，团队提出一种新方法。该方法通过分析特征的下游连接来预测其实际影响，并使用基于共激活统计的TWERA（虚拟权重）对连接进行加权排序。实验表明，借助下游连接信息能更准确地判断哪个特征会引导特定输出。此方法为识别模型内部真正的因果组件提供了新途径。",
-      "source": "Anthropic：Transformer Circuits（可解释性研究）",
-      "href": "https://transformer-circuits.pub/2026/may-update/index.html",
-      "publishedAt": "2026-06-02T09:52:20.287Z"
     }
   ]
 }
