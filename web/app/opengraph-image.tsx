@@ -81,7 +81,7 @@ export default function OpengraphImage() {
             letterSpacing: '0.5px',
           }}
         >
-          不制造焦虑 · 不传播焦虑 · 不拒绝新潮观点
+          不制造焦虑，不传播焦虑，但不拒绝新潮观点。
         </div>
       </div>
     ),

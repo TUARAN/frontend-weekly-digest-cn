@@ -179,7 +179,7 @@ function ShareTemplateBody() {
           <div className={`mt-8 rounded-2xl border ${theme.panelClass} p-4 sm:p-5`}>
             <p className="text-xs uppercase tracking-[0.2em] text-gray-300">为什么分享这条</p>
             <p className="mt-2 text-sm leading-6 text-gray-100">
-              这是一条值得停下来看的变化。不制造焦虑，不传播焦虑，但也不拒绝新潮观点。
+              这是一条值得停下来看的变化。不制造焦虑，不传播焦虑，但不拒绝新潮观点。
             </p>
           </div>
 

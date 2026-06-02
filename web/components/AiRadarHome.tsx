@@ -57,7 +57,7 @@ export default function AiRadarHome() {
             <span className="text-blue-600 dark:text-blue-400">每周“胡乱”看看</span>
           </h1>
           <p className="mt-3 max-w-2xl text-[13px] leading-6 text-gray-500 dark:text-gray-400 md:text-sm">
-            这里关注前端、AI Coding、Agent、大模型与工程实践。不是信息轰炸，不制造焦虑，也不传播焦虑；只是把值得停下来看的变化筛一筛、想一想、讲清楚。
+            这里关注前端、AI Coding、Agent、大模型与工程实践。不制造焦虑，不传播焦虑，但不拒绝新潮观点。只是把值得停下来看的变化筛一筛、想一想、讲清楚。
           </p>
           <div className="mt-5 flex flex-wrap items-center gap-3">
             {featured && (
