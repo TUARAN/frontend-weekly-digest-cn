@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-03T17:43:49.024Z",
+  "updatedAt": "2026-06-03T19:23:52.258Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+      "publishedAt": "2026-06-03T19:00:08.294Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "世界模型的功能分类",
+      "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "href": "https://x.com/drfeifei/status/2062247238143996275",
+      "publishedAt": "2026-06-03T18:57:10.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "洪水韧性新篇章：Google 开源水文建模框架",
+      "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。",
+      "source": "Google Research：Blog（网页）",
+      "href": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
+      "publishedAt": "2026-06-03T18:49:39.703Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Grok Imagine 1.5 预览版发布",
+      "summary": "Grok Imagine 1.5 预览版已发布，即日起可在 API 中体验。SpaceXAI 正在发力。",
+      "source": "X：cb_doge (@cb_doge)",
+      "href": "https://x.com/cb_doge/status/2062242490745594085",
+      "publishedAt": "2026-06-03T18:38:19.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "黄仁勋与纳德拉共议智能体AI时代",
+      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
+      "source": "X：NVIDIA (@nvidia)",
+      "href": "https://x.com/nvidia/status/2062228974273716457",
+      "publishedAt": "2026-06-03T17:44:36.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+      "source": "X：Krea AI (@krea_ai)",
+      "href": "https://x.com/krea_ai/status/2062227837130887567",
+      "publishedAt": "2026-06-03T17:40:05.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic 用 Claude 赋能自助数据分析",
@@ -9,14 +57,6 @@
       "source": "Claude：Blog（网页）",
       "href": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
       "publishedAt": "2026-06-03T17:23:16.528Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Gemma 4 12B：一种统一的、无需编码器的多模态模型",
-      "summary": "Gemma 4 12B 是 Google 发布的一款统一架构、无需独立视觉编码器的多模态大语言模型（LLM）。该模型直接处理图像与文本输入，无需传统视觉编码器，简化了多模态推理流程。基于 12B 参数规模，Gemma 4 12B 面向开发者工具生态开放。目前其具体 benchmark 分数、上下文窗口、价格及开源/API 可用性等细节尚未披露。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b",
-      "publishedAt": "2026-06-03T17:09:06.433Z"
     },
     {
       "topic": "产品",
@@ -201,46 +241,6 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2061974983094755575",
       "publishedAt": "2026-06-03T00:55:20.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Reachy Mini 添加 MCP 工具",
-      "summary": "Reachy Mini 推出了公开的 MCP canary Space，用于远程工具调用。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "publishedAt": "2026-06-03T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "智能性价比",
-      "summary": "微软在模型发布卡中首次加入平均token使用量指标。其模型在SWE-Bench Verified上达71.6分，仅消耗约Claude Haiku 4.5三分之一的token。Artificial Analysis的Intelligence Index显示GPT 5.5与Claude Opus 4.8得分相近（约60分），但Opus 4.8运行成本高出40%（$4，685 vs $3，357）。Uber因四个月内AI预算超支而限制员工使用；Salesforce花费$3亿购买Anthropic tokens并冻结工程招聘。模型公司如今需同时在性能和成本两个维度竞争。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/tokens-per-result",
-      "publishedAt": "2026-06-03T00:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
-      "summary": "天气预报速度比传统超级计算机快数千倍。听听Kenji Takeda在#MSBuild微软研究实验室关于Aurora的分享。了解更多：https：//msft.it/6018vjGUA",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "href": "https://x.com/MSFTResearch/status/2061927189977727450",
-      "publishedAt": "2026-06-02T21:45:25.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic支持美国AI行政令实施",
-      "summary": "这项行政令是加强美国AI领导地位的重要一步。\n\n我们期待与白宫合作，支持其实施。\n\nhttps：//www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2061924580222968183",
-      "publishedAt": "2026-06-02T21:35:03.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google DeepMind 开源科学智能体工具包",
-      "summary": "构建用于科学发现的自主智能体？🧬🤖\n\n@GoogleDeepMind Science Skills 现已在 GitHub 上发布。我们已开源这个专用工具包，以科学基础和更高的 token 效率加速您的智能体工作流。\n\n立即下载 ↓\nhttps：//github.com/google-deepmind/science-skills",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "href": "https://x.com/googleaidevs/status/2061924472245153863",
-      "publishedAt": "2026-06-02T21:34:37.000Z"
     }
   ]
 }
