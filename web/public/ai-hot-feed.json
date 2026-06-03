@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T19:23:52.258Z",
+  "updatedAt": "2026-06-03T21:08:09.265Z",
   "count": 30,
   "items": [
     {
@@ -99,20 +99,20 @@
       "publishedAt": "2026-06-03T16:09:00.000Z"
     },
     {
-      "topic": "论文",
-      "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
-      "summary": "NVIDIA Research在CVPR 2026展示三篇Physical AI论文：GraspGen-X是首个零样本抓取基础模型，基于数十亿模拟抓取训练；LCDrive用紧凑潜在表示取代昂贵文本推理；NitroGen是通用游戏AI基础模型，基于NVIDIA Isaac GR00T训练具身智能体。",
-      "source": "X：NVIDIA (@nvidia)",
-      "href": "https://x.com/nvidia/status/2062191093748523401",
-      "publishedAt": "2026-06-03T15:14:05.000Z"
-    },
-    {
       "topic": "产品",
       "title": "Perplexity Personal Computer 登陆 Windows",
       "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
       "source": "X：Perplexity (@perplexity_ai)",
       "href": "https://x.com/perplexity_ai/status/2062189045728596080",
       "publishedAt": "2026-06-03T15:05:56.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+      "summary": "NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力。GraspGen-X 是首个零样本抓取基础模型，基于 20 亿次模拟抓取训练，可为任意末端执行器生成抓取姿态。LCDrive 用紧凑潜在表示替代文本推理，让自动驾驶在嵌入式硬件上更快推理。NitroGen 基于 Isaac GR00T 架构，在大量虚拟环境中训练具身智能体。此外还发布了新的物理 AI 智能体技能，以及配合 GraspGen-X 使用的 CUDA 加速运动规划库 curoboV2 和闭环抓取论文 Grasp-MPC。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
+      "publishedAt": "2026-06-03T15:00:57.000Z"
     },
     {
       "topic": "行业",
@@ -161,6 +161,14 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
       "publishedAt": "2026-06-03T12:12:15.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Cursor Enterprise 推出 Organizations 组织管理功能",
+      "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/organizations",
+      "publishedAt": "2026-06-03T12:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -233,14 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/959/083.htm",
       "publishedAt": "2026-06-03T01:31:15.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "智能体工程实战窍门全录",
-      "summary": "该内容源自@mvanhorn的分享，介绍了\"智能体工程\"如何重塑软件开发。其核心是从\"人主导编码\"转向\"人主导方向、智能体执行\"，中心从IDE变为终端与计划文件。方法论遵循Research → Plan → Work循环，核心是让plan.md约束智能体行为。分享者总结了22条实战技巧，涵盖规划、并行执行、输入方式、远程控制等方面，并列出了完整的工具栈。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2061974983094755575",
-      "publishedAt": "2026-06-03T00:55:20.000Z"
     }
   ]
 }
