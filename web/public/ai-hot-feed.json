@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-03T21:08:09.265Z",
+  "updatedAt": "2026-06-03T22:45:17.906Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Grok模型登陆Cloudflare AI Gateway",
+      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
+      "source": "X：xAI (@xai)",
+      "href": "https://x.com/xai/status/2062294202625696081",
+      "publishedAt": "2026-06-03T22:03:48.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
+      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
+      "source": "X：OpenClaw (@openclaw)",
+      "href": "https://x.com/openclaw/status/2062288421406785710",
+      "publishedAt": "2026-06-03T21:40:49.000Z"
+    },
     {
       "topic": "技巧",
       "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
@@ -225,22 +241,6 @@
       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "href": "https://x.com/alibaba_cloud/status/2062006591377829922",
       "publishedAt": "2026-06-03T03:00:56.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
-      "summary": "斯坦福大学法学院的一项研究表明，人工智能的表现优于法学教授。该发现引发了广泛关注，在Hacker News平台获得了104个Points。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
-      "publishedAt": "2026-06-03T02:33:56.784Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Sensor Tower：OpenAI 旗下 ChatGPT 月活已破 10 亿，史上最快",
-      "summary": "据市场情报机构 Sensor Tower 估计，OpenAI 旗下 ChatGPT 全球月活跃用户在 2025 年 5 月突破 10 亿，成为达成此里程碑最快的应用，增速超过 Google Maps、TikTok 等。同期，其竞争对手 Anthropic 的 Claude 月活达 5600 万，同比增幅约 640%，增长势头迅猛。数据显示，部分用户已开始在 Claude 与 ChatGPT 间切换使用。在达成用户里程碑之际，Anthropic 已秘密递交 IPO 申请，OpenAI 也计划筹备上市。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/959/083.htm",
-      "publishedAt": "2026-06-03T01:31:15.000Z"
     }
   ]
 }
