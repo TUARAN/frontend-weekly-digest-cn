@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-03T01:01:23.726Z",
+  "updatedAt": "2026-06-03T03:14:15.092Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "宏利香港与阿里云达成AI战略合作",
+      "summary": "宏利香港宣布与阿里云建立战略合作伙伴关系，旨在构建一个专注于推进负责任的AI创新，并加速AI技术在业务中部署的合作框架。",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2062006591377829922",
+      "publishedAt": "2026-06-03T03:00:56.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
+      "summary": "斯坦福大学法学院的一项研究表明，人工智能的表现优于法学教授。该发现引发了广泛关注，在Hacker News平台获得了104个Points。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
+      "publishedAt": "2026-06-03T02:33:56.784Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Sensor Tower：OpenAI 旗下 ChatGPT 月活已破 10 亿，史上最快",
+      "summary": "据市场情报机构 Sensor Tower 估计，OpenAI 旗下 ChatGPT 全球月活跃用户在 2025 年 5 月突破 10 亿，成为达成此里程碑最快的应用，增速超过 Google Maps、TikTok 等。同期，其竞争对手 Anthropic 的 Claude 月活达 5600 万，同比增幅约 640%，增长势头迅猛。数据显示，部分用户已开始在 Claude 与 ChatGPT 间切换使用。在达成用户里程碑之际，Anthropic 已秘密递交 IPO 申请，OpenAI 也计划筹备上市。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/959/083.htm",
+      "publishedAt": "2026-06-03T01:31:15.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "智能体工程实战窍门全录",
+      "summary": "该内容源自@mvanhorn的分享，介绍了\"智能体工程\"如何重塑软件开发。其核心是从\"人主导编码\"转向\"人主导方向、智能体执行\"，中心从IDE变为终端与计划文件。方法论遵循Research → Plan → Work循环，核心是让plan.md约束智能体行为。分享者总结了22条实战技巧，涵盖规划、并行执行、输入方式、远程控制等方面，并列出了完整的工具栈。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2061974983094755575",
+      "publishedAt": "2026-06-03T00:55:20.000Z"
+    },
     {
       "topic": "产品",
       "title": "NVIDIA 推出 NemoClaw 平台，助力工业软件厂商构建自主 AI 工程师",
@@ -209,38 +241,6 @@
       "source": "X：商汤 SenseTime (@SenseTime_AI)",
       "href": "https://x.com/SenseTime_AI/status/2061822148076093625",
       "publishedAt": "2026-06-02T14:48:01.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Holo3.1：快速本地计算机使用智能体",
-      "summary": "Holo3.1 是基于 Qwen 模型家族的计算机使用智能体系列，旨在提升在桌面、网页和移动环境中的鲁棒性。新模型提供 0.8B、4B、9B 和 35B-A3B 四种尺寸，并首次发布量化检查点，包括 FP8、Q4 GGUF 和 NVFP4，以优化本地推理。在 AndroidWorld 基准测试中，35B-A3B 模型得分从 67% 提升至 79.3%。在 DGX Spark 上，NVFP4 量化相比 BF16 实现 1.74 倍 token 吞吐量提升，并将平均步骤时间从 6.8 秒缩短至 3.3 秒。模型支持函数调用协议，可在第三方智能体框架中部署。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/Hcompany/holo31",
-      "publishedAt": "2026-06-02T14:13:23.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Nathan Lambert离开Ai2，结束2.5年OLMO等项目工作",
-      "summary": "Ai2（Allen Institute for AI）研究员Nathan Lambert宣布离职。他在Ai2工作超过2.5年，期间主导或参与了OLMO和Tulu等开源模型项目，称其为职业生涯的巅峰。他表示将暂时休息，未来仍会继续深耕开源模型与开放科学领域。",
-      "source": "X：Nathan Lambert (@natolambert)",
-      "href": "https://x.com/natolambert/status/2061813361848029631",
-      "publishedAt": "2026-06-02T14:13:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "MiniCPM-V 4.6 现已支持 vLLM v0.22.0",
-      "summary": "MiniCPM-V 4.6 现已完全支持 vLLM v0.22.0！\n无需自定义分支，无需额外编译。\n只需拉取预构建包即可运行。\n非常感谢 @vllm_project 的顺畅集成！ 🤝\n🤗 http：//huggingface.co/openbmb/MiniCPM-V-4.6",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2061810723169415205",
-      "publishedAt": "2026-06-02T14:02:37.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic扩展Project Glasswing计划",
-      "summary": "Anthropic正将其Project Glasswing计划扩展至约150个新组织，此前首批约50个合作伙伴。新伙伴分布于十五个多国家，覆盖电力、水务、医疗、通信和硬件等关键基础设施行业。这些合作伙伴的共同点在于，其代码库若遭成功攻击，后果可能极其严重，影响或超1亿人。项目旨在利用Claude Mythos Preview等前沿模型扫描漏洞并协助修复，以应对AI驱动的网络安全挑战。同时，Anthropic推出了基于Claude Opus 4.8等公开模型的Claude Security产品，用于扫描代码并建议补丁。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "publishedAt": "2026-06-02T13:28:13.607Z"
     }
   ]
 }
