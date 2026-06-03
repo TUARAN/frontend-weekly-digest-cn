@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-06-03T15:38:14.287Z",
+  "updatedAt": "2026-06-03T17:43:49.024Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Anthropic 用 Claude 赋能自助数据分析",
+      "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+      "publishedAt": "2026-06-03T17:23:16.528Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Gemma 4 12B：一种统一的、无需编码器的多模态模型",
+      "summary": "Gemma 4 12B 是 Google 发布的一款统一架构、无需独立视觉编码器的多模态大语言模型（LLM）。该模型直接处理图像与文本输入，无需传统视觉编码器，简化了多模态推理流程。基于 12B 参数规模，Gemma 4 12B 面向开发者工具生态开放。目前其具体 benchmark 分数、上下文窗口、价格及开源/API 可用性等细节尚未披露。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b",
+      "publishedAt": "2026-06-03T17:09:06.433Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2062211976995188871",
+      "publishedAt": "2026-06-03T16:37:04.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+      "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2062210845308780639",
+      "publishedAt": "2026-06-03T16:32:34.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+      "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "href": "https://x.com/NVIDIAAI/status/2062210034109677665",
+      "publishedAt": "2026-06-03T16:29:20.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "xAI Grok语音模型上线Vapi平台",
+      "summary": "试试 @Vapi_AI 上最自然的TTS和性价比最高的STT API。\n\n来自 @xai 的Grok STT和Grok TTS现已在企业语音AI平台Vapi上线。基于Vapi构建自定义语音智能体，可让它们用客户的语言交流、在受监管的工作流中捕捉重要细节，并在每次通话中明显更具人性化。",
+      "source": "X：xAI (@xai)",
+      "href": "https://x.com/xai/status/2062209374039499178",
+      "publishedAt": "2026-06-03T16:26:43.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "微软研究：装瓶厂AI从聊天到决策",
+      "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "href": "https://x.com/MSFTResearch/status/2062204914223169635",
+      "publishedAt": "2026-06-03T16:09:00.000Z"
+    },
     {
       "topic": "论文",
       "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
@@ -9,6 +65,14 @@
       "source": "X：NVIDIA (@nvidia)",
       "href": "https://x.com/nvidia/status/2062191093748523401",
       "publishedAt": "2026-06-03T15:14:05.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Perplexity Personal Computer 登陆 Windows",
+      "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2062189045728596080",
+      "publishedAt": "2026-06-03T15:05:56.000Z"
     },
     {
       "topic": "行业",
@@ -177,70 +241,6 @@
       "source": "X：Google AI for Developers (@googleaidevs)",
       "href": "https://x.com/googleaidevs/status/2061924472245153863",
       "publishedAt": "2026-06-02T21:34:37.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
-      "summary": "NVIDIA DGX Station 系统正开始送达开发者和研究人员的办公桌。📦\n\n企业团队可以本地部署数据中心级性能，搭载 GB300 的系统正从华硕、戴尔、技嘉、惠普、微星和超微等合作伙伴处发货。\n\n👉 阅读博客：https：//nvda.ws/4x3VdBr",
-      "source": "X：NVIDIA (@nvidia)",
-      "href": "https://x.com/nvidia/status/2061904438478970985",
-      "publishedAt": "2026-06-02T20:15:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Code 自我检查与反馈闭环技巧",
-      "summary": "如何让 Claude Code 在交回工作前检查自己的成果？\n看看如何编码你的手动检查，让 Claude 自己关闭反馈循环：",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2061900434722496604",
-      "publishedAt": "2026-06-02T19:59:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter上线微软三款新模型",
-      "summary": "三款新的 @MicrosoftAI 模型现已在 OpenRouter 上线！\n同步推出：MAI-Image-2.5、MAI-Transcribe-1.5 和 MAI-Voice-2。详情见下文 🧵",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2061894672847671724",
-      "publishedAt": "2026-06-02T19:36:12.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit 与微软合作发布 Fabric 集成",
-      "summary": "宣布与 @Microsoft 的新合作\n\n组织现在可以在 Replit 中构建内部工具、工作流或数据仪表板，并直接发布到 Microsoft Fabric，内置安全、身份验证和治理功能。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2061892255028486435",
-      "publishedAt": "2026-06-02T19:26:36.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI Codex 推出团队专属插件",
-      "summary": "Codex 中的角色专属插件围绕团队实际工作构建。\n\n数据分析、创意制作和产品设计插件为 Codex 提供了创建报告、创意方向和原型的工具与上下文。\n\n由 OpenAI 团队构建并使用。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2061888366791246071",
-      "publishedAt": "2026-06-02T19:11:09.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "微软发布开源框架 Adaptive Spec-driven Scoring：支持用文本描述创建 AI 评估测试",
-      "summary": "微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架。开发者可通过文本描述快速生成 AI 行为测试，用于模型评估与回归测试。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions",
-      "publishedAt": "2026-06-02T19:02:21.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Alphabet拟融资800亿美元 Anthropic提交IPO申请",
-      "summary": "Alphabet宣布拟通过股权融资800亿美元，用于扩展AI基础设施。Anthropic已秘密提交IPO申请，在上市竞赛中领先于竞争对手OpenAI。此外，SpaceX正与华尔街机构协商其IPO的承销费用，HPE则因AI基础设施需求旺盛，年度销售预期超出市场估计。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-02/bloomberg-tech-6-2-2026-video",
-      "publishedAt": "2026-06-02T18:39:17.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Platform 新增 CLI 工具",
-      "summary": "我们为 Claude Platform 添加了一个 CLI，使每个 API 端点都可以从你的终端运行。\n调用 Messages API，启动 Claude 托管智能体，并将结果直接管道传输到你的 shell。\nant CLI 被使用 claude-api 技能的编码智能体（Claude Code）很好地理解。",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2061877343078244459",
-      "publishedAt": "2026-06-02T18:27:21.000Z"
     }
   ]
 }
