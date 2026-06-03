@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-03T09:41:04.382Z",
+  "updatedAt": "2026-06-03T11:40:03.558Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Qwen Cloud全球AI黑客马拉松启动",
+      "summary": "首届Qwen Cloud全球AI黑客马拉松现已启动！\n\n参与5大高级赛道，在全球舞台上挑战AI智能体极限。\n\n总奖金池超过70，000美元（赛道冠军1万美元）。\n\n立即在Devpost报名：https：//click.qwencloud.com/m/20000000281/",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2062113338994172169",
+      "publishedAt": "2026-06-03T10:05:06.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
+      "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "publishedAt": "2026-06-03T09:51:21.088Z"
+    },
     {
       "topic": "技巧",
       "title": "Karpathy 的 llm-wiki 项目获超五千星",
@@ -92,14 +108,6 @@
     },
     {
       "topic": "产品",
-      "title": "Claude Code 新增动态工作流功能",
-      "summary": "Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务。该功能通过执行特定的 JavaScript 文件来生成和协调拥有独立上下文窗口的子代理，可解决单一上下文窗口中长时间执行任务可能出现的智能惰性等问题。工作流适用于研究、安全分析、代码审查等场景，通常消耗更多 token，更适合高价值复杂任务，其最佳实践仍在发展中。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
-      "publishedAt": "2026-06-02T21:16:49.491Z"
-    },
-    {
-      "topic": "产品",
       "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
       "summary": "NVIDIA DGX Station 系统正开始送达开发者和研究人员的办公桌。📦\n\n企业团队可以本地部署数据中心级性能，搭载 GB300 的系统正从华硕、戴尔、技嘉、惠普、微星和超微等合作伙伴处发货。\n\n👉 阅读博客：https：//nvda.ws/4x3VdBr",
       "source": "X：NVIDIA (@nvidia)",
@@ -113,14 +121,6 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2061900434722496604",
       "publishedAt": "2026-06-02T19:59:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway API 推出 Aleph 2.0 视频编辑功能",
-      "summary": "Aleph 2.0 现已通过 Runway API 提供。将精准视频编辑直接集成到您的应用、产品和平台中。支持在多镜头序列中编辑最长 30 秒、1080p 分辨率的视频，仅修改您想要的部分。\n\n请通过以下链接开始使用。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2061895998545244342",
-      "publishedAt": "2026-06-02T19:41:28.000Z"
     },
     {
       "topic": "产品",
