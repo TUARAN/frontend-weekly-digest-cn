@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-03T11:40:03.558Z",
+  "updatedAt": "2026-06-03T13:42:55.992Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "介绍 Claude Partner Network 的 Services Track 和 Partner Hub",
+      "summary": "Anthropic 扩展 Claude Partner Network，推出 Services Track 分级体系和 Partner Hub 门户。Services Track 设 Select、Preferred、Global Premier 三级，按认证人数、投产客户数及客户推荐信量化评定。Partner Hub 提供每日更新仪表盘和公开目录，方便合作伙伴查看进展、客户寻找供应商。该网络三月启动以来已有超 4 万家公司申请，逾 1 万顾问获认证；Accenture 训练 3 万人，Cognizant 部署约 35 万员工，Deloitte 惠及 47 万人，KPMG 覆盖 27.6 万，Infosys 构建行业智能体，PwC 先在美推广再扩至全球。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/services-track-partner-hub",
+      "publishedAt": "2026-06-03T13:30:21.674Z"
+    },
+    {
+      "topic": "行业",
+      "title": "欧盟公布全面技术主权计划，推动芯片与AI自主发展",
+      "summary": "欧盟公布一项全面技术主权计划，旨在扩大本土半导体、人工智能和云计算供应链，以减少对美国和亚洲的依赖。该计划覆盖芯片制造、AI基础设施及云计算服务等多个关键领域，目标是增强欧洲在核心技术上的自主能力。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
+      "publishedAt": "2026-06-03T12:12:15.000Z"
+    },
     {
       "topic": "行业",
       "title": "Qwen Cloud全球AI黑客马拉松启动",
@@ -81,6 +97,14 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2061974983094755575",
       "publishedAt": "2026-06-03T00:55:20.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "智能性价比",
+      "summary": "微软在模型发布卡中首次加入平均token使用量指标。其模型在SWE-Bench Verified上达71.6分，仅消耗约Claude Haiku 4.5三分之一的token。Artificial Analysis的Intelligence Index显示GPT 5.5与Claude Opus 4.8得分相近（约60分），但Opus 4.8运行成本高出40%（$4，685 vs $3，357）。Uber因四个月内AI预算超支而限制员工使用；Salesforce花费$3亿购买Anthropic tokens并冻结工程招聘。模型公司如今需同时在性能和成本两个维度竞争。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/tokens-per-result",
+      "publishedAt": "2026-06-03T00:00:00.000Z"
     },
     {
       "topic": "论文",
@@ -217,30 +241,6 @@
       "source": "Claude：Blog（网页）",
       "href": "https://claude.com/blog/running-an-ai-native-engineering-org",
       "publishedAt": "2026-06-02T16:45:23.372Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI Codex 发布 Python SDK，可直接嵌入应用",
-      "summary": "这个有点厉害，Codex 出 Python SDK了。\n\n安装指令：pip install openai-codex\n\n整合到自己的代码中，相当于直接内置了顶级编程和生图Agent？\n\n最关键的是，可以复用 Codex 登录态。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2061846741885018296",
-      "publishedAt": "2026-06-02T16:25:45.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI Codex Sites 功能发布",
-      "summary": "构建应用从未如此简单。\n通过 Sites，Codex 可以将你的工作、想法和计划转化为一个交互式网站或应用，你的团队可以通过一个 URL 进行探索、使用和分享。\n该功能将首先向 Business 和 Enterprise 计划推出，之后会更广泛地扩展。",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2061845949170045346",
-      "publishedAt": "2026-06-02T16:22:36.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "DigitalOcean AI云服务上线OpenRouter",
-      "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2061840338973806961",
-      "publishedAt": "2026-06-02T16:00:18.000Z"
     }
   ]
 }
