@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-03T03:14:15.092Z",
+  "updatedAt": "2026-06-03T05:42:14.794Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+      "summary": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/959/249.htm",
+      "publishedAt": "2026-06-03T04:36:30.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
+      "summary": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "href": "https://x.com/satyanadella/status/2062022060176801826",
+      "publishedAt": "2026-06-03T04:02:24.000Z"
+    },
     {
       "topic": "行业",
       "title": "宏利香港与阿里云达成AI战略合作",
@@ -225,22 +241,6 @@
       "source": "X：Replit (@Replit)",
       "href": "https://x.com/Replit/status/2061840304534102036",
       "publishedAt": "2026-06-02T16:00:10.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Gary Marcus：为什么事情终将崩塌",
-      "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/why-things-will-eventually-fall-apart",
-      "publishedAt": "2026-06-02T15:41:57.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "商汤开源SenseNova-Skills AI办公技能套件",
-      "summary": "商汤开源了AI办公技能套件SenseNova-Skills。这是一个为任何技能兼容智能体（如OpenClaw与HermesAgent）设计的开源技能集合，提供四大核心功能：图像信息图表生成（可镜像参考风格）、数据分析（支持多表解析、清洗与可视化）、PPT创建（生成大纲内容并智能排版，输出可编辑文件）以及深度研究（跨学术、技术、社交等多源搜索并生成报告）。该技能套件现已完全开源。",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "href": "https://x.com/SenseTime_AI/status/2061822148076093625",
-      "publishedAt": "2026-06-02T14:48:01.000Z"
     }
   ]
 }
