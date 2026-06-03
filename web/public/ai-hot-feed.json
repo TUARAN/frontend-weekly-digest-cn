@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-03T13:42:55.992Z",
+  "updatedAt": "2026-06-03T15:38:14.287Z",
   "count": 30,
   "items": [
+    {
+      "topic": "论文",
+      "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
+      "summary": "NVIDIA Research在CVPR 2026展示三篇Physical AI论文：GraspGen-X是首个零样本抓取基础模型，基于数十亿模拟抓取训练；LCDrive用紧凑潜在表示取代昂贵文本推理；NitroGen是通用游戏AI基础模型，基于NVIDIA Isaac GR00T训练具身智能体。",
+      "source": "X：NVIDIA (@nvidia)",
+      "href": "https://x.com/nvidia/status/2062191093748523401",
+      "publishedAt": "2026-06-03T15:14:05.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Suno完成4亿美元D轮融资",
+      "summary": "我们激动地宣布Suno的新篇章：4亿美元D轮融资，估值54亿美元！🚀\n我们的使命一直很简单：让更多人能体验制作音乐的乐趣。非常感谢我们不可思议的社区和投资者与我们共同建设。\n\n点击此处阅读Mikey的博客：https：//suno.com/blog/series-d-announcement",
+      "source": "X：Suno (@suno)",
+      "href": "https://x.com/suno/status/2062183524887675243",
+      "publishedAt": "2026-06-03T14:44:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
+      "summary": "微软与OpenAI的合作关系已彻底破裂，双方进入正面竞争态势。前DeepMind高管、现任微软AI主管Mustafa Suleyman明确表示，微软现在必须从头证明自己能独立完成所有必需的任务。这标志着两家科技巨头从紧密合作伙伴转变为直接竞争对手。",
+      "source": "The Verge：订阅版科技（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "publishedAt": "2026-06-03T14:04:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+      "summary": "Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
+      "publishedAt": "2026-06-03T13:40:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "介绍 Claude Partner Network 的 Services Track 和 Partner Hub",
@@ -9,6 +41,14 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/services-track-partner-hub",
       "publishedAt": "2026-06-03T13:30:21.674Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "超越聊天机器人的直接偏好优化",
+      "summary": "Dharma-AI 在 Hugging Face 博客发文，探讨直接偏好优化（Direct Preference Optimization，DPO）在聊天机器人之外的更广泛应用场景。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "publishedAt": "2026-06-03T12:55:11.000Z"
     },
     {
       "topic": "行业",
@@ -97,6 +137,14 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2061974983094755575",
       "publishedAt": "2026-06-03T00:55:20.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Reachy Mini 添加 MCP 工具",
+      "summary": "Reachy Mini 推出了公开的 MCP canary Space，用于远程工具调用。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "publishedAt": "2026-06-03T00:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -193,54 +241,6 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2061877343078244459",
       "publishedAt": "2026-06-02T18:27:21.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
-      "summary": "微软在Build 2026上发布了其首款高级推理AI模型MAI-Thinking-1。该模型被定位为\"中等规模\"，能在\"关键\"软件工程基准测试中达到领先模型的水平。微软称其完全从头使用干净数据进行训练，未涉及从第三方模型进行知识蒸馏。这标志着微软在自研AI模型上迈出重要一步，此前其主要依赖OpenAI。近期两家公司已重新协商合作协议，关系有所松绑。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "publishedAt": "2026-06-02T18:12:44.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA发布自进化Hermes智能体",
-      "summary": "自进化Hermes智能体：随使用而改进的企业AI | Nemotron Labs",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2061870499232190967",
-      "publishedAt": "2026-06-02T18:00:09.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenClaw 与微软合作进入企业生态",
-      "summary": "\"你现在可以在公司内部运行 OpenClaw 了。\" 宣布我们与 @Microsoft 的合作，将 OpenClaw 带入微软和 Windows 生态系统。Claws 现在可以在企业环境中安全运行。",
-      "source": "X：OpenClaw (@openclaw)",
-      "href": "https://x.com/openclaw/status/2061869633624580452",
-      "publishedAt": "2026-06-02T17:56:42.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "GitHub Copilot应用：智能体原生的桌面体验",
-      "summary": "在微软 Build 2026 大会上，GitHub 发布了新的工具和更新，并将 Copilot 应用定位为\"智能体原生的桌面体验\"。其核心目标是让 AI 智能体能够以用户已经习惯的方式进行工作。",
-      "source": "GitHub Blog",
-      "href": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience",
-      "publishedAt": "2026-06-02T17:30:03.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google DeepMind 发布 Gemini 多智能体科研系统",
-      "summary": "我们相信 AI 可以成为专属研究伙伴，帮助发现下一个突破。\n\n隆重推出 Co-Scientist：我们最新的基于 Gemini 的多智能体系统，能够为复杂科学问题生成、辩论和演进新颖的假设 🧵",
-      "source": "X：Google DeepMind (@GoogleDeepMind)",
-      "href": "https://x.com/GoogleDeepMind/status/2061857539977842793",
-      "publishedAt": "2026-06-02T17:08:39.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Code团队实践：智能体编程如何重塑工程组织与流程",
-      "summary": "在Code w/ Claude SF 2026活动上，Claude Code工程团队分享了将智能体编程设为默认工作方式后带来的流程与结构变革。核心变化包括：规划转向即时（JIT）模式，强调快速原型与反馈；上下文收集变为\"先问Claude\"；代码审查中Claude处理风格与测试，人工专注于法律、安全等专业判断。新范式下，工程瓶颈从编写代码转向验证、审查与安全维护。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/running-an-ai-native-engineering-org",
-      "publishedAt": "2026-06-02T16:45:23.372Z"
     }
   ]
 }
