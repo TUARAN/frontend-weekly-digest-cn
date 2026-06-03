@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T07:47:07.412Z",
+  "updatedAt": "2026-06-03T09:41:04.382Z",
   "count": 30,
   "items": [
     {
@@ -65,14 +65,6 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2061974983094755575",
       "publishedAt": "2026-06-03T00:55:20.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA 推出 NemoClaw 平台，助力工业软件厂商构建自主 AI 工程师",
-      "summary": "在 COMPUTEX 上，NVIDIA 发布了 NemoClaw 平台，这是一个用于构建专业、长时间运行 AI 智能体的开放蓝图。该平台提供安全运行时、前沿模型支持以及多种编排框架集成选项，可通过 DGX Spark、数据中心或云端部署。其核心开源运行时 OpenShell 实施基于策略的安全管控，规范智能体对文件、网络和工具的访问。Cadence、达索系统、西门子、Synopsys 等十多家工业软件厂商正基于 NemoClaw 构建用于 CAE 和 EDA 工作流的自主 AI 工程师，旨在将原本需数周的仿真与设计任务压缩至数小时。",
-      "source": "NVIDIA Blog：Agentic AI（网页）",
-      "href": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw",
-      "publishedAt": "2026-06-02T22:00:58.000Z"
     },
     {
       "topic": "论文",
@@ -241,6 +233,14 @@
       "source": "X：OpenAI (@OpenAI)",
       "href": "https://x.com/OpenAI/status/2061845949170045346",
       "publishedAt": "2026-06-02T16:22:36.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "DigitalOcean AI云服务上线OpenRouter",
+      "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2061840338973806961",
+      "publishedAt": "2026-06-02T16:00:18.000Z"
     }
   ]
 }
