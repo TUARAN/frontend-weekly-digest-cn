@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-03",
+      "displayDate": "Jun 3",
+      "json": "/ai-daily/2026-06-03.json",
+      "count": 5,
+      "highlights": [
+        "阶跃星辰Step 3.7 Flash发布",
+        "MiniMax M3 模型在 Silic",
+        "Alphabet拟融资800亿美元 An",
+        "GitHub Copilot应用：智能体",
+        "Claude Code团队实践：智能体编"
+      ]
+    },
+    {
       "date": "2026-06-02",
       "displayDate": "Jun 2",
       "json": "/ai-daily/2026-06-02.json",
@@ -78,5 +91,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-02"
+  "latest": "2026-06-03"
 }

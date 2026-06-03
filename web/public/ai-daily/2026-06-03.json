@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-03",
+  "displayDate": "Jun 3",
+  "dateNum": "0603",
+  "year": 2026,
+  "dayOfWeek": "WED",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "X：阶跃星辰 StepFun (@StepFun_ai) · X：MiniMax (@MiniMax_AI) · Bloomberg：Technology（RSS） 等",
+  "count": 5,
+  "highlights": [
+    "阶跃星辰Step 3.7 Flash发布",
+    "MiniMax M3 模型在 Silic",
+    "Alphabet拟融资800亿美元 An",
+    "GitHub Copilot应用：智能体",
+    "Claude Code团队实践：智能体编"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+      "summary": "阶跃星辰发布其推理优化型模型Step 3.7 Flash。该模型为196B MoE架构，从设计之初就专注于推理效率。其采用多矩阵分解注意力机制，使KV-cache成本仅为DeepSeek模型的约22%；同时通过注意力与FFN解耦技术，实现了硬件优化的高效服务。该模型已通过Fireworks AI提供，采用Apache 2.0许可，并可用于构建智能体应用。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "MiniMax M3 模型在 SiliconFlow 上线，首周五折优惠",
+      "summary": "MiniMax 官方宣布，其开源权重模型 M3 已在 SiliconFlow 平台上线，并提供为期 7 天的 50% 限时折扣。该模型号称是首个结合编程与智能体能力（在 SWE-Bench Pro 上超越 GPT-5.5 和 Gemini 3.1 Pro）、通过 MiniMax Sparse Attention 支持 100 万 token 上下文窗口、并原生支持多模态（涵盖图像、视频与计算机使用）的三大前沿能力的开源模型。SiliconFlow 当前优惠价为：缓存 $0.06、输入 $0.30、输出 $1.20 每百万 token（原价 $0.12/$0.60/$2.40）。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "Alphabet拟融资800亿美元 Anthropic提交IPO申请",
+      "summary": "Alphabet宣布拟通过股权融资800亿美元，用于扩展AI基础设施。Anthropic已秘密提交IPO申请，在上市竞赛中领先于竞争对手OpenAI。此外，SpaceX正与华尔街机构协商其IPO的承销费用，HPE则因AI基础设施需求旺盛，年度销售预期超出市场估计。",
+      "reason": "大额资本动向反映赛道景气度，影响长期技术投入"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "GitHub Copilot应用：智能体原生的桌面体验",
+      "summary": "在微软 Build 2026 大会上，GitHub 发布了新的工具和更新，并将 Copilot 应用定位为\"智能体原生的桌面体验\"。其核心目标是让 AI 智能体能够以用户已经习惯的方式进行工作。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "Claude Code团队实践：智能体编程如何重塑工程组织与流程",
+      "summary": "在Code w/ Claude SF 2026活动上，Claude Code工程团队分享了将智能体编程设为默认工作方式后带来的流程与结构变革。核心变化包括：规划转向即时（JIT）模式，强调快速原型与反馈；上下文收集变为\"先问Claude\"；代码审查中Claude处理风格与测试，人工专注于法律、安全等专业判断。新范式下，工程瓶颈从编写代码转向验证、审查与安全维护。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    }
+  ]
+}
