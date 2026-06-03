@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-03T05:42:14.794Z",
+  "updatedAt": "2026-06-03T07:47:07.412Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Karpathy 的 llm-wiki 项目获超五千星",
+      "summary": "@karpathy 的 llm-wiki 在几周内获得了 5，000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "href": "https://x.com/SiliconFlowAI/status/2062054848762450324",
+      "publishedAt": "2026-06-03T06:12:41.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+      "summary": "官方 Hermes Agent 桌面应用现已推出！",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "href": "https://x.com/SiliconFlowAI/status/2062042813852995899",
+      "publishedAt": "2026-06-03T05:24:52.000Z"
+    },
     {
       "topic": "行业",
       "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
@@ -225,22 +241,6 @@
       "source": "X：OpenAI (@OpenAI)",
       "href": "https://x.com/OpenAI/status/2061845949170045346",
       "publishedAt": "2026-06-02T16:22:36.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "DigitalOcean AI云服务上线OpenRouter",
-      "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2061840338973806961",
-      "publishedAt": "2026-06-02T16:00:18.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit Canvas 推出多项新功能",
-      "summary": "Replit Canvas 有一些新更新！⭐️\n\n了解更多请访问：http：//replit.com/canvas\n\n展开讨论 🧵 ↓",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2061840304534102036",
-      "publishedAt": "2026-06-02T16:00:10.000Z"
     }
   ]
 }
