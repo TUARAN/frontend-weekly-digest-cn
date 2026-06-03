@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-02T23:36:33.679Z",
+  "updatedAt": "2026-06-03T01:01:23.726Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "NVIDIA 推出 NemoClaw 平台，助力工业软件厂商构建自主 AI 工程师",
+      "summary": "在 COMPUTEX 上，NVIDIA 发布了 NemoClaw 平台，这是一个用于构建专业、长时间运行 AI 智能体的开放蓝图。该平台提供安全运行时、前沿模型支持以及多种编排框架集成选项，可通过 DGX Spark、数据中心或云端部署。其核心开源运行时 OpenShell 实施基于策略的安全管控，规范智能体对文件、网络和工具的访问。Cadence、达索系统、西门子、Synopsys 等十多家工业软件厂商正基于 NemoClaw 构建用于 CAE 和 EDA 工作流的自主 AI 工程师，旨在将原本需数周的仿真与设计任务压缩至数小时。",
+      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "href": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw",
+      "publishedAt": "2026-06-02T22:00:58.000Z"
+    },
     {
       "topic": "论文",
       "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
@@ -137,14 +145,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience",
       "publishedAt": "2026-06-02T17:30:03.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "NVIDIA NemoClaw 部署 Hermes Agent 教程",
-      "summary": "教一个智能体一次工作流，让它在每次重建后都记住。\n本教程展示如何使用 NVIDIA NemoClaw 和 OpenShell 部署 NousResearch Hermes Agent，将其连接到 Slack、Outlook、GitHub 和 NVIDIA 开发者论坛，然后将聊天纠正转化为可复用的技能。\n私有数据保留在运行时策略之后。学到的技能在部署之间持续存在。",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2061858457519575280",
-      "publishedAt": "2026-06-02T17:12:18.000Z"
     },
     {
       "topic": "产品",
