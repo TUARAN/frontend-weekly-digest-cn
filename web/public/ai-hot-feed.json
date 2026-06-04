@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-04T03:13:22.772Z",
-  "count": 29,
+  "updatedAt": "2026-06-04T05:40:02.709Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+      "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2062367357868355622",
+      "publishedAt": "2026-06-04T02:54:29.000Z"
+    },
     {
       "topic": "论文",
       "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
@@ -209,30 +217,6 @@
       "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
       "href": "https://x.com/SiliconFlowAI/status/2062054848762450324",
       "publishedAt": "2026-06-03T06:12:41.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
-      "summary": "官方 Hermes Agent 桌面应用现已推出！",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "href": "https://x.com/SiliconFlowAI/status/2062042813852995899",
-      "publishedAt": "2026-06-03T05:24:52.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
-      "summary": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/959/249.htm",
-      "publishedAt": "2026-06-03T04:36:30.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
-      "summary": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "href": "https://x.com/satyanadella/status/2062022060176801826",
-      "publishedAt": "2026-06-03T04:02:24.000Z"
     }
   ]
 }
