@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-04T15:06:05.741Z",
-  "count": 23,
+  "updatedAt": "2026-06-04T17:06:13.444Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
+      "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "href": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
+      "publishedAt": "2026-06-04T16:53:01.234Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude加速AI递归自我改进突破",
+      "summary": "我们的内部数据显示，Claude 正在加速 AI 发展--这是一条通往递归自我改进的可能路径，也就是 AI 自主构建一个更强大的后继者。\n\n这发生得比我们预想的更快，其影响值得更多关注。",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "href": "https://x.com/AnthropicAI/status/2062568862479208923",
+      "publishedAt": "2026-06-04T16:15:12.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
+      "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "href": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "publishedAt": "2026-06-04T16:14:49.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
+      "summary": "neolab 推出 Nex-N2-Pro，基于 Qwen3.5-397B-A17B，总参数 397B 的 MoE 推理模型，支持 262K 上下文与多模态（VLM），性能达到 GPT-5.5 和 Claude Opus 4.7 级别。模型可自动调节推理深度，减少 30-50% 思考 token 且无性能折损，在 Terminal Bench 2.1、GDPVal、SWE-Verified 上取得 SOTA。擅长智能体编码、深度搜索和工具使用，兼容 Claude Code、Cursor 等工具。硅基流动已提供 T+0 支持，前两周免费使用。",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "href": "https://x.com/SiliconFlowAI/status/2062549952266723493",
+      "publishedAt": "2026-06-04T15:00:03.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
+      "summary": "全球最大芯片制造商台积电表示，通过美国本土生产满足客户需求可能需要\"非常长的时间\"，凸显AI需求带来的产能压力。",
+      "source": "The Verge：订阅版科技（RSS）",
+      "href": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+      "publishedAt": "2026-06-04T14:15:44.000Z"
+    },
     {
       "topic": "行业",
       "title": "DeepSeek连续四周登顶Token份额榜",
@@ -60,6 +100,14 @@
     },
     {
       "topic": "产品",
+      "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
+      "summary": "ChatGPT 推出名为 Dreaming 的新记忆系统，能够更有效地记住用户偏好，并在跨对话场景中保持上下文的新鲜感和相关性，从而提升助手的个性化体验。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/chatgpt-memory-dreaming",
+      "publishedAt": "2026-06-04T09:00:00.000Z"
+    },
+    {
+      "topic": "产品",
       "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
       "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
       "source": "MarkTechPost（RSS）",
@@ -89,6 +137,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/959/607.htm",
       "publishedAt": "2026-06-04T00:50:46.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
+      "summary": "Hugging Face 重新设计 hf CLI，使其同时服务人类用户和编码智能体（Claude Code、Codex 等）。CLI 通过环境变量自动检测智能体驱动，输出紧凑无截断的 TSV 格式，避免 ANSI 和交互提示，大幅降低 token 消耗。复杂多步任务中，不使用 CLI 的智能体 token 消耗最高达 hf CLI 的 6 倍。2026 年 4 月起，Hugging Face 追踪 Hub 智能体流量，Claude Code 约 4 万用户、近 4900 万次请求，Codex 紧随其后。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/hf-cli-for-agents",
+      "publishedAt": "2026-06-04T00:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -123,14 +179,6 @@
       "publishedAt": "2026-06-03T18:57:10.000Z"
     },
     {
-      "topic": "技巧",
-      "title": "洪水韧性新篇章：Google 开源水文建模框架",
-      "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。",
-      "source": "Google Research：Blog（网页）",
-      "href": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
-      "publishedAt": "2026-06-03T18:49:39.703Z"
-    },
-    {
       "topic": "产品",
       "title": "黄仁勋与纳德拉共议智能体AI时代",
       "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
@@ -145,46 +193,6 @@
       "source": "X：Krea AI (@krea_ai)",
       "href": "https://x.com/krea_ai/status/2062227837130887567",
       "publishedAt": "2026-06-03T17:40:05.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 用 Claude 赋能自助数据分析",
-      "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
-      "publishedAt": "2026-06-03T17:23:16.528Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit上线SEO Agent助应用被发现",
-      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2062211976995188871",
-      "publishedAt": "2026-06-03T16:37:04.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
-      "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2062210845308780639",
-      "publishedAt": "2026-06-03T16:32:34.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
-      "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2062210034109677665",
-      "publishedAt": "2026-06-03T16:29:20.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "微软研究：装瓶厂AI从聊天到决策",
-      "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "href": "https://x.com/MSFTResearch/status/2062204914223169635",
-      "publishedAt": "2026-06-03T16:09:00.000Z"
     }
   ]
 }
