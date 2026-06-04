@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-04T21:35:02.840Z",
-  "count": 27,
+  "updatedAt": "2026-06-04T22:33:23.076Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "NotebookLM 来源归属功能上线",
+      "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2062653124326863077",
+      "publishedAt": "2026-06-04T21:50:01.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Gemini macOS 双击 Command 附加活动窗口",
+      "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
+      "source": "X：Gemini (@GeminiApp)",
+      "href": "https://x.com/GeminiApp/status/2062652523945836770",
+      "publishedAt": "2026-06-04T21:47:38.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+      "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/anthropics/defending-code-reference-harness",
+      "publishedAt": "2026-06-04T21:32:05.585Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+      "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
+      "source": "X：NVIDIA (@nvidia)",
+      "href": "https://x.com/nvidia/status/2062647600424128773",
+      "publishedAt": "2026-06-04T21:28:04.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "共存与协同智能的终结",
+      "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "href": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "publishedAt": "2026-06-04T21:13:42.000Z"
+    },
     {
       "topic": "论文",
       "title": "Google Research 发布被动心率监测系统 PHRM",
@@ -131,6 +171,14 @@
       "publishedAt": "2026-06-04T12:24:58.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
+      "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/announcements/royale-last-agent-standing",
+      "publishedAt": "2026-06-04T12:00:00.000Z"
+    },
+    {
       "topic": "论文",
       "title": "Nemotron 预训练的任务种子合成问答生成",
       "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
@@ -193,30 +241,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/biodefense-in-the-intelligence-age",
       "publishedAt": "2026-06-04T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Hugging Face 为编码智能体重塑 hf CLI 输出格式",
-      "summary": "Hugging Face 重新设计 hf CLI，使其同时服务人类用户和编码智能体（Claude Code、Codex 等）。CLI 通过环境变量自动检测智能体驱动，输出紧凑无截断的 TSV 格式，避免 ANSI 和交互提示，大幅降低 token 消耗。复杂多步任务中，不使用 CLI 的智能体 token 消耗最高达 hf CLI 的 6 倍。2026 年 4 月起，Hugging Face 追踪 Hub 智能体流量，Claude Code 约 4 万用户、近 4900 万次请求，Codex 紧随其后。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/hf-cli-for-agents",
-      "publishedAt": "2026-06-04T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Grok模型登陆Cloudflare AI Gateway",
-      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
-      "source": "X：xAI (@xai)",
-      "href": "https://x.com/xai/status/2062294202625696081",
-      "publishedAt": "2026-06-03T22:03:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
-      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
-      "source": "X：OpenClaw (@openclaw)",
-      "href": "https://x.com/openclaw/status/2062288421406785710",
-      "publishedAt": "2026-06-03T21:40:49.000Z"
     }
   ]
 }
