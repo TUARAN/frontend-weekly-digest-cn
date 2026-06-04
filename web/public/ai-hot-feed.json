@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-04T05:40:02.709Z",
+  "updatedAt": "2026-06-04T07:43:07.880Z",
   "count": 27,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+      "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
+      "publishedAt": "2026-06-04T06:23:10.000Z"
+    },
     {
       "topic": "行业",
       "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
@@ -209,14 +217,6 @@
       "source": "Anthropic：Research（发表成果 · 网页）",
       "href": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
       "publishedAt": "2026-06-03T09:51:21.088Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Karpathy 的 llm-wiki 项目获超五千星",
-      "summary": "@karpathy 的 llm-wiki 在几周内获得了 5，000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "href": "https://x.com/SiliconFlowAI/status/2062054848762450324",
-      "publishedAt": "2026-06-03T06:12:41.000Z"
     }
   ]
 }
