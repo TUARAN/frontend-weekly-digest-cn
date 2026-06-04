@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-04T17:06:13.444Z",
+  "updatedAt": "2026-06-04T18:50:38.897Z",
   "count": 24,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Codex 推出 iOS 应用构建插件",
+      "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "href": "https://x.com/OpenAIDevs/status/2062599291479478275",
+      "publishedAt": "2026-06-04T18:16:06.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit Agent 联手 Shopify 快速建店",
+      "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2062594881625940379",
+      "publishedAt": "2026-06-04T17:58:35.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NotebookLM 推出福尔摩斯游戏笔记本",
+      "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2062582348194197743",
+      "publishedAt": "2026-06-04T17:08:47.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
@@ -9,14 +33,6 @@
       "source": "LMSYS：Blog（Chatbot Arena 团队）",
       "href": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
       "publishedAt": "2026-06-04T16:53:01.234Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude加速AI递归自我改进突破",
-      "summary": "我们的内部数据显示，Claude 正在加速 AI 发展--这是一条通往递归自我改进的可能路径，也就是 AI 自主构建一个更强大的后继者。\n\n这发生得比我们预想的更快，其影响值得更多关注。",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2062568862479208923",
-      "publishedAt": "2026-06-04T16:15:12.000Z"
     },
     {
       "topic": "技巧",
@@ -60,8 +76,8 @@
     },
     {
       "topic": "技巧",
-      "title": "如何在 Nemotron 3.5 ASR 上针对你的语言、领域或口音进行微调",
-      "summary": "NVIDIA 在 Hugging Face 发布博客，介绍如何针对特定语言、领域或口音微调 Nemotron 3.5 ASR 模型。",
+      "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
+      "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。",
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
       "publishedAt": "2026-06-04T12:59:35.000Z"
@@ -76,8 +92,8 @@
     },
     {
       "topic": "论文",
-      "title": "EVA-Bench Data 2.0：3 大领域、121 个工具、213 个场景",
-      "summary": "ServiceNow-AI 发布 EVA-Bench Data 2.0 数据集，覆盖 3 个领域、121 个工具和 213 个场景，用于评估 AI 智能体的工具使用能力。",
+      "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
+      "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。",
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
       "publishedAt": "2026-06-04T12:24:58.000Z"
@@ -177,22 +193,6 @@
       "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
       "href": "https://x.com/drfeifei/status/2062247238143996275",
       "publishedAt": "2026-06-03T18:57:10.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "黄仁勋与纳德拉共议智能体AI时代",
-      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
-      "source": "X：NVIDIA (@nvidia)",
-      "href": "https://x.com/nvidia/status/2062228974273716457",
-      "publishedAt": "2026-06-03T17:44:36.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
-      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
-      "source": "X：Krea AI (@krea_ai)",
-      "href": "https://x.com/krea_ai/status/2062227837130887567",
-      "publishedAt": "2026-06-03T17:40:05.000Z"
     }
   ]
 }
