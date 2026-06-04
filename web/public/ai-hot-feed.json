@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-04T13:10:03.300Z",
-  "count": 28,
+  "updatedAt": "2026-06-04T15:06:05.741Z",
+  "count": 23,
   "items": [
     {
-      "topic": "模型",
-      "title": "NVIDIA发布Nemotron 3 Ultra模型",
-      "summary": "今天我们正式推出 Nemotron 3 Ultra。\n\n这是一款 550B MoE 前沿智能开源模型，专为长时间运行的智能体而构建。\n\n与其他开源前沿模型相比，它实现 5 倍更快的推理，并将复杂智能体任务的成本降低高达 30%。",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2062521325076299981",
-      "publishedAt": "2026-06-04T13:06:18.000Z"
+      "topic": "行业",
+      "title": "DeepSeek连续四周登顶Token份额榜",
+      "summary": "DeepSeek 现已连续四周在我们平台的 token 份额排行榜上位居第一： https：//openrouter.ai/rankings",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2062538625225548118",
+      "publishedAt": "2026-06-04T14:15:03.000Z"
     },
     {
       "topic": "模型",
@@ -17,6 +17,14 @@
       "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
       "href": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents",
       "publishedAt": "2026-06-04T13:02:49.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "如何在 Nemotron 3.5 ASR 上针对你的语言、领域或口音进行微调",
+      "summary": "NVIDIA 在 Hugging Face 发布博客，介绍如何针对特定语言、领域或口音微调 Nemotron 3.5 ASR 模型。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "publishedAt": "2026-06-04T12:59:35.000Z"
     },
     {
       "topic": "技巧",
@@ -177,54 +185,6 @@
       "source": "X：Microsoft Research (@MSFTResearch)",
       "href": "https://x.com/MSFTResearch/status/2062204914223169635",
       "publishedAt": "2026-06-03T16:09:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Perplexity Personal Computer 登陆 Windows",
-      "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2062189045728596080",
-      "publishedAt": "2026-06-03T15:05:56.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
-      "summary": "NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力。GraspGen-X 是首个零样本抓取基础模型，基于 20 亿次模拟抓取训练，可为任意末端执行器生成抓取姿态。LCDrive 用紧凑潜在表示替代文本推理，让自动驾驶在嵌入式硬件上更快推理。NitroGen 基于 Isaac GR00T 架构，在大量虚拟环境中训练具身智能体。此外还发布了新的物理 AI 智能体技能，以及配合 GraspGen-X 使用的 CUDA 加速运动规划库 curoboV2 和闭环抓取论文 Grasp-MPC。",
-      "source": "NVIDIA AI Blog",
-      "href": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
-      "publishedAt": "2026-06-03T15:00:57.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Suno完成4亿美元D轮融资",
-      "summary": "我们激动地宣布Suno的新篇章：4亿美元D轮融资，估值54亿美元！🚀\n我们的使命一直很简单：让更多人能体验制作音乐的乐趣。非常感谢我们不可思议的社区和投资者与我们共同建设。\n\n点击此处阅读Mikey的博客：https：//suno.com/blog/series-d-announcement",
-      "source": "X：Suno (@suno)",
-      "href": "https://x.com/suno/status/2062183524887675243",
-      "publishedAt": "2026-06-03T14:44:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
-      "summary": "微软与OpenAI的合作关系已彻底破裂，双方进入正面竞争态势。前DeepMind高管、现任微软AI主管Mustafa Suleyman明确表示，微软现在必须从头证明自己能独立完成所有必需的任务。这标志着两家科技巨头从紧密合作伙伴转变为直接竞争对手。",
-      "source": "The Verge：订阅版科技（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
-      "publishedAt": "2026-06-03T14:04:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
-      "summary": "Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
-      "publishedAt": "2026-06-03T13:40:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "介绍 Claude Partner Network 的 Services Track 和 Partner Hub",
-      "summary": "Anthropic 扩展 Claude Partner Network，推出 Services Track 分级体系和 Partner Hub 门户。Services Track 设 Select、Preferred、Global Premier 三级，按认证人数、投产客户数及客户推荐信量化评定。Partner Hub 提供每日更新仪表盘和公开目录，方便合作伙伴查看进展、客户寻找供应商。该网络三月启动以来已有超 4 万家公司申请，逾 1 万顾问获认证；Accenture 训练 3 万人，Cognizant 部署约 35 万员工，Deloitte 惠及 47 万人，KPMG 覆盖 27.6 万，Infosys 构建行业智能体，PwC 先在美推广再扩至全球。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/services-track-partner-hub",
-      "publishedAt": "2026-06-03T13:30:21.674Z"
     }
   ]
 }
