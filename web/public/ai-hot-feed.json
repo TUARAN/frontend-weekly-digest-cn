@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-04T11:07:07.829Z",
-  "count": 25,
+  "updatedAt": "2026-06-04T13:10:03.300Z",
+  "count": 28,
   "items": [
+    {
+      "topic": "模型",
+      "title": "NVIDIA发布Nemotron 3 Ultra模型",
+      "summary": "今天我们正式推出 Nemotron 3 Ultra。\n\n这是一款 550B MoE 前沿智能开源模型，专为长时间运行的智能体而构建。\n\n与其他开源前沿模型相比，它实现 5 倍更快的推理，并将复杂智能体任务的成本降低高达 30%。",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "href": "https://x.com/NVIDIAAI/status/2062521325076299981",
+      "publishedAt": "2026-06-04T13:06:18.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力",
+      "summary": "NVIDIA 发布 Nemotron 3 Ultra 模型，专为长时间运行的 AI 智能体设计。该模型能够在多轮对话中保持上下文、调用工具、调用子智能体，并高效处理复杂工作流。随着多智能体协作导致模型 token 数量快速增长，Nemotron 3 Ultra 通过优化推理流程显著提升速度并降低计算成本，使长期运行的智能体任务更加可行。",
+      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+      "href": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents",
+      "publishedAt": "2026-06-04T13:02:49.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI称AI递归自我改进迹象初现",
+      "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2062517474277675102",
+      "publishedAt": "2026-06-04T12:51:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "EVA-Bench Data 2.0：3 大领域、121 个工具、213 个场景",
+      "summary": "ServiceNow-AI 发布 EVA-Bench Data 2.0 数据集，覆盖 3 个领域、121 个工具和 213 个场景，用于评估 AI 智能体的工具使用能力。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "publishedAt": "2026-06-04T12:24:58.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Nemotron 预训练的任务种子合成问答生成",
+      "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
+      "publishedAt": "2026-06-04T11:24:53.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
+      "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/newsletters/2026-06-04/microsoft-says-anthropic-models-are-too-expensive",
+      "publishedAt": "2026-06-04T11:02:01.000Z"
+    },
     {
       "topic": "产品",
       "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
@@ -177,30 +225,6 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/services-track-partner-hub",
       "publishedAt": "2026-06-03T13:30:21.674Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "超越聊天机器人的直接偏好优化",
-      "summary": "Dharma-AI 在 Hugging Face 博客发文，探讨直接偏好优化（Direct Preference Optimization，DPO）在聊天机器人之外的更广泛应用场景。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "publishedAt": "2026-06-03T12:55:11.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "欧盟公布全面技术主权计划，推动芯片与AI自主发展",
-      "summary": "欧盟公布一项全面技术主权计划，旨在扩大本土半导体、人工智能和云计算供应链，以减少对美国和亚洲的依赖。该计划覆盖芯片制造、AI基础设施及云计算服务等多个关键领域，目标是增强欧洲在核心技术上的自主能力。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
-      "publishedAt": "2026-06-03T12:12:15.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cursor Enterprise 推出 Organizations 组织管理功能",
-      "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。",
-      "source": "Cursor Blog",
-      "href": "https://cursor.com/blog/organizations",
-      "publishedAt": "2026-06-03T12:00:00.000Z"
     }
   ]
 }
