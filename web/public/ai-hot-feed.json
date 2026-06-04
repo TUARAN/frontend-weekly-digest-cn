@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-04T19:43:51.850Z",
-  "count": 23,
+  "updatedAt": "2026-06-04T20:45:41.603Z",
+  "count": 26,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Google Research 发布被动心率监测系统 PHRM",
+      "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
+      "source": "Google Research：Blog（网页）",
+      "href": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
+      "publishedAt": "2026-06-04T20:25:28.688Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI API 新增内容审核评分",
+      "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "href": "https://x.com/OpenAIDevs/status/2062619558440267801",
+      "publishedAt": "2026-06-04T19:36:39.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
+      "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "publishedAt": "2026-06-04T18:57:45.000Z"
+    },
     {
       "topic": "模型",
       "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
