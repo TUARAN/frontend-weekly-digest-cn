@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-04",
+  "displayDate": "Jun 4",
+  "dateNum": "0604",
+  "year": 2026,
+  "dayOfWeek": "THU",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "X：Krea AI (@krea_ai) · Claude：Blog（网页） · X：Replit (@Replit) 等",
+  "count": 5,
+  "highlights": [
+    "Ideogram v4.0 发布：2K ",
+    "Anthropic 用 Claude 赋",
+    "Replit上线SEO Agent助应用",
+    "NVIDIA Research 在 CV",
+    "Anthropic 分析 832 个 A"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "Anthropic 用 Claude 赋能自助数据分析",
+      "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。",
+      "reason": "行业数据揭示开发者行为趋势，辅助技术选型判断"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "Replit上线SEO Agent助应用被发现",
+      "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+      "summary": "NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力。GraspGen-X 是首个零样本抓取基础模型，基于 20 亿次模拟抓取训练，可为任意末端执行器生成抓取姿态。LCDrive 用紧凑潜在表示替代文本推理，让自动驾驶在嵌入式硬件上更快推理。NitroGen 基于 Isaac GR00T 架构，在大量虚拟环境中训练具身智能体。此外还发布了新的物理 AI 智能体技能，以及配合 GraspGen-X 使用的 CUDA 加速运动规划库 curoboV2 和闭环抓取论文 Grasp-MPC。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
+      "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    }
+  ]
+}

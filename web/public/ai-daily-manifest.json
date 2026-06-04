@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-04",
+      "displayDate": "Jun 4",
+      "json": "/ai-daily/2026-06-04.json",
+      "count": 5,
+      "highlights": [
+        "Ideogram v4.0 发布：2K ",
+        "Anthropic 用 Claude 赋",
+        "Replit上线SEO Agent助应用",
+        "NVIDIA Research 在 CV",
+        "Anthropic 分析 832 个 A"
+      ]
+    },
+    {
       "date": "2026-06-03",
       "displayDate": "Jun 3",
       "json": "/ai-daily/2026-06-03.json",
@@ -91,5 +104,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-03"
+  "latest": "2026-06-04"
 }
