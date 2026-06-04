@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-04T09:23:20.274Z",
-  "count": 27,
+  "updatedAt": "2026-06-04T11:07:07.829Z",
+  "count": 25,
   "items": [
     {
       "topic": "产品",
@@ -201,22 +201,6 @@
       "source": "Cursor Blog",
       "href": "https://cursor.com/blog/organizations",
       "publishedAt": "2026-06-03T12:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Qwen Cloud全球AI黑客马拉松启动",
-      "summary": "首届Qwen Cloud全球AI黑客马拉松现已启动！\n\n参与5大高级赛道，在全球舞台上挑战AI智能体极限。\n\n总奖金池超过70，000美元（赛道冠军1万美元）。\n\n立即在Devpost报名：https：//click.qwencloud.com/m/20000000281/",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2062113338994172169",
-      "publishedAt": "2026-06-03T10:05:06.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
-      "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "href": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "publishedAt": "2026-06-03T09:51:21.088Z"
     }
   ]
 }
