@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-04T01:01:15.441Z",
-  "count": 30,
+  "updatedAt": "2026-06-04T03:13:22.772Z",
+  "count": 29,
   "items": [
+    {
+      "topic": "论文",
+      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+      "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk",
+      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "href": "https://x.com/NVIDIAAI/status/2062358080222876041",
+      "publishedAt": "2026-06-04T02:17:37.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
+      "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/959/607.htm",
+      "publishedAt": "2026-06-04T00:50:46.000Z"
+    },
     {
       "topic": "产品",
       "title": "Grok模型登陆Cloudflare AI Gateway",
@@ -41,14 +57,6 @@
       "source": "Google Research：Blog（网页）",
       "href": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
       "publishedAt": "2026-06-03T18:49:39.703Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Grok Imagine 1.5 预览版发布",
-      "summary": "Grok Imagine 1.5 预览版已发布，即日起可在 API 中体验。SpaceXAI 正在发力。",
-      "source": "X：cb_doge (@cb_doge)",
-      "href": "https://x.com/cb_doge/status/2062242490745594085",
-      "publishedAt": "2026-06-03T18:38:19.000Z"
     },
     {
       "topic": "产品",
@@ -97,14 +105,6 @@
       "source": "X：NVIDIA AI (@NVIDIAAI)",
       "href": "https://x.com/NVIDIAAI/status/2062210034109677665",
       "publishedAt": "2026-06-03T16:29:20.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "xAI Grok语音模型上线Vapi平台",
-      "summary": "试试 @Vapi_AI 上最自然的TTS和性价比最高的STT API。\n\n来自 @xai 的Grok STT和Grok TTS现已在企业语音AI平台Vapi上线。基于Vapi构建自定义语音智能体，可让它们用客户的语言交流、在受监管的工作流中捕捉重要细节，并在每次通话中明显更具人性化。",
-      "source": "X：xAI (@xai)",
-      "href": "https://x.com/xai/status/2062209374039499178",
-      "publishedAt": "2026-06-03T16:26:43.000Z"
     },
     {
       "topic": "论文",
@@ -233,14 +233,6 @@
       "source": "X：Satya Nadella (@satyanadella)",
       "href": "https://x.com/satyanadella/status/2062022060176801826",
       "publishedAt": "2026-06-03T04:02:24.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "宏利香港与阿里云达成AI战略合作",
-      "summary": "宏利香港宣布与阿里云建立战略合作伙伴关系，旨在构建一个专注于推进负责任的AI创新，并加速AI技术在业务中部署的合作框架。",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2062006591377829922",
-      "publishedAt": "2026-06-03T03:00:56.000Z"
     }
   ]
 }
