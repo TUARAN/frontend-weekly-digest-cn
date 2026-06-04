@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-04T18:50:38.897Z",
-  "count": 24,
+  "updatedAt": "2026-06-04T19:43:51.850Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+      "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "href": "https://x.com/googleaidevs/status/2062603374789263646",
+      "publishedAt": "2026-06-04T18:32:20.000Z"
+    },
     {
       "topic": "产品",
       "title": "Codex 推出 iOS 应用构建插件",
@@ -177,22 +185,6 @@
       "source": "X：OpenClaw (@openclaw)",
       "href": "https://x.com/openclaw/status/2062288421406785710",
       "publishedAt": "2026-06-03T21:40:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
-      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
-      "publishedAt": "2026-06-03T19:00:08.294Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "世界模型的功能分类",
-      "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
-      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-      "href": "https://x.com/drfeifei/status/2062247238143996275",
-      "publishedAt": "2026-06-03T18:57:10.000Z"
     }
   ]
 }
