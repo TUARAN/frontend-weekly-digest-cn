@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-04T20:45:41.603Z",
-  "count": 26,
+  "updatedAt": "2026-06-04T21:35:02.840Z",
+  "count": 27,
   "items": [
     {
       "topic": "论文",
@@ -185,6 +185,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/959/607.htm",
       "publishedAt": "2026-06-04T00:50:46.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
+      "summary": "OpenAI 提出一项名为\"Biodefense in the Intelligence Age\"的行动计划，旨在利用 AI 增强生物防御与韧性。该计划聚焦于构建 AI 驱动的生物安全能力，以应对未来可能出现的生物威胁。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "publishedAt": "2026-06-04T00:00:00.000Z"
     },
     {
       "topic": "产品",
