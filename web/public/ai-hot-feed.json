@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-05T07:34:32.579Z",
+  "updatedAt": "2026-06-05T09:13:22.593Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "腾讯混元联合人大开源PlanningBench评估框架",
+      "summary": "腾讯混元（Tencent Hunyuan）与中国人民大学高瓴人工智能学院合作，开源PlanningBench--一个可扩展、可验证的LLM规划能力评估与训练框架。该框架包含30+真实世界规划任务，支持自动验证和训练。PlanningBench旨在推动LLM从\"说\"到\"做\"的规划能力发展。资源已发布于arXiv、GitHub及HuggingFace。",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "href": "https://x.com/TencentHunyuan/status/2062803141314437391",
+      "publishedAt": "2026-06-05T07:46:08.000Z"
+    },
     {
       "topic": "产品",
       "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
@@ -233,14 +241,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
       "publishedAt": "2026-06-04T12:24:58.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
-      "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/announcements/royale-last-agent-standing",
-      "publishedAt": "2026-06-04T12:00:00.000Z"
     }
   ]
 }
