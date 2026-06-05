@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-06-05T13:06:22.722Z",
-  "count": 27,
+  "updatedAt": "2026-06-05T15:04:09.983Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Viggle_PINOC 免费动捕测试开启",
+      "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！",
+      "source": "X：Viggle AI (@ViggleAI)",
+      "href": "https://x.com/ViggleAI/status/2062904007123714329",
+      "publishedAt": "2026-06-05T14:26:56.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Sir Demis Hassabis vs Sir Demis Hassabis",
+      "summary": "",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/sir-demis-hassabis-vs-sir-demis-hassabis",
+      "publishedAt": "2026-06-05T14:25:36.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "一个非常狠的AI教学提示词：追问式检查清单教学",
+      "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖\"为什么\"。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2062902972649222311",
+      "publishedAt": "2026-06-05T14:22:50.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Meta 智能眼镜 App 暗藏人脸识别代码，NameTag 功能已推送至超 5000 万设备",
+      "summary": "据《连线》今日报道，Meta 通过多次应用更新将人脸识别代码推送到智能眼镜配套 App 中，代号\"NameTag\"。该功能利用已部署的三个 AI 模型将人脸转换为\"人脸特征模板\"，与手机本地数据库匹配，识别成功后向佩戴者发送通知。App 下载量超 5000 万次。Meta 回应称代码仅为探索，尚未决定推出，且不会建立中央人脸数据库。此前 Meta 曾因人脸识别问题在伊利诺伊州和得克萨斯州分别达成 6.5 亿美元和 14 亿美元和解。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/960/735.htm",
+      "publishedAt": "2026-06-05T13:59:37.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布",
+      "summary": "6月5日，开源鸿蒙具身智能PMC（筹）发布EmbodiedAI 1.0.1版本。该版本聚焦机器人控制与智能体应用，升级导航规划、运动控制、仿真开发、硬件适配等核心能力，兼容ROS生态、机器人模拟器及多种本体形态。集成开源鸿蒙原生模拟器、MuJoCo、Gazebo三大仿真环境，打通从代码开发到真机验证的全流程链路。人形机器人、四足机器狗、商用服务机器人等已完成适配验证。目前具身智能方向已组建18个专项SIG工作组，版本源码已正式开放。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/960/722.htm",
+      "publishedAt": "2026-06-05T13:31:13.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "社区基于MiniCPM-V 4.6打造财务分析工具AccountingLLM",
+      "summary": "社区开发者使用面壁智能MiniCPM-V 4.6构建了AccountingLLM（quaesto.com），用于自动化财务文档分析。该工具可上传IPO招股书、年报或审计文件，自动从复杂PDF中提取财务表格、重建跨页表格、对照会计等式检查关键数据，并标记可疑条目供人工审核。开发者已将其商业化，成为实际可用的产品。",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2062889699056984281",
+      "publishedAt": "2026-06-05T13:30:05.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "你的AI账单失控了。Cloudflare现在可以解决这个问题。",
+      "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。",
+      "source": "Cloudflare Blog",
+      "href": "https://blog.cloudflare.com/ai-gateway-spend-limits",
+      "publishedAt": "2026-06-05T13:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "微软CEO Satya Nadella最新访谈上线",
@@ -185,38 +241,6 @@
       "source": "LMSYS：Blog（Chatbot Arena 团队）",
       "href": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
       "publishedAt": "2026-06-04T16:53:01.234Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
-      "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "href": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
-      "publishedAt": "2026-06-04T16:14:49.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
-      "summary": "neolab 推出 Nex-N2-Pro，基于 Qwen3.5-397B-A17B，总参数 397B 的 MoE 推理模型，支持 262K 上下文与多模态（VLM），性能达到 GPT-5.5 和 Claude Opus 4.7 级别。模型可自动调节推理深度，减少 30-50% 思考 token 且无性能折损，在 Terminal Bench 2.1、GDPVal、SWE-Verified 上取得 SOTA。擅长智能体编码、深度搜索和工具使用，兼容 Claude Code、Cursor 等工具。硅基流动已提供 T+0 支持，前两周免费使用。",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "href": "https://x.com/SiliconFlowAI/status/2062549952266723493",
-      "publishedAt": "2026-06-04T15:00:03.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
-      "summary": "全球最大芯片制造商台积电表示，通过美国本土生产满足客户需求可能需要\"非常长的时间\"，凸显AI需求带来的产能压力。",
-      "source": "The Verge：订阅版科技（RSS）",
-      "href": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
-      "publishedAt": "2026-06-04T14:15:44.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "DeepSeek连续四周登顶Token份额榜",
-      "summary": "DeepSeek 现已连续四周在我们平台的 token 份额排行榜上位居第一： https：//openrouter.ai/rankings",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2062538625225548118",
-      "publishedAt": "2026-06-04T14:15:03.000Z"
     }
   ]
 }
