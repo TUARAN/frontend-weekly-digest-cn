@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-05T03:13:15.616Z",
-  "count": 28,
+  "updatedAt": "2026-06-05T05:35:13.477Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
+      "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/alibaba/open-code-review",
+      "publishedAt": "2026-06-05T05:16:06.561Z"
+    },
+    {
+      "topic": "行业",
+      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
+      "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/960/323.htm",
+      "publishedAt": "2026-06-05T03:04:23.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
