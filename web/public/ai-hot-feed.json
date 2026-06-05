@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-05T18:42:51.828Z",
+  "updatedAt": "2026-06-05T19:36:30.885Z",
   "count": 30,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Anthropic：让Claude成为化学家",
+      "summary": "Anthropic与顶尖化学家合作，提升Claude在化学领域的实用性。首个白皮书测试Claude在NMR谱图分析上的表现：在20个化合物上，对比Claude Opus 4.7、Opus 4.6、Sonnet 4.6与ChemDraw、MestReNova的正向预测（从结构预测谱图）和反向结构解析（从实验谱图推断结构）能力。所有化合物选自模型训练截止日期后发布的ChemRxiv预印本，以避免选择偏差。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "publishedAt": "2026-06-05T19:33:26.491Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude 是否增加了 rsync 中的错误？",
+      "summary": "一篇 Hacker News 热门帖子（105 分）提出了 Claude 是否导致 rsync 工具中 bug 增加的问题，并附有分析链接。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://alexispurslane.github.io/rsync-analysis",
+      "publishedAt": "2026-06-05T19:07:35.749Z"
+    },
     {
       "topic": "产品",
       "title": "智能体协作应如同事般对话和手势",
@@ -225,22 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/960/218.htm",
       "publishedAt": "2026-06-05T01:16:34.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI的微型钢厂",
-      "summary": "作者通过技能蒸馏将78%的AI工作交由Mac本地模型处理，仅复杂任务发往云端。智能体自动分类任务：简单任务本地数秒完成，复杂任务路由至云端。过去一周本地处理峰值达88%。双车道设计使吞吐量提升约25%，平均任务时长从47秒降至19秒，队列等待时间从73秒降至4秒（降幅94%）。该模式类比Nucor小钢厂，每台能运行蒸馏模型的边缘设备都成为小型AI工厂，仅对那1/5困难任务支付云费用。未来几年，数以千万计的此类设备将在企业内部增殖，逐步取代现阶段云厂商账单上的大部分工作负载。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/using-local-ai-to-work-faster",
-      "publishedAt": "2026-06-05T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
-      "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
-      "source": "X：cb_doge (@cb_doge)",
-      "href": "https://x.com/cb_doge/status/2062681226633523250",
-      "publishedAt": "2026-06-04T23:41:41.000Z"
     }
   ]
 }
