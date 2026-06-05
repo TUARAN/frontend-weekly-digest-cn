@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-05",
+      "displayDate": "Jun 5",
+      "json": "/ai-daily/2026-06-05.json",
+      "count": 5,
+      "highlights": [
+        "Nex-N2-Pro 发布：基于 Qwe",
+        "EVA-Bench Data 2.0 发",
+        "Google Magenta RealT",
+        "Anthropic 开源 AI 驱动漏洞",
+        "OpenAI API 新增内容审核评分"
+      ]
+    },
+    {
       "date": "2026-06-04",
       "displayDate": "Jun 4",
       "json": "/ai-daily/2026-06-04.json",
@@ -104,5 +117,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-04"
+  "latest": "2026-06-05"
 }
