@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-05T15:04:09.983Z",
+  "updatedAt": "2026-06-05T16:51:32.139Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Gemini Live 支持实时创建编辑图像",
+      "summary": "你现可直接在 Gemini Live 中创建和编辑图像。\n\n无论是测试房间装饰、解决数学问题，还是制作可分享的梗图，所有操作都实时完成。\n\n只需打开 Gemini 应用，点击 Live 按钮，共享摄像头，告诉 Gemini 你想看到的。",
+      "source": "X：Gemini (@GeminiApp)",
+      "href": "https://x.com/GeminiApp/status/2062936486509785385",
+      "publishedAt": "2026-06-05T16:36:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "AI热推高美国计算基建GDP占比翻倍",
+      "summary": "AI 热潮使计算基础设施占美国 GDP 比重翻倍。\n\n2026 年第一季度，与 AI 相关的数据中心建设、计算硬件和网络设备投资约占美国 GDP 的 0.8%，推动整个计算基础设施占 GDP 比重达到约 1.5%。",
+      "source": "X：Epoch AI (@EpochAIResearch)",
+      "href": "https://x.com/EpochAIResearch/status/2062933470373146828",
+      "publishedAt": "2026-06-05T16:24:01.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
+      "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624",
+      "source": "X：AI at Meta (@AIatMeta)",
+      "href": "https://x.com/AIatMeta/status/2062920724944507095",
+      "publishedAt": "2026-06-05T15:33:22.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Suno Voices 使用指南：6 个技巧打造高质量人声录制",
+      "summary": "Suno Voices 面向 Web 付费用户开放。提升人声质量的 6 个技巧：在安静环境录音以减少背景噪音；先练习歌词再正式录制；不必追求完美，保留真实情感；录音时长尽量超过 1 分钟以提供更多学习素材；将人声匹配到合适的音乐流派（如民谣、流行、死亡金属、波萨诺瓦等）；敢于尝试不同风格以发现惊喜。这些技巧旨在帮助用户获得更个性化、表现力更强的声音效果。",
+      "source": "Suno：Blog（网页）",
+      "href": "https://suno.com/blog/6-tips-for-voices",
+      "publishedAt": "2026-06-05T15:26:17.111Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 前 CTO 称若 Altman 未回归公司可能已\"瓦解\"",
+      "summary": "Mira Murati 表示，如果 Sam Altman 在 2023 年被短暂罢免后没有回归 CEO 职位，OpenAI 很可能已经\"瓦解\"。这是她对那场硅谷最激烈的董事会斗争的最清晰描述。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-05/openai-would-ve-imploded-if-altman-didn-t-return-ex-cto-says",
+      "publishedAt": "2026-06-05T15:18:30.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Hinton称AI拥有意识：人类最好接受非唯一智能生命",
+      "summary": "AI先驱Geoffrey Hinton表示，他认为AI拥有意识，人类应接受自己并非唯一智能生命。他指出AI\"非常像我们\"，AI聊天机器人必须理解问题才能作答，这种觉知等同于感知能力，智能不限于生物。主推文作者进一步讨论意识本质：笛卡尔的\"我思故我在\"和fMRI等实证手段都无法真正定义意识，人类对自身了解远不及想象。作者呼吁转向新哲学问题，厘清人与机器的区别与联系。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2062915287700090948",
+      "publishedAt": "2026-06-05T15:11:46.000Z"
+    },
     {
       "topic": "产品",
       "title": "Viggle_PINOC 免费动捕测试开启",
@@ -25,6 +73,14 @@
       "source": "X：小互 (@xiaohu)",
       "href": "https://x.com/xiaohu/status/2062902972649222311",
       "publishedAt": "2026-06-05T14:22:50.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta\"版",
+      "summary": "苹果新版Siri被内部标记为\"Beta\"版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；\"查找\"应用视觉重设计；照片\"清理\"功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/960/739.htm",
+      "publishedAt": "2026-06-05T14:21:03.000Z"
     },
     {
       "topic": "行业",
@@ -132,6 +188,14 @@
     },
     {
       "topic": "技巧",
+      "title": "AI的微型钢厂",
+      "summary": "作者通过技能蒸馏将78%的AI工作交由Mac本地模型处理，仅复杂任务发往云端。智能体自动分类任务：简单任务本地数秒完成，复杂任务路由至云端。过去一周本地处理峰值达88%。双车道设计使吞吐量提升约25%，平均任务时长从47秒降至19秒，队列等待时间从73秒降至4秒（降幅94%）。该模式类比Nucor小钢厂，每台能运行蒸馏模型的边缘设备都成为小型AI工厂，仅对那1/5困难任务支付云费用。未来几年，数以千万计的此类设备将在企业内部增殖，逐步取代现阶段云厂商账单上的大部分工作负载。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/using-local-ai-to-work-faster",
+      "publishedAt": "2026-06-05T00:00:00.000Z"
+    },
+    {
+      "topic": "技巧",
       "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
       "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
       "source": "X：cb_doge (@cb_doge)",
@@ -177,70 +241,6 @@
       "source": "Ethan Mollick：One Useful Thing（RSS）",
       "href": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
       "publishedAt": "2026-06-04T21:13:42.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Google Research 发布被动心率监测系统 PHRM",
-      "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
-      "source": "Google Research：Blog（网页）",
-      "href": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
-      "publishedAt": "2026-06-04T20:25:28.688Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI API 新增内容审核评分",
-      "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2062619558440267801",
-      "publishedAt": "2026-06-04T19:36:39.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
-      "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "publishedAt": "2026-06-04T18:57:45.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
-      "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "href": "https://x.com/googleaidevs/status/2062603374789263646",
-      "publishedAt": "2026-06-04T18:32:20.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex 推出 iOS 应用构建插件",
-      "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2062599291479478275",
-      "publishedAt": "2026-06-04T18:16:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit Agent 联手 Shopify 快速建店",
-      "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2062594881625940379",
-      "publishedAt": "2026-06-04T17:58:35.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NotebookLM 推出福尔摩斯游戏笔记本",
-      "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "href": "https://x.com/NotebookLM/status/2062582348194197743",
-      "publishedAt": "2026-06-04T17:08:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
-      "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
-      "publishedAt": "2026-06-04T16:53:01.234Z"
     }
   ]
 }
