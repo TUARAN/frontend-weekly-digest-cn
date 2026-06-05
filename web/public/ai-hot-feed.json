@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-05T17:38:15.003Z",
+  "updatedAt": "2026-06-05T18:42:51.828Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "智能体协作应如同事般对话和手势",
+      "summary": "与 AI 智能体协作应感觉像与同事协作一样。你应能\"与它们交谈\"--不仅通过文本聊天，还能一起对着屏幕做手势、实时对话等。",
+      "source": "X：Michael Truell (@mntruell)",
+      "href": "https://x.com/mntruell/status/2062955210897801520",
+      "publishedAt": "2026-06-05T17:50:24.000Z"
+    },
     {
       "topic": "产品",
       "title": "Google Colab CLI 发布",
@@ -233,14 +241,6 @@
       "source": "X：cb_doge (@cb_doge)",
       "href": "https://x.com/cb_doge/status/2062681226633523250",
       "publishedAt": "2026-06-04T23:41:41.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NotebookLM 来源归属功能上线",
-      "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "href": "https://x.com/NotebookLM/status/2062653124326863077",
-      "publishedAt": "2026-06-04T21:50:01.000Z"
     }
   ]
 }
