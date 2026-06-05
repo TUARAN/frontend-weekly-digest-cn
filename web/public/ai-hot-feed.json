@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-05T01:47:44.191Z",
-  "count": 29,
+  "updatedAt": "2026-06-05T03:13:15.616Z",
+  "count": 28,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+      "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/960/218.htm",
+      "publishedAt": "2026-06-05T01:16:34.000Z"
+    },
     {
       "topic": "技巧",
       "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
@@ -217,22 +225,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
       "publishedAt": "2026-06-04T06:23:10.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
-      "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2062367357868355622",
-      "publishedAt": "2026-06-04T02:54:29.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
-      "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2062358080222876041",
-      "publishedAt": "2026-06-04T02:17:37.000Z"
     }
   ]
 }
