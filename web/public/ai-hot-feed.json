@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-05T20:39:00.856Z",
+  "updatedAt": "2026-06-05T21:33:12.453Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "SpaceX获Anthropic与Google月付21.7亿美元GPU算力，Alphabet持股回报近百倍",
+      "summary": "Anthropic此前承诺每月向SpaceX支付12.5亿美元GPU算力。Google新披露的云服务协议每月再付9.2亿美元（年化约110亿美元），两家AI实验室合计月付21.7亿美元，年化营收达260亿美元。Alphabet于2015年以约9亿美元入股SpaceX约7%，当前SpaceX目标IPO估值1.75万亿美元，其6.11%股份对应约1070亿美元，投资回报约97-119倍。业务转向显示AI算力正成为战略商品。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2063007808975692068",
+      "publishedAt": "2026-06-05T21:19:25.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Apollo 敲定 350 亿美元债务融资，为 Anthropic 采购 AI 芯片",
+      "summary": "Apollo Global Management 和 Blackstone 已为 Anthropic 敲定 350 亿美元融资方案，用于扩充其 AI 基础设施。这是人工智能竞赛中最新的一笔巨额交易。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
+      "publishedAt": "2026-06-05T21:02:29.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "SpaceX与Google达成云计算新协议",
+      "summary": "SpaceX 刚刚披露了一份与 Google 的新云服务协议。\n\nGoogle 将每月向 SpaceX 支付 9.2 亿美元（约合每年 110 亿美元），用于 xAI 数据中心的计算能力。\n\n这再次表明，AI 算力正成为一种战略性商品，就像发射能力或能源一样，而那些能够为庞大的 GPU 集群提供资金、电力、冷却和运营的公司，可能会在其原有业务之外获得巨大的杠杆优势。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2063000834045313314",
+      "publishedAt": "2026-06-05T20:51:42.000Z"
+    },
     {
       "topic": "产品",
       "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
@@ -217,30 +241,6 @@
       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "href": "https://x.com/alibaba_cloud/status/2062781182417490310",
       "publishedAt": "2026-06-05T06:18:53.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
-      "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2062777684120244656",
-      "publishedAt": "2026-06-05T06:04:59.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
-      "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。",
-      "source": "NVIDIA AI Blog",
-      "href": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
-      "publishedAt": "2026-06-05T05:38:37.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
-      "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/alibaba/open-code-review",
-      "publishedAt": "2026-06-05T05:16:06.561Z"
     }
   ]
 }
