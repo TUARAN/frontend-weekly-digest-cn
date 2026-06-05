@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-05T11:10:06.056Z",
-  "count": 30,
+  "updatedAt": "2026-06-05T13:06:22.722Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "微软CEO Satya Nadella最新访谈上线",
+      "summary": "Satya Nadella 在 Latent Space 发布最新访谈，链接见原文。原推文仅评论\"chat is he cooked\"。",
+      "source": "X：swyx (@swyx)",
+      "href": "https://x.com/swyx/status/2062854555562565741",
+      "publishedAt": "2026-06-05T11:10:26.000Z"
+    },
     {
       "topic": "技巧",
       "title": "腾讯混元联合人大开源PlanningBench评估框架",
@@ -209,38 +217,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2062538625225548118",
       "publishedAt": "2026-06-04T14:15:03.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "NVIDIA Nemotron 3 Ultra 为长时间运行的智能体带来更快、更高效的推理能力",
-      "summary": "NVIDIA 发布 Nemotron 3 Ultra 模型，专为长时间运行的 AI 智能体设计。该模型能够在多轮对话中保持上下文、调用工具、调用子智能体，并高效处理复杂工作流。随着多智能体协作导致模型 token 数量快速增长，Nemotron 3 Ultra 通过优化推理流程显著提升速度并降低计算成本，使长期运行的智能体任务更加可行。",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "href": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents",
-      "publishedAt": "2026-06-04T13:02:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
-      "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
-      "publishedAt": "2026-06-04T12:59:35.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI称AI递归自我改进迹象初现",
-      "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2062517474277675102",
-      "publishedAt": "2026-06-04T12:51:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
-      "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "publishedAt": "2026-06-04T12:24:58.000Z"
     }
   ]
 }
