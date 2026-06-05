@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-05T19:36:30.885Z",
+  "updatedAt": "2026-06-05T20:39:00.856Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
+      "summary": "Google Research 与 Google Cloud 合作推出跨语料库检索（Cross-Corpus Retrieval）框架，作为 Gemini Enterprise Agent Platform 的 Agentic RAG。该多智能体工作流将复杂企业查询分解为子任务，通过规划、重写和路由，迭代搜索多个数据源直至获得充分上下文，再生成可靠回答。与标准 RAG 相比，在事实性数据集上准确率最高提升 34%；在多个领域特定内部数据集上也实现了更好的接地与推理准确性。",
+      "source": "Google Research：Blog（网页）",
+      "href": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
+      "publishedAt": "2026-06-05T20:30:02.046Z"
+    },
+    {
+      "topic": "论文",
+      "title": "微软Project Mosaic：micro-LED光学互连技术",
+      "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "href": "https://x.com/MSFTResearch/status/2062983588606320714",
+      "publishedAt": "2026-06-05T19:43:10.000Z"
+    },
     {
       "topic": "论文",
       "title": "Anthropic：让Claude成为化学家",
@@ -9,6 +25,14 @@
       "source": "Anthropic：Research（发表成果 · 网页）",
       "href": "https://www.anthropic.com/research/making-claude-a-chemist",
       "publishedAt": "2026-06-05T19:33:26.491Z"
+    },
+    {
+      "topic": "行业",
+      "title": "五角大楼正运营着一个针对拉丁美洲的人工智能宣传机器",
+      "summary": "据 The Intercept 6月5日报道，美国五角大楼正在运营一个针对拉丁美洲的人工智能宣传机器（AI propaganda mill）。报道指出，该机器利用 AI 技术生成并传播宣传内容，目标为拉丁美洲地区。该消息在 Hacker News 上获得 100 点热度。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon",
+      "publishedAt": "2026-06-05T19:23:20.788Z"
     },
     {
       "topic": "技巧",
@@ -217,30 +241,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/alibaba/open-code-review",
       "publishedAt": "2026-06-05T05:16:06.561Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "375个公众号RSS源优化Agent输入",
-      "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
-      "source": "X：洪明 (@hongming731)",
-      "href": "https://x.com/hongming731/status/2062764845494317493",
-      "publishedAt": "2026-06-05T05:13:58.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
-      "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/960/323.htm",
-      "publishedAt": "2026-06-05T03:04:23.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
-      "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/960/218.htm",
-      "publishedAt": "2026-06-05T01:16:34.000Z"
     }
   ]
 }
