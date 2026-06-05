@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-05T16:51:32.139Z",
+  "updatedAt": "2026-06-05T17:38:15.003Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Google Colab CLI 发布",
+      "summary": "Google 推出 Colab 命令行界面（CLI），允许开发者和 AI 智能体将本地终端连接到远程 Colab 运行时，实现无摩擦执行。该轻量级 CLI 支持请求高性能 GPU、远程运行本地 Python 脚本，并检索工件日志或模型（如微调后的 Gemma 3 适配器）。工具可直接集成到标准终端环境，可被 Antigravity、Claude Code 等 AI 智能体调用以管理复杂机器学习流水线。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/introducing-the-google-colab-cli",
+      "publishedAt": "2026-06-05T17:12:11.075Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Riverflow 2.5：可控制评分标准的图像模型",
+      "summary": "在OpenRouter上线：来自@Sourceful的Riverflow 2.5。\n\n首个具有独立评分标准的图像模型，你可控制该标准以引导其思维和编辑，并具备可控的推理努力，可在速度与质量之间进行权衡。\n\n免费至6月9日（周二）。Fast和Pro见下方🧵。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2062944965978992935",
+      "publishedAt": "2026-06-05T17:09:42.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ChatGPT 网页版支持从写作块发送邮件",
+      "summary": "草拟。调整。发送。\n\n现在你可以在网页版 ChatGPT 中直接从写作块发送邮件，无需离开对话。",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "href": "https://x.com/ChatGPTapp/status/2062944254591430917",
+      "publishedAt": "2026-06-05T17:06:52.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google AI 本周产品更新：Nano Banana 2、Co-Scientist、dreambeans、Gemma 4 等",
+      "summary": "Google AI 本周发布多项更新：Nano Banana 2 及 Pro 正式 GA，可通过 Gemini Enterprise Agent Platform、Gemini API 和 Google AI Studio 获取；Co-Scientist 多智能体系统面向科研自动生成优化新假设；Google Labs 推出 dreambeans，根据用户 Google 应用数据每日生成个性化话题集；Gemma 4 12B 统一无编码器多模态模型可完全离线运行于笔记本；Gemma 4 系列及草稿模型引入 QAT 降低内存需求；Google Magenta RealTime 2 开源实时音乐模型，支持 MIDI 键盘、文本提示和手势演奏。",
+      "source": "X：Google AI (@GoogleAI)",
+      "href": "https://x.com/GoogleAI/status/2062942864288387430",
+      "publishedAt": "2026-06-05T17:01:21.000Z"
+    },
     {
       "topic": "产品",
       "title": "Gemini Live 支持实时创建编辑图像",
@@ -209,38 +241,6 @@
       "source": "X：NotebookLM (@NotebookLM)",
       "href": "https://x.com/NotebookLM/status/2062653124326863077",
       "publishedAt": "2026-06-04T21:50:01.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Gemini macOS 双击 Command 附加活动窗口",
-      "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
-      "source": "X：Gemini (@GeminiApp)",
-      "href": "https://x.com/GeminiApp/status/2062652523945836770",
-      "publishedAt": "2026-06-04T21:47:38.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
-      "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/anthropics/defending-code-reference-harness",
-      "publishedAt": "2026-06-04T21:32:05.585Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
-      "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
-      "source": "X：NVIDIA (@nvidia)",
-      "href": "https://x.com/nvidia/status/2062647600424128773",
-      "publishedAt": "2026-06-04T21:28:04.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "共存与协同智能的终结",
-      "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "href": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
-      "publishedAt": "2026-06-04T21:13:42.000Z"
     }
   ]
 }
