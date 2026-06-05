@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-04T23:28:42.050Z",
-  "count": 30,
+  "updatedAt": "2026-06-05T00:53:25.498Z",
+  "count": 29,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
+      "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
+      "source": "X：cb_doge (@cb_doge)",
+      "href": "https://x.com/cb_doge/status/2062681226633523250",
+      "publishedAt": "2026-06-04T23:41:41.000Z"
+    },
     {
       "topic": "产品",
       "title": "NotebookLM 来源归属功能上线",
@@ -225,22 +233,6 @@
       "source": "X：NVIDIA AI (@NVIDIAAI)",
       "href": "https://x.com/NVIDIAAI/status/2062358080222876041",
       "publishedAt": "2026-06-04T02:17:37.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
-      "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/959/607.htm",
-      "publishedAt": "2026-06-04T00:50:46.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
-      "summary": "OpenAI 提出一项名为\"Biodefense in the Intelligence Age\"的行动计划，旨在利用 AI 增强生物防御与韧性。该计划聚焦于构建 AI 驱动的生物安全能力，以应对未来可能出现的生物威胁。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "publishedAt": "2026-06-04T00:00:00.000Z"
     }
   ]
 }
