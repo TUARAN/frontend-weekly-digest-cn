@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-05T05:35:13.477Z",
+  "updatedAt": "2026-06-05T07:34:32.579Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
+      "summary": "PolarDB-X Zero 上线了！\n\n无需注册。无需配置。只需一次 API 调用。\n30 秒内获得一个全分布式数据库。\n原生 HNSW 向量索引--内置兼容 MySQL 的引擎。\n关系型 + 语义搜索--一条 SQL 语句。\nAI 智能体就绪--MCP 协议、AI IDE 兼容（Cursor、Claude、Qoder、Qodex 等）\n\n立即尝试：https：//zero.polardbx.com\n#AlibabaCloud #PolarDB #ApsaraDB",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2062781182417490310",
+      "publishedAt": "2026-06-05T06:18:53.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
+      "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2062777684120244656",
+      "publishedAt": "2026-06-05T06:04:59.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
+      "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
+      "publishedAt": "2026-06-05T05:38:37.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
@@ -9,6 +33,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/alibaba/open-code-review",
       "publishedAt": "2026-06-05T05:16:06.561Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "375个公众号RSS源优化Agent输入",
+      "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽",
+      "source": "X：洪明 (@hongming731)",
+      "href": "https://x.com/hongming731/status/2062764845494317493",
+      "publishedAt": "2026-06-05T05:13:58.000Z"
     },
     {
       "topic": "行业",
@@ -209,38 +241,6 @@
       "source": "OpenRouter：Announcements（RSS）",
       "href": "https://openrouter.ai/announcements/royale-last-agent-standing",
       "publishedAt": "2026-06-04T12:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Nemotron 预训练的任务种子合成问答生成",
-      "summary": "在 Nemotron-3 Nano 模型的 100B token 续训练实验中，任务种子合成数据生成（Task-Seeded SDG）使 MMLU-Pro 提升 1.8 分，平均代码提升 1.9 分，常识理解提升 1.6 分，GPQA 提升 11.1 分，数学成绩保持稳定。该流程利用 lm-eval-harness 中约 70 个公开任务（约 700 子任务）的训练集作为种子，生成新示例并补充推理和上下文，经过格式校验、去重和答案验证后得到精选合成数据集，用于 Nemotron Ultra 和 Super 训练。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/nvidia/task-seeded-sdg",
-      "publishedAt": "2026-06-04T11:24:53.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "微软AI负责人：Anthropic模型太贵，正自研更便宜的替代模型",
-      "summary": "微软AI部门负责人表示，Anthropic推出的模型成本过高，公司目前正在内部研发更廉价的替代模型，以降低成本。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/newsletters/2026-06-04/microsoft-says-anthropic-models-are-too-expensive",
-      "publishedAt": "2026-06-04T11:02:01.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
-      "summary": "ChatGPT 推出名为 Dreaming 的新记忆系统，能够更有效地记住用户偏好，并在跨对话场景中保持上下文的新鲜感和相关性，从而提升助手的个性化体验。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/chatgpt-memory-dreaming",
-      "publishedAt": "2026-06-04T09:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
-      "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
-      "publishedAt": "2026-06-04T06:23:10.000Z"
     }
   ]
 }
