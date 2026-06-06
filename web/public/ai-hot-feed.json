@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-06T17:28:56.459Z",
-  "count": 14,
+  "updatedAt": "2026-06-06T18:31:39.273Z",
+  "count": 13,
   "items": [
     {
       "topic": "技巧",
@@ -105,14 +105,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://alexispurslane.github.io/rsync-analysis",
       "publishedAt": "2026-06-05T19:07:35.749Z"
-    },
-    {
-      "topic": "产品",
-      "title": "智能体协作应如同事般对话和手势",
-      "summary": "与 AI 智能体协作应感觉像与同事协作一样。你应能\"与它们交谈\"--不仅通过文本聊天，还能一起对着屏幕做手势、实时对话等。",
-      "source": "X：Michael Truell (@mntruell)",
-      "href": "https://x.com/mntruell/status/2062955210897801520",
-      "publishedAt": "2026-06-05T17:50:24.000Z"
     }
   ]
 }
