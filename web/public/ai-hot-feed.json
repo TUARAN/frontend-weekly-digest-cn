@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-06T19:32:48.502Z",
-  "count": 12,
+  "updatedAt": "2026-06-06T20:28:29.272Z",
+  "count": 11,
   "items": [
     {
       "topic": "技巧",
@@ -89,14 +89,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2063000834045313314",
       "publishedAt": "2026-06-05T20:51:42.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "微软Project Mosaic：micro-LED光学互连技术",
-      "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "href": "https://x.com/MSFTResearch/status/2062983588606320714",
-      "publishedAt": "2026-06-05T19:43:10.000Z"
     }
   ]
 }
