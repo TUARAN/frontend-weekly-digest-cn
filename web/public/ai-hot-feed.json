@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-06T15:30:12.548Z",
-  "count": 21,
+  "updatedAt": "2026-06-06T16:27:30.168Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Job Searcher",
+      "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+      "publishedAt": "2026-06-06T15:36:51.000Z"
+    },
     {
       "topic": "产品",
       "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
@@ -67,28 +75,12 @@
       "publishedAt": "2026-06-05T20:51:42.000Z"
     },
     {
-      "topic": "产品",
-      "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
-      "summary": "Google Research 与 Google Cloud 合作推出跨语料库检索（Cross-Corpus Retrieval）框架，作为 Gemini Enterprise Agent Platform 的 Agentic RAG。该多智能体工作流将复杂企业查询分解为子任务，通过规划、重写和路由，迭代搜索多个数据源直至获得充分上下文，再生成可靠回答。与标准 RAG 相比，在事实性数据集上准确率最高提升 34%；在多个领域特定内部数据集上也实现了更好的接地与推理准确性。",
-      "source": "Google Research：Blog（网页）",
-      "href": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
-      "publishedAt": "2026-06-05T20:30:02.046Z"
-    },
-    {
       "topic": "论文",
       "title": "微软Project Mosaic：micro-LED光学互连技术",
       "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。",
       "source": "X：Microsoft Research (@MSFTResearch)",
       "href": "https://x.com/MSFTResearch/status/2062983588606320714",
       "publishedAt": "2026-06-05T19:43:10.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic：让Claude成为化学家",
-      "summary": "Anthropic与顶尖化学家合作，提升Claude在化学领域的实用性。首个白皮书测试Claude在NMR谱图分析上的表现：在20个化合物上，对比Claude Opus 4.7、Opus 4.6、Sonnet 4.6与ChemDraw、MestReNova的正向预测（从结构预测谱图）和反向结构解析（从实验谱图推断结构）能力。所有化合物选自模型训练截止日期后发布的ChemRxiv预印本，以避免选择偏差。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "href": "https://www.anthropic.com/research/making-claude-a-chemist",
-      "publishedAt": "2026-06-05T19:33:26.491Z"
     },
     {
       "topic": "行业",
@@ -113,14 +105,6 @@
       "source": "X：Michael Truell (@mntruell)",
       "href": "https://x.com/mntruell/status/2062955210897801520",
       "publishedAt": "2026-06-05T17:50:24.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google Colab CLI 发布",
-      "summary": "Google 推出 Colab 命令行界面（CLI），允许开发者和 AI 智能体将本地终端连接到远程 Colab 运行时，实现无摩擦执行。该轻量级 CLI 支持请求高性能 GPU、远程运行本地 Python 脚本，并检索工件日志或模型（如微调后的 Gemma 3 适配器）。工具可直接集成到标准终端环境，可被 Antigravity、Claude Code 等 AI 智能体调用以管理复杂机器学习流水线。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/introducing-the-google-colab-cli",
-      "publishedAt": "2026-06-05T17:12:11.075Z"
     },
     {
       "topic": "模型",
@@ -153,22 +137,6 @@
       "source": "X：Gemini (@GeminiApp)",
       "href": "https://x.com/GeminiApp/status/2062936486509785385",
       "publishedAt": "2026-06-05T16:36:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AI热推高美国计算基建GDP占比翻倍",
-      "summary": "AI 热潮使计算基础设施占美国 GDP 比重翻倍。\n\n2026 年第一季度，与 AI 相关的数据中心建设、计算硬件和网络设备投资约占美国 GDP 的 0.8%，推动整个计算基础设施占 GDP 比重达到约 1.5%。",
-      "source": "X：Epoch AI (@EpochAIResearch)",
-      "href": "https://x.com/EpochAIResearch/status/2062933470373146828",
-      "publishedAt": "2026-06-05T16:24:01.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
-      "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "href": "https://x.com/AIatMeta/status/2062920724944507095",
-      "publishedAt": "2026-06-05T15:33:22.000Z"
     }
   ]
 }
