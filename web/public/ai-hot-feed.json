@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-06T20:28:29.272Z",
-  "count": 11,
+  "updatedAt": "2026-06-06T21:25:51.447Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+      "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "publishedAt": "2026-06-06T19:02:33.000Z"
+    },
     {
       "topic": "技巧",
       "title": "AI 的黑色星期五",
@@ -73,22 +81,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2063018358795300982",
       "publishedAt": "2026-06-05T22:01:20.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Apollo 敲定 350 亿美元债务融资，为 Anthropic 采购 AI 芯片",
-      "summary": "Apollo Global Management 和 Blackstone 已为 Anthropic 敲定 350 亿美元融资方案，用于扩充其 AI 基础设施。这是人工智能竞赛中最新的一笔巨额交易。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
-      "publishedAt": "2026-06-05T21:02:29.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "SpaceX与Google达成云计算新协议",
-      "summary": "SpaceX 刚刚披露了一份与 Google 的新云服务协议。\n\nGoogle 将每月向 SpaceX 支付 9.2 亿美元（约合每年 110 亿美元），用于 xAI 数据中心的计算能力。\n\n这再次表明，AI 算力正成为一种战略性商品，就像发射能力或能源一样，而那些能够为庞大的 GPU 集群提供资金、电力、冷却和运营的公司，可能会在其原有业务之外获得巨大的杠杆优势。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2063000834045313314",
-      "publishedAt": "2026-06-05T20:51:42.000Z"
     }
   ]
 }
