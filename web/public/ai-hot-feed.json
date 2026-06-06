@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-06T22:26:06.291Z",
+  "updatedAt": "2026-06-06T23:25:41.113Z",
   "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+      "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "href": "https://x.com/MiniMax_AI/status/2063397618034844135",
+      "publishedAt": "2026-06-06T23:08:22.000Z"
+    },
     {
       "topic": "行业",
       "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
@@ -65,14 +73,6 @@
       "source": "公众号：阶跃星辰（Step）",
       "href": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
       "publishedAt": "2026-06-06T06:46:02.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "PixelDiT入选CVPR2026最佳论文决赛",
-      "summary": "被选为 #CVPR2026 最佳论文决赛作品：来自 NVIDIA Research 的 PixelDiT\n\n在大多数图像生成模型中，预训练的自编码器会在任何扩散发生前压缩图像，导致质量损失在整个流程中累积。\n\nPixelDiT，即像素扩散变换器，完全去掉了这一步骤。它是一个单阶段模型，直接在像素空间中端到端地学习扩散过程。",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
-      "href": "https://x.com/NVIDIAAI/status/2063034422698389625",
-      "publishedAt": "2026-06-05T23:05:10.000Z"
     }
   ]
 }
