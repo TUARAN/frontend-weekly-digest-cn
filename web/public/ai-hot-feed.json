@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-06T09:46:13.877Z",
-  "count": 30,
+  "updatedAt": "2026-06-06T11:33:31.025Z",
+  "count": 29,
   "items": [
     {
       "topic": "论文",
@@ -233,14 +233,6 @@
       "source": "Cloudflare Blog",
       "href": "https://blog.cloudflare.com/ai-gateway-spend-limits",
       "publishedAt": "2026-06-05T13:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "微软CEO Satya Nadella最新访谈上线",
-      "summary": "Satya Nadella 在 Latent Space 发布最新访谈，链接见原文。原推文仅评论\"chat is he cooked\"。",
-      "source": "X：swyx (@swyx)",
-      "href": "https://x.com/swyx/status/2062854555562565741",
-      "publishedAt": "2026-06-05T11:10:26.000Z"
     }
   ]
 }
