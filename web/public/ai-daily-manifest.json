@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-06",
+      "displayDate": "Jun 6",
+      "json": "/ai-daily/2026-06-06.json",
+      "count": 5,
+      "highlights": [
+        "Arena 发布真实世界 AI 智能体排",
+        "Anthropic：让Claude成为化",
+        "PolarDB-X Zero 上线：30",
+        "Apollo 敲定 350 亿美元债务融",
+        "Google Colab CLI 发布"
+      ]
+    },
+    {
       "date": "2026-06-05",
       "displayDate": "Jun 5",
       "json": "/ai-daily/2026-06-05.json",
@@ -117,5 +130,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-05"
+  "latest": "2026-06-06"
 }
