@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-06-06T12:32:02.423Z",
-  "count": 30,
+  "updatedAt": "2026-06-06T13:34:39.018Z",
+  "count": 29,
   "items": [
     {
-      "topic": "技巧",
-      "title": "苹果WWDC再次预告新Siri：Apple Intelligence承诺仍未完全兑现",
-      "summary": "苹果在2024年WWDC首次展示新Siri，搭载发光边框、多种语音选项及向ChatGPT提问的能力，但关键的Apple Intelligence功能迟迟未上线，误导性宣传导致公司面临集体诉讼和解。本周WWDC上，苹果准备再次介绍新Siri，试图在AI领域扭转被动局面。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
-      "publishedAt": "2026-06-06T12:00:00.000Z"
+      "topic": "产品",
+      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+      "publishedAt": "2026-06-06T13:07:16.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/960/969.htm",
+      "publishedAt": "2026-06-06T12:48:12.000Z"
     },
     {
       "topic": "产品",
@@ -225,22 +233,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/960/735.htm",
       "publishedAt": "2026-06-05T13:59:37.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布",
-      "summary": "6月5日，开源鸿蒙具身智能PMC（筹）发布EmbodiedAI 1.0.1版本。该版本聚焦机器人控制与智能体应用，升级导航规划、运动控制、仿真开发、硬件适配等核心能力，兼容ROS生态、机器人模拟器及多种本体形态。集成开源鸿蒙原生模拟器、MuJoCo、Gazebo三大仿真环境，打通从代码开发到真机验证的全流程链路。人形机器人、四足机器狗、商用服务机器人等已完成适配验证。目前具身智能方向已组建18个专项SIG工作组，版本源码已正式开放。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/960/722.htm",
-      "publishedAt": "2026-06-05T13:31:13.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "社区基于MiniCPM-V 4.6打造财务分析工具AccountingLLM",
-      "summary": "社区开发者使用面壁智能MiniCPM-V 4.6构建了AccountingLLM（quaesto.com），用于自动化财务文档分析。该工具可上传IPO招股书、年报或审计文件，自动从复杂PDF中提取财务表格、重建跨页表格、对照会计等式检查关键数据，并标记可疑条目供人工审核。开发者已将其商业化，成为实际可用的产品。",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2062889699056984281",
-      "publishedAt": "2026-06-05T13:30:05.000Z"
     }
   ]
 }
