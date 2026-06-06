@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-06T11:33:31.025Z",
-  "count": 29,
+  "updatedAt": "2026-06-06T12:32:02.423Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "苹果WWDC再次预告新Siri：Apple Intelligence承诺仍未完全兑现",
+      "summary": "苹果在2024年WWDC首次展示新Siri，搭载发光边框、多种语音选项及向ChatGPT提问的能力，但关键的Apple Intelligence功能迟迟未上线，误导性宣传导致公司面临集体诉讼和解。本周WWDC上，苹果准备再次介绍新Siri，试图在AI领域扭转被动局面。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+      "publishedAt": "2026-06-06T12:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "publishedAt": "2026-06-06T11:42:01.000Z"
+    },
     {
       "topic": "论文",
       "title": "PixelDiT入选CVPR2026最佳论文决赛",
@@ -225,14 +241,6 @@
       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "href": "https://x.com/OpenBMB/status/2062889699056984281",
       "publishedAt": "2026-06-05T13:30:05.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "你的AI账单失控了。Cloudflare现在可以解决这个问题。",
-      "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。",
-      "source": "Cloudflare Blog",
-      "href": "https://blog.cloudflare.com/ai-gateway-spend-limits",
-      "publishedAt": "2026-06-05T13:00:00.000Z"
     }
   ]
 }
