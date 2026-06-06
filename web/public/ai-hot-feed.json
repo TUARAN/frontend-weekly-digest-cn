@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-06T18:31:39.273Z",
-  "count": 13,
+  "updatedAt": "2026-06-06T19:32:48.502Z",
+  "count": 12,
   "items": [
     {
       "topic": "技巧",
@@ -41,6 +41,14 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
       "publishedAt": "2026-06-06T11:42:01.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+      "summary": "",
+      "source": "公众号：阶跃星辰（Step）",
+      "href": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+      "publishedAt": "2026-06-06T06:46:02.000Z"
     },
     {
       "topic": "论文",
@@ -89,22 +97,6 @@
       "source": "X：Microsoft Research (@MSFTResearch)",
       "href": "https://x.com/MSFTResearch/status/2062983588606320714",
       "publishedAt": "2026-06-05T19:43:10.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "五角大楼正运营着一个针对拉丁美洲的人工智能宣传机器",
-      "summary": "据 The Intercept 6月5日报道，美国五角大楼正在运营一个针对拉丁美洲的人工智能宣传机器（AI propaganda mill）。报道指出，该机器利用 AI 技术生成并传播宣传内容，目标为拉丁美洲地区。该消息在 Hacker News 上获得 100 点热度。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon",
-      "publishedAt": "2026-06-05T19:23:20.788Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude 是否增加了 rsync 中的错误？",
-      "summary": "一篇 Hacker News 热门帖子（105 分）提出了 Claude 是否导致 rsync 工具中 bug 增加的问题，并附有分析链接。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://alexispurslane.github.io/rsync-analysis",
-      "publishedAt": "2026-06-05T19:07:35.749Z"
     }
   ]
 }
