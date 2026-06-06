@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-06T13:34:39.018Z",
-  "count": 29,
+  "updatedAt": "2026-06-06T14:35:03.696Z",
+  "count": 24,
   "items": [
     {
       "topic": "产品",
@@ -193,46 +193,6 @@
       "source": "X：Kim (@kimmonismus)",
       "href": "https://x.com/kimmonismus/status/2062915287700090948",
       "publishedAt": "2026-06-05T15:11:46.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Viggle_PINOC 免费动捕测试开启",
-      "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！",
-      "source": "X：Viggle AI (@ViggleAI)",
-      "href": "https://x.com/ViggleAI/status/2062904007123714329",
-      "publishedAt": "2026-06-05T14:26:56.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Sir Demis Hassabis vs Sir Demis Hassabis",
-      "summary": "",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/sir-demis-hassabis-vs-sir-demis-hassabis",
-      "publishedAt": "2026-06-05T14:25:36.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "一个非常狠的AI教学提示词：追问式检查清单教学",
-      "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖\"为什么\"。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2062902972649222311",
-      "publishedAt": "2026-06-05T14:22:50.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta\"版",
-      "summary": "苹果新版Siri被内部标记为\"Beta\"版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；\"查找\"应用视觉重设计；照片\"清理\"功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/960/739.htm",
-      "publishedAt": "2026-06-05T14:21:03.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Meta 智能眼镜 App 暗藏人脸识别代码，NameTag 功能已推送至超 5000 万设备",
-      "summary": "据《连线》今日报道，Meta 通过多次应用更新将人脸识别代码推送到智能眼镜配套 App 中，代号\"NameTag\"。该功能利用已部署的三个 AI 模型将人脸转换为\"人脸特征模板\"，与手机本地数据库匹配，识别成功后向佩戴者发送通知。App 下载量超 5000 万次。Meta 回应称代码仅为探索，尚未决定推出，且不会建立中央人脸数据库。此前 Meta 曾因人脸识别问题在伊利诺伊州和得克萨斯州分别达成 6.5 亿美元和 14 亿美元和解。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/960/735.htm",
-      "publishedAt": "2026-06-05T13:59:37.000Z"
     }
   ]
 }
