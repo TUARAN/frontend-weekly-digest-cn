@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-06T21:25:51.447Z",
-  "count": 10,
+  "updatedAt": "2026-06-06T22:26:06.291Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "行业",
+      "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+      "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+      "publishedAt": "2026-06-06T21:47:39.887Z"
+    },
     {
       "topic": "技巧",
       "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
@@ -65,22 +73,6 @@
       "source": "X：NVIDIA AI (@NVIDIAAI)",
       "href": "https://x.com/NVIDIAAI/status/2063034422698389625",
       "publishedAt": "2026-06-05T23:05:10.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "用Qwen2.5-3B构建多智能体经济体：工程报告",
-      "summary": "开发者用Qwen2.5-3B构建了五人森林生物多智能体经济体，每个智能体独立运行，通过vLLM部署在Modal，以Gradio为交互窗口。3B模型在100%调用中输出有效JSON，但经济判断能力弱。通过设计稀缺性（食物品种限制、易腐坏、冬季燃料危机）和优化提示词（禁止买入自产物品、给出示例）提升决策质量。15轮模拟中，蜜价从10跌至3、柴价从4涨至7、财富基尼系数从0.14扩至0.38。项目展示了小模型可靠格式化与不可靠推理之间的工程填补。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
-      "publishedAt": "2026-06-05T22:18:46.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Arena 发布真实世界 AI 智能体排行榜 Agent Arena",
-      "summary": "Arena 推出基于真实用户任务的智能体排行榜，评估模型在代码编写、应用构建、文档分析等工作中的表现，而非孤立基准。排行榜基于30万+任务、200万+工具调用和4000万行代码，综合任务成功、纠正遵从性、错误恢复、用户表扬与抱怨、工具幻觉等信号。前三名：GPT-5.5 High（+10.7%）、Claude Opus 4.7 Thinking（+9.5%）、GPT-5.4 High（+8.9%）。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2063018358795300982",
-      "publishedAt": "2026-06-05T22:01:20.000Z"
     }
   ]
 }
