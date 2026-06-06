@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-06T14:35:03.696Z",
-  "count": 24,
+  "updatedAt": "2026-06-06T15:30:12.548Z",
+  "count": 21,
   "items": [
     {
       "topic": "产品",
@@ -169,30 +169,6 @@
       "source": "X：AI at Meta (@AIatMeta)",
       "href": "https://x.com/AIatMeta/status/2062920724944507095",
       "publishedAt": "2026-06-05T15:33:22.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Suno Voices 使用指南：6 个技巧打造高质量人声录制",
-      "summary": "Suno Voices 面向 Web 付费用户开放。提升人声质量的 6 个技巧：在安静环境录音以减少背景噪音；先练习歌词再正式录制；不必追求完美，保留真实情感；录音时长尽量超过 1 分钟以提供更多学习素材；将人声匹配到合适的音乐流派（如民谣、流行、死亡金属、波萨诺瓦等）；敢于尝试不同风格以发现惊喜。这些技巧旨在帮助用户获得更个性化、表现力更强的声音效果。",
-      "source": "Suno：Blog（网页）",
-      "href": "https://suno.com/blog/6-tips-for-voices",
-      "publishedAt": "2026-06-05T15:26:17.111Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 前 CTO 称若 Altman 未回归公司可能已\"瓦解\"",
-      "summary": "Mira Murati 表示，如果 Sam Altman 在 2023 年被短暂罢免后没有回归 CEO 职位，OpenAI 很可能已经\"瓦解\"。这是她对那场硅谷最激烈的董事会斗争的最清晰描述。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-05/openai-would-ve-imploded-if-altman-didn-t-return-ex-cto-says",
-      "publishedAt": "2026-06-05T15:18:30.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Hinton称AI拥有意识：人类最好接受非唯一智能生命",
-      "summary": "AI先驱Geoffrey Hinton表示，他认为AI拥有意识，人类应接受自己并非唯一智能生命。他指出AI\"非常像我们\"，AI聊天机器人必须理解问题才能作答，这种觉知等同于感知能力，智能不限于生物。主推文作者进一步讨论意识本质：笛卡尔的\"我思故我在\"和fMRI等实证手段都无法真正定义意识，人类对自身了解远不及想象。作者呼吁转向新哲学问题，厘清人与机器的区别与联系。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2062915287700090948",
-      "publishedAt": "2026-06-05T15:11:46.000Z"
     }
   ]
 }
