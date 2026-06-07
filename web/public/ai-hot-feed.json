@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-07T07:28:13.139Z",
-  "count": 12,
+  "updatedAt": "2026-06-07T09:06:35.086Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "产品",
+      "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+      "summary": "继上周 GTC Taipei 发布后，NVIDIA CEO Jensen Huang 前往韩国，向当地游戏社区正式介绍 RTX Spark 超芯片。该芯片集成 30 年 NVIDIA 技术，可在 Windows 笔记本上实现全天续航，并以 1440p 分辨率、超过 100fps 运行 AAA 游戏，支持包括 DLSS 4.5 Ray Reconstruction（基于第二代 Transformer 模型）在内的全套 RTX 技术。KRAFTON、NC 与 Riot Games 正合作将旗下游戏适配 RTX Spark。周五，Huang 在 T1 电竞场馆与 Faker 共同亮相，并突袭江南区网吧，演示《PUBG： BATTLEGROUNDS》及基于 NVIDIA ACE 的\"PUBG Ally\"AI 队友、《CINDER CITY》《AION 2》等作品。《CINDER CITY》首发支持 DLSS 4.5 动态多帧生成与超分辨率。已有超过 100 家 Windows 软件与游戏开发商采纳 RTX Spark。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
+      "publishedAt": "2026-06-07T07:00:15.000Z"
+    },
     {
       "topic": "模型",
       "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
