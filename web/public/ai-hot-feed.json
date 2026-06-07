@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-07T15:32:56.392Z",
-  "count": 14,
+  "updatedAt": "2026-06-07T16:33:17.809Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
+      "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
+      "publishedAt": "2026-06-07T15:31:43.000Z"
+    },
     {
       "topic": "技巧",
       "title": "苹果秘密会议内幕：它终于认真对待AI",
@@ -97,22 +105,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
       "publishedAt": "2026-06-06T19:02:33.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI 的黑色星期五",
-      "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/ais-black-friday",
-      "publishedAt": "2026-06-06T16:24:04.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Job Searcher",
-      "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
-      "publishedAt": "2026-06-06T15:36:51.000Z"
     }
   ]
 }
