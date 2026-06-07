@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-07T21:29:12.170Z",
-  "count": 15,
+  "updatedAt": "2026-06-07T22:25:55.081Z",
+  "count": 14,
   "items": [
     {
       "topic": "行业",
@@ -113,14 +113,6 @@
       "source": "X：MiniMax (@MiniMax_AI)",
       "href": "https://x.com/MiniMax_AI/status/2063397618034844135",
       "publishedAt": "2026-06-06T23:08:22.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
-      "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
-      "publishedAt": "2026-06-06T21:47:39.887Z"
     }
   ]
 }
