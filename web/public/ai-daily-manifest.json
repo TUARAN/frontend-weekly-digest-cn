@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-07",
+      "displayDate": "Jun 7",
+      "json": "/ai-daily/2026-06-07.json",
+      "count": 5,
+      "highlights": [
+        "GitHub 开源 Spec Kit 工",
+        "M3与Opus代码审计13个bug：$0",
+        "Job Searcher",
+        "OpenCV 5 发布：升级全新 DNN",
+        "Persona Atlas：Huggin"
+      ]
+    },
+    {
       "date": "2026-06-06",
       "displayDate": "Jun 6",
       "json": "/ai-daily/2026-06-06.json",
@@ -130,5 +143,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-06"
+  "latest": "2026-06-07"
 }

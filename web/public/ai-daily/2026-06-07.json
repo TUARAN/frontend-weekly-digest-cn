@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-07",
+  "displayDate": "Jun 7",
+  "dateNum": "0607",
+  "year": 2026,
+  "dayOfWeek": "SUN",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "X：Rohan Paul (@rohanpaul_ai) · X：MiniMax (@MiniMax_AI) · Hugging Face：Blog（RSS） 等",
+  "count": 5,
+  "highlights": [
+    "GitHub 开源 Spec Kit 工",
+    "M3与Opus代码审计13个bug：$0",
+    "Job Searcher",
+    "OpenCV 5 发布：升级全新 DNN",
+    "Persona Atlas：Huggin"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+      "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "Job Searcher",
+      "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}
