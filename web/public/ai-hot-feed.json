@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-07T03:12:51.316Z",
-  "count": 9,
+  "updatedAt": "2026-06-07T05:35:29.300Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Harness 工程：在智能体优先的世界中运用 Codex",
+      "summary": "Harness 工程在智能体优先的世界中利用 OpenAI Codex 的实践文章，6月6日发布于 openai.com，在 Hacker News 上获得 102 点热度。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://openai.com/index/harness-engineering",
+      "publishedAt": "2026-06-07T03:39:37.239Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
+      "summary": "宝玉对比了GPT-5.5与Opus 4.8的设计能力，认为Opus 4.8效果远优于GPT-5.5。他使用了基于Cursor浏览器和元素标注的baoyu-design Skill，该Skill通过npx skills add JimLiu/baoyu-design安装，可在本地运行：描述屏幕需求即可生成精良HTML，点击预览中任意元素即可发出修改指令。官方推荐搭配Opus 4.8以获得最佳效果。工具GitHub仓库：https：//github.com/JimLiu/baoyu-design。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2063464057647075379",
+      "publishedAt": "2026-06-07T03:32:23.000Z"
+    },
     {
       "topic": "技巧",
       "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
