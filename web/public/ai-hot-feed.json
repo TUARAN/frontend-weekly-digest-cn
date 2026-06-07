@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-07T18:30:56.358Z",
+  "updatedAt": "2026-06-07T19:33:15.837Z",
   "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "ChatGPT 要变 AgentGPT 了",
+      "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称\"聊天已死\"，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估值可能超 1 万亿美元。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2063686036895478162",
+      "publishedAt": "2026-06-07T18:14:27.000Z"
+    },
     {
       "topic": "行业",
       "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
@@ -113,14 +121,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
       "publishedAt": "2026-06-06T21:47:39.887Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
-      "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-      "publishedAt": "2026-06-06T19:02:33.000Z"
     }
   ]
 }
