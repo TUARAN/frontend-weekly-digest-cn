@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-07T16:33:17.809Z",
-  "count": 13,
+  "updatedAt": "2026-06-07T17:32:11.730Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
+      "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2063662672835703126",
+      "publishedAt": "2026-06-07T16:41:36.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 仍推进超级应用计划",
+      "summary": "OpenAI 一位高级员工表示\"聊天已死\"，同时公司仍在继续推进超级应用计划。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
+      "publishedAt": "2026-06-07T16:23:22.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
