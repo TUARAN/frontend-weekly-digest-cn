@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-07T22:25:55.081Z",
-  "count": 14,
+  "updatedAt": "2026-06-07T23:26:03.291Z",
+  "count": 13,
   "items": [
     {
       "topic": "行业",
@@ -105,14 +105,6 @@
       "source": "X：宝玉 (@dotey)",
       "href": "https://x.com/dotey/status/2063464057647075379",
       "publishedAt": "2026-06-07T03:32:23.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
-      "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "href": "https://x.com/MiniMax_AI/status/2063397618034844135",
-      "publishedAt": "2026-06-06T23:08:22.000Z"
     }
   ]
 }
