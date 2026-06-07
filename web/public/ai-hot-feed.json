@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-07T05:35:29.300Z",
-  "count": 11,
+  "updatedAt": "2026-06-07T07:28:13.139Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
+      "summary": "UIUC与Chroma联合推出Harness-1，一个20B参数的检索子智能体。它通过强化学习在一个有状态搜索框架中训练，该框架维护候选池、重要性标注集、证据图和验证记录，由策略决定搜索、筛选、验证及停止的时机。Harness-1在8个基准测试上达到0.730平均curated recall，比下一个最佳开源子智能体高出11.4个百分点，仅落后于Opus-4.6。模型权重和框架代码均已公开。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b",
+      "publishedAt": "2026-06-07T06:25:18.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
+      "summary": "不同模型提供商在缓存命中率和有效价格上有什么差异？\n\n现在你可以从 Pricing 标签查看实时缓存命中率和历史流量。这里是 Opus 4.8：https：//openrouter.ai/anthropic/claude-opus-4.8/pricing",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2063504950429147376",
+      "publishedAt": "2026-06-07T06:14:52.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Harness 工程：在智能体优先的世界中运用 Codex",
@@ -81,14 +97,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
       "publishedAt": "2026-06-06T11:42:01.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
-      "summary": "",
-      "source": "公众号：阶跃星辰（Step）",
-      "href": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
-      "publishedAt": "2026-06-06T06:46:02.000Z"
     }
   ]
 }
