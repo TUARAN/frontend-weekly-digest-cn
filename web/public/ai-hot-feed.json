@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-07T13:35:45.064Z",
-  "count": 13,
+  "updatedAt": "2026-06-07T14:39:10.814Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "苹果秘密会议内幕：它终于认真对待AI",
+      "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
+      "publishedAt": "2026-06-07T14:00:01.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
