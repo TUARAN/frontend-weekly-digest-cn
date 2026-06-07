@@ -49,7 +49,15 @@
 
 ### 2026年
 
-- [第468期（5月25日–5月31日）](./weekly/468/前端周刊第468期.md) ⭐ **最新**
+- [第469期（6月1日–6月7日）](./weekly/469/前端周刊第469期.md) ⭐ **最新**
+
+  - [2026年了别再什么都用JS写了——重新发现纯CSS的力量](./weekly/469/2026%E5%B9%B4%E4%BA%86%E5%88%AB%E5%86%8D%E4%BB%80%E4%B9%88%E9%83%BD%E7%94%A8JS%E5%86%99%E4%BA%86%E2%80%94%E2%80%94%E9%87%8D%E6%96%B0%E5%8F%91%E7%8E%B0%E7%BA%AFCSS%E7%9A%84%E5%8A%9B%E9%87%8F.md)
+  - [如何让你的设计系统为AI做好准备](./weekly/469/%E5%A6%82%E4%BD%95%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%AE%BE%E8%AE%A1%E7%B3%BB%E7%BB%9F%E4%B8%BAAI%E5%81%9A%E5%A5%BD%E5%87%86%E5%A4%87.md)
+  - [关于Sourcemap你需要知道的一切](./weekly/469/%E5%85%B3%E4%BA%8ESourcemap%E4%BD%A0%E9%9C%80%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E4%B8%80%E5%88%87.md)
+  - [Next.js App Router缓存机制深度拆解](./weekly/469/Next.js%20App%20Router%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3.md)
+  - [无缝PWA域名迁移——更改网域而不损失用户](./weekly/469/%E6%97%A0%E7%BC%9DPWA%E5%9F%9F%E5%90%8D%E8%BF%81%E7%A7%BB%E2%80%94%E2%80%94%E6%9B%B4%E6%94%B9%E7%BD%91%E5%9F%9F%E8%80%8C%E4%B8%8D%E6%8D%9F%E5%A4%B1%E7%94%A8%E6%88%B7.md)
+
+- [第468期（5月25日–5月31日）](./weekly/468/前端周刊第468期.md)
 
   - [我为什么从Nextjs+RSC退回了普通SPA+独立后端](./weekly/468/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BB%8ENextjs+RSC%E9%80%80%E5%9B%9E%E4%BA%86%E6%99%AE%E9%80%9ASPA+%E7%8B%AC%E7%AB%8B%E5%90%8E%E7%AB%AF.md)
   - [CSS vs. JavaScript动画性能深度测评](./weekly/468/CSS%20vs.%20JavaScript%E5%8A%A8%E7%94%BB%E6%80%A7%E8%83%BD%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%84.md)
