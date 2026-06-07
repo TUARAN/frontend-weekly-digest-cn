@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-07T11:36:03.146Z",
-  "count": 15,
+  "updatedAt": "2026-06-07T12:37:03.047Z",
+  "count": 14,
   "items": [
     {
       "topic": "技巧",
@@ -113,14 +113,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/960/969.htm",
       "publishedAt": "2026-06-06T12:48:12.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
-      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
-      "publishedAt": "2026-06-06T11:42:01.000Z"
     }
   ]
 }
