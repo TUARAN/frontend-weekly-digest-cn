@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-08T11:39:27.993Z",
+  "updatedAt": "2026-06-08T13:32:08.457Z",
   "count": 19,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
+      "summary": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackathon 的 32B 模型上限规则。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
+      "publishedAt": "2026-06-08T11:46:56.000Z"
+    },
     {
       "topic": "产品",
       "title": "AgentScope Java 2.0 发布",
@@ -145,14 +153,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
       "publishedAt": "2026-06-07T14:00:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
-      "summary": "Symbolica 2.0 发布，这是一款可编程符号系统，支持 Python 和 Rust 语言。该版本在 Hacker News 上获得 100 点热度。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://symbolica.io/posts/symbolica_2_0_release",
-      "publishedAt": "2026-06-07T12:59:12.136Z"
     }
   ]
 }
