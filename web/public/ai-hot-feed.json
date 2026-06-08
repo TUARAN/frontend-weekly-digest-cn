@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-07T23:26:03.291Z",
-  "count": 13,
+  "updatedAt": "2026-06-08T00:55:57.858Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
+      "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
+      "publishedAt": "2026-06-07T23:26:02.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
+      "summary": "英伟达与斗山集团扩大合作，覆盖斗山机器人、斗山山猫、斗山能源及斗山电子材料四大板块。斗山机器人将集成英伟达Isaac Sim、Isaac Lab、Cosmos世界基础模型、Newton物理引擎及Jetson Thor，推进Agentic Robot OS，探索卸垛、打磨等参考用例及双臂/人形机器人。斗山山猫计划将物理AI技术用于建筑、园林、农业设备，加速开发专用世界模型。斗山能源评估通过燃气轮机、汽轮机、小型模块化反应堆及氢燃料电池为AI工厂供电。斗山电子材料为英伟达MGX生态系统供应高性能铜箔基板（CCL），用于AI服务器PCB。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai",
+      "publishedAt": "2026-06-07T23:00:36.000Z"
+    },
     {
       "topic": "行业",
       "title": "ChatGPT 要变 AgentGPT 了",
