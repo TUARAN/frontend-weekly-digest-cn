@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-08T19:45:56.491Z",
+  "updatedAt": "2026-06-08T20:55:24.523Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "NotebookLM升级：AI思考过程更清晰",
+      "summary": "想更详细了解今天的发布吗？以下是新功能和亮点的介绍🧵：\n\n首先：升级版、更周到的聊天体验。\n\n由Gemini 3.5和@Antigravity提供支持，您现在将更清晰地看到AI的思考过程。此外，每个笔记本都有一台安全的云电脑，包含100多种精选软件技能，解锁更深入的研究和更复杂的分析。",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2064084153533165588",
+      "publishedAt": "2026-06-08T20:36:25.000Z"
+    },
     {
       "topic": "产品",
       "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
@@ -171,6 +179,14 @@
       "publishedAt": "2026-06-08T13:10:48.000Z"
     },
     {
+      "topic": "产品",
+      "title": "EU AI Act 合规：面向 AI 智能体的人工监督",
+      "summary": "使用智能体 SDK 的人机协作（HITL）工具，可满足 EU AI Act、Colorado AI Act 和 NIST AI RMF 对 AI 智能体的合规要求。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
+      "publishedAt": "2026-06-08T12:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
       "summary": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackathon 的 32B 模型上限规则。",
@@ -225,22 +241,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-08/how-coreweave-sees-the-market-for-compute-right-now",
       "publishedAt": "2026-06-08T08:00:32.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "PixVerse Creative Partner Program 2.0 上线",
-      "summary": "PixVerse 宣布 Creative Partner Program （CPP） 2.0 正式上线，面向 AI 视频创作者。该计划围绕真实创作：发布、测试、教学、故事片及公开推广新想法。核心福利包括：合格帖子每周最高可获得 150，000 credits；每周 $2，500 现金奖池，单个创作者单周最高 $850；对大项目、教程、测试内容和电影节投稿提供特别支持。参与者还可获得更多曝光、项目机会及与 PixVerse 共创的可能。申请可通过官网进行。",
-      "source": "X：PixVerse (@PixVerse_)",
-      "href": "https://x.com/PixVerse_/status/2063890444413706442",
-      "publishedAt": "2026-06-08T07:46:41.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
-      "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "href": "https://x.com/TencentHunyuan/status/2063862263434613237",
-      "publishedAt": "2026-06-08T05:54:42.000Z"
     }
   ]
 }
