@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-08T09:40:21.155Z",
+  "updatedAt": "2026-06-08T11:39:27.993Z",
   "count": 19,
   "items": [
+    {
+      "topic": "产品",
+      "title": "AgentScope Java 2.0 发布",
+      "summary": "阿里云发布AgentScope Java 2.0，面向企业级AI智能体开发。新版本主要特性：分布式无状态架构，支持K8s弹性扩缩容与会话恢复；多租户隔离，通过Workspace抽象实现安全数据分离；长期稳定性，HarnessAgent负责上下文管理与容错；安全执行，提供细粒度权限控制和Human-in-the-Loop支持。适用于JVM生产环境。开源地址见推文链接。",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2063923881857945815",
+      "publishedAt": "2026-06-08T09:59:33.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
+      "summary": "",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
+      "publishedAt": "2026-06-08T09:54:08.000Z"
+    },
     {
       "topic": "行业",
       "title": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
@@ -137,22 +153,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://symbolica.io/posts/symbolica_2_0_release",
       "publishedAt": "2026-06-07T12:59:12.136Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
-      "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2063573709672104286",
-      "publishedAt": "2026-06-07T10:48:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Her · हेर - Claude Code 会话分析工具",
-      "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/her-blog",
-      "publishedAt": "2026-06-07T10:13:41.000Z"
     }
   ]
 }
