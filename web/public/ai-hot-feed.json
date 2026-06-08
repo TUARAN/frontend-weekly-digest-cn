@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-08T03:14:17.308Z",
-  "count": 16,
+  "updatedAt": "2026-06-08T05:38:51.261Z",
+  "count": 14,
   "items": [
     {
-      "topic": "技巧",
-      "title": "苹果AI危机幕后：新Siri诞生前的内部攻防 - Power On",
-      "summary": "一场秘密会议成为苹果正视AI领域劣势的转折点，会议内容围绕Siri的全面刷新展开，揭示了苹果在AI竞争压力下的内部博弈与决策过程。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/jp/news/newsletters/2026-06-08/TGALO0KGCTH700",
-      "publishedAt": "2026-06-08T03:00:00.000Z"
+      "topic": "行业",
+      "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
+      "summary": "NVIDIA与LG集团合作建设AI工厂，为LG的机器人、自动驾驶、数据中心和GPU云服务提供加速计算基础设施。双方整合NVIDIA AI工厂平台与LG的消费电子、机器人技术，连接AI模型开发、物理AI数据生成、机器人仿真训练、边缘部署和工厂数字孪生。LG电子将利用NVIDIA Isaac Sim和Isaac Lab仿真训练CLOiD家用机器人，探索采用Isaac GR00T模型，并开发物理AI数据工厂。LG Innotek提供针对NVIDIA GPU优化的机器人传感组件，LG CNS集成NVIDIA机器人技术。双方还将基于NVIDIA DSX平台建设下一代AI工厂，涵盖冷却、模块化设计和800V直流能源方案。LG电子将基于NVIDIA DRIVE平台开发ADAS和车载AI系统。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
+      "publishedAt": "2026-06-08T03:00:50.000Z"
     },
     {
       "topic": "行业",
@@ -113,22 +113,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2063504950429147376",
       "publishedAt": "2026-06-07T06:14:52.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Harness 工程：在智能体优先的世界中运用 Codex",
-      "summary": "Harness 工程在智能体优先的世界中利用 OpenAI Codex 的实践文章，6月6日发布于 openai.com，在 Hacker News 上获得 102 点热度。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://openai.com/index/harness-engineering",
-      "publishedAt": "2026-06-07T03:39:37.239Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
-      "summary": "宝玉对比了GPT-5.5与Opus 4.8的设计能力，认为Opus 4.8效果远优于GPT-5.5。他使用了基于Cursor浏览器和元素标注的baoyu-design Skill，该Skill通过npx skills add JimLiu/baoyu-design安装，可在本地运行：描述屏幕需求即可生成精良HTML，点击预览中任意元素即可发出修改指令。官方推荐搭配Opus 4.8以获得最佳效果。工具GitHub仓库：https：//github.com/JimLiu/baoyu-design。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2063464057647075379",
-      "publishedAt": "2026-06-07T03:32:23.000Z"
     }
   ]
 }
