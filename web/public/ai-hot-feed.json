@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-08T01:52:46.798Z",
-  "count": 15,
+  "updatedAt": "2026-06-08T03:14:17.308Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "苹果AI危机幕后：新Siri诞生前的内部攻防 - Power On",
+      "summary": "一场秘密会议成为苹果正视AI领域劣势的转折点，会议内容围绕Siri的全面刷新展开，揭示了苹果在AI竞争压力下的内部博弈与决策过程。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/jp/news/newsletters/2026-06-08/TGALO0KGCTH700",
+      "publishedAt": "2026-06-08T03:00:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
