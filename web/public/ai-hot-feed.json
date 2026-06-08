@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-08T05:38:51.261Z",
+  "updatedAt": "2026-06-08T07:48:23.288Z",
   "count": 14,
   "items": [
+    {
+      "topic": "行业",
+      "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
+      "summary": "一年前英国宣布做\"AI 制造者\"，如今主权 AI 计划取得实质进展：AI 云提供商数量翻倍，Nebius 部署三套 NVIDIA AI 基础设施，预计 2027 年满负荷达 65 兆瓦；基于 5，400 个 NVIDIA GH200 的 Isambard-AI 超级计算机全由零碳电力驱动。主权 AI 基金资助四家 NVIDIA Inception 初创公司：Cosine 训练多模态 MoE 编码模型；Cursive 使用 Megatron-LM 开发自改进 AI 系统；Doubleword 基于 Dynamo 和 Nemotron 3 Super 120B 实现 70 倍冷启动加速、4 倍 KV 缓存压缩，推理成本降低 90-95%；Prima Mente 借助 Blackwell GPU 以近 3 倍训练加速开发生物基础模型。NVIDIA 对英国初创生态投资 20 亿英镑。",
+      "source": "NVIDIA AI Blog",
+      "href": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
+      "publishedAt": "2026-06-08T06:00:57.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
+      "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "href": "https://x.com/TencentHunyuan/status/2063862263434613237",
+      "publishedAt": "2026-06-08T05:54:42.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
+      "summary": "阿里巴巴旗下高德发布全球首个3D原生城市世界模型ABot-Earth0.5，已建成覆盖190多个国家和地区的3D地图。用户输入卫星图或文字描述，10分钟即可在消费级GPU上生成公里级3D城市，输出可编辑3DGS格式，可直接导入Unity等引擎。制图成本为传统百分之一，效率提升约千倍，可为具身智能、低空经济、应急救援等提供支撑。目前已开放内测，可前往abot-earth.amap.com提交申请。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/961/378.htm",
+      "publishedAt": "2026-06-08T05:53:46.000Z"
+    },
     {
       "topic": "行业",
       "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
@@ -89,30 +113,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/build-small-hackathon/her-blog",
       "publishedAt": "2026-06-07T10:13:41.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
-      "summary": "继上周 GTC Taipei 发布后，NVIDIA CEO Jensen Huang 前往韩国，向当地游戏社区正式介绍 RTX Spark 超芯片。该芯片集成 30 年 NVIDIA 技术，可在 Windows 笔记本上实现全天续航，并以 1440p 分辨率、超过 100fps 运行 AAA 游戏，支持包括 DLSS 4.5 Ray Reconstruction（基于第二代 Transformer 模型）在内的全套 RTX 技术。KRAFTON、NC 与 Riot Games 正合作将旗下游戏适配 RTX Spark。周五，Huang 在 T1 电竞场馆与 Faker 共同亮相，并突袭江南区网吧，演示《PUBG： BATTLEGROUNDS》及基于 NVIDIA ACE 的\"PUBG Ally\"AI 队友、《CINDER CITY》《AION 2》等作品。《CINDER CITY》首发支持 DLSS 4.5 动态多帧生成与超分辨率。已有超过 100 家 Windows 软件与游戏开发商采纳 RTX Spark。",
-      "source": "NVIDIA AI Blog",
-      "href": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
-      "publishedAt": "2026-06-07T07:00:15.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
-      "summary": "UIUC与Chroma联合推出Harness-1，一个20B参数的检索子智能体。它通过强化学习在一个有状态搜索框架中训练，该框架维护候选池、重要性标注集、证据图和验证记录，由策略决定搜索、筛选、验证及停止的时机。Harness-1在8个基准测试上达到0.730平均curated recall，比下一个最佳开源子智能体高出11.4个百分点，仅落后于Opus-4.6。模型权重和框架代码均已公开。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b",
-      "publishedAt": "2026-06-07T06:25:18.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
-      "summary": "不同模型提供商在缓存命中率和有效价格上有什么差异？\n\n现在你可以从 Pricing 标签查看实时缓存命中率和历史流量。这里是 Opus 4.8：https：//openrouter.ai/anthropic/claude-opus-4.8/pricing",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2063504950429147376",
-      "publishedAt": "2026-06-07T06:14:52.000Z"
     }
   ]
 }
