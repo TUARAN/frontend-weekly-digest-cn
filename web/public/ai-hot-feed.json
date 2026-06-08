@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-08T07:48:23.288Z",
-  "count": 14,
+  "updatedAt": "2026-06-08T09:40:21.155Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "行业",
+      "title": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
+      "summary": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心，推动AI与影视产业融合落地。合作聚焦于利用生数科技的AI视频生成能力（Vidu），结合华策集团的影视行业资源，探索AIGC在影视制作全流程中的应用，包括剧本生成、预可视化、特效制作等环节。双方将通过技术研发与场景验证，加速AI在影视行业的规模化落地。",
+      "source": "公众号：生数科技（Vidu·视频）",
+      "href": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
+      "publishedAt": "2026-06-08T09:30:33.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新\"AI Slop\"",
+      "summary": "邵猛关注 Design Skill、Taste Skill、Anti-AI-slop design skill，并开源 Brand to DESIGN.md Skill（GitHub： shaom/brand-to-design-md-skill），让 Agent 学习设计品味后复刻网站。但他指出，这种复刻看多了反而从 Anti-AI-slop 衍生新\"AI Slop\"，缺少设计精髓，仅皮毛相仿。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2063902211978223678",
+      "publishedAt": "2026-06-08T08:33:27.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "微信AI官宣内测：两种接入模式供开发者选择",
+      "summary": "微信开发者官方今日发布指引，确认微信AI正在内测阶段。开放平台提供两种接入模式：自动模式可授权平台读取小程序源码，无需额外开发即可让微信AI直接操作页面；开发模式下开发者可自主开发技能，审核后由微信AI调用。两种模式可同时开启。微信AI是微信内的AI助手，用户通过自然语言对话即可调用、访问和操作小程序。服务条款称\"微信AI\"可能非最终名称。接入与否不影响现有小程序服务。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/961/480.htm",
+      "publishedAt": "2026-06-08T08:02:38.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "CoreWeave 如何看待当前计算市场",
+      "summary": "CoreWeave 对当前计算市场进行了分析，指出推动增长的因素和限制增长的因素。该公司的市场看法即围绕这两个维度展开。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-08/how-coreweave-sees-the-market-for-compute-right-now",
+      "publishedAt": "2026-06-08T08:00:32.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "PixVerse Creative Partner Program 2.0 上线",
+      "summary": "PixVerse 宣布 Creative Partner Program （CPP） 2.0 正式上线，面向 AI 视频创作者。该计划围绕真实创作：发布、测试、教学、故事片及公开推广新想法。核心福利包括：合格帖子每周最高可获得 150，000 credits；每周 $2，500 现金奖池，单个创作者单周最高 $850；对大项目、教程、测试内容和电影节投稿提供特别支持。参与者还可获得更多曝光、项目机会及与 PixVerse 共创的可能。申请可通过官网进行。",
+      "source": "X：PixVerse (@PixVerse_)",
+      "href": "https://x.com/PixVerse_/status/2063890444413706442",
+      "publishedAt": "2026-06-08T07:46:41.000Z"
+    },
     {
       "topic": "行业",
       "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
