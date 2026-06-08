@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-08T15:11:25.766Z",
-  "count": 25,
+  "updatedAt": "2026-06-08T17:10:28.706Z",
+  "count": 28,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
+      "summary": "我们与哈佛大学发表新研究，关于从聊天界面转向像Computer这样的自主智能体的转变。\n\n超过3个月的研究结果表明，使用Computer的工人在完成任务上比仅使用搜索快87%，成本低94%，且满意度更高。\n\nhttps：//research.perplexity.ai/articles/how-ai-agents-reshape-knowledge-work",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2064023455453110286",
+      "publishedAt": "2026-06-08T16:35:14.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ChatGPT 新增数据图表生成功能",
+      "summary": "将数据和比较转化为图表，直接在 ChatGPT 中完成。\n\n现已支持移动端和网页端。",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "href": "https://x.com/ChatGPTapp/status/2064018770839113769",
+      "publishedAt": "2026-06-08T16:16:37.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NotebookLM重大升级：智能体能力与高级推理",
+      "summary": "推出更强大的 NotebookLM 🚀\n\n重大升级带来了对话中的智能体能力、更高级的推理以及一系列新的输出格式。处理复杂的多步骤研究问题从未如此简单。\n\n现已面向 Google AI Ultra 订阅者推出。",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2064016460964585549",
+      "publishedAt": "2026-06-08T16:07:26.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Runway Aleph 2.0 编辑模型：一键适配任意视频格式",
+      "summary": "一个视频，现在可以为每个信息流和格式制作。上传你现有的视频，选择你想要的宽高比，然后观看我们的编辑模型 Aleph 2.0，填充场景的其余部分，就像你从一开始就这样制作一样。\n\n在我们的桌面 Web 应用上尝试，链接如下。",
+      "source": "X：Runway (@runwayml)",
+      "href": "https://x.com/runwayml/status/2064012425884569627",
+      "publishedAt": "2026-06-08T15:51:24.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenRouter Advisor 助小模型问高级模型",
+      "summary": "新服务器工具：Advisor\n\n让较小的模型咨询一个更高智能的\"顾问\"模型。\n\n帮助它们逃出困境循环，并帮助你迁移到更便宜的模型！🧵",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2064004944613527730",
+      "publishedAt": "2026-06-08T15:21:40.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Hivemind推出面向AI编程智能体的持续学习功能，即日起开放",
+      "summary": "Hivemind发布面向AI编程智能体的持续学习功能，即日起开放。该工具收集团队运行的每个智能体（Claude Code、Codex、Cursor、Hermes、Pi）的轨迹，转化为可复用技能并推送到所有智能体，数据存储在用户自己的云存储中。内置SkillOpt使技能持续训练：Claude Code准确率提升+19.1分，Codex提升+24.8分，在全部52个测试设置中最佳或持平。开源，一行命令安装。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2064001045391462907",
+      "publishedAt": "2026-06-08T15:06:11.000Z"
+    },
     {
       "topic": "模型",
       "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1，000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
@@ -177,30 +225,6 @@
       "source": "X：宝玉 (@dotey)",
       "href": "https://x.com/dotey/status/2063686036895478162",
       "publishedAt": "2026-06-07T18:14:27.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
-      "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2063662672835703126",
-      "publishedAt": "2026-06-07T16:41:36.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 仍推进超级应用计划",
-      "summary": "OpenAI 一位高级员工表示\"聊天已死\"，同时公司仍在继续推进超级应用计划。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
-      "publishedAt": "2026-06-07T16:23:22.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
-      "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
-      "publishedAt": "2026-06-07T15:31:43.000Z"
     }
   ]
 }
