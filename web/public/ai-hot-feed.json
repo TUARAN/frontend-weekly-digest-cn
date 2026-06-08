@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-08T20:55:24.523Z",
+  "updatedAt": "2026-06-08T21:36:54.720Z",
   "count": 30,
   "items": [
     {
       "topic": "产品",
-      "title": "NotebookLM升级：AI思考过程更清晰",
-      "summary": "想更详细了解今天的发布吗？以下是新功能和亮点的介绍🧵：\n\n首先：升级版、更周到的聊天体验。\n\n由Gemini 3.5和@Antigravity提供支持，您现在将更清晰地看到AI的思考过程。此外，每个笔记本都有一台安全的云电脑，包含100多种精选软件技能，解锁更深入的研究和更复杂的分析。",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "href": "https://x.com/NotebookLM/status/2064084153533165588",
-      "publishedAt": "2026-06-08T20:36:25.000Z"
+      "title": "Viggle API 上线：任意角色任意动作秒级生成",
+      "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇",
+      "source": "X：Viggle AI (@ViggleAI)",
+      "href": "https://x.com/ViggleAI/status/2064083087806390319",
+      "publishedAt": "2026-06-08T20:32:11.000Z"
     },
     {
       "topic": "产品",
@@ -147,6 +147,14 @@
       "publishedAt": "2026-06-08T14:30:05.000Z"
     },
     {
+      "topic": "行业",
+      "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
+      "summary": "OpenAI 近日向 SEC 机密提交了 S-1 草案（即首次公开募股注册声明），目前尚未决定上市时间。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/openai-submits-confidential-s-1",
+      "publishedAt": "2026-06-08T14:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "微软AI CEO：超级智能即将到来，但不会取代你的工作",
       "summary": "微软AI CEO Mustafa Suleyman在Decoder访谈中表示，超级智能即将到来，但不会导致大规模失业。他透露微软与OpenAI于去年10月签署新合同，巩固合作关系的同时，微软获准独立追求超级智能。微软已组建超级智能团队、训练前沿模型，并于本周Build大会上发布7个全模态新模型。他批评Anthropic将Claude描述为有意识的做法，认为消费者产品需要足够好才能克服公众对AI的负面情绪。",
@@ -233,14 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/961/480.htm",
       "publishedAt": "2026-06-08T08:02:38.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "CoreWeave 如何看待当前计算市场",
-      "summary": "CoreWeave 对当前计算市场进行了分析，指出推动增长的因素和限制增长的因素。该公司的市场看法即围绕这两个维度展开。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-08/how-coreweave-sees-the-market-for-compute-right-now",
-      "publishedAt": "2026-06-08T08:00:32.000Z"
     }
   ]
 }
