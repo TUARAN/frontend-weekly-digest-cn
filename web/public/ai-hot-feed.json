@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-08T13:32:08.457Z",
-  "count": 19,
+  "updatedAt": "2026-06-08T15:11:25.766Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "模型",
+      "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1，000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
+      "summary": "小米 MiMo 联合 TileRT_AI 发布 MiMo-V2.5-Pro-UltraSpeed，首次在 1 万亿参数 MoE 模型上实现超过 1，000 tokens/s 输出速度，仅用单台标准 8-GPGPU 节点（非 Cerebras 或 Groq 方案）。提供限时免费聊天体验，UltraSpeed API 价格为 3 倍，输出体验提升约 10 倍。申请时间为 6 月 8 日至 23 日（PDT），企业可邮件联系 business-mimo@xiaomi.com。",
+      "source": "X：小米 MiMo (@XiaomiMiMo)",
+      "href": "https://x.com/XiaomiMiMo/status/2063993790587904362",
+      "publishedAt": "2026-06-08T14:37:21.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "VoxCPM2 技术报告发布",
+      "summary": "面壁智能 OpenBMB 发布 VoxCPM2 技术报告。该模型为最新语音生成模型，拥有 2B 参数，基于超 200 万小时多语言语音数据训练，支持 30 种语言和 9 种中文方言。具备自然语言语音设计、可控及高保真延续性语音克隆能力。技术报告涵盖架构设计、统一序列公式、AudioVAE 高保真语音重建、大规模训练评估，以及零样本和指令跟随 TTS 基准结果。采用 16kHz 语义编码 + 48kHz 波形重建，在公开 TTS 基准上达到 SOTA 或极具竞争力。模型权重、微调代码和推理工具以 Apache 2.0 开源。",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2063991963133903317",
+      "publishedAt": "2026-06-08T14:30:05.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "微软AI CEO：超级智能即将到来，但不会取代你的工作",
+      "summary": "微软AI CEO Mustafa Suleyman在Decoder访谈中表示，超级智能即将到来，但不会导致大规模失业。他透露微软与OpenAI于去年10月签署新合同，巩固合作关系的同时，微软获准独立追求超级智能。微软已组建超级智能团队、训练前沿模型，并于本周Build大会上发布7个全模态新模型。他批评Anthropic将Claude描述为有意识的做法，认为消费者产品需要足够好才能克服公众对AI的负面情绪。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "publishedAt": "2026-06-08T14:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Kimi Code 焕新升级（附视频教程）",
+      "summary": "",
+      "source": "公众号：月之暗面（Kimi）",
+      "href": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484250&idx=1&sn=d0a07f5358250f3a54df8fbabe61f09a",
+      "publishedAt": "2026-06-08T13:44:16.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "小互开源视频翻译工具：一句话自动下载、转写、翻译、烧字幕",
+      "summary": "小互（@xiaohu）开源视频翻译工具（xiaohu-video-translate），只需说一句\"把链接翻译成中文字幕视频\"即可全自动完成下载、Whisper本地转写、AI翻译润色、烧字幕、出文稿。转写本地运行，不花API费。支持YouTube、Bilibili、抖音等链接及本地文件，英语、日语、韩语、法语、西班牙语等均可转成中文字幕。字幕精确到词级时间戳，按语义断句，每行不超过12字，双语模式下中文大英文小。提供纯中文与中英双语模式。工具由三个子技能组成，可单独或串联使用，适配Claude Code、Codex、OpenClaw等AI编程工具。已开源，附安装指南。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2063972223170556302",
+      "publishedAt": "2026-06-08T13:11:39.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "五个模型经济体中消失的崩溃：控制与涌现",
+      "summary": "用五个不同实验室的AI模型（OpenAI、NVIDIA、OpenBMB及一个自微调的5亿参数模型）各自驱动一个智能体构建经济市场，试图复现此前单一模型下出现的银行挤兑式价格崩溃。结果同一场景下模型不仅不抛售反而囤积，导致价格不跌反涨。通过纯谣言、库存泛滥、加大做空三种方式均无法重现崩溃。最终在结算环节直接覆盖价格，使崩溃成为设计事实。实验表明，AI智能体的涌现行为是偶然的而非稳健的，有效系统需在涌现纹理与确定性控制之间找到精确接缝。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+      "publishedAt": "2026-06-08T13:10:48.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
@@ -99,6 +147,14 @@
       "publishedAt": "2026-06-08T03:00:50.000Z"
     },
     {
+      "topic": "产品",
+      "title": "开源社区支持 OpenEnv 用于智能体强化学习",
+      "summary": "今日，Hugging Face 宣布 OpenEnv 项目进一步开放，由 Meta-PyTorch、Reflection、Unsloth 等组成的委员会协调，并获得 PyTorch Foundation、vLLM、SkyRL（UCB）等机构支持。OpenEnv 是创建终端、浏览器等智能体执行环境的工具，定位为训练器与环境间的互操作层，标准化环境的发布、部署和消费，但不定义奖励或训练循环。它基于客户端/服务器架构提供 Gymnasium 风格 API（`reset（）`、`step（）`、`state（）`），支持 HTTP、WebSocket、Docker 打包，并将 MCP 作为一等公民，使环境在模拟和生产模式下行为一致。未来将聚焦任务集对接数据集、外部奖励、Harness 集成及自动验证，以推动开源智能体 RL 基础建设。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/openenv-agentic-rl",
+      "publishedAt": "2026-06-08T00:00:00.000Z"
+    },
+    {
       "topic": "行业",
       "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
       "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。",
@@ -145,14 +201,6 @@
       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "href": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
       "publishedAt": "2026-06-07T15:31:43.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "苹果秘密会议内幕：它终于认真对待AI",
-      "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
-      "publishedAt": "2026-06-07T14:00:01.000Z"
     }
   ]
 }
