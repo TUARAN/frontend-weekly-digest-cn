@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-08",
+      "displayDate": "Jun 8",
+      "json": "/ai-daily/2026-06-08.json",
+      "count": 5,
+      "highlights": [
+        "ChatGPT 要变 AgentGPT ",
+        "英伟达与斗山集团合作推进物理AI及AI工",
+        "Harness 工程：在智能体优先的世界",
+        "Symbolica 2.0：适用于 Py",
+        "\"我在田里雇了一名工程师，它叫 Code"
+      ]
+    },
+    {
       "date": "2026-06-07",
       "displayDate": "Jun 7",
       "json": "/ai-daily/2026-06-07.json",
@@ -143,5 +156,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-07"
+  "latest": "2026-06-08"
 }
