@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-08T21:36:54.720Z",
+  "updatedAt": "2026-06-08T22:33:47.087Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
+      "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/claude-for-foundation-models",
+      "publishedAt": "2026-06-08T22:24:02.356Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI计划到2028年由AI主导研究",
+      "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2064096574142390755",
+      "publishedAt": "2026-06-08T21:25:46.000Z"
+    },
     {
       "topic": "产品",
       "title": "Viggle API 上线：任意角色任意动作秒级生成",
@@ -225,22 +241,6 @@
       "source": "公众号：生数科技（Vidu·视频）",
       "href": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
       "publishedAt": "2026-06-08T09:30:33.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新\"AI Slop\"",
-      "summary": "邵猛关注 Design Skill、Taste Skill、Anti-AI-slop design skill，并开源 Brand to DESIGN.md Skill（GitHub： shaom/brand-to-design-md-skill），让 Agent 学习设计品味后复刻网站。但他指出，这种复刻看多了反而从 Anti-AI-slop 衍生新\"AI Slop\"，缺少设计精髓，仅皮毛相仿。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2063902211978223678",
-      "publishedAt": "2026-06-08T08:33:27.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "微信AI官宣内测：两种接入模式供开发者选择",
-      "summary": "微信开发者官方今日发布指引，确认微信AI正在内测阶段。开放平台提供两种接入模式：自动模式可授权平台读取小程序源码，无需额外开发即可让微信AI直接操作页面；开发模式下开发者可自主开发技能，审核后由微信AI调用。两种模式可同时开启。微信AI是微信内的AI助手，用户通过自然语言对话即可调用、访问和操作小程序。服务条款称\"微信AI\"可能非最终名称。接入与否不影响现有小程序服务。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/961/480.htm",
-      "publishedAt": "2026-06-08T08:02:38.000Z"
     }
   ]
 }
