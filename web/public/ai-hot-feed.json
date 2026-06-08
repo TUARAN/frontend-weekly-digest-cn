@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-08T17:10:28.706Z",
+  "updatedAt": "2026-06-08T18:53:45.882Z",
   "count": 28,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Apple 发布新一代 AI 平台及 Siri 升级",
+      "summary": "Apple 在加利福尼亚库比蒂诺举办的全球开发者大会（WWDC）上发布了新一代人工智能平台，并对数字助手 Siri 进行了升级，旨在追赶硅谷同行在关键市场中的步伐。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-06-08/apple-unveils-new-ai-platform-and-siri-upgrades-video",
+      "publishedAt": "2026-06-08T18:09:39.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Apple 长期酝酿的 AI Siri 全面重塑终于到来",
+      "summary": "新版\"Siri AI\"将语音助手转变为功能更丰富的 AI 伴侣，不再局限于简单语音指令，而是能承担更多复杂操作。此次重塑旨在让 Siri 从被动应答进化成主动智能体，标志着 Apple 在 AI 助手领域的重要升级。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here",
+      "publishedAt": "2026-06-08T17:56:21.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "为生物学AI智能体铺路",
+      "summary": "一项实验让Claude、Biomni、Edison Analysis、GPT等科研智能体从病毒学数据库NCBI Virus中检索序列数据，即使最强模型也无法稳定达到可靠数据集构建所需的准确率。加入确定性检索层gget virus后，准确率接近100%。研究指出，当前生物学数据基础设施存在碎片化、格式特殊、接口不统一等问题，导致AI智能体难以像在软件领域那样高效工作。确定性检索工具是实现可靠智能体工作流的关键，生物学数据库需为智能体作为规模化用户而设计。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/research/agents-in-biology",
+      "publishedAt": "2026-06-08T17:46:10.323Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude Code GA一周年回顾：验证与自动模式",
+      "summary": "Claude Code 的第一个演示收到了两个 Slack 反应。\n\nGA 一周年之际，@bcherny 和 @_catwu 回顾：验证最佳实践、为何构建自动模式、例程和循环，以及下一步计划。\n\nhttps：//www.youtube.com/watch？v=Hth_tLaC2j8",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2064032814392352816",
+      "publishedAt": "2026-06-08T17:12:25.000Z"
+    },
     {
       "topic": "论文",
       "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
@@ -77,7 +109,7 @@
     {
       "topic": "产品",
       "title": "Kimi Code 焕新升级（附视频教程）",
-      "summary": "",
+      "summary": "Kimi Code 开源 Coding Agent 迎来大版本升级：一行命令安装，毫秒级启动；新增视频理解能力，支持提取视频风格生成 LUT 文件、长视频切片、根据录屏生成代码；集成同花顺、天眼查等权威数据源，可查询股票价格、财报、学术论文；支持 ACP 协议，可在 JetBrains、Zed 中使用；丰富 hook 生态方便集成其他工具。底层视觉推理由 Kimi K2.6 模型提供。",
       "source": "公众号：月之暗面（Kimi）",
       "href": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484250&idx=1&sn=d0a07f5358250f3a54df8fbabe61f09a",
       "publishedAt": "2026-06-08T13:44:16.000Z"
@@ -107,25 +139,25 @@
       "publishedAt": "2026-06-08T11:46:56.000Z"
     },
     {
-      "topic": "产品",
-      "title": "AgentScope Java 2.0 发布",
-      "summary": "阿里云发布AgentScope Java 2.0，面向企业级AI智能体开发。新版本主要特性：分布式无状态架构，支持K8s弹性扩缩容与会话恢复；多租户隔离，通过Workspace抽象实现安全数据分离；长期稳定性，HarnessAgent负责上下文管理与容错；安全执行，提供细粒度权限控制和Human-in-the-Loop支持。适用于JVM生产环境。开源地址见推文链接。",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2063923881857945815",
-      "publishedAt": "2026-06-08T09:59:33.000Z"
-    },
-    {
       "topic": "技巧",
       "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
-      "summary": "",
+      "summary": "通义实验室教程演示了如何用 Agent（Qoder）辅助完成 Qwen3-VL-2B 模型在 Android 端侧的全流程部署。操作包括：检查 JDK 21、NDK 27、CMake 3.18.1 等环境；创建 arm64-v8a 的 Native C++ 工程（minSdk 29、compileSdk 35）；通过 ModelScope CLI 下载约 1.4GB 的 MNN/Qwen3-VL-2B-Instruct-MNN 模型；编译开启 LLM 视觉支持（MNN_BUILD_LLM、LLM_SUPPORT_VISION）的 libMNN.so；构建 APK 并推送模型至手机私有目录。最终 App 提供图文推理页面，输出 MNN 版本（v3.5.0）、ABI 及推理指标。所有繁琐步骤均可由 Agent 自动执行。",
       "source": "公众号：通义实验室（千问）",
       "href": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
       "publishedAt": "2026-06-08T09:54:08.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "微信AI Agent生态曝光：嵌入小程序调用与手机厂商合作",
+      "summary": "腾讯正测试嵌入微信的AI Agent，用户右滑唤出对话窗口，通过自然语言指令调用数百万小程序完成点咖啡等任务。微信还与华为、荣耀、小米、OPPO、vivo合作推出A2A助手能力，可通过手机语音助理发起微信音视频通话或发送消息。6月8日，微信官方发布《关于开发者接入微信AI生态的指引》，提供自动接入模式，利用微信沙箱全自动改造小程序，使其可被AI直接调用。这一布局被视为Agentic Commerce（代理式交易）的雏形。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647683054&idx=1&sn=dcaa25bd4fdfc9bd5c0211532021bf7c",
+      "publishedAt": "2026-06-08T09:38:30.000Z"
+    },
+    {
       "topic": "行业",
-      "title": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
-      "summary": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心，推动AI与影视产业融合落地。合作聚焦于利用生数科技的AI视频生成能力（Vidu），结合华策集团的影视行业资源，探索AIGC在影视制作全流程中的应用，包括剧本生成、预可视化、特效制作等环节。双方将通过技术研发与场景验证，加速AI在影视行业的规模化落地。",
+      "title": "生数科技与华策影视达成战略合作，共建AI视听创制中心",
+      "summary": "6月7日，生数科技与华策影视签署战略合作协议，共同推动AI与影视产业融合。双方将以华策影视科技产教示范区为载体、生数科技Vidu视频生成大模型为技术底座，设立\"AI视听创制中心\"，探索AI虚拟制作与实拍结合。同时在浙江华策影视学校设立\"华策&生数AI影视创制专业\"，课程覆盖传统编导剪与AI视频制作技术。内容生产层面推广\"实拍+AI\"融合方案并优先在华策项目中试点，创作者生态层面引导Vidu社区超级创作者到产教基地注册。",
       "source": "公众号：生数科技（Vidu·视频）",
       "href": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
       "publishedAt": "2026-06-08T09:30:33.000Z"
@@ -163,14 +195,6 @@
       "publishedAt": "2026-06-08T07:46:41.000Z"
     },
     {
-      "topic": "行业",
-      "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
-      "summary": "一年前英国宣布做\"AI 制造者\"，如今主权 AI 计划取得实质进展：AI 云提供商数量翻倍，Nebius 部署三套 NVIDIA AI 基础设施，预计 2027 年满负荷达 65 兆瓦；基于 5，400 个 NVIDIA GH200 的 Isambard-AI 超级计算机全由零碳电力驱动。主权 AI 基金资助四家 NVIDIA Inception 初创公司：Cosine 训练多模态 MoE 编码模型；Cursive 使用 Megatron-LM 开发自改进 AI 系统；Doubleword 基于 Dynamo 和 Nemotron 3 Super 120B 实现 70 倍冷启动加速、4 倍 KV 缓存压缩，推理成本降低 90-95%；Prima Mente 借助 Blackwell GPU 以近 3 倍训练加速开发生物基础模型。NVIDIA 对英国初创生态投资 20 亿英镑。",
-      "source": "NVIDIA AI Blog",
-      "href": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
-      "publishedAt": "2026-06-08T06:00:57.000Z"
-    },
-    {
       "topic": "论文",
       "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
       "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。",
@@ -187,14 +211,6 @@
       "publishedAt": "2026-06-08T05:53:46.000Z"
     },
     {
-      "topic": "行业",
-      "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
-      "summary": "NVIDIA与LG集团合作建设AI工厂，为LG的机器人、自动驾驶、数据中心和GPU云服务提供加速计算基础设施。双方整合NVIDIA AI工厂平台与LG的消费电子、机器人技术，连接AI模型开发、物理AI数据生成、机器人仿真训练、边缘部署和工厂数字孪生。LG电子将利用NVIDIA Isaac Sim和Isaac Lab仿真训练CLOiD家用机器人，探索采用Isaac GR00T模型，并开发物理AI数据工厂。LG Innotek提供针对NVIDIA GPU优化的机器人传感组件，LG CNS集成NVIDIA机器人技术。双方还将基于NVIDIA DSX平台建设下一代AI工厂，涵盖冷却、模块化设计和800V直流能源方案。LG电子将基于NVIDIA DRIVE平台开发ADAS和车载AI系统。",
-      "source": "NVIDIA AI Blog",
-      "href": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
-      "publishedAt": "2026-06-08T03:00:50.000Z"
-    },
-    {
       "topic": "产品",
       "title": "开源社区支持 OpenEnv 用于智能体强化学习",
       "summary": "今日，Hugging Face 宣布 OpenEnv 项目进一步开放，由 Meta-PyTorch、Reflection、Unsloth 等组成的委员会协调，并获得 PyTorch Foundation、vLLM、SkyRL（UCB）等机构支持。OpenEnv 是创建终端、浏览器等智能体执行环境的工具，定位为训练器与环境间的互操作层，标准化环境的发布、部署和消费，但不定义奖励或训练循环。它基于客户端/服务器架构提供 Gymnasium 风格 API（`reset（）`、`step（）`、`state（）`），支持 HTTP、WebSocket、Docker 打包，并将 MCP 作为一等公民，使环境在模拟和生产模式下行为一致。未来将聚焦任务集对接数据集、外部奖励、Harness 集成及自动验证，以推动开源智能体 RL 基础建设。",
@@ -209,22 +225,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
       "publishedAt": "2026-06-07T23:26:02.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
-      "summary": "英伟达与斗山集团扩大合作，覆盖斗山机器人、斗山山猫、斗山能源及斗山电子材料四大板块。斗山机器人将集成英伟达Isaac Sim、Isaac Lab、Cosmos世界基础模型、Newton物理引擎及Jetson Thor，推进Agentic Robot OS，探索卸垛、打磨等参考用例及双臂/人形机器人。斗山山猫计划将物理AI技术用于建筑、园林、农业设备，加速开发专用世界模型。斗山能源评估通过燃气轮机、汽轮机、小型模块化反应堆及氢燃料电池为AI工厂供电。斗山电子材料为英伟达MGX生态系统供应高性能铜箔基板（CCL），用于AI服务器PCB。",
-      "source": "NVIDIA AI Blog",
-      "href": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai",
-      "publishedAt": "2026-06-07T23:00:36.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "ChatGPT 要变 AgentGPT 了",
-      "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称\"聊天已死\"，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估值可能超 1 万亿美元。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2063686036895478162",
-      "publishedAt": "2026-06-07T18:14:27.000Z"
     }
   ]
 }
