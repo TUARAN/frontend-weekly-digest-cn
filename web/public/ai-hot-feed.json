@@ -1,22 +1,62 @@
 {
-  "updatedAt": "2026-06-08T18:53:45.882Z",
-  "count": 28,
+  "updatedAt": "2026-06-08T19:45:56.491Z",
+  "count": 30,
   "items": [
     {
       "topic": "产品",
-      "title": "Apple 发布新一代 AI 平台及 Siri 升级",
-      "summary": "Apple 在加利福尼亚库比蒂诺举办的全球开发者大会（WWDC）上发布了新一代人工智能平台，并对数字助手 Siri 进行了升级，旨在追赶硅谷同行在关键市场中的步伐。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-08/apple-unveils-new-ai-platform-and-siri-upgrades-video",
-      "publishedAt": "2026-06-08T18:09:39.000Z"
+      "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
+      "summary": "Claude 为目录中已发布的 Connector 新增性能监控仪表盘（公开测试版）。所有者可追踪活跃用户、工具调用次数、目录排名、健康评分、错误率、延迟，并按工具细分错误归因；还能按 Claude、Claude Code、Cowork 等产品分解使用情况。访问需 Team 或 Enterprise 账号（Admin/Owner 权限或自定义角色）。基于 MCP 构建的 Connector 可直接在 Claude 应用内提交至目录，该目录已有超 300 个第三方 Connector，每日被数百万人使用。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/observability-for-developers-building-connectors",
+      "publishedAt": "2026-06-08T18:50:51.580Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Anthropic：AI编码快于生物学的缘由",
+      "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市--开进去会让人抓狂，因为它们是针对不同的交通流量设计的。\n\n我们如何构建智能体可以使用的基础设施？\nhttps：//www.anthropic.com/research/agents-in-biology",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "href": "https://x.com/AnthropicAI/status/2064054837294354677",
+      "publishedAt": "2026-06-08T18:39:56.000Z"
     },
     {
       "topic": "产品",
-      "title": "Apple 长期酝酿的 AI Siri 全面重塑终于到来",
-      "summary": "新版\"Siri AI\"将语音助手转变为功能更丰富的 AI 伴侣，不再局限于简单语音指令，而是能承担更多复杂操作。此次重塑旨在让 Siri 从被动应答进化成主动智能体，标志着 Apple 在 AI 助手领域的重要升级。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here",
-      "publishedAt": "2026-06-08T17:56:21.000Z"
+      "title": "Apple发布新一代Apple Intelligence和Siri AI",
+      "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。",
+      "source": "Apple：Newsroom（RSS）",
+      "href": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
+      "publishedAt": "2026-06-08T18:18:43.157Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
+      "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。",
+      "source": "Apple：Newsroom（RSS）",
+      "href": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
+      "publishedAt": "2026-06-08T18:17:44.449Z"
+    },
+    {
+      "topic": "行业",
+      "title": "苹果 WWDC 2026 直播",
+      "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.apple.com/apple-events/event-stream",
+      "publishedAt": "2026-06-08T18:17:22.096Z"
+    },
+    {
+      "topic": "行业",
+      "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
+      "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。",
+      "source": "Apple：Newsroom（RSS）",
+      "href": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
+      "publishedAt": "2026-06-08T18:13:26.639Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "样本效率黑洞：AI能力背后隐藏的数据需求深渊",
+      "summary": "将AI比作一个闪耀着能力的星系，其核心存在一个肉眼不可见的巨大黑洞--数据。这个比喻揭示了AI模型惊人能力背后对海量数据的依赖，样本效率的瓶颈如同引力中心，将各色能力凝聚在一起。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "href": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
+      "publishedAt": "2026-06-08T18:09:37.000Z"
     },
     {
       "topic": "论文",
@@ -201,30 +241,6 @@
       "source": "X：腾讯混元 (@TencentHunyuan)",
       "href": "https://x.com/TencentHunyuan/status/2063862263434613237",
       "publishedAt": "2026-06-08T05:54:42.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
-      "summary": "阿里巴巴旗下高德发布全球首个3D原生城市世界模型ABot-Earth0.5，已建成覆盖190多个国家和地区的3D地图。用户输入卫星图或文字描述，10分钟即可在消费级GPU上生成公里级3D城市，输出可编辑3DGS格式，可直接导入Unity等引擎。制图成本为传统百分之一，效率提升约千倍，可为具身智能、低空经济、应急救援等提供支撑。目前已开放内测，可前往abot-earth.amap.com提交申请。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/961/378.htm",
-      "publishedAt": "2026-06-08T05:53:46.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "开源社区支持 OpenEnv 用于智能体强化学习",
-      "summary": "今日，Hugging Face 宣布 OpenEnv 项目进一步开放，由 Meta-PyTorch、Reflection、Unsloth 等组成的委员会协调，并获得 PyTorch Foundation、vLLM、SkyRL（UCB）等机构支持。OpenEnv 是创建终端、浏览器等智能体执行环境的工具，定位为训练器与环境间的互操作层，标准化环境的发布、部署和消费，但不定义奖励或训练循环。它基于客户端/服务器架构提供 Gymnasium 风格 API（`reset（）`、`step（）`、`state（）`），支持 HTTP、WebSocket、Docker 打包，并将 MCP 作为一等公民，使环境在模拟和生产模式下行为一致。未来将聚焦任务集对接数据集、外部奖励、Harness 集成及自动验证，以推动开源智能体 RL 基础建设。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/openenv-agentic-rl",
-      "publishedAt": "2026-06-08T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
-      "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
-      "publishedAt": "2026-06-07T23:26:02.000Z"
     }
   ]
 }
