@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-09T05:26:24.036Z",
+  "updatedAt": "2026-06-09T07:19:33.665Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
+      "summary": "Cursor 将欧洲总部设在伦敦，计划招聘约 200 名员工，并在巴黎、慕尼黑等地开设小型办事处。SpaceX 拥有以 600 亿美元收购 Cursor 的选择权，或支付 100 亿美元开展全新合作。Cursor 目前 B2B 年化营收约 26 亿美元，客户包括英国航空、英国石油、诺基亚等。公司强调数据留存欧洲本地以满足监管合规，其平台支持用户用自然语言生成代码，主打模型中立，竞争对手包括 GitHub Copilot、OpenAI 和谷歌的同类产品。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/961/868.htm",
+      "publishedAt": "2026-06-09T05:53:06.000Z"
+    },
     {
       "topic": "模型",
       "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
@@ -233,14 +241,6 @@
       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "href": "https://x.com/OpenBMB/status/2063991963133903317",
       "publishedAt": "2026-06-08T14:30:05.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
-      "summary": "OpenAI 近日向 SEC 机密提交了 S-1 草案（即首次公开募股注册声明），目前尚未决定上市时间。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/openai-submits-confidential-s-1",
-      "publishedAt": "2026-06-08T14:00:00.000Z"
     }
   ]
 }
