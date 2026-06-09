@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-09",
+      "displayDate": "Jun 9",
+      "json": "/ai-daily/2026-06-09.json",
+      "count": 5,
+      "highlights": [
+        "FrontierCode 基准测试：AI",
+        "Hivemind推出面向AI编程智能体的",
+        "小互开源视频翻译工具：一句话自动下载、转",
+        "Claude 为 Connector 开",
+        "两部门：到2026年底人形机器人等重点产"
+      ]
+    },
+    {
       "date": "2026-06-08",
       "displayDate": "Jun 8",
       "json": "/ai-daily/2026-06-08.json",
@@ -156,5 +169,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-08"
+  "latest": "2026-06-09"
 }
