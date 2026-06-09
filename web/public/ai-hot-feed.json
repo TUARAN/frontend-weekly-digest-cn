@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-09T15:17:23.406Z",
+  "updatedAt": "2026-06-09T16:57:57.748Z",
   "count": 30,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
+      "summary": "在《Nature Methods》上发表的最新研究来自Project Ex Vivo，表明AI模型从多样化的细胞状态中学到的知识，比仅从规模化数据集中学到的更多，这一发现可能重塑疗法与患者的匹配方式。https：//msft.it/6013vgE8l",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "href": "https://x.com/MSFTResearch/status/2064384745195118817",
+      "publishedAt": "2026-06-09T16:30:52.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenRouter与Cursor集成指南",
+      "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2064384545256833209",
+      "publishedAt": "2026-06-09T16:30:04.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "GitHub Copilot CLI 推出自定义 AI 智能体，将一次性终端提示转化为可重复工作流",
+      "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
+      "publishedAt": "2026-06-09T16:00:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
+      "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
+      "publishedAt": "2026-06-09T15:55:53.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "塔塔咨询服务将因AI智能体应用放缓招聘，亚洲外包业迎来转折",
+      "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
+      "publishedAt": "2026-06-09T15:32:09.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Gemini 3.5 Live Translate 发布",
+      "summary": "说 hello， hola， 你好--欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐",
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "href": "https://x.com/GoogleDeepMind/status/2064366504745828689",
+      "publishedAt": "2026-06-09T15:18:23.000Z"
+    },
     {
       "topic": "模型",
       "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
@@ -89,14 +137,6 @@
       "source": "X：Kimi.ai (@Kimi_Moonshot)",
       "href": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
       "publishedAt": "2026-06-09T11:38:40.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "可灵AI×候鸟300发起AI主义新浪潮AIGC影像大赛",
-      "summary": "可灵AI与候鸟300联合发起AIGC影像大赛。线下大赛6月16-26日在阿那亚海边举办，评审包括李少红、陈明昊、焦雄屏等影视与AI专家及美院教授，设10万奖金+超200万灵感值，结果6月27日晚揭晓。线上大赛6月22日前投稿可角逐\"最受关注大奖\"，获奖者受邀参加6月27日颁奖。参赛要求：视频≥50%由可灵AI生成，官网投稿填表并带话题分享。",
-      "source": "公众号：可灵AI（快手·视频）",
-      "href": "https://mp.weixin.qq.com/s/d0c13s2tpsSnpgk3bQk04Q",
-      "publishedAt": "2026-06-09T11:14:57.000Z"
     },
     {
       "topic": "技巧",
@@ -201,46 +241,6 @@
       "source": "X：Berry Xia (@berryxia)",
       "href": "https://x.com/berryxia/status/2064155452934639718",
       "publishedAt": "2026-06-09T01:19:44.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
-      "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/961/749.htm",
-      "publishedAt": "2026-06-09T01:15:30.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "FrontierCode 基准测试：AI 编程评估新标准--维护者审核通过率最高仅 13.4%",
-      "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%-5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2064146694774595646",
-      "publishedAt": "2026-06-09T00:44:56.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
-      "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记\"会了什么\"而非\"讲了什么\"、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2064144978792878348",
-      "publishedAt": "2026-06-09T00:38:07.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Claude 东京站活动开放注册",
-      "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo",
-      "source": "X：Claude (@claudeai)",
-      "href": "https://x.com/claudeai/status/2064139073590104402",
-      "publishedAt": "2026-06-09T00:14:39.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Apple Core AI 框架",
-      "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://developer.apple.com/documentation/coreai",
-      "publishedAt": "2026-06-08T23:05:07.159Z"
     }
   ]
 }
