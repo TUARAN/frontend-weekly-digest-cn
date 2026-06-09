@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-09T09:13:03.903Z",
+  "updatedAt": "2026-06-09T11:06:22.494Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "阿里云在马来西亚柔佛推新区域",
+      "summary": "阿里云在马来西亚柔佛州推出了一个新的公有云区域，包含两个新数据中心，以满足今年下半年马来西亚对云和AI服务日益增长的需求，包括AgentRun、STAROps、ACS Agent Sandbox、Agent Security Center、AI Security Guardrails 2.0和Agentic SOC。https：//int.alibabacloud.com/m/1000414242/",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2064288633188708411",
+      "publishedAt": "2026-06-09T10:08:57.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "台湾考虑限制AI芯片对华出口以配合美国",
+      "summary": "据知情人士透露，台湾当局正考虑对AI芯片出口中国大陆实施更严格的管制，以进一步与美国出口限制措施对齐。此举旨在遏制半导体走私，但可能招致北京方面的谴责。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+      "publishedAt": "2026-06-09T10:07:50.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "仅凭一份文档，Qwen3.7-Max 从 0 交付双端应用",
+      "summary": "在无设计稿和后端代码的条件下，Qwen3.7-Max 仅凭一份约 15 万字的产品调研文档，于隔离环境中全自动完成移动端与 Web 端两套真实应用从 0 到 1 交付，单端耗时约 4 小时，中途无人工接管。模型不具备图像理解能力，通过像素坐标反推布局约束实现界面还原。实验采用\"分阶段注入约束→逐层验收→带错纠正\"的闭环控制系统：任务拆分为规划、架构、编码等阶段，验收覆盖静态检查、编译自检（0 error）、路由完整性（Web 端 34 条路由全部可达）、功能扫描及真机冷启动冒烟。失败时错误文本自动注入下一轮重试，使模型数小时内收敛。移动端产出可安装 APK，Web 端 typecheck 与构建均通过。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/bYEZL9LM3daNP9tZReqNwg",
+      "publishedAt": "2026-06-09T09:27:47.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "NeuroBait：微调AI助手，为ADHD大脑点燃多巴胺火花",
+      "summary": "NeuroBait是基于Google gemma-3-12b-it微调的AI对话助手，旨在帮助ADHD患者克服\"知道该做什么但无法开始\"的执行功能障碍。采用16-bit LoRA（r=16， alpha=16）在Unsloth上训练3个epoch，学习率2e-4，最大序列长度2048，使用单张H100 80GB GPU。数据集为基于真实ADHD场景手工合成的少量数据。部署于Hugging Face Space（ZeroGPU），使用Gradio和标准transformers+peft，运行时以4-bit NF4加载基础模型并应用LoRA适配器。NeuroBait不生成待办清单，而是根据用户上下文给出3-6句温暖流畅的回复，引导用户找到一件微小可立即执行的动作，从而激发多巴胺、降低启动阻力。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
+      "publishedAt": "2026-06-09T09:04:58.000Z"
+    },
     {
       "topic": "技巧",
       "title": "NVIDIA cuTile Python 教程：在 Colab 中构建用于向量加法、矩阵加法和矩阵乘法的 Tiled GPU 内核",
@@ -209,38 +241,6 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2064032814392352816",
       "publishedAt": "2026-06-08T17:12:25.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
-      "summary": "我们与哈佛大学发表新研究，关于从聊天界面转向像Computer这样的自主智能体的转变。\n\n超过3个月的研究结果表明，使用Computer的工人在完成任务上比仅使用搜索快87%，成本低94%，且满意度更高。\n\nhttps：//research.perplexity.ai/articles/how-ai-agents-reshape-knowledge-work",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2064023455453110286",
-      "publishedAt": "2026-06-08T16:35:14.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT 新增数据图表生成功能",
-      "summary": "将数据和比较转化为图表，直接在 ChatGPT 中完成。\n\n现已支持移动端和网页端。",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "href": "https://x.com/ChatGPTapp/status/2064018770839113769",
-      "publishedAt": "2026-06-08T16:16:37.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NotebookLM重大升级：智能体能力与高级推理",
-      "summary": "推出更强大的 NotebookLM 🚀\n\n重大升级带来了对话中的智能体能力、更高级的推理以及一系列新的输出格式。处理复杂的多步骤研究问题从未如此简单。\n\n现已面向 Google AI Ultra 订阅者推出。",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "href": "https://x.com/NotebookLM/status/2064016460964585549",
-      "publishedAt": "2026-06-08T16:07:26.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway Aleph 2.0 编辑模型：一键适配任意视频格式",
-      "summary": "一个视频，现在可以为每个信息流和格式制作。上传你现有的视频，选择你想要的宽高比，然后观看我们的编辑模型 Aleph 2.0，填充场景的其余部分，就像你从一开始就这样制作一样。\n\n在我们的桌面 Web 应用上尝试，链接如下。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2064012425884569627",
-      "publishedAt": "2026-06-08T15:51:24.000Z"
     }
   ]
 }
