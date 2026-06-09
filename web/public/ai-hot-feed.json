@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-09T03:11:46.831Z",
+  "updatedAt": "2026-06-09T05:26:24.036Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
+      "summary": "小米 MiMo 与 TileRT 联合发布 MiMo-V2.5-Pro-UltraSpeed 模式，使 1T 参数旗舰模型输出速度首次突破 1000 tokens/s。模型侧采用 FP4 混合量化（仅量化 MoE Expert）与 DFlash 块级 masked 并行推测解码（coding 场景平均接受长度 6.30 tokens）；系统侧 TileRT 引入常驻内核引擎与异构流水线协作。API 限时开放（2026 年 6 月 9 日至 23 日），定价为 MiMo-V2.5-Pro 的 3 倍，速度提升约 10 倍。FP4 权重与 DFlash 模型 checkpoint 已开源至 HuggingFace。",
+      "source": "公众号：小米 MiMo",
+      "href": "https://mp.weixin.qq.com/s/EZvmrx8xfM9MZNCMDwImFQ",
+      "publishedAt": "2026-06-09T03:31:32.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
@@ -217,14 +225,6 @@
       "source": "X：Kim (@kimmonismus)",
       "href": "https://x.com/kimmonismus/status/2064001045391462907",
       "publishedAt": "2026-06-08T15:06:11.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1，000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
-      "summary": "小米 MiMo 联合 TileRT_AI 发布 MiMo-V2.5-Pro-UltraSpeed，首次在 1 万亿参数 MoE 模型上实现超过 1，000 tokens/s 输出速度，仅用单台标准 8-GPGPU 节点（非 Cerebras 或 Groq 方案）。提供限时免费聊天体验，UltraSpeed API 价格为 3 倍，输出体验提升约 10 倍。申请时间为 6 月 8 日至 23 日（PDT），企业可邮件联系 business-mimo@xiaomi.com。",
-      "source": "X：小米 MiMo (@XiaomiMiMo)",
-      "href": "https://x.com/XiaomiMiMo/status/2063993790587904362",
-      "publishedAt": "2026-06-08T14:37:21.000Z"
     },
     {
       "topic": "模型",
