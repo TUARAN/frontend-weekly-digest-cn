@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-09T13:04:47.720Z",
+  "updatedAt": "2026-06-09T15:17:23.406Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
+      "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n【引用 @steph_palazzolo】：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵--是 Opus 的两倍--但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps：//www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2064362469632405807",
+      "publishedAt": "2026-06-09T15:02:21.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Luma AI Ray3.2：方向进，电影出",
+      "summary": "方向进入，电影出来。\n\nRay3.2 来了 → http：//lumalabs.ai/ray3-2",
+      "source": "X：Luma AI (@LumaLabsAI)",
+      "href": "https://x.com/LumaLabsAI/status/2064358414143143954",
+      "publishedAt": "2026-06-09T14:46:14.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Runway视频轻松转宽高比",
+      "summary": "轻松将视频重新格式化为不同宽高比，让你在每一个重要平台都能展示。\n\n点击下方链接开始。",
+      "source": "X：Runway (@runwayml)",
+      "href": "https://x.com/runwayml/status/2064350871048077756",
+      "publishedAt": "2026-06-09T14:16:16.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
+      "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "href": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+      "publishedAt": "2026-06-09T14:10:19.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Google DeepMind 欧洲机器人加速器启动，15家初创公司入选",
+      "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "href": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+      "publishedAt": "2026-06-09T14:02:33.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "GPT-5.5 替代 OCR，ChinaRxiv 论文免费开放",
+      "summary": "23，000+ 篇 ChinaRxiv 论文现已免费提供，并带有更完整的英文翻译，源于一位开发者用 GPT-5.5 替换了复杂的 OCR 管道。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "href": "https://x.com/OpenAIDevs/status/2064346891673059484",
+      "publishedAt": "2026-06-09T14:00:27.000Z"
+    },
     {
       "topic": "行业",
       "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
@@ -193,54 +241,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://developer.apple.com/documentation/coreai",
       "publishedAt": "2026-06-08T23:05:07.159Z"
-    },
-    {
-      "topic": "行业",
-      "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
-      "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/961/721.htm",
-      "publishedAt": "2026-06-08T22:50:42.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
-      "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/claude-for-foundation-models",
-      "publishedAt": "2026-06-08T22:24:02.356Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI计划到2028年由AI主导研究",
-      "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2064096574142390755",
-      "publishedAt": "2026-06-08T21:25:46.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Viggle API 上线：任意角色任意动作秒级生成",
-      "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇",
-      "source": "X：Viggle AI (@ViggleAI)",
-      "href": "https://x.com/ViggleAI/status/2064083087806390319",
-      "publishedAt": "2026-06-08T20:32:11.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
-      "summary": "Claude 为目录中已发布的 Connector 新增性能监控仪表盘（公开测试版）。所有者可追踪活跃用户、工具调用次数、目录排名、健康评分、错误率、延迟，并按工具细分错误归因；还能按 Claude、Claude Code、Cowork 等产品分解使用情况。访问需 Team 或 Enterprise 账号（Admin/Owner 权限或自定义角色）。基于 MCP 构建的 Connector 可直接在 Claude 应用内提交至目录，该目录已有超 300 个第三方 Connector，每日被数百万人使用。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/observability-for-developers-building-connectors",
-      "publishedAt": "2026-06-08T18:50:51.580Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic：AI编码快于生物学的缘由",
-      "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市--开进去会让人抓狂，因为它们是针对不同的交通流量设计的。\n\n我们如何构建智能体可以使用的基础设施？\nhttps：//www.anthropic.com/research/agents-in-biology",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2064054837294354677",
-      "publishedAt": "2026-06-08T18:39:56.000Z"
     }
   ]
 }
