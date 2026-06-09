@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-09T22:34:33.726Z",
+  "updatedAt": "2026-06-09T23:31:21.299Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Anthropic 发布 Claude Fable 5 与 Mythos 5",
+      "summary": "Anthropic 于 6 月 9 日推出 Claude Fable 5 和 Mythos 5。Fable 5 面向普通用户，是目前公开最强的 Claude 模型，在软件工程、知识工作、视觉、科学研究等领域优于 Opus，自主运行时间更长。Mythos 5 通过 Project Glasswing 向网络安全防御方和基础设施提供商开放，具备全球最强网络安全能力，并在药物设计、分子生物学和基因组学中表现突出。两款模型本质相同，仅安全护栏不同。Fable 5 采用新分类器拦截网络安全、生物化学和蒸馏请求，命中后转由 Claude Opus 4.8 响应。定价均为每百万输入 10 美元、每百万输出 50 美元。Fable 5 已全面上线，Mythos 5 暂限 Glasswing 合作伙伴及少量生物研究者。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/152.htm",
+      "publishedAt": "2026-06-09T22:50:11.000Z"
+    },
     {
       "topic": "行业",
       "title": "IBM CEO：AI不一定导致员工减少",
@@ -233,14 +241,6 @@
       "source": "公众号：火山引擎",
       "href": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
       "publishedAt": "2026-06-09T11:45:02.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
-      "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "publishedAt": "2026-06-09T10:46:19.000Z"
     }
   ]
 }
