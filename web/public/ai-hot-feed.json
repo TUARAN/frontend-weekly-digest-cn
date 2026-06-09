@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-09T17:44:51.376Z",
+  "updatedAt": "2026-06-09T18:47:49.306Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Anthropic 发布 Claude Fable 5 和 Mythos 5，编程和科学能力大幅提升",
+      "summary": "Anthropic 推出 Claude Fable 5 和 Mythos 5 两款新模型，声称全面超越当前 Opus 代，尤其在编程与科研方面。Fable 5 一天内完成 Stripe 的代码迁移，原需团队两个月工作量；Mythos 5 可自主设计候选药物，但因具备进攻性网络能力，目前仍保持封闭不开放。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/anthropic-releases-claude-fable-5-and-mythos-5-with-major-gains-in-coding-and-science",
+      "publishedAt": "2026-06-09T18:25:19.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
+      "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2064410506287538387",
+      "publishedAt": "2026-06-09T18:13:14.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Cursor Evals 新增成本与输出 Token 图表",
+      "summary": "我们刚刚向 http：//cursor.com/evals 推送了一些改进！\n\n你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中",
+      "source": "X：Eric Zakariasson (@ericzakariasson)",
+      "href": "https://x.com/ericzakariasson/status/2064404502053294565",
+      "publishedAt": "2026-06-09T17:49:22.000Z"
+    },
     {
       "topic": "产品",
       "title": "Responses API 网页搜索新增图片结果",
@@ -9,6 +33,14 @@
       "source": "X：OpenAI Developers (@OpenAIDevs)",
       "href": "https://x.com/OpenAIDevs/status/2064395155688616153",
       "publishedAt": "2026-06-09T17:12:14.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
+      "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "href": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "publishedAt": "2026-06-09T17:11:22.000Z"
     },
     {
       "topic": "模型",
@@ -209,38 +241,6 @@
       "source": "公众号：通义实验室（千问）",
       "href": "https://mp.weixin.qq.com/s/bYEZL9LM3daNP9tZReqNwg",
       "publishedAt": "2026-06-09T09:27:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "NeuroBait：微调AI助手，为ADHD大脑点燃多巴胺火花",
-      "summary": "NeuroBait是基于Google gemma-3-12b-it微调的AI对话助手，旨在帮助ADHD患者克服\"知道该做什么但无法开始\"的执行功能障碍。采用16-bit LoRA（r=16， alpha=16）在Unsloth上训练3个epoch，学习率2e-4，最大序列长度2048，使用单张H100 80GB GPU。数据集为基于真实ADHD场景手工合成的少量数据。部署于Hugging Face Space（ZeroGPU），使用Gradio和标准transformers+peft，运行时以4-bit NF4加载基础模型并应用LoRA适配器。NeuroBait不生成待办清单，而是根据用户上下文给出3-6句温暖流畅的回复，引导用户找到一件微小可立即执行的动作，从而激发多巴胺、降低启动阻力。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
-      "publishedAt": "2026-06-09T09:04:58.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "NVIDIA cuTile Python 教程：在 Colab 中构建用于向量加法、矩阵加法和矩阵乘法的 Tiled GPU 内核",
-      "summary": "该教程基于 NVIDIA cuTile Python 实现了分块 GPU 内核编程工作流，在 Colab 环境中配置 GPU、驱动、CUDA 及 cuTile 可用性后，分别构建了 tiled 向量加法、矩阵加法和矩阵乘法核函数，并以 PyTorch 作为回退保持 notebook 可执行。每一步均通过 PyTorch 验证结果正确性，并基准测试了各阶段的中位运行时间。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab",
-      "publishedAt": "2026-06-09T08:37:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "硅基流动联合CodeWhale推出DeepSeek V4终端最佳性价比组合",
-      "summary": "硅基流动宣布，通过V4-Pro（质量）与V4-Flash（速度）两行配置，即可在终端获得DeepSeek V4的最佳性价比组合。专为DeepSeek V4构建的终端编码智能体CodeWhale现已内置SiliconFlow。CodeWhale具备流式推理（显示思考过程）、自动路由（根据任务复杂度切换模型与思考深度）、零漂移（通过书面宪法为每轮排序权威，保持V4定向）以及自我改进（V4协助编写框架，框架提升后每个会话更强大）等特性。",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "href": "https://x.com/SiliconFlowAI/status/2064261826083512554",
-      "publishedAt": "2026-06-09T08:22:26.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "中国准备2950亿美元计划资助全国AI基础设施建设",
-      "summary": "中国计划在未来五年投入约2万亿元人民币（约2950亿美元）建设全国数据中心，以推动国内AI产业发展并超越美国。该投资将覆盖数据中心基础设施的大规模建设，为北京在关键技术领域的雄心提供资金支持。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-09/china-prepares-295-billion-plan-to-fund-nationwide-ai-buildout",
-      "publishedAt": "2026-06-09T08:13:10.000Z"
     }
   ]
 }
