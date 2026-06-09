@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-08T23:28:50.886Z",
+  "updatedAt": "2026-06-09T00:49:08.502Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
+      "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记\"会了什么\"而非\"讲了什么\"、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2064144978792878348",
+      "publishedAt": "2026-06-09T00:38:07.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Claude 东京站活动开放注册",
+      "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo",
+      "source": "X：Claude (@claudeai)",
+      "href": "https://x.com/claudeai/status/2064139073590104402",
+      "publishedAt": "2026-06-09T00:14:39.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Apple Core AI 框架",
+      "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://developer.apple.com/documentation/coreai",
+      "publishedAt": "2026-06-08T23:05:07.159Z"
+    },
     {
       "topic": "行业",
       "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
@@ -217,30 +241,6 @@
       "source": "OpenRouter：Announcements（RSS）",
       "href": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
       "publishedAt": "2026-06-08T12:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
-      "summary": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackathon 的 32B 模型上限规则。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
-      "publishedAt": "2026-06-08T11:46:56.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
-      "summary": "通义实验室教程演示了如何用 Agent（Qoder）辅助完成 Qwen3-VL-2B 模型在 Android 端侧的全流程部署。操作包括：检查 JDK 21、NDK 27、CMake 3.18.1 等环境；创建 arm64-v8a 的 Native C++ 工程（minSdk 29、compileSdk 35）；通过 ModelScope CLI 下载约 1.4GB 的 MNN/Qwen3-VL-2B-Instruct-MNN 模型；编译开启 LLM 视觉支持（MNN_BUILD_LLM、LLM_SUPPORT_VISION）的 libMNN.so；构建 APK 并推送模型至手机私有目录。最终 App 提供图文推理页面，输出 MNN 版本（v3.5.0）、ABI 及推理指标。所有繁琐步骤均可由 Agent 自动执行。",
-      "source": "公众号：通义实验室（千问）",
-      "href": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
-      "publishedAt": "2026-06-08T09:54:08.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "微信AI Agent生态曝光：嵌入小程序调用与手机厂商合作",
-      "summary": "腾讯正测试嵌入微信的AI Agent，用户右滑唤出对话窗口，通过自然语言指令调用数百万小程序完成点咖啡等任务。微信还与华为、荣耀、小米、OPPO、vivo合作推出A2A助手能力，可通过手机语音助理发起微信音视频通话或发送消息。6月8日，微信官方发布《关于开发者接入微信AI生态的指引》，提供自动接入模式，利用微信沙箱全自动改造小程序，使其可被AI直接调用。这一布局被视为Agentic Commerce（代理式交易）的雏形。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647683054&idx=1&sn=dcaa25bd4fdfc9bd5c0211532021bf7c",
-      "publishedAt": "2026-06-08T09:38:30.000Z"
     }
   ]
 }
