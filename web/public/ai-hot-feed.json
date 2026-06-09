@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-09T16:57:57.748Z",
+  "updatedAt": "2026-06-09T17:44:51.376Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Responses API 网页搜索新增图片结果",
+      "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "href": "https://x.com/OpenAIDevs/status/2064395155688616153",
+      "publishedAt": "2026-06-09T17:12:14.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Claude Fable 5 和 Claude Mythos 5",
+      "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "publishedAt": "2026-06-09T17:04:29.001Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Cohere首个编程模型North Mini Code免费开源",
+      "summary": "North Mini Code 现已在 OpenCode 上免费提供\n\n256K 上下文 · 完全开源\n\nCohere 的首个编程模型",
+      "source": "X：opencode (@opencode)",
+      "href": "https://x.com/opencode/status/2064392792265171081",
+      "publishedAt": "2026-06-09T17:02:50.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
+      "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
+      "publishedAt": "2026-06-09T16:54:29.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "World Labs与Lore合作打造互动体验",
+      "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩",
+      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+      "href": "https://x.com/drfeifei/status/2064387365930676695",
+      "publishedAt": "2026-06-09T16:41:17.000Z"
+    },
     {
       "topic": "论文",
       "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
@@ -201,46 +241,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-09/china-prepares-295-billion-plan-to-fund-nationwide-ai-buildout",
       "publishedAt": "2026-06-09T08:13:10.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
-      "summary": "Cursor 将欧洲总部设在伦敦，计划招聘约 200 名员工，并在巴黎、慕尼黑等地开设小型办事处。SpaceX 拥有以 600 亿美元收购 Cursor 的选择权，或支付 100 亿美元开展全新合作。Cursor 目前 B2B 年化营收约 26 亿美元，客户包括英国航空、英国石油、诺基亚等。公司强调数据留存欧洲本地以满足监管合规，其平台支持用户用自然语言生成代码，主打模型中立，竞争对手包括 GitHub Copilot、OpenAI 和谷歌的同类产品。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/961/868.htm",
-      "publishedAt": "2026-06-09T05:53:06.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
-      "summary": "小米 MiMo 与 TileRT 联合发布 MiMo-V2.5-Pro-UltraSpeed 模式，使 1T 参数旗舰模型输出速度首次突破 1000 tokens/s。模型侧采用 FP4 混合量化（仅量化 MoE Expert）与 DFlash 块级 masked 并行推测解码（coding 场景平均接受长度 6.30 tokens）；系统侧 TileRT 引入常驻内核引擎与异构流水线协作。API 限时开放（2026 年 6 月 9 日至 23 日），定价为 MiMo-V2.5-Pro 的 3 倍，速度提升约 10 倍。FP4 权重与 DFlash 模型 checkpoint 已开源至 HuggingFace。",
-      "source": "公众号：小米 MiMo",
-      "href": "https://mp.weixin.qq.com/s/EZvmrx8xfM9MZNCMDwImFQ",
-      "publishedAt": "2026-06-09T03:31:32.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
-      "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/961/792.htm",
-      "publishedAt": "2026-06-09T02:19:48.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
-      "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m2；双面散热器排热 1，400 W/m2。通过激光链路实现约 1 Tbps 互联，低轨 600-800 km 高度往返延迟 6-8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2064165951936094364",
-      "publishedAt": "2026-06-09T02:01:27.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
-      "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2064155452934639718",
-      "publishedAt": "2026-06-09T01:19:44.000Z"
     }
   ]
 }
