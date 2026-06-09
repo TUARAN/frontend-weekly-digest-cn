@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-06-09T11:06:22.494Z",
+  "updatedAt": "2026-06-09T13:04:47.720Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
+      "summary": "由赛力斯、宁德时代等多方产业资本组建的AI出行品牌AIVA正式发布。火山引擎提供豆包大模型、智能座舱等技术服务。概念车AIVA Origin Concept亮相，首款量产车AIVA ME7将于2026年内亮相，全系覆盖20万元以上市场。AIVA提出\"AI定义汽车\"路径，让汽车成为具身AI生命体。火山引擎副总裁表示，人与汽车的关系将实现交互、智能、感受三方面根本转变。未来双方将围绕AI交互、智能体验、情感陪伴深度共创。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/toK_uIB9ECFHVaoCgK-w9Q",
+      "publishedAt": "2026-06-09T13:00:21.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "百度搭子DuMate获中国信通院企业级Claw能力评估最高4+级",
+      "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。",
+      "source": "公众号：百度智能云（文心）",
+      "href": "https://mp.weixin.qq.com/s/lv99XfrRtMMgiOflcT67VA",
+      "publishedAt": "2026-06-09T12:03:00.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
+      "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "href": "https://x.com/TencentHunyuan/status/2064312869827809702",
+      "publishedAt": "2026-06-09T11:45:15.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
+      "summary": "火山引擎将TRAE Solo品牌升级为TRAE Work企业版，发布面向企业的AI办公平台。平台提供Work和Code两种模式：Work模式面向产品、运营、市场等非技术岗位，支持上传.pptx、.xlsx、图片等多种格式混合输入直接输出PPT或文档，支持语音讨论自动整理结构化纪要，支持按天或按周自动运行的数据整理和报告生成；Code模式面向开发者和业务同学，可用自然语言描述需求直接生成页面或小应用。桌面端、网页端和移动端多端同步。企业后台可统一配置模型、用量限额、上传内部文档，沙箱机制隔离执行，支持命令黑名单、MCP白名单、内容安全策略，关键操作可审计。同时发起TRAE Enterprise Fellow招募计划。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
+      "publishedAt": "2026-06-09T11:45:02.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Kimi 预测全部104场世界杯比赛：德国或被低估",
+      "summary": "Kimi 利用 Agent Swarm 系统并行协调300个子智能体，分析战术、球员状态、伤病、赛程、天气、赔率等因素，预测2026年美加墨世界杯全部104场比赛，并发布每轮赛前预测和赛后回顾。模型层融合了 Elo/FIFA 强度、Poisson 进球分布、xG/xT 指标、蒙特卡洛模拟等方法。预测结果显示西班牙和法国为头号热门，但德国夺冠概率可能被市场低估：模型基线估计约11.0%，校准估计约11.3%，而部分市场隐含概率仅约7.4%，正向偏差约+3.6个百分点。该判断基于多分析链交叉验证，可能源于对德国近两届小组出局的近因偏差以及纳格尔斯曼高位压迫体系与穆西亚拉/维尔茨新创造轴的复苏信号。",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "href": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
+      "publishedAt": "2026-06-09T11:38:40.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "可灵AI×候鸟300发起AI主义新浪潮AIGC影像大赛",
+      "summary": "可灵AI与候鸟300联合发起AIGC影像大赛。线下大赛6月16-26日在阿那亚海边举办，评审包括李少红、陈明昊、焦雄屏等影视与AI专家及美院教授，设10万奖金+超200万灵感值，结果6月27日晚揭晓。线上大赛6月22日前投稿可角逐\"最受关注大奖\"，获奖者受邀参加6月27日颁奖。参赛要求：视频≥50%由可灵AI生成，官网投稿填表并带话题分享。",
+      "source": "公众号：可灵AI（快手·视频）",
+      "href": "https://mp.weixin.qq.com/s/d0c13s2tpsSnpgk3bQk04Q",
+      "publishedAt": "2026-06-09T11:14:57.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
+      "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "publishedAt": "2026-06-09T10:46:19.000Z"
+    },
     {
       "topic": "行业",
       "title": "阿里云在马来西亚柔佛推新区域",
@@ -185,62 +241,6 @@
       "source": "X：Anthropic (@AnthropicAI)",
       "href": "https://x.com/AnthropicAI/status/2064054837294354677",
       "publishedAt": "2026-06-08T18:39:56.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Apple发布新一代Apple Intelligence和Siri AI",
-      "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。",
-      "source": "Apple：Newsroom（RSS）",
-      "href": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
-      "publishedAt": "2026-06-08T18:18:43.157Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
-      "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。",
-      "source": "Apple：Newsroom（RSS）",
-      "href": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
-      "publishedAt": "2026-06-08T18:17:44.449Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果 WWDC 2026 直播",
-      "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.apple.com/apple-events/event-stream",
-      "publishedAt": "2026-06-08T18:17:22.096Z"
-    },
-    {
-      "topic": "行业",
-      "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
-      "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。",
-      "source": "Apple：Newsroom（RSS）",
-      "href": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
-      "publishedAt": "2026-06-08T18:13:26.639Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "样本效率黑洞：AI能力背后隐藏的数据需求深渊",
-      "summary": "将AI比作一个闪耀着能力的星系，其核心存在一个肉眼不可见的巨大黑洞--数据。这个比喻揭示了AI模型惊人能力背后对海量数据的依赖，样本效率的瓶颈如同引力中心，将各色能力凝聚在一起。",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "href": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
-      "publishedAt": "2026-06-08T18:09:37.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "为生物学AI智能体铺路",
-      "summary": "一项实验让Claude、Biomni、Edison Analysis、GPT等科研智能体从病毒学数据库NCBI Virus中检索序列数据，即使最强模型也无法稳定达到可靠数据集构建所需的准确率。加入确定性检索层gget virus后，准确率接近100%。研究指出，当前生物学数据基础设施存在碎片化、格式特殊、接口不统一等问题，导致AI智能体难以像在软件领域那样高效工作。确定性检索工具是实现可靠智能体工作流的关键，生物学数据库需为智能体作为规模化用户而设计。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "href": "https://www.anthropic.com/research/agents-in-biology",
-      "publishedAt": "2026-06-08T17:46:10.323Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Code GA一周年回顾：验证与自动模式",
-      "summary": "Claude Code 的第一个演示收到了两个 Slack 反应。\n\nGA 一周年之际，@bcherny 和 @_catwu 回顾：验证最佳实践、为何构建自动模式、例程和循环，以及下一步计划。\n\nhttps：//www.youtube.com/watch？v=Hth_tLaC2j8",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2064032814392352816",
-      "publishedAt": "2026-06-08T17:12:25.000Z"
     }
   ]
 }
