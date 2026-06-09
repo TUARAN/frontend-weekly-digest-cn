@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-09T19:43:39.371Z",
+  "updatedAt": "2026-06-09T20:43:52.688Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Mythos 5 智能体因资源互相杀戮",
+      "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\"",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "href": "https://x.com/AISafetyMemes/status/2064435128479400270",
+      "publishedAt": "2026-06-09T19:51:04.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "publishedAt": "2026-06-09T19:38:28.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
@@ -17,6 +33,14 @@
       "source": "X：NotebookLM (@NotebookLM)",
       "href": "https://x.com/NotebookLM/status/2064410506287538387",
       "publishedAt": "2026-06-09T18:13:14.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
+      "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/advisor-server-tool",
+      "publishedAt": "2026-06-09T18:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -188,6 +212,14 @@
     },
     {
       "topic": "技巧",
+      "title": "Nextdoor 工程师借助 Codex 与 GPT-5.5 无限制构建",
+      "summary": "Nextdoor 工程师利用 Codex 搭配 GPT-5.5 调查难以复现的问题、实现跨平台构建，并集中精力于产品成果。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/nextdoor",
+      "publishedAt": "2026-06-09T12:00:00.000Z"
+    },
+    {
+      "topic": "技巧",
       "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
       "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。",
       "source": "X：腾讯混元 (@TencentHunyuan)",
@@ -209,38 +241,6 @@
       "source": "X：Kimi.ai (@Kimi_Moonshot)",
       "href": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
       "publishedAt": "2026-06-09T11:38:40.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
-      "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "publishedAt": "2026-06-09T10:46:19.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "阿里云在马来西亚柔佛推新区域",
-      "summary": "阿里云在马来西亚柔佛州推出了一个新的公有云区域，包含两个新数据中心，以满足今年下半年马来西亚对云和AI服务日益增长的需求，包括AgentRun、STAROps、ACS Agent Sandbox、Agent Security Center、AI Security Guardrails 2.0和Agentic SOC。https：//int.alibabacloud.com/m/1000414242/",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2064288633188708411",
-      "publishedAt": "2026-06-09T10:08:57.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "台湾考虑限制AI芯片对华出口以配合美国",
-      "summary": "据知情人士透露，台湾当局正考虑对AI芯片出口中国大陆实施更严格的管制，以进一步与美国出口限制措施对齐。此举旨在遏制半导体走私，但可能招致北京方面的谴责。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
-      "publishedAt": "2026-06-09T10:07:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "仅凭一份文档，Qwen3.7-Max 从 0 交付双端应用",
-      "summary": "在无设计稿和后端代码的条件下，Qwen3.7-Max 仅凭一份约 15 万字的产品调研文档，于隔离环境中全自动完成移动端与 Web 端两套真实应用从 0 到 1 交付，单端耗时约 4 小时，中途无人工接管。模型不具备图像理解能力，通过像素坐标反推布局约束实现界面还原。实验采用\"分阶段注入约束→逐层验收→带错纠正\"的闭环控制系统：任务拆分为规划、架构、编码等阶段，验收覆盖静态检查、编译自检（0 error）、路由完整性（Web 端 34 条路由全部可达）、功能扫描及真机冷启动冒烟。失败时错误文本自动注入下一轮重试，使模型数小时内收敛。移动端产出可安装 APK，Web 端 typecheck 与构建均通过。",
-      "source": "公众号：通义实验室（千问）",
-      "href": "https://mp.weixin.qq.com/s/bYEZL9LM3daNP9tZReqNwg",
-      "publishedAt": "2026-06-09T09:27:47.000Z"
     }
   ]
 }
