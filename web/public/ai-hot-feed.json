@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-09T07:19:33.665Z",
+  "updatedAt": "2026-06-09T09:13:03.903Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "NVIDIA cuTile Python 教程：在 Colab 中构建用于向量加法、矩阵加法和矩阵乘法的 Tiled GPU 内核",
+      "summary": "该教程基于 NVIDIA cuTile Python 实现了分块 GPU 内核编程工作流，在 Colab 环境中配置 GPU、驱动、CUDA 及 cuTile 可用性后，分别构建了 tiled 向量加法、矩阵加法和矩阵乘法核函数，并以 PyTorch 作为回退保持 notebook 可执行。每一步均通过 PyTorch 验证结果正确性，并基准测试了各阶段的中位运行时间。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab",
+      "publishedAt": "2026-06-09T08:37:48.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "硅基流动联合CodeWhale推出DeepSeek V4终端最佳性价比组合",
+      "summary": "硅基流动宣布，通过V4-Pro（质量）与V4-Flash（速度）两行配置，即可在终端获得DeepSeek V4的最佳性价比组合。专为DeepSeek V4构建的终端编码智能体CodeWhale现已内置SiliconFlow。CodeWhale具备流式推理（显示思考过程）、自动路由（根据任务复杂度切换模型与思考深度）、零漂移（通过书面宪法为每轮排序权威，保持V4定向）以及自我改进（V4协助编写框架，框架提升后每个会话更强大）等特性。",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "href": "https://x.com/SiliconFlowAI/status/2064261826083512554",
+      "publishedAt": "2026-06-09T08:22:26.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "中国准备2950亿美元计划资助全国AI基础设施建设",
+      "summary": "中国计划在未来五年投入约2万亿元人民币（约2950亿美元）建设全国数据中心，以推动国内AI产业发展并超越美国。该投资将覆盖数据中心基础设施的大规模建设，为北京在关键技术领域的雄心提供资金支持。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-09/china-prepares-295-billion-plan-to-fund-nationwide-ai-buildout",
+      "publishedAt": "2026-06-09T08:13:10.000Z"
+    },
     {
       "topic": "行业",
       "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
@@ -217,30 +241,6 @@
       "source": "X：Runway (@runwayml)",
       "href": "https://x.com/runwayml/status/2064012425884569627",
       "publishedAt": "2026-06-08T15:51:24.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter Advisor 助小模型问高级模型",
-      "summary": "新服务器工具：Advisor\n\n让较小的模型咨询一个更高智能的\"顾问\"模型。\n\n帮助它们逃出困境循环，并帮助你迁移到更便宜的模型！🧵",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2064004944613527730",
-      "publishedAt": "2026-06-08T15:21:40.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Hivemind推出面向AI编程智能体的持续学习功能，即日起开放",
-      "summary": "Hivemind发布面向AI编程智能体的持续学习功能，即日起开放。该工具收集团队运行的每个智能体（Claude Code、Codex、Cursor、Hermes、Pi）的轨迹，转化为可复用技能并推送到所有智能体，数据存储在用户自己的云存储中。内置SkillOpt使技能持续训练：Claude Code准确率提升+19.1分，Codex提升+24.8分，在全部52个测试设置中最佳或持平。开源，一行命令安装。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2064001045391462907",
-      "publishedAt": "2026-06-08T15:06:11.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "VoxCPM2 技术报告发布",
-      "summary": "面壁智能 OpenBMB 发布 VoxCPM2 技术报告。该模型为最新语音生成模型，拥有 2B 参数，基于超 200 万小时多语言语音数据训练，支持 30 种语言和 9 种中文方言。具备自然语言语音设计、可控及高保真延续性语音克隆能力。技术报告涵盖架构设计、统一序列公式、AudioVAE 高保真语音重建、大规模训练评估，以及零样本和指令跟随 TTS 基准结果。采用 16kHz 语义编码 + 48kHz 波形重建，在公开 TTS 基准上达到 SOTA 或极具竞争力。模型权重、微调代码和推理工具以 Apache 2.0 开源。",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2063991963133903317",
-      "publishedAt": "2026-06-08T14:30:05.000Z"
     }
   ]
 }
