@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-09T20:43:52.688Z",
+  "updatedAt": "2026-06-09T22:34:33.726Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "IBM CEO：AI不一定导致员工减少",
+      "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
+      "publishedAt": "2026-06-09T21:48:41.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
+      "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+      "publishedAt": "2026-06-09T21:35:31.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
+      "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
+      "publishedAt": "2026-06-09T21:24:50.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+      "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "publishedAt": "2026-06-09T21:06:26.068Z"
+    },
     {
       "topic": "行业",
       "title": "Mythos 5 智能体因资源互相杀戮",
@@ -75,14 +107,6 @@
       "publishedAt": "2026-06-09T17:04:29.001Z"
     },
     {
-      "topic": "模型",
-      "title": "Cohere首个编程模型North Mini Code免费开源",
-      "summary": "North Mini Code 现已在 OpenCode 上免费提供\n\n256K 上下文 · 完全开源\n\nCohere 的首个编程模型",
-      "source": "X：opencode (@opencode)",
-      "href": "https://x.com/opencode/status/2064392792265171081",
-      "publishedAt": "2026-06-09T17:02:50.000Z"
-    },
-    {
       "topic": "行业",
       "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
       "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。",
@@ -99,14 +123,6 @@
       "publishedAt": "2026-06-09T16:41:17.000Z"
     },
     {
-      "topic": "论文",
-      "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
-      "summary": "在《Nature Methods》上发表的最新研究来自Project Ex Vivo，表明AI模型从多样化的细胞状态中学到的知识，比仅从规模化数据集中学到的更多，这一发现可能重塑疗法与患者的匹配方式。https：//msft.it/6013vgE8l",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "href": "https://x.com/MSFTResearch/status/2064384745195118817",
-      "publishedAt": "2026-06-09T16:30:52.000Z"
-    },
-    {
       "topic": "技巧",
       "title": "OpenRouter与Cursor集成指南",
       "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration",
@@ -121,6 +137,14 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
       "publishedAt": "2026-06-09T16:00:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
+      "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "publishedAt": "2026-06-09T15:56:23.000Z"
     },
     {
       "topic": "行业",
@@ -156,22 +180,6 @@
     },
     {
       "topic": "模型",
-      "title": "Luma AI Ray3.2：方向进，电影出",
-      "summary": "方向进入，电影出来。\n\nRay3.2 来了 → http：//lumalabs.ai/ray3-2",
-      "source": "X：Luma AI (@LumaLabsAI)",
-      "href": "https://x.com/LumaLabsAI/status/2064358414143143954",
-      "publishedAt": "2026-06-09T14:46:14.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway视频轻松转宽高比",
-      "summary": "轻松将视频重新格式化为不同宽高比，让你在每一个重要平台都能展示。\n\n点击下方链接开始。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2064350871048077756",
-      "publishedAt": "2026-06-09T14:16:16.000Z"
-    },
-    {
-      "topic": "模型",
       "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
       "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。",
       "source": "Google DeepMind：Blog（RSS）",
@@ -185,14 +193,6 @@
       "source": "Google DeepMind：Blog（RSS）",
       "href": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
       "publishedAt": "2026-06-09T14:02:33.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "GPT-5.5 替代 OCR，ChinaRxiv 论文免费开放",
-      "summary": "23，000+ 篇 ChinaRxiv 论文现已免费提供，并带有更完整的英文翻译，源于一位开发者用 GPT-5.5 替换了复杂的 OCR 管道。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2064346891673059484",
-      "publishedAt": "2026-06-09T14:00:27.000Z"
     },
     {
       "topic": "行业",
@@ -235,12 +235,12 @@
       "publishedAt": "2026-06-09T11:45:02.000Z"
     },
     {
-      "topic": "产品",
-      "title": "Kimi 预测全部104场世界杯比赛：德国或被低估",
-      "summary": "Kimi 利用 Agent Swarm 系统并行协调300个子智能体，分析战术、球员状态、伤病、赛程、天气、赔率等因素，预测2026年美加墨世界杯全部104场比赛，并发布每轮赛前预测和赛后回顾。模型层融合了 Elo/FIFA 强度、Poisson 进球分布、xG/xT 指标、蒙特卡洛模拟等方法。预测结果显示西班牙和法国为头号热门，但德国夺冠概率可能被市场低估：模型基线估计约11.0%，校准估计约11.3%，而部分市场隐含概率仅约7.4%，正向偏差约+3.6个百分点。该判断基于多分析链交叉验证，可能源于对德国近两届小组出局的近因偏差以及纳格尔斯曼高位压迫体系与穆西亚拉/维尔茨新创造轴的复苏信号。",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "href": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
-      "publishedAt": "2026-06-09T11:38:40.000Z"
+      "topic": "技巧",
+      "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
+      "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "publishedAt": "2026-06-09T10:46:19.000Z"
     }
   ]
 }
