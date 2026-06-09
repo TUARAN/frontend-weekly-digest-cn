@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-09T00:49:08.502Z",
+  "updatedAt": "2026-06-09T01:40:27.441Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
+      "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/961/749.htm",
+      "publishedAt": "2026-06-09T01:15:30.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "FrontierCode 基准测试：AI 编程评估新标准--维护者审核通过率最高仅 13.4%",
+      "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%-5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2064146694774595646",
+      "publishedAt": "2026-06-09T00:44:56.000Z"
+    },
     {
       "topic": "技巧",
       "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
@@ -225,22 +241,6 @@
       "source": "X：小互 (@xiaohu)",
       "href": "https://x.com/xiaohu/status/2063972223170556302",
       "publishedAt": "2026-06-08T13:11:39.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "五个模型经济体中消失的崩溃：控制与涌现",
-      "summary": "用五个不同实验室的AI模型（OpenAI、NVIDIA、OpenBMB及一个自微调的5亿参数模型）各自驱动一个智能体构建经济市场，试图复现此前单一模型下出现的银行挤兑式价格崩溃。结果同一场景下模型不仅不抛售反而囤积，导致价格不跌反涨。通过纯谣言、库存泛滥、加大做空三种方式均无法重现崩溃。最终在结算环节直接覆盖价格，使崩溃成为设计事实。实验表明，AI智能体的涌现行为是偶然的而非稳健的，有效系统需在涌现纹理与确定性控制之间找到精确接缝。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
-      "publishedAt": "2026-06-08T13:10:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "EU AI Act 合规：面向 AI 智能体的人工监督",
-      "summary": "使用智能体 SDK 的人机协作（HITL）工具，可满足 EU AI Act、Colorado AI Act 和 NIST AI RMF 对 AI 智能体的合规要求。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
-      "publishedAt": "2026-06-08T12:00:00.000Z"
     }
   ]
 }
