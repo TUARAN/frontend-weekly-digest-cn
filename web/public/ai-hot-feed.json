@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-09T01:40:27.441Z",
+  "updatedAt": "2026-06-09T03:11:46.831Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
+      "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/961/792.htm",
+      "publishedAt": "2026-06-09T02:19:48.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
+      "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m2；双面散热器排热 1，400 W/m2。通过激光链路实现约 1 Tbps 互联，低轨 600-800 km 高度往返延迟 6-8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2064165951936094364",
+      "publishedAt": "2026-06-09T02:01:27.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
+      "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。",
+      "source": "X：Berry Xia (@berryxia)",
+      "href": "https://x.com/berryxia/status/2064155452934639718",
+      "publishedAt": "2026-06-09T01:19:44.000Z"
+    },
     {
       "topic": "行业",
       "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
@@ -217,30 +241,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/openai-submits-confidential-s-1",
       "publishedAt": "2026-06-08T14:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "微软AI CEO：超级智能即将到来，但不会取代你的工作",
-      "summary": "微软AI CEO Mustafa Suleyman在Decoder访谈中表示，超级智能即将到来，但不会导致大规模失业。他透露微软与OpenAI于去年10月签署新合同，巩固合作关系的同时，微软获准独立追求超级智能。微软已组建超级智能团队、训练前沿模型，并于本周Build大会上发布7个全模态新模型。他批评Anthropic将Claude描述为有意识的做法，认为消费者产品需要足够好才能克服公众对AI的负面情绪。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
-      "publishedAt": "2026-06-08T14:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Kimi Code 焕新升级（附视频教程）",
-      "summary": "Kimi Code 开源 Coding Agent 迎来大版本升级：一行命令安装，毫秒级启动；新增视频理解能力，支持提取视频风格生成 LUT 文件、长视频切片、根据录屏生成代码；集成同花顺、天眼查等权威数据源，可查询股票价格、财报、学术论文；支持 ACP 协议，可在 JetBrains、Zed 中使用；丰富 hook 生态方便集成其他工具。底层视觉推理由 Kimi K2.6 模型提供。",
-      "source": "公众号：月之暗面（Kimi）",
-      "href": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484250&idx=1&sn=d0a07f5358250f3a54df8fbabe61f09a",
-      "publishedAt": "2026-06-08T13:44:16.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "小互开源视频翻译工具：一句话自动下载、转写、翻译、烧字幕",
-      "summary": "小互（@xiaohu）开源视频翻译工具（xiaohu-video-translate），只需说一句\"把链接翻译成中文字幕视频\"即可全自动完成下载、Whisper本地转写、AI翻译润色、烧字幕、出文稿。转写本地运行，不花API费。支持YouTube、Bilibili、抖音等链接及本地文件，英语、日语、韩语、法语、西班牙语等均可转成中文字幕。字幕精确到词级时间戳，按语义断句，每行不超过12字，双语模式下中文大英文小。提供纯中文与中英双语模式。工具由三个子技能组成，可单独或串联使用，适配Claude Code、Codex、OpenClaw等AI编程工具。已开源，附安装指南。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2063972223170556302",
-      "publishedAt": "2026-06-08T13:11:39.000Z"
     }
   ]
 }
