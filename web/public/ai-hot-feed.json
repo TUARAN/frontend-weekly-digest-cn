@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-10T21:44:21.018Z",
+  "updatedAt": "2026-06-10T22:38:51.542Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
+      "summary": "OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/openai-on-oracle-cloud",
+      "publishedAt": "2026-06-10T20:00:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "MiniMax M3 上链 0G，限时免费运行",
@@ -233,14 +241,6 @@
       "source": "公众号：火山引擎",
       "href": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
       "publishedAt": "2026-06-10T04:30:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Magnetar用数百AI智能体替代分析师",
-      "summary": "Bloomberg：Magnetar Capital，这家 180 亿美元的对冲基金公司，将在其最新产品中避免使用人类分析师，转而依靠数百个 AI 智能体进行股票研究。\n\n这家 180 亿美元的对冲基金公司希望 AI 搜索投资想法、研究公司、推荐头寸并预测趋势，而人类仍负责批准交易。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2064524448582267047",
-      "publishedAt": "2026-06-10T01:46:00.000Z"
     }
   ]
 }
