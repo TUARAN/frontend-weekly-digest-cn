@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-10",
+  "displayDate": "Jun 10",
+  "dateNum": "0610",
+  "year": 2026,
+  "dayOfWeek": "WED",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "IT之家（RSS） · X：邵猛 (@shao__meng) · Hugging Face：Blog（RSS） 等",
+  "count": 5,
+  "highlights": [
+    "AI 编程独角兽 Cursor 欧洲总部",
+    "Text-To-Lottie：Agent",
+    "Hugging Face 博客发布语音智",
+    "Claude Fable 发布：Anth",
+    "OpenRouter与Cursor集成指"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
+      "summary": "Cursor 将欧洲总部设在伦敦，计划招聘约 200 名员工，并在巴黎、慕尼黑等地开设小型办事处。SpaceX 拥有以 600 亿美元收购 Cursor 的选择权，或支付 100 亿美元开展全新合作。Cursor 目前 B2B 年化营收约 26 亿美元，客户包括英国航空、英国石油、诺基亚等。公司强调数据留存欧洲本地以满足监管合规，其平台支持用户用自然语言生成代码，主打模型中立，竞争对手包括 GitHub Copilot、OpenAI 和谷歌的同类产品。",
+      "reason": "大额资本动向反映赛道景气度，影响长期技术投入"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
+      "summary": "开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），通过 Skottie 渲染引擎在浏览器中实时验收。安装命令：`npx skills add diffusionstudio/lottie`。技术特点：输出标准 Lottie JSON，使用 Skottie 渲染（非 lottie-web）；基于 Vite 热重载实现自动刷新闭环；支持通过 Skottie Slots + controls.json 调整颜色、尺寸；Agent 可用 URL 参数 `？frame=60&paused=1` 精确定位帧截图。Prompt 指南包括：给具体素材、使用动效术语、pan/zoom/hold 模拟镜头、显式声明 Slots、锁定时间规格。适合单场景短时长 Motion Graphics、SVG→Lottie、数据可视化、透明背景矢量动效；不适合多镜头剪辑、复杂角色绑定、粒子、3D 或需 lottie-web 全特性的场景。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
+      "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "OpenRouter与Cursor集成指南",
+      "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    }
+  ]
+}

@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-10",
+      "displayDate": "Jun 10",
+      "json": "/ai-daily/2026-06-10.json",
+      "count": 5,
+      "highlights": [
+        "AI 编程独角兽 Cursor 欧洲总部",
+        "Text-To-Lottie：Agent",
+        "Hugging Face 博客发布语音智",
+        "Claude Fable 发布：Anth",
+        "OpenRouter与Cursor集成指"
+      ]
+    },
+    {
       "date": "2026-06-09",
       "displayDate": "Jun 9",
       "json": "/ai-daily/2026-06-09.json",
@@ -169,5 +182,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-09"
+  "latest": "2026-06-10"
 }
