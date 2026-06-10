@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-10T19:52:08.628Z",
+  "updatedAt": "2026-06-10T20:56:26.635Z",
   "count": 30,
   "items": [
     {
@@ -147,6 +147,14 @@
       "publishedAt": "2026-06-10T12:00:06.000Z"
     },
     {
+      "topic": "产品",
+      "title": "Cursor Bugbot 更新：速度提升超 3 倍、成本降低 22%、发现更多 Bug",
+      "summary": "Cursor 的代码审查工具 Bugbot 迎来重大更新：运行速度提升超 3 倍，成本降低 22%，每轮审查多发现 10% 的 bug，90% 的运行在三分钟内完成。新增 `/review` 命令，可在推送代码前运行 Bugbot 和安全审查，并与 GitHub/GitLab 同步--若已通过 `/review` 审查过同一 diff，打开 PR 时 Bugbot 会自动跳过并备注。支持配置仅审查 PR 中新增内容。性能提升源于驱动 Bugbot 的 Composer 2.5 模型训练改进。Bugbot 遵循模型阻止列表，若组织禁用 Composer 2.5 则自动回退。该功能已在 Cursor 3.7+ 和 cursor.com/agents 上线，CLI 支持即将推出。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/bugbot-updates-june-2026",
+      "publishedAt": "2026-06-10T12:00:00.000Z"
+    },
+    {
       "topic": "论文",
       "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
       "summary": "百度百舸团队与复旦大学合作提出Long-horizon Utility KV（LU-KV）框架，将头级KV Cache预算分配建模为面向长程边际效用的全局组合优化问题。LU-KV通过离线画像估计注意力头边际贡献曲线，结合凸包松弛与基于边际效用的贪心求解器，在较低开销下得到接近最优的预算配置，可适配SnapKV、KeyDiff等多类压缩方法。在LongBench和RULER基准上，80%压缩比下性能损失小，降低显存占用和推理延迟。相关论文被ICML 2026录用。",
@@ -233,14 +241,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2064524448582267047",
       "publishedAt": "2026-06-10T01:46:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "欧盟发布临时措施，要求 Meta 向第三方 AI 助手免费开放 WhatsApp",
-      "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/206.htm",
-      "publishedAt": "2026-06-10T01:41:12.000Z"
     }
   ]
 }
