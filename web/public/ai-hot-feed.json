@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-09T23:31:21.299Z",
+  "updatedAt": "2026-06-10T00:55:20.529Z",
   "count": 30,
   "items": [
     {
-      "topic": "模型",
-      "title": "Anthropic 发布 Claude Fable 5 与 Mythos 5",
-      "summary": "Anthropic 于 6 月 9 日推出 Claude Fable 5 和 Mythos 5。Fable 5 面向普通用户，是目前公开最强的 Claude 模型，在软件工程、知识工作、视觉、科学研究等领域优于 Opus，自主运行时间更长。Mythos 5 通过 Project Glasswing 向网络安全防御方和基础设施提供商开放，具备全球最强网络安全能力，并在药物设计、分子生物学和基因组学中表现突出。两款模型本质相同，仅安全护栏不同。Fable 5 采用新分类器拦截网络安全、生物化学和蒸馏请求，命中后转由 Claude Opus 4.8 响应。定价均为每百万输入 10 美元、每百万输出 50 美元。Fable 5 已全面上线，Mythos 5 暂限 Glasswing 合作伙伴及少量生物研究者。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/152.htm",
-      "publishedAt": "2026-06-09T22:50:11.000Z"
+      "topic": "技巧",
+      "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
+      "summary": "开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），通过 Skottie 渲染引擎在浏览器中实时验收。安装命令：`npx skills add diffusionstudio/lottie`。技术特点：输出标准 Lottie JSON，使用 Skottie 渲染（非 lottie-web）；基于 Vite 热重载实现自动刷新闭环；支持通过 Skottie Slots + controls.json 调整颜色、尺寸；Agent 可用 URL 参数 `？frame=60&paused=1` 精确定位帧截图。Prompt 指南包括：给具体素材、使用动效术语、pan/zoom/hold 模拟镜头、显式声明 Slots、锁定时间规格。适合单场景短时长 Motion Graphics、SVG→Lottie、数据可视化、透明背景矢量动效；不适合多镜头剪辑、复杂角色绑定、粒子、3D 或需 lottie-web 全特性的场景。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2064508455051043008",
+      "publishedAt": "2026-06-10T00:42:27.000Z"
     },
     {
       "topic": "行业",
