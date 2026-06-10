@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-10T09:18:37.770Z",
+  "updatedAt": "2026-06-10T11:18:26.668Z",
   "count": 30,
   "items": [
+    {
+      "topic": "论文",
+      "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
+      "summary": "百度百舸团队与复旦大学合作提出Long-horizon Utility KV（LU-KV）框架，将头级KV Cache预算分配建模为面向长程边际效用的全局组合优化问题。LU-KV通过离线画像估计注意力头边际贡献曲线，结合凸包松弛与基于边际效用的贪心求解器，在较低开销下得到接近最优的预算配置，可适配SnapKV、KeyDiff等多类压缩方法。在LongBench和RULER基准上，80%压缩比下性能损失小，降低显存占用和推理延迟。相关论文被ICML 2026录用。",
+      "source": "公众号：百度智能云（文心）",
+      "href": "https://mp.weixin.qq.com/s/oKhawmph49YYPR63T-ekaw",
+      "publishedAt": "2026-06-10T09:43:54.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "华为云发布全球首个端到端具身AI平台CloudRobo",
+      "summary": "华为云推出全球首个端到端具身AI开发平台CloudRobo，覆盖从数据、模型到部署、集成的全生命周期，基于PB级可信数据底座。在INSPIRE2026上，国家地方共建人形机器人创新中心、Yijiahe Technology、上海交通大学展示了其核心能力：数据与模型双评估系统、主动力控模型快速组装、机器人小时级上云、模型分钟级部署。",
+      "source": "X：华为云 (@HuaweiCloud1)",
+      "href": "https://x.com/HuaweiCloud1/status/2064637581652852831",
+      "publishedAt": "2026-06-10T09:15:33.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反",
+      "summary": "谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因\"不裁员就等于 AI 转型慢\"的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/515.htm",
+      "publishedAt": "2026-06-10T08:36:14.000Z"
+    },
     {
       "topic": "模型",
       "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
@@ -217,30 +241,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
       "publishedAt": "2026-06-09T16:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
-      "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-      "publishedAt": "2026-06-09T15:56:23.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
-      "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
-      "publishedAt": "2026-06-09T15:55:53.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "塔塔咨询服务将因AI智能体应用放缓招聘，亚洲外包业迎来转折",
-      "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
-      "publishedAt": "2026-06-09T15:32:09.000Z"
     }
   ]
 }
