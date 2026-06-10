@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-10T05:35:50.675Z",
+  "updatedAt": "2026-06-10T07:34:28.298Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
+      "summary": "工信部发文，要求加快建设400Gbps/800Gbps骨干传输网络，优化东中西部国家枢纽节点间通道；推进城域400Gbps及以上、全光交叉等高速光传输系统应用，构建城域毫秒级低时延入算能力。同时推动5G-A/6G、新一代光网络、\"IPv6+\"、工业互联网与AI融合发展，攻关空口智能化、网络高等级自智、智能体互联网等核心技术。鼓励基础电信企业用AI赋能传统业务，深化智慧个人助理、智慧管家、家庭看护、3D观影等新型应用。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/456.htm",
+      "publishedAt": "2026-06-10T07:07:13.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "用好 Claude Design 的一些经验",
+      "summary": "宝玉分享了5点心得：1. 加入设计系统（如 Adobe Spectrum 2）可避免 AI 味，设为默认后可专注布局与交互。2. 先搭建少量功能，再通过左侧聊天框逐步调整。3. 用 Markup 框选局部评论，Edit 可手动调整元素树。4. 注意上下文管理，新任务创建新会话。5. 通过 Tweaks 面板调整主题、布局、加载状态，也可添加导航快速切换界面。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2064601571397185639",
+      "publishedAt": "2026-06-10T06:52:27.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "亚马逊的大规模扁平化数据中心网络",
+      "summary": "亚马逊分享了在大规模数据中心中实现扁平化网络架构的工程实践与设计考量，重点论述了如何通过简化拓扑和路由策略来支撑超大规模集群的高带宽、低延迟通信。文章未披露具体模型或评测数据。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale",
+      "publishedAt": "2026-06-10T06:33:52.391Z"
+    },
+    {
+      "topic": "产品",
+      "title": "2026年高考，跟着千问，选好志愿！",
+      "summary": "千问发布国内首个全周期高考志愿填报Agent，由数百位资深高报师参与训练。该智能体提供AI志愿报告，为考生量身定制深度全面的填报方案；AI志愿日历帮助制定专属填报计划；高考专业知识库整合夸克高考8年积累，并引入志愿专家顾问，数据权威可信赖，全程陪伴考生完成志愿填报。",
+      "source": "公众号：千问APP（阿里）",
+      "href": "https://mp.weixin.qq.com/s/4fovMM29x8tJ2E25kidl1A",
+      "publishedAt": "2026-06-10T06:00:49.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "谷歌财务担保支撑 Anthropic 350 亿美元芯片租赁交易",
+      "summary": "Anthropic 在谷歌（其早期投资者之一）的帮助下，正在五个数据中心租赁高性能计算机芯片。谷歌同意为每个地点的租赁付款提供兜底担保，从而帮助 Anthropic 获得相当于 350 亿美元的融资。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-06-10/google-s-backstops-underpin-35-bln-anthropic-chip-deal-video",
+      "publishedAt": "2026-06-10T05:57:28.000Z"
+    },
     {
       "topic": "产品",
       "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
@@ -201,46 +241,6 @@
       "source": "X：Google DeepMind (@GoogleDeepMind)",
       "href": "https://x.com/GoogleDeepMind/status/2064366504745828689",
       "publishedAt": "2026-06-09T15:18:23.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
-      "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n【引用 @steph_palazzolo】：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵--是 Opus 的两倍--但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps：//www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2064362469632405807",
-      "publishedAt": "2026-06-09T15:02:21.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
-      "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "href": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
-      "publishedAt": "2026-06-09T14:10:19.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Google DeepMind 欧洲机器人加速器启动，15家初创公司入选",
-      "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "href": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
-      "publishedAt": "2026-06-09T14:02:33.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
-      "summary": "由赛力斯、宁德时代等多方产业资本组建的AI出行品牌AIVA正式发布。火山引擎提供豆包大模型、智能座舱等技术服务。概念车AIVA Origin Concept亮相，首款量产车AIVA ME7将于2026年内亮相，全系覆盖20万元以上市场。AIVA提出\"AI定义汽车\"路径，让汽车成为具身AI生命体。火山引擎副总裁表示，人与汽车的关系将实现交互、智能、感受三方面根本转变。未来双方将围绕AI交互、智能体验、情感陪伴深度共创。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/toK_uIB9ECFHVaoCgK-w9Q",
-      "publishedAt": "2026-06-09T13:00:21.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "百度搭子DuMate获中国信通院企业级Claw能力评估最高4+级",
-      "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。",
-      "source": "公众号：百度智能云（文心）",
-      "href": "https://mp.weixin.qq.com/s/lv99XfrRtMMgiOflcT67VA",
-      "publishedAt": "2026-06-09T12:03:00.000Z"
     }
   ]
 }
