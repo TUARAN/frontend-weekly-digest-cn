@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-10T07:34:28.298Z",
+  "updatedAt": "2026-06-10T09:18:37.770Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
+      "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/509.htm",
+      "publishedAt": "2026-06-10T08:21:45.000Z"
+    },
     {
       "topic": "行业",
       "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
@@ -233,14 +241,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
       "publishedAt": "2026-06-09T15:32:09.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Gemini 3.5 Live Translate 发布",
-      "summary": "说 hello， hola， 你好--欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐",
-      "source": "X：Google DeepMind (@GoogleDeepMind)",
-      "href": "https://x.com/GoogleDeepMind/status/2064366504745828689",
-      "publishedAt": "2026-06-09T15:18:23.000Z"
     }
   ]
 }
