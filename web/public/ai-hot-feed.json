@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-06-10T15:08:58.817Z",
+  "updatedAt": "2026-06-10T17:08:59.778Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
+      "summary": "Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token。该 26B MoE 模型推理时仅激活 3.8B 参数，量化后适配 18GB 显存消费级 GPU。在 H100 上达 1000+ tokens/s，RTX 5090 上 700+ tokens/s，速度提升 4 倍。具备双向注意力和自我修正能力，面向内联编辑、代码填充等本地交互工作流，以 Apache 2.0 许可证开放。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "href": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+      "publishedAt": "2026-06-10T16:24:11.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google将保存用户的Lens图片、Search Live录音和Translate音频用于AI训练",
+      "summary": "Google更新搜索交互数据保存方式，新增\"Search Services History\"设置，用于保存用户搜索时使用的图片、文件、音频和视频，包括Google Lens搜索的图片、实时搜索工具Search Live的录音、语音搜索和Translate中的语音片段。这些数据将被用于\"提供、改进和开发AI模型\"。用户可关闭该设置并禁用\"Save Media\"选项以避免保存。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
+      "publishedAt": "2026-06-10T16:18:45.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "回顾与 Steve Eisman 的访谈，以及可能的关键新闻",
+      "summary": "原文回顾了与 Steve Eisman 的最新访谈，并指出一些可能具有关键意义的新闻，未提供具体细节。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might",
+      "publishedAt": "2026-06-10T16:16:05.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "通过语言服务器为 GitHub Copilot CLI 提供真正的代码智能",
+      "summary": "GitHub Copilot CLI 现在可以通过安装和配置 LSP（Language Server Protocol）服务器来替代原始的暴力 grep 或反编译方式，从而获得真正的代码智能。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
+      "publishedAt": "2026-06-10T16:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter 推出 Activity explorer 活动探索器",
+      "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。\n\n这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。\n\n看看我们的团队如何使用 Fable 和其他模型 👇",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2064730000956489889",
+      "publishedAt": "2026-06-10T15:22:47.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "毕业典礼频现\"谈 AI 色变\"，微软总裁史密斯呼吁行业必须回应公众担忧",
+      "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前\"大多数白领工作18个月内自动化\"的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/680.htm",
+      "publishedAt": "2026-06-10T15:22:02.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "ChatGPT 推头发变国旗颜色功能",
+      "summary": "Go #MessiMode\n\n上传一张你的照片并尝试这个提示词：\"将我的头发变成本国国旗的颜色，但要看起来自然。如果没有提供国家或图片，请询问。\"",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "href": "https://x.com/ChatGPTapp/status/2064728793785450526",
+      "publishedAt": "2026-06-10T15:17:59.000Z"
+    },
     {
       "topic": "技巧",
       "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
@@ -139,14 +195,6 @@
       "publishedAt": "2026-06-09T21:24:50.000Z"
     },
     {
-      "topic": "产品",
-      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
-      "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/whats-new-in-claude-managed-agents",
-      "publishedAt": "2026-06-09T21:06:26.068Z"
-    },
-    {
       "topic": "行业",
       "title": "Mythos 5 智能体因资源互相杀戮",
       "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\"",
@@ -193,54 +241,6 @@
       "source": "X：Eric Zakariasson (@ericzakariasson)",
       "href": "https://x.com/ericzakariasson/status/2064404502053294565",
       "publishedAt": "2026-06-09T17:49:22.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Responses API 网页搜索新增图片结果",
-      "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2064395155688616153",
-      "publishedAt": "2026-06-09T17:12:14.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
-      "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "href": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
-      "publishedAt": "2026-06-09T17:11:22.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Claude Fable 5 和 Claude Mythos 5",
-      "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "publishedAt": "2026-06-09T17:04:29.001Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
-      "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
-      "publishedAt": "2026-06-09T16:54:29.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "World Labs与Lore合作打造互动体验",
-      "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩",
-      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-      "href": "https://x.com/drfeifei/status/2064387365930676695",
-      "publishedAt": "2026-06-09T16:41:17.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter与Cursor集成指南",
-      "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2064384545256833209",
-      "publishedAt": "2026-06-09T16:30:04.000Z"
     }
   ]
 }
