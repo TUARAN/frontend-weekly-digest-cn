@@ -1,7 +1,79 @@
 {
-  "updatedAt": "2026-06-10T17:08:59.778Z",
+  "updatedAt": "2026-06-10T18:57:37.178Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Dario Amodei 发布新文论 AI 指数级增长与政策鸿沟",
+      "summary": "今天我发布了一篇新文章《AI 指数级增长的政策》。AI 以极快的速度发展--远超政策流程本应处理的速度。文章阐述了我认为技术目前的状况，以及缩小差距所需的行动：https：//darioamodei.com/post/policy-on-the-ai-exponential",
+      "source": "X：Dario Amodei (@DarioAmodei)",
+      "href": "https://x.com/DarioAmodei/status/2064781775247950326",
+      "publishedAt": "2026-06-10T18:48:31.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Google Research提出审计机器遗忘新框架",
+      "summary": "Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘。该方法通过统计两样本检验判断模型是否真正\"忘记\"特定训练数据，避免完全重训的巨大成本。相比最大均值差异等现有工具，新框架理论上可在任意样本量下自然控制假阳性，且假阴性风险随可用样本增加可靠收敛至零，解决了大规模模型审计中计算成本过高的问题。",
+      "source": "Google Research：Blog（网页）",
+      "href": "https://research.google/blog/new-framework-for-auditing-machine-unlearning",
+      "publishedAt": "2026-06-10T18:46:09.407Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
+      "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://burr.apache.org/",
+      "publishedAt": "2026-06-10T18:33:56.920Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Grok Voice性能出色价格低廉",
+      "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http：//x.ai/api/voice",
+      "source": "X：xAI (@xai)",
+      "href": "https://x.com/xai/status/2064777588036530309",
+      "publishedAt": "2026-06-10T18:31:53.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "豆包AI误导用户损失600元，还帮用户起诉自己",
+      "summary": "2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。",
+      "source": "X：X.PIN (@thexpin)",
+      "href": "https://x.com/thexpin/status/2064772489310527713",
+      "publishedAt": "2026-06-10T18:11:37.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "小米发布 MiMo Code V0.1 开源终端 AI 编程助手",
+      "summary": "小米推出开源终端 AI 编程助手 MiMo Code V0.1，附带限时免费使用的多模态模型 MiMo V2.5，支持百万 token 上下文窗口。核心特性包括：无限上下文（自动知识积累与无损压缩）、Agent-模型深度协同（测试-审查-验证闭环）、Compose 模式（规格→计划→构建→报告）、自进化系统、语音输入（基于 MiMo-V2.5-ASR）、兼容 Claude Code（零成本迁移），以及 MIT 许可、支持 Anthropic、OpenAI、DeepSeek、Kimi、GLM 等主流模型提供商。",
+      "source": "X：小米 MiMo (@XiaomiMiMo)",
+      "href": "https://x.com/XiaomiMiMo/status/2064772356443394441",
+      "publishedAt": "2026-06-10T18:11:06.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Anthropic 研究：AI 数小时内即可从安全补丁构建漏洞利用",
+      "summary": "Anthropic 安全团队发现，其 Mythos Preview AI 模型能在几小时内将 Firefox 和 Windows 内核的安全补丁转化为可工作的漏洞利用，成本仅需数千美元，且无需专业知识。在微软自动更新到达任何设备之前，该模型已完成 8 条完整攻击链。Anthropic 认为传统的补丁节奏已经过时。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches",
+      "publishedAt": "2026-06-10T17:38:24.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "突发：Google 因模型幻觉被判负有法律责任",
+      "summary": "一项法律裁决判定 Google 对其 AI 模型产生的幻觉内容负有法律责任。该判决可能产生巨大影响，尤其若其他国家跟进做出类似裁定。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations",
+      "publishedAt": "2026-06-10T17:00:08.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit 联合 Socket 推出 Package Firewall",
+      "summary": "大多数人在发布项目前会运行安全扫描以检测恶意包\n\n但风险从安装的那一刻就已开始\n\n今天，我们正式推出 Package Firewall，与 Socket 合作构建\n\n它在恶意软件到达你的应用之前就将其拦截",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2064750235193417828",
+      "publishedAt": "2026-06-10T16:43:11.000Z"
+    },
     {
       "topic": "模型",
       "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
@@ -169,78 +241,6 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2064508455051043008",
       "publishedAt": "2026-06-10T00:42:27.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "IBM CEO：AI不一定导致员工减少",
-      "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
-      "publishedAt": "2026-06-09T21:48:41.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
-      "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
-      "publishedAt": "2026-06-09T21:35:31.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
-      "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
-      "publishedAt": "2026-06-09T21:24:50.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Mythos 5 智能体因资源互相杀戮",
-      "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\"",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "href": "https://x.com/AISafetyMemes/status/2064435128479400270",
-      "publishedAt": "2026-06-09T19:51:04.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
-      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-      "publishedAt": "2026-06-09T19:38:28.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
-      "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频证明其能力。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2064425086409679358",
-      "publishedAt": "2026-06-09T19:11:10.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
-      "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "href": "https://x.com/NotebookLM/status/2064410506287538387",
-      "publishedAt": "2026-06-09T18:13:14.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
-      "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/advisor-server-tool",
-      "publishedAt": "2026-06-09T18:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cursor Evals 新增成本与输出 Token 图表",
-      "summary": "我们刚刚向 http：//cursor.com/evals 推送了一些改进！\n\n你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中",
-      "source": "X：Eric Zakariasson (@ericzakariasson)",
-      "href": "https://x.com/ericzakariasson/status/2064404502053294565",
-      "publishedAt": "2026-06-09T17:49:22.000Z"
     }
   ]
 }
