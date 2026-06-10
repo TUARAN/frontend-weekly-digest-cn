@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-10T11:18:26.668Z",
+  "updatedAt": "2026-06-10T13:15:27.642Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
+      "summary": "Emily Chang 与 Anthropic 联合创始人 Dario 和 Daniela Amodei 进行罕见深度对话，探讨创业起源、与五角大楼的摩擦，以及该公司如何在激烈的 AI 竞赛中将安全置于首位。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-06-10/inside-anthropic-the-965-billion-ai-juggernaut-video",
+      "publishedAt": "2026-06-10T12:00:06.000Z"
+    },
     {
       "topic": "论文",
       "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
@@ -233,14 +241,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2064384545256833209",
       "publishedAt": "2026-06-09T16:30:04.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "GitHub Copilot CLI 推出自定义 AI 智能体，将一次性终端提示转化为可重复工作流",
-      "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。",
-      "source": "GitHub Blog",
-      "href": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
-      "publishedAt": "2026-06-09T16:00:00.000Z"
     }
   ]
 }
