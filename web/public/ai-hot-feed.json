@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-10T03:12:02.926Z",
+  "updatedAt": "2026-06-10T05:35:50.675Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+      "summary": "火山引擎今日上线火山方舟版权商业化平台，推出行业首个覆盖\"授权-保护-审核-分发-变现\"全链路的版权合作机制。平台搭载视频生成模型Seedance 2.0及版权治理体系，已获周星驰旗下比高集团《喜剧之王》《食神》《长江七号》三部影片在AI视频创作场景下的版权使用权，并基于Seedance 2.0打造经典桥段AI创作模板。模板已在火山方舟体验中心、火山引擎Kickart上线，同步开放给LibTV、筷子科技丽帧引擎等工具合作伙伴。平台面向UGC和商业广告场景提供分润制、项目制等变现路径，未来还将提供版权管理后台，实现授权可见、使用可查、收入透明。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+      "publishedAt": "2026-06-10T04:30:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "Magnetar用数百AI智能体替代分析师",
@@ -233,14 +241,6 @@
       "source": "公众号：百度智能云（文心）",
       "href": "https://mp.weixin.qq.com/s/lv99XfrRtMMgiOflcT67VA",
       "publishedAt": "2026-06-09T12:03:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Nextdoor 工程师借助 Codex 与 GPT-5.5 无限制构建",
-      "summary": "Nextdoor 工程师利用 Codex 搭配 GPT-5.5 调查难以复现的问题、实现跨平台构建，并集中精力于产品成果。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/nextdoor",
-      "publishedAt": "2026-06-09T12:00:00.000Z"
     }
   ]
 }
