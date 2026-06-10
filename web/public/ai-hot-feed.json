@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-10T01:47:18.891Z",
+  "updatedAt": "2026-06-10T03:12:02.926Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Magnetar用数百AI智能体替代分析师",
+      "summary": "Bloomberg：Magnetar Capital，这家 180 亿美元的对冲基金公司，将在其最新产品中避免使用人类分析师，转而依靠数百个 AI 智能体进行股票研究。\n\n这家 180 亿美元的对冲基金公司希望 AI 搜索投资想法、研究公司、推荐头寸并预测趋势，而人类仍负责批准交易。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2064524448582267047",
+      "publishedAt": "2026-06-10T01:46:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "欧盟发布临时措施，要求 Meta 向第三方 AI 助手免费开放 WhatsApp",
+      "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/206.htm",
+      "publishedAt": "2026-06-10T01:41:12.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
@@ -225,22 +241,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/nextdoor",
       "publishedAt": "2026-06-09T12:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
-      "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "href": "https://x.com/TencentHunyuan/status/2064312869827809702",
-      "publishedAt": "2026-06-09T11:45:15.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
-      "summary": "火山引擎将TRAE Solo品牌升级为TRAE Work企业版，发布面向企业的AI办公平台。平台提供Work和Code两种模式：Work模式面向产品、运营、市场等非技术岗位，支持上传.pptx、.xlsx、图片等多种格式混合输入直接输出PPT或文档，支持语音讨论自动整理结构化纪要，支持按天或按周自动运行的数据整理和报告生成；Code模式面向开发者和业务同学，可用自然语言描述需求直接生成页面或小应用。桌面端、网页端和移动端多端同步。企业后台可统一配置模型、用量限额、上传内部文档，沙箱机制隔离执行，支持命令黑名单、MCP白名单、内容安全策略，关键操作可审计。同时发起TRAE Enterprise Fellow招募计划。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
-      "publishedAt": "2026-06-09T11:45:02.000Z"
     }
   ]
 }
