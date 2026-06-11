@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-11T19:03:21.198Z",
+  "updatedAt": "2026-06-11T20:52:07.996Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "全自主无人机首次击毙了人类士兵",
+      "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
+      "publishedAt": "2026-06-11T19:29:06.279Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit Agent 新增自定义指令与技能功能",
+      "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2065146579326271883",
+      "publishedAt": "2026-06-11T18:58:07.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
@@ -97,14 +113,6 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/claude-corps",
       "publishedAt": "2026-06-11T13:12:25.934Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 正考虑大幅降价以应对 Anthropic 竞争",
-      "summary": "据知情人士透露，OpenAI 正考虑对其服务进行大幅降价，以应对竞争对手 Anthropic 同样可能采取的成本削减举措。此举暗示双方在各自筹备上市前可能掀起一场价格战。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-11/openai-weighs-major-price-cuts-to-win-anthropic-users-wsj-says",
-      "publishedAt": "2026-06-11T12:11:09.000Z"
     },
     {
       "topic": "产品",
@@ -232,14 +240,6 @@
       "summary": "OpenAI 计划收购 Ona，以拓展 Codex 的功能，提供安全、持久的云端环境，从而支持企业工作流中长时间运行的 AI 智能体。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/openai-to-acquire-ona",
-      "publishedAt": "2026-06-11T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "xAI 推出 Grok Build Plugin Marketplace",
-      "summary": "xAI 今日发布 Grok Build 内置插件市场。插件将技能、斜杠命令、AI 智能体、钩子、MCP 服务器和 LSP 打包为可安装包，用户无需离开终端即可浏览、安装和更新。首发合作伙伴包括 MongoDB、Vercel、Sentry、Chrome DevTools、Cloudflare 和 Superpowers。在 Grok Build 中输入 `/marketplace` 或使用 CLI 即可安装，每个远程插件均固定到特定 commit SHA 并经过验证。开发者可提交 PR 到 xai-org/plugin-marketplace 发布自己的插件。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/grok-plugin-marketplace",
       "publishedAt": "2026-06-11T00:00:00.000Z"
     }
   ]
