@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-11T07:46:33.243Z",
+  "updatedAt": "2026-06-11T09:34:04.563Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
+      "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。",
+      "source": "公众号：千问APP（阿里）",
+      "href": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
+      "publishedAt": "2026-06-11T08:40:14.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
+      "summary": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。",
+      "source": "公众号：腾讯混元",
+      "href": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
+      "publishedAt": "2026-06-11T08:34:59.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Deezer 推出面向其他流媒体服务的 AI 音乐检测器",
+      "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+      "publishedAt": "2026-06-11T08:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
@@ -217,30 +241,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/videos/2026-06-10/inside-anthropic-the-965-billion-ai-juggernaut-video",
       "publishedAt": "2026-06-10T12:00:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cursor Bugbot 更新：速度提升超 3 倍、成本降低 22%、发现更多 Bug",
-      "summary": "Cursor 的代码审查工具 Bugbot 迎来重大更新：运行速度提升超 3 倍，成本降低 22%，每轮审查多发现 10% 的 bug，90% 的运行在三分钟内完成。新增 `/review` 命令，可在推送代码前运行 Bugbot 和安全审查，并与 GitHub/GitLab 同步--若已通过 `/review` 审查过同一 diff，打开 PR 时 Bugbot 会自动跳过并备注。支持配置仅审查 PR 中新增内容。性能提升源于驱动 Bugbot 的 Composer 2.5 模型训练改进。Bugbot 遵循模型阻止列表，若组织禁用 Composer 2.5 则自动回退。该功能已在 Cursor 3.7+ 和 cursor.com/agents 上线，CLI 支持即将推出。",
-      "source": "Cursor Blog",
-      "href": "https://cursor.com/blog/bugbot-updates-june-2026",
-      "publishedAt": "2026-06-10T12:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
-      "summary": "百度百舸团队与复旦大学合作提出Long-horizon Utility KV（LU-KV）框架，将头级KV Cache预算分配建模为面向长程边际效用的全局组合优化问题。LU-KV通过离线画像估计注意力头边际贡献曲线，结合凸包松弛与基于边际效用的贪心求解器，在较低开销下得到接近最优的预算配置，可适配SnapKV、KeyDiff等多类压缩方法。在LongBench和RULER基准上，80%压缩比下性能损失小，降低显存占用和推理延迟。相关论文被ICML 2026录用。",
-      "source": "公众号：百度智能云（文心）",
-      "href": "https://mp.weixin.qq.com/s/oKhawmph49YYPR63T-ekaw",
-      "publishedAt": "2026-06-10T09:43:54.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "华为云发布全球首个端到端具身AI平台CloudRobo",
-      "summary": "华为云推出全球首个端到端具身AI开发平台CloudRobo，覆盖从数据、模型到部署、集成的全生命周期，基于PB级可信数据底座。在INSPIRE2026上，国家地方共建人形机器人创新中心、Yijiahe Technology、上海交通大学展示了其核心能力：数据与模型双评估系统、主动力控模型快速组装、机器人小时级上云、模型分钟级部署。",
-      "source": "X：华为云 (@HuaweiCloud1)",
-      "href": "https://x.com/HuaweiCloud1/status/2064637581652852831",
-      "publishedAt": "2026-06-10T09:15:33.000Z"
     }
   ]
 }
