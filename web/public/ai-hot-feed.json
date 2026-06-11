@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-11T17:18:33.300Z",
+  "updatedAt": "2026-06-11T19:03:21.198Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
+      "summary": "Anthropic与IT服务公司DXC Technology达成多年全球联盟。DXC将培训数万名获得Claude认证的前沿部署工程师（FDE），将Claude引入其为全球大型银行、航空公司、保险公司及政府机构运营的关键系统。内部部署中，Claude已成为DXC OASIS平台的默认基础模型，该平台超95%代码由Claude编写，开发速度提升10倍，已服务50多家客户。DXC加入Claude Partner Network，将在保险、现代化服务、网络安全及应用服务四个领域率先推出基于Claude的解决方案。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "publishedAt": "2026-06-11T18:13:16.585Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Perplexity Computer 集成 Deep Research",
+      "summary": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2065124930463916317",
+      "publishedAt": "2026-06-11T17:32:06.000Z"
+    },
     {
       "topic": "产品",
       "title": "DeepSeek-R1 的开源实现",
@@ -9,6 +25,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/huggingface/open-r1",
       "publishedAt": "2026-06-11T17:07:18.181Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Gemini Omni Flash 视频任务达 SOTA",
+      "summary": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！",
+      "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+      "href": "https://x.com/OfficialLoganK/status/2065118111360303414",
+      "publishedAt": "2026-06-11T17:05:00.000Z"
     },
     {
       "topic": "行业",
@@ -73,6 +97,22 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/claude-corps",
       "publishedAt": "2026-06-11T13:12:25.934Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 正考虑大幅降价以应对 Anthropic 竞争",
+      "summary": "据知情人士透露，OpenAI 正考虑对其服务进行大幅降价，以应对竞争对手 Anthropic 同样可能采取的成本削减举措。此举暗示双方在各自筹备上市前可能掀起一场价格战。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-11/openai-weighs-major-price-cuts-to-win-anthropic-users-wsj-says",
+      "publishedAt": "2026-06-11T12:11:09.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
+      "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/auto-review",
+      "publishedAt": "2026-06-11T12:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -180,6 +220,14 @@
     },
     {
       "topic": "行业",
+      "title": "BBVA 将 AI 置于银行业务核心，与 OpenAI 合作",
+      "summary": "BBVA 将 ChatGPT Enterprise 推广至 10 万名员工，并与 OpenAI 达成合作，加速全球银行业 AI 驱动的转型。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/bbva",
+      "publishedAt": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "topic": "行业",
       "title": "OpenAI 将收购 Ona",
       "summary": "OpenAI 计划收购 Ona，以拓展 Codex 的功能，提供安全、持久的云端环境，从而支持企业工作流中长时间运行的 AI 智能体。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
@@ -193,54 +241,6 @@
       "source": "xAI：News（网页）",
       "href": "https://x.ai/news/grok-plugin-marketplace",
       "publishedAt": "2026-06-11T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 支持欧洲构建可信 AI 生态系统",
-      "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "publishedAt": "2026-06-11T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
-      "summary": "OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/openai-on-oracle-cloud",
-      "publishedAt": "2026-06-10T20:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "MiniMax M3 上链 0G，限时免费运行",
-      "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15-18 日免费运行。",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "href": "https://x.com/MiniMax_AI/status/2064791800884363286",
-      "publishedAt": "2026-06-10T19:28:21.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
-      "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2064783418844762489",
-      "publishedAt": "2026-06-10T18:55:03.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
-      "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://burr.apache.org/",
-      "publishedAt": "2026-06-10T18:33:56.920Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Grok Voice性能出色价格低廉",
-      "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http：//x.ai/api/voice",
-      "source": "X：xAI (@xai)",
-      "href": "https://x.com/xai/status/2064777588036530309",
-      "publishedAt": "2026-06-10T18:31:53.000Z"
     }
   ]
 }
