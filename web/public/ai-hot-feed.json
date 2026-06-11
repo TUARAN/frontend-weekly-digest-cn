@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-11T00:54:26.998Z",
+  "updatedAt": "2026-06-11T01:53:48.532Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
+      "summary": "mlx-vlm v0.6.3 上线，首发支持 DiffusionGemma 和 North Mini Code 1.0。DiffusionGemma 采用全新架构：以 256 token 块为单位并行生成、双向注意力、迭代自纠错；26B MoE 仅激活 3.8B，量化后 18GB 即可运行。North Mini Code 1.0 为 30B MoE，仅激活 3B，BF16 下约 66 tok/s。两款模型均通过深度合作实现 Day-0 MLX 支持，可在 Mac 本地运行。可通过 `uv pip install -U mlx-vlm` 安装体验。",
+      "source": "X：Berry Xia (@berryxia)",
+      "href": "https://x.com/berryxia/status/2064875107278098769",
+      "publishedAt": "2026-06-11T00:59:23.000Z"
+    },
     {
       "topic": "技巧",
       "title": "在写完这篇文章后 我把配图过程蒸馏成了一个「橙线插画」Skill 免费开源 安装地址： https：//github.com/orange2ai/orange-line-illustration",
@@ -233,14 +241,6 @@
       "source": "公众号：千问APP（阿里）",
       "href": "https://mp.weixin.qq.com/s/4fovMM29x8tJ2E25kidl1A",
       "publishedAt": "2026-06-10T06:00:49.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "谷歌财务担保支撑 Anthropic 350 亿美元芯片租赁交易",
-      "summary": "Anthropic 在谷歌（其早期投资者之一）的帮助下，正在五个数据中心租赁高性能计算机芯片。谷歌同意为每个地点的租赁付款提供兜底担保，从而帮助 Anthropic 获得相当于 350 亿美元的融资。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-10/google-s-backstops-underpin-35-bln-anthropic-chip-deal-video",
-      "publishedAt": "2026-06-10T05:57:28.000Z"
     }
   ]
 }
