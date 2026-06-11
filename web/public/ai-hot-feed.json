@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-11T11:35:28.688Z",
+  "updatedAt": "2026-06-11T13:23:44.282Z",
   "count": 30,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
+      "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/claude-corps",
+      "publishedAt": "2026-06-11T13:12:25.934Z"
+    },
     {
       "topic": "技巧",
       "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
@@ -233,14 +241,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
       "publishedAt": "2026-06-10T16:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter 推出 Activity explorer 活动探索器",
-      "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。\n\n这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。\n\n看看我们的团队如何使用 Fable 和其他模型 👇",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2064730000956489889",
-      "publishedAt": "2026-06-10T15:22:47.000Z"
     }
   ]
 }
