@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-10T23:34:00.180Z",
+  "updatedAt": "2026-06-11T00:54:26.998Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "在写完这篇文章后 我把配图过程蒸馏成了一个「橙线插画」Skill 免费开源 安装地址： https：//github.com/orange2ai/orange-line-illustration",
+      "summary": "在写完这篇文章后\n我把配图过程蒸馏成了一个「橙线插画」Skill\n\n免费开源\n安装地址：\nhttps：//github.com/orange2ai/orange-line-illustration\n\n【引用 @oran_ge】：http：//x.com/i/article/2064857003743391744",
+      "source": "X：Oran Ge (@oran_ge)",
+      "href": "https://x.com/oran_ge/status/2064861625883222114",
+      "publishedAt": "2026-06-11T00:05:49.000Z"
+    },
     {
       "topic": "行业",
       "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
@@ -233,14 +241,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/videos/2026-06-10/google-s-backstops-underpin-35-bln-anthropic-chip-deal-video",
       "publishedAt": "2026-06-10T05:57:28.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
-      "summary": "火山引擎今日上线火山方舟版权商业化平台，推出行业首个覆盖\"授权-保护-审核-分发-变现\"全链路的版权合作机制。平台搭载视频生成模型Seedance 2.0及版权治理体系，已获周星驰旗下比高集团《喜剧之王》《食神》《长江七号》三部影片在AI视频创作场景下的版权使用权，并基于Seedance 2.0打造经典桥段AI创作模板。模板已在火山方舟体验中心、火山引擎Kickart上线，同步开放给LibTV、筷子科技丽帧引擎等工具合作伙伴。平台面向UGC和商业广告场景提供分润制、项目制等变现路径，未来还将提供版权管理后台，实现授权可见、使用可查、收入透明。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
-      "publishedAt": "2026-06-10T04:30:00.000Z"
     }
   ]
 }
