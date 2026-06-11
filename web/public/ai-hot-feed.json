@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T20:52:07.996Z",
+  "updatedAt": "2026-06-11T21:43:01.803Z",
   "count": 30,
   "items": [
     {
@@ -49,6 +49,14 @@
       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
       "href": "https://x.com/OfficialLoganK/status/2065118111360303414",
       "publishedAt": "2026-06-11T17:05:00.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
+      "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/llm-gateway",
+      "publishedAt": "2026-06-11T16:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -232,14 +240,6 @@
       "summary": "BBVA 将 ChatGPT Enterprise 推广至 10 万名员工，并与 OpenAI 达成合作，加速全球银行业 AI 驱动的转型。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/bbva",
-      "publishedAt": "2026-06-11T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 将收购 Ona",
-      "summary": "OpenAI 计划收购 Ona，以拓展 Codex 的功能，提供安全、持久的云端环境，从而支持企业工作流中长时间运行的 AI 智能体。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/openai-to-acquire-ona",
       "publishedAt": "2026-06-11T00:00:00.000Z"
     }
   ]
