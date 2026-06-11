@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-11T01:53:48.532Z",
+  "updatedAt": "2026-06-11T03:11:30.716Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
+      "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/nFSSzluc57xPv50Zbh4owg",
+      "publishedAt": "2026-06-11T01:58:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
@@ -76,11 +84,11 @@
     },
     {
       "topic": "产品",
-      "title": "小米发布 MiMo Code V0.1 开源终端 AI 编程助手",
-      "summary": "小米推出开源终端 AI 编程助手 MiMo Code V0.1，附带限时免费使用的多模态模型 MiMo V2.5，支持百万 token 上下文窗口。核心特性包括：无限上下文（自动知识积累与无损压缩）、Agent-模型深度协同（测试-审查-验证闭环）、Compose 模式（规格→计划→构建→报告）、自进化系统、语音输入（基于 MiMo-V2.5-ASR）、兼容 Claude Code（零成本迁移），以及 MIT 许可、支持 Anthropic、OpenAI、DeepSeek、Kimi、GLM 等主流模型提供商。",
-      "source": "X：小米 MiMo (@XiaomiMiMo)",
-      "href": "https://x.com/XiaomiMiMo/status/2064772356443394441",
-      "publishedAt": "2026-06-10T18:11:06.000Z"
+      "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
+      "summary": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议。内置限时免费MiMo-V2.5多模态模型，性能比肩Claude Sonnet 4.6；支持接入DeepSeek、Kimi、GLM等模型。核心能力包括持久记忆系统（项目记忆、会话检查点、任务进度）和无限上下文--通过独立subagent自动保存状态解决长会话遗忘。独创Compose模式实现模型与Agent协同优化，SWE-Bench Pro达62%（Claude Code 57%），Terminal Bench 2达73%（68%）。内置语音输入和/dream命令，每7天自动合并记忆。终端输入`mimo`即可使用，所有设置中文汉化。",
+      "source": "公众号：小米 MiMo",
+      "href": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
+      "publishedAt": "2026-06-10T18:06:35.000Z"
     },
     {
       "topic": "论文",
@@ -233,14 +241,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale",
       "publishedAt": "2026-06-10T06:33:52.391Z"
-    },
-    {
-      "topic": "产品",
-      "title": "2026年高考，跟着千问，选好志愿！",
-      "summary": "千问发布国内首个全周期高考志愿填报Agent，由数百位资深高报师参与训练。该智能体提供AI志愿报告，为考生量身定制深度全面的填报方案；AI志愿日历帮助制定专属填报计划；高考专业知识库整合夸克高考8年积累，并引入志愿专家顾问，数据权威可信赖，全程陪伴考生完成志愿填报。",
-      "source": "公众号：千问APP（阿里）",
-      "href": "https://mp.weixin.qq.com/s/4fovMM29x8tJ2E25kidl1A",
-      "publishedAt": "2026-06-10T06:00:49.000Z"
     }
   ]
 }
