@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-11T09:34:04.563Z",
+  "updatedAt": "2026-06-11T11:35:28.688Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
+      "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "href": "https://x.com/SiliconFlowAI/status/2065015632215912879",
+      "publishedAt": "2026-06-11T10:17:47.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Codex 维护仓库：5分钟循环并行自治",
+      "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。",
+      "source": "X：Peter Steinberger (@steipete)",
+      "href": "https://x.com/steipete/status/2064998499780084154",
+      "publishedAt": "2026-06-11T09:09:42.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线",
+      "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/963/009.htm",
+      "publishedAt": "2026-06-11T08:50:49.000Z"
+    },
     {
       "topic": "产品",
       "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
@@ -217,30 +241,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2064730000956489889",
       "publishedAt": "2026-06-10T15:22:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "毕业典礼频现\"谈 AI 色变\"，微软总裁史密斯呼吁行业必须回应公众担忧",
-      "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前\"大多数白领工作18个月内自动化\"的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/680.htm",
-      "publishedAt": "2026-06-10T15:22:02.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "ChatGPT 推头发变国旗颜色功能",
-      "summary": "Go #MessiMode\n\n上传一张你的照片并尝试这个提示词：\"将我的头发变成本国国旗的颜色，但要看起来自然。如果没有提供国家或图片，请询问。\"",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "href": "https://x.com/ChatGPTapp/status/2064728793785450526",
-      "publishedAt": "2026-06-10T15:17:59.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
-      "summary": "Emily Chang 与 Anthropic 联合创始人 Dario 和 Daniela Amodei 进行罕见深度对话，探讨创业起源、与五角大楼的摩擦，以及该公司如何在激烈的 AI 竞赛中将安全置于首位。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-10/inside-anthropic-the-965-billion-ai-juggernaut-video",
-      "publishedAt": "2026-06-10T12:00:06.000Z"
     }
   ]
 }
