@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-11T22:37:42.084Z",
+  "updatedAt": "2026-06-11T23:34:12.702Z",
   "count": 30,
   "items": [
+    {
+      "topic": "论文",
+      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
+      "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "publishedAt": "2026-06-11T22:23:17.154Z"
+    },
     {
       "topic": "技巧",
       "title": "Replit 专家级提示词技巧",
@@ -233,14 +241,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/nFSSzluc57xPv50Zbh4owg",
       "publishedAt": "2026-06-11T01:58:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
-      "summary": "mlx-vlm v0.6.3 上线，首发支持 DiffusionGemma 和 North Mini Code 1.0。DiffusionGemma 采用全新架构：以 256 token 块为单位并行生成、双向注意力、迭代自纠错；26B MoE 仅激活 3.8B，量化后 18GB 即可运行。North Mini Code 1.0 为 30B MoE，仅激活 3B，BF16 下约 66 tok/s。两款模型均通过深度合作实现 Day-0 MLX 支持，可在 Mac 本地运行。可通过 `uv pip install -U mlx-vlm` 安装体验。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2064875107278098769",
-      "publishedAt": "2026-06-11T00:59:23.000Z"
     }
   ]
 }
