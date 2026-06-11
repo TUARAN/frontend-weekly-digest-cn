@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-11T03:11:30.716Z",
+  "updatedAt": "2026-06-11T05:38:41.703Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Midjourney V8.1 已成为默认模型",
+      "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
+      "source": "Midjourney：Updates（RSS）",
+      "href": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
+      "publishedAt": "2026-06-11T04:08:51.000Z"
+    },
     {
       "topic": "技巧",
       "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
@@ -233,14 +241,6 @@
       "source": "X：宝玉 (@dotey)",
       "href": "https://x.com/dotey/status/2064601571397185639",
       "publishedAt": "2026-06-10T06:52:27.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "亚马逊的大规模扁平化数据中心网络",
-      "summary": "亚马逊分享了在大规模数据中心中实现扁平化网络架构的工程实践与设计考量，重点论述了如何通过简化拓扑和路由策略来支撑超大规模集群的高带宽、低延迟通信。文章未披露具体模型或评测数据。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale",
-      "publishedAt": "2026-06-10T06:33:52.391Z"
     }
   ]
 }
