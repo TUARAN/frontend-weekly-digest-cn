@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-11",
+      "displayDate": "Jun 11",
+      "json": "/ai-daily/2026-06-11.json",
+      "count": 5,
+      "highlights": [
+        "小米发布 MiMo Code V0.1 ",
+        "摩尔线程开源 MusaCoder 代码大",
+        "通过语言服务器为 GitHub Copi",
+        "Cursor Bugbot 更新：速度提",
+        "华为云发布全球首个端到端具身AI平台Cl"
+      ]
+    },
+    {
       "date": "2026-06-10",
       "displayDate": "Jun 10",
       "json": "/ai-daily/2026-06-10.json",
@@ -182,5 +195,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-10"
+  "latest": "2026-06-11"
 }
