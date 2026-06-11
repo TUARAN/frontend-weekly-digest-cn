@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-11T13:23:44.282Z",
+  "updatedAt": "2026-06-11T15:14:09.627Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Krea 2 推出生成式滑块控制图像属性",
+      "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇",
+      "source": "X：Krea AI (@krea_ai)",
+      "href": "https://x.com/krea_ai/status/2065086662166901114",
+      "publishedAt": "2026-06-11T15:00:02.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude Fable 5 一句话生成桌面台球游戏",
+      "summary": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2065079656324407345",
+      "publishedAt": "2026-06-11T14:32:12.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Runway与Lionsgate扩大战略合作",
+      "summary": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。",
+      "source": "Runway：News（网页）",
+      "href": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
+      "publishedAt": "2026-06-11T14:31:51.811Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
+      "summary": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
+      "publishedAt": "2026-06-11T13:34:49.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
@@ -209,38 +241,6 @@
       "source": "X：Replit (@Replit)",
       "href": "https://x.com/Replit/status/2064750235193417828",
       "publishedAt": "2026-06-10T16:43:11.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
-      "summary": "Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token。该 26B MoE 模型推理时仅激活 3.8B 参数，量化后适配 18GB 显存消费级 GPU。在 H100 上达 1000+ tokens/s，RTX 5090 上 700+ tokens/s，速度提升 4 倍。具备双向注意力和自我修正能力，面向内联编辑、代码填充等本地交互工作流，以 Apache 2.0 许可证开放。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "href": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
-      "publishedAt": "2026-06-10T16:24:11.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google将保存用户的Lens图片、Search Live录音和Translate音频用于AI训练",
-      "summary": "Google更新搜索交互数据保存方式，新增\"Search Services History\"设置，用于保存用户搜索时使用的图片、文件、音频和视频，包括Google Lens搜索的图片、实时搜索工具Search Live的录音、语音搜索和Translate中的语音片段。这些数据将被用于\"提供、改进和开发AI模型\"。用户可关闭该设置并禁用\"Save Media\"选项以避免保存。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
-      "publishedAt": "2026-06-10T16:18:45.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "回顾与 Steve Eisman 的访谈，以及可能的关键新闻",
-      "summary": "原文回顾了与 Steve Eisman 的最新访谈，并指出一些可能具有关键意义的新闻，未提供具体细节。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might",
-      "publishedAt": "2026-06-10T16:16:05.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "通过语言服务器为 GitHub Copilot CLI 提供真正的代码智能",
-      "summary": "GitHub Copilot CLI 现在可以通过安装和配置 LSP（Language Server Protocol）服务器来替代原始的暴力 grep 或反编译方式，从而获得真正的代码智能。",
-      "source": "GitHub Blog",
-      "href": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
-      "publishedAt": "2026-06-10T16:00:00.000Z"
     }
   ]
 }
