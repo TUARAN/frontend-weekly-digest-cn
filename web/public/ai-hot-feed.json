@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-11T05:38:41.703Z",
+  "updatedAt": "2026-06-11T07:46:33.243Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
+      "summary": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2064959133535658144",
+      "publishedAt": "2026-06-11T06:33:17.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "AI浪潮引发中国担忧：官媒呼吁保护劳动者权益",
+      "summary": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
+      "publishedAt": "2026-06-11T06:19:13.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Anthropic CEO 阿莫迪：AI 可能会造成大规模、长期性的岗位流失",
+      "summary": "Anthropic CEO 达里奥・阿莫迪警告，AI造成的大规模岗位流失是技术固有属性--AI系统旨在复刻人类认知，失业将成为结构性必然结果。他提出应对思路：完善劳动力市场监测、推行薪资保障与留岗税收优惠、发放培训补贴；若人力需求永久下降，则需通过征税推行全民基本收入等长期收入保障。Anthropic目标非削减人力成本，而是帮企业开拓新营收、盘活现有员工产能。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/962/854.htm",
+      "publishedAt": "2026-06-11T05:53:41.000Z"
+    },
     {
       "topic": "模型",
       "title": "Midjourney V8.1 已成为默认模型",
@@ -33,6 +57,14 @@
       "source": "X：Oran Ge (@oran_ge)",
       "href": "https://x.com/oran_ge/status/2064861625883222114",
       "publishedAt": "2026-06-11T00:05:49.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 支持欧洲构建可信 AI 生态系统",
+      "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "publishedAt": "2026-06-11T00:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -209,38 +241,6 @@
       "source": "X：华为云 (@HuaweiCloud1)",
       "href": "https://x.com/HuaweiCloud1/status/2064637581652852831",
       "publishedAt": "2026-06-10T09:15:33.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反",
-      "summary": "谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因\"不裁员就等于 AI 转型慢\"的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/515.htm",
-      "publishedAt": "2026-06-10T08:36:14.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
-      "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/509.htm",
-      "publishedAt": "2026-06-10T08:21:45.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
-      "summary": "工信部发文，要求加快建设400Gbps/800Gbps骨干传输网络，优化东中西部国家枢纽节点间通道；推进城域400Gbps及以上、全光交叉等高速光传输系统应用，构建城域毫秒级低时延入算能力。同时推动5G-A/6G、新一代光网络、\"IPv6+\"、工业互联网与AI融合发展，攻关空口智能化、网络高等级自智、智能体互联网等核心技术。鼓励基础电信企业用AI赋能传统业务，深化智慧个人助理、智慧管家、家庭看护、3D观影等新型应用。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/456.htm",
-      "publishedAt": "2026-06-10T07:07:13.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "用好 Claude Design 的一些经验",
-      "summary": "宝玉分享了5点心得：1. 加入设计系统（如 Adobe Spectrum 2）可避免 AI 味，设为默认后可专注布局与交互。2. 先搭建少量功能，再通过左侧聊天框逐步调整。3. 用 Markup 框选局部评论，Edit 可手动调整元素树。4. 注意上下文管理，新任务创建新会话。5. 通过 Tweaks 面板调整主题、布局、加载状态，也可添加导航快速切换界面。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2064601571397185639",
-      "publishedAt": "2026-06-10T06:52:27.000Z"
     }
   ]
 }
