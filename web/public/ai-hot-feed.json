@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-11T15:14:09.627Z",
+  "updatedAt": "2026-06-11T17:18:33.300Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "DeepSeek-R1 的开源实现",
+      "summary": "DeepSeek-R1 的开源复现项目已在 GitHub 发布，在 Hacker News 上获得 101 个积分。该项目旨在以开源方式复现 DeepSeek-R1 模型。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/huggingface/open-r1",
+      "publishedAt": "2026-06-11T17:07:18.181Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
+      "summary": "杰夫·贝佐斯旗下AI公司Prometheus在成立仅7个月、尚无任何产品交付的情况下，以410亿美元估值完成120亿美元融资（最初估值62亿美元）。该公司定位为\"人工通用工程师\"，目标是将设计到制造的循环压缩10倍以上。但物理经济无法像互联网数据那样抓取，缺乏制造业训练数据。为此，Prometheus计划斥资1000亿美元收购传统工业企业，通过获取工厂生成的数据构建护城河。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2065097988859744503",
+      "publishedAt": "2026-06-11T15:45:02.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter 基准探索器：10项帕累托曲线",
+      "summary": "使用我们的基准探索器，为10个不同基准绘制帕累托曲线。\n\n更多功能即将推出！https：//openrouter.ai/rankings#benchmarks",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2065094780271329729",
+      "publishedAt": "2026-06-11T15:32:17.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
+      "summary": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2065090494972174821",
+      "publishedAt": "2026-06-11T15:15:16.000Z"
+    },
     {
       "topic": "产品",
       "title": "Krea 2 推出生成式滑块控制图像属性",
@@ -148,6 +180,22 @@
     },
     {
       "topic": "行业",
+      "title": "OpenAI 将收购 Ona",
+      "summary": "OpenAI 计划收购 Ona，以拓展 Codex 的功能，提供安全、持久的云端环境，从而支持企业工作流中长时间运行的 AI 智能体。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/openai-to-acquire-ona",
+      "publishedAt": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "xAI 推出 Grok Build Plugin Marketplace",
+      "summary": "xAI 今日发布 Grok Build 内置插件市场。插件将技能、斜杠命令、AI 智能体、钩子、MCP 服务器和 LSP 打包为可安装包，用户无需离开终端即可浏览、安装和更新。首发合作伙伴包括 MongoDB、Vercel、Sentry、Chrome DevTools、Cloudflare 和 Superpowers。在 Grok Build 中输入 `/marketplace` 或使用 CLI 即可安装，每个远程插件均固定到特定 commit SHA 并经过验证。开发者可提交 PR 到 xai-org/plugin-marketplace 发布自己的插件。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/grok-plugin-marketplace",
+      "publishedAt": "2026-06-11T00:00:00.000Z"
+    },
+    {
+      "topic": "行业",
       "title": "OpenAI 支持欧洲构建可信 AI 生态系统",
       "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
@@ -179,14 +227,6 @@
       "publishedAt": "2026-06-10T18:55:03.000Z"
     },
     {
-      "topic": "论文",
-      "title": "Google Research提出审计机器遗忘新框架",
-      "summary": "Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘。该方法通过统计两样本检验判断模型是否真正\"忘记\"特定训练数据，避免完全重训的巨大成本。相比最大均值差异等现有工具，新框架理论上可在任意样本量下自然控制假阳性，且假阴性风险随可用样本增加可靠收敛至零，解决了大规模模型审计中计算成本过高的问题。",
-      "source": "Google Research：Blog（网页）",
-      "href": "https://research.google/blog/new-framework-for-auditing-machine-unlearning",
-      "publishedAt": "2026-06-10T18:46:09.407Z"
-    },
-    {
       "topic": "产品",
       "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
       "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。",
@@ -201,46 +241,6 @@
       "source": "X：xAI (@xai)",
       "href": "https://x.com/xai/status/2064777588036530309",
       "publishedAt": "2026-06-10T18:31:53.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "豆包AI误导用户损失600元，还帮用户起诉自己",
-      "summary": "2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。",
-      "source": "X：X.PIN (@thexpin)",
-      "href": "https://x.com/thexpin/status/2064772489310527713",
-      "publishedAt": "2026-06-10T18:11:37.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
-      "summary": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议。内置限时免费MiMo-V2.5多模态模型，性能比肩Claude Sonnet 4.6；支持接入DeepSeek、Kimi、GLM等模型。核心能力包括持久记忆系统（项目记忆、会话检查点、任务进度）和无限上下文--通过独立subagent自动保存状态解决长会话遗忘。独创Compose模式实现模型与Agent协同优化，SWE-Bench Pro达62%（Claude Code 57%），Terminal Bench 2达73%（68%）。内置语音输入和/dream命令，每7天自动合并记忆。终端输入`mimo`即可使用，所有设置中文汉化。",
-      "source": "公众号：小米 MiMo",
-      "href": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
-      "publishedAt": "2026-06-10T18:06:35.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic 研究：AI 数小时内即可从安全补丁构建漏洞利用",
-      "summary": "Anthropic 安全团队发现，其 Mythos Preview AI 模型能在几小时内将 Firefox 和 Windows 内核的安全补丁转化为可工作的漏洞利用，成本仅需数千美元，且无需专业知识。在微软自动更新到达任何设备之前，该模型已完成 8 条完整攻击链。Anthropic 认为传统的补丁节奏已经过时。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches",
-      "publishedAt": "2026-06-10T17:38:24.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "突发：Google 因模型幻觉被判负有法律责任",
-      "summary": "一项法律裁决判定 Google 对其 AI 模型产生的幻觉内容负有法律责任。该判决可能产生巨大影响，尤其若其他国家跟进做出类似裁定。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations",
-      "publishedAt": "2026-06-10T17:00:08.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit 联合 Socket 推出 Package Firewall",
-      "summary": "大多数人在发布项目前会运行安全扫描以检测恶意包\n\n但风险从安装的那一刻就已开始\n\n今天，我们正式推出 Package Firewall，与 Socket 合作构建\n\n它在恶意软件到达你的应用之前就将其拦截",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2064750235193417828",
-      "publishedAt": "2026-06-10T16:43:11.000Z"
     }
   ]
 }
