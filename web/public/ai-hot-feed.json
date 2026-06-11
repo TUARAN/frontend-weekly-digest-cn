@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-11T21:43:01.803Z",
+  "updatedAt": "2026-06-11T22:37:42.084Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Replit 专家级提示词技巧",
+      "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2065192392718733327",
+      "publishedAt": "2026-06-11T22:00:10.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit 与 Databricks 集成升级，公开预览开放",
+      "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2065189762365813089",
+      "publishedAt": "2026-06-11T21:49:43.000Z"
+    },
     {
       "topic": "行业",
       "title": "全自主无人机首次击毙了人类士兵",
@@ -225,22 +241,6 @@
       "source": "X：Berry Xia (@berryxia)",
       "href": "https://x.com/berryxia/status/2064875107278098769",
       "publishedAt": "2026-06-11T00:59:23.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在写完这篇文章后 我把配图过程蒸馏成了一个「橙线插画」Skill 免费开源 安装地址： https：//github.com/orange2ai/orange-line-illustration",
-      "summary": "在写完这篇文章后\n我把配图过程蒸馏成了一个「橙线插画」Skill\n\n免费开源\n安装地址：\nhttps：//github.com/orange2ai/orange-line-illustration\n\n【引用 @oran_ge】：http：//x.com/i/article/2064857003743391744",
-      "source": "X：Oran Ge (@oran_ge)",
-      "href": "https://x.com/oran_ge/status/2064861625883222114",
-      "publishedAt": "2026-06-11T00:05:49.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "BBVA 将 AI 置于银行业务核心，与 OpenAI 合作",
-      "summary": "BBVA 将 ChatGPT Enterprise 推广至 10 万名员工，并与 OpenAI 达成合作，加速全球银行业 AI 驱动的转型。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/bbva",
-      "publishedAt": "2026-06-11T00:00:00.000Z"
     }
   ]
 }
