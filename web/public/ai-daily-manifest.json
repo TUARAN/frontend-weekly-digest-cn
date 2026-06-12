@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-12",
+      "displayDate": "Jun 12",
+      "json": "/ai-daily/2026-06-12.json",
+      "count": 5,
+      "highlights": [
+        "阿里云发布 Meoo CLI：本地 AI",
+        "从0到1速通WorkBuddy：国内通用",
+        "Hermes Agent Desktop",
+        "OpenAI Codex 推出速率重置攒",
+        "Anthropic与DXC达成全球联盟，"
+      ]
+    },
+    {
       "date": "2026-06-11",
       "displayDate": "Jun 11",
       "json": "/ai-daily/2026-06-11.json",
@@ -195,5 +208,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-11"
+  "latest": "2026-06-12"
 }
