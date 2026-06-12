@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-06-12T11:19:44.742Z",
-  "count": 27,
+  "updatedAt": "2026-06-12T13:13:56.649Z",
+  "count": 24,
   "items": [
-    {
-      "topic": "行业",
-      "title": "DeepMind机器人加速器启动15家初创公司",
-      "summary": "我们的机器人加速器已启动，15家初创公司助力塑造欧洲的物理AI未来。🤖\n\n这个为期三个月的项目将为他们提供我们的AI堆栈、Gemini Robotics模型以及我们团队的实际支持。\n\n了解这些公司 → https：//goo.gle/4oeEk2K",
-      "source": "X：Google DeepMind (@GoogleDeepMind)",
-      "href": "https://x.com/GoogleDeepMind/status/2065388989146628563",
-      "publishedAt": "2026-06-12T11:01:22.000Z"
-    },
     {
       "topic": "模型",
       "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
@@ -201,22 +193,6 @@
       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "href": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
       "publishedAt": "2026-06-11T13:34:49.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
-      "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/claude-corps",
-      "publishedAt": "2026-06-11T13:12:25.934Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
-      "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。",
-      "source": "Cursor Blog",
-      "href": "https://cursor.com/blog/auto-review",
-      "publishedAt": "2026-06-11T12:00:00.000Z"
     }
   ]
 }
