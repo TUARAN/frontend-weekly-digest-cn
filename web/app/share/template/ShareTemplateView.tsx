@@ -166,7 +166,7 @@ function ShareTemplateBody() {
           </div>
 
           <h1 className="mt-5 text-2xl font-black leading-tight text-white sm:text-4xl">{title}</h1>
-          <p className={`mt-3 text-sm font-medium ${theme.eyebrowClass}`}>前端周看 · 站在前沿端点，每周“胡乱”看看</p>
+          <p className={`mt-3 text-sm font-medium ${theme.eyebrowClass}`}>前端周看 · 站在前沿端点，每周“随便”看看</p>
 
           {summary ? <p className="mt-4 text-sm leading-7 text-gray-200 sm:text-base">{summary}</p> : null}
 
@@ -203,7 +203,7 @@ function ShareTemplateBody() {
           </div>
 
           <div className="mt-8 border-t border-white/10 pt-5 text-xs text-gray-400">
-            <p>前端周看 · 站在前沿端点，每周“胡乱”看看</p>
+            <p>前端周看 · 站在前沿端点，每周“随便”看看</p>
           </div>
         </article>
       </div>

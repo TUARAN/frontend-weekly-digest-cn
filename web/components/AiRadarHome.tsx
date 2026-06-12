@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, CalendarDays, Map, Sparkles } from 'lucide-react';
+import { ArrowRight, CalendarDays, Mail, Map } from 'lucide-react';
 import AiDailyBoard from '@/components/AiDailyBoard';
 import LiveSignalBoard from '@/components/LiveSignalBoard';
 import { getAllWeeklies } from '@/lib/weekly';
@@ -54,7 +54,7 @@ export default function AiRadarHome() {
         <header className="mb-8 md:mb-10">
           <h1 className="text-2xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white sm:text-3xl md:text-4xl">
             站在前沿端点，
-            <span className="text-blue-600 dark:text-blue-400">每周“胡乱”看看</span>
+            <span className="text-blue-600 dark:text-blue-400">每周“随便”看看</span>
           </h1>
           <p className="mt-3 max-w-2xl text-[13px] leading-6 text-gray-500 dark:text-gray-400 md:text-sm">
             这里关注前端、AI Coding、Agent、大模型与工程实践。不制造焦虑，不传播焦虑，但不拒绝新潮观点。
@@ -72,11 +72,11 @@ export default function AiRadarHome() {
               </a>
             )}
             <Link
-              href="/pro"
+              href="/subscribe"
               className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition hover:border-gray-400 hover:gap-2 dark:border-gray-700 dark:text-gray-200 dark:hover:border-gray-500"
             >
-              <Sparkles className="h-3.5 w-3.5" />
-              加入会员 / 1v1
+              <Mail className="h-3.5 w-3.5" />
+              免费订阅
             </Link>
           </div>
         </header>
@@ -185,7 +185,7 @@ export default function AiRadarHome() {
           <LiveSignalBoard items={feed.items} updatedAt={feed.updatedAt} />
         </section>
 
-        {/* ── 4. 转型路线 + 加入引导 ── */}
+        {/* ── 4. 转型路线 + 订阅引导 ── */}
         <section className="mt-10 grid gap-4 md:mt-16 md:grid-cols-2">
           <Link
             href="/roadmap"
@@ -212,25 +212,25 @@ export default function AiRadarHome() {
           </Link>
 
           <Link
-            href="/pro"
-            className="group flex flex-col gap-4 rounded-3xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-white p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md dark:border-blue-900/40 dark:from-blue-950/30 dark:via-gray-950 dark:to-gray-950 md:p-7"
+            href="/subscribe"
+            className="group flex flex-col gap-4 rounded-3xl border border-gray-200 bg-gradient-to-br from-gray-50 to-white p-6 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:from-gray-900 dark:to-gray-950 md:p-7"
           >
-            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-blue-600 text-white shadow-sm">
-              <Sparkles className="h-6 w-6" />
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-emerald-600/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-400">
+              <Mail className="h-6 w-6" />
             </span>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
-                Membership
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500">
+                Subscribe
               </p>
               <h3 className="mt-1 text-xl font-bold text-gray-900 dark:text-white">
-                不是又一个付费订阅
+                每周收到精选更新
               </h3>
               <p className="mt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
-                入会拿到筛掉噪音后的判断；1v1 聊你的阶段、项目、正在纠结的那一件事。
+                公开内容继续免费更新。留下邮箱，周刊和精选内容会按节奏发给你。
               </p>
             </div>
             <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400">
-              查看会员方案
+              免费订阅
               <ArrowRight className="h-4 w-4" />
             </span>
           </Link>

@@ -22,8 +22,7 @@
 - **`fetch-translate-tool/`**
   - 批量抓取 + 翻译脚本工具，用于本地抓取与整理流程
 
-- **支付接入文档**
-  - `docs/payment-xunhu.md`：虎皮椒支付接入与部署说明
+- **文档**
   - `docs/domain-matrix-cloudflare.md`：主品牌 + 周刊子站的域名矩阵与重定向策略
   - `docs/fetch-translate-llm.md`：本地抓取翻译工具的大模型环境变量配置说明
 

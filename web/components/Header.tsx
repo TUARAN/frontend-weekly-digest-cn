@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Github, Sparkles } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import BrandLogo from '@/components/BrandLogo';
 import { buildWeeklyUrl } from '@/lib/site-matrix';
@@ -27,7 +27,6 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
   const mobileNav: NavItem[] = [
     ...contentNav,
     ...serviceNav,
-    { href: '/pro', label: '1v1', match: (p) => p.startsWith('/pro') },
   ];
 
   const renderDesktopLink = (item: NavItem) => (
@@ -62,16 +61,6 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
           </nav>
         </div>
         <div className="flex items-center gap-3">
-          <Link
-            href="/pro"
-            className={cn(
-              'hidden sm:inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200',
-              pathname.startsWith('/pro') ? 'ring-2 ring-gray-400 dark:ring-gray-600' : ''
-            )}
-          >
-            <Sparkles className="h-3.5 w-3.5" />
-            1v1 交流
-          </Link>
           <a
             href="https://github.com/TUARAN/frontend-weekly-digest-cn"
             target="_blank"

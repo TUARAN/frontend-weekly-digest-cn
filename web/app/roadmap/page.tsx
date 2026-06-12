@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CheckCircle2, Circle, Lock, Sparkles, ArrowRight } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Circle } from 'lucide-react';
 
 export const metadata = {
   title: '前端 → AI Agent 转型路线 · 前端周看',
@@ -11,7 +11,7 @@ interface Stage {
   title: string;
   weeks: string;
   goal: string;
-  skills: { name: string; free: boolean }[];
+  skills: string[];
   deliverable: string;
 }
 
@@ -22,9 +22,9 @@ const stages: Stage[] = [
     weeks: '1-2 周',
     goal: '确认自己是"该转"还是"该深耕"，避免走错方向。',
     skills: [
-      { name: '6 条判断信号自测', free: true },
-      { name: '当前岗位的可替代性评估', free: true },
-      { name: '个人优势画像', free: false },
+      '6 条判断信号自测',
+      '当前岗位的可替代性评估',
+      '个人优势画像',
     ],
     deliverable: '一份"去或不去"的自我判断书',
   },
@@ -34,10 +34,10 @@ const stages: Stage[] = [
     weeks: '3-4 周',
     goal: '从会调 API，到能设计 prompt、懂成本、懂失败模式。',
     skills: [
-      { name: 'OpenAI / Anthropic API 调用', free: true },
-      { name: 'Prompt 模板与版本化', free: true },
-      { name: 'Token 成本估算', free: false },
-      { name: 'Evals 设计与回归测试', free: false },
+      'OpenAI / Anthropic API 调用',
+      'Prompt 模板与版本化',
+      'Token 成本估算',
+      'Evals 设计与回归测试',
     ],
     deliverable: '一个带 evals 的 Prompt 管理工程',
   },
@@ -47,10 +47,10 @@ const stages: Stage[] = [
     weeks: '4-6 周',
     goal: '掌握 Tool Use、ReAct、Reflection 等关键 Agent 模式。',
     skills: [
-      { name: 'Tool / Function Calling 实战', free: true },
-      { name: 'ReAct / Plan-Execute', free: false },
-      { name: 'Multi-Agent 编排', free: false },
-      { name: 'MCP 协议与生态', free: false },
+      'Tool / Function Calling 实战',
+      'ReAct / Plan-Execute',
+      'Multi-Agent 编排',
+      'MCP 协议与生态',
     ],
     deliverable: '一个可跑通的任务型 Agent',
   },
@@ -60,10 +60,10 @@ const stages: Stage[] = [
     weeks: '6-8 周',
     goal: '把 demo 变产品：可观测、可灰度、可回滚。',
     skills: [
-      { name: 'LangSmith / Langfuse 观测', free: false },
-      { name: 'Agent 的流式 UI 模式', free: false },
-      { name: '失败处理与兜底策略', free: false },
-      { name: '成本监控与限流', free: false },
+      'LangSmith / Langfuse 观测',
+      'Agent 的流式 UI 模式',
+      '失败处理与兜底策略',
+      '成本监控与限流',
     ],
     deliverable: '一个上线到内部业务的 Agent 项目',
   },
@@ -73,10 +73,10 @@ const stages: Stage[] = [
     weeks: '2-4 周',
     goal: '把前面的积累，翻译成面试官听得懂的语言。',
     skills: [
-      { name: '高频面试题库', free: false },
-      { name: '简历改造模板', free: false },
-      { name: '项目故事化叙述', free: false },
-      { name: '模拟面试与复盘', free: false },
+      '高频面试题库',
+      '简历改造模板',
+      '项目故事化叙述',
+      '模拟面试与复盘',
     ],
     deliverable: '拿到 2+ offer，对比后择优',
   },
@@ -94,16 +94,6 @@ export default function RoadmapPage() {
           <p className="mx-auto mt-5 max-w-3xl text-base leading-7 text-gray-600 dark:text-gray-300 md:text-lg">
             给 3-5 年经验前端的一张能力地图。把从&ldquo;写组件&rdquo;到&ldquo;构建 Agent&rdquo;拆成 5 个可执行的阶段，每个阶段都有明确的目标、技能清单和交付物。
           </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <Link
-              href="/pro"
-              className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:from-blue-500 hover:to-indigo-500"
-            >
-              <Sparkles className="h-4 w-4" />
-              解锁完整路线图
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          </div>
         </div>
 
         <div className="space-y-6">
@@ -125,22 +115,9 @@ export default function RoadmapPage() {
                   <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">核心能力</p>
                   <ul className="space-y-2">
                     {stage.skills.map((s) => (
-                      <li key={s.name} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-                        {s.free ? (
-                          <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
-                        ) : (
-                          <Lock className="h-4 w-4 shrink-0 text-amber-500" />
-                        )}
-                        <span>{s.name}</span>
-                        {s.free ? (
-                          <span className="ml-auto rounded-full bg-emerald-50 px-2 py-0.5 text-xs text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300">
-                            免费
-                          </span>
-                        ) : (
-                          <span className="ml-auto rounded-full bg-amber-50 px-2 py-0.5 text-xs text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">
-                            Pro
-                          </span>
-                        )}
+                      <li key={s} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                        <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
+                        <span>{s}</span>
                       </li>
                     ))}
                   </ul>
@@ -162,13 +139,13 @@ export default function RoadmapPage() {
         <div className="mt-16 rounded-3xl border border-gray-200 bg-gradient-to-br from-blue-50 via-white to-indigo-50 p-8 dark:border-gray-800 dark:from-blue-950/40 dark:via-gray-950 dark:to-indigo-950/40 md:p-12">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">路线只是地图，动手才是路</h2>
           <p className="mt-3 max-w-3xl text-base leading-7 text-gray-600 dark:text-gray-300">
-            Pro 会员可获得每个阶段的：详细任务清单、推荐学习资料、可跑通的实战项目、面试题库、以及作者的 1v1 群内答疑。
+            这张路线图会继续随着前端、AI Coding 和 Agent 工程实践更新。公开内容优先沉淀成可复用的清单、文章和项目记录。
           </p>
           <Link
-            href="/pro"
+            href="/subscribe"
             className="mt-6 inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
           >
-            查看 Pro 权益与定价
+            订阅后续更新
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>

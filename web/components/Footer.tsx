@@ -8,10 +8,10 @@ const productLinks = [
   { label: '创作日历', href: buildWeeklyUrl('/weekly/calendar'), external: true },
 ];
 
-const membershipLinks = [
-  { label: '加入过滤器', href: '/order?plan=yearly' },
-  { label: '1v1 定制化交流', href: '/order?plan=1v1' },
+const subscriptionLinks = [
   { label: '邮件订阅（免费）', href: '/subscribe' },
+  { label: '每日精选', href: '/daily' },
+  { label: '实时资讯', href: '/live' },
 ];
 
 const communityLinks = [
@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <p className="text-lg font-semibold text-gray-900 dark:text-white">前端周看</p>
             <p className="mt-3 max-w-sm text-sm leading-6 text-gray-500 dark:text-gray-400">
-              站在前沿端点，每周“胡乱”看看。不制造焦虑，不传播焦虑，但不拒绝新潮观点。
+              站在前沿端点，每周“随便”看看。不制造焦虑，不传播焦虑，但不拒绝新潮观点。
             </p>
             <p className="mt-4 text-xs text-gray-500 dark:text-gray-500">
               &copy; {new Date().getFullYear()} Frontend Weekly Digest CN
@@ -64,9 +64,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">会员</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">订阅</p>
             <ul className="mt-4 space-y-2">
-              {membershipLinks.map((l) => (
+              {subscriptionLinks.map((l) => (
                 <li key={l.label}>
                   <Link
                     href={l.href}
