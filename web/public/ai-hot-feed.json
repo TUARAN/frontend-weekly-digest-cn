@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-12T22:34:37.643Z",
-  "count": 13,
+  "updatedAt": "2026-06-12T23:33:58.514Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
+      "summary": "Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺\"人味儿\"。他与 AI 讨论后得出结论：人写的文字背后有\"存在感\"--作者在具体位置付出过具体代价，而 AI 无法复现。为此他制作了《人味儿写作心法.skill》，专用于自写文章或口述后让 AI 改稿的场景，旨在保留文字的人味。该技能已开源免费发布在 GitHub。",
+      "source": "X：Oran Ge (@oran_ge)",
+      "href": "https://x.com/oran_ge/status/2065566882774868125",
+      "publishedAt": "2026-06-12T22:48:15.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
