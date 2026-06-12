@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-12T21:36:35.747Z",
-  "count": 15,
+  "updatedAt": "2026-06-12T22:34:37.643Z",
+  "count": 13,
   "items": [
     {
       "topic": "技巧",
@@ -9,6 +9,14 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/anthropic-public-record",
       "publishedAt": "2026-06-12T16:14:59.887Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "如何在OpenRouter上获得最低成本的LLM推理",
+      "summary": "在OpenRouter上追加`：floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
+      "publishedAt": "2026-06-12T16:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -97,30 +105,6 @@
       "source": "X：OpenAI (@OpenAI)",
       "href": "https://x.com/OpenAI/status/2065225362544726371",
       "publishedAt": "2026-06-12T00:11:11.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
-      "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-      "publishedAt": "2026-06-11T22:23:17.154Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Replit 专家级提示词技巧",
-      "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2065192392718733327",
-      "publishedAt": "2026-06-11T22:00:10.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit 与 Databricks 集成升级，公开预览开放",
-      "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2065189762365813089",
-      "publishedAt": "2026-06-11T21:49:43.000Z"
     }
   ]
 }
