@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-12T01:55:19.432Z",
+  "updatedAt": "2026-06-12T03:14:03.194Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
+      "summary": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2065264509170876417",
+      "publishedAt": "2026-06-12T02:46:44.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
+      "summary": "苹果在 iOS 27 中优化健康 App，将列表改为卡片布局并增加导航栏。新增视觉智能营养识别，用户通过相机 Siri 模式拍摄食物可获取加工程度、蛋白质、含糖量等信息及营养价值评级，不提供精确卡路里，需 iPhone 15 Pro 及以上。经期追踪扩展支持围绝经期，可分析长期周期异常模式并推送提醒与指导。Fitness+ 新增围绝经期和绝经期课程。数据同步速度提升，GymKit 扩展至 iPhone，无需 Apple Watch 即可与健身设备配对同步数据。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/963/302.htm",
+      "publishedAt": "2026-06-12T02:06:41.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
@@ -225,22 +241,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
       "publishedAt": "2026-06-11T08:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
-      "summary": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2064959133535658144",
-      "publishedAt": "2026-06-11T06:33:17.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AI浪潮引发中国担忧：官媒呼吁保护劳动者权益",
-      "summary": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
-      "publishedAt": "2026-06-11T06:19:13.000Z"
     }
   ]
 }
