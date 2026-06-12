@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-12T09:29:10.300Z",
-  "count": 26,
+  "updatedAt": "2026-06-12T11:19:44.742Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "行业",
+      "title": "DeepMind机器人加速器启动15家初创公司",
+      "summary": "我们的机器人加速器已启动，15家初创公司助力塑造欧洲的物理AI未来。🤖\n\n这个为期三个月的项目将为他们提供我们的AI堆栈、Gemini Robotics模型以及我们团队的实际支持。\n\n了解这些公司 → https：//goo.gle/4oeEk2K",
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "href": "https://x.com/GoogleDeepMind/status/2065388989146628563",
+      "publishedAt": "2026-06-12T11:01:22.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+      "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "href": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
+      "publishedAt": "2026-06-12T10:16:02.000Z"
+    },
     {
       "topic": "技巧",
       "title": "小互开源公众号自动排版技能组合",
@@ -201,14 +217,6 @@
       "source": "Cursor Blog",
       "href": "https://cursor.com/blog/auto-review",
       "publishedAt": "2026-06-11T12:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
-      "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "href": "https://x.com/SiliconFlowAI/status/2065015632215912879",
-      "publishedAt": "2026-06-11T10:17:47.000Z"
     }
   ]
 }
