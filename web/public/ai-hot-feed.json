@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-12T15:06:42.334Z",
-  "count": 21,
+  "updatedAt": "2026-06-12T17:03:12.134Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
+      "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/anthropic-public-record",
+      "publishedAt": "2026-06-12T16:14:59.887Z"
+    },
+    {
+      "topic": "产品",
+      "title": "olmo-eval：面向模型开发循环的评估工作台",
+      "summary": "olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/allenai/olmo-eval",
+      "publishedAt": "2026-06-12T15:56:10.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
+      "summary": "6月12日，字节跳动旗下AI应用豆包大范围上线\"任务模式\"，支持定时执行、零代码网页生成、一键PPT生成、数据可视化分析等全链路Agent执行。原\"思考模式\"升级为\"专家模式\"，调用豆包大模型2.0 Pro版本，强化深度推理能力。App顶部模式切换改为\"快速、专家、任务\"。基础功能免费，高阶服务付费，专业版三档：标准版68元/月或688元/年，加强版200元/月或2048元/年，专业版500元/月或5088元/年。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/963/725.htm",
+      "publishedAt": "2026-06-12T15:33:19.000Z"
+    },
     {
       "topic": "模型",
       "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
@@ -17,6 +41,14 @@
       "source": "X：Kimi.ai (@Kimi_Moonshot)",
       "href": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
       "publishedAt": "2026-06-12T10:16:02.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 推出面向新时代工作的新 Academy 课程",
+      "summary": "OpenAI 发布三门 Academy 课程，帮助用户掌握实用 AI 技能、创建可重复工作流，并在日常工作中应用 AI 智能体。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "publishedAt": "2026-06-12T10:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -107,14 +139,6 @@
       "publishedAt": "2026-06-11T18:58:07.000Z"
     },
     {
-      "topic": "行业",
-      "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
-      "summary": "Anthropic与IT服务公司DXC Technology达成多年全球联盟。DXC将培训数万名获得Claude认证的前沿部署工程师（FDE），将Claude引入其为全球大型银行、航空公司、保险公司及政府机构运营的关键系统。内部部署中，Claude已成为DXC OASIS平台的默认基础模型，该平台超95%代码由Claude编写，开发速度提升10倍，已服务50多家客户。DXC加入Claude Partner Network，将在保险、现代化服务、网络安全及应用服务四个领域率先推出基于Claude的解决方案。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "publishedAt": "2026-06-11T18:13:16.585Z"
-    },
-    {
       "topic": "产品",
       "title": "Perplexity Computer 集成 Deep Research",
       "summary": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。",
@@ -137,38 +161,6 @@
       "source": "X：Logan Kilpatrick (@OfficialLoganK)",
       "href": "https://x.com/OfficialLoganK/status/2065118111360303414",
       "publishedAt": "2026-06-11T17:05:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
-      "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/llm-gateway",
-      "publishedAt": "2026-06-11T16:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
-      "summary": "杰夫·贝佐斯旗下AI公司Prometheus在成立仅7个月、尚无任何产品交付的情况下，以410亿美元估值完成120亿美元融资（最初估值62亿美元）。该公司定位为\"人工通用工程师\"，目标是将设计到制造的循环压缩10倍以上。但物理经济无法像互联网数据那样抓取，缺乏制造业训练数据。为此，Prometheus计划斥资1000亿美元收购传统工业企业，通过获取工厂生成的数据构建护城河。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2065097988859744503",
-      "publishedAt": "2026-06-11T15:45:02.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter 基准探索器：10项帕累托曲线",
-      "summary": "使用我们的基准探索器，为10个不同基准绘制帕累托曲线。\n\n更多功能即将推出！https：//openrouter.ai/rankings#benchmarks",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2065094780271329729",
-      "publishedAt": "2026-06-11T15:32:17.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
-      "summary": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2065090494972174821",
-      "publishedAt": "2026-06-11T15:15:16.000Z"
     }
   ]
 }
