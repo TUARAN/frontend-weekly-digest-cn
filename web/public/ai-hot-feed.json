@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-12T07:42:48.481Z",
-  "count": 30,
+  "updatedAt": "2026-06-12T09:29:10.300Z",
+  "count": 26,
   "items": [
     {
       "topic": "技巧",
@@ -209,38 +209,6 @@
       "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
       "href": "https://x.com/SiliconFlowAI/status/2065015632215912879",
       "publishedAt": "2026-06-11T10:17:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Codex 维护仓库：5分钟循环并行自治",
-      "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。",
-      "source": "X：Peter Steinberger (@steipete)",
-      "href": "https://x.com/steipete/status/2064998499780084154",
-      "publishedAt": "2026-06-11T09:09:42.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线",
-      "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/963/009.htm",
-      "publishedAt": "2026-06-11T08:50:49.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
-      "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。",
-      "source": "公众号：千问APP（阿里）",
-      "href": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
-      "publishedAt": "2026-06-11T08:40:14.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
-      "summary": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。",
-      "source": "公众号：腾讯混元",
-      "href": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
-      "publishedAt": "2026-06-11T08:34:59.000Z"
     }
   ]
 }
