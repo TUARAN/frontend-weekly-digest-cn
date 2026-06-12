@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-11T23:34:12.702Z",
+  "updatedAt": "2026-06-12T00:57:58.887Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Codex 推出浏览器开发者模式",
+      "summary": "为 Chrome 和 Codex 内置浏览器引入开发者模式。\n\nCodex 可以使用 Chrome DevTools 协议（CDP）来调试浏览器问题，通过分析 JavaScript 性能、检查控制台输出、网络流量和页面状态。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "href": "https://x.com/OpenAIDevs/status/2065226355495895521",
+      "publishedAt": "2026-06-12T00:15:07.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI Codex 推出速率重置攒存功能",
+      "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2065225362544726371",
+      "publishedAt": "2026-06-12T00:11:11.000Z"
+    },
     {
       "topic": "论文",
       "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
@@ -225,22 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/962/854.htm",
       "publishedAt": "2026-06-11T05:53:41.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Midjourney V8.1 已成为默认模型",
-      "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
-      "source": "Midjourney：Updates（RSS）",
-      "href": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
-      "publishedAt": "2026-06-11T04:08:51.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
-      "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/nFSSzluc57xPv50Zbh4owg",
-      "publishedAt": "2026-06-11T01:58:00.000Z"
     }
   ]
 }
