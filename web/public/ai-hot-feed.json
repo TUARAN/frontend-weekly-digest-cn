@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-12T18:44:11.414Z",
-  "count": 17,
+  "updatedAt": "2026-06-12T19:41:35.989Z",
+  "count": 15,
   "items": [
     {
       "topic": "技巧",
@@ -121,22 +121,6 @@
       "source": "X：Replit (@Replit)",
       "href": "https://x.com/Replit/status/2065189762365813089",
       "publishedAt": "2026-06-11T21:49:43.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "全自主无人机首次击毙了人类士兵",
-      "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
-      "publishedAt": "2026-06-11T19:29:06.279Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit Agent 新增自定义指令与技能功能",
-      "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2065146579326271883",
-      "publishedAt": "2026-06-11T18:58:07.000Z"
     }
   ]
 }
