@@ -44,7 +44,7 @@ export async function createXunhuPayment(order: StoredOrder) {
     appid,
     trade_order_id: order.orderNo,
     total_fee: order.amount.toFixed(2),
-    title: order.plan === '1v1' ? '前端周看 1v1 定制化交流' : '前端周看 Pro 年度会员',
+    title: order.plan === '1v1' ? '前端周看 1v1 三次陪跑' : order.plan === 'trial' ? '前端周看 1v1 试聊' : '前端周看年度支持者',
     time: String(Math.floor(Date.now() / 1000)),
     notify_url: `${siteUrl}/api/payments/xunhu/notify?payMethod=${encodeURIComponent(payMethod)}`,
     return_url: `${siteUrl}/order?plan=${encodeURIComponent(order.plan)}&orderNo=${encodeURIComponent(order.orderNo)}&provider=xunhu`,

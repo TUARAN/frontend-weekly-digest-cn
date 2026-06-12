@@ -9,8 +9,8 @@ const productLinks = [
 ];
 
 const membershipLinks = [
-  { label: '加入过滤器', href: '/order?plan=yearly' },
-  { label: '1v1 定制化交流', href: '/order?plan=1v1' },
+  { label: '年度支持者', href: '/order?plan=yearly' },
+  { label: '1v1 试聊', href: '/order?plan=trial' },
   { label: '邮件订阅（免费）', href: '/subscribe' },
 ];
 
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">会员</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">支持</p>
             <ul className="mt-4 space-y-2">
               {membershipLinks.map((l) => (
                 <li key={l.label}>

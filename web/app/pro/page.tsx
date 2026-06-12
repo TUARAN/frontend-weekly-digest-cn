@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { Check, Filter, MessageCircle, Target } from 'lucide-react';
 
 export const metadata = {
-  title: '1v1 定制化交流 · 前端周看',
-  description: '不是又一个付费订阅。是一个人帮你把判断真正融进你自己的阶段和项目里。',
+  title: '支持与交流 · 前端周看',
+  description: '轻量支持前端周看继续更新，也可以预约一次低压力的 1v1 交流。',
 };
 
 const noise = [
@@ -19,8 +19,8 @@ const noise = [
   },
   {
     icon: MessageCircle,
-    title: '不是群聊答疑',
-    body: '不是在公共群里随手回两句。1v1 的价值在于上下文完整、建议可执行。',
+    title: '不是高价咨询',
+    body: '不做高客单价包装。先用低压力、短周期的方式确认是否真的能帮到你。',
   },
 ];
 
@@ -41,56 +41,56 @@ const tiers = [
     highlight: false,
   },
   {
-    name: '入会 · 过滤器',
-    subtitle: '帮你屏蔽 99% 的噪音',
-    price: '¥299',
+    name: '支持者 · 年度',
+    subtitle: '轻量支持，不自动续费',
+    price: '¥99',
     period: '一年',
-    description: '适合想少刷资讯、只看筛选结果的在职前端',
+    description: '适合认可内容、愿意小额支持继续更新的读者',
     features: [
-      '每日精选完整历史 + 深度内容',
-      '转型路线图完整版（5 阶段）',
-      '每月一次"本月只有这 3 件事值得注意"会员信',
-      '不再在公开页出现的深度拆解（避免喂算法）',
-      '专属读者微信群',
+      '每日精选历史归档',
+      '路线图持续更新',
+      '每月一次重点回顾',
+      '读者交流入口',
+      '公开内容仍继续免费更新',
     ],
-    cta: '加入过滤器',
+    cta: '成为支持者',
     ctaHref: '/order?plan=yearly',
     highlight: false,
   },
   {
-    name: '1v1 · 单次试水',
-    subtitle: '先聊一次，再决定要不要继续',
-    price: '¥499',
-    period: '单次 · 1 小时',
-    description: '适合还在犹豫"1v1 是不是适合我"的前端',
+    name: '1v1 · 试聊',
+    subtitle: '先聊一次，不合适就停',
+    price: '¥199',
+    period: '单次 · 45 分钟',
+    description: '适合有一个具体问题，想先确认交流质量的前端',
     features: [
-      '1 次 1 小时 1v1 连麦',
-      '会前问卷 + 我读完再见你',
-      '会后一页"你的下一步"纪要',
-      '如果选择继续升级到 1v1 包年，这次费用可抵扣',
-      '不满意全额退款',
+      '1 次 45 分钟 1v1 连麦',
+      '会前简短问卷',
+      '围绕一个具体问题展开',
+      '会后三条下一步建议',
+      '不合适可不继续购买',
     ],
-    cta: '预约单次',
+    cta: '预约试聊',
     ctaHref: '/order?plan=trial',
-    highlight: false,
+    highlight: true,
   },
   {
-    name: '1v1 定制化',
-    subtitle: '把想法融进你的成长体系',
-    price: '¥1,499',
-    period: '起 · 含 3 次 1 小时连麦',
-    description: '适合在具体阶段卡住、想要"有一个人帮你想"的前端',
+    name: '1v1 · 三次陪跑',
+    subtitle: '只适合已经有明确问题的人',
+    price: '¥599',
+    period: '3 次 · 每次 45 分钟',
+    description: '适合已经试聊过，或有明确项目/转型问题想连续推进的人',
     features: [
-      '入会一年全部权益',
-      '3 次 1 小时 1v1 连麦（半年内用完）',
+      '含一年支持者权益',
+      '3 次 45 分钟 1v1 连麦（3 个月内用完）',
       '会前：你的阶段 / 项目 / 困惑问卷',
-      '会中：针对你的情况给判断，不给清单',
-      '会后：一页"你的下一步"纪要，可执行',
-      '群内优先答疑',
+      '会中：围绕具体决策拆解',
+      '会后：下一步建议清单',
+      '不承诺结果，不制造焦虑',
     ],
-    cta: '预约 1v1',
+    cta: '预约三次陪跑',
     ctaHref: '/order?plan=1v1',
-    highlight: true,
+    highlight: false,
   },
 ];
 
@@ -103,11 +103,11 @@ const howItWorks = [
   {
     step: '02',
     title: '我先读完再见你',
-    body: '连麦前我会把你的背景、当前在看的技术栈、你在纠结的决策都过一遍，不浪费你的 1 小时。',
+    body: '连麦前我会把你的背景、当前在看的技术栈、你在纠结的决策都过一遍，尽量把 45 分钟用在具体问题上。',
   },
   {
     step: '03',
-    title: '连麦 1 小时',
+    title: '连麦 45 分钟',
     body: '不讲通用道理。只聊"以你现在的情况，这件事该不该做、怎么做、可能踩的坑"。',
   },
   {
@@ -124,14 +124,14 @@ export default function ProPage() {
         <div className="mb-14 text-center">
           <div className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-semibold text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300">
             <MessageCircle className="h-3 w-3" />
-            1v1 定制化交流
+            支持与交流
           </div>
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-6xl">
-            不是付费订阅，<br className="hidden md:block" />
-            是&ldquo;有一个人帮你想&rdquo;
+            先轻量支持，<br className="hidden md:block" />
+            再决定要不要深聊
           </h1>
           <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300 md:text-xl">
-            两种方式：入会拿到筛掉噪音后的判断；1v1 聊你的阶段、项目、正在纠结的那一件事。
+            公开内容继续免费。付费入口只做两件事：小额支持持续更新，或围绕一个具体问题做低压力 1v1 交流。
           </p>
         </div>
 
@@ -161,7 +161,7 @@ export default function ProPage() {
             >
               {tier.highlight ? (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-3 py-1 text-xs font-semibold text-white shadow">
-                  作者推荐
+                  建议先试这个
                 </div>
               ) : null}
               <h3 className="text-lg font-bold text-gray-900 dark:text-white">{tier.name}</h3>
@@ -203,7 +203,7 @@ export default function ProPage() {
         <div className="mt-20">
           <div className="mb-10 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">How 1v1 Works</p>
-            <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">1v1 不是直播答疑，是认真准备的一对一</h2>
+            <h2 className="mt-3 text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">1v1 先从一个具体问题开始</h2>
           </div>
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {howItWorks.map((s) => (
@@ -224,7 +224,7 @@ export default function ProPage() {
               <li>· 3-5 年前端，想判断自己要不要转 AI Agent</li>
               <li>· 想在当前业务里落地一个 Agent，但不知道从哪切</li>
               <li>· 新框架新范式太多，已经刷累了</li>
-              <li>· 想要一个&ldquo;见过你情况&rdquo;的人给具体建议</li>
+              <li>· 有一个具体问题，愿意先试聊一次</li>
             </ul>
           </div>
           <div className="rounded-3xl border border-red-200 bg-red-50/50 p-8 dark:border-red-900/50 dark:bg-red-950/20">
@@ -233,7 +233,7 @@ export default function ProPage() {
               <li>· 想要&ldquo;一份应该学的清单&rdquo;的人</li>
               <li>· 希望被告知&ldquo;全部答案&rdquo;而不是被帮助思考</li>
               <li>· 刚入行、基础还没打牢的同学</li>
-              <li>· 想通过购买缓解焦虑而不想改变行为</li>
+              <li>· 想通过高价购买缓解焦虑的人</li>
             </ul>
           </div>
         </div>
@@ -244,20 +244,20 @@ export default function ProPage() {
           <div className="mx-auto mt-8 max-w-3xl space-y-4">
             {[
               {
-                q: '为什么不做低价订阅，比如 ¥39/月？',
-                a: '因为我不想做那种"每月扣钱但你不真的用"的订阅。入会是一年一付，目的是让你只在真正需要时来；1v1 更贵，因为它占用我的时间而不是内容。',
+                q: '为什么先做小额支持，而不是高价会员？',
+                a: '因为这个站点的核心仍然是公开内容。付费应该先验证是否真的有帮助，而不是用高客单价制造承诺感。',
               },
               {
                 q: '1v1 到底能帮我什么？',
-                a: '我不会给你"该学什么"的清单。我会听你现在的阶段，帮你判断：哪些技术变化和你有关、哪些只是噪音、你下一步具体该做什么（3-5 个可执行动作）。',
+                a: '我不会给你"该学什么"的通用清单。更适合聊一个具体问题：某个技术决策、项目方向、转型路径或简历表达。',
               },
               {
                 q: '和看公众号、买课有什么区别？',
-                a: '公众号是一对多广播，买课是系统知识。1v1 解决的是"把这些信息用在我身上"这最后一公里——没有这一步，前面看再多都只是缓解焦虑。',
+                a: '公众号是一对多广播，买课是系统知识。1v1 只解决"这个问题放到我现在的情况里该怎么判断"，范围更小，也更克制。',
               },
               {
-                q: '不满意可以退吗？',
-                a: '入会 30 天无理由全额退。1v1 如果连麦后觉得没有帮助，剩余次数可退款。我宁可退钱，也不想你抱着"被骗"的感觉离开。',
+                q: '试聊之后一定要继续买吗？',
+                a: '不用。试聊的目的就是判断是否适合继续。如果问题已经解决，或者你觉得这种方式不适合，就停在一次即可。',
               },
             ].map((item) => (
               <details

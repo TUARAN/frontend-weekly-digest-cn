@@ -100,7 +100,7 @@ export default function RoadmapPage() {
               className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:from-blue-500 hover:to-indigo-500"
             >
               <Sparkles className="h-4 w-4" />
-              解锁完整路线图
+              支持后续整理
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
@@ -162,13 +162,13 @@ export default function RoadmapPage() {
         <div className="mt-16 rounded-3xl border border-gray-200 bg-gradient-to-br from-blue-50 via-white to-indigo-50 p-8 dark:border-gray-800 dark:from-blue-950/40 dark:via-gray-950 dark:to-indigo-950/40 md:p-12">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white md:text-3xl">路线只是地图，动手才是路</h2>
           <p className="mt-3 max-w-3xl text-base leading-7 text-gray-600 dark:text-gray-300">
-            Pro 会员可获得每个阶段的：详细任务清单、推荐学习资料、可跑通的实战项目、面试题库、以及作者的 1v1 群内答疑。
+            支持者分支会优先整理每个阶段的任务清单、推荐资料、实战项目和面试准备材料；公开版仍会持续更新。
           </p>
           <Link
             href="/pro"
             className="mt-6 inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200"
           >
-            查看 Pro 权益与定价
+            查看支持方式
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>

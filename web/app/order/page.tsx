@@ -401,7 +401,7 @@ function OrderContent() {
                   type="email"
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  placeholder="可选，用于发送会员信"
+                  placeholder="可选，用于发送后续更新"
                   className="mt-2 w-full rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
                 />
               </div>
@@ -418,7 +418,7 @@ function OrderContent() {
                     placeholder="你的岗位、团队规模、当前技术栈，以及你现在最纠结的决策。越具体越值钱。"
                     className="mt-2 w-full rounded-xl border border-gray-300 bg-white px-4 py-2.5 text-sm text-gray-900 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
                   />
-                  <p className="mt-1 text-xs text-gray-500">我会在连麦前读完，不浪费你的 1 小时。</p>
+                  <p className="mt-1 text-xs text-gray-500">我会在连麦前读完，尽量把 45 分钟用在具体问题上。</p>
                 </div>
               ) : null}
 
@@ -605,7 +605,7 @@ function OrderContent() {
           <div className="mt-6 space-y-3 border-t border-gray-200 pt-5 text-xs text-gray-500 dark:border-gray-800 dark:text-gray-400">
             <div className="flex items-start gap-2">
               <ShieldCheck className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-500" />
-              <span>30 天无理由退款</span>
+              <span>不自动续费，先低压力试用</span>
             </div>
             <div className="flex items-start gap-2">
               <MessageCircle className="mt-0.5 h-3.5 w-3.5 shrink-0 text-blue-500" />

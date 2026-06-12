@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export type OrderPlan = 'yearly' | '1v1';
+export type OrderPlan = 'yearly' | 'trial' | '1v1';
 export type OrderStatus = 'created' | 'payment_submitted' | 'confirmed' | 'closed';
 export type OrderPayMethod = 'wechat' | 'alipay';
 export type PaymentProvider = 'xunhu' | 'official';
@@ -48,7 +48,7 @@ function getOrderPath(orderNo: string) {
 }
 
 export function isValidOrderPlan(value: unknown): value is OrderPlan {
-  return value === 'yearly' || value === '1v1';
+  return value === 'yearly' || value === 'trial' || value === '1v1';
 }
 
 export function isValidPayMethod(value: unknown): value is OrderPayMethod {

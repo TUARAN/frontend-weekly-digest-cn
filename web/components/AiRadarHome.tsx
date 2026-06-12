@@ -76,7 +76,7 @@ export default function AiRadarHome() {
               className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition hover:border-gray-400 hover:gap-2 dark:border-gray-700 dark:text-gray-200 dark:hover:border-gray-500"
             >
               <Sparkles className="h-3.5 w-3.5" />
-              加入会员 / 1v1
+              支持 / 试聊
             </Link>
           </div>
         </header>
@@ -220,17 +220,17 @@ export default function AiRadarHome() {
             </span>
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400">
-                Membership
+                Support
               </p>
               <h3 className="mt-1 text-xl font-bold text-gray-900 dark:text-white">
-                不是又一个付费订阅
+                小额支持，或先试聊一次
               </h3>
               <p className="mt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
-                入会拿到筛掉噪音后的判断；1v1 聊你的阶段、项目、正在纠结的那一件事。
+                公开内容继续免费。付费入口只用于支持持续更新，或围绕一个具体问题做 45 分钟交流。
               </p>
             </div>
             <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400">
-              查看会员方案
+              查看支持方式
               <ArrowRight className="h-4 w-4" />
             </span>
           </Link>

@@ -50,7 +50,7 @@ export async function createWechatPayment(order: StoredOrder, input: { device: '
   const commonPayload = {
     appid: appId,
     mchid: mchId,
-    description: order.plan === '1v1' ? '前端周看 1v1 定制化交流' : '前端周看 Pro 年度会员',
+    description: order.plan === '1v1' ? '前端周看 1v1 三次陪跑' : order.plan === 'trial' ? '前端周看 1v1 试聊' : '前端周看年度支持者',
     out_trade_no: order.orderNo,
     notify_url: `${siteUrl}/api/payments/wechat/notify`,
     amount: {
