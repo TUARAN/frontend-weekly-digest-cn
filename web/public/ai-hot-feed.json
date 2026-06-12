@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-12T00:57:58.887Z",
+  "updatedAt": "2026-06-12T01:55:19.432Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
+      "summary": "邵猛分享 Spec 驱动开发（SDD）方法，用三个 Skills（/write-product-spec、/write-tech-spec、/validate-changes-match-specs）覆盖 Spec→Implement→Verify 闭环。规格分两层：PRODUCT.md（用户故事、不变量）和 TECH.md（架构、实现策略），均放在 specs/<issue>/ 目录，随 PR 提交。五步流程：写产品规格、写技术规格、Agent 按规格实现、一致性校验、计算机操作端到端验证。Skills 可移植，不绑定 Warp。开源仓库 warpdotdev/common-skills，安装：npx skills add warpdotdev/common-skills。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2065234132431675439",
+      "publishedAt": "2026-06-12T00:46:02.000Z"
+    },
     {
       "topic": "产品",
       "title": "Codex 推出浏览器开发者模式",
@@ -233,14 +241,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
       "publishedAt": "2026-06-11T06:19:13.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic CEO 阿莫迪：AI 可能会造成大规模、长期性的岗位流失",
-      "summary": "Anthropic CEO 达里奥・阿莫迪警告，AI造成的大规模岗位流失是技术固有属性--AI系统旨在复刻人类认知，失业将成为结构性必然结果。他提出应对思路：完善劳动力市场监测、推行薪资保障与留岗税收优惠、发放培训补贴；若人力需求永久下降，则需通过征税推行全民基本收入等长期收入保障。Anthropic目标非削减人力成本，而是帮企业开拓新营收、盘活现有员工产能。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/962/854.htm",
-      "publishedAt": "2026-06-11T05:53:41.000Z"
     }
   ]
 }
