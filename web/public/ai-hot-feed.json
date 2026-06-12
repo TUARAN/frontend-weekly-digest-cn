@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-12T17:03:12.134Z",
-  "count": 20,
+  "updatedAt": "2026-06-12T18:44:11.414Z",
+  "count": 17,
   "items": [
     {
       "topic": "技巧",
@@ -137,30 +137,6 @@
       "source": "X：Replit (@Replit)",
       "href": "https://x.com/Replit/status/2065146579326271883",
       "publishedAt": "2026-06-11T18:58:07.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Perplexity Computer 集成 Deep Research",
-      "summary": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2065124930463916317",
-      "publishedAt": "2026-06-11T17:32:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "DeepSeek-R1 的开源实现",
-      "summary": "DeepSeek-R1 的开源复现项目已在 GitHub 发布，在 Hacker News 上获得 101 个积分。该项目旨在以开源方式复现 DeepSeek-R1 模型。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/huggingface/open-r1",
-      "publishedAt": "2026-06-11T17:07:18.181Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Gemini Omni Flash 视频任务达 SOTA",
-      "summary": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！",
-      "source": "X：Logan Kilpatrick (@OfficialLoganK)",
-      "href": "https://x.com/OfficialLoganK/status/2065118111360303414",
-      "publishedAt": "2026-06-11T17:05:00.000Z"
     }
   ]
 }
