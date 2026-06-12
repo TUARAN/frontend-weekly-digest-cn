@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-12T13:13:56.649Z",
-  "count": 24,
+  "updatedAt": "2026-06-12T15:06:42.334Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "模型",
+      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+      "summary": "MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "href": "https://x.com/MiniMax_AI/status/2065436935188058208",
+      "publishedAt": "2026-06-12T14:11:53.000Z"
+    },
     {
       "topic": "模型",
       "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
@@ -161,38 +169,6 @@
       "source": "X：Vista (@vista8)",
       "href": "https://x.com/vista8/status/2065090494972174821",
       "publishedAt": "2026-06-11T15:15:16.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Krea 2 推出生成式滑块控制图像属性",
-      "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇",
-      "source": "X：Krea AI (@krea_ai)",
-      "href": "https://x.com/krea_ai/status/2065086662166901114",
-      "publishedAt": "2026-06-11T15:00:02.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Fable 5 一句话生成桌面台球游戏",
-      "summary": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2065079656324407345",
-      "publishedAt": "2026-06-11T14:32:12.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Runway与Lionsgate扩大战略合作",
-      "summary": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。",
-      "source": "Runway：News（网页）",
-      "href": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
-      "publishedAt": "2026-06-11T14:31:51.811Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
-      "summary": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
-      "publishedAt": "2026-06-11T13:34:49.000Z"
     }
   ]
 }
