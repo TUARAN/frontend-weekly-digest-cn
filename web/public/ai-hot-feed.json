@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-12T03:14:03.194Z",
+  "updatedAt": "2026-06-12T05:38:13.684Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "小互开源公众号自动排版技能组合",
+      "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2065278092441268246",
+      "publishedAt": "2026-06-12T03:40:42.000Z"
+    },
     {
       "topic": "技巧",
       "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
@@ -233,14 +241,6 @@
       "source": "公众号：腾讯混元",
       "href": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
       "publishedAt": "2026-06-11T08:34:59.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Deezer 推出面向其他流媒体服务的 AI 音乐检测器",
-      "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
-      "publishedAt": "2026-06-11T08:00:00.000Z"
     }
   ]
 }
