@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-13T07:23:15.875Z",
+  "updatedAt": "2026-06-13T09:07:57.152Z",
   "count": 14,
   "items": [
+    {
+      "topic": "模型",
+      "title": "智谱 GLM-5.2 旗舰模型发布：1M 上下文、下周开源",
+      "summary": "智谱（Z.ai）发布新旗舰模型 GLM-5.2，现已对 GLM Coding Plan 用户（Lite/Pro/Max/Team 计划）开放。该模型具备强大编程能力、可用的 1M 上下文支持，并延续长程任务优势。API 和聊天机器人服务将于下周上线，模型也将于下周以 MIT 许可证正式开源。",
+      "source": "X：智谱 Z.ai (@Zai_org)",
+      "href": "https://x.com/Zai_org/status/2065704919299235870",
+      "publishedAt": "2026-06-13T07:56:46.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
+      "summary": "路透社披露的 Meta 内部备忘录显示，CEO 扎克伯格承认公司在 AI 转型中组织调整节奏过快，带来员工安置、管理跨度等问题，预计未来\"几乎肯定会犯更多错误\"。Meta 今年 5 月已裁减全球 10% 员工，并将 7000 人转入 AI 相关新项目。为缓解协作问题，公司将增加团队建设预算，7 月举办黑客松。新成立的应用 AI 工程部门个人贡献者与管理者比例最高达 50：1。扎克伯格重申今年不再全公司裁员。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/963/858.htm",
+      "publishedAt": "2026-06-13T06:49:25.000Z"
+    },
     {
       "topic": "技巧",
       "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
@@ -17,14 +33,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
       "publishedAt": "2026-06-13T02:26:30.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
-      "summary": "美国政府以国家安全为由，指令Anthropic暂停所有外国国民（含海外员工）对Fable 5和Mythos 5的访问。Anthropic当日5：21pm （ET）收到指令后立即向所有客户禁用这两个模型，其他模型不受影响。政府称发现一种越狱Fable 5的方法；Anthropic审核认为该技术仅能识别少量已知微小漏洞，且其他公开模型（如OpenAI的GPT-5.5）也能做到。Anthropic坚持深度防御策略，认为此次越狱不具普遍性，不同意以此标准召回已服务数亿人的商用模型，正与政府合作争取尽快恢复访问。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/fable-mythos-access",
-      "publishedAt": "2026-06-13T01:15:57.911Z"
     },
     {
       "topic": "行业",
@@ -105,14 +113,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "publishedAt": "2026-06-12T10:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
-      "summary": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 【x，y】 格式坐标。",
-      "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
-      "href": "https://huggingface.co/inclusionAI/VISTA-4B",
-      "publishedAt": "2026-06-12T08:59:41.000Z"
     }
   ]
 }
