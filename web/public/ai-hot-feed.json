@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-13T16:33:40.073Z",
-  "count": 8,
+  "updatedAt": "2026-06-13T17:32:37.691Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/DanMcInerney/architect-loop",
+      "publishedAt": "2026-06-13T16:46:05.572Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
