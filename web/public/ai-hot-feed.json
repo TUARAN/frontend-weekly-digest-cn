@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-13T05:34:40.983Z",
-  "count": 13,
+  "updatedAt": "2026-06-13T07:23:15.875Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+      "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/963/834.htm",
+      "publishedAt": "2026-06-13T06:09:26.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
