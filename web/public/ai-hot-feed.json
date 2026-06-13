@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-13T13:36:18.362Z",
-  "count": 14,
+  "updatedAt": "2026-06-13T14:46:36.474Z",
+  "count": 13,
   "items": [
     {
       "topic": "行业",
@@ -105,14 +105,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/963/725.htm",
       "publishedAt": "2026-06-12T15:33:19.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
-      "summary": "MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "href": "https://x.com/MiniMax_AI/status/2065436935188058208",
-      "publishedAt": "2026-06-12T14:11:53.000Z"
     }
   ]
 }
