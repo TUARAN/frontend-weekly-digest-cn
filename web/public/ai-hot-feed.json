@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-13T22:26:08.370Z",
-  "count": 12,
+  "updatedAt": "2026-06-13T23:27:40.323Z",
+  "count": 11,
   "items": [
     {
       "topic": "产品",
@@ -89,14 +89,6 @@
       "source": "Bloomberg：Technology（RSS）",
       "href": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
       "publishedAt": "2026-06-13T00:27:02.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
-      "summary": "Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺\"人味儿\"。他与 AI 讨论后得出结论：人写的文字背后有\"存在感\"--作者在具体位置付出过具体代价，而 AI 无法复现。为此他制作了《人味儿写作心法.skill》，专用于自写文章或口述后让 AI 改稿的场景，旨在保留文字的人味。该技能已开源免费发布在 GitHub。",
-      "source": "X：Oran Ge (@oran_ge)",
-      "href": "https://x.com/oran_ge/status/2065566882774868125",
-      "publishedAt": "2026-06-12T22:48:15.000Z"
     }
   ]
 }
