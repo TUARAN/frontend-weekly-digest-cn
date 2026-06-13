@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-13",
+      "displayDate": "Jun 13",
+      "json": "/ai-daily/2026-06-13.json",
+      "count": 5,
+      "highlights": [
+        "MiniMax M3 开源权重模型发布，",
+        "关于美国政府指令暂停访问Fable 5和",
+        "olmo-eval：面向模型开发循环的评",
+        "字节豆包上线\"任务模式\"：支持定时执行与",
+        "Kimi 发布并开源最新代码模型 Kim"
+      ]
+    },
+    {
       "date": "2026-06-12",
       "displayDate": "Jun 12",
       "json": "/ai-daily/2026-06-12.json",
@@ -208,5 +221,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-12"
+  "latest": "2026-06-13"
 }

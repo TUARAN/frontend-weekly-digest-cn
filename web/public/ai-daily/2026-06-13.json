@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-13",
+  "displayDate": "Jun 13",
+  "dateNum": "0613",
+  "year": 2026,
+  "dayOfWeek": "SAT",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "X：MiniMax (@MiniMax_AI) · Anthropic：Newsroom（网页） · Hugging Face：Blog（RSS） 等",
+  "count": 5,
+  "highlights": [
+    "MiniMax M3 开源权重模型发布，",
+    "关于美国政府指令暂停访问Fable 5和",
+    "olmo-eval：面向模型开发循环的评",
+    "字节豆包上线\"任务模式\"：支持定时执行与",
+    "Kimi 发布并开源最新代码模型 Kim"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+      "summary": "MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
+      "summary": "美国政府以国家安全为由，指令Anthropic暂停所有外国国民（含海外员工）对Fable 5和Mythos 5的访问。Anthropic当日5：21pm （ET）收到指令后立即向所有客户禁用这两个模型，其他模型不受影响。政府称发现一种越狱Fable 5的方法；Anthropic审核认为该技术仅能识别少量已知微小漏洞，且其他公开模型（如OpenAI的GPT-5.5）也能做到。Anthropic坚持深度防御策略，认为此次越狱不具普遍性，不同意以此标准召回已服务数亿人的商用模型，正与政府合作争取尽快恢复访问。",
+      "reason": "行业整合信号值得关注，可能影响生态格局"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "olmo-eval：面向模型开发循环的评估工作台",
+      "summary": "olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
+      "summary": "6月12日，字节跳动旗下AI应用豆包大范围上线\"任务模式\"，支持定时执行、零代码网页生成、一键PPT生成、数据可视化分析等全链路Agent执行。原\"思考模式\"升级为\"专家模式\"，调用豆包大模型2.0 Pro版本，强化深度推理能力。App顶部模式切换改为\"快速、专家、任务\"。基础功能免费，高阶服务付费，专业版三档：标准版68元/月或688元/年，加强版200元/月或2048元/年，专业版500元/月或5088元/年。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+      "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}
