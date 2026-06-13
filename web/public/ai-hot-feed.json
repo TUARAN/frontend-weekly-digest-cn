@@ -1,31 +1,7 @@
 {
-  "updatedAt": "2026-06-13T03:11:34.485Z",
-  "count": 16,
+  "updatedAt": "2026-06-13T05:34:40.983Z",
+  "count": 13,
   "items": [
-    {
-      "topic": "行业",
-      "title": "Fable 5停用，Opus 4.8与GPT-5.5仍领先",
-      "summary": "因美国政府指令，Anthropic暂停所有用户对Claude Fable 5的访问。新产品会话将运行默认模型或Opus 4.8，已有Fable 5会话报错，平台请求也返回错误。DAIR.AI的Elvis Saravia评论称不必恐慌，认为Fable 5对大多数任务不值，且成本高、性能被削弱；规划任务用Opus 4.8、执行任务用GPT-5.5仍是当前最佳组合。",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "href": "https://x.com/omarsar0/status/2065631363743559741",
-      "publishedAt": "2026-06-13T03:04:29.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic应特朗普政府指令关闭Fable和Mythos模型",
-      "summary": "Anthropic根据特朗普政府指令关停了Fable和Mythos模型。美国商务部担忧Fable 5存在\"越狱\"风险，认为可能构成国家安全威胁。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive",
-      "publishedAt": "2026-06-13T03:00:34.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美政府出口管制致Anthropic禁用Fable 5与Mythos 5",
-      "summary": "美国政府以国家安全为由发布出口管制指令，暂停所有外国国民（包括Anthropic外籍员工）访问Fable 5和Mythos 5。Anthropic被迫立即禁用这两个模型，其他Claude模型不受影响；Anthropic称这是误解，正努力恢复访问。主推文作者Elvis Saravia（DAIR.AI）表示本周因此彻底放弃Claude模型，并强调主权AI的重要性。",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "href": "https://x.com/omarsar0/status/2065626853528772804",
-      "publishedAt": "2026-06-13T02:46:34.000Z"
-    },
     {
       "topic": "行业",
       "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
@@ -123,12 +99,12 @@
       "publishedAt": "2026-06-12T10:00:00.000Z"
     },
     {
-      "topic": "技巧",
-      "title": "小互开源公众号自动排版技能组合",
-      "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2065278092441268246",
-      "publishedAt": "2026-06-12T03:40:42.000Z"
+      "topic": "模型",
+      "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+      "summary": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 【x，y】 格式坐标。",
+      "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+      "href": "https://huggingface.co/inclusionAI/VISTA-4B",
+      "publishedAt": "2026-06-12T08:59:41.000Z"
     }
   ]
 }
