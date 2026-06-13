@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-13T00:56:46.806Z",
-  "count": 11,
+  "updatedAt": "2026-06-13T01:50:10.629Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "行业",
+      "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
+      "summary": "美国政府以国家安全为由，指令Anthropic暂停所有外国国民（含海外员工）对Fable 5和Mythos 5的访问。Anthropic当日5：21pm （ET）收到指令后立即向所有客户禁用这两个模型，其他模型不受影响。政府称发现一种越狱Fable 5的方法；Anthropic审核认为该技术仅能识别少量已知微小漏洞，且其他公开模型（如OpenAI的GPT-5.5）也能做到。Anthropic坚持深度防御策略，认为此次越狱不具普遍性，不同意以此标准召回已服务数亿人的商用模型，正与政府合作争取尽快恢复访问。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/fable-mythos-access",
+      "publishedAt": "2026-06-13T01:15:57.911Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 遭多州总检察长联合调查",
+      "summary": "OpenAI 正被一个由多州总检察长组成的联盟调查，该联盟已向这家人工智能公司索取涵盖广泛主题的信息。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
+      "publishedAt": "2026-06-13T00:27:02.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
