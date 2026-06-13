@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-13T17:32:37.691Z",
-  "count": 9,
+  "updatedAt": "2026-06-13T18:33:15.889Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Suno 音轨分离：从零生成更纯净",
+      "summary": "重大更新：Suno 的音轨分离刚刚大幅升级。🚀\n\n我们现在从零重新生成音轨，而非仅仅隔离频率。结果如何？纯净无伪影的音轨，可直接拖入你的 DAW。",
+      "source": "X：Suno (@suno)",
+      "href": "https://x.com/suno/status/2065862499765821916",
+      "publishedAt": "2026-06-13T18:22:56.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Fusion API：半价达Fable级智能",
+      "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2065856853989270011",
+      "publishedAt": "2026-06-13T18:00:30.000Z"
+    },
     {
       "topic": "技巧",
       "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
