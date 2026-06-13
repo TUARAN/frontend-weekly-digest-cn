@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-12T23:33:58.514Z",
-  "count": 14,
+  "updatedAt": "2026-06-13T00:56:46.806Z",
+  "count": 11,
   "items": [
     {
       "topic": "技巧",
@@ -89,30 +89,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/963/302.htm",
       "publishedAt": "2026-06-12T02:06:41.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
-      "summary": "邵猛分享 Spec 驱动开发（SDD）方法，用三个 Skills（/write-product-spec、/write-tech-spec、/validate-changes-match-specs）覆盖 Spec→Implement→Verify 闭环。规格分两层：PRODUCT.md（用户故事、不变量）和 TECH.md（架构、实现策略），均放在 specs/<issue>/ 目录，随 PR 提交。五步流程：写产品规格、写技术规格、Agent 按规格实现、一致性校验、计算机操作端到端验证。Skills 可移植，不绑定 Warp。开源仓库 warpdotdev/common-skills，安装：npx skills add warpdotdev/common-skills。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2065234132431675439",
-      "publishedAt": "2026-06-12T00:46:02.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex 推出浏览器开发者模式",
-      "summary": "为 Chrome 和 Codex 内置浏览器引入开发者模式。\n\nCodex 可以使用 Chrome DevTools 协议（CDP）来调试浏览器问题，通过分析 JavaScript 性能、检查控制台输出、网络流量和页面状态。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2065226355495895521",
-      "publishedAt": "2026-06-12T00:15:07.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI Codex 推出速率重置攒存功能",
-      "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2065225362544726371",
-      "publishedAt": "2026-06-12T00:11:11.000Z"
     }
   ]
 }
