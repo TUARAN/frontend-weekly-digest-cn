@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-13T01:50:10.629Z",
-  "count": 13,
+  "updatedAt": "2026-06-13T03:11:34.485Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Fable 5停用，Opus 4.8与GPT-5.5仍领先",
+      "summary": "因美国政府指令，Anthropic暂停所有用户对Claude Fable 5的访问。新产品会话将运行默认模型或Opus 4.8，已有Fable 5会话报错，平台请求也返回错误。DAIR.AI的Elvis Saravia评论称不必恐慌，认为Fable 5对大多数任务不值，且成本高、性能被削弱；规划任务用Opus 4.8、执行任务用GPT-5.5仍是当前最佳组合。",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "href": "https://x.com/omarsar0/status/2065631363743559741",
+      "publishedAt": "2026-06-13T03:04:29.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Anthropic应特朗普政府指令关闭Fable和Mythos模型",
+      "summary": "Anthropic根据特朗普政府指令关停了Fable和Mythos模型。美国商务部担忧Fable 5存在\"越狱\"风险，认为可能构成国家安全威胁。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive",
+      "publishedAt": "2026-06-13T03:00:34.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "美政府出口管制致Anthropic禁用Fable 5与Mythos 5",
+      "summary": "美国政府以国家安全为由发布出口管制指令，暂停所有外国国民（包括Anthropic外籍员工）访问Fable 5和Mythos 5。Anthropic被迫立即禁用这两个模型，其他Claude模型不受影响；Anthropic称这是误解，正努力恢复访问。主推文作者Elvis Saravia（DAIR.AI）表示本周因此彻底放弃Claude模型，并强调主权AI的重要性。",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "href": "https://x.com/omarsar0/status/2065626853528772804",
+      "publishedAt": "2026-06-13T02:46:34.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
+      "summary": "Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
+      "publishedAt": "2026-06-13T02:26:30.000Z"
+    },
     {
       "topic": "行业",
       "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
@@ -33,6 +65,14 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/anthropic-public-record",
       "publishedAt": "2026-06-12T16:14:59.887Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
+      "summary": "Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens。使用指南包括设置流程、选择支持 64K 上下文窗口的模型，以及调整路由策略以兼顾成本与可靠性。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/tutorials/hermes-agent",
+      "publishedAt": "2026-06-12T16:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -89,22 +129,6 @@
       "source": "X：小互 (@xiaohu)",
       "href": "https://x.com/xiaohu/status/2065278092441268246",
       "publishedAt": "2026-06-12T03:40:42.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
-      "summary": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2065264509170876417",
-      "publishedAt": "2026-06-12T02:46:44.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
-      "summary": "苹果在 iOS 27 中优化健康 App，将列表改为卡片布局并增加导航栏。新增视觉智能营养识别，用户通过相机 Siri 模式拍摄食物可获取加工程度、蛋白质、含糖量等信息及营养价值评级，不提供精确卡路里，需 iPhone 15 Pro 及以上。经期追踪扩展支持围绝经期，可分析长期周期异常模式并推送提醒与指导。Fitness+ 新增围绝经期和绝经期课程。数据同步速度提升，GymKit 扩展至 iPhone，无需 Apple Watch 即可与健身设备配对同步数据。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/963/302.htm",
-      "publishedAt": "2026-06-12T02:06:41.000Z"
     }
   ]
 }
