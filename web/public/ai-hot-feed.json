@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-13T10:50:39.402Z",
-  "count": 13,
+  "updatedAt": "2026-06-13T11:39:11.879Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "summary": "Anthropic，这家估值达 9650 亿美元的 AI 巨头、史上增长最快的初创公司之一，在秘密提交 IPO 申请后，再次投下重磅炸弹。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
+      "publishedAt": "2026-06-13T11:00:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "谷歌Android安全负责人因反对军事AI合作辞职",
