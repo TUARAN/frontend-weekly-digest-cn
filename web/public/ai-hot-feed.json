@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-13T09:07:57.152Z",
-  "count": 14,
+  "updatedAt": "2026-06-13T10:50:39.402Z",
+  "count": 13,
   "items": [
     {
-      "topic": "模型",
-      "title": "智谱 GLM-5.2 旗舰模型发布：1M 上下文、下周开源",
-      "summary": "智谱（Z.ai）发布新旗舰模型 GLM-5.2，现已对 GLM Coding Plan 用户（Lite/Pro/Max/Team 计划）开放。该模型具备强大编程能力、可用的 1M 上下文支持，并延续长程任务优势。API 和聊天机器人服务将于下周上线，模型也将于下周以 MIT 许可证正式开源。",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "href": "https://x.com/Zai_org/status/2065704919299235870",
-      "publishedAt": "2026-06-13T07:56:46.000Z"
+      "topic": "行业",
+      "title": "谷歌Android安全负责人因反对军事AI合作辞职",
+      "summary": "谷歌Android平台安全负责人René Mayrhofer辞职，他在5月18日内部告别信中指责公司\"丧失道德指针\"，批评谷歌悄悄放弃碳中和目标（因AI模型能耗），并与美国战争部签署允许AI用于\"任何合法目的\"的协议。今年4月下旬谷歌宣布向五角大楼提供AI用于机密工作，2025年2月更新AI原则时移除了不使用AI开发武器或监控工具的承诺。Mayrhofer担忧谷歌AI产品可能被用于针对公民的大规模监控，包括自己和家人。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/963/888.htm",
+      "publishedAt": "2026-06-13T08:40:39.000Z"
     },
     {
       "topic": "行业",
@@ -17,6 +17,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/963/858.htm",
       "publishedAt": "2026-06-13T06:49:25.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "summary": "GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，在长程任务中继续保持领先，并被智谱称为最强的国产 Coding 模型。今晚 5：21 起面向 GLM Coding Plan 全量用户开放（覆盖 Lite、Pro、Max、团队版）。API 将于下周上线，模型下周正式开源，遵循 MIT 协议。",
+      "source": "公众号：智谱（GLM）",
+      "href": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
+      "publishedAt": "2026-06-13T06:19:36.000Z"
     },
     {
       "topic": "技巧",
@@ -97,22 +105,6 @@
       "source": "X：MiniMax (@MiniMax_AI)",
       "href": "https://x.com/MiniMax_AI/status/2065436935188058208",
       "publishedAt": "2026-06-12T14:11:53.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
-      "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "href": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
-      "publishedAt": "2026-06-12T10:16:02.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI 推出面向新时代工作的新 Academy 课程",
-      "summary": "OpenAI 发布三门 Academy 课程，帮助用户掌握实用 AI 技能、创建可重复工作流，并在日常工作中应用 AI 智能体。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "publishedAt": "2026-06-12T10:00:00.000Z"
     }
   ]
 }
