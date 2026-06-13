@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-13T18:33:15.889Z",
-  "count": 11,
+  "updatedAt": "2026-06-13T19:33:52.883Z",
+  "count": 12,
   "items": [
     {
       "topic": "产品",
@@ -9,6 +9,14 @@
       "source": "X：Suno (@suno)",
       "href": "https://x.com/suno/status/2065862499765821916",
       "publishedAt": "2026-06-13T18:22:56.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
+      "summary": "亚马逊 CEO 与美国官员的会谈直接导致美国政府对 Anthropic 公司的 AI 模型采取整治行动。此次事件涉及对 Anthropic 旗下大语言模型的监管升级，具体措施及模型版本细节尚未披露。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+      "publishedAt": "2026-06-13T18:22:19.626Z"
     },
     {
       "topic": "产品",
