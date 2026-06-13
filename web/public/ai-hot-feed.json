@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-13T15:36:00.527Z",
-  "count": 12,
+  "updatedAt": "2026-06-13T16:33:40.073Z",
+  "count": 8,
   "items": [
     {
       "topic": "行业",
@@ -65,38 +65,6 @@
       "source": "X：Oran Ge (@oran_ge)",
       "href": "https://x.com/oran_ge/status/2065566882774868125",
       "publishedAt": "2026-06-12T22:48:15.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
-      "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/anthropic-public-record",
-      "publishedAt": "2026-06-12T16:14:59.887Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
-      "summary": "Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens。使用指南包括设置流程、选择支持 64K 上下文窗口的模型，以及调整路由策略以兼顾成本与可靠性。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/hermes-agent",
-      "publishedAt": "2026-06-12T16:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "如何在OpenRouter上获得最低成本的LLM推理",
-      "summary": "在OpenRouter上追加`：floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
-      "publishedAt": "2026-06-12T16:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "olmo-eval：面向模型开发循环的评估工作台",
-      "summary": "olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/allenai/olmo-eval",
-      "publishedAt": "2026-06-12T15:56:10.000Z"
     }
   ]
 }
