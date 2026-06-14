@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-14T13:35:48.587Z",
-  "count": 7,
+  "updatedAt": "2026-06-14T14:48:40.048Z",
+  "count": 8,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "乔木小说创作 Skill 开源发布",
+      "summary": "开源乔木小说创作 Skill，用户只需说\"我想写一个小说\"或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾。与 AI 讨论确认后，可生成完整、低 AI 味的小说。安装命令：npx skills add joeseesun/qiaomu-novel-generator，Github 开源地址见评论区。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2066165703443726749",
+      "publishedAt": "2026-06-14T14:27:45.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
