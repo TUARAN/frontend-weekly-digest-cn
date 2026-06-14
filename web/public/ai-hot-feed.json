@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-13T23:27:40.323Z",
+  "updatedAt": "2026-06-14T00:56:33.342Z",
   "count": 11,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+      "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+      "publishedAt": "2026-06-14T00:03:49.000Z"
+    },
     {
       "topic": "产品",
       "title": "Suno 音轨分离：从零生成更纯净",
@@ -81,14 +89,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
       "publishedAt": "2026-06-13T02:26:30.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 遭多州总检察长联合调查",
-      "summary": "OpenAI 正被一个由多州总检察长组成的联盟调查，该联盟已向这家人工智能公司索取涵盖广泛主题的信息。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
-      "publishedAt": "2026-06-13T00:27:02.000Z"
     }
   ]
 }
