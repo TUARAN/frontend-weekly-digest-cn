@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-14T05:37:59.063Z",
-  "count": 11,
+  "updatedAt": "2026-06-14T07:40:17.433Z",
+  "count": 8,
   "items": [
     {
       "topic": "技巧",
@@ -65,30 +65,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/963/888.htm",
       "publishedAt": "2026-06-13T08:40:39.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
-      "summary": "路透社披露的 Meta 内部备忘录显示，CEO 扎克伯格承认公司在 AI 转型中组织调整节奏过快，带来员工安置、管理跨度等问题，预计未来\"几乎肯定会犯更多错误\"。Meta 今年 5 月已裁减全球 10% 员工，并将 7000 人转入 AI 相关新项目。为缓解协作问题，公司将增加团队建设预算，7 月举办黑客松。新成立的应用 AI 工程部门个人贡献者与管理者比例最高达 50：1。扎克伯格重申今年不再全公司裁员。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/963/858.htm",
-      "publishedAt": "2026-06-13T06:49:25.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
-      "summary": "GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，在长程任务中继续保持领先，并被智谱称为最强的国产 Coding 模型。今晚 5：21 起面向 GLM Coding Plan 全量用户开放（覆盖 Lite、Pro、Max、团队版）。API 将于下周上线，模型下周正式开源，遵循 MIT 协议。",
-      "source": "公众号：智谱（GLM）",
-      "href": "https://mp.weixin.qq.com/s/LDrbtLM0wiCTJorvd5GY9w",
-      "publishedAt": "2026-06-13T06:19:36.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
-      "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/963/834.htm",
-      "publishedAt": "2026-06-13T06:09:26.000Z"
     }
   ]
 }
