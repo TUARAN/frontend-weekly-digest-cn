@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-14T11:01:09.524Z",
-  "count": 6,
+  "updatedAt": "2026-06-14T12:43:38.539Z",
+  "count": 7,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
+      "summary": "Anthropic 暂停了新模型的访问权限，印度科技领袖围绕这一事件展开辩论，探讨其是否是对该国 AI 雄心的警示。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+      "publishedAt": "2026-06-14T03:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic 上市前夕",
