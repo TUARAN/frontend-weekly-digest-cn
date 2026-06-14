@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-14T09:09:33.844Z",
-  "count": 7,
+  "updatedAt": "2026-06-14T11:01:09.524Z",
+  "count": 6,
   "items": [
     {
       "topic": "技巧",
@@ -49,14 +49,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/DanMcInerney/architect-loop",
       "publishedAt": "2026-06-13T16:46:05.572Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
-      "summary": "Anthropic，这家估值达 9650 亿美元的 AI 巨头、史上增长最快的初创公司之一，在秘密提交 IPO 申请后，再次投下重磅炸弹。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters",
-      "publishedAt": "2026-06-13T11:00:00.000Z"
     }
   ]
 }
