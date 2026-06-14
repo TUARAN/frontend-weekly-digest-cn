@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-14T16:34:51.564Z",
-  "count": 9,
+  "updatedAt": "2026-06-14T17:31:39.606Z",
+  "count": 8,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+      "summary": "白宫周五做出的AI监管决定被指偏袒OpenAI、亚马逊等企业，同时对Anthropic施压不足24小时，缺乏透明度和事实依据。Gary Marcus、Dean W Ball及卡托研究所Kevin Frazier等专家指出，这种由少数人闭门快速决策的做法带有腐败嫌疑，可能促使其他国家加速发展\"主权AI\"甚至中国AI，并导致美国人才流失。Anthropic声明称政府应在法定程序中基于技术事实阻止不安全部署，而非当前方式。Marcus呼吁建立独立机构负责AI监管，确保公平、清晰、基于证据的执行。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/what-washington-must-do",
+      "publishedAt": "2026-06-14T16:15:35.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Satya Nadella：没有生态的前沿不稳定",
@@ -51,28 +59,12 @@
       "publishedAt": "2026-06-13T18:22:56.000Z"
     },
     {
-      "topic": "行业",
-      "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
-      "summary": "亚马逊 CEO 与美国官员的会谈直接导致美国政府对 Anthropic 公司的 AI 模型采取整治行动。此次事件涉及对 Anthropic 旗下大语言模型的监管升级，具体措施及模型版本细节尚未披露。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
-      "publishedAt": "2026-06-13T18:22:19.626Z"
-    },
-    {
       "topic": "产品",
       "title": "Fusion API：半价达Fable级智能",
       "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇",
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2065856853989270011",
       "publishedAt": "2026-06-13T18:00:30.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
-      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/DanMcInerney/architect-loop",
-      "publishedAt": "2026-06-13T16:46:05.572Z"
     }
   ]
 }
