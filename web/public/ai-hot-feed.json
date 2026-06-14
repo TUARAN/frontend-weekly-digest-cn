@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-14T01:53:44.910Z",
+  "updatedAt": "2026-06-14T03:13:53.823Z",
   "count": 11,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Anthropic 上市前夕",
+      "summary": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2065991805238497732",
+      "publishedAt": "2026-06-14T02:56:45.000Z"
+    },
     {
       "topic": "行业",
       "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
@@ -81,14 +89,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/963/834.htm",
       "publishedAt": "2026-06-13T06:09:26.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
-      "summary": "Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
-      "publishedAt": "2026-06-13T02:26:30.000Z"
     }
   ]
 }
