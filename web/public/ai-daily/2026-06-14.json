@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-14",
+  "displayDate": "Jun 14",
+  "dateNum": "0614",
+  "year": 2026,
+  "dayOfWeek": "SUN",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "IT之家（RSS） · Hacker News 热门（buzzing.cc 中文翻译） · Bloomberg：Technology（RSS） 等",
+  "count": 5,
+  "highlights": [
+    "SemiAnalysis 洞察 Toke",
+    "亚马逊首席执行官与美国官员会谈引发对 A",
+    "/architect：减少80%的Fab",
+    "Anthropic 秘密申请上市，估值 ",
+    "智谱 GLM-5.2 全量开放，支持 1"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+      "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
+      "summary": "亚马逊 CEO 与美国官员的会谈直接导致美国政府对 Anthropic 公司的 AI 模型采取整治行动。此次事件涉及对 Anthropic 旗下大语言模型的监管升级，具体措施及模型版本细节尚未披露。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+      "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
+      "summary": "Anthropic，这家估值达 9650 亿美元的 AI 巨头、史上增长最快的初创公司之一，在秘密提交 IPO 申请后，再次投下重磅炸弹。",
+      "reason": "大额资本动向反映赛道景气度，影响长期技术投入"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "智谱 GLM-5.2 全量开放，支持 1M 上下文且下周开源",
+      "summary": "GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，在长程任务中继续保持领先，并被智谱称为最强的国产 Coding 模型。今晚 5：21 起面向 GLM Coding Plan 全量用户开放（覆盖 Lite、Pro、Max、团队版）。API 将于下周上线，模型下周正式开源，遵循 MIT 协议。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}

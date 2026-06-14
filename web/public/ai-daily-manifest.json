@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-14",
+      "displayDate": "Jun 14",
+      "json": "/ai-daily/2026-06-14.json",
+      "count": 5,
+      "highlights": [
+        "SemiAnalysis 洞察 Toke",
+        "亚马逊首席执行官与美国官员会谈引发对 A",
+        "/architect：减少80%的Fab",
+        "Anthropic 秘密申请上市，估值 ",
+        "智谱 GLM-5.2 全量开放，支持 1"
+      ]
+    },
+    {
       "date": "2026-06-13",
       "displayDate": "Jun 13",
       "json": "/ai-daily/2026-06-13.json",
@@ -221,5 +234,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-13"
+  "latest": "2026-06-14"
 }
