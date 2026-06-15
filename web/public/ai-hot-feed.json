@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-15T18:36:56.091Z",
-  "count": 12,
+  "updatedAt": "2026-06-15T20:11:06.226Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 应特朗普政府要求，禁止外国公民访问其最先进 AI 模型",
+      "summary": "Anthropic 应特朗普政府要求，禁止所有外国公民访问其最先进 AI 模型。Bloomberg 记者 Ed Ludlow 报道了该措施背后的原因。同期，Nvidia 寻求通过自 2021 年以来首次公司债发行筹集至少 200 亿美元，SpaceX 股票在上市第二天继续上涨。",
+      "source": "Bloomberg：Technology（RSS）",
+      "href": "https://www.bloomberg.com/news/videos/2026-06-15/bloomberg-tech-6-15-2026-video",
+      "publishedAt": "2026-06-15T19:19:05.000Z"
+    },
     {
       "topic": "产品",
       "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
