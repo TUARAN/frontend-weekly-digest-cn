@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-15T11:07:53.743Z",
+  "updatedAt": "2026-06-15T14:11:55.149Z",
   "count": 8,
   "items": [
     {
       "topic": "行业",
-      "title": "美国强制 Anthropic 关停 Fable 5 和 Mythos 5，欧洲主权争议升级",
-      "summary": "美国政府以国家安全为由，强制 Anthropic 在全球范围内对非美国公民关闭其最新模型 Fable 5 和 Mythos 5。欧洲委员会发言人 Thomas Regnier 称紧急措施不得歧视伙伴，并呼吁加强欧洲技术主权。欧洲研究人员看法不一：有人主张联合投资基础模型、芯片设计与节能计算，打造欧洲\"AI 空客时刻\"；也有人认为欧洲无法与美竞争，应通过合同和数据中心投资确保访问权。图宾根大学 Jonas Geiping 指出法国 Mistral 已\"远远落后\"，欧洲缺乏大规模数据中心和发电能力，德国发电量已倒退至 1985 年水平。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/anthropic-shutdown-sparks-sovereignty-debate-across-europe",
-      "publishedAt": "2026-06-15T10:33:07.000Z"
+      "title": "美国白宫因中国访问担忧对Anthropic Mythos模型实施出口限制",
+      "summary": "Semafor报道称，美国白宫因担忧中国关联团体访问Anthropic的Mythos模型，决定对其施加出口限制。另一风险是外部团体可能通过知识蒸馏窃取模型能力。此前美国商务部指令Anthropic禁用Fable 5和Mythos 5，因发现越狱可让模型透露网络安全帮助。Anthropic反驳称越狱并非普遍性，其他公开模型也能提供类似能力。限制将持续至美国政府加强国家安全系统，预计未来几周内。Anthropic承认当前任何模型供应商都无法实现完美防越狱。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2066513228218150988",
+      "publishedAt": "2026-06-15T13:28:42.000Z"
     },
     {
       "topic": "产品",
