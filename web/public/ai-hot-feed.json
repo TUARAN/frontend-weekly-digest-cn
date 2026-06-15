@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-15T20:11:06.226Z",
+  "updatedAt": "2026-06-15T21:53:09.888Z",
   "count": 13,
   "items": [
     {
-      "topic": "行业",
-      "title": "Anthropic 应特朗普政府要求，禁止外国公民访问其最先进 AI 模型",
-      "summary": "Anthropic 应特朗普政府要求，禁止所有外国公民访问其最先进 AI 模型。Bloomberg 记者 Ed Ludlow 报道了该措施背后的原因。同期，Nvidia 寻求通过自 2021 年以来首次公司债发行筹集至少 200 亿美元，SpaceX 股票在上市第二天继续上涨。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-15/bloomberg-tech-6-15-2026-video",
-      "publishedAt": "2026-06-15T19:19:05.000Z"
+      "topic": "技巧",
+      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+      "summary": "GitHub Copilot CLI 为初学者提供了常用斜杠命令的概述，帮助用户通过命令控制终端中的 AI 智能体。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
+      "publishedAt": "2026-06-15T20:15:31.000Z"
     },
     {
       "topic": "产品",
