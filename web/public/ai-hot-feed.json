@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-15T21:53:09.888Z",
-  "count": 13,
+  "updatedAt": "2026-06-15T22:43:27.571Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "行业",
+      "title": "美国政府禁止Anthropic模型并非因AI越狱",
+      "summary": "美国商务部上周五援引一项模糊的出口管制指令，禁止非美国人（含Anthropic员工）访问Fable 5和Mythos 5模型，理由是未指明的国家安全关切。Anthropic随即下架两款模型以遵守指令。安全专家Katie Moussouris指出，指令源于一篇描述Fable 5安全防护绕过的论文，但该行为\"不应触发出口管制\"，指令仓促且过度。数十名安全研究人员呼吁撤销，称此举削弱美国网络防御能力。外界质疑美国政府带有报复性质，可能损害美国AI产品的国际信任。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+      "publishedAt": "2026-06-15T21:50:21.000Z"
+    },
     {
       "topic": "技巧",
       "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
