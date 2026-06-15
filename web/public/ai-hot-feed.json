@@ -1,14 +1,38 @@
 {
-  "updatedAt": "2026-06-15T14:11:55.149Z",
-  "count": 8,
+  "updatedAt": "2026-06-15T16:42:29.348Z",
+  "count": 9,
   "items": [
     {
       "topic": "行业",
-      "title": "美国白宫因中国访问担忧对Anthropic Mythos模型实施出口限制",
-      "summary": "Semafor报道称，美国白宫因担忧中国关联团体访问Anthropic的Mythos模型，决定对其施加出口限制。另一风险是外部团体可能通过知识蒸馏窃取模型能力。此前美国商务部指令Anthropic禁用Fable 5和Mythos 5，因发现越狱可让模型透露网络安全帮助。Anthropic反驳称越狱并非普遍性，其他公开模型也能提供类似能力。限制将持续至美国政府加强国家安全系统，预计未来几周内。Anthropic承认当前任何模型供应商都无法实现完美防越狱。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2066513228218150988",
-      "publishedAt": "2026-06-15T13:28:42.000Z"
+      "title": "Nvidia 加入 AI 债务热潮，发行 200 亿美元债券",
+      "summary": "Nvidia 计划通过自 2021 年以来的首次债券发行筹集至少 200 亿美元，消息援引知情人士透露。此举标志着 Nvidia 加入 AI 领域的债务融资热潮。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/nvidia-joins-ai-debt-boom-with-20-billion-bond-sale",
+      "publishedAt": "2026-06-15T15:43:04.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+      "summary": "MiniMax 上周五开源了 428B 总参数、23B 激活参数的 M3 模型权重，同步发布 MSA（MiniMax Sparse Attention）技术论文，该架构显著降低长上下文计算成本。M3 是首个从预训练阶段就进行文本、图像等多模态交错混合训练的开源模型。发布两周后，M3 在 Artificial Analysis 综合智能指数、GDPval-AA 排行榜均获开源模型第一，Code Arena WebDev 跻身帕累托最优序列，Vals.AI 榜单居国产模型首位。输出速度已从约 30 TPS 提升至约 80 TPS，计划再提速 30-40%；Token Plan 后台新增调用量看板。",
+      "source": "公众号：MiniMax（稀宇科技）",
+      "href": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
+      "publishedAt": "2026-06-15T14:40:02.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Salesforce以36亿美元收购AI客服平台Fin",
+      "summary": "Salesforce宣布以36亿美元收购AI客服平台Fin（前身为Intercom）。Fin提供可跨实时聊天、WhatsApp、短信、电话、Slack等多渠道解决客户问题的AI智能体。Salesforce计划利用Fin的技术和团队增强其企业级Agentforce平台，该平台允许企业构建自定义AI智能体以自动化任务。交易预计在Salesforce 2027财年第四季度（即2027年初）完成。Fin联合创始人兼CEO Eoghan McCabe将继续担任CEO，研发负责人Des继续领导研发。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
+      "publishedAt": "2026-06-15T14:34:45.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
+      "summary": "Skydio是美国最大的无人机制造商，主攻公共安全、军事、能源、基建巡检等企业市场。CEO Adam Bry表示，特朗普政府去年底禁止中国产无人机后，廉价消费级无人机几乎消失，Skydio产品成为主要替代方案。公司认为无人机正从工具转向自主基础设施--通过机库、远程操控和软件整合实现规模化应用，AI在其中扮演关键角色。访谈还涉及Skydio与军方合作的态度，以及自主技术如何带动公司扩张。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "publishedAt": "2026-06-15T14:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -35,36 +59,20 @@
       "publishedAt": "2026-06-15T07:25:41.000Z"
     },
     {
+      "topic": "产品",
+      "title": "Grok Build 推出 Agent Dashboard 管理多个编码会话",
+      "summary": "xAI 为 Grok Build 推出 Agent Dashboard，提供单一屏幕管理多个编码会话。仪表板按状态分组（等待输入、工作中、空闲），每行显示状态标记、名称、分支、权限模式和当前操作。选中会话可打开 peek 面板查看最新输出并直接回复，等待输入的会话支持用箭头键或数字键选择选项。底部输入框用于分派新会话，支持设置模型、启动计划模式或自动批准编辑。通过 `grok dashboard`、`/dashboard` 或 `Ctrl+\\` 打开，关闭后会话继续运行，重新打开即可恢复。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/agent-dashboard",
+      "publishedAt": "2026-06-15T00:00:00.000Z"
+    },
+    {
       "topic": "行业",
       "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
       "summary": "OpenAI 宣布推出 OpenAI Partner Network，并投资 1.5 亿美元支持全球合作伙伴构建、销售和交付 AI 解决方案。该计划设立 Select、Advanced、Elite 三级合作伙伴层级，提供 Codex、网络安全、智能体等专业方向认证，并试点 Forward Deployed Experts 项目以支持复杂企业部署。目标在 2026 年底前培训认证 30 万名顾问。案例显示，Paychex 借助 Bain 和 OpenAI 的方案将等待时间降低 80%，人工审核时间减少 30%。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/introducing-openai-partner-network",
       "publishedAt": "2026-06-14T17:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
-      "summary": "白宫周五做出的AI监管决定被指偏袒OpenAI、亚马逊等企业，同时对Anthropic施压不足24小时，缺乏透明度和事实依据。Gary Marcus、Dean W Ball及卡托研究所Kevin Frazier等专家指出，这种由少数人闭门快速决策的做法带有腐败嫌疑，可能促使其他国家加速发展\"主权AI\"甚至中国AI，并导致美国人才流失。Anthropic声明称政府应在法定程序中基于技术事实阻止不安全部署，而非当前方式。Marcus呼吁建立独立机构负责AI监管，确保公平、清晰、基于证据的执行。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/what-washington-must-do",
-      "publishedAt": "2026-06-14T16:15:35.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Satya Nadella：没有生态的前沿不稳定",
-      "summary": "微软CEO Satya Nadella认为，AI驱动的平台转变首次实现人与数字系统间的认知循环。企业需同时构建人力资本（知识、判断、关系）与token资本（自有的AI能力），且人力资本不会贬值，反而随token资本增长而增值。真正的机会在于建立人力资本与token资本复合增长的学习循环--企业应能替换通用模型而不丢失已内化的专家知识，通过私有评估和强化学习让模型从内部真实轨迹中持续提升。他警告，若所有价值被少数模型吞噬，将重演全球化空心化悲剧，呼吁构建前沿生态系统，让每家企业、行业和国家拥有自己的学习循环。",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "href": "https://x.com/satyanadella/status/2066182223213293753",
-      "publishedAt": "2026-06-14T15:33:24.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "乔木小说创作 Skill 开源发布",
-      "summary": "开源乔木小说创作 Skill，用户只需说\"我想写一个小说\"或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾。与 AI 讨论确认后，可生成完整、低 AI 味的小说。安装命令：npx skills add joeseesun/qiaomu-novel-generator，Github 开源地址见评论区。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2066165703443726749",
-      "publishedAt": "2026-06-14T14:27:45.000Z"
     }
   ]
 }
