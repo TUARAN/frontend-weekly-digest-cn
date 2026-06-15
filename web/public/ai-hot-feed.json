@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-14T23:30:38.462Z",
+  "updatedAt": "2026-06-15T00:58:50.062Z",
   "count": 6,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
+      "summary": "OpenAI 宣布推出 OpenAI Partner Network，并投资 1.5 亿美元支持全球合作伙伴构建、销售和交付 AI 解决方案。该计划设立 Select、Advanced、Elite 三级合作伙伴层级，提供 Codex、网络安全、智能体等专业方向认证，并试点 Forward Deployed Experts 项目以支持复杂企业部署。目标在 2026 年底前培训认证 30 万名顾问。案例显示，Paychex 借助 Bain 和 OpenAI 的方案将等待时间降低 80%，人工审核时间减少 30%。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/introducing-openai-partner-network",
+      "publishedAt": "2026-06-14T17:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
@@ -41,14 +49,6 @@
       "source": "X：小互 (@xiaohu)",
       "href": "https://x.com/xiaohu/status/2065991805238497732",
       "publishedAt": "2026-06-14T02:56:45.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
-      "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
-      "publishedAt": "2026-06-14T00:03:49.000Z"
     }
   ]
 }
