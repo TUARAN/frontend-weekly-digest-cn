@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-15",
+      "displayDate": "Jun 15",
+      "json": "/ai-daily/2026-06-15.json",
+      "count": 5,
+      "highlights": [
+        "OpenAI 推出合作伙伴网络 Open",
+        "白宫AI监管决定被指偏袒OpenAI与亚",
+        "Anthropic 上市前夕",
+        "乔木小说创作 Skill 开源发布",
+        "Anthropic 暂停新模型访问，印度"
+      ]
+    },
+    {
       "date": "2026-06-14",
       "displayDate": "Jun 14",
       "json": "/ai-daily/2026-06-14.json",
@@ -234,5 +247,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-14"
+  "latest": "2026-06-15"
 }
