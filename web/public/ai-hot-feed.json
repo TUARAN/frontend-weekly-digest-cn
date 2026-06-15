@@ -1,14 +1,30 @@
 {
-  "updatedAt": "2026-06-15T08:06:01.852Z",
-  "count": 6,
+  "updatedAt": "2026-06-15T11:07:53.743Z",
+  "count": 8,
   "items": [
     {
       "topic": "行业",
-      "title": "美国命令Anthropic阻止外国人访问Mythos",
-      "summary": "美国政府已下令Anthropic阻止所有外国人访问其最先进的AI模型Mythos和Fable 5，原因是发现Fable 5可以被越狱（绕过安全护栏）。",
-      "source": "Bloomberg：Technology（RSS）",
-      "href": "https://www.bloomberg.com/news/videos/2026-06-15/us-orders-anthropic-to-block-foreign-access-to-mythos-video",
-      "publishedAt": "2026-06-15T07:33:41.000Z"
+      "title": "美国强制 Anthropic 关停 Fable 5 和 Mythos 5，欧洲主权争议升级",
+      "summary": "美国政府以国家安全为由，强制 Anthropic 在全球范围内对非美国公民关闭其最新模型 Fable 5 和 Mythos 5。欧洲委员会发言人 Thomas Regnier 称紧急措施不得歧视伙伴，并呼吁加强欧洲技术主权。欧洲研究人员看法不一：有人主张联合投资基础模型、芯片设计与节能计算，打造欧洲\"AI 空客时刻\"；也有人认为欧洲无法与美竞争，应通过合同和数据中心投资确保访问权。图宾根大学 Jonas Geiping 指出法国 Mistral 已\"远远落后\"，欧洲缺乏大规模数据中心和发电能力，德国发电量已倒退至 1985 年水平。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/anthropic-shutdown-sparks-sovereignty-debate-across-europe",
+      "publishedAt": "2026-06-15T10:33:07.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "summary": "Kimi K2.7 Code 高速版上线，与普通版为同一模型，输出速度约 5-6 倍，常规编程场景约 180 Token/s，短上下文可达 260 Token/s。API 定价为普通版 2 倍，模型 ID：kimi-k2.7-code-highspeed。Kimi Code Plan 用户可通过「抢先体验计划」使用，用量消耗为普通版 3 倍。使用须开启思考模式，关闭会报错或回退至 K2.6。庆祝发布，Kimi API 开放平台推出为期三周充赠活动，充值 500 元及以上享 20%-30% 代金券。相比 K2.6，K2.7 Code 在长上下文编程指令遵循、长程任务性能提升，平均 token 消耗减少 30%，内部基准测试显著提升。普通版输入 6.5 元/百万 token、输出 27 元，缓存输入 1.3 元。非编程任务推荐 K2.6。",
+      "source": "公众号：月之暗面（Kimi）",
+      "href": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
+      "publishedAt": "2026-06-15T10:26:06.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
+      "summary": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
+      "publishedAt": "2026-06-15T09:16:09.000Z"
     },
     {
       "topic": "技巧",
