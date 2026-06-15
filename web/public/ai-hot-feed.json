@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-15T01:58:19.151Z",
-  "count": 6,
+  "updatedAt": "2026-06-15T03:25:15.574Z",
+  "count": 4,
   "items": [
     {
       "topic": "行业",
@@ -33,22 +33,6 @@
       "source": "X：Vista (@vista8)",
       "href": "https://x.com/vista8/status/2066165703443726749",
       "publishedAt": "2026-06-14T14:27:45.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
-      "summary": "Anthropic 暂停了新模型的访问权限，印度科技领袖围绕这一事件展开辩论，探讨其是否是对该国 AI 雄心的警示。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
-      "publishedAt": "2026-06-14T03:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 上市前夕",
-      "summary": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2065991805238497732",
-      "publishedAt": "2026-06-14T02:56:45.000Z"
     }
   ]
 }
