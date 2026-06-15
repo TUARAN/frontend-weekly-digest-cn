@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-15T16:42:29.348Z",
-  "count": 9,
+  "updatedAt": "2026-06-15T18:36:01.191Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
+      "summary": "Meta 宣布在 Facebook 推出\"AI Mode\"搜索功能，利用 Meta AI 从公开帖子（含群组和 Reels）提取信息并合成答案，用户可用自然语言提问获得摘要。同时新增视频拼贴剪辑、过渡效果及 AI 照片预设（可更换服装、发型和配饰），体育迷可在 Stories 中点击\"AI Edit\"虚拟穿上队服。这些更新延续了此前动态头像、Marketplace 自动回复和创作者 AI 助手的部署节奏。此外，Meta 近期启动了 Facebook、Instagram 和 WhatsApp 的全球订阅计划（每月 3.99 美元起），更多 AI 订阅层级正在规划中。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
+      "publishedAt": "2026-06-15T18:30:58.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter新增免费模型gpt-oss-20b和Gemma4 26B",
+      "summary": "OpenRouter 上新增免费容量，由 @eigenlabs 的 Darkbloom 提供：gpt-oss-20b 和 Gemma 4 26B。\n今天就开始使用这些模型吧 ↓",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2066585705581797616",
+      "publishedAt": "2026-06-15T18:16:42.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "下一代投机解码：DFlash 与 Spec V2",
+      "summary": "Z Lab、Modal 与 SGLang 团队联合发布 DFlash 投机解码模型和 SGLang 的默认 Spec V2 引擎。DFlash 采用块扩散+KV 注入并行生成整块 draft token，在 Qwen 3.5 397B-A17B（BF16）的 HumanEval 数据集上、并发 1 时吞吐量达到基线的 4.3",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "href": "https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2",
+      "publishedAt": "2026-06-15T17:25:17.048Z"
+    },
     {
       "topic": "行业",
       "title": "Nvidia 加入 AI 债务热潮，发行 200 亿美元债券",
@@ -59,20 +83,20 @@
       "publishedAt": "2026-06-15T07:25:41.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "AI 应用黄金时代已至：Fable 被禁、Nadella 的护城河论点与 Salesforce 收购 Fin",
+      "summary": "美国政府关闭 Anthropic 的 Fable 访问，开源和本地模型成必备；Satya Nadella 主张 AI 生态护城河应是人类专业知识和模型外围系统；Salesforce 以 36 亿美元收购 Fin（前 Intercom），Fin 利用开源模型实现性价比。这三件事标志 AI 应用进入黄金时代。构建 AI 应用的难点：在 Kimi K2.6、Qwen 3.6 27b、GLM 5.1 等不同特性模型中选择；设计智能体系统的 hill-climbing 循环；持续评估模型+循环性能以最大化 token 预算中的智能。掌握这三项技能的公司将主导这一时代。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/golden-age-of-applications",
+      "publishedAt": "2026-06-15T00:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Grok Build 推出 Agent Dashboard 管理多个编码会话",
       "summary": "xAI 为 Grok Build 推出 Agent Dashboard，提供单一屏幕管理多个编码会话。仪表板按状态分组（等待输入、工作中、空闲），每行显示状态标记、名称、分支、权限模式和当前操作。选中会话可打开 peek 面板查看最新输出并直接回复，等待输入的会话支持用箭头键或数字键选择选项。底部输入框用于分派新会话，支持设置模型、启动计划模式或自动批准编辑。通过 `grok dashboard`、`/dashboard` 或 `Ctrl+\\` 打开，关闭后会话继续运行，重新打开即可恢复。",
       "source": "xAI：News（网页）",
       "href": "https://x.ai/news/agent-dashboard",
       "publishedAt": "2026-06-15T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 推出合作伙伴网络 OpenAI Partner Network",
-      "summary": "OpenAI 宣布推出 OpenAI Partner Network，并投资 1.5 亿美元支持全球合作伙伴构建、销售和交付 AI 解决方案。该计划设立 Select、Advanced、Elite 三级合作伙伴层级，提供 Codex、网络安全、智能体等专业方向认证，并试点 Forward Deployed Experts 项目以支持复杂企业部署。目标在 2026 年底前培训认证 30 万名顾问。案例显示，Paychex 借助 Bain 和 OpenAI 的方案将等待时间降低 80%，人工审核时间减少 30%。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/introducing-openai-partner-network",
-      "publishedAt": "2026-06-14T17:00:00.000Z"
     }
   ]
 }
