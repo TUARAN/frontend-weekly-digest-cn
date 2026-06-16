@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-16T14:39:08.782Z",
-  "count": 27,
+  "updatedAt": "2026-06-16T16:34:20.325Z",
+  "count": 26,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI财报泄露：2025年收入130亿美元，净亏损达390亿美元",
+      "summary": "OpenAI提交SEC文件准备IPO，泄露的审计财报显示其2025年收入130.7亿美元，但研发费用高达191.8亿美元（含向微软支付的105.9亿），营收成本75亿美元，销售与营销支出57.3亿美元。2025年运营亏损209.2亿美元，净亏损近390亿美元，其中包含约300亿美元因公司向营利制转型产生的一次性会计费用，剔除后净亏损约80亿美元。ChatGPT周活用户超9亿，仅约5000万付费。公司计划2030年实现盈利，正削减\"副线项目\"并聚焦核心编码与商业用户。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year",
+      "publishedAt": "2026-06-16T16:18:07.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Copilot Cowork 全球正式可用，支持多模型",
+      "summary": "Copilot Cowork 现已全球正式可用，并支持多模型！\n每个组织都可以让长期运行的智能体处理复杂的多步骤任务，基于你组织的独特知识和专有技术。 https：//www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/？v=15",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "href": "https://x.com/satyanadella/status/2066911399494963335",
+      "publishedAt": "2026-06-16T15:50:53.000Z"
+    },
     {
       "topic": "行业",
       "title": "马斯克：AI将达Stockfish级编码",
@@ -91,14 +107,6 @@
       "publishedAt": "2026-06-16T02:06:00.000Z"
     },
     {
-      "topic": "论文",
-      "title": "伯克利RDI发布Agents' Last Exam基准",
-      "summary": "2026年6月，伯克利RDI发布Agents' Last Exam（ALE）基准，包含1，500余项源于真实工作的任务，覆盖55个非体力职业。对Fable 5、GPT-5.5、Composer 2.5等前沿智能体的测评显示：在最困难层级成功率均为0%；整体任务表现接近，但单任务成本差异巨大（Fable 5约$15.70，GPT-5.5约$3.80，Composer 2.5约$1.33）。CLI子集ALE-CLI最佳通过率仅25.2%。主要失败模式是智能体未验证输出即宣称完成。数据集、代码及CLI子集已开源。",
-      "source": "Berkeley RDI：Blog（AI 安全与评测）",
-      "href": "https://rdi.berkeley.edu/blog/agents-last-exam",
-      "publishedAt": "2026-06-16T01:59:10.841Z"
-    },
-    {
       "topic": "产品",
       "title": "教育部\"阳光志愿\"信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
       "summary": "教育部\"阳光志愿\"信息服务系统今日全新升级上线，依托招生、学籍、就业等海量官方数据，免费为考生和家长提供志愿填报服务。系统支持31个省区市本专科普通批次志愿筛选，输入高考成绩、位次及个性化条件即可快速生成合理参考方案。AI助手\"智慧小招\"24小时在线解答政策规则。平台数据由高校直接报送、官方核验，真实可靠。同时推出专业倾向测评和21项生涯测评工具，帮助学生认清特长、规划未来。",
@@ -121,6 +129,14 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2066679835607412846",
       "publishedAt": "2026-06-16T00:30:44.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Grok for PowerPoint 发布：在 Microsoft PowerPoint 内直接生成和编辑幻灯片",
+      "summary": "xAI 于 6 月 16 日发布 Grok for PowerPoint，作为免费 Microsoft 365 插件上线。用户无需离开应用即可利用 Grok 将大纲转为完整幻灯片，进行内容研究、撰写、排版，并支持添加单张幻灯片、调整样式主题、重构章节。插件还能调用 Grok 连接器，从邮件或 SharePoint 中获取信息。该插件同样适用于 Word 和 Excel。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/introducing-powerpoint-addin",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
     },
     {
       "topic": "模型",
@@ -193,30 +209,6 @@
       "source": "OpenRouter：Announcements（RSS）",
       "href": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared",
       "publishedAt": "2026-06-15T17:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "智能体AI治理：你的API密钥就是护栏",
-      "summary": "智能体AI使用量将在未来两年急剧上升，但治理滞后--仅五分之一企业拥有成熟治理模型。典型事故：销售智能体重试失败调用后自行升级到GPT-5.5，一夜消耗200美元。API路由层位于智能体与模型之间，是强制执行预算上限、模型白名单、提供方准入和请求日志的理想点。IBM报告指出97%遭遇AI安全事件的组织缺乏AI访问控制。最小可行治理方案：为每个智能体工作流分配独立API密钥，在API密钥层面实现预算控制、模型准入和审计追踪。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/agentic-ai-governance",
-      "publishedAt": "2026-06-15T16:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Nvidia 加入 AI 债务热潮，发行 200 亿美元债券",
-      "summary": "Nvidia 计划通过自 2021 年以来的首次债券发行筹集至少 200 亿美元，消息援引知情人士透露。此举标志着 Nvidia 加入 AI 领域的债务融资热潮。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/nvidia-joins-ai-debt-boom-with-20-billion-bond-sale",
-      "publishedAt": "2026-06-15T15:43:04.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
-      "summary": "MiniMax 上周五开源了 428B 总参数、23B 激活参数的 M3 模型权重，同步发布 MSA（MiniMax Sparse Attention）技术论文，该架构显著降低长上下文计算成本。M3 是首个从预训练阶段就进行文本、图像等多模态交错混合训练的开源模型。发布两周后，M3 在 Artificial Analysis 综合智能指数、GDPval-AA 排行榜均获开源模型第一，Code Arena WebDev 跻身帕累托最优序列，Vals.AI 榜单居国产模型首位。输出速度已从约 30 TPS 提升至约 80 TPS，计划再提速 30-40%；Token Plan 后台新增调用量看板。",
-      "source": "公众号：MiniMax（稀宇科技）",
-      "href": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
-      "publishedAt": "2026-06-15T14:40:02.000Z"
     }
   ]
 }
