@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-16T08:02:55.710Z",
+  "updatedAt": "2026-06-16T10:39:05.401Z",
   "count": 23,
   "items": [
+    {
+      "topic": "行业",
+      "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
+      "summary": "中国 AI 初创公司 DeepSeek 完成首轮外部融资，募资超 500 亿元人民币（约 74 亿美元），估值超 500 亿美元。投资结构特殊：多数投资者将资金投入 CEO 梁文锋管理的有限合伙企业，无投票权且锁定期五年；仅国资 AI 基金直接投资并保留投票权。创始人梁文锋个人投入约 200 亿元，腾讯和宁德时代为主要外部投资者。梁文锋表示优先基础 AI 研究与 AGI 开发，将继续开源。DeepSeek 去年初凭 V3、R1 模型获全球关注，今年 4 月发布运行于华为芯片的最大开源权重模型 V4，并将 V4 Pro 永久折扣 75%，输入价格约为 OpenAI GPT-5.5 的 1/11，输出价格约为 1/35。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
+      "publishedAt": "2026-06-16T09:40:48.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+      "summary": "Google Cloud 发布 Open Knowledge Format （OKF） v0.1，一种供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文知识。OKF 将知识表示为带 YAML 前置元数据的 markdown 文件目录，每个概念对应一个文件，通过 `type`、`title`、`description` 等少量保留字段实现互操作。无需专有服务、SDK 或运行时，目录可托管在 GitHub、以 tarball 传输或挂载到任意文件系统。OKF 旨在解决组织内部知识碎片化问题--表结构、指标定义、runbook 等散落在不同 catalog 和 wiki 中，各厂商方案互不兼容。遵循最少意见原则，只强制 `type` 字段，生产者和消费者可独立实现。使用场景包括数据团队将 BigQuery 表定义导出为代码、为智能体存储 incident runbook、跨组织知识交换等。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+      "publishedAt": "2026-06-16T08:18:58.000Z"
+    },
     {
       "topic": "模型",
       "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
@@ -169,22 +185,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
       "publishedAt": "2026-06-15T14:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
-      "summary": "Kimi K2.7 Code 高速版上线，与普通版为同一模型，输出速度约 5-6 倍，常规编程场景约 180 Token/s，短上下文可达 260 Token/s。API 定价为普通版 2 倍，模型 ID：kimi-k2.7-code-highspeed。Kimi Code Plan 用户可通过「抢先体验计划」使用，用量消耗为普通版 3 倍。使用须开启思考模式，关闭会报错或回退至 K2.6。庆祝发布，Kimi API 开放平台推出为期三周充赠活动，充值 500 元及以上享 20%-30% 代金券。相比 K2.6，K2.7 Code 在长上下文编程指令遵循、长程任务性能提升，平均 token 消耗减少 30%，内部基准测试显著提升。普通版输入 6.5 元/百万 token、输出 27 元，缓存输入 1.3 元。非编程任务推荐 K2.6。",
-      "source": "公众号：月之暗面（Kimi）",
-      "href": "https://mp.weixin.qq.com/s/p87ebkY1xqKtkGZ2N3DGSw",
-      "publishedAt": "2026-06-15T10:26:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-      "summary": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-      "publishedAt": "2026-06-15T09:16:09.000Z"
     }
   ]
 }
