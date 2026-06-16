@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-16T10:39:05.401Z",
-  "count": 23,
+  "updatedAt": "2026-06-16T12:37:12.135Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "行业",
+      "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+      "summary": "SpaceX 在历史性 IPO 数天后，同意以 600 亿美元股票收购 AI 编程初创公司 Cursor，旨在帮助其围绕 xAI 构建的 AI 部门追赶主要 AI 实验室。此前 Cursor 正接近完成一轮 20 亿美元融资，估值 500 亿美元，投资方包括 Andreessen Horowitz、Thrive 和 Nvidia。SpaceX 在 IPO 期间向投资者表示，其 AI 产品可寻址市场达 26 万亿美元。交易预计于今年第三季度完成。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
+      "publishedAt": "2026-06-16T11:21:41.000Z"
+    },
     {
       "topic": "行业",
       "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
