@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-16T05:54:08.515Z",
-  "count": 21,
+  "updatedAt": "2026-06-16T08:02:55.710Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+      "summary": "Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本。Ink 2 在 Artificial Analysis 的流式语音转文字排行榜上排名第一。Sonic 3.5 在实时文本转语音中位列榜首，首音频延迟约 82ms。Cartesia 成为目前唯一同时拥有 #1 听与说模型的提供商。",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "href": "https://x.com/testingcatalog/status/2066773392527655252",
+      "publishedAt": "2026-06-16T06:42:30.000Z"
+    },
     {
       "topic": "产品",
       "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
@@ -115,6 +123,22 @@
       "publishedAt": "2026-06-15T17:25:17.048Z"
     },
     {
+      "topic": "技巧",
+      "title": "免费LLM API比较：速率限制、模型与真实成本（2026）",
+      "summary": "13个平台提供免费LLM API，含永久免费层与试用额度。OpenRouter拥有20+免费模型，单密钥无需信用卡；Groq以约320 tokens/秒运行Llama 3.3 70B；Google AI Studio支持1M上下文；Mistral实验层约10亿token/月但需同意数据训练；Cerebras约1M token/天；GitHub Models提供GPT-4o、Claude 3.5 Sonnet等前沿模型。各免费层有速率限制、数据训练授权、上下文缩减等隐藏成本，建议早期测试2-3个方案并设置故障转移。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared",
+      "publishedAt": "2026-06-15T17:00:00.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "智能体AI治理：你的API密钥就是护栏",
+      "summary": "智能体AI使用量将在未来两年急剧上升，但治理滞后--仅五分之一企业拥有成熟治理模型。典型事故：销售智能体重试失败调用后自行升级到GPT-5.5，一夜消耗200美元。API路由层位于智能体与模型之间，是强制执行预算上限、模型白名单、提供方准入和请求日志的理想点。IBM报告指出97%遭遇AI安全事件的组织缺乏AI访问控制。最小可行治理方案：为每个智能体工作流分配独立API密钥，在API密钥层面实现预算控制、模型准入和审计追踪。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/agentic-ai-governance",
+      "publishedAt": "2026-06-15T16:00:00.000Z"
+    },
+    {
       "topic": "行业",
       "title": "Nvidia 加入 AI 债务热潮，发行 200 亿美元债券",
       "summary": "Nvidia 计划通过自 2021 年以来的首次债券发行筹集至少 200 亿美元，消息援引知情人士透露。此举标志着 Nvidia 加入 AI 领域的债务融资热潮。",
@@ -161,14 +185,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
       "publishedAt": "2026-06-15T09:16:09.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI裁员浪潮成为火药桶",
-      "summary": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是\"银弹借口\"。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
-      "publishedAt": "2026-06-15T07:25:41.000Z"
     }
   ]
 }
