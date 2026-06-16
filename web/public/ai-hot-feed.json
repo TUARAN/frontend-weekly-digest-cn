@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-06-16T16:34:20.325Z",
-  "count": 26,
+  "updatedAt": "2026-06-16T18:32:04.415Z",
+  "count": 23,
   "items": [
     {
+      "topic": "模型",
+      "title": "GLM-5.2 发布：1M 上下文窗口，MIT 开源权重",
+      "summary": "GLM-5.2 作为开放权重模型发布，采用 MIT 许可，拥有 1M 上下文窗口。提供两种推理模式：max（极限推理）和 high（平衡性能与 token 效率）。在编码和智能体任务上有显著提升，专为大规模实现、自动化研究、性能优化和复杂调试训练。API 定价与 GLM-5.1 保持一致。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2066947839591084212",
+      "publishedAt": "2026-06-16T18:15:41.000Z"
+    },
+    {
       "topic": "行业",
-      "title": "OpenAI财报泄露：2025年收入130亿美元，净亏损达390亿美元",
-      "summary": "OpenAI提交SEC文件准备IPO，泄露的审计财报显示其2025年收入130.7亿美元，但研发费用高达191.8亿美元（含向微软支付的105.9亿），营收成本75亿美元，销售与营销支出57.3亿美元。2025年运营亏损209.2亿美元，净亏损近390亿美元，其中包含约300亿美元因公司向营利制转型产生的一次性会计费用，剔除后净亏损约80亿美元。ChatGPT周活用户超9亿，仅约5000万付费。公司计划2030年实现盈利，正削减\"副线项目\"并聚焦核心编码与商业用户。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year",
-      "publishedAt": "2026-06-16T16:18:07.000Z"
+      "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
+      "summary": "微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项。Copilot Cowork 将放弃无限定价，转向按使用量计费，原因是成本过高（用户每周执行数百项任务导致费用激增）。若采用 DeepSeek，该模型将是可选的、经过微调与安全防护，并完全托管于 Azure。Axios 报道称微软已微调了一个可用模型，最终决定待定。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2066946013026263110",
+      "publishedAt": "2026-06-16T18:08:26.000Z"
     },
     {
       "topic": "产品",
@@ -177,38 +185,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands",
       "publishedAt": "2026-06-15T20:15:31.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Meta 在 Facebook 上线\"AI Mode\"，基于平台公开信息合成答案",
-      "summary": "Meta 宣布在 Facebook 推出\"AI Mode\"搜索功能，利用 Meta AI 从公开帖子（含群组和 Reels）提取信息并合成答案，用户可用自然语言提问获得摘要。同时新增视频拼贴剪辑、过渡效果及 AI 照片预设（可更换服装、发型和配饰），体育迷可在 Stories 中点击\"AI Edit\"虚拟穿上队服。这些更新延续了此前动态头像、Marketplace 自动回复和创作者 AI 助手的部署节奏。此外，Meta 近期启动了 Facebook、Instagram 和 WhatsApp 的全球订阅计划（每月 3.99 美元起），更多 AI 订阅层级正在规划中。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms",
-      "publishedAt": "2026-06-15T18:30:58.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter新增免费模型gpt-oss-20b和Gemma4 26B",
-      "summary": "OpenRouter 上新增免费容量，由 @eigenlabs 的 Darkbloom 提供：gpt-oss-20b 和 Gemma 4 26B。\n今天就开始使用这些模型吧 ↓",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2066585705581797616",
-      "publishedAt": "2026-06-15T18:16:42.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "下一代投机解码：DFlash 与 Spec V2",
-      "summary": "Z Lab、Modal 与 SGLang 团队联合发布 DFlash 投机解码模型和 SGLang 的默认 Spec V2 引擎。DFlash 采用块扩散+KV 注入并行生成整块 draft token，在 Qwen 3.5 397B-A17B（BF16）的 HumanEval 数据集上、并发 1 时吞吐量达到基线的 4.3",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2",
-      "publishedAt": "2026-06-15T17:25:17.048Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "免费LLM API比较：速率限制、模型与真实成本（2026）",
-      "summary": "13个平台提供免费LLM API，含永久免费层与试用额度。OpenRouter拥有20+免费模型，单密钥无需信用卡；Groq以约320 tokens/秒运行Llama 3.3 70B；Google AI Studio支持1M上下文；Mistral实验层约10亿token/月但需同意数据训练；Cerebras约1M token/天；GitHub Models提供GPT-4o、Claude 3.5 Sonnet等前沿模型。各免费层有速率限制、数据训练授权、上下文缩减等隐藏成本，建议早期测试2-3个方案并设置故障转移。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared",
-      "publishedAt": "2026-06-15T17:00:00.000Z"
     }
   ]
 }
