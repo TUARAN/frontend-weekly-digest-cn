@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-06-16T12:37:12.135Z",
-  "count": 24,
+  "updatedAt": "2026-06-16T14:39:08.782Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "行业",
+      "title": "马斯克：AI将达Stockfish级编码",
+      "summary": "AI 将实现 Stockfish 级别的编码和通用计算机使用",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "href": "https://x.com/elonmusk/status/2066880262668247091",
+      "publishedAt": "2026-06-16T13:47:10.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
+      "summary": "小米推出云端轻量化 Claw 类产品 MiMo Claw 正式版，搭载与 OpenClaw 框架深度适配的 MiMo-V2.5-Pro 旗舰模型。该模型原生兼容 MCP 工具调用协议，内置百万级超长上下文，支持单会话千次以上连续工具调用；依托 MTP 三层解码架构，在 OpenClaw 标准 Agent 工作流中吞吐效率提升约 3 倍。ClawEval 测试中任务达标率（Pass3）达 63.8%，Token 消耗较同类产品降低 40%-60%。联动金山办公生态，提供 Word、Excel、PPT、PDF 等格式的 AI 生成、预览与在线编辑一站式服务。免费用户每日单次体验时长从1小时升级至4小时，面向高频用户推出 TokenPlan 分层订阅（Lite/Standard/Pro/Max），支持灵活叠加，限时定价14.9元/月、19.9元/月、233.8元/年。",
+      "source": "公众号：小米 MiMo",
+      "href": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
+      "publishedAt": "2026-06-16T13:32:48.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
+      "summary": "美国司法部在一份驳回诉讼的动议中称，xAI的聊天机器人Grok对军事行动至关重要，以此为其在密西西比州Southaven的Colossus 2设施运行未经许可的燃气轮机辩护。NAACP已提起诉讼，指控xAI的燃气轮机数量从4月的27台增至57台，导致氮氧化物排放飙升111%。国防部首席数字与人工智能官Cameron Stanley表示，Grok是支持机密和绝密网络军事任务的四款AI模型之一，包括近期针对伊朗的打击。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
+      "publishedAt": "2026-06-16T13:23:33.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "2025年OpenAI亏损额激增近8倍，支出高达340亿美元",
+      "summary": "据Hacker News热门文章，OpenAI在2025年亏损额激增近8倍，年度总支出达到340亿美元。原文来自wheresyoured.at的独家财务分析报道，该信息在Hacker News上获得超过100个点赞。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.wheresyoured.at/exclusive-openai-financials",
+      "publishedAt": "2026-06-16T13:01:23.690Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "WorkBuddy日活飙升至行业第二的3-4倍，非技术用户涌入",
+      "summary": "从3月至今，WorkBuddy日活用户数已达行业第二名的3-4倍，用户不再限于开发者，大量HR、运营、行政等非技术岗位也在使用。其企业版和项目功能进一步扩展了Agent办公场景。同期，Trae Work、QoderWork、Kimi Work等产品纷纷改名或出新，争夺市场。腾讯云认为这可能是十年一遇的机遇。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/iAgbUzPrsbpqvu4s2XiH0g",
+      "publishedAt": "2026-06-16T12:42:11.000Z"
+    },
     {
       "topic": "行业",
       "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
@@ -177,22 +217,6 @@
       "source": "公众号：MiniMax（稀宇科技）",
       "href": "https://mp.weixin.qq.com/s/AW6L89QZkwN-jD27hQ84ww",
       "publishedAt": "2026-06-15T14:40:02.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Salesforce以36亿美元收购AI客服平台Fin",
-      "summary": "Salesforce宣布以36亿美元收购AI客服平台Fin（前身为Intercom）。Fin提供可跨实时聊天、WhatsApp、短信、电话、Slack等多渠道解决客户问题的AI智能体。Salesforce计划利用Fin的技术和团队增强其企业级Agentforce平台，该平台允许企业构建自定义AI智能体以自动化任务。交易预计在Salesforce 2027财年第四季度（即2027年初）完成。Fin联合创始人兼CEO Eoghan McCabe将继续担任CEO，研发负责人Des继续领导研发。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b",
-      "publishedAt": "2026-06-15T14:34:45.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Skydio CEO Adam Bry：硅谷不应为无人机使用画红线",
-      "summary": "Skydio是美国最大的无人机制造商，主攻公共安全、军事、能源、基建巡检等企业市场。CEO Adam Bry表示，特朗普政府去年底禁止中国产无人机后，廉价消费级无人机几乎消失，Skydio产品成为主要替代方案。公司认为无人机正从工具转向自主基础设施--通过机库、远程操控和软件整合实现规模化应用，AI在其中扮演关键角色。访谈还涉及Skydio与军方合作的态度，以及自主技术如何带动公司扩张。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
-      "publishedAt": "2026-06-15T14:00:00.000Z"
     }
   ]
 }
