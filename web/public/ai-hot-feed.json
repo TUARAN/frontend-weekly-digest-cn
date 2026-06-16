@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-16T21:52:23.833Z",
-  "count": 27,
+  "updatedAt": "2026-06-16T22:40:07.003Z",
+  "count": 29,
   "items": [
+    {
+      "topic": "行业",
+      "title": "美司法部以国家安全为由试图驳回NAACP对xAI燃气轮机的诉讼",
+      "summary": "美国司法部援引国家安全理由，试图驳回NAACP针对xAI及其子公司MZX Tech提起的《清洁空气法》诉讼。诉讼指控xAI在密西西比州未获空气许可即运行27台燃气轮机（后增至57台），为支撑Grok的Colossus 2数据中心供电。司法部称该诉讼威胁AI创新及国家安全，并指Grok Gov Model在军事行动中发挥了关键作用。密西西比州环境质量部认定这些涡轮机为\"移动源\"无需许可。NAACP寻求永久禁令及最高每日124，426美元民事罚款。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
+      "publishedAt": "2026-06-16T22:22:44.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
+      "summary": "Midjourney V8.1 的 Draft mode 草稿模式每次生成24张低分辨率低质量图片。用户可对任意图片点击 \"Vary\"，将其渲染为全质量、全分辨率版本。草稿任务消耗的快速小时数减半。",
+      "source": "Midjourney：Updates（RSS）",
+      "href": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
+      "publishedAt": "2026-06-16T22:04:29.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 的领先优势正在快速缩小",
+      "summary": "评论认为 OpenAI 正面临多重危机：缺乏护城河导致市场领先地位下滑；最大投资者微软持续疏远，近期甚至公开考虑将主要产品外包给中国；亏损速度远超预期，年亏损额以 8 倍增长。华盛顿方面可能打压 Anthropic，但也可能反而帮助其崛起，而 Elon Musk 成为另一个潜在的竞标者。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "href": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
+      "publishedAt": "2026-06-16T21:54:47.000Z"
+    },
     {
       "topic": "论文",
       "title": "Anthropic：智能体编码中专业知识回报持续存在",
@@ -73,14 +97,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
       "publishedAt": "2026-06-16T13:23:33.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "2025年OpenAI亏损额激增近8倍，支出高达340亿美元",
-      "summary": "据Hacker News热门文章，OpenAI在2025年亏损额激增近8倍，年度总支出达到340亿美元。原文来自wheresyoured.at的独家财务分析报道，该信息在Hacker News上获得超过100个点赞。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.wheresyoured.at/exclusive-openai-financials",
-      "publishedAt": "2026-06-16T13:01:23.690Z"
     },
     {
       "topic": "技巧",
