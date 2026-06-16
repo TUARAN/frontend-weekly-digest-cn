@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-16",
+  "displayDate": "Jun 16",
+  "dateNum": "0616",
+  "year": 2026,
+  "dayOfWeek": "TUE",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "X：阿易 AI Notes (@AYi_AInotes) · GitHub Blog · 公众号：月之暗面（Kimi） 等",
+  "count": 5,
+  "highlights": [
+    "五角大楼将大部分日常AI工作流从Anth",
+    "GitHub Copilot CLI 初",
+    "6倍速！Kimi K2.7 Code 高",
+    "AI裁员浪潮成为火药桶",
+    "项目负责人揭秘为何苹果 AI 版 Sir"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "五角大楼将大部分日常AI工作流从Anthropic转移，目标9月前完全切断",
+      "summary": "五角大楼宣布已将超2/3日常AI工作流从Anthropic转移，目标9月前清零。起因是年初五角大楼要求Anthropic签署协议允许Claude用于大规模监控和全自动武器，CEO Dario Amodei以模型不可靠为由拒绝。五角大楼将其列为\"供应链风险\"，起诉未果。OpenAI调整立场获得订单。Polymarket预测6月底前和解概率仅9%。此事件凸显AI公司需在原则与政府合作间抉择。",
+      "reason": "行业整合信号值得关注，可能影响生态格局"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "GitHub Copilot CLI 初学者指南：常用斜杠命令概览",
+      "summary": "GitHub Copilot CLI 为初学者提供了常用斜杠命令的概述，帮助用户通过命令控制终端中的 AI 智能体。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "6倍速！Kimi K2.7 Code 高速版已上线",
+      "summary": "Kimi K2.7 Code 高速版上线，与普通版为同一模型，输出速度约 5-6 倍，常规编程场景约 180 Token/s，短上下文可达 260 Token/s。API 定价为普通版 2 倍，模型 ID：kimi-k2.7-code-highspeed。Kimi Code Plan 用户可通过「抢先体验计划」使用，用量消耗为普通版 3 倍。使用须开启思考模式，关闭会报错或回退至 K2.6。庆祝发布，Kimi API 开放平台推出为期三周充赠活动，充值 500 元及以上享 20%-30% 代金券。相比 K2.6，K2.7 Code 在长上下文编程指令遵循、长程任务性能提升，平均 token 消耗减少 30%，内部基准测试显著提升。普通版输入 6.5 元/百万 token、输出 27 元，缓存输入 1.3 元。非编程任务推荐 K2.6。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "AI裁员浪潮成为火药桶",
+      "summary": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是\"银弹借口\"。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
+      "reason": "大额资本动向反映赛道景气度，影响长期技术投入"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
+      "summary": "苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建。重构后的Siri拥有独立应用程序，原生支持多模态交互，隐私保护贯穿底层架构，并覆盖iPhone、iPad、Mac、Apple Watch、Vision Pro、CarPlay、AirPods等全平台，提供统一连贯体验。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}

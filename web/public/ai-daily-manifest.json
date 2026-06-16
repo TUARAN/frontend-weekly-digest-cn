@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-16",
+      "displayDate": "Jun 16",
+      "json": "/ai-daily/2026-06-16.json",
+      "count": 5,
+      "highlights": [
+        "五角大楼将大部分日常AI工作流从Anth",
+        "GitHub Copilot CLI 初",
+        "6倍速！Kimi K2.7 Code 高",
+        "AI裁员浪潮成为火药桶",
+        "项目负责人揭秘为何苹果 AI 版 Sir"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "displayDate": "Jun 15",
       "json": "/ai-daily/2026-06-15.json",
@@ -247,5 +260,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-15"
+  "latest": "2026-06-16"
 }
