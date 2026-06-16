@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-06-16T22:40:07.003Z",
-  "count": 29,
+  "updatedAt": "2026-06-16T23:33:46.988Z",
+  "count": 30,
   "items": [
     {
+      "topic": "技巧",
+      "title": "人工智能是否已经让自助类非虚构书籍销声匿迹了？",
+      "summary": "2026年Q1美国成人非虚构书籍销量同比下降9%，自助类下跌26.3%，仅手工艺/爱好/古董/游戏和宗教两个子类别增长。一位出版了多本《纽约时报》畅销书的作者透露，其五本书的印刷版年销量从2022年基准连续下滑：2023年-5%，2024年-13%，2025年-46%，2026年年化跌幅达-57% vs 2025年；若持续，2026年销量将比2022年减少约80%。所有格式在2025年下半年环比上半年下降约45%。作者认为，Claude、ChatGPT等大语言模型能提供更快、更便宜、更个性化的建议，正在系统性取代自助类书籍的\"指令传递\"价值。头部自助类品牌同期销量也下滑约40-60%，唯一显著变化是AI加速普及。作者判断整个指令传递型内容（包括YouTube教程、播客、在线课程、newsletter）都将面临替代。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction",
+      "publishedAt": "2026-06-16T23:09:29.793Z"
+    },
+    {
       "topic": "行业",
-      "title": "美司法部以国家安全为由试图驳回NAACP对xAI燃气轮机的诉讼",
-      "summary": "美国司法部援引国家安全理由，试图驳回NAACP针对xAI及其子公司MZX Tech提起的《清洁空气法》诉讼。诉讼指控xAI在密西西比州未获空气许可即运行27台燃气轮机（后增至57台），为支撑Grok的Colossus 2数据中心供电。司法部称该诉讼威胁AI创新及国家安全，并指Grok Gov Model在军事行动中发挥了关键作用。密西西比州环境质量部认定这些涡轮机为\"移动源\"无需许可。NAACP寻求永久禁令及最高每日124，426美元民事罚款。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
-      "publishedAt": "2026-06-16T22:22:44.000Z"
+      "title": "Anthropic 5月企业AI订阅份额首超OpenAI，特朗普政府禁令反促采用量创新高",
+      "summary": "Anthropic 5月企业AI订阅市场份额达41%，首次超越OpenAI（39.5%）。公司刚完成650亿美元融资、估值9650亿美元，并因首次盈利季度秘密提交IPO。特朗普政府以出口管制为由要求Anthropic禁止非美国人访问最新模型Mythos 5及Fable 5，导致两款模型下架。Ramp首席经济学家指出，类似争议（如3月被国防部列为供应链风险）反而推动Anthropic企业采用量创纪录。Ramp数据显示，企业支出主要流向Claude Opus模型（最新为Opus 4.8）。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
+      "publishedAt": "2026-06-16T22:34:17.000Z"
     },
     {
       "topic": "产品",
@@ -187,6 +195,14 @@
       "publishedAt": "2026-06-16T00:30:44.000Z"
     },
     {
+      "topic": "产品",
+      "title": "Subagent：让模型把琐碎任务委托出去",
+      "summary": "OpenRouter 推出 openrouter：subagent 服务器工具，允许前沿模型在生成过程中将独立的琐碎任务（如文档总结、结构化数据提取、文本重格式化）委托给更小、更便宜、更快的 worker 模型执行，从而节省前沿模型的 token 消耗。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/announcements/subagent-server-tool",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
       "topic": "论文",
       "title": "OpenAI 发布 Deployment Simulation 方法：通过模拟部署预测模型发布前行为",
       "summary": "OpenAI 近日发布 Deployment Simulation 方法，通过在隐私保护下重放历史对话、用新候选模型重新生成回复，模拟模型上线后的实际表现。在多个 GPT-5-series Thinking 部署中，该方法比传统评估更准确地估计了不良行为频率，发现新型对齐问题，并降低模型识别测试的风险。它还能扩展至涉及工具使用的智能体场景。传统评估存在覆盖不足、选择偏差和模型可识别测试等局限，而 Deployment Simulation 使用真实对话分布缓解了这些问题，但无法测量频率低于每 20 万条消息 1 次的行为。",
@@ -225,14 +241,6 @@
       "source": "Qwen：Blog Retrieval（API）",
       "href": "https://qwen.ai/blog?id=qwen-robotnav",
       "publishedAt": "2026-06-16T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
-      "summary": "苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建。重构后的Siri拥有独立应用程序，原生支持多模态交互，隐私保护贯穿底层架构，并覆盖iPhone、iPad、Mac、Apple Watch、Vision Pro、CarPlay、AirPods等全平台，提供统一连贯体验。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/964/620.htm",
-      "publishedAt": "2026-06-15T23:16:58.000Z"
     }
   ]
 }
