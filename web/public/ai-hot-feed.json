@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-06-16T03:13:20.772Z",
-  "count": 20,
+  "updatedAt": "2026-06-16T05:54:08.515Z",
+  "count": 21,
   "items": [
-    {
-      "topic": "行业",
-      "title": "Anthropic 与政府就 Claude Mythos 5 的冲突内幕",
-      "summary": "上周五，Anthropic 收到美国出口管制指令，要求暂停向所有外国公民（包括内部外籍员工）开放 Mythos 5 和 Fable 5 的访问权限，否则政府将依据商务部职权实施出口管制。Anthropic 被迫完全禁用这两款模型，并派员赴华盛顿与特朗普政府谈判。Mythos 5 和 Fable 5 基于此前被 Anthropic 称为危险性过高的 Mythos Preview 构建，但 Anthropic 辩称政府引用的越狱漏洞是狭隘、非普遍的，且 OpenAI 的 GPT-5.5 也能实现同等能力。亚马逊 CEO Andy Jassy 可能曾向政府报告了亚马逊红队测试结果，但 Anthropic 称该测试结论在 GPT-5.5 上同样成立。周末，Anthropic 安全负责人 Dave Orr 等高管与财政部长 Scott Bessent、商务部长 Howard Lutnick 等进行了多次沟通。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
-      "publishedAt": "2026-06-16T03:00:00.000Z"
-    },
     {
       "topic": "产品",
       "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
@@ -17,14 +9,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/964/691.htm",
       "publishedAt": "2026-06-16T02:39:06.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告",
-      "summary": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告，系统公开 Ling-2.6-flash、Ling-2.6-1T 和 Ring-2.6-1T 的架构、预训练、后训练及 Agent 强化学习细节。三款模型采用 Hybrid Linear Attention 架构，将 Lightning Attention 与 MLA 以 7：1 比例结合。Ling-2.6-flash 在 4×H20 硬件上解码速度达 340 tokens/s，Ling-2.6-1T 在 Artificial Analysis Intelligence Index 上 token efficiency 较前代提升约 4 倍。Ring-2.6-1T high 在 PinchBench 得 87.60，ClawEval 得 63.82。三款模型均已开源。",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "href": "https://mp.weixin.qq.com/s/j8ZXKvDZzMkSSiUyXecqGA",
-      "publishedAt": "2026-06-16T02:23:34.000Z"
     },
     {
       "topic": "技巧",
@@ -65,6 +49,30 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2066679835607412846",
       "publishedAt": "2026-06-16T00:30:44.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Qwen-RobotManip：对齐解锁机器人操作基础模型的规模化能力",
+      "summary": "Qwen-RobotManip 是通义千问基于 Qwen-VL 的视觉-语言-动作（VLA）基础模型，引入覆盖表示、运动和行为三维度的统一对齐框架。仅使用开源机器人数据集和人演示视频，构建约 38，100 小时预训练语料，涵盖 15 种机器人形态。在 LIBERO-Plus 达 91.4%，RoboTwin-C2R Hard 达 69.4%，RoboCasa365 Composite-Unseen 达 14.9%，EBench 达 45.6%，RoboTwin-IF 达 72.0%，并在 RoboChallenge Table30 v1 generalist track 夺冠。模型采用 80 维状态-动作表示、人-机器人数据合成管道（1，933 小时第一人称视频转 24，808 小时数据）及上下文策略适配。",
+      "source": "Qwen：Blog Retrieval（API）",
+      "href": "https://qwen.ai/blog?id=qwen-robotmanip",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Qwen-RobotWorld：具身智能体的无界世界",
+      "summary": "Qwen-RobotWorld以语言为统一动作接口，采用双流Multimodal Diffusion Transformer（MMDiT）架构，将Qwen2.5-VL作为动作编码器。在4个基准测试中取得顶尖成绩，统一20余种机器人形态，基于860万跨场景训练对和1300多项操作技能。语言接口标准化500多种动作类别，支持操作、自动驾驶、室内导航的联合训练。还支持Scene2Robot人类到机器人转移及2-4路多视角几何一致视频生成。",
+      "source": "Qwen：Blog Retrieval（API）",
+      "href": "https://qwen.ai/blog?id=qwen-robotworld",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Qwen-RobotNav：面向智能体导航系统的可扩展导航模型",
+      "summary": "Qwen 发布 Qwen-RobotNav，基于 Qwen3-VL 在 15.6M 样本上训练，统一了视觉语言导航、目标导航、目标跟踪、自动驾驶和具身问答五个领域，无需修改架构即可在推理时切换任务模式和观察参数。模型在多项基准取得 SOTA：VLN-CE RxR 成功率 76.5%，HM3Dv2 目标导航 75.6%（仅 RGB），EVT-Bench 跟踪率 90.0%，NAVSIM PDMS 91.4，以及三项 EQA 新标杆。模型暴露四个可调轴（视觉 token 预算、时间衰减、相机权重、帧采样模式）。作为智能体系统的一部分，上层规划器 Qwen3.7-Plus 在 EXPRESS-Bench 上提升 15.4%，导航步数减少 77%。模型已零样本部署在 Unitree Go2 四足机器人上，无需环境微调。",
+      "source": "Qwen：Blog Retrieval（API）",
+      "href": "https://qwen.ai/blog?id=qwen-robotnav",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
     },
     {
       "topic": "技巧",
