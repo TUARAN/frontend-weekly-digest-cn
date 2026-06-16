@@ -1,14 +1,22 @@
 {
-  "updatedAt": "2026-06-16T18:32:04.415Z",
-  "count": 23,
+  "updatedAt": "2026-06-16T20:04:40.194Z",
+  "count": 28,
   "items": [
     {
-      "topic": "模型",
-      "title": "GLM-5.2 发布：1M 上下文窗口，MIT 开源权重",
-      "summary": "GLM-5.2 作为开放权重模型发布，采用 MIT 许可，拥有 1M 上下文窗口。提供两种推理模式：max（极限推理）和 high（平衡性能与 token 效率）。在编码和智能体任务上有显著提升，专为大规模实现、自动化研究、性能优化和复杂调试训练。API 定价与 GLM-5.1 保持一致。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2066947839591084212",
-      "publishedAt": "2026-06-16T18:15:41.000Z"
+      "topic": "论文",
+      "title": "Anthropic：智能体编码中专业知识回报持续存在",
+      "summary": "Anthropic 基于约40万次 Claude Code 交互会话（2025年10月至2026年4月）分析发现：人类主导规划决策（做什么），Claude 主导执行决策（怎么做）。领域专业知识越强，模型每次指令完成的工作量越多。各类职业完成任务的成功率与软件工程师平均相近；领域专家成功率更高，但与中级用户差距不大。七个月间调试会话占比下降近一半，使用转向端到端智能体任务（部署运行代码、分析数据、编写非代码文档），典型任务价值平均上升约25%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/research/claude-code-expertise",
+      "publishedAt": "2026-06-16T19:35:22.252Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Meta 解散工程部门引发热议",
+      "summary": "6月16日，一篇标题为\"Why is Meta destroying its engineering organization？\"的博客文章出现在 Hacker News，获得110个点赞。文章指出 Meta 正在解散其工程组织，引发业界广泛讨论。具体原因和后续影响尚未明确。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "publishedAt": "2026-06-16T18:37:24.744Z"
     },
     {
       "topic": "行业",
@@ -17,6 +25,22 @@
       "source": "X：Kim (@kimmonismus)",
       "href": "https://x.com/kimmonismus/status/2066946013026263110",
       "publishedAt": "2026-06-16T18:08:26.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "公开聊天数据能否预测真实世界AI失调？",
+      "summary": "OpenAI利用WildChat公开数据集（2023年4月至2024年5月收集的100万条对话）模拟模型部署，预测GPT-5.1、GPT-5.2、GPT-5.4在真实生产环境中的不良行为率。与私有生产数据对比发现，WildChat模拟的平均预测误差约3倍；但对技术性和智能体型失调的预测精度下降。研究验证了公开数据集作为外部审计工具的可行性。",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "href": "https://alignment.openai.com/validating-public-evals",
+      "publishedAt": "2026-06-16T18:00:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+      "summary": "美国政府对 Anthropic 的模型 Fable 实施封禁，但 TechCrunch 发文质疑，实际原因可能并非此前认为的\"模型越狱\"问题。该文章在 Hacker News 引发讨论，获得 103 个点赞。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak",
+      "publishedAt": "2026-06-16T16:45:18.627Z"
     },
     {
       "topic": "产品",
@@ -99,6 +123,14 @@
       "publishedAt": "2026-06-16T06:42:30.000Z"
     },
     {
+      "topic": "行业",
+      "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
+      "summary": "微软旗下GitHub面临AI算力短缺，微软因此转向亚马逊AWS寻求计算资源支持。原文来自Hacker News热门讨论，标题为\"Microsoft turns to AWS as GitHub faces AI capacity crunch\"。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+      "publishedAt": "2026-06-16T04:29:10.241Z"
+    },
+    {
       "topic": "产品",
       "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
       "summary": "支付宝今日开启 AI 版邀测，用户可右滑进入新版界面，在对话框或语音中输入指令，由\"阿宝\"助手代办事项。以查询公积金为例，阿宝自动匹配对应小程序和服务入口，用户点击确认即可完成，将多步跳转折叠为一句指令。所有涉及资金变动和支付的环节均需用户本人确认。首批放出 100 个邀请码。",
@@ -137,6 +169,14 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2066679835607412846",
       "publishedAt": "2026-06-16T00:30:44.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 发布 Deployment Simulation 方法：通过模拟部署预测模型发布前行为",
+      "summary": "OpenAI 近日发布 Deployment Simulation 方法，通过在隐私保护下重放历史对话、用新候选模型重新生成回复，模拟模型上线后的实际表现。在多个 GPT-5-series Thinking 部署中，该方法比传统评估更准确地估计了不良行为频率，发现新型对齐问题，并降低模型识别测试的风险。它还能扩展至涉及工具使用的智能体场景。传统评估存在覆盖不足、选择偏差和模型可识别测试等局限，而 Deployment Simulation 使用真实对话分布缓解了这些问题，但无法测量频率低于每 20 万条消息 1 次的行为。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/deployment-simulation",
+      "publishedAt": "2026-06-16T00:00:00.000Z"
     },
     {
       "topic": "产品",
