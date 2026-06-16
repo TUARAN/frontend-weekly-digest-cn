@@ -1,7 +1,71 @@
 {
-  "updatedAt": "2026-06-16T01:03:30.249Z",
-  "count": 12,
+  "updatedAt": "2026-06-16T03:13:20.772Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 与政府就 Claude Mythos 5 的冲突内幕",
+      "summary": "上周五，Anthropic 收到美国出口管制指令，要求暂停向所有外国公民（包括内部外籍员工）开放 Mythos 5 和 Fable 5 的访问权限，否则政府将依据商务部职权实施出口管制。Anthropic 被迫完全禁用这两款模型，并派员赴华盛顿与特朗普政府谈判。Mythos 5 和 Fable 5 基于此前被 Anthropic 称为危险性过高的 Mythos Preview 构建，但 Anthropic 辩称政府引用的越狱漏洞是狭隘、非普遍的，且 OpenAI 的 GPT-5.5 也能实现同等能力。亚马逊 CEO Andy Jassy 可能曾向政府报告了亚马逊红队测试结果，但 Anthropic 称该测试结论在 GPT-5.5 上同样成立。周末，Anthropic 安全负责人 Dave Orr 等高管与财政部长 Scott Bessent、商务部长 Howard Lutnick 等进行了多次沟通。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+      "publishedAt": "2026-06-16T03:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+      "summary": "支付宝今日开启 AI 版邀测，用户可右滑进入新版界面，在对话框或语音中输入指令，由\"阿宝\"助手代办事项。以查询公积金为例，阿宝自动匹配对应小程序和服务入口，用户点击确认即可完成，将多步跳转折叠为一句指令。所有涉及资金变动和支付的环节均需用户本人确认。首批放出 100 个邀请码。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/964/691.htm",
+      "publishedAt": "2026-06-16T02:39:06.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告",
+      "summary": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告，系统公开 Ling-2.6-flash、Ling-2.6-1T 和 Ring-2.6-1T 的架构、预训练、后训练及 Agent 强化学习细节。三款模型采用 Hybrid Linear Attention 架构，将 Lightning Attention 与 MLA 以 7：1 比例结合。Ling-2.6-flash 在 4×H20 硬件上解码速度达 340 tokens/s，Ling-2.6-1T 在 Artificial Analysis Intelligence Index 上 token efficiency 较前代提升约 4 倍。Ring-2.6-1T high 在 PinchBench 得 87.60，ClawEval 得 63.82。三款模型均已开源。",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "href": "https://mp.weixin.qq.com/s/j8ZXKvDZzMkSSiUyXecqGA",
+      "publishedAt": "2026-06-16T02:23:34.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+      "summary": "当前毕业生面临论文AIGC率检测荒诞困境。学生手写摘要被判定99%AI率，纯AI写部分却为0%。学校要求AIGC率不超40%，学生用Claude反复修改并花上百元检测费（维普20元/篇，知网/万方2元/千字符），最终降至36.1%。答辩时老师要求改回学术表达，AI率回升至37.21%。同一论文在不同平台检测结果差异巨大（48%、44%、59%）。部分平台提供降重收费服务，少数学校已改用AI使用声明表替代一刀切检测。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/DRzNIiojGLO-iqqPyJ7f8Q",
+      "publishedAt": "2026-06-16T02:06:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "伯克利RDI发布Agents' Last Exam基准",
+      "summary": "2026年6月，伯克利RDI发布Agents' Last Exam（ALE）基准，包含1，500余项源于真实工作的任务，覆盖55个非体力职业。对Fable 5、GPT-5.5、Composer 2.5等前沿智能体的测评显示：在最困难层级成功率均为0%；整体任务表现接近，但单任务成本差异巨大（Fable 5约$15.70，GPT-5.5约$3.80，Composer 2.5约$1.33）。CLI子集ALE-CLI最佳通过率仅25.2%。主要失败模式是智能体未验证输出即宣称完成。数据集、代码及CLI子集已开源。",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "href": "https://rdi.berkeley.edu/blog/agents-last-exam",
+      "publishedAt": "2026-06-16T01:59:10.841Z"
+    },
+    {
+      "topic": "产品",
+      "title": "教育部\"阳光志愿\"信息服务系统全新升级上线：智能筛选志愿，数据权威可信",
+      "summary": "教育部\"阳光志愿\"信息服务系统今日全新升级上线，依托招生、学籍、就业等海量官方数据，免费为考生和家长提供志愿填报服务。系统支持31个省区市本专科普通批次志愿筛选，输入高考成绩、位次及个性化条件即可快速生成合理参考方案。AI助手\"智慧小招\"24小时在线解答政策规则。平台数据由高校直接报送、官方核验，真实可靠。同时推出专业倾向测评和21项生涯测评工具，帮助学生认清特长、规划未来。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/964/675.htm",
+      "publishedAt": "2026-06-16T01:56:49.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型",
+      "summary": "字节跳动火山引擎旗下火山方舟体验中心于 6 月 15 日上线 Seedance 2.0 Mini 视频生成模型，计划近期开放 API。该模型比 Seedance 2.0 Fast 快 2 倍，输出质量相当。图生视频定价 0.023 元/千 tokens，视频生视频 0.014 元/千 tokens，720P 规格下单秒生成成本约 0.5 元，较 Seedance 2.0 标准版降低约一半。模型面向电商内容生产、营销素材批量生成、UGC 创作及特效玩法等高频率、大规模视频生成场景。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/964/672.htm",
+      "publishedAt": "2026-06-16T01:49:40.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "五角大楼将大部分日常AI工作流从Anthropic转移，目标9月前完全切断",
+      "summary": "五角大楼宣布已将超2/3日常AI工作流从Anthropic转移，目标9月前清零。起因是年初五角大楼要求Anthropic签署协议允许Claude用于大规模监控和全自动武器，CEO Dario Amodei以模型不可靠为由拒绝。五角大楼将其列为\"供应链风险\"，起诉未果。OpenAI调整立场获得订单。Polymarket预测6月底前和解概率仅9%。此事件凸显AI公司需在原则与政府合作间抉择。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2066679835607412846",
+      "publishedAt": "2026-06-16T00:30:44.000Z"
+    },
     {
       "topic": "技巧",
       "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
