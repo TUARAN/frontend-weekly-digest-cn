@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-17T20:46:30.545Z",
+  "updatedAt": "2026-06-17T21:41:05.654Z",
   "count": 29,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Google 分享 A2UI 与 MCP Apps 三种集成架构模式",
+      "summary": "Google 分享了三种集成 A2UI 与 MCP Apps 的架构模式，旨在结合两者优势。A2UI 采用声明式框架，通过 JSON payload 定义 UI，由宿主原生渲染，确保一致性与安全性，但受限于预定义组件库。MCP Apps 在 iframe 中使用标准 Web 技术提供自定义界面，但存在设计碎片化、性能与安全挑战。三种模式包括：通过 MCP 服务器提供 A2UI，利用 MCP Resources 或 Tool 调用传递 JSON，实现\"一次编写，原生渲染\"的跨平台能力；以及静态与动态交付方案。Google 正考虑扩展 MCP 以原生支持 A2UI。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/a2ui-and-mcp-apps",
+      "publishedAt": "2026-06-17T21:13:53.385Z"
+    },
     {
       "topic": "产品",
       "title": "借助 Workload Identity Federation 安全访问 Claude Platform",
@@ -41,14 +49,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2067327021005656135",
       "publishedAt": "2026-06-17T19:22:25.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Design 新特性：跨项目品牌统一、画布编辑、同步Code",
-      "summary": "Claude Design 新功能：它在跨项目时与你的设计系统保持品牌一致，支持直接在画布上编辑，与 Claude Code 同步，并连接到更多你已经在使用的工具。",
-      "source": "X：Claude (@claudeai)",
-      "href": "https://x.com/claudeai/status/2067325887909884315",
-      "publishedAt": "2026-06-17T19:17:55.000Z"
     },
     {
       "topic": "行业",
