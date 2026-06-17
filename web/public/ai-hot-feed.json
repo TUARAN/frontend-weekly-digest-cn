@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-17T13:20:19.719Z",
-  "count": 21,
+  "updatedAt": "2026-06-17T15:07:50.614Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Cloudflare 发布 Cloudflare One stack：智能体驱动的部署工具集",
+      "summary": "6月17日，Cloudflare 推出 Cloudflare One stack，一组可直接赋予 AI 智能体的技能文件，用于自动配置、部署和管理 Zero Trust 环境。工具集包含两个轻量级 skill：`cloudflare-one` 负责通用产品指导（VPN 替换、网络连接、安全策略等），`cloudflare-one-migration` 提供从 Zscaler、Palo Alto Networks 等厂商迁移的明确引导。技能内置决策树与结构化知识，智能体可自动执行云环境评估、网络拓扑生成及 Digital Experience Monitoring 排障。该 stack 基于 Cloudflare 员工数万小时客户经验提炼，降低学习与迁移门槛。",
+      "source": "Cloudflare Blog",
+      "href": "https://blog.cloudflare.com/cloudflare-one-stack",
+      "publishedAt": "2026-06-17T13:00:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "阿里云发布HappyOyster 1.0：一句话生成可实时交互的数字世界",
@@ -145,30 +153,6 @@
       "source": "X：Satya Nadella (@satyanadella)",
       "href": "https://x.com/satyanadella/status/2066911399494963335",
       "publishedAt": "2026-06-16T15:50:53.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "马斯克：AI将达Stockfish级编码",
-      "summary": "AI 将实现 Stockfish 级别的编码和通用计算机使用",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "href": "https://x.com/elonmusk/status/2066880262668247091",
-      "publishedAt": "2026-06-16T13:47:10.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "小米 MiMo Claw 正式版发布：旗舰模型+金山办公，全新订阅服务上线",
-      "summary": "小米推出云端轻量化 Claw 类产品 MiMo Claw 正式版，搭载与 OpenClaw 框架深度适配的 MiMo-V2.5-Pro 旗舰模型。该模型原生兼容 MCP 工具调用协议，内置百万级超长上下文，支持单会话千次以上连续工具调用；依托 MTP 三层解码架构，在 OpenClaw 标准 Agent 工作流中吞吐效率提升约 3 倍。ClawEval 测试中任务达标率（Pass3）达 63.8%，Token 消耗较同类产品降低 40%-60%。联动金山办公生态，提供 Word、Excel、PPT、PDF 等格式的 AI 生成、预览与在线编辑一站式服务。免费用户每日单次体验时长从1小时升级至4小时，面向高频用户推出 TokenPlan 分层订阅（Lite/Standard/Pro/Max），支持灵活叠加，限时定价14.9元/月、19.9元/月、233.8元/年。",
-      "source": "公众号：小米 MiMo",
-      "href": "https://mp.weixin.qq.com/s/N5ac768a8LkhEjOVpkR1dQ",
-      "publishedAt": "2026-06-16T13:32:48.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
-      "summary": "美国司法部在一份驳回诉讼的动议中称，xAI的聊天机器人Grok对军事行动至关重要，以此为其在密西西比州Southaven的Colossus 2设施运行未经许可的燃气轮机辩护。NAACP已提起诉讼，指控xAI的燃气轮机数量从4月的27台增至57台，导致氮氧化物排放飙升111%。国防部首席数字与人工智能官Cameron Stanley表示，Grok是支持机密和绝密网络军事任务的四款AI模型之一，包括近期针对伊朗的打击。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
-      "publishedAt": "2026-06-16T13:23:33.000Z"
     }
   ]
 }
