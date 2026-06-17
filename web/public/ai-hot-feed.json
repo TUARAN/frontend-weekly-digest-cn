@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-17T17:05:44.025Z",
+  "updatedAt": "2026-06-17T18:56:11.412Z",
   "count": 21,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic与DeepMind CEO呼吁G7组建AI联盟排除中国",
+      "summary": "Dario Amodei（Anthropic）与Demis Hassabis（Google DeepMind）在G7闭门会议上呼吁组建美国主导的联盟，为人工智能制定全球规则和标准。Amodei指出，该联盟应以前沿模型和硬件（包括芯片及其他关键组件）的访问权限为手段，将中国排除在外。这一主张被评论为高技术新冷战的开端，竞争方将从根本上被剥夺参与权。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2067310431669223425",
+      "publishedAt": "2026-06-17T18:16:30.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "用SGLang-JAX在TPU上优化Ling-2.6-1T：一个Pallas核将MoE数据移动隐藏在计算中",
+      "summary": "SGLang-JAX现已支持inclusionAI的Ling-2.6-1T（1T稀疏MoE，63B激活参数，256路由专家，top-8路由加共享专家）在TPU v7x上高效推理。团队开发了Fused MoE V2--一个融合scatter、专家FFN和gather的Pallas核，通过将MoE数据移动隐藏在计算中，使MoE预填充延迟从5.16ms降至2.42ms（降幅53%），解码核延迟从0.249ms降至0.211ms（降幅约15%）。仅替换MoE核即提升预填充吞吐量24.8%，解码吞吐量18.5%-35.3%。在SGLang解码基准测试中，16块TPU v7x芯片输出吞吐量达16块H200 GPU的1.29倍（mc=128）至1.77倍（mc=512）。完整上线还包含混合KV/循环内存池、GLA线性注意力和单控制器数据并行支持。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "href": "https://www.lmsys.org/blog/2026-06-17-ling-2-6-tpu",
+      "publishedAt": "2026-06-17T17:53:38.527Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
+      "summary": "Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）。Eve 采用文件系统优先设计：每个智能体对应一个磁盘目录，目录结构直接映射模型、指令、工具、技能、连接、子智能体等能力，无需额外注册代码。内置六大生产级能力：持久执行（每步检查点，崩溃后可恢复）、沙箱计算、人机审批、安全连接（支持 MCP 和 OpenAPI）、多通道（Slack、Discord、Teams 等）以及追踪与评估（OpenTelemetry）。Vercel 内部运行了上百个智能体，包括数据分析工具 d0（月处理超3万查询）、自动销售代理 Lead Agent（年费约5000美元、回报32倍）和支持智能体 Vertex（自主解决92%工单）。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
+      "publishedAt": "2026-06-17T17:22:51.000Z"
+    },
     {
       "topic": "论文",
       "title": "NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验",
@@ -145,30 +169,6 @@
       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "href": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
       "publishedAt": "2026-06-16T21:54:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Meta 解散工程部门引发热议",
-      "summary": "6月16日，一篇标题为\"Why is Meta destroying its engineering organization？\"的博客文章出现在 Hacker News，获得110个点赞。文章指出 Meta 正在解散其工程组织，引发业界广泛讨论。具体原因和后续影响尚未明确。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
-      "publishedAt": "2026-06-16T18:37:24.744Z"
-    },
-    {
-      "topic": "行业",
-      "title": "微软考虑为 Copilot Cowork 集成 DeepSeek V4",
-      "summary": "微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项。Copilot Cowork 将放弃无限定价，转向按使用量计费，原因是成本过高（用户每周执行数百项任务导致费用激增）。若采用 DeepSeek，该模型将是可选的、经过微调与安全防护，并完全托管于 Azure。Axios 报道称微软已微调了一个可用模型，最终决定待定。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2066946013026263110",
-      "publishedAt": "2026-06-16T18:08:26.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "公开聊天数据能否预测真实世界AI失调？",
-      "summary": "OpenAI利用WildChat公开数据集（2023年4月至2024年5月收集的100万条对话）模拟模型部署，预测GPT-5.1、GPT-5.2、GPT-5.4在真实生产环境中的不良行为率。与私有生产数据对比发现，WildChat模拟的平均预测误差约3倍；但对技术性和智能体型失调的预测精度下降。研究验证了公开数据集作为外部审计工具的可行性。",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "href": "https://alignment.openai.com/validating-public-evals",
-      "publishedAt": "2026-06-16T18:00:00.000Z"
     }
   ]
 }
