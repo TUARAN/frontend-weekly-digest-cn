@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-17T18:56:11.412Z",
-  "count": 21,
+  "updatedAt": "2026-06-17T19:45:58.336Z",
+  "count": 22,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude Design与Replit联动，设计变应用",
+      "summary": "在Claude中设计。在Replit中构建。\n\n你现在可以将Claude Design中的设计发送到Replit，将其变成一个可工作的应用。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2067328501003497684",
+      "publishedAt": "2026-06-17T19:28:18.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic与DeepMind CEO呼吁G7组建AI联盟排除中国",
