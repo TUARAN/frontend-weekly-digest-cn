@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-17T11:37:09.032Z",
+  "updatedAt": "2026-06-17T13:20:19.719Z",
   "count": 21,
   "items": [
+    {
+      "topic": "产品",
+      "title": "阿里云发布HappyOyster 1.0：一句话生成可实时交互的数字世界",
+      "summary": "6月17日，阿里云发布开放式世界模型HappyOyster 1.0（快乐生蚝）。该产品基于原生多模态架构，支持多模态输入与音视频联合生成，可在生成过程中持续接收用户指令并实时响应画面。它深度学习物理世界状态转移规律，保持人物和环境长程一致性。官网开放\"实时导演\"与\"世界探索\"两种玩法：前者可随时叫停改写故事、与虚拟男友实时互动等；后者支持自由漫游、滑板冲刺、翼装滑翔、骑马奔驰、攻击打怪等交互。该产品已于今年4月16日开放内测，即日起至7月17日官网不定期掉落体验积分。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/965/652.htm",
+      "publishedAt": "2026-06-17T12:46:59.000Z"
+    },
     {
       "topic": "产品",
       "title": "Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人",
@@ -161,14 +169,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit",
       "publishedAt": "2026-06-16T13:23:33.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "WorkBuddy日活飙升至行业第二的3-4倍，非技术用户涌入",
-      "summary": "从3月至今，WorkBuddy日活用户数已达行业第二名的3-4倍，用户不再限于开发者，大量HR、运营、行政等非技术岗位也在使用。其企业版和项目功能进一步扩展了Agent办公场景。同期，Trae Work、QoderWork、Kimi Work等产品纷纷改名或出新，争夺市场。腾讯云认为这可能是十年一遇的机遇。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/iAgbUzPrsbpqvu4s2XiH0g",
-      "publishedAt": "2026-06-16T12:42:11.000Z"
     }
   ]
 }
