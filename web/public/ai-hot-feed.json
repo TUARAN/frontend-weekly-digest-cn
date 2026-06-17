@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-17T05:43:20.403Z",
-  "count": 23,
+  "updatedAt": "2026-06-17T07:56:05.765Z",
+  "count": 22,
   "items": [
     {
       "topic": "行业",
@@ -177,14 +177,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
       "publishedAt": "2026-06-16T08:18:58.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
-      "summary": "Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本。Ink 2 在 Artificial Analysis 的流式语音转文字排行榜上排名第一。Sonic 3.5 在实时文本转语音中位列榜首，首音频延迟约 82ms。Cartesia 成为目前唯一同时拥有 #1 听与说模型的提供商。",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "href": "https://x.com/testingcatalog/status/2066773392527655252",
-      "publishedAt": "2026-06-16T06:42:30.000Z"
     }
   ]
 }
