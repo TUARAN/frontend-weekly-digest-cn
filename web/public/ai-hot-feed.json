@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-17T19:45:58.336Z",
-  "count": 22,
+  "updatedAt": "2026-06-17T20:46:30.545Z",
+  "count": 29,
   "items": [
+    {
+      "topic": "产品",
+      "title": "借助 Workload Identity Federation 安全访问 Claude Platform",
+      "summary": "Workload Identity Federation （WIF） 已在 Claude Platform 上全面可用。WIF 兼容任何 OIDC 身份提供者，覆盖所有 Claude API 端点（包括第一方 SDK 和 Claude Code）。WIF 用短生命期凭证替代静态 API 密钥，并引入服务账户，每个工作负载拥有独立身份、角色和审计日志。Claude Console 提供引导设置流程，支持 Admin API 进行组织管理。API 密钥可并行使用以便逐步迁移。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/workload-identity-federation",
+      "publishedAt": "2026-06-17T20:44:36.833Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Design 更新：跨项目保持品牌一致，与Claude Code协同",
+      "summary": "6月17日，Claude Design 更新，支持跨项目使用统一设计系统，并与Claude Code同步工作流。用户可直接拖拽、对齐和缩放画布元素，编辑器稳定性大幅提升。设计系统可从GitHub、设计文件或原始上传导入，团队管理员可锁定标准系统防止篡改。新增桌面端侧边栏入口及独立网页端claude.ai/design。使用限制与聊天、Claude Cowork、Claude Code共享，每次任务消耗更少token，错误率下降。支持导出PDF、PPT，集成Adobe、Canva、Gamma等工具。发布首周用户超一百万。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+      "publishedAt": "2026-06-17T20:44:36.833Z"
+    },
+    {
+      "topic": "产品",
+      "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR",
+      "summary": "GitHub 推出一个新的仓库级数据集，采用 CC0-1.0 许可证，旨在帮助研究人员和开发者发现跨 README、Issue 和 Pull Request 的多语言开发者内容，加速多语言 AI 开发。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
+      "publishedAt": "2026-06-17T19:41:46.000Z"
+    },
     {
       "topic": "产品",
       "title": "Claude Design与Replit联动，设计变应用",
@@ -9,6 +33,22 @@
       "source": "X：Replit (@Replit)",
       "href": "https://x.com/Replit/status/2067328501003497684",
       "publishedAt": "2026-06-17T19:28:18.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Matt Pocock 开源 skills v1：将技能描述 Token 成本降低 63%",
+      "summary": "Matt Pocock（Total TypeScript 作者）开源了 skills v1，将技能描述的 Token 成本降低 63%。该工具包将技能分为模型可调用和用户可调用，新增 /codebase-design、/domain-modeling、/grilling 三项技能；重写 /writing-great-skills；将 /diagnose 更新为 /diagnosing-bugs 并改为模型可调用；新增 /ask-matt 路由技能，帮助 AI 自动判断时机触发合适工程流程。主推文评价其将 prompt 从咒语拆解为纪律性流程。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2067327021005656135",
+      "publishedAt": "2026-06-17T19:22:25.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Design 新特性：跨项目品牌统一、画布编辑、同步Code",
+      "summary": "Claude Design 新功能：它在跨项目时与你的设计系统保持品牌一致，支持直接在画布上编辑，与 Claude Code 同步，并连接到更多你已经在使用的工具。",
+      "source": "X：Claude (@claudeai)",
+      "href": "https://x.com/claudeai/status/2067325887909884315",
+      "publishedAt": "2026-06-17T19:17:55.000Z"
     },
     {
       "topic": "行业",
@@ -145,6 +185,22 @@
       "source": "X：宝玉 (@dotey)",
       "href": "https://x.com/dotey/status/2067039941960327204",
       "publishedAt": "2026-06-17T00:21:40.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "LifeSciBench 发布",
+      "summary": "2026 年 6 月，OpenAI 联合 173 位博士级生命科学家发布 LifeSciBench 评测基准，涵盖 750 个真实研究任务，覆盖证据处理、分析、设计优化等七个工作流及七个生物领域。每项任务配有约 25 条细化评分标准（共 19，020 条），评估模型的科学正确性与实用价值。79% 的任务需多步推理，53% 要求解读图表、PDF 等附件数据，旨在衡量 AI 在复杂、不确定的研究任务中的实际能力，而非仅回答结构化问题。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/introducing-life-sci-bench",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Grok 4.3 在 Amazon Bedrock 正式可用",
+      "summary": "6 月 17 日，xAI 宣布 Grok 4.3 在 Amazon Bedrock 上全面可用。该模型在前沿模型中达成最低幻觉率，支持 100 万 token 上下文窗口，并提供可配置推理努力（none/low/medium/high）。在 Artificial Analysis Omniscience 基准排名第一，在 Tau2 Telecom 基准评估客服智能体真实工具调用性能排名第一，在 Vals AI Case Law 和 Corporate Finance 基准的复杂文档理解任务排名第一。定价为输入每百万 token 1.25 美元、输出每百万 token 2.50 美元，每美元智能度是其他前沿模型的 2-10 倍。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/grok-amazon-bedrock",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
     },
     {
       "topic": "技巧",
