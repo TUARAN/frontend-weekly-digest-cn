@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-17T07:56:05.765Z",
-  "count": 22,
+  "updatedAt": "2026-06-17T09:46:03.082Z",
+  "count": 20,
   "items": [
     {
       "topic": "行业",
@@ -25,14 +25,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/965/248.htm",
       "publishedAt": "2026-06-17T02:50:01.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "GLM-5.2上线并开源：专注Coding与长程任务",
-      "summary": "智谱今日发布并开源GLM-5.2，在前端开发盲测系统Code Arena上取得全球可用模型第一。该模型专为长程任务设计，实现1M无损上下文，支持跨越数天的任务执行。在FrontierSWE上仅比Claude Opus 4.8低1%，超过GPT-5.5（1%）和Opus 4.7（11%）；Terminal-Bench 2.1上比Opus 4.8低4%，较GLM-5.1提升17.5%。引入思考档位控制，Coding能力介于Opus 4.7与4.8之间。提出IndexShare架构降低单位FLOPs至2.9倍，改进MTP层提升接受长度20%。已在华为昇腾等国产算力平台适配。模型权重以MIT协议开源，API已上线并纳入GLM Coding Plan。",
-      "source": "公众号：智谱（GLM）",
-      "href": "https://mp.weixin.qq.com/s/hrZcV05ZSIKvd1dzSqDNDQ",
-      "publishedAt": "2026-06-17T01:10:42.000Z"
     },
     {
       "topic": "技巧",
@@ -115,6 +107,14 @@
       "publishedAt": "2026-06-16T16:45:18.627Z"
     },
     {
+      "topic": "模型",
+      "title": "GLM-5.2 上线并开源：专注 Coding 与长程任务",
+      "summary": "GLM-5.2 已发布并开源，采用 MIT 协议，支持 1M 上下文窗口。Coding 方面能承载项目级上下文，长程任务执行更稳定，遵循生产级工程规范，并支持客户端与移动端真机调试闭环。通过极致 Infra 优化，发布首日即可在国产算力平台运行。模型已开源至 GitHub、Hugging Face、ModelScope、BigModel 开放平台、Z.ai、智谱清言、AutoClaw 及 ZCode。",
+      "source": "智谱：研究（网页内嵌数据）",
+      "href": "https://www.zhipuai.cn/zh/research/161",
+      "publishedAt": "2026-06-16T16:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Copilot Cowork 全球正式可用，支持多模型",
       "summary": "Copilot Cowork 现已全球正式可用，并支持多模型！\n每个组织都可以让长期运行的智能体处理复杂的多步骤任务，基于你组织的独特知识和专有技术。 https：//www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/？v=15",
@@ -161,22 +161,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
       "publishedAt": "2026-06-16T11:21:41.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
-      "summary": "中国 AI 初创公司 DeepSeek 完成首轮外部融资，募资超 500 亿元人民币（约 74 亿美元），估值超 500 亿美元。投资结构特殊：多数投资者将资金投入 CEO 梁文锋管理的有限合伙企业，无投票权且锁定期五年；仅国资 AI 基金直接投资并保留投票权。创始人梁文锋个人投入约 200 亿元，腾讯和宁德时代为主要外部投资者。梁文锋表示优先基础 AI 研究与 AGI 开发，将继续开源。DeepSeek 去年初凭 V3、R1 模型获全球关注，今年 4 月发布运行于华为芯片的最大开源权重模型 V4，并将 V4 Pro 永久折扣 75%，输入价格约为 OpenAI GPT-5.5 的 1/11，输出价格约为 1/35。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation",
-      "publishedAt": "2026-06-16T09:40:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
-      "summary": "Google Cloud 发布 Open Knowledge Format （OKF） v0.1，一种供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文知识。OKF 将知识表示为带 YAML 前置元数据的 markdown 文件目录，每个概念对应一个文件，通过 `type`、`title`、`description` 等少量保留字段实现互操作。无需专有服务、SDK 或运行时，目录可托管在 GitHub、以 tarball 传输或挂载到任意文件系统。OKF 旨在解决组织内部知识碎片化问题--表结构、指标定义、runbook 等散落在不同 catalog 和 wiki 中，各厂商方案互不兼容。遵循最少意见原则，只强制 `type` 字段，生产者和消费者可独立实现。使用场景包括数据团队将 BigQuery 表定义导出为代码、为智能体存储 incident runbook、跨组织知识交换等。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
-      "publishedAt": "2026-06-16T08:18:58.000Z"
     }
   ]
 }
