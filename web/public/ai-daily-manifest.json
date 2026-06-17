@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-17",
+      "displayDate": "Jun 17",
+      "json": "/ai-daily/2026-06-17.json",
+      "count": 5,
+      "highlights": [
+        "小米 MiMo Claw 正式版发布：旗",
+        "DeepSeek 完成首轮外部融资，估值",
+        "Anthropic 5月企业AI订阅份额",
+        "SpaceX 以 600 亿美元股票收购",
+        "Anthropic：智能体编码中专业知识"
+      ]
+    },
+    {
       "date": "2026-06-16",
       "displayDate": "Jun 16",
       "json": "/ai-daily/2026-06-16.json",
@@ -260,5 +273,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-16"
+  "latest": "2026-06-17"
 }
