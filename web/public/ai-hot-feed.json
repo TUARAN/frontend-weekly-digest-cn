@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-16T23:33:46.988Z",
-  "count": 30,
+  "updatedAt": "2026-06-17T00:57:43.340Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "baoyu-design 本地动画视频导出功能更新",
+      "summary": "baoyu-design（本地运行 Claude Design 的 Skill）新增动画视频导出功能。其声明式动画引擎基于 f（t） 设计：任意时间点 t 可绝对确定画面状态。导出采用无头 Chromium 逐帧截图 + ffmpeg 编码，每帧等待两帧 requestAnimationFrame 确保渲染完成。截图以 2 倍 DPR（3840×2160）再缩回 1080p，保证细节清晰。95 秒 30fps 动画需 2850 次截图循环，帧帧精确。项目已开源（MIT），获 1.2K star。此前 baoyu-design 已支持 PPT 本地生成和导出可编辑 PPTX。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2067039941960327204",
+      "publishedAt": "2026-06-17T00:21:40.000Z"
+    },
     {
       "topic": "技巧",
       "title": "人工智能是否已经让自助类非虚构书籍销声匿迹了？",
@@ -185,62 +193,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/964/672.htm",
       "publishedAt": "2026-06-16T01:49:40.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "五角大楼将大部分日常AI工作流从Anthropic转移，目标9月前完全切断",
-      "summary": "五角大楼宣布已将超2/3日常AI工作流从Anthropic转移，目标9月前清零。起因是年初五角大楼要求Anthropic签署协议允许Claude用于大规模监控和全自动武器，CEO Dario Amodei以模型不可靠为由拒绝。五角大楼将其列为\"供应链风险\"，起诉未果。OpenAI调整立场获得订单。Polymarket预测6月底前和解概率仅9%。此事件凸显AI公司需在原则与政府合作间抉择。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2066679835607412846",
-      "publishedAt": "2026-06-16T00:30:44.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Subagent：让模型把琐碎任务委托出去",
-      "summary": "OpenRouter 推出 openrouter：subagent 服务器工具，允许前沿模型在生成过程中将独立的琐碎任务（如文档总结、结构化数据提取、文本重格式化）委托给更小、更便宜、更快的 worker 模型执行，从而节省前沿模型的 token 消耗。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/announcements/subagent-server-tool",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 发布 Deployment Simulation 方法：通过模拟部署预测模型发布前行为",
-      "summary": "OpenAI 近日发布 Deployment Simulation 方法，通过在隐私保护下重放历史对话、用新候选模型重新生成回复，模拟模型上线后的实际表现。在多个 GPT-5-series Thinking 部署中，该方法比传统评估更准确地估计了不良行为频率，发现新型对齐问题，并降低模型识别测试的风险。它还能扩展至涉及工具使用的智能体场景。传统评估存在覆盖不足、选择偏差和模型可识别测试等局限，而 Deployment Simulation 使用真实对话分布缓解了这些问题，但无法测量频率低于每 20 万条消息 1 次的行为。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/deployment-simulation",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Grok for PowerPoint 发布：在 Microsoft PowerPoint 内直接生成和编辑幻灯片",
-      "summary": "xAI 于 6 月 16 日发布 Grok for PowerPoint，作为免费 Microsoft 365 插件上线。用户无需离开应用即可利用 Grok 将大纲转为完整幻灯片，进行内容研究、撰写、排版，并支持添加单张幻灯片、调整样式主题、重构章节。插件还能调用 Grok 连接器，从邮件或 SharePoint 中获取信息。该插件同样适用于 Word 和 Excel。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/introducing-powerpoint-addin",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Qwen-RobotManip：对齐解锁机器人操作基础模型的规模化能力",
-      "summary": "Qwen-RobotManip 是通义千问基于 Qwen-VL 的视觉-语言-动作（VLA）基础模型，引入覆盖表示、运动和行为三维度的统一对齐框架。仅使用开源机器人数据集和人演示视频，构建约 38，100 小时预训练语料，涵盖 15 种机器人形态。在 LIBERO-Plus 达 91.4%，RoboTwin-C2R Hard 达 69.4%，RoboCasa365 Composite-Unseen 达 14.9%，EBench 达 45.6%，RoboTwin-IF 达 72.0%，并在 RoboChallenge Table30 v1 generalist track 夺冠。模型采用 80 维状态-动作表示、人-机器人数据合成管道（1，933 小时第一人称视频转 24，808 小时数据）及上下文策略适配。",
-      "source": "Qwen：Blog Retrieval（API）",
-      "href": "https://qwen.ai/blog?id=qwen-robotmanip",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Qwen-RobotWorld：具身智能体的无界世界",
-      "summary": "Qwen-RobotWorld以语言为统一动作接口，采用双流Multimodal Diffusion Transformer（MMDiT）架构，将Qwen2.5-VL作为动作编码器。在4个基准测试中取得顶尖成绩，统一20余种机器人形态，基于860万跨场景训练对和1300多项操作技能。语言接口标准化500多种动作类别，支持操作、自动驾驶、室内导航的联合训练。还支持Scene2Robot人类到机器人转移及2-4路多视角几何一致视频生成。",
-      "source": "Qwen：Blog Retrieval（API）",
-      "href": "https://qwen.ai/blog?id=qwen-robotworld",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Qwen-RobotNav：面向智能体导航系统的可扩展导航模型",
-      "summary": "Qwen 发布 Qwen-RobotNav，基于 Qwen3-VL 在 15.6M 样本上训练，统一了视觉语言导航、目标导航、目标跟踪、自动驾驶和具身问答五个领域，无需修改架构即可在推理时切换任务模式和观察参数。模型在多项基准取得 SOTA：VLN-CE RxR 成功率 76.5%，HM3Dv2 目标导航 75.6%（仅 RGB），EVT-Bench 跟踪率 90.0%，NAVSIM PDMS 91.4，以及三项 EQA 新标杆。模型暴露四个可调轴（视觉 token 预算、时间衰减、相机权重、帧采样模式）。作为智能体系统的一部分，上层规划器 Qwen3.7-Plus 在 EXPRESS-Bench 上提升 15.4%，导航步数减少 77%。模型已零样本部署在 Unitree Go2 四足机器人上，无需环境微调。",
-      "source": "Qwen：Blog Retrieval（API）",
-      "href": "https://qwen.ai/blog?id=qwen-robotnav",
-      "publishedAt": "2026-06-16T00:00:00.000Z"
     }
   ]
 }
