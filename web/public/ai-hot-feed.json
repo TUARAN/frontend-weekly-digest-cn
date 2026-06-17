@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-17T09:46:03.082Z",
-  "count": 20,
+  "updatedAt": "2026-06-17T11:37:09.032Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人",
+      "summary": "AWS（Apache 2.0）开源的 Strands Robots SDK 将 LeRobot 栈封装为 AgentTools，构建统一智能体。默认用 MuJoCo 模拟（无需硬件），mode=\"real\" 切换至真实机器人。可记录演示数据为 LeRobotDataset 并推送 Hugging Face Hub，运行 GR00T 或 LerobotLocal 策略推理，经 Zenoh mesh 广播命令到多台机器人。模拟与硬件代码完全一致，只需改一个关键字参数。示例可在笔记本（Python 3.12+，Linux/macOS）无硬件、无 GPU 运行。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "publishedAt": "2026-06-17T10:18:05.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Kickart 3.0发布，让广告视频创作更精准高效",
+      "summary": "火山引擎一站式营销创作平台Kickart 3.0（原\"创作Agent\"）正式上线，升级为对话式视频生成模式，用户可通过多轮对话调整商品图、故事板等，用自然语言生成营销视频。新增\"爆款裂变\"能力，上传视频链接后自动拆解爆款逻辑并重构至新商品视频，支持抖音电商内容合规与质量预审核。平台开放SaaS、API及Skill等多种交付方式，并已接入Seedance 2.0 mini，助力降低广告营销成本。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/e6SOMeRbdMB_zATsNcYmUQ",
+      "publishedAt": "2026-06-17T09:45:29.000Z"
+    },
     {
       "topic": "行业",
       "title": "消息称 OpenAI 今年一季度现金消耗达 37 亿美元，超同期收入的一半",
@@ -153,14 +169,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/iAgbUzPrsbpqvu4s2XiH0g",
       "publishedAt": "2026-06-16T12:42:11.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
-      "summary": "SpaceX 在历史性 IPO 数天后，同意以 600 亿美元股票收购 AI 编程初创公司 Cursor，旨在帮助其围绕 xAI 构建的 AI 部门追赶主要 AI 实验室。此前 Cursor 正接近完成一轮 20 亿美元融资，估值 500 亿美元，投资方包括 Andreessen Horowitz、Thrive 和 Nvidia。SpaceX 在 IPO 期间向投资者表示，其 AI 产品可寻址市场达 26 万亿美元。交易预计于今年第三季度完成。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo",
-      "publishedAt": "2026-06-16T11:21:41.000Z"
     }
   ]
 }
