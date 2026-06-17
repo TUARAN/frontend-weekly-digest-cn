@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-17T21:41:05.654Z",
-  "count": 29,
+  "updatedAt": "2026-06-17T22:36:20.792Z",
+  "count": 26,
   "items": [
     {
       "topic": "技巧",
@@ -209,30 +209,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction",
       "publishedAt": "2026-06-16T23:09:29.793Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 5月企业AI订阅份额首超OpenAI，特朗普政府禁令反促采用量创新高",
-      "summary": "Anthropic 5月企业AI订阅市场份额达41%，首次超越OpenAI（39.5%）。公司刚完成650亿美元融资、估值9650亿美元，并因首次盈利季度秘密提交IPO。特朗普政府以出口管制为由要求Anthropic禁止非美国人访问最新模型Mythos 5及Fable 5，导致两款模型下架。Ramp首席经济学家指出，类似争议（如3月被国防部列为供应链风险）反而推动Anthropic企业采用量创纪录。Ramp数据显示，企业支出主要流向Claude Opus模型（最新为Opus 4.8）。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
-      "publishedAt": "2026-06-16T22:34:17.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Midjourney V8.1 推出 Draft mode 草稿模式与新功能预览",
-      "summary": "Midjourney V8.1 的 Draft mode 草稿模式每次生成24张低分辨率低质量图片。用户可对任意图片点击 \"Vary\"，将其渲染为全质量、全分辨率版本。草稿任务消耗的快速小时数减半。",
-      "source": "Midjourney：Updates（RSS）",
-      "href": "https://updates.midjourney.com/draft-mode-for-v8-1-and-new-feature-previews",
-      "publishedAt": "2026-06-16T22:04:29.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI 的领先优势正在快速缩小",
-      "summary": "评论认为 OpenAI 正面临多重危机：缺乏护城河导致市场领先地位下滑；最大投资者微软持续疏远，近期甚至公开考虑将主要产品外包给中国；亏损速度远超预期，年亏损额以 8 倍增长。华盛顿方面可能打压 Anthropic，但也可能反而帮助其崛起，而 Elon Musk 成为另一个潜在的竞标者。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/openais-lead-is-dwindling-fast",
-      "publishedAt": "2026-06-16T21:54:47.000Z"
     }
   ]
 }
