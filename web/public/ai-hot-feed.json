@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-18T00:58:42.131Z",
-  "count": 26,
+  "updatedAt": "2026-06-18T01:58:33.245Z",
+  "count": 29,
   "items": [
+    {
+      "topic": "产品",
+      "title": "深入解析 Midjourney Scanner 技术内幕",
+      "summary": "我们全新\"Midjourney Scanner\"的技术深潜。",
+      "source": "X：Midjourney (@midjourney)",
+      "href": "https://x.com/midjourney/status/2067422898407837797",
+      "publishedAt": "2026-06-18T01:43:24.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "上交所发布指引：AI大模型企业可适用科创板第五套上市标准",
+      "summary": "上海证券交易所6月17日发布指引，支持尚未形成稳定收入的优质人工智能大模型企业通过科创板第五套上市标准发行上市。申报企业需在行业地位、产业链优势、目标市场需求、研发进度及关键指标方面具备突出竞争力。指引明确，申报时至少有一个大模型产品已完成上线发布并实现规模化应用，以验证商业模式可行性。下一步，上交所将在中国证监会指导下推进符合标准的企业上市。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/965/735.htm",
+      "publishedAt": "2026-06-18T00:49:16.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "苹果 Xcode 27 核心首次深度集成 AI 智能体：支持自然语言修 Bug、构建 App",
+      "summary": "在 2026 年 WWDC 期间，苹果发布 Xcode 27，其核心组件首次整合 AI 智能体，能理解 Swift 语言并通过多轮自然语言对话辅助开发。AI 可跨多个文件修改整个代码库，也能根据提示与资源生成应用设计并独立构建完整应用，建成后仍可通过对话添加特效、动画等。Xcode 27 支持接入 Anthropic、OpenAI 和 Google 等第三方 AI 模型，同时引入 Core AI 框架提供现代 Swift API 调用端侧模型，并升级开源框架 MLX。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/965/734.htm",
+      "publishedAt": "2026-06-18T00:43:26.000Z"
+    },
     {
       "topic": "行业",
       "title": "Noam Shazeer 离开 Google 加入 OpenAI",
