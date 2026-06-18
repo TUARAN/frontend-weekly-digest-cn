@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-17T23:35:01.103Z",
-  "count": 28,
+  "updatedAt": "2026-06-18T00:58:42.131Z",
+  "count": 26,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Noam Shazeer 离开 Google 加入 OpenAI",
+      "summary": "两年前谷歌花 27 亿美元请回的 AI 传奇 Noam Shazeer 已离开谷歌，加入 OpenAI。\n\n对 Gemini 来说是个残酷的消息。",
+      "source": "X：Yuchen Jin (@Yuchenj_UW)",
+      "href": "https://x.com/Yuchenj_UW/status/2067401895178817999",
+      "publishedAt": "2026-06-18T00:19:56.000Z"
+    },
     {
       "topic": "行业",
       "title": "泄露文件显示OpenAI年营收130亿但亏损远超收入",
@@ -201,30 +209,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/965/248.htm",
       "publishedAt": "2026-06-17T02:50:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "baoyu-design 本地动画视频导出功能更新",
-      "summary": "baoyu-design（本地运行 Claude Design 的 Skill）新增动画视频导出功能。其声明式动画引擎基于 f（t） 设计：任意时间点 t 可绝对确定画面状态。导出采用无头 Chromium 逐帧截图 + ffmpeg 编码，每帧等待两帧 requestAnimationFrame 确保渲染完成。截图以 2 倍 DPR（3840×2160）再缩回 1080p，保证细节清晰。95 秒 30fps 动画需 2850 次截图循环，帧帧精确。项目已开源（MIT），获 1.2K star。此前 baoyu-design 已支持 PPT 本地生成和导出可编辑 PPTX。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2067039941960327204",
-      "publishedAt": "2026-06-17T00:21:40.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "LifeSciBench 发布",
-      "summary": "2026 年 6 月，OpenAI 联合 173 位博士级生命科学家发布 LifeSciBench 评测基准，涵盖 750 个真实研究任务，覆盖证据处理、分析、设计优化等七个工作流及七个生物领域。每项任务配有约 25 条细化评分标准（共 19，020 条），评估模型的科学正确性与实用价值。79% 的任务需多步推理，53% 要求解读图表、PDF 等附件数据，旨在衡量 AI 在复杂、不确定的研究任务中的实际能力，而非仅回答结构化问题。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/introducing-life-sci-bench",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Grok 4.3 在 Amazon Bedrock 正式可用",
-      "summary": "6 月 17 日，xAI 宣布 Grok 4.3 在 Amazon Bedrock 上全面可用。该模型在前沿模型中达成最低幻觉率，支持 100 万 token 上下文窗口，并提供可配置推理努力（none/low/medium/high）。在 Artificial Analysis Omniscience 基准排名第一，在 Tau2 Telecom 基准评估客服智能体真实工具调用性能排名第一，在 Vals AI Case Law 和 Corporate Finance 基准的复杂文档理解任务排名第一。定价为输入每百万 token 1.25 美元、输出每百万 token 2.50 美元，每美元智能度是其他前沿模型的 2-10 倍。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/grok-amazon-bedrock",
-      "publishedAt": "2026-06-17T00:00:00.000Z"
     }
   ]
 }
