@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-18",
+      "displayDate": "Jun 18",
+      "json": "/ai-daily/2026-06-18.json",
+      "count": 5,
+      "highlights": [
+        "Omnigent开源：AI智能体团队元框",
+        "苹果 Xcode 27 核心首次深度集成",
+        "NVIDIA GEAR实验室发布ENPI",
+        "谷歌发布Agentic Resource",
+        "Strands Robots SDK：用"
+      ]
+    },
+    {
       "date": "2026-06-17",
       "displayDate": "Jun 17",
       "json": "/ai-daily/2026-06-17.json",
@@ -273,5 +286,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-17"
+  "latest": "2026-06-18"
 }
