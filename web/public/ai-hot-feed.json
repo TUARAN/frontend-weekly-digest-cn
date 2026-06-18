@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-18T11:25:49.652Z",
+  "updatedAt": "2026-06-18T13:14:20.300Z",
   "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
+      "summary": "皮尤研究中心最新民调显示，63%美国人认为AI发展速度过快。ChatGPT使用率较2023年翻番，44%受访者曾使用。49%偶尔使用聊天机器人，仅16%认为AI会有积极社会影响。青年群体使用率更高但更悲观：18-29岁中66%用过，48%认为有负面影响，仅14%看好。30-49岁中34%每天至少使用一次。约四成用AI处理工作，30%认为提高效率，28%认为帮助获取信息。此外，66%成年人担心AI传播错误信息。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/966/233.htm",
+      "publishedAt": "2026-06-18T12:11:32.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
+      "summary": "Mindgard 红队研究发现，ChatGPT 的图像生成器可通过简单提示词轻易绕过内容过滤器，在未直接请求的情况下自动生成性暴力、血腥谋杀等露骨图像。一个热门的\"恢复照片\"提示词因输入模糊而绕过输入过滤器，结果如同俄罗斯轮盘赌；进一步添加虚假图像 ID 和\"不做审查\"指令后，模型持续生成高度性化女性图像，甚至出现被捆绑殴打的尸体，并自动赋予惊悚标题。研究指出，OpenAI 此前声称修复的裸体问题仍未解决，暴露了 AI 工具广泛可及性与不足内容过滤的现实风险。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
+      "publishedAt": "2026-06-18T11:25:28.101Z"
+    },
     {
       "topic": "模型",
       "title": "火山引擎上线豆包实时语音模型3.0 API 服务，开启邀测",
@@ -225,22 +241,6 @@
       "source": "X：Yuchen Jin (@Yuchenj_UW)",
       "href": "https://x.com/Yuchenj_UW/status/2067273020352380950",
       "publishedAt": "2026-06-17T15:47:50.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "MolmoMotion：语言引导的3D运动预测模型",
-      "summary": "MolmoMotion基于Molmo 2骨干网络，输入视频帧、物体上的3D点标记及文字动作指令（如\"移动并旋转桌上放水果的木碗\"），预测未来数秒内这些点的3D轨迹。提供两个变体：自回归的MolmoMotion-AR逐步预测坐标，流匹配的MolmoMotion-FM通过连续空间变换处理多可能性运动。同时发布MolmoMotion-1M数据集（含116万视频的3D点轨迹及动作描述）和PointMotionBench基准测试（2700个人工验证视频片段）。模型权重、数据集和基准测试均已开源。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/allenai/molmomotion",
-      "publishedAt": "2026-06-17T15:26:44.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Google 医学推理 AI 系统 AMIE 新研究：从诊断迈向长期疾病管理",
-      "summary": "今日发表在《自然》杂志上的研究展示了 Google 的医学推理 AI 系统 AMIE（Articulate Medical Intelligence Explorer）从单次诊断对话演进到长期疾病管理的能力。AMIE 利用 Gemini 模型的长上下文能力，整合共情对话智能体和深度思考管理推理智能体，可交叉引用数百页临床指南。在盲测中，AMIE 与 21 名初级保健医生相比，在整体管理推理上匹配临床医生，在计划精确性和指南一致性上得分显著更高。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
-      "publishedAt": "2026-06-17T15:00:00.000Z"
     }
   ]
 }
