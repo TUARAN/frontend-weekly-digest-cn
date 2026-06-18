@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-18T09:34:22.288Z",
+  "updatedAt": "2026-06-18T11:25:49.652Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "火山引擎上线豆包实时语音模型3.0 API 服务，开启邀测",
+      "summary": "火山引擎上线豆包实时语音模型3.0（Seeduplex）API 服务并开启邀测。该模型为原生全双工端到端语音大模型，具备精准遵循、抗干扰、动态判停三大优势。可在多人对话中安静待命，指定话题出现时主动加入；支持通过自定义工具在实时交互中完成预定日历、发送邮件等任务。抗干扰力提升，误回复率与误打断率大幅降低；判停延迟缩短约250ms，复杂场景抢话比例下降40%，用户主动打断延迟缩短约300ms。适用于汽车智能座舱、智能硬件、智能客服等场景。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/L4BJnexabQu5DAxDnwEGxw",
+      "publishedAt": "2026-06-18T10:36:31.000Z"
+    },
     {
       "topic": "产品",
       "title": "Kimi Work 新增目标模式与插件中心，6月推出额度消耗5折福利",
@@ -233,14 +241,6 @@
       "source": "Google Blog：AI（RSS）",
       "href": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
       "publishedAt": "2026-06-17T15:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cloudflare 发布 Cloudflare One stack：智能体驱动的部署工具集",
-      "summary": "6月17日，Cloudflare 推出 Cloudflare One stack，一组可直接赋予 AI 智能体的技能文件，用于自动配置、部署和管理 Zero Trust 环境。工具集包含两个轻量级 skill：`cloudflare-one` 负责通用产品指导（VPN 替换、网络连接、安全策略等），`cloudflare-one-migration` 提供从 Zscaler、Palo Alto Networks 等厂商迁移的明确引导。技能内置决策树与结构化知识，智能体可自动执行云环境评估、网络拓扑生成及 Digital Experience Monitoring 排障。该 stack 基于 Cloudflare 员工数万小时客户经验提炼，降低学习与迁移门槛。",
-      "source": "Cloudflare Blog",
-      "href": "https://blog.cloudflare.com/cloudflare-one-stack",
-      "publishedAt": "2026-06-17T13:00:00.000Z"
     }
   ]
 }
