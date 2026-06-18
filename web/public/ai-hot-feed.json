@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-18T01:58:33.245Z",
-  "count": 29,
+  "updatedAt": "2026-06-18T03:22:05.118Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "cuTile Rust：安全无数据竞争的 GPU 内核系统",
+      "summary": "cuTile Rust 是一个基于 tile 的 GPU 编程系统，允许用 Rust 编写内存安全、无数据竞争的内核。它通过 `#【cutile：：module】` 宏将内核 AST 嵌入主机二进制，在运行时经 CUDA Tile IR JIT 编译为 GPU cubin。可变张量在启动前分割，不可变张量共享，启动器在 GPU 工作期间保持所有权。在 NVIDIA B200 上，逐元素操作达 7 TB/s（约 91% 峰值带宽），GEMM 达 2 PFlop/s（约 92% 密集 f16 峰值）。基于 cuTile Rust 构建的 Grout 推理引擎在 RTX 5090 上解码 Qwen3-4B 达 171 tokens/s，在 B200 上解码 Qwen3-32B 达 82 tokens/s。项目处于早期研究阶段。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/nvlabs/cutile-rs",
+      "publishedAt": "2026-06-18T03:09:11.275Z"
+    },
+    {
+      "topic": "模型",
+      "title": "首个统一科学大模型 LOGOS 正式开源",
+      "summary": "LOGOS 由 ATH-Token Foundry 联合中国人民大学高瓴人工智能学院开源，是首个基于统一\"科学语法\"的多领域科学生成基础模型。LOGOS-1B（1B参数）在六大科学任务上匹配或超越领域专用方法：口袋条件配体生成纯序列范式首次超越3D扩散模型，超越NatureLM（8×7B）；逆合成预测Top-1准确率74.8%；口袋位点识别仅靠序列达58.5% Top-n准确率；MOF材料生成NBB提升至17.78%。模型采用统一词汇表将蛋白质、小分子等编码为离散Token，通过空间交互离散化实现无需3D坐标的序列预测。预训练与下游任务形式与目标一致，跨领域知识迁移经实验验证有效。已完整开源模型权重、推理代码与技术报告。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/50q5uY849FKnBzk1Q04MRg",
+      "publishedAt": "2026-06-18T02:31:28.000Z"
+    },
     {
       "topic": "产品",
       "title": "深入解析 Midjourney Scanner 技术内幕",
@@ -225,14 +241,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality",
       "publishedAt": "2026-06-17T03:25:14.439Z"
-    },
-    {
-      "topic": "行业",
-      "title": "中国加紧筹建世界人工智能合作组织",
-      "summary": "中国正加紧筹建世界人工智能合作组织，欢迎各方加入。2025年7月26日，中国政府倡议成立该组织，作为践行多边主义、推动共商共建共享全球治理的举措，旨在弥合数字和智能鸿沟、促进人工智能向善普惠发展。初步考虑总部设在上海。同日，2025世界人工智能大会发表《人工智能全球治理行动计划》，呼吁各方遵循向善为民、尊重主权、发展导向、安全可控、公平普惠、开放合作的原则，协力推进全球人工智能发展与治理。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/965/248.htm",
-      "publishedAt": "2026-06-17T02:50:01.000Z"
     }
   ]
 }
