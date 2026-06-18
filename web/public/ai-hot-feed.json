@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-18T18:51:54.148Z",
+  "updatedAt": "2026-06-18T19:45:41.802Z",
   "count": 30,
   "items": [
+    {
+      "topic": "模型",
+      "title": "OpenAI 升级 ChatGPT 医疗能力：GPT-5.5 Instant 达到 Thinking 模型水平，免费可用",
+      "summary": "OpenAI 升级 ChatGPT 医疗能力，新模型 GPT-5.5 Instant 在 HealthBench 及 HealthBench Professional 测试中达到最贵 Thinking 模型水平，成本大幅降低。该模型对所有免费用户开放（有使用限制），其回答在准确性、清晰度和完整性上优于医生书写的回答，过去两个月错误健康陈述减少 71%。超 260 名来自 60 个国家的医生审查了 70 多万条模型响应。每周有超 2.3 亿人通过 ChatGPT 咨询健康问题。OpenAI 还提供 ChatGPT for Clinicians 和 OpenAI for Healthcare 等专业工具。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/chatgpts-new-health-upgrade-beats-doctor-written-answers-openai-says",
+      "publishedAt": "2026-06-18T19:17:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Code 现已支持 artifacts",
+      "summary": "从今日起，Claude Code 可将工作进度生成为 artifacts--实时、可分享的交互式网页，涵盖 PR 走查、系统说明、仪表盘、发布清单等。artifacts 基于会话完整上下文（代码库、连接器、对话）自动构建，更新时页面原地刷新，同事即时可见。默认仅作者可见，可分享给组织内成员，由管理员通过组织层级开关和角色权限管控。内部测试中最常见用例为调试：工程师调查事件，Claude Code 分析日志并发布包含时间线、嫌疑提交和错误率图表的 artifact，团队无需再\"走过场式汇报\"。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/artifacts-in-claude-code",
+      "publishedAt": "2026-06-18T18:54:47.698Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
+      "summary": "OpenAI 与全球 60 个国家、49 种语言、26 个专科的数百名医生合作，通过医生主导的评估大幅提升了 GPT-5.5 Instant 在健康相关问题的智能水平，现已能与公司前沿 Thinking 模型（推理模型）相当。该模型每周为超过 2.3 亿 ChatGPT 用户服务，能更好识别紧急医疗需求、询问相关上下文、解释不确定性并简化复杂信息。由于面向所有 ChatGPT 免费用户开放，这些改进可惠及更多人。",
+      "source": "X：Greg Brockman (@gdb)",
+      "href": "https://x.com/gdb/status/2067675030335668270",
+      "publishedAt": "2026-06-18T18:25:17.000Z"
+    },
     {
       "topic": "论文",
       "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
@@ -49,6 +73,14 @@
       "source": "X：xAI (@xai)",
       "href": "https://x.com/xai/status/2067654108123910495",
       "publishedAt": "2026-06-18T17:02:09.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "企业版新用量分析与更新的支出控制",
+      "summary": "OpenAI 为 ChatGPT Enterprise 推出信用额度用量分析与更新的支出控制功能。全局管理控制台（Global Admin Console）统一展示 ChatGPT 和 Codex 的信用消耗，支持按时间、用户、产品、模型追踪用量趋势。管理员可为整个工作区设置默认限额，按群组配置额度，并为个人设置叠加限制。员工可查看个人用量并申请增加额度（附工作上下文）。这些功能即日起可用。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "publishedAt": "2026-06-18T17:00:00.000Z"
     },
     {
       "topic": "论文",
@@ -195,52 +227,20 @@
       "publishedAt": "2026-06-18T00:19:56.000Z"
     },
     {
+      "topic": "产品",
+      "title": "xAI 发布 Grok for Word 插件",
+      "summary": "xAI 将 Grok 引入 Microsoft Word，推出免费 365 插件。用户可将笔记转为结构化文档、重写文本以提升清晰度与简洁性，也能通过插件搜索网页、X 平台或生成图表。插件支持连接 SharePoint 和 Google Drive 等外部来源，还可用于 PowerPoint 和 Excel。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/introducing-word-addin",
+      "publishedAt": "2026-06-18T00:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
       "summary": "参数高效微调（PEFT）技术中，LoRA 占据绝对主导：Hugging Face Hub 上 20，834 张提及单一 PEFT 技术的模型卡中 20，509 张指向 LoRA（98.4%）；外部站点 10，000 个检查点中 95.0% 是 LoRA；GitHub 搜索 `from peft import` 代码片段的 71.3% 结果为 LoRA。但研究者宣称其他技术超越 LoRA 的论文结果具备偏向性--调整学习率即可让 LoRA 匹配更优技术。Hugging Face 的 PEFT 库提供统一 API 实现 40 余种 PEFT 技术，并开始建立基准测试：在数学数据集上对 LLM 进行思维链推理微调，以帮助用户做出更优选择。",
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/peft-beyond-lora",
       "publishedAt": "2026-06-18T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI 智能体够格吗？在自有工具上评测开源模型",
-      "summary": "Hugging Face 发布面向 AI 智能体使用场景的基准测试框架，以 transformers 库为案例评估库的智能体友好度。框架使用 pi coding agent 与开源模型驱动，通过 Hugging Face Jobs 分散任务确保硬件一致。评估关注 agent 完成任务的成本、延迟、token 使用量和失败率，而非仅最终结果。此前 hf CLI 经优化后 agent token 使用量减少 1.3-1.8 倍（最高 6 倍），该框架旨在验证类似优化对 transformers 的效果。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/is-it-agentic-enough",
-      "publishedAt": "2026-06-18T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "泄露文件显示OpenAI年营收130亿但亏损远超收入",
-      "summary": "OpenAI 2025年营收130.7亿美元（2024年37亿），但研发成本达191.8亿（含向微软支付105.9亿），收入成本（推理计算）75亿，销售营销成本57.3亿，运营亏损209.2亿。2025年净亏损约390亿，扣除约300亿一次性会计费用后约80亿。2025年3月获1220亿融资（估值8520亿）。ChatGPT周活超9亿，付费约5000万。为控制成本已关闭Sora视频模型并削减非核心业务。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year",
-      "publishedAt": "2026-06-17T23:09:09.056Z"
-    },
-    {
-      "topic": "行业",
-      "title": "库克：AI 浪潮引发存储芯片价格暴涨，iPhone 等苹果产品涨价已\"不可避免\"",
-      "summary": "苹果CEO库克确认，AI热潮导致存储芯片严重短缺和价格暴涨，苹果产品涨价已\"不可避免\"。库克未透露涨价具体细节。华尔街日报指出，全球AI巨头大幅增加资本开支，高带宽内存需求激增，挤压消费电子芯片供应。自2024年以来内存和存储芯片价格已翻四倍，涨势预计延续至2027年。研究机构估算，下一代iPhone 18 Pro售价或需增加约270美元。苹果已在上月提高Mac Mini起售价。摩根士丹利预测，今年美国智能手机和PC价格将上涨15%。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/965/694.htm",
-      "publishedAt": "2026-06-17T22:41:15.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Code v2.1.181 发布",
-      "summary": "Claude Code v2.1.181 发布，新增 `/config key=value` 语法允许在提示中直接设置任意配置项，新增 `sandbox.allowAppleEvents` 选项使沙盒命令支持 Apple Events，新增 `CLAUDE_CLIENT_PRESENCE_FILE` 环境变量用于抑制移动端推送通知。内置 Bun 运行时升级至 1.4，改进了长段落流式输出（逐行显示）和 API 连接中断后自动重试。子 agent 面板优化：空闲 agent 30 秒自动隐藏、列表最多 5 行。修复了提示缓存读取、Write/Edit 在网络驱动器产生 0 字节文件、启动性能回归（约 120ms）、启动阻塞（最长 15 秒）、macOS TUI 冻结、子 agent 时长显示错误、API 重试指示器残留、AWS 凭证刷新等问题。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
-      "publishedAt": "2026-06-17T22:07:41.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "GitHub 发布 CC0-1.0 开源多语言仓库级数据集，覆盖 README、Issue 和 PR",
-      "summary": "GitHub 推出一个新的仓库级数据集，采用 CC0-1.0 许可证，旨在帮助研究人员和开发者发现跨 README、Issue 和 Pull Request 的多语言开发者内容，加速多语言 AI 开发。",
-      "source": "GitHub Blog",
-      "href": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-      "publishedAt": "2026-06-17T19:41:46.000Z"
     }
   ]
 }
