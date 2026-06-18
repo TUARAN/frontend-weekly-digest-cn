@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-18T13:14:20.300Z",
+  "updatedAt": "2026-06-18T15:11:52.140Z",
   "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
+      "summary": "Adobe 将其\"创意智能体\"扩展至 Photoshop、Premiere 等应用，以公开测试形式提供 AI Assistant。该智能体可自动完成多步骤常规任务，如 Premiere 分拣素材和粗剪、Photoshop 换背景、Illustrator 批量生成文件、InDesign 更新版式等。Firefly 新增面向个人创作者的品牌套件、产品图转短视频及 Quick Cut 自动剪辑功能。Adobe 工具已集成至 ChatGPT、Claude 及 Microsoft 365 Copilot，Google Gemini 和 Slack 集成即将推出。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
+      "publishedAt": "2026-06-18T12:59:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
@@ -41,6 +49,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/966/154.htm",
       "publishedAt": "2026-06-18T09:03:28.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
+      "summary": "波士顿儿童医院、哈佛大学与OpenAI合作，在《NEJM AI》发表研究。团队使用OpenAI o3 Deep Research推理模型重新分析376例此前未确诊的罕见病案例，产出基于证据的候选解释。经专家评审、额外检测和临床确认，医生在18例中建立诊断，额外诊断率达4.8%。研究显示，AI辅助工作流可帮助专家在未解病例中生成可检验假设，使定期再分析更具可扩展性。模型不直接诊断或做临床决策，仅提供证据链供专家审查。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "publishedAt": "2026-06-18T08:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -113,6 +129,14 @@
       "source": "X：Yuchen Jin (@Yuchenj_UW)",
       "href": "https://x.com/Yuchenj_UW/status/2067401895178817999",
       "publishedAt": "2026-06-18T00:19:56.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "AI 智能体够格吗？在自有工具上评测开源模型",
+      "summary": "Hugging Face 发布面向 AI 智能体使用场景的基准测试框架，以 transformers 库为案例评估库的智能体友好度。框架使用 pi coding agent 与开源模型驱动，通过 Hugging Face Jobs 分散任务确保硬件一致。评估关注 agent 完成任务的成本、延迟、token 使用量和失败率，而非仅最终结果。此前 hf CLI 经优化后 agent token 使用量减少 1.3-1.8 倍（最高 6 倍），该框架旨在验证类似优化对 transformers 的效果。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/is-it-agentic-enough",
+      "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -217,30 +241,6 @@
       "source": "X：Jim Fan (@DrJimFan)",
       "href": "https://x.com/DrJimFan/status/2067283904986517866",
       "publishedAt": "2026-06-17T16:31:05.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google发布99美元Gemini智能音箱",
-      "summary": "Google推出首款专为Gemini打造的智能音箱Google Home Speaker，售价99.99美元。支持自然语言请求和多步指令，可在说话中途纠正，并具备连续对话功能。内置10种新声音。高级AI功能需订阅Google Home Premium（月费10美元或年费100美元），包括Gemini Live自由对话、Nest摄像头活动摘要等。即日起预售，本月发货。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker",
-      "publishedAt": "2026-06-17T16:30:09.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "谷歌发布Agentic Resource Discovery（ARD）开放规范",
-      "summary": "Agentic Resource Discovery（ARD）是一项开放规范，用于在Web上发布、发现和验证AI工具、技能与智能体。它基于两个原语：组织在其自有域名下托管catalog描述可用能力，registry作为搜索引擎索引catalog并响应发现请求。ARD支持加密验证，使客户端与端点连接前确认发布者身份，然后直接通过原生协议调用能力。Google Cloud的Gemini Enterprise Agent Platform通过Agent Registry提供企业级支持，包括URN命名、出站策略、工具固定和基于Agent Identity的信任验证。该规范现已发布，开发者可通过托管`ai-catalog.json`文件使其服务可发现。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification",
-      "publishedAt": "2026-06-17T16:08:36.794Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Omnigent开源：AI智能体团队元框架",
-      "summary": "编程的未来不是单一智能体，而是一个完整的AI团队。\n\nOmnigent让你在一个实时会话中运行一个智能体团队：Claude Code、Codex、Cursor、Pi，以及你自己的智能体。\n\n它是一个面向AI智能体的元框架，基于我们内部的Databricks开发工具构建，现已开源给所有人。\n\n由传奇人物@matei_zaharia和Databricks AI团队打造。没错，Matei仍然编写大量代码，包括Omnigent和我们产品的前端代码。",
-      "source": "X：Yuchen Jin (@Yuchenj_UW)",
-      "href": "https://x.com/Yuchenj_UW/status/2067273020352380950",
-      "publishedAt": "2026-06-17T15:47:50.000Z"
     }
   ]
 }
