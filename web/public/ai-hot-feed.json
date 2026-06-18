@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-18T19:45:41.802Z",
+  "updatedAt": "2026-06-18T20:52:37.251Z",
   "count": 30,
   "items": [
     {
-      "topic": "模型",
-      "title": "OpenAI 升级 ChatGPT 医疗能力：GPT-5.5 Instant 达到 Thinking 模型水平，免费可用",
-      "summary": "OpenAI 升级 ChatGPT 医疗能力，新模型 GPT-5.5 Instant 在 HealthBench 及 HealthBench Professional 测试中达到最贵 Thinking 模型水平，成本大幅降低。该模型对所有免费用户开放（有使用限制），其回答在准确性、清晰度和完整性上优于医生书写的回答，过去两个月错误健康陈述减少 71%。超 260 名来自 60 个国家的医生审查了 70 多万条模型响应。每周有超 2.3 亿人通过 ChatGPT 咨询健康问题。OpenAI 还提供 ChatGPT for Clinicians 和 OpenAI for Healthcare 等专业工具。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/chatgpts-new-health-upgrade-beats-doctor-written-answers-openai-says",
-      "publishedAt": "2026-06-18T19:17:00.000Z"
+      "topic": "行业",
+      "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
+      "summary": "OpenAI在IPO前夕连招两位重量级人物：Google DeepMind AI先驱、Transformer架构共同作者Noam Shazeer，以及前特朗普白宫AI政策官员Dean Ball。Shazeer此前通过27亿美元收购协议重返Google，此次离职加盟OpenAI。Ball将于7月6日加入，领导新组建的Strategic Futures团队，向首席战略官Jason Kwon汇报，团队将负责前沿AI政策与内部治理，聚焦灾难性风险、递归自我改进、劳动力市场影响及前沿实验室与政府关系等议题。此举正值Anthropic因美国政府出口管制禁令被迫下架Fable 5和Mythos 5模型。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+      "publishedAt": "2026-06-18T19:59:22.000Z"
     },
     {
       "topic": "产品",
