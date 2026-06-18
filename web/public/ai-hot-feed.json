@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T21:43:46.157Z",
+  "updatedAt": "2026-06-18T22:41:34.130Z",
   "count": 30,
   "items": [
     {
@@ -33,6 +33,14 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "publishedAt": "2026-06-18T18:13:13.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
+      "summary": "OpenAI 通过强化学习在真实对话场景中训练模型，使其展现诚实、认知谦逊、元认知透明、可纠正性、普遍公平性和对人类福祉的关心等有益特质。训练数据涵盖健康、教育、科学、法律、工程等多个领域。训练后模型在数十项独立对齐评测（包括奖励黑客、欺骗、有害建议、规范遵从等）上均表现提升，且这种改善泛化到未参与训练的领域、任务和评分设定。在对抗性提示或微调下，模型仍难以被导向有害行为，表明有益特质强化学习可产生广泛且持久的对齐泛化。",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "href": "https://alignment.openai.com/beneficial-rl",
+      "publishedAt": "2026-06-18T18:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -232,14 +240,6 @@
       "summary": "xAI 将 Grok 引入 Microsoft Word，推出免费 365 插件。用户可将笔记转为结构化文档、重写文本以提升清晰度与简洁性，也能通过插件搜索网页、X 平台或生成图表。插件支持连接 SharePoint 和 Google Drive 等外部来源，还可用于 PowerPoint 和 Excel。",
       "source": "xAI：News（网页）",
       "href": "https://x.ai/news/introducing-word-addin",
-      "publishedAt": "2026-06-18T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
-      "summary": "参数高效微调（PEFT）技术中，LoRA 占据绝对主导：Hugging Face Hub 上 20，834 张提及单一 PEFT 技术的模型卡中 20，509 张指向 LoRA（98.4%）；外部站点 10，000 个检查点中 95.0% 是 LoRA；GitHub 搜索 `from peft import` 代码片段的 71.3% 结果为 LoRA。但研究者宣称其他技术超越 LoRA 的论文结果具备偏向性--调整学习率即可让 LoRA 匹配更优技术。Hugging Face 的 PEFT 库提供统一 API 实现 40 余种 PEFT 技术，并开始建立基准测试：在数学数据集上对 LLM 进行思维链推理微调，以帮助用户做出更优选择。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/peft-beyond-lora",
       "publishedAt": "2026-06-18T00:00:00.000Z"
     }
   ]
