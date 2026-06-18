@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-18T15:11:52.140Z",
-  "count": 30,
+  "updatedAt": "2026-06-18T17:06:58.312Z",
+  "count": 29,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
+      "summary": "Anthropic 发布 Project Fetch 实验第二阶段结果。在2024年8月原始实验中，配备 Claude Opus 4.1 的人类团队在操控四足机器人时显著超越无 AI 团队。新实验中，Claude Opus 4.7 无需人类协助即完成所有任务，速度比最快人类团队快约20倍，比无 Claude 团队快37倍以上，编码量减少近10倍。模型在传感器连接、路径规划等环节表现出色，但在精确移动沙滩球等闭环控制任务上仍存在困难。这些进展源于通用模型规模化，而非针对机器人领域的专项优化。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "publishedAt": "2026-06-18T16:22:33.561Z"
+    },
+    {
+      "topic": "行业",
+      "title": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
+      "summary": "工信部6月16日就《智能网联汽车自动驾驶系统安全要求》等2项强制性国标公开征求意见，公示至6月24日，建议2027年7月1日起实施。该标准系我国首部针对L3/L4的强制性国标，要求系统安全水平至少达到\"合格且专注驾驶人\"，引入Safety Case机制。L3重点规范人机交接，L4强调自身风险处置、不得依赖远程协助。新申请车型实施日起执行，已获批车型有约一年过渡期。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/966/272.htm",
+      "publishedAt": "2026-06-18T14:57:30.000Z"
+    },
     {
       "topic": "产品",
       "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
@@ -132,6 +148,14 @@
     },
     {
       "topic": "技巧",
+      "title": "超越 LoRA：如何选择最佳参数高效微调技术？",
+      "summary": "参数高效微调（PEFT）技术中，LoRA 占据绝对主导：Hugging Face Hub 上 20，834 张提及单一 PEFT 技术的模型卡中 20，509 张指向 LoRA（98.4%）；外部站点 10，000 个检查点中 95.0% 是 LoRA；GitHub 搜索 `from peft import` 代码片段的 71.3% 结果为 LoRA。但研究者宣称其他技术超越 LoRA 的论文结果具备偏向性--调整学习率即可让 LoRA 匹配更优技术。Hugging Face 的 PEFT 库提供统一 API 实现 40 余种 PEFT 技术，并开始建立基准测试：在数学数据集上对 LLM 进行思维链推理微调，以帮助用户做出更优选择。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/peft-beyond-lora",
+      "publishedAt": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "topic": "技巧",
       "title": "AI 智能体够格吗？在自有工具上评测开源模型",
       "summary": "Hugging Face 发布面向 AI 智能体使用场景的基准测试框架，以 transformers 库为案例评估库的智能体友好度。框架使用 pi coding agent 与开源模型驱动，通过 Hugging Face Jobs 分散任务确保硬件一致。评估关注 agent 完成任务的成本、延迟、token 使用量和失败率，而非仅最终结果。此前 hf CLI 经优化后 agent token 使用量减少 1.3-1.8 倍（最高 6 倍），该框架旨在验证类似优化对 transformers 的效果。",
       "source": "Hugging Face：Blog（RSS）",
@@ -161,30 +185,6 @@
       "source": "Claude Code：GitHub Releases（RSS）",
       "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "publishedAt": "2026-06-17T22:07:41.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Google 分享 A2UI 与 MCP Apps 三种集成架构模式",
-      "summary": "Google 分享了三种集成 A2UI 与 MCP Apps 的架构模式，旨在结合两者优势。A2UI 采用声明式框架，通过 JSON payload 定义 UI，由宿主原生渲染，确保一致性与安全性，但受限于预定义组件库。MCP Apps 在 iframe 中使用标准 Web 技术提供自定义界面，但存在设计碎片化、性能与安全挑战。三种模式包括：通过 MCP 服务器提供 A2UI，利用 MCP Resources 或 Tool 调用传递 JSON，实现\"一次编写，原生渲染\"的跨平台能力；以及静态与动态交付方案。Google 正考虑扩展 MCP 以原生支持 A2UI。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/a2ui-and-mcp-apps",
-      "publishedAt": "2026-06-17T21:13:53.385Z"
-    },
-    {
-      "topic": "产品",
-      "title": "借助 Workload Identity Federation 安全访问 Claude Platform",
-      "summary": "Workload Identity Federation （WIF） 已在 Claude Platform 上全面可用。WIF 兼容任何 OIDC 身份提供者，覆盖所有 Claude API 端点（包括第一方 SDK 和 Claude Code）。WIF 用短生命期凭证替代静态 API 密钥，并引入服务账户，每个工作负载拥有独立身份、角色和审计日志。Claude Console 提供引导设置流程，支持 Admin API 进行组织管理。API 密钥可并行使用以便逐步迁移。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/workload-identity-federation",
-      "publishedAt": "2026-06-17T20:44:36.833Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Design 更新：跨项目保持品牌一致，与Claude Code协同",
-      "summary": "6月17日，Claude Design 更新，支持跨项目使用统一设计系统，并与Claude Code同步工作流。用户可直接拖拽、对齐和缩放画布元素，编辑器稳定性大幅提升。设计系统可从GitHub、设计文件或原始上传导入，团队管理员可锁定标准系统防止篡改。新增桌面端侧边栏入口及独立网页端claude.ai/design。使用限制与聊天、Claude Cowork、Claude Code共享，每次任务消耗更少token，错误率下降。支持导出PDF、PPT，集成Adobe、Canva、Gamma等工具。发布首周用户超一百万。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
-      "publishedAt": "2026-06-17T20:44:36.833Z"
     },
     {
       "topic": "产品",
@@ -233,14 +233,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
       "publishedAt": "2026-06-17T17:22:51.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验",
-      "summary": "NVIDIA GEAR实验室推出ENPIRE系统，首次实现物理世界自主研究。系统让8个Codex智能体控制8台机器人，配备GPU和token预算。安全方面采用硬运动极限切断和扭矩受限夹爪两层硬件保障，支持通宵无人运行。奖励函数通过视觉分类器离线固定并冻结，防止智能体作弊。实时监测机器人利用率（MRU）、token利用率（MTU）和GPU利用率，以Tokens-to-Success和Time-to-Success评估效率。ENPIRE自主完成扎带、整理细针、安装GPU等高精度任务，发现8机器人并行探索显著更快。系统将开源。",
-      "source": "X：Jim Fan (@DrJimFan)",
-      "href": "https://x.com/DrJimFan/status/2067283904986517866",
-      "publishedAt": "2026-06-17T16:31:05.000Z"
     }
   ]
 }
