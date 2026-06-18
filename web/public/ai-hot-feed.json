@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-18T07:46:35.378Z",
-  "count": 29,
+  "updatedAt": "2026-06-18T09:34:22.288Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Kimi Work 新增目标模式与插件中心，6月推出额度消耗5折福利",
+      "summary": "月之暗面旗下 Kimi Work（Beta 版）新增「目标模式」，支持设定终点后由 Agent 自主循环推进任务，最长连续运行24小时，过程中人类可随时中断调整。同时上线「插件中心」，可选装百度网盘、Canva可画、钉钉、飞书、WPS、Notion、Cloudflare 等外部应用。6月限时福利期间，Kimi 电脑客户端 Work 模式所有任务会员额度消耗减半，即从0.02%降至0.01%。",
+      "source": "公众号：月之暗面（Kimi）",
+      "href": "https://mp.weixin.qq.com/s/KJav-s9qlkzV9yN8r6-sNg",
+      "publishedAt": "2026-06-18T09:06:57.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "八部门：用好个人消费贷款财政贴息政策，支持消费者购买 AI 相关产品",
+      "summary": "商务部等八部门6月18日发布关于加快\"人工智能+消费\"发展的实施意见。其中提到加大财政资金支持，落实数码和智能产品购新政策，鼓励地方在消费品以旧换新框架内自主制定补贴，重点支持新一代智能终端消费。增加AI手机、智能电脑、智能电视、智能家居、AI眼镜、智能网联汽车、人形机器人等产品供给，培育智能穿戴消费市场。同时加快AI在居家服务、养老服务、文化旅游、住宿餐饮、教育教学等领域的应用，建设AI商品首发平台，举办\"人工智能进万家\"活动。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/966/154.htm",
+      "publishedAt": "2026-06-18T09:03:28.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "DeepSeek 识图模式正式上线 App 和网页端",
+      "summary": "DeepSeek 识图模式于6月18日在网页和 App 端正式上线，与快速模式、专家模式并列。开启后用户可直接上传图片让 DeepSeek 识别图像，能力超越简单文字提取。目前 App 端仍显示\"图片理解功能内测中\"，网页端无此提示。该模式背后的多模态模型技术细节于今年4月公开，核心框架为\"Thinking with Visual Primitives（以视觉原语思考）\"。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/966/066.htm",
+      "publishedAt": "2026-06-18T07:48:11.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
+      "summary": "乔木画布推出免费开源在线图像编辑器，可一键部署Vercel为网站，功能类似简化版PS。支持Seedream和GPT-image-2生图、图片模板存储分享、一键抠图、2万图标和常见Emoji，甚至能绘制PRD。随时创建3：4/16：9/21：9等不同尺寸画布。原计划高级功能收费，庆祝端午节现全免费开源。在线体验：https：//ps.qiaomu.ai/，GitHub见评论区。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2067513484364140994",
+      "publishedAt": "2026-06-18T07:43:21.000Z"
+    },
     {
       "topic": "产品",
       "title": "MOSS-TTS-Local-Transformer-v1.5 在 SGLang-Omni 上：原生流式 48 kHz 语音服务",
@@ -209,30 +241,6 @@
       "source": "Cloudflare Blog",
       "href": "https://blog.cloudflare.com/cloudflare-one-stack",
       "publishedAt": "2026-06-17T13:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "阿里云发布HappyOyster 1.0：一句话生成可实时交互的数字世界",
-      "summary": "6月17日，阿里云发布开放式世界模型HappyOyster 1.0（快乐生蚝）。该产品基于原生多模态架构，支持多模态输入与音视频联合生成，可在生成过程中持续接收用户指令并实时响应画面。它深度学习物理世界状态转移规律，保持人物和环境长程一致性。官网开放\"实时导演\"与\"世界探索\"两种玩法：前者可随时叫停改写故事、与虚拟男友实时互动等；后者支持自由漫游、滑板冲刺、翼装滑翔、骑马奔驰、攻击打怪等交互。该产品已于今年4月16日开放内测，即日起至7月17日官网不定期掉落体验积分。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/965/652.htm",
-      "publishedAt": "2026-06-17T12:46:59.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Strands Robots SDK：用单一智能体打通 Hugging Face Hub 到物理机器人",
-      "summary": "AWS（Apache 2.0）开源的 Strands Robots SDK 将 LeRobot 栈封装为 AgentTools，构建统一智能体。默认用 MuJoCo 模拟（无需硬件），mode=\"real\" 切换至真实机器人。可记录演示数据为 LeRobotDataset 并推送 Hugging Face Hub，运行 GR00T 或 LerobotLocal 策略推理，经 Zenoh mesh 广播命令到多台机器人。模拟与硬件代码完全一致，只需改一个关键字参数。示例可在笔记本（Python 3.12+，Linux/macOS）无硬件、无 GPU 运行。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "publishedAt": "2026-06-17T10:18:05.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Kickart 3.0发布，让广告视频创作更精准高效",
-      "summary": "火山引擎一站式营销创作平台Kickart 3.0（原\"创作Agent\"）正式上线，升级为对话式视频生成模式，用户可通过多轮对话调整商品图、故事板等，用自然语言生成营销视频。新增\"爆款裂变\"能力，上传视频链接后自动拆解爆款逻辑并重构至新商品视频，支持抖音电商内容合规与质量预审核。平台开放SaaS、API及Skill等多种交付方式，并已接入Seedance 2.0 mini，助力降低广告营销成本。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/e6SOMeRbdMB_zATsNcYmUQ",
-      "publishedAt": "2026-06-17T09:45:29.000Z"
     }
   ]
 }
