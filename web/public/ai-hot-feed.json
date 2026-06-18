@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-18T17:06:58.312Z",
-  "count": 29,
+  "updatedAt": "2026-06-18T18:51:54.148Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "论文",
+      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
+      "summary": "深度研究智能体在结合私有本地文档与外部网页检索时存在隐私泄露风险。MosaicLeaks 提出包含 1，001 条多跳研究链的新任务，每条链交错混合本地与公共子问题。测试发现智能体频繁泄露私有信息，单纯优化任务性能反而加剧泄露。基于此，研究提出隐私感知深度研究（PA-DR）强化学习训练方法，将严格链成功率从 48.7% 提升至 58.7%，同时将答案/全面信息泄露率从 34.0% 降至 9.9%。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "publishedAt": "2026-06-18T18:13:13.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Enterprise 推出企业托管 MCP 连接器授权管理",
+      "summary": "Claude Enterprise 推出企业托管授权功能，管理员可通过身份提供商（率先支持 Okta）为整个组织配置 MCP 连接器。用户首次登录 Claude 时自动获得授权，无需手动操作，实现零接触设置。该功能基于 Model Context Protocol 的 Enterprise-Managed Authorization 扩展构建，支持 Asana、Atlassian、Canva、Figma、Granola、Linear、Supabase 等 MCP 提供商，Slack 即将支持。授权管理集成到现有 IdP 工作流中，可按组限定范围、通过 IdP 快速撤销授权，并支持要求连接器仅通过 IdP 连接以隔离工作与个人使用。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/enterprise-managed-auth",
+      "publishedAt": "2026-06-18T17:51:29.795Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
+      "summary": "Claude Code 提供七种自定义指令方式：CLAUDE.md（根目录始终加载，子目录按需加载）、规则（无范围或路径范围）、技能（按需调用，共享 token 预算）、子智能体（隔离上下文运行并返回最终消息）、钩子（生命周期事件触发，绕过压缩）、输出样式（注入系统提示，永不压缩）和附加系统提示（CLI 标志，仅单次有效）。每种方式在加载时机、压缩行为、上下文成本和适用场景上各有不同，例如 CLAUDE.md 适合存放构建命令与编码规范，路径范围规则避免无关上下文消耗，子智能体用于并行隔离任务，钩子用于确定性自动化（如运行 linter 或备份聊天记录）。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "publishedAt": "2026-06-18T17:51:29.795Z"
+    },
+    {
+      "topic": "行业",
+      "title": "AI数据中心获政府强制电网快车道",
+      "summary": "美国联邦能源监管委员会（FERC）命令六大电网运营商为数据中心等大型用户提供快速并网通道，数据中心需承担并网费用。FERC同时要求运营商考虑\"替代输电技术\"，并在30天内报告剩余发电容量、60天内审查本区域电价。指令并未解决发电容量短缺问题。数据中心电力需求预计到2035年增长近三倍，而电网运营商此前长期应对近乎零的需求增长。据Bloomberg，部分地区批发电价较五年前上涨了267%。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
+      "publishedAt": "2026-06-18T17:49:23.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
+      "summary": "伯尼·桑德斯提出立法，对年AI销售额超2亿美元的公司征收50%股票税，建立价值约7万亿美元的主权财富基金。基金每年向每位美国公民发放超1000美元股息（5%年股息），并资助医疗、教育、住房。同时成立由总统提名、参议院确认的两党\"民主AI独立委员会\"，通过投票权阻止公司损害公共利益。法案还要求AI公司剥离非AI业务。该计划面临共和党国会和特朗普政府阻力。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
+      "publishedAt": "2026-06-18T17:02:49.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Grok TTS 盲测人类感得分96登顶",
+      "summary": "xAI 的 Grok TTS 模型在 @Vapi_AI 的 Humanness Index 盲测中以 96 分（真人 100 分）位居榜首。该指数选取同一声音和引文，经各模型克隆后由听众盲评。",
+      "source": "X：xAI (@xai)",
+      "href": "https://x.com/xai/status/2067654108123910495",
+      "publishedAt": "2026-06-18T17:02:09.000Z"
+    },
     {
       "topic": "论文",
       "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
@@ -41,6 +89,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
       "publishedAt": "2026-06-18T11:25:28.101Z"
+    },
+    {
+      "topic": "产品",
+      "title": "GPT-5.5 Instant提升ChatGPT健康智能",
+      "summary": "每周超2.3亿用户通过ChatGPT获取健康信息。GPT-5.5 Instant在健康评估中表现显著提升，最具挑战性评测上达到前沿Thinking模型水平，已面向所有免费用户开放。基于医生编写的HealthBench和HealthBench Professional评估，其回复在准确性、安全性和沟通质量上优于医生手写回复及早期模型，故障模式发生率更低。近两个月生产流量显示，健康类回复事实性问题率下降71%。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "publishedAt": "2026-06-18T11:00:00.000Z"
     },
     {
       "topic": "模型",
@@ -89,14 +145,6 @@
       "source": "X：Vista (@vista8)",
       "href": "https://x.com/vista8/status/2067513484364140994",
       "publishedAt": "2026-06-18T07:43:21.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "MOSS-TTS-Local-Transformer-v1.5 在 SGLang-Omni 上：原生流式 48 kHz 语音服务",
-      "summary": "MOSS-TTS-Local-Transformer-v1.5 是一款开源 TTS 模型，支持 48 kHz 立体声、零样本声音克隆、最长 10 分钟长文本合成、时长控制及 31 种语言。其核心采用 Qwen3-4B 骨干与约 2B 参数的 MOSS-Audio-Tokenizer-v2 音频编解码器，通过 12 个 RVQ 码本运行。SGLang-Omni 以三阶段流水线部署该模型。在 Seed-TTS-Eval 上词错误率 5.10%、语音相似度 69.23%，CV3-Eval 上 WER 7.48%、SIM 61.59%，MiniMax Multilingual 上 WER 6.37%、SIM 75.31%，X Voice 上 WER 20.48%、SIM 63.00%。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-06-17-moss-tts-local-v15",
-      "publishedAt": "2026-06-18T05:56:08.548Z"
     },
     {
       "topic": "产品",
@@ -193,46 +241,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
       "publishedAt": "2026-06-17T19:41:46.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Design与Replit联动，设计变应用",
-      "summary": "在Claude中设计。在Replit中构建。\n\n你现在可以将Claude Design中的设计发送到Replit，将其变成一个可工作的应用。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2067328501003497684",
-      "publishedAt": "2026-06-17T19:28:18.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Matt Pocock 开源 skills v1：将技能描述 Token 成本降低 63%",
-      "summary": "Matt Pocock（Total TypeScript 作者）开源了 skills v1，将技能描述的 Token 成本降低 63%。该工具包将技能分为模型可调用和用户可调用，新增 /codebase-design、/domain-modeling、/grilling 三项技能；重写 /writing-great-skills；将 /diagnose 更新为 /diagnosing-bugs 并改为模型可调用；新增 /ask-matt 路由技能，帮助 AI 自动判断时机触发合适工程流程。主推文评价其将 prompt 从咒语拆解为纪律性流程。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2067327021005656135",
-      "publishedAt": "2026-06-17T19:22:25.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic与DeepMind CEO呼吁G7组建AI联盟排除中国",
-      "summary": "Dario Amodei（Anthropic）与Demis Hassabis（Google DeepMind）在G7闭门会议上呼吁组建美国主导的联盟，为人工智能制定全球规则和标准。Amodei指出，该联盟应以前沿模型和硬件（包括芯片及其他关键组件）的访问权限为手段，将中国排除在外。这一主张被评论为高技术新冷战的开端，竞争方将从根本上被剥夺参与权。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2067310431669223425",
-      "publishedAt": "2026-06-17T18:16:30.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "用SGLang-JAX在TPU上优化Ling-2.6-1T：一个Pallas核将MoE数据移动隐藏在计算中",
-      "summary": "SGLang-JAX现已支持inclusionAI的Ling-2.6-1T（1T稀疏MoE，63B激活参数，256路由专家，top-8路由加共享专家）在TPU v7x上高效推理。团队开发了Fused MoE V2--一个融合scatter、专家FFN和gather的Pallas核，通过将MoE数据移动隐藏在计算中，使MoE预填充延迟从5.16ms降至2.42ms（降幅53%），解码核延迟从0.249ms降至0.211ms（降幅约15%）。仅替换MoE核即提升预填充吞吐量24.8%，解码吞吐量18.5%-35.3%。在SGLang解码基准测试中，16块TPU v7x芯片输出吞吐量达16块H200 GPU的1.29倍（mc=128）至1.77倍（mc=512）。完整上线还包含混合KV/循环内存池、GLA线性注意力和单控制器数据并行支持。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-06-17-ling-2-6-tpu",
-      "publishedAt": "2026-06-17T17:53:38.527Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
-      "summary": "Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）。Eve 采用文件系统优先设计：每个智能体对应一个磁盘目录，目录结构直接映射模型、指令、工具、技能、连接、子智能体等能力，无需额外注册代码。内置六大生产级能力：持久执行（每步检查点，崩溃后可恢复）、沙箱计算、人机审批、安全连接（支持 MCP 和 OpenAPI）、多通道（Slack、Discord、Teams 等）以及追踪与评估（OpenTelemetry）。Vercel 内部运行了上百个智能体，包括数据分析工具 d0（月处理超3万查询）、自动销售代理 Lead Agent（年费约5000美元、回报32倍）和支持智能体 Vertex（自主解决92%工单）。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
-      "publishedAt": "2026-06-17T17:22:51.000Z"
     }
   ]
 }
