@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-19T03:13:07.944Z",
-  "count": 28,
+  "updatedAt": "2026-06-19T05:46:57.356Z",
+  "count": 30,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
+      "summary": "Agent Builder 正式上市（GA）。基于 Elasticsearch 的持久化内存层将记忆分为情景、语义、程序三类，分别存入独立索引，各设不同写速率与过期规则。召回采用 BM25 与 Jina v5 稠密向量的 RRF 融合，再经交叉编码器重排序。在 168 道 QA 题评估中，R@10 平均 0.89，零跨租户泄漏。该层可通过支持 MCP 协议的客户端访问，不绑定特定运行时，已开源至 GitHub。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "publishedAt": "2026-06-19T05:01:18.006Z"
+    },
+    {
+      "topic": "产品",
+      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
+      "summary": "阿里开源内部向量数据库Zvec，pip install zvec免费使用，对标Pinecone每月70美元能力。支持十亿向量毫秒级检索，无需单独起服务，全平台兼容；v0.5.0新增原生全文混合搜索。UCSD黄碧薇教授（causal-learn作者）提出AI四代范式：相关性小模型→因果小模型→相关性大模型（LLM）→因果大模型，认为当前正站在第四代门口。其创立的Aether AI完成首轮融资，致力于从视频中自动抽取物理规律，探索下一代因果AI范式。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2067832098816250346",
+      "publishedAt": "2026-06-19T04:49:25.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2067819352926150953",
+      "publishedAt": "2026-06-19T03:58:46.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
+      "summary": "美国政府短暂关闭了Mythos类中的Fable模型，标志着AI模型已越过危险门槛。作者预测最多两三代模型后，超级智能将像核武器一样被管控，大多数Fortune 500企业无法访问或仅受控使用。开源模型落后前沿约七个月，且面临算力和政府锁定的双重壁垒。人类的\"辨别地平线\"使许多人感觉模型进步停止，但实际指数增长未停--只是用户缺少足够困难的问题。Fable类已能解决此前Opus 4.8无法完成的复杂任务（如React客户端），AI将彻底改变编程和知识工作，但多数人只能使用当前等级模型。",
+      "source": "Steve Yegge：Medium（RSS）",
+      "href": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "publishedAt": "2026-06-19T03:31:56.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
@@ -209,22 +241,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/diagnose-rare-childhood-diseases",
       "publishedAt": "2026-06-18T08:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "DeepSeek 识图模式正式上线 App 和网页端",
-      "summary": "DeepSeek 识图模式于6月18日在网页和 App 端正式上线，与快速模式、专家模式并列。开启后用户可直接上传图片让 DeepSeek 识别图像，能力超越简单文字提取。目前 App 端仍显示\"图片理解功能内测中\"，网页端无此提示。该模式背后的多模态模型技术细节于今年4月公开，核心框架为\"Thinking with Visual Primitives（以视觉原语思考）\"。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/966/066.htm",
-      "publishedAt": "2026-06-18T07:48:11.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "免费开源乔木画布：AI生图+抠图，一键部署Vercel",
-      "summary": "乔木画布推出免费开源在线图像编辑器，可一键部署Vercel为网站，功能类似简化版PS。支持Seedream和GPT-image-2生图、图片模板存储分享、一键抠图、2万图标和常见Emoji，甚至能绘制PRD。随时创建3：4/16：9/21：9等不同尺寸画布。原计划高级功能收费，庆祝端午节现全免费开源。在线体验：https：//ps.qiaomu.ai/，GitHub见评论区。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2067513484364140994",
-      "publishedAt": "2026-06-18T07:43:21.000Z"
     }
   ]
 }
