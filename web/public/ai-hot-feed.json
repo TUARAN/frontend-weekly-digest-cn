@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-19T16:51:38.990Z",
+  "updatedAt": "2026-06-19T17:38:40.925Z",
   "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "AI中心的数据黑洞",
+      "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成--投入大量算力通过验证器筛选\"好\"数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍--机器人、自动驾驶等领域同样存在巨大效率差距。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "href": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
+      "publishedAt": "2026-06-19T16:45:03.000Z"
+    },
     {
       "topic": "行业",
       "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
@@ -121,14 +129,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
       "publishedAt": "2026-06-18T17:49:23.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "企业版新用量分析与更新的支出控制",
-      "summary": "OpenAI 为 ChatGPT Enterprise 推出信用额度用量分析与更新的支出控制功能。全局管理控制台（Global Admin Console）统一展示 ChatGPT 和 Codex 的信用消耗，支持按时间、用户、产品、模型追踪用量趋势。管理员可为整个工作区设置默认限额，按群组配置额度，并为个人设置叠加限制。员工可查看个人用量并申请增加额度（附工作上下文）。这些功能即日起可用。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "publishedAt": "2026-06-18T17:00:00.000Z"
     }
   ]
 }
