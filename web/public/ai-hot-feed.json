@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-19T13:15:45.594Z",
-  "count": 20,
+  "updatedAt": "2026-06-19T15:04:55.189Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "禁止开源AI将是一个错误",
+      "summary": "近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管。开源软件已支撑全球90%以上软件并创造8万亿美元经济价值，在教育、创新和竞争三方面持续赋能。Anthropic与OpenAI的封闭模型加剧市场集中，开源（尤其开放权重）是初创公司、教育机构和企业获得替代方案的唯一平衡力量。开源透明性使其更安全，更多工程师可剔除不需要的模型行为或修复漏洞。以中国竞争为由监管开源将适得其反，美国初创公司正依赖包括中国在内的开源模型提升效率。",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "href": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+      "publishedAt": "2026-06-19T13:02:47.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Cloudflare 为 AI 智能体推出临时账户",
+      "summary": "Cloudflare 在 Workers 上推出临时账户（Temporary Accounts），允许 AI 智能体直接运行 `wrangler deploy --temporary`，在数秒内获取一个可用的实时 Worker，无需绕开面向人类设计的部署流程。该功能旨在降低智能体部署门槛。",
+      "source": "Cloudflare Blog",
+      "href": "https://blog.cloudflare.com/temporary-accounts",
+      "publishedAt": "2026-06-19T13:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "/youtube-notetaker：YT 视频转 Artifacts",
@@ -137,30 +153,6 @@
       "source": "Anthropic：Research（发表成果 · 网页）",
       "href": "https://www.anthropic.com/research/project-fetch-phase-two",
       "publishedAt": "2026-06-18T16:22:33.561Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "如何将 SillyTavern 连接到 OpenRouter（2026 指南）",
-      "summary": "一个 OpenRouter API 密钥即可在 SillyTavern 的下拉菜单中解锁 300 多个模型，其中许多免费。指南包含五步连接流程、推荐尝试的角色扮演模型以及常见错误的修复方法。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/sillytavern-openrouter",
-      "publishedAt": "2026-06-18T15:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施",
-      "summary": "工信部6月16日就《智能网联汽车自动驾驶系统安全要求》等2项强制性国标公开征求意见，公示至6月24日，建议2027年7月1日起实施。该标准系我国首部针对L3/L4的强制性国标，要求系统安全水平至少达到\"合格且专注驾驶人\"，引入Safety Case机制。L3重点规范人机交接，L4强调自身风险处置、不得依赖远程协助。新申请车型实施日起执行，已获批车型有约一年过渡期。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/966/272.htm",
-      "publishedAt": "2026-06-18T14:57:30.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
-      "summary": "德国团队开发的MIRA智能体在模拟电子病历中操作85，000种选项，500余例急诊诊断准确率88.9%，对比测试（311例）得分87.8%，高于资深专科医生（78.1%）和混合团队（71.1%）。MIRA在阑尾炎（98.6%）和胰腺炎（92.3%）最佳，未发现危险药物交互或剂量错误，性能不受语言影响，代码已公开。谷歌AMIE采用双智能体架构，在100个多访视病例中治疗计划适切率95%（初级保健医生72%），并在药物知识基准RxQA上超过医生。两项研究均警告模拟环境与现实存在差距，实际性能可能更低。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
-      "publishedAt": "2026-06-18T14:37:06.000Z"
     }
   ]
 }
