@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-19T17:38:40.925Z",
-  "count": 16,
+  "updatedAt": "2026-06-19T18:40:43.812Z",
+  "count": 13,
   "items": [
     {
       "topic": "技巧",
@@ -105,30 +105,6 @@
       "source": "OpenRouter：Announcements（RSS）",
       "href": "https://openrouter.ai/blog/tutorials/openclaw-openrouter",
       "publishedAt": "2026-06-18T19:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
-      "summary": "深度研究智能体在结合私有本地文档与外部网页检索时存在隐私泄露风险。MosaicLeaks 提出包含 1，001 条多跳研究链的新任务，每条链交错混合本地与公共子问题。测试发现智能体频繁泄露私有信息，单纯优化任务性能反而加剧泄露。基于此，研究提出隐私感知深度研究（PA-DR）强化学习训练方法，将严格链成功率从 48.7% 提升至 58.7%，同时将答案/全面信息泄露率从 34.0% 降至 9.9%。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "publishedAt": "2026-06-18T18:13:13.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 强化学习实现广泛且持久的有益模型",
-      "summary": "OpenAI 通过强化学习在真实对话场景中训练模型，使其展现诚实、认知谦逊、元认知透明、可纠正性、普遍公平性和对人类福祉的关心等有益特质。训练数据涵盖健康、教育、科学、法律、工程等多个领域。训练后模型在数十项独立对齐评测（包括奖励黑客、欺骗、有害建议、规范遵从等）上均表现提升，且这种改善泛化到未参与训练的领域、任务和评分设定。在对抗性提示或微调下，模型仍难以被导向有害行为，表明有益特质强化学习可产生广泛且持久的对齐泛化。",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "href": "https://alignment.openai.com/beneficial-rl",
-      "publishedAt": "2026-06-18T18:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AI数据中心获政府强制电网快车道",
-      "summary": "美国联邦能源监管委员会（FERC）命令六大电网运营商为数据中心等大型用户提供快速并网通道，数据中心需承担并网费用。FERC同时要求运营商考虑\"替代输电技术\"，并在30天内报告剩余发电容量、60天内审查本区域电价。指令并未解决发电容量短缺问题。数据中心电力需求预计到2035年增长近三倍，而电网运营商此前长期应对近乎零的需求增长。据Bloomberg，部分地区批发电价较五年前上涨了267%。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "publishedAt": "2026-06-18T17:49:23.000Z"
     }
   ]
 }
