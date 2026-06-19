@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-19T18:40:43.812Z",
+  "updatedAt": "2026-06-19T19:35:32.057Z",
   "count": 13,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "summary": "宝玉分享 baoyu-design Skill 的迭代过程：用户测试发现导出问题（样式表未铺满整页、渐变色丢失），他在本地复现后让 Agent 分析原因、给出解决方案并添加测试覆盖，修复后效果改善。该 Skill 可在制作 PPT、动画视频或网站时调用 AI 生图配图，支持 Codex 内置画图或配合 baoyu-image-gen Skill 调用 Codex CLI 画图，并能连同图片一起导出为 PPTX，在 PowerPoint/Keynote 中二次编辑。迭代循环：自己用 → 发现问题 → 让 Agent 分析 → 出方案 → 确认 → 更新 Skill。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2068042001895809420",
+      "publishedAt": "2026-06-19T18:43:30.000Z"
+    },
     {
       "topic": "技巧",
       "title": "AI中心的数据黑洞",
@@ -97,14 +105,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2067755504613613699",
       "publishedAt": "2026-06-18T23:45:03.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenClaw 接入 OpenRouter",
-      "summary": "OpenClaw 已内置 OpenRouter 支持，一条命令即可为 AI 智能体配置统一密钥、统一账单，并实现跨 300 多个模型的自动故障转移。同时提供具体设置步骤以及常见错误的修复方法。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/openclaw-openrouter",
-      "publishedAt": "2026-06-18T19:00:00.000Z"
     }
   ]
 }
