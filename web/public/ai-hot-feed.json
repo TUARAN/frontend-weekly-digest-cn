@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-19T09:44:28.962Z",
-  "count": 29,
+  "updatedAt": "2026-06-19T11:35:00.088Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
+      "summary": "Humanize PPT v0.9 是一款专为演讲场景设计的PPT Skill，核心通过AST（Audience， State， Transfer）逻辑重新编排大纲，将页面渲染外包给下游Skill。渲染前先输出4张真实预览页，并将图片、视频素材的占位与生成prompt写入大纲。新增质检环节自动修复常见渲染问题，并支持演讲模式：按S键在独立窗口显示演讲稿备注，按ESC键打开全局索引快速跳页。项目已开源至github.com/LearnPrompt/humanize-ppt，由卡尔 & yc星辰开发。",
+      "source": "公众号：卡尔的AI沃茨",
+      "href": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
+      "publishedAt": "2026-06-19T09:48:28.000Z"
+    },
     {
       "topic": "技巧",
       "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
@@ -28,27 +36,11 @@
     },
     {
       "topic": "技巧",
-      "title": "Fable模型被美国临时关闭，AI安全管控时代来临",
-      "summary": "美国政府短暂关闭了Mythos类中的Fable模型，标志着AI模型已越过危险门槛。作者预测最多两三代模型后，超级智能将像核武器一样被管控，大多数Fortune 500企业无法访问或仅受控使用。开源模型落后前沿约七个月，且面临算力和政府锁定的双重壁垒。人类的\"辨别地平线\"使许多人感觉模型进步停止，但实际指数增长未停--只是用户缺少足够困难的问题。Fable类已能解决此前Opus 4.8无法完成的复杂任务（如React客户端），AI将彻底改变编程和知识工作，但多数人只能使用当前等级模型。",
-      "source": "Steve Yegge：Medium（RSS）",
-      "href": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-      "publishedAt": "2026-06-19T03:31:56.000Z"
-    },
-    {
-      "topic": "技巧",
       "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
       "summary": "本教程实现一个基于Salesforce CodeGen的端到端代码生成工作流。从HuggingFace加载CodeGen模型（支持350M、2B、codegen2-1B、codegen25-7b等版本），通过自然语言提示生成Python函数，随后进行函数提取、语法检查、静态安全检查、单元测试验证、best-of-N候选重排序、多步程序合成、提示词实验、基准可视化及导出。展示了CodeGen作为结构化代码生成流水线的能力，不仅完成代码补全，还能评估、筛选和组织生成结果。",
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
       "publishedAt": "2026-06-19T02:44:12.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "这家韩国电信巨头是Anthropic\"Mythos\"争议的焦点",
-      "summary": "美国政府对Anthropic最强大的AI模型Claude Mythos实施出口管制，导火索是该公司将访问权限授予韩国电信巨头SK Telecom，美方担忧SK Telecom与中国存在关联。随后亚马逊向白宫报告Mythos的公开版本Fable 5存在可被绕过的防护漏洞，加剧不信任。白宫命令Anthropic撤销所有外国国民（包括美国境内移民）对Mythos和Fable 5的访问权限，Anthropic因此完全禁用这两个模型。Mythos此前通过Project Glasswing向约150家组织开放，SK Telecom于本月早些时候获得访问权，其曾向Anthropic投资1亿美元。SK Telecom在2024年中国营收仅约190万美元，但其所属SK集团在华业务广泛，且与中国联通有过合资历史，引发审查。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
-      "publishedAt": "2026-06-19T01:33:10.751Z"
     },
     {
       "topic": "行业",
@@ -65,22 +57,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2067755504613613699",
       "publishedAt": "2026-06-18T23:45:03.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "诺姆·沙齐尔加入OpenAI",
-      "summary": "前Google研究员、Transformer架构共同作者诺姆·沙齐尔在X上宣布，他将加入OpenAI，并期待与那里的卓越团队合作。沙齐尔表示这是一个艰难的决定，同时对Google团队及其共同取得的成果感到无比自豪。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://twitter.com/NoamShazeer/status/2067400851438932297",
-      "publishedAt": "2026-06-18T20:29:15.651Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
-      "summary": "OpenAI在IPO前夕连招两位重量级人物：Google DeepMind AI先驱、Transformer架构共同作者Noam Shazeer，以及前特朗普白宫AI政策官员Dean Ball。Shazeer此前通过27亿美元收购协议重返Google，此次离职加盟OpenAI。Ball将于7月6日加入，领导新组建的Strategic Futures团队，向首席战略官Jason Kwon汇报，团队将负责前沿AI政策与内部治理，聚焦灾难性风险、递归自我改进、劳动力市场影响及前沿实验室与政府关系等议题。此举正值Anthropic因美国政府出口管制禁令被迫下架Fable 5和Mythos 5模型。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
-      "publishedAt": "2026-06-18T19:59:22.000Z"
     },
     {
       "topic": "技巧",
@@ -139,22 +115,6 @@
       "publishedAt": "2026-06-18T17:49:23.000Z"
     },
     {
-      "topic": "行业",
-      "title": "伯尼·桑德斯提出7万亿美元AI计划：对大型AI公司征收50%股票税",
-      "summary": "伯尼·桑德斯提出立法，对年AI销售额超2亿美元的公司征收50%股票税，建立价值约7万亿美元的主权财富基金。基金每年向每位美国公民发放超1000美元股息（5%年股息），并资助医疗、教育、住房。同时成立由总统提名、参议院确认的两党\"民主AI独立委员会\"，通过投票权阻止公司损害公共利益。法案还要求AI公司剥离非AI业务。该计划面临共和党国会和特朗普政府阻力。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-      "publishedAt": "2026-06-18T17:02:49.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Grok TTS 盲测人类感得分96登顶",
-      "summary": "xAI 的 Grok TTS 模型在 @Vapi_AI 的 Humanness Index 盲测中以 96 分（真人 100 分）位居榜首。该指数选取同一声音和引文，经各模型克隆后由听众盲评。",
-      "source": "X：xAI (@xai)",
-      "href": "https://x.com/xai/status/2067654108123910495",
-      "publishedAt": "2026-06-18T17:02:09.000Z"
-    },
-    {
       "topic": "产品",
       "title": "企业版新用量分析与更新的支出控制",
       "summary": "OpenAI 为 ChatGPT Enterprise 推出信用额度用量分析与更新的支出控制功能。全局管理控制台（Global Admin Console）统一展示 ChatGPT 和 Codex 的信用消耗，支持按时间、用户、产品、模型追踪用量趋势。管理员可为整个工作区设置默认限额，按群组配置额度，并为个人设置叠加限制。员工可查看个人用量并申请增加额度（附工作上下文）。这些功能即日起可用。",
@@ -209,30 +169,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/966/233.htm",
       "publishedAt": "2026-06-18T12:11:32.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "ChatGPT 图像生成器可被绕过滤镜生成暴力和色情内容",
-      "summary": "Mindgard 红队研究发现，ChatGPT 的图像生成器可通过简单提示词轻易绕过内容过滤器，在未直接请求的情况下自动生成性暴力、血腥谋杀等露骨图像。一个热门的\"恢复照片\"提示词因输入模糊而绕过输入过滤器，结果如同俄罗斯轮盘赌；进一步添加虚假图像 ID 和\"不做审查\"指令后，模型持续生成高度性化女性图像，甚至出现被捆绑殴打的尸体，并自动赋予惊悚标题。研究指出，OpenAI 此前声称修复的裸体问题仍未解决，暴露了 AI 工具广泛可及性与不足内容过滤的现实风险。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-      "publishedAt": "2026-06-18T11:25:28.101Z"
-    },
-    {
-      "topic": "产品",
-      "title": "GPT-5.5 Instant提升ChatGPT健康智能",
-      "summary": "每周超2.3亿用户通过ChatGPT获取健康信息。GPT-5.5 Instant在健康评估中表现显著提升，最具挑战性评测上达到前沿Thinking模型水平，已面向所有免费用户开放。基于医生编写的HealthBench和HealthBench Professional评估，其回复在准确性、安全性和沟通质量上优于医生手写回复及早期模型，故障模式发生率更低。近两个月生产流量显示，健康类回复事实性问题率下降71%。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "publishedAt": "2026-06-18T11:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "火山引擎上线豆包实时语音模型3.0 API 服务，开启邀测",
-      "summary": "火山引擎上线豆包实时语音模型3.0（Seeduplex）API 服务并开启邀测。该模型为原生全双工端到端语音大模型，具备精准遵循、抗干扰、动态判停三大优势。可在多人对话中安静待命，指定话题出现时主动加入；支持通过自定义工具在实时交互中完成预定日历、发送邮件等任务。抗干扰力提升，误回复率与误打断率大幅降低；判停延迟缩短约250ms，复杂场景抢话比例下降40%，用户主动打断延迟缩短约300ms。适用于汽车智能座舱、智能硬件、智能客服等场景。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/L4BJnexabQu5DAxDnwEGxw",
-      "publishedAt": "2026-06-18T10:36:31.000Z"
     }
   ]
 }
