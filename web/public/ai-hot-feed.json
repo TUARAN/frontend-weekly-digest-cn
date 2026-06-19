@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T05:46:57.356Z",
+  "updatedAt": "2026-06-19T07:57:08.144Z",
   "count": 30,
   "items": [
     {
@@ -60,6 +60,14 @@
     },
     {
       "topic": "行业",
+      "title": "诺姆·沙齐尔加入OpenAI",
+      "summary": "前Google研究员、Transformer架构共同作者诺姆·沙齐尔在X上宣布，他将加入OpenAI，并期待与那里的卓越团队合作。沙齐尔表示这是一个艰难的决定，同时对Google团队及其共同取得的成果感到无比自豪。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "publishedAt": "2026-06-18T20:29:15.651Z"
+    },
+    {
+      "topic": "行业",
       "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
       "summary": "OpenAI在IPO前夕连招两位重量级人物：Google DeepMind AI先驱、Transformer架构共同作者Noam Shazeer，以及前特朗普白宫AI政策官员Dean Ball。Shazeer此前通过27亿美元收购协议重返Google，此次离职加盟OpenAI。Ball将于7月6日加入，领导新组建的Strategic Futures团队，向首席战略官Jason Kwon汇报，团队将负责前沿AI政策与内部治理，聚焦灾难性风险、递归自我改进、劳动力市场影响及前沿实验室与政府关系等议题。此举正值Anthropic因美国政府出口管制禁令被迫下架Fable 5和Mythos 5模型。",
       "source": "TechCrunch：AI（RSS）",
@@ -81,14 +89,6 @@
       "source": "Claude：Blog（网页）",
       "href": "https://claude.com/blog/artifacts-in-claude-code",
       "publishedAt": "2026-06-18T18:54:47.698Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 联合多国医生：GPT-5.5 Instant 健康问答能力追平前沿 Thinking 模型",
-      "summary": "OpenAI 与全球 60 个国家、49 种语言、26 个专科的数百名医生合作，通过医生主导的评估大幅提升了 GPT-5.5 Instant 在健康相关问题的智能水平，现已能与公司前沿 Thinking 模型（推理模型）相当。该模型每周为超过 2.3 亿 ChatGPT 用户服务，能更好识别紧急医疗需求、询问相关上下文、解释不确定性并简化复杂信息。由于面向所有 ChatGPT 免费用户开放，这些改进可惠及更多人。",
-      "source": "X：Greg Brockman (@gdb)",
-      "href": "https://x.com/gdb/status/2067675030335668270",
-      "publishedAt": "2026-06-18T18:25:17.000Z"
     },
     {
       "topic": "论文",
@@ -179,6 +179,14 @@
       "publishedAt": "2026-06-18T14:57:30.000Z"
     },
     {
+      "topic": "论文",
+      "title": "Nature两篇研究：MIRA和AMIE诊断与治疗计划媲美甚至超越医生",
+      "summary": "德国团队开发的MIRA智能体在模拟电子病历中操作85，000种选项，500余例急诊诊断准确率88.9%，对比测试（311例）得分87.8%，高于资深专科医生（78.1%）和混合团队（71.1%）。MIRA在阑尾炎（98.6%）和胰腺炎（92.3%）最佳，未发现危险药物交互或剂量错误，性能不受语言影响，代码已公开。谷歌AMIE采用双智能体架构，在100个多访视病例中治疗计划适切率95%（初级保健医生72%），并在药物知识基准RxQA上超过医生。两项研究均警告模拟环境与现实存在差距，实际性能可能更低。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
+      "publishedAt": "2026-06-18T14:37:06.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
       "summary": "Adobe 将其\"创意智能体\"扩展至 Photoshop、Premiere 等应用，以公开测试形式提供 AI Assistant。该智能体可自动完成多步骤常规任务，如 Premiere 分拣素材和粗剪、Photoshop 换背景、Illustrator 批量生成文件、InDesign 更新版式等。Firefly 新增面向个人创作者的品牌套件、产品图转短视频及 Quick Cut 自动剪辑功能。Adobe 工具已集成至 ChatGPT、Claude 及 Microsoft 365 Copilot，Google Gemini 和 Slack 集成即将推出。",
@@ -233,14 +241,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/966/154.htm",
       "publishedAt": "2026-06-18T09:03:28.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%",
-      "summary": "波士顿儿童医院、哈佛大学与OpenAI合作，在《NEJM AI》发表研究。团队使用OpenAI o3 Deep Research推理模型重新分析376例此前未确诊的罕见病案例，产出基于证据的候选解释。经专家评审、额外检测和临床确认，医生在18例中建立诊断，额外诊断率达4.8%。研究显示，AI辅助工作流可帮助专家在未解病例中生成可检验假设，使定期再分析更具可扩展性。模型不直接诊断或做临床决策，仅提供证据链供专家审查。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "publishedAt": "2026-06-18T08:00:00.000Z"
     }
   ]
 }
