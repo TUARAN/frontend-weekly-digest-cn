@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-18T23:35:59.180Z",
-  "count": 30,
+  "updatedAt": "2026-06-19T01:02:32.019Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "产品",
+      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
+      "summary": "AI 员工 Viktor 在 Slack 上实现 2000 万美元年化收入（无销售团队、未大规模推广），现已正式进驻 Microsoft Teams。Viktor 定位为零门槛 AI：用户无需学习、无需提示词，像 @同事 一样提及即可获得完整工作成果，甚至无需主动 @ 也能自动完成。产品面向 Teams 的 3.2 亿用户，助力企业内部运营和管理人员零学习成本使用 AI。即日起免费试用，含 100 美元信用额度，无需绑定信用卡。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2067755504613613699",
+      "publishedAt": "2026-06-18T23:45:03.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI IPO前连下两城：招揽Transformer共同作者及前白宫AI政策官员",
@@ -209,38 +217,6 @@
       "source": "X：Midjourney (@midjourney)",
       "href": "https://x.com/midjourney/status/2067422898407837797",
       "publishedAt": "2026-06-18T01:43:24.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "上交所发布指引：AI大模型企业可适用科创板第五套上市标准",
-      "summary": "上海证券交易所6月17日发布指引，支持尚未形成稳定收入的优质人工智能大模型企业通过科创板第五套上市标准发行上市。申报企业需在行业地位、产业链优势、目标市场需求、研发进度及关键指标方面具备突出竞争力。指引明确，申报时至少有一个大模型产品已完成上线发布并实现规模化应用，以验证商业模式可行性。下一步，上交所将在中国证监会指导下推进符合标准的企业上市。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/965/735.htm",
-      "publishedAt": "2026-06-18T00:49:16.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "苹果 Xcode 27 核心首次深度集成 AI 智能体：支持自然语言修 Bug、构建 App",
-      "summary": "在 2026 年 WWDC 期间，苹果发布 Xcode 27，其核心组件首次整合 AI 智能体，能理解 Swift 语言并通过多轮自然语言对话辅助开发。AI 可跨多个文件修改整个代码库，也能根据提示与资源生成应用设计并独立构建完整应用，建成后仍可通过对话添加特效、动画等。Xcode 27 支持接入 Anthropic、OpenAI 和 Google 等第三方 AI 模型，同时引入 Core AI 框架提供现代 Swift API 调用端侧模型，并升级开源框架 MLX。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/965/734.htm",
-      "publishedAt": "2026-06-18T00:43:26.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Noam Shazeer 离开 Google 加入 OpenAI",
-      "summary": "两年前谷歌花 27 亿美元请回的 AI 传奇 Noam Shazeer 已离开谷歌，加入 OpenAI。\n\n对 Gemini 来说是个残酷的消息。",
-      "source": "X：Yuchen Jin (@Yuchenj_UW)",
-      "href": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-      "publishedAt": "2026-06-18T00:19:56.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "xAI 发布 Grok for Word 插件",
-      "summary": "xAI 将 Grok 引入 Microsoft Word，推出免费 365 插件。用户可将笔记转为结构化文档、重写文本以提升清晰度与简洁性，也能通过插件搜索网页、X 平台或生成图表。插件支持连接 SharePoint 和 Google Drive 等外部来源，还可用于 PowerPoint 和 Excel。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/introducing-word-addin",
-      "publishedAt": "2026-06-18T00:00:00.000Z"
     }
   ]
 }
