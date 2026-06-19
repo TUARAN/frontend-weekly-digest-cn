@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-19",
+      "displayDate": "Jun 19",
+      "json": "/ai-daily/2026-06-19.json",
+      "count": 5,
+      "highlights": [
+        "Anthropic Project Fe",
+        "Claude Code 现已支持 art",
+        "八部门：用好个人消费贷款财政贴息政策，支",
+        "OpenAI IPO前连下两城：招揽Tr",
+        "OpenAI 联合多国医生：GPT-5."
+      ]
+    },
+    {
       "date": "2026-06-18",
       "displayDate": "Jun 18",
       "json": "/ai-daily/2026-06-18.json",
@@ -286,5 +299,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-18"
+  "latest": "2026-06-19"
 }
