@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-19T11:35:00.088Z",
-  "count": 21,
+  "updatedAt": "2026-06-19T13:15:45.594Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "/youtube-notetaker：YT 视频转 Artifacts",
+      "summary": "YT 视频 -> Artifacts\n\n看看我如何使用新的 /youtube-notetaker 技能从 YT 视频生成 Artifacts。\n\n捕获幻灯片、笔记、转录内容……\n\n快去试试 ↓",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "href": "https://x.com/omarsar0/status/2067952726282031411",
+      "publishedAt": "2026-06-19T12:48:45.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
@@ -153,22 +161,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/ai-systems-rival-doctors-in-new-nature-studies-but-one-result-suggests-the-tech-wont-age-well",
       "publishedAt": "2026-06-18T14:37:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Adobe 为 Photoshop、Premiere 等多款 Creative Cloud 应用加入 AI 智能体",
-      "summary": "Adobe 将其\"创意智能体\"扩展至 Photoshop、Premiere 等应用，以公开测试形式提供 AI Assistant。该智能体可自动完成多步骤常规任务，如 Premiere 分拣素材和粗剪、Photoshop 换背景、Illustrator 批量生成文件、InDesign 更新版式等。Firefly 新增面向个人创作者的品牌套件、产品图转短视频及 Quick Cut 自动剪辑功能。Adobe 工具已集成至 ChatGPT、Claude 及 Microsoft 365 Copilot，Google Gemini 和 Slack 集成即将推出。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-      "publishedAt": "2026-06-18T12:59:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "皮尤民调：63%美国人认为AI发展太快，ChatGPT使用率翻番",
-      "summary": "皮尤研究中心最新民调显示，63%美国人认为AI发展速度过快。ChatGPT使用率较2023年翻番，44%受访者曾使用。49%偶尔使用聊天机器人，仅16%认为AI会有积极社会影响。青年群体使用率更高但更悲观：18-29岁中66%用过，48%认为有负面影响，仅14%看好。30-49岁中34%每天至少使用一次。约四成用AI处理工作，30%认为提高效率，28%认为帮助获取信息。此外，66%成年人担心AI传播错误信息。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/966/233.htm",
-      "publishedAt": "2026-06-18T12:11:32.000Z"
     }
   ]
 }
