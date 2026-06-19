@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-19T15:04:55.189Z",
-  "count": 19,
+  "updatedAt": "2026-06-19T16:51:38.990Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "行业",
+      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
+      "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "href": "https://x.com/demishassabis/status/2068002732250640603",
+      "publishedAt": "2026-06-19T16:07:27.000Z"
+    },
     {
       "topic": "技巧",
       "title": "禁止开源AI将是一个错误",
@@ -91,14 +99,6 @@
       "publishedAt": "2026-06-18T19:00:00.000Z"
     },
     {
-      "topic": "产品",
-      "title": "Claude Code 现已支持 artifacts",
-      "summary": "从今日起，Claude Code 可将工作进度生成为 artifacts--实时、可分享的交互式网页，涵盖 PR 走查、系统说明、仪表盘、发布清单等。artifacts 基于会话完整上下文（代码库、连接器、对话）自动构建，更新时页面原地刷新，同事即时可见。默认仅作者可见，可分享给组织内成员，由管理员通过组织层级开关和角色权限管控。内部测试中最常见用例为调试：工程师调查事件，Claude Code 分析日志并发布包含时间线、嫌疑提交和错误率图表的 artifact，团队无需再\"走过场式汇报\"。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/artifacts-in-claude-code",
-      "publishedAt": "2026-06-18T18:54:47.698Z"
-    },
-    {
       "topic": "论文",
       "title": "MosaicLeaks： 你的研究智能体能保守秘密吗？",
       "summary": "深度研究智能体在结合私有本地文档与外部网页检索时存在隐私泄露风险。MosaicLeaks 提出包含 1，001 条多跳研究链的新任务，每条链交错混合本地与公共子问题。测试发现智能体频繁泄露私有信息，单纯优化任务性能反而加剧泄露。基于此，研究提出隐私感知深度研究（PA-DR）强化学习训练方法，将严格链成功率从 48.7% 提升至 58.7%，同时将答案/全面信息泄露率从 34.0% 降至 9.9%。",
@@ -115,22 +115,6 @@
       "publishedAt": "2026-06-18T18:00:00.000Z"
     },
     {
-      "topic": "产品",
-      "title": "Claude Enterprise 推出企业托管 MCP 连接器授权管理",
-      "summary": "Claude Enterprise 推出企业托管授权功能，管理员可通过身份提供商（率先支持 Okta）为整个组织配置 MCP 连接器。用户首次登录 Claude 时自动获得授权，无需手动操作，实现零接触设置。该功能基于 Model Context Protocol 的 Enterprise-Managed Authorization 扩展构建，支持 Asana、Atlassian、Canva、Figma、Granola、Linear、Supabase 等 MCP 提供商，Slack 即将支持。授权管理集成到现有 IdP 工作流中，可按组限定范围、通过 IdP 快速撤销授权，并支持要求连接器仅通过 IdP 连接以隔离工作与个人使用。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/enterprise-managed-auth",
-      "publishedAt": "2026-06-18T17:51:29.795Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "驾驭 Claude Code：CLAUDE.md、技能、钩子、规则、子智能体等",
-      "summary": "Claude Code 提供七种自定义指令方式：CLAUDE.md（根目录始终加载，子目录按需加载）、规则（无范围或路径范围）、技能（按需调用，共享 token 预算）、子智能体（隔离上下文运行并返回最终消息）、钩子（生命周期事件触发，绕过压缩）、输出样式（注入系统提示，永不压缩）和附加系统提示（CLI 标志，仅单次有效）。每种方式在加载时机、压缩行为、上下文成本和适用场景上各有不同，例如 CLAUDE.md 适合存放构建命令与编码规范，路径范围规则避免无关上下文消耗，子智能体用于并行隔离任务，钩子用于确定性自动化（如运行 linter 或备份聊天记录）。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-      "publishedAt": "2026-06-18T17:51:29.795Z"
-    },
-    {
       "topic": "行业",
       "title": "AI数据中心获政府强制电网快车道",
       "summary": "美国联邦能源监管委员会（FERC）命令六大电网运营商为数据中心等大型用户提供快速并网通道，数据中心需承担并网费用。FERC同时要求运营商考虑\"替代输电技术\"，并在30天内报告剩余发电容量、60天内审查本区域电价。指令并未解决发电容量短缺问题。数据中心电力需求预计到2035年增长近三倍，而电网运营商此前长期应对近乎零的需求增长。据Bloomberg，部分地区批发电价较五年前上涨了267%。",
@@ -145,14 +129,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/chatgpt-enterprise-spend-controls",
       "publishedAt": "2026-06-18T17:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍",
-      "summary": "Anthropic 发布 Project Fetch 实验第二阶段结果。在2024年8月原始实验中，配备 Claude Opus 4.1 的人类团队在操控四足机器人时显著超越无 AI 团队。新实验中，Claude Opus 4.7 无需人类协助即完成所有任务，速度比最快人类团队快约20倍，比无 Claude 团队快37倍以上，编码量减少近10倍。模型在传感器连接、路径规划等环节表现出色，但在精确移动沙滩球等闭环控制任务上仍存在困难。这些进展源于通用模型规模化，而非针对机器人领域的专项优化。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "href": "https://www.anthropic.com/research/project-fetch-phase-two",
-      "publishedAt": "2026-06-18T16:22:33.561Z"
     }
   ]
 }
