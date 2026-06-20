@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T16:34:58.007Z",
-  "count": 8,
+  "updatedAt": "2026-06-20T17:33:12.446Z",
+  "count": 7,
   "items": [
     {
       "topic": "技巧",
@@ -57,14 +57,6 @@
       "source": "X：宝玉 (@dotey)",
       "href": "https://x.com/dotey/status/2068042001895809420",
       "publishedAt": "2026-06-19T18:43:30.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI中心的数据黑洞",
-      "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成--投入大量算力通过验证器筛选\"好\"数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍--机器人、自动驾驶等领域同样存在巨大效率差距。",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "href": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
-      "publishedAt": "2026-06-19T16:45:03.000Z"
     }
   ]
 }
