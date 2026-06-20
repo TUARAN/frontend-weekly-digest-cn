@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T15:36:01.982Z",
-  "count": 9,
+  "updatedAt": "2026-06-20T16:34:58.007Z",
+  "count": 8,
   "items": [
     {
       "topic": "技巧",
@@ -65,14 +65,6 @@
       "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
       "href": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
       "publishedAt": "2026-06-19T16:45:03.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-      "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
-      "source": "X：Demis Hassabis (@demishassabis)",
-      "href": "https://x.com/demishassabis/status/2068002732250640603",
-      "publishedAt": "2026-06-19T16:07:27.000Z"
     }
   ]
 }
