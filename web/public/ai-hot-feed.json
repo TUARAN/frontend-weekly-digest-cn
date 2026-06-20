@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T09:07:27.470Z",
-  "count": 13,
+  "updatedAt": "2026-06-20T10:50:47.845Z",
+  "count": 12,
   "items": [
     {
       "topic": "行业",
@@ -97,14 +97,6 @@
       "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
       "href": "https://x.com/omarsar0/status/2067952726282031411",
       "publishedAt": "2026-06-19T12:48:45.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Humanize PPT v0.9：为演讲而生的开源PPT Skill",
-      "summary": "Humanize PPT v0.9 是一款专为演讲场景设计的PPT Skill，核心通过AST（Audience， State， Transfer）逻辑重新编排大纲，将页面渲染外包给下游Skill。渲染前先输出4张真实预览页，并将图片、视频素材的占位与生成prompt写入大纲。新增质检环节自动修复常见渲染问题，并支持演讲模式：按S键在独立窗口显示演讲稿备注，按ESC键打开全局索引快速跳页。项目已开源至github.com/LearnPrompt/humanize-ppt，由卡尔 & yc星辰开发。",
-      "source": "公众号：卡尔的AI沃茨",
-      "href": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
-      "publishedAt": "2026-06-19T09:48:28.000Z"
     }
   ]
 }
