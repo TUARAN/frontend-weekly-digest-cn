@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-20",
+  "displayDate": "Jun 20",
+  "dateNum": "0620",
+  "year": 2026,
+  "dayOfWeek": "SAT",
+  "topics": [
+    "AI Coding",
+    "具身智能"
+  ],
+  "sources": "MarkTechPost（RSS） · X：阿易 AI Notes (@AYi_AInotes) · X：Rohan Paul (@rohanpaul_ai) 等",
+  "count": 5,
+  "highlights": [
+    "NVIDIA Research 发布 S",
+    "DeepSeek研究员开源AutoRes",
+    "Figure机器人数首超人类员工",
+    "baoyu-design Skill迭代",
+    "禁止开源AI将是一个错误"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
+      "summary": "NVIDIA Research 发布 SpatialClaw，一个免训练的空间推理框架。它通过将代码作为动作接口，让智能体调用感知工具（Depth Anything 3、SAM 3）并自由组合输出，解决视觉语言模型在 3D 空间判断上的弱点。在 20 项基准测试中平均准确率达 59.9%，比近期智能体 SpaceTools 高 11.2 个百分点，比无工具基线高 6.5 点，比结构化工具调用高 3.2 点。框架无需重新训练，同一提示词和工具集可跨所有基准和骨干网络运行，支持 Qwen3.5/3.6 及 Gemma4 等 26B 至 397B 参数的模型。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+      "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "03",
+      "topic": "具身智能",
+      "title": "Figure机器人数首超人类员工",
+      "summary": "我们已超越理论阶段。\n\n有史以来第一次，Figure的机器人数量超过了人类员工数量。",
+      "reason": "具身智能领域关键信号，影响产业落地节奏"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
+      "summary": "宝玉分享 baoyu-design Skill 的迭代过程：用户测试发现导出问题（样式表未铺满整页、渐变色丢失），他在本地复现后让 Agent 分析原因、给出解决方案并添加测试覆盖，修复后效果改善。该 Skill 可在制作 PPT、动画视频或网站时调用 AI 生图配图，支持 Codex 内置画图或配合 baoyu-image-gen Skill 调用 Codex CLI 画图，并能连同图片一起导出为 PPTX，在 PowerPoint/Keynote 中二次编辑。迭代循环：自己用 → 发现问题 → 让 Agent 分析 → 出方案 → 确认 → 更新 Skill。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "禁止开源AI将是一个错误",
+      "summary": "近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管。开源软件已支撑全球90%以上软件并创造8万亿美元经济价值，在教育、创新和竞争三方面持续赋能。Anthropic与OpenAI的封闭模型加剧市场集中，开源（尤其开放权重）是初创公司、教育机构和企业获得替代方案的唯一平衡力量。开源透明性使其更安全，更多工程师可剔除不需要的模型行为或修复漏洞。以中国竞争为由监管开源将适得其反，美国初创公司正依赖包括中国在内的开源模型提升效率。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}

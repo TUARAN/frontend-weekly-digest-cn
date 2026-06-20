@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-20",
+      "displayDate": "Jun 20",
+      "json": "/ai-daily/2026-06-20.json",
+      "count": 5,
+      "highlights": [
+        "NVIDIA Research 发布 S",
+        "DeepSeek研究员开源AutoRes",
+        "Figure机器人数首超人类员工",
+        "baoyu-design Skill迭代",
+        "禁止开源AI将是一个错误"
+      ]
+    },
+    {
       "date": "2026-06-19",
       "displayDate": "Jun 19",
       "json": "/ai-daily/2026-06-19.json",
@@ -299,5 +312,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-19"
+  "latest": "2026-06-20"
 }
