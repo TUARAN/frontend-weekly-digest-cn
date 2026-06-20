@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T18:33:57.956Z",
-  "count": 7,
+  "updatedAt": "2026-06-20T19:33:26.061Z",
+  "count": 5,
   "items": [
     {
       "topic": "技巧",
@@ -41,22 +41,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech",
       "publishedAt": "2026-06-19T19:41:30.069Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
-      "summary": "OpenRouter是托管路由网络，买credits后通过一个API路由至70+供应商，自动故障转移，无需自有密钥；覆盖300+模型（含20+免费），按用量收费（零加成+5.5%平台费，首100万免费），支持零数据保留和欧盟路由。Portkey是AI控制平面（2026年被Palo Alto收购），置于用户密钥之上，增加治理、提示管理、护栏和可观测性；提供1600+ LLM统一API，按日志计费（Developer免费，Production $49/月），支持HIPAA、SSO、私有部署。两者均可组合使用。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/openrouter-vs-portkey",
-      "publishedAt": "2026-06-19T19:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
-      "summary": "宝玉分享 baoyu-design Skill 的迭代过程：用户测试发现导出问题（样式表未铺满整页、渐变色丢失），他在本地复现后让 Agent 分析原因、给出解决方案并添加测试覆盖，修复后效果改善。该 Skill 可在制作 PPT、动画视频或网站时调用 AI 生图配图，支持 Codex 内置画图或配合 baoyu-image-gen Skill 调用 Codex CLI 画图，并能连同图片一起导出为 PPTX，在 PowerPoint/Keynote 中二次编辑。迭代循环：自己用 → 发现问题 → 让 Agent 分析 → 出方案 → 确认 → 更新 Skill。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2068042001895809420",
-      "publishedAt": "2026-06-19T18:43:30.000Z"
     }
   ]
 }
