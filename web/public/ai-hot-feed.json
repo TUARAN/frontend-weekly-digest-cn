@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-19T23:25:37.050Z",
-  "count": 18,
+  "updatedAt": "2026-06-20T00:52:34.600Z",
+  "count": 16,
   "items": [
     {
       "topic": "产品",
@@ -129,22 +129,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
       "publishedAt": "2026-06-19T02:44:12.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "八部门联合发文力推\"人工智能 + 消费\"，扩大 AI 手机电脑及智能网联汽车消费",
-      "summary": "商务部等8部门近日印发《关于加快\"人工智能 + 消费\"发展的实施意见》，从5方面提出17条举措。重点包括：扩大AI手机电脑、智能家居、智能网联汽车、智能穿戴、AI机器人等供给；推动AI与居家、养老、文旅、餐饮、教育等融合；促进AI在批发零售、电商、物流领域应用；建设集聚区和体验中心，开展产品租赁、共享、试用等模式创新；完善基础设施、标准体系和监管，推动互联互通。商务部将协同落实，促进AI进千家万户。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/966/295.htm",
-      "publishedAt": "2026-06-18T23:56:08.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "AI 员工 Viktor 登陆 Microsoft Teams，年化收入达 2000 万美元",
-      "summary": "AI 员工 Viktor 在 Slack 上实现 2000 万美元年化收入（无销售团队、未大规模推广），现已正式进驻 Microsoft Teams。Viktor 定位为零门槛 AI：用户无需学习、无需提示词，像 @同事 一样提及即可获得完整工作成果，甚至无需主动 @ 也能自动完成。产品面向 Teams 的 3.2 亿用户，助力企业内部运营和管理人员零学习成本使用 AI。即日起免费试用，含 100 美元信用额度，无需绑定信用卡。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-      "publishedAt": "2026-06-18T23:45:03.000Z"
     }
   ]
 }
