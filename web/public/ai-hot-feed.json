@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T14:48:58.588Z",
-  "count": 10,
+  "updatedAt": "2026-06-20T15:36:01.982Z",
+  "count": 9,
   "items": [
     {
       "topic": "技巧",
@@ -73,14 +73,6 @@
       "source": "X：Demis Hassabis (@demishassabis)",
       "href": "https://x.com/demishassabis/status/2068002732250640603",
       "publishedAt": "2026-06-19T16:07:27.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-      "summary": "OpenRouter 是托管在 Cloudflare 边缘的 LLM 网关，无需管理基础设施，收取 5.5% 平台费（前 100 万次请求免费），支持 70+ 提供商和自动故障转移。LiteLLM 是自部署代理（Docker/PostgreSQL/Redis），数据不离开内网，免费开源，但需承担基础设施成本（生产部署约数百美元/月）。当模型月支出超过约 $3，600（基础设施 $200/月）或 $9，100（基础设施 $500/月）时自托管更划算。LiteLLM 提供六种路由策略和自定义 Python 路由；OpenRouter 具备 SOC 2、GDPR 认证和零数据保留选项。两者可串联使用。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-      "publishedAt": "2026-06-19T15:00:00.000Z"
     }
   ]
 }
