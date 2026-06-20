@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-20T05:33:15.164Z",
-  "count": 12,
+  "updatedAt": "2026-06-20T07:24:49.130Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "行业",
+      "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "summary": "彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户。报道称微软正在测试DeepSeek-R1和DeepSeek-V4，计划向西方客户提供这些中国模型。这一模式构建起跨中美AI模型的双向贸易网络。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2068218661710512231",
+      "publishedAt": "2026-06-20T06:25:29.000Z"
+    },
     {
       "topic": "产品",
       "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
