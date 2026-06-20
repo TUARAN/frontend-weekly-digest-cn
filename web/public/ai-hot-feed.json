@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T01:46:06.073Z",
-  "count": 16,
+  "updatedAt": "2026-06-20T03:11:13.948Z",
+  "count": 15,
   "items": [
     {
       "topic": "产品",
@@ -121,14 +121,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2067819352926150953",
       "publishedAt": "2026-06-19T03:58:46.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Salesforce CodeGen教程：生成、验证并重排序Python函数（含单元测试与安全检查）",
-      "summary": "本教程实现一个基于Salesforce CodeGen的端到端代码生成工作流。从HuggingFace加载CodeGen模型（支持350M、2B、codegen2-1B、codegen25-7b等版本），通过自然语言提示生成Python函数，随后进行函数提取、语法检查、静态安全检查、单元测试验证、best-of-N候选重排序、多步程序合成、提示词实验、基准可视化及导出。展示了CodeGen作为结构化代码生成流水线的能力，不仅完成代码补全，还能评估、筛选和组织生成结果。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-      "publishedAt": "2026-06-19T02:44:12.000Z"
     }
   ]
 }
