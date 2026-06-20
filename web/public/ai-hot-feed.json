@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T03:11:13.948Z",
-  "count": 15,
+  "updatedAt": "2026-06-20T05:33:15.164Z",
+  "count": 12,
   "items": [
     {
       "topic": "产品",
@@ -97,30 +97,6 @@
       "source": "公众号：卡尔的AI沃茨",
       "href": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
       "publishedAt": "2026-06-19T09:48:28.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "我们在 Elasticsearch 上构建了一个持久化代理内存层，其召回率为0.89",
-      "summary": "Agent Builder 正式上市（GA）。基于 Elasticsearch 的持久化内存层将记忆分为情景、语义、程序三类，分别存入独立索引，各设不同写速率与过期规则。召回采用 BM25 与 Jina v5 稠密向量的 RRF 融合，再经交叉编码器重排序。在 168 道 QA 题评估中，R@10 平均 0.89，零跨租户泄漏。该层可通过支持 MCP 协议的客户端访问，不绑定特定运行时，已开源至 GitHub。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-      "publishedAt": "2026-06-19T05:01:18.006Z"
-    },
-    {
-      "topic": "产品",
-      "title": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-      "summary": "阿里开源内部向量数据库Zvec，pip install zvec免费使用，对标Pinecone每月70美元能力。支持十亿向量毫秒级检索，无需单独起服务，全平台兼容；v0.5.0新增原生全文混合搜索。UCSD黄碧薇教授（causal-learn作者）提出AI四代范式：相关性小模型→因果小模型→相关性大模型（LLM）→因果大模型，认为当前正站在第四代门口。其创立的Aether AI完成首轮融资，致力于从视频中自动抽取物理规律，探索下一代因果AI范式。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2067832098816250346",
-      "publishedAt": "2026-06-19T04:49:25.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
-      "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2067819352926150953",
-      "publishedAt": "2026-06-19T03:58:46.000Z"
     }
   ]
 }
