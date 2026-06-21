@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-21T11:06:20.244Z",
-  "count": 3,
+  "updatedAt": "2026-06-21T12:44:34.573Z",
+  "count": 2,
   "items": [
     {
       "topic": "产品",
@@ -17,14 +17,6 @@
       "source": "公众号：腾讯元宝",
       "href": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
       "publishedAt": "2026-06-21T04:51:10.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "开源教程《Deep Agents 实战》发布",
-      "summary": "LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是\"三层架构\"：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用（可在 Claude Code、Cursor 等 30+ 工具中通用）。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2068306942184034471",
-      "publishedAt": "2026-06-20T12:16:16.000Z"
     }
   ]
 }
