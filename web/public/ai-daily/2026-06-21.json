@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-21",
+  "displayDate": "Jun 21",
+  "dateNum": "0621",
+  "year": 2026,
+  "dayOfWeek": "SUN",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "X：邵猛 (@shao__meng) · X：阿易 AI Notes (@AYi_AInotes)",
+  "count": 2,
+  "highlights": [
+    "开源教程《Deep Agents 实战》",
+    "微软双向转售GPT与DeepSeek成全"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "开源教程《Deep Agents 实战》发布",
+      "summary": "LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是\"三层架构\"：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用（可在 Claude Code、Cursor 等 30+ 工具中通用）。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
+      "summary": "彭博社报道，微软已成为全球最大AI模型中转站，既将ChatGPT卖给中国企业，也反向将DeepSeek模型卖给西方客户。报道称微软正在测试DeepSeek-R1和DeepSeek-V4，计划向西方客户提供这些中国模型。这一模式构建起跨中美AI模型的双向贸易网络。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    }
+  ]
+}

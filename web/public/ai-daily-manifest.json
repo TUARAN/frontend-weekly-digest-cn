@@ -1,6 +1,16 @@
 {
   "list": [
     {
+      "date": "2026-06-21",
+      "displayDate": "Jun 21",
+      "json": "/ai-daily/2026-06-21.json",
+      "count": 2,
+      "highlights": [
+        "开源教程《Deep Agents 实战》",
+        "微软双向转售GPT与DeepSeek成全"
+      ]
+    },
+    {
       "date": "2026-06-20",
       "displayDate": "Jun 20",
       "json": "/ai-daily/2026-06-20.json",
@@ -312,5 +322,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-20"
+  "latest": "2026-06-21"
 }
