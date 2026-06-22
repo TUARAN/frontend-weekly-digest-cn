@@ -1,14 +1,30 @@
 {
-  "updatedAt": "2026-06-22T13:03:38.541Z",
-  "count": 1,
+  "updatedAt": "2026-06-22T15:41:54.327Z",
+  "count": 3,
   "items": [
     {
-      "topic": "行业",
-      "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
-      "summary": "美国NSA局长称，Mythos在数小时内攻破了其几乎所有机密系统。此前Mythos已在5天内破解MacOS。而顶级漏洞团队Google Project Zero完成同等攻击需6个月，单个MacOS零日漏洞价值约200万美元。苹果原假设全球仅10-20个团队具备此能力，Mythos将使该数字增至数千。全球约20亿活跃苹果设备中，Mac用户多为记者、高管、政府官员等高价值目标，苹果曾是\"最安全\"的选择。",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "href": "https://x.com/AISafetyMemes/status/2068718552174252477",
-      "publishedAt": "2026-06-21T15:31:52.000Z"
+      "topic": "产品",
+      "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+      "summary": "微信Agent小微灰度内测已开始，主入口位于微信首页左上角，支持给好友发消息和红包（需确认），但无法读取聊天记录或向群聊发消息。群聊和私聊的\"问小微\"子入口则可读取聊天记录并支持群发。小微可创建日程提醒、待办、总结朋友圈，打通公众号和视频号进行问答。收藏仅可读取小微自建笔记。内置\"小工具\"功能，支持语音创建简易小程序（暂不可发布），还可调用第三方小程序。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
+      "publishedAt": "2026-06-22T13:34:14.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Anthropic 工程负责人：Claude Code 让程序员更孤独",
+      "summary": "6月22日，Anthropic工程负责人Fiona Fung表示，Claude Code和Claude Cowork等AI智能体让工程师越发依赖智能体工作，彼此之间交流减少，长期易感孤独。团队为此组织编程午餐、黑客松和共同开发时段，重新创造面对面协作机会。调查显示Claude Code已成为创业公司最常用的AI编程工具，\"氛围编程\"兴起使\"单人创业者\"增多，但Fung强调协作仍不可或缺。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/967/216.htm",
+      "publishedAt": "2026-06-22T13:25:46.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
+      "summary": "PP-OCRv6 是 PaddleOCR 最新一代通用 OCR 模型族，提供 tiny（1.5M）、small（7.7M）和 medium（34.5M）三级。medium 和 small 支持 50 种语言（简体/繁体中文、英文、日文及 46 种拉丁语系）。在官方多场景基准上，medium 检测 Hmean 86.2%，识别准确率 83.2%，较 PP-OCRv5_server 分别提升 +4.6 和 +5.1 个百分点。模型采用 PPLCNetV4 统一骨干、RepLKFPN 检测模块和 EncoderWithLightSVTR 识别模块，可通过 PaddleOCR、Transformers、ONNX Runtime 等后端灵活部署。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "publishedAt": "2026-06-22T13:18:56.000Z"
     }
   ]
 }
