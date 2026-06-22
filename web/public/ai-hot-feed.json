@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-22T15:41:54.327Z",
-  "count": 3,
+  "updatedAt": "2026-06-22T17:34:23.254Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Google ADK 与 A2A 协议：跨语言多智能体团队构建实战",
+      "summary": "一篇技术博客展示了如何用 Google Agent Development Kit （ADK） 与 Agent2Agent （A2A） 协议搭建跨语言多智能体流水线：Python agent 调用 Gemini 解析合同条款，Go agent 用纯确定性逻辑校验合规性。A2A 协议通过 Agent Card 实现能力发现、JSON-RPC 2.0 完成通信、Task 状态机管理任务生命周期；ADK 的 RemoteA2aAgent 抽象可将任意 A2A 兼容服务封装成本地子智能体。文中强调将单体提示词分解为专业化微智能体，以解决上下文退化、故障爆炸半径和不可测试性问题。完整源码已在 GitHub 发布。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
+      "publishedAt": "2026-06-22T17:08:43.358Z"
+    },
+    {
+      "topic": "产品",
+      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
+      "summary": "Sakana AI 是 2023 年成立于东京的 AI 公司，由前 Google Brain 的 David Ha（CEO）、Transformer 论文共同作者 Llion Jones（CTO）及前日本外交官 Ren Ito（主席）联合创立。其产品 Sakana Fugu 将多智能体系统封装成单个 API 调用，内部自动拆解任务、调度全球模型并验证结果。Fugu Ultra 在工程、科学、推理等基准上对标 Fable/Mythos，通过动态编排多模型天然绕开单一供应商出口管制风险，被视为将多智能体从复杂工程变为开箱即用的产品形态。",
+      "source": "X：Berry Xia (@berryxia)",
+      "href": "https://x.com/berryxia/status/2069090959938466298",
+      "publishedAt": "2026-06-22T16:11:41.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
+      "summary": "Google Labs 提出以\"洞察策略\"评估 AI 编码智能体的主动性，而非仅按任务完成度打分。团队基于 Google 内部代码库 705 个 bug（1178 个 CL），通过时空近邻与语义相似度聚类还原开发者实际的高层级目标。初步实验显示：Jules 在单轮探索下洞察相关性评分平均 4.5/5；探索预算从两轮增至三轮时，Hit@5 准确率从 33% 升至 57%。团队正将评估方法扩展至公开 GitHub 数据，并探索纳入问题追踪器、对话等更丰富的上下文。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/measuring-what-matters-with-jules",
+      "publishedAt": "2026-06-22T16:08:41.780Z"
+    },
+    {
+      "topic": "行业",
+      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
+      "summary": "小米 YU7 GT（选配赛道专业套装）在纽博格林北环赛道以自动驾驶系统完成全程无人计时圈，成绩 10 分 29 秒 483，成为全球首个纽北自动驾驶圈速纪录。纽北官方圈速榜因此新增\"自动驾驶\"分类。小米汽车表示，在极限赛道中锤炼的动态模型、高频扭矩分配和毫秒级救车能力，将逐步下放至量产车，以提升用户在暴雨、冰雪等极端工况下的底盘与智驾安全。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/967/234.htm",
+      "publishedAt": "2026-06-22T15:13:29.000Z"
+    },
     {
       "topic": "产品",
       "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
@@ -25,6 +57,22 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "publishedAt": "2026-06-22T13:18:56.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI 发布 Daybreak 安全工具：Codex Security 与 GPT-5.5-Cyber",
+      "summary": "OpenAI 推出 Daybreak 系列工具，包括 Codex Security 和 GPT-5.5-Cyber，帮助组织大规模发现、验证并修补漏洞。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/daybreak-securing-the-world",
+      "publishedAt": "2026-06-22T10:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Grok Build 推出 /goal 模式，支持长时间自主任务执行",
+      "summary": "xAI 在 Grok Build 中引入 `/goal` 新模式。用户只需用一行命令设定目标，agent 便会自动规划方案、分解任务为进度清单并持续执行，直至目标完成且通过验证，期间可额外下达指令。该模式支持监控与引导命令，任务完成时清单全部勾选。即日起可用，用户可通过 `curl -fsSL | bash` 安装 CLI 并登录账号即可使用。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/introducing-goal",
+      "publishedAt": "2026-06-22T00:00:00.000Z"
     }
   ]
 }
