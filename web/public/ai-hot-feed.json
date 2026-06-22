@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-22T21:03:47.947Z",
-  "count": 11,
+  "updatedAt": "2026-06-22T22:36:07.934Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "行业",
+      "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
+      "summary": "伊利诺伊州Holiday Hills警察局长于2026年6月18日被捕，被控两项渎职重罪。检方指控他利用Flock车牌读取系统及州警察数据库，跟踪6名认识的人，其中3人为前女友，并对其中一人的前男友车牌查询140次（86次脱岗），持续18个月。全美至少18起类似案例：佐治亚州Braselton警察局长、爱达荷州Jerome县警长（700余次查询其妻车牌）等均因此辞职或被捕。Flock首席法务官Dan Haley承认，滥用该系统\"最常见情况\"就是跟踪前女友。Flock称系统只跟踪车辆，但案例表明车辆是手段，人是目标。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://ipvm.com/reports/police-chiefs-track",
+      "publishedAt": "2026-06-22T21:32:12.384Z"
+    },
+    {
+      "topic": "产品",
+      "title": "在 AWS、Google Cloud 和 Microsoft Foundry 上使用完整版 Claude Desktop",
+      "summary": "通过 AWS、Google Cloud 和 Microsoft Foundry 使用 Claude Desktop 的组织现已获得 Chat、Claude Cowork 和 Claude Code 集成的完整桌面体验。IT 团队可将推理保留在自己的云环境中，对话历史本地存储。支持 IAM Identity Center、Workforce Identity Federation、Microsoft Entra ID 或 Okta 登录；策略模板可导出至 Intune、GPO 或 Jamf；提供离线安装器。Chat、Claude Cowork 和 Claude Code 各有独立策略键，支持精细访问控制。M365 连接器通过 Entra 应用访问邮件和文档，并支持 GCC High/DoD 端点。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+      "publishedAt": "2026-06-22T21:19:56.013Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
+      "summary": "Oak 是开源版本控制系统，专为 AI 智能体（Claude Code、Codex、Cursor）设计。采用 BLAKE3 内容哈希、内容定义分块、diff/merge 及 Blob/Manifest/Commit/Tree 数据模型，可选 SQLite 和 git 后端。以分支-会话为基本工作单元，用分支描述替代逐次提交，通过内容寻址懒加载使智能体数秒内编辑任意仓库。速度远超 git。已发布公开测试版 v0.99.0，支持 macOS（Apple Silicon）、Linux（x86_64）及 Windows，可通过 curl 或 cargo 安装，Apache-2.0 开源。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://oak.space/oak/oak",
+      "publishedAt": "2026-06-22T21:00:09.808Z"
+    },
     {
       "topic": "行业",
       "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
