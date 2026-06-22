@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "date": "2026-06-22",
+      "displayDate": "Jun 22",
+      "json": "/ai-daily/2026-06-22.json",
+      "count": 1,
+      "highlights": [
+        "美团tabbit国际版免费接入GPT-5"
+      ]
+    },
+    {
       "date": "2026-06-21",
       "displayDate": "Jun 21",
       "json": "/ai-daily/2026-06-21.json",
@@ -322,5 +331,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-21"
+  "latest": "2026-06-22"
 }
