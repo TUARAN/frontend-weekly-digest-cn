@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-22T08:07:53.221Z",
-  "count": 2,
+  "updatedAt": "2026-06-22T10:58:26.588Z",
+  "count": 1,
   "items": [
     {
       "topic": "行业",
@@ -9,14 +9,6 @@
       "source": "X：AI Safety Memes (@AISafetyMemes)",
       "href": "https://x.com/AISafetyMemes/status/2068718552174252477",
       "publishedAt": "2026-06-21T15:31:52.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-      "summary": "美团近期上线tabbit国际版应用，免费集成多家顶级AI模型的最新旗舰版，包括GPT-5.5、Claude Opus 4.8、Gemini 3.5 Flash，以及国内Kimi-2.6、GLM-5.1、MiniMax-M3。用户无需单独订阅即可使用这些模型。需注意：只有国际版包含海外模型，国内版仅提供国内模型。该应用旨在抢占AI入口，目前处于免费推广阶段。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2068637890247016607",
-      "publishedAt": "2026-06-21T10:11:21.000Z"
     }
   ]
 }
