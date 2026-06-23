@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-22T23:32:41.084Z",
-  "count": 15,
+  "updatedAt": "2026-06-23T00:50:08.595Z",
+  "count": 14,
   "items": [
     {
       "topic": "产品",
@@ -113,14 +113,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/daybreak-securing-the-world",
       "publishedAt": "2026-06-22T10:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Grok Build 推出 /goal 模式，支持长时间自主任务执行",
-      "summary": "xAI 在 Grok Build 中引入 `/goal` 新模式。用户只需用一行命令设定目标，agent 便会自动规划方案、分解任务为进度清单并持续执行，直至目标完成且通过验证，期间可额外下达指令。该模式支持监控与引导命令，任务完成时清单全部勾选。即日起可用，用户可通过 `curl -fsSL | bash` 安装 CLI 并登录账号即可使用。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/introducing-goal",
-      "publishedAt": "2026-06-22T00:00:00.000Z"
     }
   ]
 }
