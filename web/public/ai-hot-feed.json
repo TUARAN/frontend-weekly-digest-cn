@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-23T00:50:08.595Z",
-  "count": 14,
+  "updatedAt": "2026-06-23T01:43:21.179Z",
+  "count": 16,
   "items": [
     {
       "topic": "产品",
@@ -33,6 +33,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://oak.space/oak/oak",
       "publishedAt": "2026-06-22T21:00:09.808Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "AI 治理清单：LLM 架构先行",
+      "summary": "Deloitte 报告显示企业 AI 抱负与治理成熟度之间差 53 个百分点，74% 计划两年内部署智能体 AI，仅 21% 拥有成熟治理模型。路由架构是首个治理层。三种姿态--托管网关（如 OpenRouter、Portkey）、自托管网关（如 LiteLLM）和直接 API--默认治理能力不同，直接 API 缺乏统一控制面，造成治理盲区。治理清单可映射为资产盘点、问责制、访问控制、证据记录与合规性五大支柱。路由层能提供跨团队可见性与审计证据，而电子表格不能。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/ai-governance-checklist",
+      "publishedAt": "2026-06-22T19:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -73,6 +81,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/967/234.htm",
       "publishedAt": "2026-06-22T15:13:29.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenRouter：通过API路由实现AI数据驻留合规",
+      "summary": "Deloitte 报告显示 77% 的公司将供应商国籍纳入 AI 选型考量。OpenRouter 将数据驻留视为路由决策：通过 API 请求中的 `provider` 对象设置 `order` 或 `only` 限定服务商、`allow_fallbacks` 为 `false` 禁止回退、`data_collection` 为 `deny` 禁止数据存储或训练、`zdr` 为 `true` 要求零数据保留。示例以 `anthropic/claude-sonnet-4.6` 调用，首选 Anthropic 直连和 Amazon Bedrock。针对欧盟需求，可限制仅 Mistral 等欧盟总部供应商。若无可合规供应商，API 返回错误而非路由至不合规服务商。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/ai-data-residency",
+      "publishedAt": "2026-06-22T15:00:00.000Z"
     },
     {
       "topic": "产品",
