@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-23T15:04:04.293Z",
-  "count": 20,
+  "updatedAt": "2026-06-23T16:52:04.865Z",
+  "count": 15,
   "items": [
     {
       "topic": "模型",
@@ -83,28 +83,12 @@
       "publishedAt": "2026-06-23T00:00:00.000Z"
     },
     {
-      "topic": "产品",
-      "title": "Aleph 2.0 现已集成到 Figma Weave",
-      "summary": "Aleph 2.0 是 Runway 的旗舰视频编辑模型，现已在 Figma Weave 中上线。它是一个基于上下文的视频编辑模型，通过关键帧工作：从视频中提取一帧，重新设计风格并附上时间戳连接回 Aleph 2.0 节点，即可将该编辑传递到主体出现的每一帧，同时保持其他内容不变。支持最长 30 秒、1080p 的片段，可跨多镜头序列应用编辑，无需逐镜头处理。",
-      "source": "Runway：News（网页）",
-      "href": "https://runwayml.com/news/aleph-2-in-figma-weave",
-      "publishedAt": "2026-06-22T23:18:22.492Z"
-    },
-    {
       "topic": "行业",
       "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
       "summary": "伊利诺伊州Holiday Hills警察局长于2026年6月18日被捕，被控两项渎职重罪。检方指控他利用Flock车牌读取系统及州警察数据库，跟踪6名认识的人，其中3人为前女友，并对其中一人的前男友车牌查询140次（86次脱岗），持续18个月。全美至少18起类似案例：佐治亚州Braselton警察局长、爱达荷州Jerome县警长（700余次查询其妻车牌）等均因此辞职或被捕。Flock首席法务官Dan Haley承认，滥用该系统\"最常见情况\"就是跟踪前女友。Flock称系统只跟踪车辆，但案例表明车辆是手段，人是目标。",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://ipvm.com/reports/police-chiefs-track",
       "publishedAt": "2026-06-22T21:32:12.384Z"
-    },
-    {
-      "topic": "产品",
-      "title": "在 AWS、Google Cloud 和 Microsoft Foundry 上使用完整版 Claude Desktop",
-      "summary": "通过 AWS、Google Cloud 和 Microsoft Foundry 使用 Claude Desktop 的组织现已获得 Chat、Claude Cowork 和 Claude Code 集成的完整桌面体验。IT 团队可将推理保留在自己的云环境中，对话历史本地存储。支持 IAM Identity Center、Workforce Identity Federation、Microsoft Entra ID 或 Okta 登录；策略模板可导出至 Intune、GPO 或 Jamf；提供离线安装器。Chat、Claude Cowork 和 Claude Code 各有独立策略键，支持精细访问控制。M365 连接器通过 Entra 应用访问邮件和文档，并支持 GCC High/DoD 端点。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
-      "publishedAt": "2026-06-22T21:19:56.013Z"
     },
     {
       "topic": "产品",
@@ -137,30 +121,6 @@
       "source": "Google Developers Blog（RSS）",
       "href": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
       "publishedAt": "2026-06-22T17:08:43.358Z"
-    },
-    {
-      "topic": "产品",
-      "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-      "summary": "Sakana AI 是 2023 年成立于东京的 AI 公司，由前 Google Brain 的 David Ha（CEO）、Transformer 论文共同作者 Llion Jones（CTO）及前日本外交官 Ren Ito（主席）联合创立。其产品 Sakana Fugu 将多智能体系统封装成单个 API 调用，内部自动拆解任务、调度全球模型并验证结果。Fugu Ultra 在工程、科学、推理等基准上对标 Fable/Mythos，通过动态编排多模型天然绕开单一供应商出口管制风险，被视为将多智能体从复杂工程变为开箱即用的产品形态。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2069090959938466298",
-      "publishedAt": "2026-06-22T16:11:41.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Google Labs 提出用\"洞察策略\"评估 AI 编码智能体的主动性",
-      "summary": "Google Labs 提出以\"洞察策略\"评估 AI 编码智能体的主动性，而非仅按任务完成度打分。团队基于 Google 内部代码库 705 个 bug（1178 个 CL），通过时空近邻与语义相似度聚类还原开发者实际的高层级目标。初步实验显示：Jules 在单轮探索下洞察相关性评分平均 4.5/5；探索预算从两轮增至三轮时，Hit@5 准确率从 33% 升至 57%。团队正将评估方法扩展至公开 GitHub 数据，并探索纳入问题追踪器、对话等更丰富的上下文。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-      "publishedAt": "2026-06-22T16:08:41.780Z"
-    },
-    {
-      "topic": "行业",
-      "title": "开辟新赛道：小米 YU7 GT 创全球首个纽北自动驾驶圈速纪录，官方圈速榜新增\"自动驾驶\"分类",
-      "summary": "小米 YU7 GT（选配赛道专业套装）在纽博格林北环赛道以自动驾驶系统完成全程无人计时圈，成绩 10 分 29 秒 483，成为全球首个纽北自动驾驶圈速纪录。纽北官方圈速榜因此新增\"自动驾驶\"分类。小米汽车表示，在极限赛道中锤炼的动态模型、高频扭矩分配和毫秒级救车能力，将逐步下放至量产车，以提升用户在暴雨、冰雪等极端工况下的底盘与智驾安全。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/967/234.htm",
-      "publishedAt": "2026-06-22T15:13:29.000Z"
     }
   ]
 }
