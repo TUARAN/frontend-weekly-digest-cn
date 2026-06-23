@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-23T18:46:03.292Z",
+  "updatedAt": "2026-06-23T19:38:50.409Z",
   "count": 17,
   "items": [
+    {
+      "topic": "模型",
+      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+      "summary": "Sky Computing Lab 发布 FastWan-QAD 视频生成模型系列，基于 FastVideo 的量化感知蒸馏（QAD）方案训练。在单张 NVIDIA GeForce RTX 5090 上，端到端生成一段 5 秒 480P 视频仅需 1.8 秒。模型、代码及博客已开源。",
+      "source": "X：Sky Computing Lab (@haoailab)",
+      "href": "https://x.com/haoailab/status/2069493820732170695",
+      "publishedAt": "2026-06-23T18:52:30.000Z"
+    },
     {
       "topic": "模型",
       "title": "Krea 2 技术报告正式发布",
@@ -91,6 +99,14 @@
       "publishedAt": "2026-06-23T00:02:42.000Z"
     },
     {
+      "topic": "论文",
+      "title": "九位评委，两个有效投票：相关错误削弱LLM评审面板",
+      "summary": "苹果机器学习研究团队发现，LLM-as-a-judge面板因模型间高度相关而严重受限。对7个模型家族的9个前沿大语言模型在3个自然语言推理数据集上的测试表明，9位评委实际仅提供约2个独立投票的信息量，面板准确率比独立投票理想值低8-22个百分点，最佳单一模型的表现已匹敌或超越整个面板。增加评委数量或改进聚合算法收效甚微，即使允许算法获取正确答案也仅能缩小至多11%的差距。该结论在多种提示变体、温度设置及偏好任务中均得到验证，瓶颈在于评委间的相关性而非聚合算法。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
+      "publishedAt": "2026-06-23T00:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "在 Transformers.js 中实验提议的跨源存储 API",
       "summary": "Transformers.js 在浏览器中运行 AI 模型时，不同来源的 Web 应用会重复下载并缓存相同的模型资源（如 Xenova/whisper-tiny.en）和 Wasm 运行时文件（如 4，733 kB 的 ort-wasm-simd-threaded.asyncify.wasm），即使资源 URL 相同，浏览器因 Network Isolation Key 隔离缓存，单次 demo 就产生 177 MB 冗余下载和存储。Cross-Origin Storage API 是一项早期提案，旨在让跨来源应用共享缓存的模型和运行时资源。目前该 API 尚未在浏览器原生实现，但可通过 Chrome 扩展注入 polyfill 进行实验。",
@@ -121,22 +137,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://oak.space/oak/oak",
       "publishedAt": "2026-06-22T21:00:09.808Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI 治理清单：LLM 架构先行",
-      "summary": "Deloitte 报告显示企业 AI 抱负与治理成熟度之间差 53 个百分点，74% 计划两年内部署智能体 AI，仅 21% 拥有成熟治理模型。路由架构是首个治理层。三种姿态--托管网关（如 OpenRouter、Portkey）、自托管网关（如 LiteLLM）和直接 API--默认治理能力不同，直接 API 缺乏统一控制面，造成治理盲区。治理清单可映射为资产盘点、问责制、访问控制、证据记录与合规性五大支柱。路由层能提供跨团队可见性与审计证据，而电子表格不能。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/ai-governance-checklist",
-      "publishedAt": "2026-06-22T19:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Google DeepMind 7500 万美元投资 A24，合作开发电影 AI 工具",
-      "summary": "Google DeepMind 宣布向独立电影制片厂 A24 投资 7500 万美元（据《华尔街日报》），双方将合作开发电影制作 AI 工具。A24 出品过《万事俱备》《后室》等影片。Google DeepMind CEO Demis Hassabis 称，希望通过与艺术家直接合作，打造支持创意表达的 AI 功能。此举是好莱坞最新一次科技公司与电影 AI 联手，此前 Netflix 已收购 Ben Affleck 的 AI 工具公司 Interpositive，亚马逊 MGM 工作室也在去年设立了影视 AI 部门。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-      "publishedAt": "2026-06-22T18:49:44.000Z"
     }
   ]
 }
