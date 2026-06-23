@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-23T17:37:45.610Z",
-  "count": 16,
+  "updatedAt": "2026-06-23T18:46:03.292Z",
+  "count": 17,
   "items": [
     {
       "topic": "模型",
@@ -89,6 +89,14 @@
       "source": "字节 Seed：Research Feed（网页内嵌数据）",
       "href": "https://seed.bytedance.com/zh/blog/seed2-1-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83-%E6%B7%B1%E5%85%A5-ai-%E7%94%9F%E4%BA%A7%E5%8A%9B",
       "publishedAt": "2026-06-23T00:02:42.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "在 Transformers.js 中实验提议的跨源存储 API",
+      "summary": "Transformers.js 在浏览器中运行 AI 模型时，不同来源的 Web 应用会重复下载并缓存相同的模型资源（如 Xenova/whisper-tiny.en）和 Wasm 运行时文件（如 4，733 kB 的 ort-wasm-simd-threaded.asyncify.wasm），即使资源 URL 相同，浏览器因 Network Isolation Key 隔离缓存，单次 demo 就产生 177 MB 冗余下载和存储。Cross-Origin Storage API 是一项早期提案，旨在让跨来源应用共享缓存的模型和运行时资源。目前该 API 尚未在浏览器原生实现，但可通过 Chrome 扩展注入 polyfill 进行实验。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/cross-origin-storage",
+      "publishedAt": "2026-06-23T00:00:00.000Z"
     },
     {
       "topic": "技巧",
