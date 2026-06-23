@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-23T16:52:04.865Z",
-  "count": 15,
+  "updatedAt": "2026-06-23T17:37:45.610Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Krea 2 技术报告正式发布",
+      "summary": "我们的技术报告已发布。\n\n深入解析创建 Krea 2 所用的数据、架构及训练技巧。\n\nhttps：//www.krea.ai/blog/krea-2-technical-report",
+      "source": "X：Krea AI (@krea_ai)",
+      "href": "https://x.com/krea_ai/status/2069473417804591191",
+      "publishedAt": "2026-06-23T17:31:26.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
+      "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启\"环境\"行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/introducing-claude-tag",
+      "publishedAt": "2026-06-23T17:09:41.902Z"
+    },
     {
       "topic": "模型",
       "title": "Mistral OCR 4",
@@ -113,14 +129,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
       "publishedAt": "2026-06-22T18:49:44.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Google ADK 与 A2A 协议：跨语言多智能体团队构建实战",
-      "summary": "一篇技术博客展示了如何用 Google Agent Development Kit （ADK） 与 Agent2Agent （A2A） 协议搭建跨语言多智能体流水线：Python agent 调用 Gemini 解析合同条款，Go agent 用纯确定性逻辑校验合规性。A2A 协议通过 Agent Card 实现能力发现、JSON-RPC 2.0 完成通信、Task 状态机管理任务生命周期；ADK 的 RemoteA2aAgent 抽象可将任意 A2A 兼容服务封装成本地子智能体。文中强调将单体提示词分解为专业化微智能体，以解决上下文退化、故障爆炸半径和不可测试性问题。完整源码已在 GitHub 发布。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
-      "publishedAt": "2026-06-22T17:08:43.358Z"
     }
   ]
 }
