@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-23T13:02:40.909Z",
-  "count": 21,
+  "updatedAt": "2026-06-23T15:04:04.293Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Mistral OCR 4",
+      "summary": "Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。",
+      "source": "Mistral AI：News（网页）",
+      "href": "https://mistral.ai/news/ocr-4",
+      "publishedAt": "2026-06-23T14:24:55.949Z"
+    },
+    {
+      "topic": "产品",
+      "title": "无限制OCR：单次长时域解析",
+      "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，实现单次长时域解析（One-Shot Long-Horizon Parsing），旨在一次性处理长时间跨度的 OCR 任务。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/baidu/Unlimited-OCR",
+      "publishedAt": "2026-06-23T13:32:22.612Z"
+    },
+    {
+      "topic": "产品",
+      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
+      "summary": "IBM 开源了 CUGA（Configurable Generalist Agent），一个处理规划、执行循环、工具调用和状态管理的轻量级智能体框架。开发者只需提供工具列表和提示词即可构建 CugaAgent。内置计划-执行-反思循环，在 AppWorld（2025年7月-2026年2月）和 WebArena（2025年2月-9月）基准上排名第一。支持 Fast / Balanced / Accurate 三种推理模式，代码执行可在本地、Docker 或 E2B 沙箱中运行。可互换工具支持 OpenAPI、MCP 和 LangChain 函数，通过环境变量一键切换 OpenAI、watsonx、Ollama 等提供商。随框架发布二十余个单文件示例应用，涵盖电影推荐、IBM Cloud 架构顾问等场景，每个应用仅需一个 FastAPI 文件。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "publishedAt": "2026-06-23T12:51:55.000Z"
+    },
     {
       "topic": "模型",
       "title": "网易有道发布 Confucius4-TTS：14 语种跨语种无口音语音克隆开源模型",
@@ -137,38 +161,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/967/234.htm",
       "publishedAt": "2026-06-22T15:13:29.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter：通过API路由实现AI数据驻留合规",
-      "summary": "Deloitte 报告显示 77% 的公司将供应商国籍纳入 AI 选型考量。OpenRouter 将数据驻留视为路由决策：通过 API 请求中的 `provider` 对象设置 `order` 或 `only` 限定服务商、`allow_fallbacks` 为 `false` 禁止回退、`data_collection` 为 `deny` 禁止数据存储或训练、`zdr` 为 `true` 要求零数据保留。示例以 `anthropic/claude-sonnet-4.6` 调用，首选 Anthropic 直连和 Amazon Bedrock。针对欧盟需求，可限制仅 Mistral 等欧盟总部供应商。若无可合规供应商，API 返回错误而非路由至不合规服务商。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/ai-data-residency",
-      "publishedAt": "2026-06-22T15:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
-      "summary": "微信Agent小微灰度内测已开始，主入口位于微信首页左上角，支持给好友发消息和红包（需确认），但无法读取聊天记录或向群聊发消息。群聊和私聊的\"问小微\"子入口则可读取聊天记录并支持群发。小微可创建日程提醒、待办、总结朋友圈，打通公众号和视频号进行问答。收藏仅可读取小微自建笔记。内置\"小工具\"功能，支持语音创建简易小程序（暂不可发布），还可调用第三方小程序。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
-      "publishedAt": "2026-06-22T13:34:14.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 工程负责人：Claude Code 让程序员更孤独",
-      "summary": "6月22日，Anthropic工程负责人Fiona Fung表示，Claude Code和Claude Cowork等AI智能体让工程师越发依赖智能体工作，彼此之间交流减少，长期易感孤独。团队为此组织编程午餐、黑客松和共同开发时段，重新创造面对面协作机会。调查显示Claude Code已成为创业公司最常用的AI编程工具，\"氛围编程\"兴起使\"单人创业者\"增多，但Fung强调协作仍不可或缺。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/967/216.htm",
-      "publishedAt": "2026-06-22T13:25:46.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-      "summary": "PP-OCRv6 是 PaddleOCR 最新一代通用 OCR 模型族，提供 tiny（1.5M）、small（7.7M）和 medium（34.5M）三级。medium 和 small 支持 50 种语言（简体/繁体中文、英文、日文及 46 种拉丁语系）。在官方多场景基准上，medium 检测 Hmean 86.2%，识别准确率 83.2%，较 PP-OCRv5_server 分别提升 +4.6 和 +5.1 个百分点。模型采用 PPLCNetV4 统一骨干、RepLKFPN 检测模块和 EncoderWithLightSVTR 识别模块，可通过 PaddleOCR、Transformers、ONNX Runtime 等后端灵活部署。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "publishedAt": "2026-06-22T13:18:56.000Z"
     }
   ]
 }
