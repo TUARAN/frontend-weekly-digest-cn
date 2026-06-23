@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-23T09:12:22.851Z",
-  "count": 21,
+  "updatedAt": "2026-06-23T11:05:42.379Z",
+  "count": 20,
   "items": [
     {
       "topic": "行业",
@@ -161,14 +161,6 @@
       "source": "Cursor Blog",
       "href": "https://cursor.com/blog/reward-hacking-coding-benchmarks",
       "publishedAt": "2026-06-22T12:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 发布 Daybreak 安全工具：Codex Security 与 GPT-5.5-Cyber",
-      "summary": "OpenAI 推出 Daybreak 系列工具，包括 Codex Security 和 GPT-5.5-Cyber，帮助组织大规模发现、验证并修补漏洞。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/daybreak-securing-the-world",
-      "publishedAt": "2026-06-22T10:00:00.000Z"
     }
   ]
 }
