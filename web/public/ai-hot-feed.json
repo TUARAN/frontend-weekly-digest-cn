@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-23T20:46:44.182Z",
-  "count": 18,
+  "updatedAt": "2026-06-23T21:35:35.366Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
+      "summary": "Oracle在截至5月31日的财年裁员21000人，员工总数降至141，000人，降幅12.9%。公司称AI技术的采用导致劳动力缩减，同时重组成本达18亿美元，同比增长481%。Oracle计划2026年通过债务和股权筹集450至500亿美元，扩建Oracle Cloud Infrastructure，服务OpenAI、xAI、AMD、Nvidia、Meta等客户。公司债务超1200亿美元。分析人士指出裁员有助于改善现金流，但Oracle也承认大规模裁员可能带来生产力下降、人才短缺和员工士气受损等风险。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
+      "publishedAt": "2026-06-23T20:17:38.000Z"
+    },
     {
       "topic": "模型",
       "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
@@ -129,22 +137,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/huggingface-hub-release-ci",
       "publishedAt": "2026-06-23T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认\"最常见滥用\"",
-      "summary": "伊利诺伊州Holiday Hills警察局长于2026年6月18日被捕，被控两项渎职重罪。检方指控他利用Flock车牌读取系统及州警察数据库，跟踪6名认识的人，其中3人为前女友，并对其中一人的前男友车牌查询140次（86次脱岗），持续18个月。全美至少18起类似案例：佐治亚州Braselton警察局长、爱达荷州Jerome县警长（700余次查询其妻车牌）等均因此辞职或被捕。Flock首席法务官Dan Haley承认，滥用该系统\"最常见情况\"就是跟踪前女友。Flock称系统只跟踪车辆，但案例表明车辆是手段，人是目标。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://ipvm.com/reports/police-chiefs-track",
-      "publishedAt": "2026-06-22T21:32:12.384Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Show HN：Oak--专为代理设计的 Git 替代方案",
-      "summary": "Oak 是开源版本控制系统，专为 AI 智能体（Claude Code、Codex、Cursor）设计。采用 BLAKE3 内容哈希、内容定义分块、diff/merge 及 Blob/Manifest/Commit/Tree 数据模型，可选 SQLite 和 git 后端。以分支-会话为基本工作单元，用分支描述替代逐次提交，通过内容寻址懒加载使智能体数秒内编辑任意仓库。速度远超 git。已发布公开测试版 v0.99.0，支持 macOS（Apple Silicon）、Linux（x86_64）及 Windows，可通过 curl 或 cargo 安装，Apache-2.0 开源。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://oak.space/oak/oak",
-      "publishedAt": "2026-06-22T21:00:09.808Z"
     }
   ]
 }
