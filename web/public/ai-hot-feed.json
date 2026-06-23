@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-23T07:20:14.698Z",
-  "count": 19,
+  "updatedAt": "2026-06-23T09:12:22.851Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "行业",
+      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+      "summary": "2026年6月22日，五眼联盟（美、英、加、澳、新）网络安全部门联合警告，即将到来的AI模型（如OpenAI的GPT-5.5-Cyber、Anthropic的Mythos）将降低编写复杂攻击代码的门槛。自动化智能体可全天候扫描互联网漏洞，大幅缩短安全窗口期。AI驱动的超个性化钓鱼诈骗已在亚太蔓延，印度2026年初勒索软件事件激增165%。五眼联盟建议企业部署自动化防御AI，个人用户开启多因素认证、删除闲置账户。",
+      "source": "Artificial Intelligence News（RSS）",
+      "href": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
+      "publishedAt": "2026-06-23T08:00:00.000Z"
+    },
     {
       "topic": "模型",
       "title": "京东全栈开源JoyAI-VL-Interaction，从\"一问一答\"走向\"边看边说\"",
@@ -25,6 +33,14 @@
       "source": "字节 Seed：Research Feed（网页内嵌数据）",
       "href": "https://seed.bytedance.com/zh/blog/seed2-1-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83-%E6%B7%B1%E5%85%A5-ai-%E7%94%9F%E4%BA%A7%E5%8A%9B",
       "publishedAt": "2026-06-23T00:02:42.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "huggingface_hub 实现每周发布：AI、开源工具、人工审核闭环",
+      "summary": "Hugging Face 将 huggingface_hub 的发布周期从每 4-6 周缩短至每周，全部由单个 GitHub Actions 工作流自动完成。流程依赖开源工具和开权重模型（当前为 Z.ai 的 GLM-5.2）来起草发布说明和 Slack 公告，但保留人类在最终审核环节的决定权。自动步骤包括版本号更新、提交标签推送、PyPI 发布、下游测试分支创建、发布说明草稿、Slack 公告草稿、归档、后置版本提升以及对合入 PR 的评论。所有组件均基于开源生态构建，任何维护者都可直接复制使用。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "publishedAt": "2026-06-23T00:00:00.000Z"
     },
     {
       "topic": "产品",
