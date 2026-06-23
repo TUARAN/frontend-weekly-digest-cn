@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-23",
+      "displayDate": "Jun 23",
+      "json": "/ai-daily/2026-06-23.json",
+      "count": 5,
+      "highlights": [
+        "Anthropic 工程负责人：Clau",
+        "OpenAI 发布 Daybreak 安",
+        "在 AWS、Google Cloud 和",
+        "Google ADK 与 A2A 协议：",
+        "OpenRouter：通过API路由实现"
+      ]
+    },
+    {
       "date": "2026-06-22",
       "displayDate": "Jun 22",
       "json": "/ai-daily/2026-06-22.json",
@@ -331,5 +344,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-22"
+  "latest": "2026-06-23"
 }
