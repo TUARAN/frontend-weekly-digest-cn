@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-24T13:45:36.612Z",
-  "count": 15,
+  "updatedAt": "2026-06-24T14:59:46.349Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+      "summary": "LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX\"不是一家人工智能公司\"，6月12日上市后收购AI编程工具Cursor属于\"花钱买相关性\"；xAI则是\"彻底的灾难\"，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举\"专断随意\"。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
+      "publishedAt": "2026-06-24T14:20:14.340Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真--TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
+      "publishedAt": "2026-06-24T14:02:42.000Z"
+    },
     {
       "topic": "产品",
       "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
@@ -113,14 +129,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
       "publishedAt": "2026-06-23T15:48:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Mistral OCR 4",
-      "summary": "Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。",
-      "source": "Mistral AI：News（网页）",
-      "href": "https://mistral.ai/news/ocr-4",
-      "publishedAt": "2026-06-23T14:24:55.949Z"
     }
   ]
 }
