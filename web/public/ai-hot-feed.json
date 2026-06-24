@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-24T18:38:50.823Z",
+  "updatedAt": "2026-06-24T19:34:59.058Z",
   "count": 19,
   "items": [
+    {
+      "topic": "行业",
+      "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+      "summary": "美国国家安全局（NSA）因与人工智能公司Anthropic的纠纷，失去了对Mythos系统的访问权限。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "publishedAt": "2026-06-24T19:08:32.032Z"
+    },
     {
       "topic": "模型",
       "title": "GPT-5.5 Instant 新版本，对话更有趣",
@@ -145,14 +153,6 @@
       "source": "Ars Technica：AI（RSS）",
       "href": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
       "publishedAt": "2026-06-23T20:17:38.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
-      "summary": "Sky Computing Lab 发布 FastWan-QAD 视频生成模型系列，基于 FastVideo 的量化感知蒸馏（QAD）方案训练。在单张 NVIDIA GeForce RTX 5090 上，端到端生成一段 5 秒 480P 视频仅需 1.8 秒。模型、代码及博客已开源。",
-      "source": "X：Sky Computing Lab (@haoailab)",
-      "href": "https://x.com/haoailab/status/2069493820732170695",
-      "publishedAt": "2026-06-23T18:52:30.000Z"
     }
   ]
 }
