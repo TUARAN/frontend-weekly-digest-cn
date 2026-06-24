@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-24T12:49:30.952Z",
-  "count": 16,
+  "updatedAt": "2026-06-24T13:45:36.612Z",
+  "count": 15,
   "items": [
     {
       "topic": "产品",
@@ -25,6 +25,14 @@
       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "href": "https://x.com/OpenBMB/status/2069676334381728106",
       "publishedAt": "2026-06-24T06:57:45.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño",
+      "summary": "OpenAI 与 Broadcom 联合推出 Jalapeño，一款专为大语言模型（LLM）推理优化的定制 AI 芯片，旨在提升 AI 系统的性能、效率与规模。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "publishedAt": "2026-06-24T06:00:00.000Z"
     },
     {
       "topic": "模型",
@@ -113,22 +121,6 @@
       "source": "Mistral AI：News（网页）",
       "href": "https://mistral.ai/news/ocr-4",
       "publishedAt": "2026-06-23T14:24:55.949Z"
-    },
-    {
-      "topic": "产品",
-      "title": "无限制OCR：单次长时域解析",
-      "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，实现单次长时域解析（One-Shot Long-Horizon Parsing），旨在一次性处理长时间跨度的 OCR 任务。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/baidu/Unlimited-OCR",
-      "publishedAt": "2026-06-23T13:32:22.612Z"
-    },
-    {
-      "topic": "产品",
-      "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
-      "summary": "IBM 开源了 CUGA（Configurable Generalist Agent），一个处理规划、执行循环、工具调用和状态管理的轻量级智能体框架。开发者只需提供工具列表和提示词即可构建 CugaAgent。内置计划-执行-反思循环，在 AppWorld（2025年7月-2026年2月）和 WebArena（2025年2月-9月）基准上排名第一。支持 Fast / Balanced / Accurate 三种推理模式，代码执行可在本地、Docker 或 E2B 沙箱中运行。可互换工具支持 OpenAPI、MCP 和 LangChain 函数，通过环境变量一键切换 OpenAI、watsonx、Ollama 等提供商。随框架发布二十余个单文件示例应用，涵盖电影推荐、IBM Cloud 架构顾问等场景，每个应用仅需一个 FastAPI 文件。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "publishedAt": "2026-06-23T12:51:55.000Z"
     }
   ]
 }
