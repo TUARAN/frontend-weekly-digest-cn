@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-23T23:26:51.801Z",
-  "count": 19,
+  "updatedAt": "2026-06-24T00:46:33.427Z",
+  "count": 15,
   "items": [
     {
       "topic": "论文",
@@ -121,38 +121,6 @@
       "source": "公众号：火山引擎",
       "href": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
       "publishedAt": "2026-06-23T05:41:11.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Seed2.1 正式发布，深入 AI 生产力",
-      "summary": "字节Seed发布Seed2.1系列，面向真实生产力场景的智能体，强化通用Agent能力、代码工程交付与多模态理解。Seed2.1 Pro在GDPval基准获最高分，Agents' Last Exam位列参评模型第一梯队；MobileWorld手机GUI任务最高分，CreativeWork多环境任务表现突出。多模态在CharXiv-RQ等多项基准取得SOTA。代码能力上，Seed2.1 Pro在NL2Repo-Bench表现良好，开发者评测相比Claude Opus 4.6获59.1%胜率。模型已在豆包、TRAE上线，API通过火山方舟提供。",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "href": "https://seed.bytedance.com/zh/blog/seed2-1-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83-%E6%B7%B1%E5%85%A5-ai-%E7%94%9F%E4%BA%A7%E5%8A%9B",
-      "publishedAt": "2026-06-23T00:02:42.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "九位评委，两个有效投票：相关错误削弱LLM评审面板",
-      "summary": "苹果机器学习研究团队发现，LLM-as-a-judge面板因模型间高度相关而严重受限。对7个模型家族的9个前沿大语言模型在3个自然语言推理数据集上的测试表明，9位评委实际仅提供约2个独立投票的信息量，面板准确率比独立投票理想值低8-22个百分点，最佳单一模型的表现已匹敌或超越整个面板。增加评委数量或改进聚合算法收效甚微，即使允许算法获取正确答案也仅能缩小至多11%的差距。该结论在多种提示变体、温度设置及偏好任务中均得到验证，瓶颈在于评委间的相关性而非聚合算法。",
-      "source": "Apple Machine Learning Research（RSS）",
-      "href": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
-      "publishedAt": "2026-06-23T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在 Transformers.js 中实验提议的跨源存储 API",
-      "summary": "Transformers.js 在浏览器中运行 AI 模型时，不同来源的 Web 应用会重复下载并缓存相同的模型资源（如 Xenova/whisper-tiny.en）和 Wasm 运行时文件（如 4，733 kB 的 ort-wasm-simd-threaded.asyncify.wasm），即使资源 URL 相同，浏览器因 Network Isolation Key 隔离缓存，单次 demo 就产生 177 MB 冗余下载和存储。Cross-Origin Storage API 是一项早期提案，旨在让跨来源应用共享缓存的模型和运行时资源。目前该 API 尚未在浏览器原生实现，但可通过 Chrome 扩展注入 polyfill 进行实验。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/cross-origin-storage",
-      "publishedAt": "2026-06-23T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "huggingface_hub 实现每周发布：AI、开源工具、人工审核闭环",
-      "summary": "Hugging Face 将 huggingface_hub 的发布周期从每 4-6 周缩短至每周，全部由单个 GitHub Actions 工作流自动完成。流程依赖开源工具和开权重模型（当前为 Z.ai 的 GLM-5.2）来起草发布说明和 Slack 公告，但保留人类在最终审核环节的决定权。自动步骤包括版本号更新、提交标签推送、PyPI 发布、下游测试分支创建、发布说明草稿、Slack 公告草稿、归档、后置版本提升以及对合入 PR 的评论。所有组件均基于开源生态构建，任何维护者都可直接复制使用。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "publishedAt": "2026-06-23T00:00:00.000Z"
     }
   ]
 }
