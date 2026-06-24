@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-24T05:23:29.680Z",
-  "count": 18,
+  "updatedAt": "2026-06-24T07:16:08.011Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
+      "summary": "🥳感谢分享，@MLBoy_DaisukeMajima 🚀\nMiniCPM-V 4.6 在设备上以这样的速度运行，实在令人印象深刻--尤其是在 Apple Core AI 上以不到 2B 参数跑出。\n干得漂亮，推动高效多模态 AI 向前发展。🫡",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2069676334381728106",
+      "publishedAt": "2026-06-24T06:57:45.000Z"
+    },
     {
       "topic": "模型",
       "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
@@ -129,22 +137,6 @@
       "source": "Artificial Intelligence News（RSS）",
       "href": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
       "publishedAt": "2026-06-23T08:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "京东全栈开源JoyAI-VL-Interaction，从\"一问一答\"走向\"边看边说\"",
-      "summary": "京东近日开源全球首个全栈交互模型JoyAI-VL-Interaction，获vLLM-Omni原生支持。该模型能持续观察视频流、主动判断关键事件并实时响应，支持将复杂任务委托后台Agent处理。在58个真人盲评中，对比豆包视频通话助手胜率77.6%，对比Gemini视频通话助手胜率87.9%，监控预警场景达100%胜率。开源内容包括模型权重、交互数据集、训练方案及完整可部署系统，支持摄像头、直播流等视频输入及语音交互、长期记忆、vLLM部署，适用于安防监控、老人看护、直播讲解等实时场景。",
-      "source": "公众号：京东JoyAI",
-      "href": "https://mp.weixin.qq.com/s/IY6XGp4k6VgD9ZPH6YprCA",
-      "publishedAt": "2026-06-23T06:04:50.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "豆包音频生成模型1.0发布，重新定义AI音频创作",
-      "summary": "火山引擎正式发布豆包音频生成模型1.0（Doubao-Seed-Audio 1.0），支持文本与音频参考生成，端到端输出目标音频。单条Prompt可编排多角色对白、情绪语气、背景音乐及环境氛围，长时生成中保持多角色音色一致性，无需后期多轨混音。模型支持0样本多模态输入，无需额外训练即可生成；实现音色与风格解耦控制及\"一声多角\"能力。一次支持2分钟音频创作，多次延长保持音色统一。已开启火山方舟API邀测，个人用户享30分钟创作额度，即将上线剪映、即梦、番茄等产品。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-      "publishedAt": "2026-06-23T05:41:11.000Z"
     }
   ]
 }
