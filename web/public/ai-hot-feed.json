@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-24T15:53:33.274Z",
-  "count": 15,
+  "updatedAt": "2026-06-24T16:47:31.719Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
+      "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，添加 Expert Parallelism、DeepEP 融合 all-to-all 调度和 TransformerEngine 内核。在 MoE 模型微调中，相比原生 v5，训练吞吐量提升 3.4-3.7 倍，GPU 内存减少 29-32%，仅需改动一行 import。在 16 节点 128 张 H100 上全微调 Nemotron 3 Ultra 550B A55B 时，v5 因内存不足无法运行，而 AutoModel 凭借 EP=64 专家并行使训练可行。单节点 30B MoE 模型（如 Qwen3-30B-A3B）同样获得可量化的性能优势。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "publishedAt": "2026-06-24T16:00:13.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Mistral AI 为 Connectors 推出多项安全与可控新能力",
+      "summary": "2026年6月24日，Mistral AI 发布 Connectors 多项新能力：Enriched admin controls（GA）支持按工作空间设置连接器访问权限并单独开关工具；API keys with connector scopes（GA）防止自动化 AI 工作负载中身份冒充；Multi-account connectors（GA）允许单个连接器绑定多个账户；Connectors Debugger（公开预览）对 MCP 连接器进行端到端根因分析；Connectors in Vibe Code（GA）和 Connectors in Workflows（公开预览）分别允许在开发者界面复用连接器及支持长时间运行任务不中断。",
+      "source": "Mistral AI：News（网页）",
+      "href": "https://mistral.ai/news/more-control-over-connectors",
+      "publishedAt": "2026-06-24T15:59:47.708Z"
+    },
     {
       "topic": "技巧",
       "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
@@ -75,6 +91,14 @@
       "publishedAt": "2026-06-24T01:00:00.000Z"
     },
     {
+      "topic": "产品",
+      "title": "FFASR 排行榜发布：真实远场条件下 ASR 评测",
+      "summary": "Treble Technologies 与 Hugging Face 联合推出 FFASR（Far-Field ASR）排行榜，这是首个开源社区驱动的真实远场声学条件 ASR 评测基准。传统近场评测无法反映混响、背景噪声和麦克风距离带来的性能下降。FFASR 使用混合波模拟引擎生成声学数据，涵盖 14 种房间（20-470 m3）和三个信噪比级别（远场高 SNR >14 dB、中 SNR 8-12 dB、低 SNR <6 dB），加上近场干燥条件，共四类条件决定主排名。另有实验室实测/模拟验证轨道和移动声源 beta 版。性能指标同时报告词错误率（WER）和实时因子（RTFx，在 NVIDIA L4 GPU 上评估）。未来将支持多说话人场景、麦克风阵列和回声消除。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/ffasr-leaderboard",
+      "publishedAt": "2026-06-24T00:00:00.000Z"
+    },
+    {
       "topic": "论文",
       "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
       "summary": "一项覆盖340万人、400万份申请、150家雇主和1700个职位的大规模实地研究发现，AI招聘筛选工具存在显著的种族歧视：26%的黑人申请者和15%的亚裔申请者遭遇算法对其族群的系统性排斥；若AI按推荐率最高群体（通常为白人）标准执行，将有4万份额外申请进入下一轮。多数雇主依赖同一第三方供应商算法，形成\"算法单一文化\"，导致10%提交4份申请者被所有职位拒绝。对比同期未用AI的招聘数据（8.3万份申请、108家财富500强企业），未发现此类模式。研究呼吁对算法招聘进行独立监管。",
@@ -113,14 +137,6 @@
       "source": "X：Krea AI (@krea_ai)",
       "href": "https://x.com/krea_ai/status/2069473417804591191",
       "publishedAt": "2026-06-23T17:31:26.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
-      "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启\"环境\"行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/introducing-claude-tag",
-      "publishedAt": "2026-06-23T17:09:41.902Z"
     }
   ]
 }
