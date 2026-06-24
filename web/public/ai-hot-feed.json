@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-24T03:11:11.543Z",
-  "count": 16,
+  "updatedAt": "2026-06-24T05:23:29.680Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "模型",
+      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
+      "summary": "6月23日，部分用户反馈 ChatGPT 网页版和 App 版上线了双向 AI 语音模型 Bidi 1，位于设置模型选择器中，与标准语音和高级语音并列。该模型支持边说话边监听，用户可在对话中途打断并发出新指令，例如要求从1数到10时中途喊停倒数，模型会立即切换执行。OpenAI 尚未官宣，预计本周启动更大范围测试。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/967/852.htm",
+      "publishedAt": "2026-06-24T04:34:24.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
+      "summary": "通义千问推出首个原生语言世界模型 Qwen-AgentWorld，覆盖 MCP、Search、Terminal、SWE、Web、OS、Android 七大领域。模型基于超 1000 万条真实交互轨迹，经 CPT→SFT→RL 三阶段训练，在 AgentWorldBench 上超越 GPT-5.4（58.25）和 Claude Opus 4.8，Qwen-AgentWorld-397B-A17B 取得 58.71 分。两种范式已验证其能力：作为解耦环境模拟器实现可控 Sim RL，在 WideSearch 上超越真实环境 RL（F1 50.3% vs 45.6%）；作为智能体基础模型，LWM 预热可迁移至七个基准（三个完全未出现在训练集中）。模型与评测基准已开源。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
+      "publishedAt": "2026-06-24T03:32:04.000Z"
+    },
     {
       "topic": "产品",
       "title": "今天，豆包正式推出专业版",
