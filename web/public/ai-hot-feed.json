@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-24T19:34:59.058Z",
-  "count": 19,
+  "updatedAt": "2026-06-24T20:37:32.698Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Perplexity推出Computer for Counsel",
+      "summary": "推出 Computer for Counsel。\n\nComputer 现在连接了律师日常使用的研究数据库、文档工具和案件管理系统。可从中提取可引用来源：@midpageAI、@LegalZoom、@Docusign、@netdocuments 等。\n\n所有 Pro 和 Max 订阅用户均可使用。",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "publishedAt": "2026-06-24T19:34:04.000Z"
+    },
     {
       "topic": "行业",
       "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
@@ -41,6 +49,14 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "publishedAt": "2026-06-24T16:00:13.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
+      "summary": "OpenRouter 的零数据留存（ZDR）保证用户提示词和模型响应不被存储，元数据一般安全。自 1 月以来新增 97 款支持 ZDR 的模型，月度 token 量增长 4.3 倍，约占全部路由流量一半。ZDR 在三个层面执行：账户级（整个供应商开启）、护栏级（按 API Key 或组织成员限定）、单次请求级（传参数仅路由至 ZDR 端点）。企业用户可灵活选择控制粒度，避免锁定单一供应商。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/when-zero-means-zero",
+      "publishedAt": "2026-06-24T16:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -145,14 +161,6 @@
       "source": "X：Runway (@runwayml)",
       "href": "https://x.com/runwayml/status/2069535148450705517",
       "publishedAt": "2026-06-23T21:36:44.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-      "summary": "Oracle在截至5月31日的财年裁员21000人，员工总数降至141，000人，降幅12.9%。公司称AI技术的采用导致劳动力缩减，同时重组成本达18亿美元，同比增长481%。Oracle计划2026年通过债务和股权筹集450至500亿美元，扩建Oracle Cloud Infrastructure，服务OpenAI、xAI、AMD、Nvidia、Meta等客户。公司债务超1200亿美元。分析人士指出裁员有助于改善现金流，但Oracle也承认大规模裁员可能带来生产力下降、人才短缺和员工士气受损等风险。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-      "publishedAt": "2026-06-23T20:17:38.000Z"
     }
   ]
 }
