@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-24T07:16:08.011Z",
+  "updatedAt": "2026-06-24T09:10:34.999Z",
   "count": 17,
   "items": [
+    {
+      "topic": "论文",
+      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
+      "summary": "DFlash 由 UC San Diego 团队提出，是一种用于投机解码的轻量块扩散草稿模型。它一次前向推理生成整块 token，再由目标模型并行验证，保证输出无损。相比 EAGLE-3，DFlash 实现最高 2.5 倍加速，在 Qwen3-8B 等多种模型上平均无损加速超过 6 倍（MATH-500 达 6.08×）。在 NVIDIA Blackwell 上（TensorRT-LLM），gpt-oss-120b 模型吞吐量提升最高 15 倍，约为 EAGLE-3 的 1.5 倍。核心创新是将目标模型多层隐藏特征注入草稿模型每一层的 Key-Value 投影，使接受长度随草稿深度增长。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
+      "publishedAt": "2026-06-24T07:21:10.000Z"
+    },
     {
       "topic": "技巧",
       "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
@@ -129,14 +137,6 @@
       "source": "公众号：千问APP（阿里）",
       "href": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
       "publishedAt": "2026-06-23T10:54:49.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-      "summary": "2026年6月22日，五眼联盟（美、英、加、澳、新）网络安全部门联合警告，即将到来的AI模型（如OpenAI的GPT-5.5-Cyber、Anthropic的Mythos）将降低编写复杂攻击代码的门槛。自动化智能体可全天候扫描互联网漏洞，大幅缩短安全窗口期。AI驱动的超个性化钓鱼诈骗已在亚太蔓延，印度2026年初勒索软件事件激增165%。五眼联盟建议企业部署自动化防御AI，个人用户开启多因素认证、删除闲置账户。",
-      "source": "Artificial Intelligence News（RSS）",
-      "href": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-      "publishedAt": "2026-06-23T08:00:00.000Z"
     }
   ]
 }
