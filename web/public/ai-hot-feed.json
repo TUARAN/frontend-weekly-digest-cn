@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-24T21:32:45.537Z",
-  "count": 22,
+  "updatedAt": "2026-06-24T22:30:46.413Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "summary": "风投机构SignalFire追踪8000万家公司数百万员工数据发现，工程是2025年最具韧性的岗位。大型科技公司总招聘较2019年下降25%，工程岗仅降11%；工程岗占Alphabet、Meta等12家\"Tech Majors\"新招员工的55%（2019年为46%）。早期初创公司2025年工程师招聘比2019年增长7%。Anthropic CEO警告AI可能消灭一半入门级白领，但该公司经济主管称尚未看到显著影响。NVIDIA CEO黄仁勋表示AI让工程师更忙碌，是杰文斯悖论的典型例证。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "publishedAt": "2026-06-24T21:56:41.000Z"
+    },
     {
       "topic": "模型",
       "title": "Gemini 3.5 Flash 中的计算机使用",
@@ -161,22 +169,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/ffasr-leaderboard",
       "publishedAt": "2026-06-24T00:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
-      "summary": "一项覆盖340万人、400万份申请、150家雇主和1700个职位的大规模实地研究发现，AI招聘筛选工具存在显著的种族歧视：26%的黑人申请者和15%的亚裔申请者遭遇算法对其族群的系统性排斥；若AI按推荐率最高群体（通常为白人）标准执行，将有4万份额外申请进入下一轮。多数雇主依赖同一第三方供应商算法，形成\"算法单一文化\"，导致10%提交4份申请者被所有职位拒绝。对比同期未用AI的招聘数据（8.3万份申请、108家财富500强企业），未发现此类模式。研究呼吁对算法招聘进行独立监管。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-      "publishedAt": "2026-06-23T21:48:25.964Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway推出Seedance 4K等三款新模型",
-      "summary": "Seedance 4K。Seedance Mini。Kling 3.0 Turbo。现已推出。\n全球最佳模型，汇聚一处。\n\n使用优惠码 30RUNWAY，前三个月可享七折优惠。\n\n通过下方链接开始使用。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2069535148450705517",
-      "publishedAt": "2026-06-23T21:36:44.000Z"
     }
   ]
 }
