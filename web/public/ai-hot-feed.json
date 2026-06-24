@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-24T20:37:32.698Z",
-  "count": 20,
+  "updatedAt": "2026-06-24T21:32:45.537Z",
+  "count": 22,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Gemini 3.5 Flash 中的计算机使用",
+      "summary": "Google 将计算机使用（Computer use）作为内置工具集成至 Gemini 3.5 Flash，使开发者能构建跨浏览器、移动端和桌面环境的智能体。此前该功能仅作为独立模型在 Gemini 2.5 中提供，现已原生整合至主 Flash 模型。开发者可通过 Gemini API 及 Gemini Enterprise Agent Platform 调用。安全方面，模型采用针对性对抗训练降低提示注入风险，并新增两项可选企业级保护：要求用户确认敏感操作、检测到间接提示注入时自动停止。该能力在持续软件测试、跨应用知识工作等长周期企业自动化场景中表现更优。（198字）",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
+      "publishedAt": "2026-06-24T21:16:01.786Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/notion",
+      "publishedAt": "2026-06-24T20:55:19.799Z"
+    },
     {
       "topic": "产品",
       "title": "Perplexity推出Computer for Counsel",
