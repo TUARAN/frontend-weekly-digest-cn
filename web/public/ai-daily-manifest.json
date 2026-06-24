@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-24",
+      "displayDate": "Jun 24",
+      "json": "/ai-daily/2026-06-24.json",
+      "count": 5,
+      "highlights": [
+        "IBM 开源 CUGA：轻量级智能体框架",
+        "五眼联盟警告：AI网络威胁数月内将影响普",
+        "FastWan-QAD：单卡5090上1",
+        "国内首个高考志愿AI测评出炉，千问多项表",
+        "今天，豆包正式推出专业版"
+      ]
+    },
+    {
       "date": "2026-06-23",
       "displayDate": "Jun 23",
       "json": "/ai-daily/2026-06-23.json",
@@ -344,5 +357,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-23"
+  "latest": "2026-06-24"
 }
