@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-24T16:47:31.719Z",
-  "count": 17,
+  "updatedAt": "2026-06-24T17:39:43.270Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "论文",
+      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
+      "summary": "Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导。在Gemini-2.5 Flash和Pro以及Qwen3-32B上，启用推理后模型能够回答原本无法直接回答的简单问题，pass@k显示正确事实存在于输出分布中。该现象由两个机制驱动：一是生成的推理token充当计算缓冲，允许模型进行隐藏计算以提取参数化知识；二是推理过程中产生的相关事实起到启动效应（factual priming），帮助模型激活正确答案。",
+      "source": "Google Research：Blog（网页）",
+      "href": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
+      "publishedAt": "2026-06-24T17:05:40.380Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "summary": "Figma在Config 2026将设计画布扩展至代码、动画、3D深度和着色器效果，并集成去年收购的Weave工作流系统。新功能包括Code Layers（代码与设计并存）、Motion动画、深度层、Shader及Generative Plugins。协作方面，团队可搜索复用AI提示词、保存工作流为技能、共享插件。Figma的AI功能依赖Anthropic、OpenAI和Google等外部模型，推理成本挤压利润率。同时，Anthropic等公司的竞争产品可直接生成界面，构成威胁。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "publishedAt": "2026-06-24T16:49:01.000Z"
+    },
     {
       "topic": "技巧",
       "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
@@ -129,14 +145,6 @@
       "source": "X：Sky Computing Lab (@haoailab)",
       "href": "https://x.com/haoailab/status/2069493820732170695",
       "publishedAt": "2026-06-23T18:52:30.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Krea 2 技术报告正式发布",
-      "summary": "我们的技术报告已发布。\n\n深入解析创建 Krea 2 所用的数据、架构及训练技巧。\n\nhttps：//www.krea.ai/blog/krea-2-technical-report",
-      "source": "X：Krea AI (@krea_ai)",
-      "href": "https://x.com/krea_ai/status/2069473417804591191",
-      "publishedAt": "2026-06-23T17:31:26.000Z"
     }
   ]
 }
