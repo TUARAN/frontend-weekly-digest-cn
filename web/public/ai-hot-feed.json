@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-25T15:02:14.224Z",
-  "count": 15,
+  "updatedAt": "2026-06-25T16:48:56.633Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
+      "summary": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transformer凭借注意力机制更擅长从输入中直接检索精确信息。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "publishedAt": "2026-06-25T16:11:42.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
+      "summary": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemini 3.1 Pro是例外，93%回答同时呈现双方立场。特朗普推动的\"反觉醒\"AI未能改变这一格局。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
+      "publishedAt": "2026-06-25T16:04:32.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
+      "summary": "Google AI 宣布 Gemini 3.5 Flash 的 Computer Use 工具正式可用，支持构建能观察并操作浏览器、移动端和桌面环境的 AI 智能体，可处理长期任务。新特性包括：内置移动与桌面操作系统支持；所有函数调用配备 intent arguments；可定制的客户端函数实现人工接管（HITL）；提示词注入检测及可配置的 action-level 安全策略。可用于自动化 QA 测试、业务流程等场景。",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "href": "https://x.com/googleaidevs/status/2070175289481576777",
+      "publishedAt": "2026-06-25T16:00:25.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
+      "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索办公室。本轮由 Khosla Ventures 领投，General Catalyst、Jeff Bezos、Eric Schmidt 等参投。资金将用于通过 CoreWeave 扩大计算规模、预训练下一代模型，计划夏末前开放 API。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+      "publishedAt": "2026-06-25T16:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google Finance 全新 Android 应用与投资组合功能上线",
+      "summary": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应用包含 watchlist、实时数据、金融新闻 feed、AI 研究工具及 AI 驱动的\"关键时刻\"解释股价波动。未来数月将把更多 web 功能（如财报电话、投资组合与任务）迁移至移动端，今年晚些推出 iOS 应用。",
+      "source": "Google Blog：AI（RSS）",
+      "href": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+      "publishedAt": "2026-06-25T16:00:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+      "summary": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.5、NL2Repo 48.2、SWE Atlas 41.2 QnA、ClawEval 77.1。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架（scaffold）与最终解决方案，让模型自主改进执行框架。全系列 MIT 开源，提供 GGUF 版本，支持 Ollama、Unsloth 等本地运行。",
+      "source": "X：Berry Xia (@berryxia)",
+      "href": "https://x.com/berryxia/status/2070167806700908957",
+      "publishedAt": "2026-06-25T15:30:41.000Z"
+    },
     {
       "topic": "行业",
       "title": "Meta员工警告AI内容审核部署过快",
@@ -43,14 +91,6 @@
       "publishedAt": "2026-06-24T21:56:41.000Z"
     },
     {
-      "topic": "模型",
-      "title": "Gemini 3.5 Flash 中的计算机使用",
-      "summary": "Google 将计算机使用（Computer use）作为内置工具集成至 Gemini 3.5 Flash，使开发者能构建跨浏览器、移动端和桌面环境的智能体。此前该功能仅作为独立模型在 Gemini 2.5 中提供，现已原生整合至主 Flash 模型。开发者可通过 Gemini API 及 Gemini Enterprise Agent Platform 调用。安全方面，模型采用针对性对抗训练降低提示注入风险，并新增两项可选企业级保护：要求用户确认敏感操作、检测到间接提示注入时自动停止。该能力在持续软件测试、跨应用知识工作等长周期企业自动化场景中表现更优。（198字）",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
-      "publishedAt": "2026-06-24T21:16:01.786Z"
-    },
-    {
       "topic": "产品",
       "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
       "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
@@ -83,44 +123,12 @@
       "publishedAt": "2026-06-24T18:00:21.000Z"
     },
     {
-      "topic": "论文",
-      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
-      "summary": "Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导。在Gemini-2.5 Flash和Pro以及Qwen3-32B上，启用推理后模型能够回答原本无法直接回答的简单问题，pass@k显示正确事实存在于输出分布中。该现象由两个机制驱动：一是生成的推理token充当计算缓冲，允许模型进行隐藏计算以提取参数化知识；二是推理过程中产生的相关事实起到启动效应（factual priming），帮助模型激活正确答案。",
-      "source": "Google Research：Blog（网页）",
-      "href": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-      "publishedAt": "2026-06-24T17:05:40.380Z"
-    },
-    {
       "topic": "产品",
       "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
       "summary": "Figma在Config 2026将设计画布扩展至代码、动画、3D深度和着色器效果，并集成去年收购的Weave工作流系统。新功能包括Code Layers（代码与设计并存）、Motion动画、深度层、Shader及Generative Plugins。协作方面，团队可搜索复用AI提示词、保存工作流为技能、共享插件。Figma的AI功能依赖Anthropic、OpenAI和Google等外部模型，推理成本挤压利润率。同时，Anthropic等公司的竞争产品可直接生成界面，构成威胁。",
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
       "publishedAt": "2026-06-24T16:49:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
-      "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，添加 Expert Parallelism、DeepEP 融合 all-to-all 调度和 TransformerEngine 内核。在 MoE 模型微调中，相比原生 v5，训练吞吐量提升 3.4-3.7 倍，GPU 内存减少 29-32%，仅需改动一行 import。在 16 节点 128 张 H100 上全微调 Nemotron 3 Ultra 550B A55B 时，v5 因内存不足无法运行，而 AutoModel 凭借 EP=64 专家并行使训练可行。单节点 30B MoE 模型（如 Qwen3-30B-A3B）同样获得可量化的性能优势。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "publishedAt": "2026-06-24T16:00:13.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter 零数据留存（ZDR）实践：97 款新模型，流量占比近半",
-      "summary": "OpenRouter 的零数据留存（ZDR）保证用户提示词和模型响应不被存储，元数据一般安全。自 1 月以来新增 97 款支持 ZDR 的模型，月度 token 量增长 4.3 倍，约占全部路由流量一半。ZDR 在三个层面执行：账户级（整个供应商开启）、护栏级（按 API Key 或组织成员限定）、单次请求级（传参数仅路由至 ZDR 端点）。企业用户可灵活选择控制粒度，避免锁定单一供应商。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-      "publishedAt": "2026-06-24T16:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Mistral AI 为 Connectors 推出多项安全与可控新能力",
-      "summary": "2026年6月24日，Mistral AI 发布 Connectors 多项新能力：Enriched admin controls（GA）支持按工作空间设置连接器访问权限并单独开关工具；API keys with connector scopes（GA）防止自动化 AI 工作负载中身份冒充；Multi-account connectors（GA）允许单个连接器绑定多个账户；Connectors Debugger（公开预览）对 MCP 连接器进行端到端根因分析；Connectors in Vibe Code（GA）和 Connectors in Workflows（公开预览）分别允许在开发者界面复用连接器及支持长时间运行任务不中断。",
-      "source": "Mistral AI：News（网页）",
-      "href": "https://mistral.ai/news/more-control-over-connectors",
-      "publishedAt": "2026-06-24T15:59:47.708Z"
     }
   ]
 }
