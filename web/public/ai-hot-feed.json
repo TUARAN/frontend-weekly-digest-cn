@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-25T20:42:38.314Z",
+  "updatedAt": "2026-06-25T21:35:04.499Z",
   "count": 18,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Codex 在 ChatGPT 移动 App 正式可用",
+      "summary": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运行。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "href": "https://x.com/OpenAIDevs/status/2070254532911882707",
+      "publishedAt": "2026-06-25T21:15:18.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "publishedAt": "2026-06-25T21:06:58.000Z"
+    },
     {
       "topic": "产品",
       "title": "Midjourney 预览 V8.2 并加速草稿模式",
@@ -9,14 +25,6 @@
       "source": "X：Midjourney (@midjourney)",
       "href": "https://x.com/midjourney/status/2070223272072065228",
       "publishedAt": "2026-06-25T19:11:05.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 内部论文：Codex 已占 99.8% 内部输出 tokens，智能体正向全部门扩散",
-      "summary": "OpenAI 发布内部论文，显示 Codex 已成为公司主力 AI，产出 99.8% 内部输出 tokens，而一年前这一比例低于 10%。除工程部门外，法务、财务、招聘、支持及业务团队使用量快速增长。自 Aug-25 以来，非开发者个人使用增长 137 倍，组织使用增长 189 倍。重度用户日均运行约 71 小时代理任务，28.6% 的用户管理 5 个以上并发 agent，25.6% 的个体提交过超过 8 小时人工等价的任务。OpenAI 称，Agent 正使工作更复杂、更长期、更跨职能。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-      "publishedAt": "2026-06-25T19:04:32.000Z"
     },
     {
       "topic": "论文",
@@ -67,14 +75,6 @@
       "publishedAt": "2026-06-25T16:04:32.000Z"
     },
     {
-      "topic": "产品",
-      "title": "Gemini 3.5 Flash 的 Computer Use 工具正式可用",
-      "summary": "Google AI 宣布 Gemini 3.5 Flash 的 Computer Use 工具正式可用，支持构建能观察并操作浏览器、移动端和桌面环境的 AI 智能体，可处理长期任务。新特性包括：内置移动与桌面操作系统支持；所有函数调用配备 intent arguments；可定制的客户端函数实现人工接管（HITL）；提示词注入检测及可配置的 action-level 安全策略。可用于自动化 QA 测试、业务流程等场景。",
-      "source": "X：Google AI for Developers (@googleaidevs)",
-      "href": "https://x.com/googleaidevs/status/2070175289481576777",
-      "publishedAt": "2026-06-25T16:00:25.000Z"
-    },
-    {
       "topic": "行业",
       "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
       "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索办公室。本轮由 Khosla Ventures 领投，General Catalyst、Jeff Bezos、Eric Schmidt 等参投。资金将用于通过 CoreWeave 扩大计算规模、预训练下一代模型，计划夏末前开放 API。",
@@ -115,6 +115,14 @@
       "publishedAt": "2026-06-25T03:07:48.942Z"
     },
     {
+      "topic": "论文",
+      "title": "OpenAI内部报告：智能体Codex如何改变工作",
+      "summary": "OpenAI 在2025年8月至2026年6月间观察到，智能体产品 Codex 取代 ChatGPT 成为主要工作工具，各部门输出 token 中 Codex 占比从不足10%升至99.8%。80.6%个体用户曾发起预计等效人类工作时间超30分钟的请求，70.2%超1小时，25.6%超8小时；99百分位用户每日生成超60小时 agent turns。非开发者用户增长迅猛：个体用户增长137倍，组织用户增长189倍。Legal、Finance、Recruiting 部门在2026年4月前后跨过 Codex 使用过半拐点，平均每位律师或招聘人员超85%输出 token 来自 Codex。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/how-agents-are-transforming-work",
+      "publishedAt": "2026-06-25T02:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "OpenRouter MCP 服务器发布",
       "summary": "OpenRouter 推出 MCP 服务器，为编程智能体提供实时模型数据、基准排名、定价和文档查询。开发者通过一键安装（支持 Claude Code、Codex CLI、Cursor 等客户端），即可在编辑器内完成模型筛选、价格对比和测试推理，无需切换标签页。服务器整合 Artificial Analysis、Design Arena 及 OpenRouter 自身排名数据，例如推荐 GLM-5.2 作为性价比最佳的编码模型。工具集包括 models-list、model-get、model-endpoints、benchmarks 等，支持通过 chat-send 发送测试提示，比较不同模型（如 Claude Opus 4.8、GPT-5.5、DeepSeek V4 Pro）的响应、成本和延迟。API 密钥附带 7 天有效期和 10 美元消费上限，可随时撤销。",
@@ -137,14 +145,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
       "publishedAt": "2026-06-24T21:56:41.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
-      "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
-      "source": "Cursor Blog",
-      "href": "https://cursor.com/blog/notion",
-      "publishedAt": "2026-06-24T20:55:19.799Z"
     }
   ]
 }
