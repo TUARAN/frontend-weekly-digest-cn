@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-25",
+      "displayDate": "Jun 25",
+      "json": "/ai-daily/2026-06-25.json",
+      "count": 5,
+      "highlights": [
+        "里德·霍夫曼称SpaceX\"不是一家人工",
+        "Qwen-AgentWorld 开源：让",
+        "Notion 使用 Cursor SDK",
+        "Figma在Config 2026押注人",
+        "字节跳动技术副总裁洪定坤：AI Codi"
+      ]
+    },
+    {
       "date": "2026-06-24",
       "displayDate": "Jun 24",
       "json": "/ai-daily/2026-06-24.json",
@@ -357,5 +370,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-24"
+  "latest": "2026-06-25"
 }

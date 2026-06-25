@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-25",
+  "displayDate": "Jun 25",
+  "dateNum": "0625",
+  "year": 2026,
+  "dayOfWeek": "THU",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "Hacker News 热门（buzzing.cc 中文翻译） · 公众号：通义实验室（千问） · Cursor Blog 等",
+  "count": 5,
+  "highlights": [
+    "里德·霍夫曼称SpaceX\"不是一家人工",
+    "Qwen-AgentWorld 开源：让",
+    "Notion 使用 Cursor SDK",
+    "Figma在Config 2026押注人",
+    "字节跳动技术副总裁洪定坤：AI Codi"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
+      "summary": "LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX\"不是一家人工智能公司\"，6月12日上市后收购AI编程工具Cursor属于\"花钱买相关性\"；xAI则是\"彻底的灾难\"，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举\"专断随意\"。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。",
+      "reason": "行业数据揭示开发者行为趋势，辅助技术选型判断"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
+      "summary": "通义千问推出首个原生语言世界模型 Qwen-AgentWorld，覆盖 MCP、Search、Terminal、SWE、Web、OS、Android 七大领域。模型基于超 1000 万条真实交互轨迹，经 CPT→SFT→RL 三阶段训练，在 AgentWorldBench 上超越 GPT-5.4（58.25）和 Claude Opus 4.8，Qwen-AgentWorld-397B-A17B 取得 58.71 分。两种范式已验证其能力：作为解耦环境模拟器实现可控 Sim RL，在 WideSearch 上超越真实环境 RL（F1 50.3% vs 45.6%）；作为智能体基础模型，LWM 预热可迁移至七个基准（三个完全未出现在训练集中）。模型与评测基准已开源。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
+      "reason": "行业数据揭示开发者行为趋势，辅助技术选型判断"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "summary": "Figma在Config 2026将设计画布扩展至代码、动画、3D深度和着色器效果，并集成去年收购的Weave工作流系统。新功能包括Code Layers（代码与设计并存）、Motion动画、深度层、Shader及Generative Plugins。协作方面，团队可搜索复用AI提示词、保存工作流为技能、共享插件。Figma的AI功能依赖Anthropic、OpenAI和Google等外部模型，推理成本挤压利润率。同时，Anthropic等公司的竞争产品可直接生成界面，构成威胁。",
+      "reason": "行业整合信号值得关注，可能影响生态格局"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真--TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}
