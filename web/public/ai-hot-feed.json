@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-25T05:24:25.486Z",
-  "count": 19,
+  "updatedAt": "2026-06-25T07:16:27.872Z",
+  "count": 17,
   "items": [
     {
       "topic": "行业",
@@ -137,22 +137,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
       "publishedAt": "2026-06-24T07:21:10.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "MiniCPM-V 4.6 在 Apple Core AI 上高速运行",
-      "summary": "🥳感谢分享，@MLBoy_DaisukeMajima 🚀\nMiniCPM-V 4.6 在设备上以这样的速度运行，实在令人印象深刻--尤其是在 Apple Core AI 上以不到 2B 参数跑出。\n干得漂亮，推动高效多模态 AI 向前发展。🫡",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2069676334381728106",
-      "publishedAt": "2026-06-24T06:57:45.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 与 Broadcom 发布面向 LLM 推理的定制芯片 Jalapeño",
-      "summary": "OpenAI 与 Broadcom 联合推出 Jalapeño，一款专为大语言模型（LLM）推理优化的定制 AI 芯片，旨在提升 AI 系统的性能、效率与规模。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "publishedAt": "2026-06-24T06:00:00.000Z"
     }
   ]
 }
