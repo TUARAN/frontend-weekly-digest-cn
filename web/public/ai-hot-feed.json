@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-25T09:10:22.258Z",
+  "updatedAt": "2026-06-25T10:59:56.065Z",
   "count": 16,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Meta员工警告AI内容审核部署过快",
+      "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模型Muse Spark，该模型基于人工审核员的历史决策训练。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+      "publishedAt": "2026-06-25T10:07:19.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
@@ -121,14 +129,6 @@
       "source": "公众号：火山引擎",
       "href": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
       "publishedAt": "2026-06-24T14:02:42.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "火山引擎推出Agent Ready基础设施，AgentKit与ArkClaw企业版升级",
-      "summary": "火山引擎在FORCE大会推出面向企业智能应用的Agent Ready基础设施，构建AI云与Agent三层架构。AgentKit升级提供Identity、Runtime、Sandbox、Evaluation等模块，实现Agent可靠、可控、可衡量。Identity已接入数千家身份体系，Runtime支持长程任务和分钟级12万沙箱并发。ArkClaw企业版集成Agent广场、技能中心与企业知识库，支持IDP/SSO/OAuth及飞书、钉钉等IM入口统一管控。实践案例：海底捞门店经营Agent将小时级工作压缩到分钟级，人工跟进时长缩减70%，巡检满意度提升50%；创维酷开借助ArkClaw终端版打造AIOS，Token消耗节省50%，支撑百万级终端。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
-      "publishedAt": "2026-06-24T10:17:58.000Z"
     }
   ]
 }
