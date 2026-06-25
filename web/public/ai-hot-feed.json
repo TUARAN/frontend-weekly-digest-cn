@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-25T17:50:24.469Z",
-  "count": 15,
+  "updatedAt": "2026-06-25T18:48:40.751Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Runway发布Agent 2.0",
+      "summary": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营销人员可借助Agent确定定位角度并构建活动资产。Agent 2.0面向所有用户开放。",
+      "source": "Runway：News（网页）",
+      "href": "https://runwayml.com/news/introducing-agent-2",
+      "publishedAt": "2026-06-25T18:41:58.502Z"
+    },
+    {
+      "topic": "论文",
+      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
+      "summary": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第三卷PHerc.139确定标题和作者为菲洛德穆《论诸神》第八卷。所有数据与代码已公开。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://scrollprize.org/firstscroll",
+      "publishedAt": "2026-06-25T18:03:58.685Z"
+    },
     {
       "topic": "技巧",
       "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
@@ -113,14 +129,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
       "publishedAt": "2026-06-24T19:08:32.032Z"
-    },
-    {
-      "topic": "模型",
-      "title": "GPT-5.5 Instant 新版本，对话更有趣",
-      "summary": "我们为你带来了新版 GPT-5.5 Instant，它现在聊起天来有趣多了。\n\n我们最常用的模型现在能更好地理解问题背后的意图，并相应地调整回应。\n\n它也能更可靠地处理复杂约束，让购物和本地推荐更加实用和连贯。\n\n今天向付费用户推送，明天向免费用户推送。",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2069843083701915755",
-      "publishedAt": "2026-06-24T18:00:21.000Z"
     }
   ]
 }
