@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-25T00:51:11.984Z",
+  "updatedAt": "2026-06-25T01:45:15.154Z",
   "count": 20,
   "items": [
+    {
+      "topic": "产品",
+      "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/grok-interactive-brokers",
+      "publishedAt": "2026-06-25T00:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
@@ -153,14 +161,6 @@
       "source": "公众号：通义实验室（千问）",
       "href": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
       "publishedAt": "2026-06-24T03:32:04.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "今天，豆包正式推出专业版",
-      "summary": "豆包专业版基于豆包2.1系列大模型上线，面向复杂办公与生产力场景。办公任务模式接入可执行Agent任务的豆包2.1模型，支持操作本地电脑、浏览器、调用Skills技能、定时任务，内置Office办公套件，并可生成带后端数据库的在线应用。免费用户可体验豆包2.1 Turbo版办公任务模式，专业版接入豆包2.1 Pro模型。定价：标准套餐68元/月（连续包月），加强套餐200元/月，高级套餐500元/月。大学生认证后标准套餐38元/月，持续6个月。",
-      "source": "公众号：豆包（字节）",
-      "href": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-      "publishedAt": "2026-06-24T01:00:00.000Z"
     }
   ]
 }
