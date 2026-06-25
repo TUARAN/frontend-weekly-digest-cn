@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-25T21:35:04.499Z",
+  "updatedAt": "2026-06-25T22:33:35.181Z",
   "count": 18,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude Code v2.1.193 发布",
+      "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "publishedAt": "2026-06-25T21:45:57.000Z"
+    },
     {
       "topic": "产品",
       "title": "Codex 在 ChatGPT 移动 App 正式可用",
@@ -137,14 +145,6 @@
       "source": "xAI：News（网页）",
       "href": "https://x.ai/news/grok-interactive-brokers",
       "publishedAt": "2026-06-25T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
-      "summary": "风投机构SignalFire追踪8000万家公司数百万员工数据发现，工程是2025年最具韧性的岗位。大型科技公司总招聘较2019年下降25%，工程岗仅降11%；工程岗占Alphabet、Meta等12家\"Tech Majors\"新招员工的55%（2019年为46%）。早期初创公司2025年工程师招聘比2019年增长7%。Anthropic CEO警告AI可能消灭一半入门级白领，但该公司经济主管称尚未看到显著影响。NVIDIA CEO黄仁勋表示AI让工程师更忙碌，是杰文斯悖论的典型例证。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-      "publishedAt": "2026-06-24T21:56:41.000Z"
     }
   ]
 }
