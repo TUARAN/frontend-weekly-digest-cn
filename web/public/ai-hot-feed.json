@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-25T07:16:27.872Z",
-  "count": 17,
+  "updatedAt": "2026-06-25T09:10:22.258Z",
+  "count": 16,
   "items": [
     {
       "topic": "行业",
@@ -129,14 +129,6 @@
       "source": "公众号：火山引擎",
       "href": "https://mp.weixin.qq.com/s/83mrPAPgQRKhxLkoSvRgBQ",
       "publishedAt": "2026-06-24T10:17:58.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "DFlash：块扩散草稿模型实现最高15倍吞吐量提升",
-      "summary": "DFlash 由 UC San Diego 团队提出，是一种用于投机解码的轻量块扩散草稿模型。它一次前向推理生成整块 token，再由目标模型并行验证，保证输出无损。相比 EAGLE-3，DFlash 实现最高 2.5 倍加速，在 Qwen3-8B 等多种模型上平均无损加速超过 6 倍（MATH-500 达 6.08×）。在 NVIDIA Blackwell 上（TensorRT-LLM），gpt-oss-120b 模型吞吐量提升最高 15 倍，约为 EAGLE-3 的 1.5 倍。核心创新是将目标模型多层隐藏特征注入草稿模型每一层的 Key-Value 投影，使接受长度随草稿深度增长。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell",
-      "publishedAt": "2026-06-24T07:21:10.000Z"
     }
   ]
 }
