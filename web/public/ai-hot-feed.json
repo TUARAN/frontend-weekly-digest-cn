@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-25T13:00:43.974Z",
-  "count": 16,
+  "updatedAt": "2026-06-25T15:02:14.224Z",
+  "count": 15,
   "items": [
     {
       "topic": "行业",
@@ -17,6 +17,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
       "publishedAt": "2026-06-25T03:07:48.942Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter MCP 服务器发布",
+      "summary": "OpenRouter 推出 MCP 服务器，为编程智能体提供实时模型数据、基准排名、定价和文档查询。开发者通过一键安装（支持 Claude Code、Codex CLI、Cursor 等客户端），即可在编辑器内完成模型筛选、价格对比和测试推理，无需切换标签页。服务器整合 Artificial Analysis、Design Arena 及 OpenRouter 自身排名数据，例如推荐 GLM-5.2 作为性价比最佳的编码模型。工具集包括 models-list、model-get、model-endpoints、benchmarks 等，支持通过 chat-send 发送测试提示，比较不同模型（如 Claude Opus 4.8、GPT-5.5、DeepSeek V4 Pro）的响应、成本和延迟。API 密钥附带 7 天有效期和 10 美元消费上限，可随时撤销。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
+      "publishedAt": "2026-06-25T00:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -113,22 +121,6 @@
       "source": "Mistral AI：News（网页）",
       "href": "https://mistral.ai/news/more-control-over-connectors",
       "publishedAt": "2026-06-24T15:59:47.708Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "里德·霍夫曼称SpaceX\"不是一家人工智能公司\"，xAI则是\"彻底的灾难\"",
-      "summary": "LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX\"不是一家人工智能公司\"，6月12日上市后收购AI编程工具Cursor属于\"花钱买相关性\"；xAI则是\"彻底的灾难\"，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举\"专断随意\"。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake",
-      "publishedAt": "2026-06-24T14:20:14.340Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
-      "summary": "在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真--TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/mdmaAyUIvxE8WT_GEbF2wQ",
-      "publishedAt": "2026-06-24T14:02:42.000Z"
     }
   ]
 }
