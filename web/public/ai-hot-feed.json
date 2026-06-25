@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-24T23:28:22.765Z",
-  "count": 21,
+  "updatedAt": "2026-06-25T00:51:11.984Z",
+  "count": 20,
   "items": [
     {
       "topic": "技巧",
@@ -161,14 +161,6 @@
       "source": "公众号：豆包（字节）",
       "href": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
       "publishedAt": "2026-06-24T01:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "FFASR 排行榜发布：真实远场条件下 ASR 评测",
-      "summary": "Treble Technologies 与 Hugging Face 联合推出 FFASR（Far-Field ASR）排行榜，这是首个开源社区驱动的真实远场声学条件 ASR 评测基准。传统近场评测无法反映混响、背景噪声和麦克风距离带来的性能下降。FFASR 使用混合波模拟引擎生成声学数据，涵盖 14 种房间（20-470 m3）和三个信噪比级别（远场高 SNR >14 dB、中 SNR 8-12 dB、低 SNR <6 dB），加上近场干燥条件，共四类条件决定主排名。另有实验室实测/模拟验证轨道和移动声源 beta 版。性能指标同时报告词错误率（WER）和实时因子（RTFx，在 NVIDIA L4 GPU 上评估）。未来将支持多说话人场景、麦克风阵列和回声消除。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/ffasr-leaderboard",
-      "publishedAt": "2026-06-24T00:00:00.000Z"
     }
   ]
 }
