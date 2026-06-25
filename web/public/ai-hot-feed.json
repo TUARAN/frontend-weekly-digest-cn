@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-25T03:11:17.486Z",
-  "count": 20,
+  "updatedAt": "2026-06-25T05:24:25.486Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+      "summary": "Anthropic指控阿里巴巴未经授权提取了其Claude AI模型的能力。该指控基于Anthropic的调查，认为阿里巴巴通过逆向工程或其他手段复制了Claude的核心技术。目前阿里巴巴尚未公开回应。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "publishedAt": "2026-06-25T03:07:48.942Z"
+    },
     {
       "topic": "产品",
       "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
@@ -145,22 +153,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "publishedAt": "2026-06-24T06:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI ChatGPT 语音最大规模升级：双向AI语音模型 Bidi 1 已上线测试",
-      "summary": "6月23日，部分用户反馈 ChatGPT 网页版和 App 版上线了双向 AI 语音模型 Bidi 1，位于设置模型选择器中，与标准语音和高级语音并列。该模型支持边说话边监听，用户可在对话中途打断并发出新指令，例如要求从1数到10时中途喊停倒数，模型会立即切换执行。OpenAI 尚未官宣，预计本周启动更大范围测试。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/967/852.htm",
-      "publishedAt": "2026-06-24T04:34:24.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Qwen-AgentWorld 开源：让 Agent 学会\"先预测，再行动\"",
-      "summary": "通义千问推出首个原生语言世界模型 Qwen-AgentWorld，覆盖 MCP、Search、Terminal、SWE、Web、OS、Android 七大领域。模型基于超 1000 万条真实交互轨迹，经 CPT→SFT→RL 三阶段训练，在 AgentWorldBench 上超越 GPT-5.4（58.25）和 Claude Opus 4.8，Qwen-AgentWorld-397B-A17B 取得 58.71 分。两种范式已验证其能力：作为解耦环境模拟器实现可控 Sim RL，在 WideSearch 上超越真实环境 RL（F1 50.3% vs 45.6%）；作为智能体基础模型，LWM 预热可迁移至七个基准（三个完全未出现在训练集中）。模型与评测基准已开源。",
-      "source": "公众号：通义实验室（千问）",
-      "href": "https://mp.weixin.qq.com/s/NV9WGpGsfFz35jww5agM9g",
-      "publishedAt": "2026-06-24T03:32:04.000Z"
     }
   ]
 }
