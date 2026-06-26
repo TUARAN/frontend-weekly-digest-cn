@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-26T01:47:02.897Z",
-  "count": 18,
+  "updatedAt": "2026-06-26T03:12:05.013Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Claude Code 6个实用Hook玩法",
+      "summary": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+      "publishedAt": "2026-06-26T02:02:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
@@ -129,22 +137,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
       "publishedAt": "2026-06-25T10:07:19.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
-      "summary": "Anthropic指控阿里巴巴未经授权提取了其Claude AI模型的能力。该指控基于Anthropic的调查，认为阿里巴巴通过逆向工程或其他手段复制了Claude的核心技术。目前阿里巴巴尚未公开回应。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
-      "publishedAt": "2026-06-25T03:07:48.942Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI内部报告：智能体Codex如何改变工作",
-      "summary": "OpenAI 在2025年8月至2026年6月间观察到，智能体产品 Codex 取代 ChatGPT 成为主要工作工具，各部门输出 token 中 Codex 占比从不足10%升至99.8%。80.6%个体用户曾发起预计等效人类工作时间超30分钟的请求，70.2%超1小时，25.6%超8小时；99百分位用户每日生成超60小时 agent turns。非开发者用户增长迅猛：个体用户增长137倍，组织用户增长189倍。Legal、Finance、Recruiting 部门在2026年4月前后跨过 Codex 使用过半拐点，平均每位律师或招聘人员超85%输出 token 来自 Codex。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/how-agents-are-transforming-work",
-      "publishedAt": "2026-06-25T02:00:00.000Z"
     }
   ]
 }
