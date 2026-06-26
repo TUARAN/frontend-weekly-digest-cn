@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-26T16:43:31.417Z",
-  "count": 15,
+  "updatedAt": "2026-06-26T17:36:09.078Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "模型",
+      "title": "OpenAI 发布 GPT-5.6 系列三款模型预览",
+      "summary": "推出 GPT-5.6 Sol 的有限预览，这是我们新一代前沿模型，以及 GPT-5.6 Terra，一个针对高效日常工作的平衡模型，还有 GPT-5.6 Luna，一个面向高容量工作、快速且经济的模型。",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2070555272230384038",
+      "publishedAt": "2026-06-26T17:10:20.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+      "summary": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在于答案倾向，而在于模型在展现权衡前已用单一道德框架压缩政治分歧，其行为更多受排序选择、拒绝规则、训练反馈和默认回答风格影响。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "publishedAt": "2026-06-26T16:51:17.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
@@ -73,14 +89,6 @@
       "source": "X：OpenAI Developers (@OpenAIDevs)",
       "href": "https://x.com/OpenAIDevs/status/2070254532911882707",
       "publishedAt": "2026-06-25T21:15:18.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-      "publishedAt": "2026-06-25T21:06:58.000Z"
     },
     {
       "topic": "产品",
