@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-26T09:10:10.088Z",
-  "count": 20,
+  "updatedAt": "2026-06-26T11:03:34.337Z",
+  "count": 19,
   "items": [
     {
       "topic": "行业",
@@ -153,14 +153,6 @@
       "source": "公众号：龙猫LongCat（美团）",
       "href": "https://mp.weixin.qq.com/s/HoiUxYnyJuh2_xdxmg8s8Q",
       "publishedAt": "2026-06-25T11:58:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Meta员工警告AI内容审核部署过快",
-      "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模型Muse Spark，该模型基于人工审核员的历史决策训练。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-      "publishedAt": "2026-06-25T10:07:19.000Z"
     }
   ]
 }
