@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-26",
+      "displayDate": "Jun 26",
+      "json": "/ai-daily/2026-06-26.json",
+      "count": 5,
+      "highlights": [
+        "多数主流AI聊天机器人政治立场偏左，\"反",
+        "Ornith-1.0 开源模型家族发布，",
+        "小互开源个人IP配图技能\"小互IP St",
+        "美国政府要求OpenAI暂缓GPT-5.",
+        "OpenAI内部报告：智能体Codex如"
+      ]
+    },
+    {
       "date": "2026-06-25",
       "displayDate": "Jun 25",
       "json": "/ai-daily/2026-06-25.json",
@@ -370,5 +383,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-25"
+  "latest": "2026-06-26"
 }
