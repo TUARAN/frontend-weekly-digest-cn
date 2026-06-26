@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-26T14:57:20.283Z",
+  "updatedAt": "2026-06-26T15:51:46.929Z",
   "count": 18,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Anthropic Economic Index 报告：使用节奏",
+      "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "publishedAt": "2026-06-26T15:18:56.294Z"
+    },
     {
       "topic": "行业",
       "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
@@ -137,14 +145,6 @@
       "source": "Google Blog：AI（RSS）",
       "href": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
       "publishedAt": "2026-06-25T16:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-      "summary": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.5、NL2Repo 48.2、SWE Atlas 41.2 QnA、ClawEval 77.1。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架（scaffold）与最终解决方案，让模型自主改进执行框架。全系列 MIT 开源，提供 GGUF 版本，支持 Ollama、Unsloth 等本地运行。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2070167806700908957",
-      "publishedAt": "2026-06-25T15:30:41.000Z"
     }
   ]
 }
