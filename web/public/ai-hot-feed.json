@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-26T20:36:58.494Z",
-  "count": 13,
+  "updatedAt": "2026-06-26T21:32:15.210Z",
+  "count": 11,
   "items": [
     {
       "topic": "行业",
@@ -89,22 +89,6 @@
       "source": "Claude Code：GitHub Releases（RSS）",
       "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "publishedAt": "2026-06-25T21:45:57.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex 在 ChatGPT 移动 App 正式可用",
-      "summary": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运行。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2070254532911882707",
-      "publishedAt": "2026-06-25T21:15:18.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-      "publishedAt": "2026-06-25T21:06:58.000Z"
     }
   ]
 }
