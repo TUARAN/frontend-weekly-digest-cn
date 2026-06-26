@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-26T03:12:05.013Z",
-  "count": 17,
+  "updatedAt": "2026-06-26T05:29:27.802Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "行业",
+      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+      "summary": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。OpenAI回应训练数据基于公开可获取内容且符合合理使用原则，微软未置评。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/968/872.htm",
+      "publishedAt": "2026-06-26T04:37:58.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Claude Code 6个实用Hook玩法",
@@ -129,6 +137,14 @@
       "source": "X：Berry Xia (@berryxia)",
       "href": "https://x.com/berryxia/status/2070167806700908957",
       "publishedAt": "2026-06-25T15:30:41.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
+      "summary": "美团 LongCat 团队推出 VitaBench 2.0，首个真实生活场景下针对长期动态用户建模的智能体评测基准。包含56名拟真用户、819个复杂任务、超2000个动态偏好及66个可执行工具，每位用户平均2093个交互事件，时间跨度平均1580天。同时支持长文本上下文学习和智能体记忆策略评测。测试显示，最强模型 Claude-Opus-4.6 在\"开卷\"模式下平均分刚过0.5；开启思考模式并不总能提升个性化任务表现；所有模型在需要主动提问的任务上得分断崖式下跌。VitaBench 2.0 已开源。",
+      "source": "公众号：龙猫LongCat（美团）",
+      "href": "https://mp.weixin.qq.com/s/HoiUxYnyJuh2_xdxmg8s8Q",
+      "publishedAt": "2026-06-25T11:58:00.000Z"
     },
     {
       "topic": "行业",
