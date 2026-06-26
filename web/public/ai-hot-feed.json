@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-26T00:52:47.786Z",
-  "count": 17,
+  "updatedAt": "2026-06-26T01:47:02.897Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+      "summary": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工具，需自备OpenAI兼容的图像API key（默认GPT-image-2）；也可只输出提示词手动生图。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2070317717811540149",
+      "publishedAt": "2026-06-26T01:26:23.000Z"
+    },
     {
       "topic": "技巧",
       "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
