@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-26T18:40:28.069Z",
-  "count": 16,
+  "updatedAt": "2026-06-26T19:35:13.469Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "行业",
+      "title": "美国政府将决定谁可以使用GPT-5.6",
+      "summary": "联邦政府将审查希望访问OpenAI最新大语言模型GPT-5.6的公司，这是特朗普行政当局对硅谷监管的重大扩展。申请访问的企业需通过政府审核，具体标准尚未披露。此举标志着美国在先进AI模型访问控制上迈出关键一步。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+      "publishedAt": "2026-06-26T19:23:47.983Z"
+    },
     {
       "topic": "技巧",
       "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
@@ -97,38 +105,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2070252433109049466",
       "publishedAt": "2026-06-25T21:06:58.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Midjourney 预览 V8.2 并加速草稿模式",
-      "summary": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
-      "source": "X：Midjourney (@midjourney)",
-      "href": "https://x.com/midjourney/status/2070223272072065228",
-      "publishedAt": "2026-06-25T19:11:05.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "IBM 首度推出亚纳米级芯片技术",
-      "summary": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 40%，有助于支撑先进 AI 工作负载的高带宽需求。该技术已在 VLSI 2026 会议上验证，IBM 预计 5 年内量产。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "publishedAt": "2026-06-25T18:52:05.282Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-      "summary": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
-      "source": "Midjourney：Updates（RSS）",
-      "href": "https://updates.midjourney.com/random-styles-in-draft-mode",
-      "publishedAt": "2026-06-25T18:50:16.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway发布Agent 2.0",
-      "summary": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营销人员可借助Agent确定定位角度并构建活动资产。Agent 2.0面向所有用户开放。",
-      "source": "Runway：News（网页）",
-      "href": "https://runwayml.com/news/introducing-agent-2",
-      "publishedAt": "2026-06-25T18:41:58.502Z"
     }
   ]
 }
