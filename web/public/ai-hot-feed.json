@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-06-26T17:36:09.078Z",
+  "updatedAt": "2026-06-26T18:40:28.069Z",
   "count": 16,
   "items": [
-    {
-      "topic": "模型",
-      "title": "OpenAI 发布 GPT-5.6 系列三款模型预览",
-      "summary": "推出 GPT-5.6 Sol 的有限预览，这是我们新一代前沿模型，以及 GPT-5.6 Terra，一个针对高效日常工作的平衡模型，还有 GPT-5.6 Luna，一个面向高容量工作、快速且经济的模型。",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2070555272230384038",
-      "publishedAt": "2026-06-26T17:10:20.000Z"
-    },
     {
       "topic": "技巧",
       "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
@@ -33,6 +25,14 @@
       "source": "Anthropic：Research（发表成果 · 网页）",
       "href": "https://www.anthropic.com/research/economic-index-june-2026-report",
       "publishedAt": "2026-06-26T15:18:56.294Z"
+    },
+    {
+      "topic": "模型",
+      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+      "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "publishedAt": "2026-06-26T10:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -91,6 +91,14 @@
       "publishedAt": "2026-06-25T21:15:18.000Z"
     },
     {
+      "topic": "行业",
+      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
+      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2070252433109049466",
+      "publishedAt": "2026-06-25T21:06:58.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Midjourney 预览 V8.2 并加速草稿模式",
       "summary": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
@@ -121,14 +129,6 @@
       "source": "Runway：News（网页）",
       "href": "https://runwayml.com/news/introducing-agent-2",
       "publishedAt": "2026-06-25T18:41:58.502Z"
-    },
-    {
-      "topic": "论文",
-      "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-      "summary": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第三卷PHerc.139确定标题和作者为菲洛德穆《论诸神》第八卷。所有数据与代码已公开。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://scrollprize.org/firstscroll",
-      "publishedAt": "2026-06-25T18:03:58.685Z"
     }
   ]
 }
