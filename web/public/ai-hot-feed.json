@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-26T15:51:46.929Z",
-  "count": 18,
+  "updatedAt": "2026-06-26T16:43:31.417Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "publishedAt": "2026-06-26T15:37:43.000Z"
+    },
     {
       "topic": "论文",
       "title": "Anthropic Economic Index 报告：使用节奏",
@@ -113,38 +121,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://scrollprize.org/firstscroll",
       "publishedAt": "2026-06-25T18:03:58.685Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-      "summary": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transformer凭借注意力机制更擅长从输入中直接检索精确信息。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "publishedAt": "2026-06-25T16:11:42.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-      "summary": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemini 3.1 Pro是例外，93%回答同时呈现双方立场。特朗普推动的\"反觉醒\"AI未能改变这一格局。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-      "publishedAt": "2026-06-25T16:04:32.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-      "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索办公室。本轮由 Khosla Ventures 领投，General Catalyst、Jeff Bezos、Eric Schmidt 等参投。资金将用于通过 CoreWeave 扩大计算规模、预训练下一代模型，计划夏末前开放 API。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-      "publishedAt": "2026-06-25T16:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google Finance 全新 Android 应用与投资组合功能上线",
-      "summary": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应用包含 watchlist、实时数据、金融新闻 feed、AI 研究工具及 AI 驱动的\"关键时刻\"解释股价波动。未来数月将把更多 web 功能（如财报电话、投资组合与任务）迁移至移动端，今年晚些推出 iOS 应用。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-      "publishedAt": "2026-06-25T16:00:00.000Z"
     }
   ]
 }
