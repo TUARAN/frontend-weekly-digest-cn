@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-26T21:32:15.210Z",
-  "count": 11,
+  "updatedAt": "2026-06-26T22:28:49.793Z",
+  "count": 10,
   "items": [
     {
       "topic": "行业",
@@ -81,14 +81,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2070288396644491317",
       "publishedAt": "2026-06-25T23:29:52.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Code v2.1.193 发布",
-      "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-      "publishedAt": "2026-06-25T21:45:57.000Z"
     }
   ]
 }
