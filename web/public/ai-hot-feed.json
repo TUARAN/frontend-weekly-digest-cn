@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-27T09:48:35.995Z",
-  "count": 9,
+  "updatedAt": "2026-06-27T10:42:00.712Z",
+  "count": 8,
   "items": [
     {
       "topic": "行业",
@@ -65,14 +65,6 @@
       "source": "Anthropic：Research（发表成果 · 网页）",
       "href": "https://www.anthropic.com/research/economic-index-june-2026-report",
       "publishedAt": "2026-06-26T15:18:56.294Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
-      "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "publishedAt": "2026-06-26T10:00:00.000Z"
     }
   ]
 }
