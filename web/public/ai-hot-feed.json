@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-27T14:34:39.674Z",
-  "count": 10,
+  "updatedAt": "2026-06-27T15:29:40.282Z",
+  "count": 9,
   "items": [
     {
       "topic": "产品",
@@ -73,14 +73,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2070531964067623381",
       "publishedAt": "2026-06-26T15:37:43.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic Economic Index 报告：使用节奏",
-      "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "href": "https://www.anthropic.com/research/economic-index-june-2026-report",
-      "publishedAt": "2026-06-26T15:18:56.294Z"
     }
   ]
 }
