@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-27T19:32:11.480Z",
-  "count": 10,
+  "updatedAt": "2026-06-27T20:26:39.379Z",
+  "count": 9,
   "items": [
     {
       "topic": "行业",
@@ -73,14 +73,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
       "publishedAt": "2026-06-26T23:31:29.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
-      "summary": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。微软称修订是\"挽救不利先例的最后手段\"。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
-      "publishedAt": "2026-06-26T20:04:55.000Z"
     }
   ]
 }
