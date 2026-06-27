@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-27",
+      "displayDate": "Jun 27",
+      "json": "/ai-daily/2026-06-27.json",
+      "count": 5,
+      "highlights": [
+        "华盛顿邮报报告：AI聊天机器人存在左翼偏",
+        "OpenAI 预览新一代模型 GPT-5",
+        "Cursor 研究发现奖励攻击虚增编码智",
+        "Leaf 开源项目：将网红峰哥做成实时通",
+        "Anthropic Economic I"
+      ]
+    },
+    {
       "date": "2026-06-26",
       "displayDate": "Jun 26",
       "json": "/ai-daily/2026-06-26.json",
@@ -383,5 +396,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-26"
+  "latest": "2026-06-27"
 }
