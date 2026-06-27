@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-27T12:31:32.543Z",
-  "count": 8,
+  "updatedAt": "2026-06-27T13:34:15.482Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Runway API 推出广告本地化 Recipe",
+      "summary": "广告本地化现在可通过 Runway API 以 Recipe 形式使用。\n\n现在您可以通过单次 API 调用翻译静态广告和图形资产。",
+      "source": "X：Runway (@runwayml)",
+      "href": "https://x.com/runwayml/status/2070855164584726791",
+      "publishedAt": "2026-06-27T13:02:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "\"Raise Us\"启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+      "summary": "前美国商务部长Raimondo与前印第安纳州长Holcomb共同发起非营利\"Raise Us\"，目标为AI经济下工人再培训筹集10亿美元，已锁定5亿。Amazon、Anthropic、Microsoft、OpenAI等支持，引发独立性质疑。将在阿肯色、康涅狄格、马里兰、犹他四州试点，包括AI职业导航、服务年计划扩展、工资保险等。工作分州合作、雇主联盟、教育培训、政策实验室四大支柱。此前美国工人再培训效果不佳，计划能否成功尚待观察。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
+      "publishedAt": "2026-06-27T12:25:21.000Z"
+    },
     {
       "topic": "行业",
       "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
