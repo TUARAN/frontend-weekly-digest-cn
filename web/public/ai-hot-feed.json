@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-27T15:29:40.282Z",
+  "updatedAt": "2026-06-27T16:26:50.509Z",
   "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "一次失败的（民族国家？）攻击的剖析",
+      "summary": "作者收到伪装成新加坡VC Lua Ventures的虚假面试邮件，要求完成一个TypeScript仓库的\"测试\"。作者将仓库交给Claude扫描，在`typescript+5.9.2.patch`中发现base64混淆载荷，该载荷在`patch-package`安装时触发，向`~/.cache-`等目录写入`payload.js`和`mutex.js`，构成后门（命名PinpinRAT）。攻击者使用虚构身份和空洞LinkedIn资料，目标是作者在crates.io上的Rust包。相关信息已报告加拿大CCCS等机构。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
+      "publishedAt": "2026-06-27T15:39:53.429Z"
+    },
     {
       "topic": "产品",
       "title": "Runway API 推出广告本地化 Recipe",
@@ -65,14 +73,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2070550479621488896",
       "publishedAt": "2026-06-26T16:51:17.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
-      "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2070531964067623381",
-      "publishedAt": "2026-06-26T15:37:43.000Z"
     }
   ]
 }
