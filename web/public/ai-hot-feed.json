@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-27T20:26:39.379Z",
-  "count": 9,
+  "updatedAt": "2026-06-27T21:26:00.291Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "行业",
+      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+      "summary": "消息：SpaceX 刚刚注册了\"SpaceXAI\"商标。\n\n埃隆·马斯克表示 xAI 将解散，不再作为独立公司，因此它将只是 SpaceXAI，SpaceX 的 AI 产品。",
+      "source": "X：cb_doge (@cb_doge)",
+      "href": "https://x.com/cb_doge/status/2070973276562530507",
+      "publishedAt": "2026-06-27T20:51:20.000Z"
+    },
     {
       "topic": "行业",
       "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
