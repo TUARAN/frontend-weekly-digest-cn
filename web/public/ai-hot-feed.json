@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-28T03:12:04.201Z",
+  "updatedAt": "2026-06-28T05:33:44.370Z",
   "count": 9,
   "items": [
+    {
+      "topic": "产品",
+      "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
+      "summary": "Adrafinil 是一款 macOS 菜单栏应用，仅在 Claude Code、Codex、Cursor、Gemini CLI、Aider、Hermes、OpenCode、Cline、Pi 等 9 种 AI coding agent 持有活跃会话时阻止系统睡眠（包括合盖睡眠）。无 agent 工作时，合盖后 Mac 正常睡眠。它通过各 agent 的钩子系统调用 CLI，往返延迟低于 50ms，支持引用计数断言、热切出（温度阈值强制释放）、空闲释放及进程嗅探。需要 macOS Tahoe 26.4，Xcode 26+ 构建，以签名公证的磁盘映像提供。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/kageroumado/adrafinil",
+      "publishedAt": "2026-06-28T03:55:17.096Z"
+    },
     {
       "topic": "技巧",
       "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
@@ -65,14 +73,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/969/400.htm",
       "publishedAt": "2026-06-27T08:16:09.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
-      "summary": "阿里千问输入法 macOS 版今日上线官网，支持最快 300 字/分的 AI 语音输入，可自动润色、将口语转为工整文字，并支持 9 种方言，纯净无广告。官方预告 iOS、Android、Windows 版将于近日发布。此前千问团队已于今年 5 月推出千问语音输入法（千问 App 内的组件），具备去语气词、纠错、格式化整理及基于上下文的智能回复等能力，而本次上线的输入法则定位为独立 App，填补千问在移动端 AI 输入法赛道的空白。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/969/334.htm",
-      "publishedAt": "2026-06-27T03:39:06.000Z"
     }
   ]
 }
