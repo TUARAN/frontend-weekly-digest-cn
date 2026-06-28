@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-28T07:25:34.361Z",
+  "updatedAt": "2026-06-28T09:06:32.832Z",
   "count": 9,
   "items": [
+    {
+      "topic": "模型",
+      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+      "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+      "publishedAt": "2026-06-28T07:44:41.000Z"
+    },
     {
       "topic": "产品",
       "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
@@ -65,14 +73,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
       "publishedAt": "2026-06-27T12:25:21.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AI 账单失控后 DeepSeek 成\"香饽饽\"，部分美国企业已 100% 切换",
-      "summary": "美国企业面临 AI 账单失控，开始转向 Token 最小化策略。旧金山公司 Lindy 此前主要调用 Anthropic 的 Claude 模型，每月 AI 账单超支甚至超过员工工资。该公司 CEO 弗洛·克里维洛表示，本月初已将 100% 流量切换到 DeepSeek，预计未来几个月可节省数百万美元。企业开始采用按任务匹配模型的\"模型路由\"，不再将最贵的前沿模型用于所有场景。部分客户已决定暂停 AI 投入，待证明投资回报率后再继续。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/969/400.htm",
-      "publishedAt": "2026-06-27T08:16:09.000Z"
     }
   ]
 }
