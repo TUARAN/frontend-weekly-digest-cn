@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-28T01:45:46.693Z",
-  "count": 8,
+  "updatedAt": "2026-06-28T03:12:04.201Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+      "summary": "英国前首相府数据科学家Liam Wilkinson搭建76个MCP工具，将Claude Opus 4.6、GPT-5.4、Gemini 3.1 Pro等四个模型放入《文明VI》进行23场对局。Claude扮演葡萄牙时，因法国文化胜利逼近，花50回合研发核弹核平图卢兹，但法国最终以外交胜利获胜。Wilkinson发现：AI主动检查全局状态仅占1-2%（感知盲区），计划后10回合内执行率仅48-66%（知行差距）。结论是智商非瓶颈，感知与执行才是关键。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/969/570.htm",
+      "publishedAt": "2026-06-28T02:45:16.000Z"
+    },
     {
       "topic": "行业",
       "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
