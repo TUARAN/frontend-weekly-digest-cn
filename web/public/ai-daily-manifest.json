@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-28",
+      "displayDate": "Jun 28",
+      "json": "/ai-daily/2026-06-28.json",
+      "count": 5,
+      "highlights": [
+        "DeepSeek 开源 DSpark 投",
+        "苹果Vision负责人跳槽OpenAI，",
+        "\"Raise Us\"启动：前美商务部长与",
+        "AI 账单失控后 DeepSeek 成\"",
+        "阿里千问输入法上线 macOS 版：最快"
+      ]
+    },
+    {
       "date": "2026-06-27",
       "displayDate": "Jun 27",
       "json": "/ai-daily/2026-06-27.json",
@@ -396,5 +409,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-27"
+  "latest": "2026-06-28"
 }
