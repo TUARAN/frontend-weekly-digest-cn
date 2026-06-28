@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-28T15:30:38.358Z",
-  "count": 9,
+  "updatedAt": "2026-06-28T16:29:30.762Z",
+  "count": 8,
   "items": [
     {
       "topic": "模型",
@@ -65,14 +65,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
       "publishedAt": "2026-06-27T16:59:58.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "一次失败的（民族国家？）攻击的剖析",
-      "summary": "作者收到伪装成新加坡VC Lua Ventures的虚假面试邮件，要求完成一个TypeScript仓库的\"测试\"。作者将仓库交给Claude扫描，在`typescript+5.9.2.patch`中发现base64混淆载荷，该载荷在`patch-package`安装时触发，向`~/.cache-`等目录写入`payload.js`和`mutex.js`，构成后门（命名PinpinRAT）。攻击者使用虚构身份和空洞LinkedIn资料，目标是作者在crates.io上的Rust包。相关信息已报告加拿大CCCS等机构。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
-      "publishedAt": "2026-06-27T15:39:53.429Z"
     }
   ]
 }
