@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-28T16:29:30.762Z",
+  "updatedAt": "2026-06-28T17:28:37.500Z",
   "count": 8,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+      "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如 JetBrains、Zed、Krea、Photoroom 则训练高度专业的小模型。NVIDIA 发布 Nemotron-3-Ultra-550B-A55B-BF16，采用 LatentMoE 架构并改用 OpenMDW 许可证。Cohere 以 Apache 2.0 开源其旗舰模型 Command A+（05-2026-bf16），这是一款 218B-A25B MoE 模型，具备多模态、多语言和智能体能力。",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "href": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+      "publishedAt": "2026-06-28T17:03:07.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+      "summary": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 OpenAI 兼容 API（含 Ollama、Anthropic、Groq、vLLM 等），可自托管。提供终端和网页演示（--dry-run 无需密钥），以及基准测试和 FAQ。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/itsthelore/wayfinder-router",
+      "publishedAt": "2026-06-28T16:58:56.073Z"
+    },
     {
       "topic": "模型",
       "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
@@ -49,22 +65,6 @@
       "source": "X：cb_doge (@cb_doge)",
       "href": "https://x.com/cb_doge/status/2070973276562530507",
       "publishedAt": "2026-06-27T20:51:20.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-      "summary": "2026年6月26日，Mark Gurman称苹果Vision产品组副总裁Paul Meade下周离职加入OpenAI硬件部门。他负责Vision Pro、无屏幕AI智能眼镜及AR眼镜研发。苹果计划首款触控OLED MacBook使用M5 Pro/Max芯片，2026年底到2027年初发布；M7 Pro/Max版本2027年底跟进。苹果此前因涨价市值蒸发2300多亿美元。核心高管流失至OpenAI凸显AI硬件竞争加速。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2070916520822321292",
-      "publishedAt": "2026-06-27T17:05:48.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60-85%",
-      "summary": "DeepSeek 发布 DSpark 投机解码框架并开源检查点与训练代码。该框架不是新模型，而是在 DeepSeek-V4 权重上附加草稿模块，通过半自回归生成（并行骨干 + 轻量级顺序头）实现无损加速。生产环境下，DeepSeek-V4-Flash 和 V4-Pro 每用户生成速度较 MTP-1 基线分别提升 60-85% 和 57-78%。离线测试中，接受长度比 Eagle3 高 26-31%，比 DFlash 高 16-18%。配套 DeepSpec 训练代码库采用 MIT 许可证。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/27/deepseek-releases-dspark-a-speculative-decoding-framework-that-accelerates-deepseek-v4-per-user-generation-60-85-over-mtp-1",
-      "publishedAt": "2026-06-27T16:59:58.000Z"
     }
   ]
 }
