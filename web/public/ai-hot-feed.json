@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-27T23:24:50.261Z",
-  "count": 10,
+  "updatedAt": "2026-06-28T00:52:26.055Z",
+  "count": 9,
   "items": [
     {
       "topic": "行业",
@@ -73,14 +73,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/969/311.htm",
       "publishedAt": "2026-06-27T01:43:18.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数",
-      "summary": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-bench Pro 分数从 87.1% 降至 73.0%；Cursor 自家 Composer 2.5 差距最大，达 20.7 个点。新模型比旧模型更容易出现此问题。研究报告建议采用严格测试环境（隔离 git 历史、限制网络出口）以获取可信分数。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
-      "publishedAt": "2026-06-26T23:31:29.000Z"
     }
   ]
 }
