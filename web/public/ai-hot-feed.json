@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-28T12:32:37.051Z",
-  "count": 10,
+  "updatedAt": "2026-06-28T13:33:58.143Z",
+  "count": 9,
   "items": [
     {
       "topic": "模型",
@@ -73,14 +73,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack",
       "publishedAt": "2026-06-27T15:39:53.429Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway API 推出广告本地化 Recipe",
-      "summary": "广告本地化现在可通过 Runway API 以 Recipe 形式使用。\n\n现在您可以通过单次 API 调用翻译静态广告和图形资产。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2070855164584726791",
-      "publishedAt": "2026-06-27T13:02:00.000Z"
     }
   ]
 }
