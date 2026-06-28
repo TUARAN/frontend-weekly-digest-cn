@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-28T10:47:03.384Z",
-  "count": 10,
+  "updatedAt": "2026-06-28T11:36:05.669Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+      "summary": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。\n\n强化学习仍在持续显著改进模型，Grok Build工具链也在日益完善。\n\n所有参与者的出色工作！\n\n今年，@SpaceX 将每月发布完全从头训练的新模型。",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "href": "https://x.com/elonmusk/status/2071184354756477041",
+      "publishedAt": "2026-06-28T10:50:05.000Z"
+    },
     {
       "topic": "论文",
       "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
