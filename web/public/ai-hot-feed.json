@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-28T09:06:32.832Z",
-  "count": 9,
+  "updatedAt": "2026-06-28T10:47:03.384Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "论文",
+      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+      "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法通过固定定价、配额和针对性开发达到1576万美元，超越除上述三款外的所有模型。多数模型无法保持连贯策略，在模拟结束前破产。该测试旨在衡量AI的长期战略决策能力。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+      "publishedAt": "2026-06-28T10:16:13.000Z"
+    },
     {
       "topic": "模型",
       "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
