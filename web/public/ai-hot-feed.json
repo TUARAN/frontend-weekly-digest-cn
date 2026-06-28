@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-28T20:29:13.282Z",
-  "count": 8,
+  "updatedAt": "2026-06-28T21:26:00.496Z",
+  "count": 7,
   "items": [
     {
       "topic": "技巧",
@@ -57,14 +57,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/969/570.htm",
       "publishedAt": "2026-06-28T02:45:16.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-      "summary": "消息：SpaceX 刚刚注册了\"SpaceXAI\"商标。\n\n埃隆·马斯克表示 xAI 将解散，不再作为独立公司，因此它将只是 SpaceXAI，SpaceX 的 AI 产品。",
-      "source": "X：cb_doge (@cb_doge)",
-      "href": "https://x.com/cb_doge/status/2070973276562530507",
-      "publishedAt": "2026-06-27T20:51:20.000Z"
     }
   ]
 }
