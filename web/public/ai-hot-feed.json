@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-29T11:42:43.849Z",
-  "count": 10,
+  "updatedAt": "2026-06-29T13:33:07.548Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "行业",
+      "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
+      "summary": "美军在打击伊朗时首次大规模使用AI选择目标（Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标），但对一所学校的导弹袭击导致约120名儿童死亡。调查发现，情报分析师早在2019年就通过数字工具标记该地点已变为小学，但该工具未连接军方官方目标数据库MIDB，信息从未送达指挥官。MIDB建于1980年代，依赖手动输入，替代系统MARS多年延迟。五角大楼事后宣布推出agentic AI initiative。Project Maven创建人Jack Shanahan批评目标验证不力不可原谅。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
+      "publishedAt": "2026-06-29T12:30:21.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
+      "summary": "Meta公布Brain2Qwerty v2，这是非侵入式脑电信号解码研究的最新里程碑。基于当天发表在《Nature》的v1，v2是性能最高的端到端管道，能从原始脑信号实时解码句子。其从字符级性能提升至解码单词和语义，提高整体沟通准确性。该研究有望帮助数百万因脑损伤或疾病无法沟通的人群。",
+      "source": "X：AI at Meta (@AIatMeta)",
+      "href": "https://x.com/AIatMeta/status/2071566924803395741",
+      "publishedAt": "2026-06-29T12:10:17.000Z"
+    },
     {
       "topic": "产品",
       "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
