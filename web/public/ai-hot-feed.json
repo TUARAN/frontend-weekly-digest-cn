@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-29T07:49:04.619Z",
-  "count": 6,
+  "updatedAt": "2026-06-29T09:39:48.570Z",
+  "count": 7,
   "items": [
+    {
+      "topic": "行业",
+      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+      "summary": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至20%才可能缓解。两家公司合计控制全球近80%的高带宽内存芯片市场。内存涨价已推高消费电子产品成本，苹果已上调Mac和MacBook售价。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
+      "publishedAt": "2026-06-29T08:17:41.000Z"
+    },
     {
       "topic": "行业",
       "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
