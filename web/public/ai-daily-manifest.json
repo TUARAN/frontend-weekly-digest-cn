@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-29",
+      "displayDate": "Jun 29",
+      "json": "/ai-daily/2026-06-29.json",
+      "count": 5,
+      "highlights": [
+        "阿德拉菲尼尔：仅在AI agent工作时",
+        "新浪开源VibeThinker-3B：推",
+        "Artifacts 22：Zyphra、",
+        "Wayfinder Router：在本地",
+        "四大顶级AI对决《文明VI》：Claud"
+      ]
+    },
+    {
       "date": "2026-06-28",
       "displayDate": "Jun 28",
       "json": "/ai-daily/2026-06-28.json",
@@ -409,5 +422,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-28"
+  "latest": "2026-06-29"
 }
