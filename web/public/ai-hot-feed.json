@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-29T13:33:07.548Z",
-  "count": 12,
+  "updatedAt": "2026-06-29T15:12:35.330Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
+      "summary": "Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/ogulcancelik/herdr",
+      "publishedAt": "2026-06-29T14:03:06.351Z"
+    },
     {
       "topic": "行业",
       "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
