@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-29T20:39:31.851Z",
-  "count": 17,
+  "updatedAt": "2026-06-29T21:32:55.995Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "产品",
+      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
+      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "publishedAt": "2026-06-29T21:22:33.048Z"
+    },
+    {
+      "topic": "模型",
+      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
+      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "href": "https://x.com/EMostaque/status/2071701921241448574",
+      "publishedAt": "2026-06-29T21:06:43.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Rubin Ultra取消，新版尺寸性能减半",
+      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "href": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "publishedAt": "2026-06-29T21:00:47.000Z"
+    },
     {
       "topic": "产品",
       "title": "OpenClaw 发布原生 iOS 与 Android 应用",
