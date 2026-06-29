@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-29T17:04:04.666Z",
-  "count": 12,
+  "updatedAt": "2026-06-29T18:44:47.318Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude 在 Microsoft Foundry 正式可用",
+      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "publishedAt": "2026-06-29T18:22:20.720Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Qwen 3.6 27B 是本地开发的理想选择",
+      "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://quesma.com/blog/qwen-36-is-awesome",
+      "publishedAt": "2026-06-29T18:03:02.582Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
@@ -33,6 +49,14 @@
       "source": "X：AI at Meta (@AIatMeta)",
       "href": "https://x.com/AIatMeta/status/2071566924803395741",
       "publishedAt": "2026-06-29T12:10:17.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "从任何地点构建--Cursor for iOS 公测版发布",
+      "summary": "Cursor 推出 iOS 原生公测版，所有付费计划可用。开发者可在手机上启动始终在线的云端智能体，或远程操控电脑端智能体。支持语音输入、斜杠命令和选择前沿模型。智能体运行后，锁屏 Live Activities 和推送通知实时更新状态，完成或需要输入时提醒。云端智能体在隔离虚拟机中运行，可自动迭代生成合并就绪的 PR，并输出演示、截图和日志。本地与云端智能体支持双向切换。移动端 Composer 2.5 享受 75% 折扣，优惠至 2026 年 7 月 5 日。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/ios-mobile-app",
+      "publishedAt": "2026-06-29T12:00:00.000Z"
     },
     {
       "topic": "产品",
