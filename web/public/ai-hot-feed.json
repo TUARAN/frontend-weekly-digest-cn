@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-29T05:38:39.457Z",
+  "updatedAt": "2026-06-29T07:49:04.619Z",
   "count": 6,
   "items": [
+    {
+      "topic": "行业",
+      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+      "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/969/953.htm",
+      "publishedAt": "2026-06-29T06:44:15.000Z"
+    },
     {
       "topic": "技巧",
       "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
@@ -41,14 +49,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
       "publishedAt": "2026-06-28T10:16:13.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-      "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "publishedAt": "2026-06-28T07:44:41.000Z"
     }
   ]
 }
