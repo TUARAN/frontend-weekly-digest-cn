@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-06-29T09:39:48.570Z",
-  "count": 7,
+  "updatedAt": "2026-06-29T11:42:43.849Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "产品",
+      "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+      "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%-96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6-3.54×，单卡并发提升 4.7-7.8×，预填充 FLOPs 削减 67%-79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "href": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
+      "publishedAt": "2026-06-29T11:00:07.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
+      "summary": "EverMind 推出开源智能体记忆运行时 EverOS（Apache 2.0 许可）。它以可编辑的 Markdown 文件为记忆主体，经 SQLite 管理状态、LanceDB 实现混合检索（BM25 关键词 + 向量搜索 + 标量过滤）。每个完成的任务记录为 Case，离线提炼为可复用的 Skill，使记忆随使用自我进化。v1.1.0 新增 Knowledge APIs（支持分类与话题搜索的 Markdown 页面）和 Reflection（跨会话优化 Profile 和 Skill）。据 EverMind 报告，LoCoMo 得分 93.05%，LongMemEval 83.00%，HaluMem 93.04%，p95 检索延迟低于 500ms。运行时可本地优先部署，也提供 EverOS Cloud 托管选项，兼容 OpenAI 协议端点。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
+      "publishedAt": "2026-06-29T10:42:47.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
+      "summary": "安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量。一个看似正常的 GitHub 仓库包含 setup 脚本，该脚本运行时从 DNS 条目拉取命令并执行，恶意代码从未存在于仓库中，对扫描器、代码审查和 AI 智能体不可见。开发者使用 Claude Code 等 AI 编码工具打开该仓库时，Claude Code 在设置过程中遇到常规错误消息后自动运行该脚本，打开反向 shell，攻击者可窃取 API 密钥和登录凭据并维持持久访问。研究人员建议 AI 智能体应在运行前显示 setup 脚本内容，开发者应将第三方仓库的 setup 说明视为不受信任代码。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
+      "publishedAt": "2026-06-29T10:04:32.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
+      "summary": "国务院日前印发《教育发展\"十五五\"规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/970/097.htm",
+      "publishedAt": "2026-06-29T09:27:36.000Z"
+    },
     {
       "topic": "行业",
       "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
@@ -9,6 +41,14 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
       "publishedAt": "2026-06-29T08:17:41.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
+      "summary": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "publishedAt": "2026-06-29T07:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -41,22 +81,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/itsthelore/wayfinder-router",
       "publishedAt": "2026-06-28T16:58:56.073Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-      "summary": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。\n\n强化学习仍在持续显著改进模型，Grok Build工具链也在日益完善。\n\n所有参与者的出色工作！\n\n今年，@SpaceX 将每月发布完全从头训练的新模型。",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "href": "https://x.com/elonmusk/status/2071184354756477041",
-      "publishedAt": "2026-06-28T10:50:05.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
-      "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法通过固定定价、配额和针对性开发达到1576万美元，超越除上述三款外的所有模型。多数模型无法保持连贯策略，在模拟结束前破产。该测试旨在衡量AI的长期战略决策能力。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-      "publishedAt": "2026-06-28T10:16:13.000Z"
     }
   ]
 }
