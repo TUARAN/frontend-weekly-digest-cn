@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-06-30T16:46:30.967Z",
-  "count": 16,
+  "updatedAt": "2026-06-30T17:37:51.168Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude Science 科研工作台正式上线",
+      "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。生成含代码和环境的可审计成果（3D蛋白质结构、基因组浏览器轨迹等），内置reviewer agent自动检查引用与计算错误。通过NVIDIA BioNeMo接入Evo 2、Boltz-2等模型，也支持连接自有模型与管道。今日以beta版面向Claude Pro、Max、Team和Enterprise用户开放。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "publishedAt": "2026-06-30T17:32:06.724Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude Code 入门：智能体循环",
+      "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用 `/schedule` 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/getting-started-with-loops",
+      "publishedAt": "2026-06-30T17:28:28.530Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "summary": "Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/announcing-adk-go-20",
+      "publishedAt": "2026-06-30T17:17:40.302Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Science 科研应用 beta 版发布",
+      "summary": "推出 Claude Science，一款面向研究每一阶段的全新应用。\n\n构件可追溯至其代码，环境按需管理，并可连接 60 多个可选科学数据库。\n\n现已开放 beta 版。",
+      "source": "X：Claude (@claudeai)",
+      "href": "https://x.com/claudeai/status/2072002740830842899",
+      "publishedAt": "2026-06-30T17:02:04.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Apple Creator Studio 更新：更智能、更快速、更互联",
+      "summary": "Apple Creator Studio 推出多项 AI 增强更新。Final Cut Pro 新增 on-device AI 驱动的 Generate Captions（自动转录音频生成字幕）和 Edit Detection（自动检测剪辑点）。Mac 版加入 Auto Mask（自动识别皮肤、天空等主体）、增强的 Match Color 和 Advanced Trimming。支持将帧发送至 Pixelmator Pro 编辑，并在 Keynote、Pages、Numbers 中直接调用 Pixelmator Pro 修改图片。Logic Pro 新增 Grammy 制作人制作的 Producer Project 及 Chord ID 改进。订阅价 $12.99/月或 $129/年，新用户免费试用一个月，教育用户 $2.99/月。",
+      "source": "Apple：Newsroom（RSS）",
+      "href": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected",
+      "publishedAt": "2026-06-30T16:59:24.233Z"
+    },
+    {
+      "topic": "产品",
+      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+      "summary": "shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。演示视频展示了 Datasette 中从粘贴的 CSV/TSV/JSON 数据创建新表的功能。该功能依赖 Playwright 1.61.0 新增的 screencast 机制，解决了此前视频开头白帧、宽度固定 800px 等问题。开发者 Simon Willison 强调，将 --help 输出设计得足够详细，可使编码 Agent 直接利用该命令生成演示视频。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
+      "publishedAt": "2026-06-30T16:54:26.000Z"
+    },
     {
       "topic": "产品",
       "title": "Claude Desktop 推出 Linux 公测版",
@@ -105,6 +153,14 @@
       "source": "公众号：卡尔的AI沃茨",
       "href": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
       "publishedAt": "2026-06-30T01:47:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
+      "summary": "OpenAI 发布 GeneBench-Pro，用于评估 AI 智能体在计算生物学中处理模糊性和做出判断性分析的能力。该基准包含 129 个问题，覆盖统计遗传学、群体遗传学等 10 个领域 21 个子领域。每个问题提供真实混乱的数据集和实验背景，要求模型探索数据、选择分析路径并迭代实验。采用合成数据构建，已知完整因果结构。82 个问题已由外部领域专家审核确认其现实性。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/introducing-genebench-pro",
+      "publishedAt": "2026-06-30T00:00:00.000Z"
     },
     {
       "topic": "行业",
