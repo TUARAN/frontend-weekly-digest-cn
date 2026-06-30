@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-06-30T15:54:24.195Z",
-  "count": 14,
+  "updatedAt": "2026-06-30T16:46:30.967Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude Desktop 推出 Linux 公测版",
+      "summary": "Claude Desktop 现已在 Linux（Ubuntu 和 Debian）上推出测试版。\n\n除了浏览器和终端，你现在可以在所有付费计划中获得一流的桌面体验，包括 Claude Code、Claude Cowork 和聊天。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2071988881717871065",
+      "publishedAt": "2026-06-30T16:06:59.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "summary": "Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.10/秒，面向开发者开放 API。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "href": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "publishedAt": "2026-06-30T16:02:40.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Grant Sanderson 谈 AI 与数学的未来",
+      "summary": "3Blue1Brown 创办人 Grant Sanderson 正在制作记录 AI 在数学领域进展的新项目。他在与 Dwarkesh Patel 的对谈中指出，AI 在 IMO 获金牌并不等于 AGI，只是又一个被攻克的基准。即使 AI 未来解决千禧年大奖难题，仍可能存在大量人类任务无法被自动化。对话还探讨了概念突破验证周期可长达一个世纪、Riemann 假设的 AI 证明能否被人类理解、AI 能否在已有文献间发现隐藏联系，以及现实经济任务难以套用强化学习环境等话题。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "href": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "publishedAt": "2026-06-30T15:53:19.000Z"
+    },
     {
       "topic": "行业",
       "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
@@ -9,6 +33,14 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
       "publishedAt": "2026-06-30T11:14:52.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
+      "summary": "OpenAI Signals 数据显示，用户注册六个月后日均消息量增加50%，尝试任务种类翻倍。自2023年7月以来，各大洲活跃用户均大幅增长，非洲和亚洲增速最快，低人类发展指数国家增长尤为显著。用户群体更加多元化，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户显著多于男性。非英语用户占活跃用户半数以上，领先语言为西班牙语、葡萄牙语和阿拉伯语；乌兹别克语、哈萨克语和缅甸语用户占比增长百分比最大。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "publishedAt": "2026-06-30T09:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -75,14 +107,6 @@
       "publishedAt": "2026-06-30T01:47:00.000Z"
     },
     {
-      "topic": "产品",
-      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "publishedAt": "2026-06-29T21:22:33.048Z"
-    },
-    {
       "topic": "行业",
       "title": "Rubin Ultra取消，新版尺寸性能减半",
       "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
@@ -97,14 +121,6 @@
       "source": "X：OpenClaw (@openclaw)",
       "href": "https://x.com/openclaw/status/2071688039114342592",
       "publishedAt": "2026-06-29T20:11:33.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude 在 Microsoft Foundry 正式可用",
-      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/claude-in-microsoft-foundry",
-      "publishedAt": "2026-06-29T18:22:20.720Z"
     },
     {
       "topic": "技巧",
