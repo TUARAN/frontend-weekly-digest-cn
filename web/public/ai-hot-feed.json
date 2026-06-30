@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-30T01:44:34.547Z",
-  "count": 19,
+  "updatedAt": "2026-06-30T03:11:12.401Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
+      "publishedAt": "2026-06-30T01:58:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
+      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
+      "source": "公众号：卡尔的AI沃茨",
+      "href": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
+      "publishedAt": "2026-06-30T01:47:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
@@ -145,14 +161,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/969/953.htm",
       "publishedAt": "2026-06-29T06:44:15.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
-      "summary": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Coding项目AIHOT最近一周请求量超千万次。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
-      "publishedAt": "2026-06-29T02:08:00.000Z"
     }
   ]
 }
