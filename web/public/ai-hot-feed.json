@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-30T14:55:23.082Z",
-  "count": 15,
+  "updatedAt": "2026-06-30T15:54:24.195Z",
+  "count": 14,
   "items": [
     {
       "topic": "行业",
@@ -113,14 +113,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://quesma.com/blog/qwen-36-is-awesome",
       "publishedAt": "2026-06-29T18:03:02.582Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-      "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2071610700213191075",
-      "publishedAt": "2026-06-29T15:04:14.000Z"
     }
   ]
 }
