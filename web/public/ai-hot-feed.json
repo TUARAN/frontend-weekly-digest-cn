@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-29T23:24:31.588Z",
-  "count": 20,
+  "updatedAt": "2026-06-30T00:51:01.632Z",
+  "count": 19,
   "items": [
     {
       "topic": "产品",
@@ -153,14 +153,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
       "publishedAt": "2026-06-29T02:08:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic：当AI成本超过工程师薪酬",
-      "summary": "Anthropic在算力上的支出达到每位工程师每年51.5万美元，是其完全薪资（22.4万美元）的2.3倍。相比之下，顶尖1%软件公司的算力支出为8.9万美元，中位数仅为1.37万美元。三个2029年情景预测了这一差距的缩小路径。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/ai-spend-breakeven-2029",
-      "publishedAt": "2026-06-29T00:00:00.000Z"
     }
   ]
 }
