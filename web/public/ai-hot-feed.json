@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-30T05:26:28.561Z",
-  "count": 23,
+  "updatedAt": "2026-06-30T07:22:44.428Z",
+  "count": 22,
   "items": [
+    {
+      "topic": "行业",
+      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
+      "summary": "2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/970/539.htm",
+      "publishedAt": "2026-06-30T06:45:03.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "summary": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "href": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "publishedAt": "2026-06-30T05:42:42.000Z"
+    },
     {
       "topic": "产品",
       "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
@@ -49,14 +65,6 @@
       "source": "Claude：Blog（网页）",
       "href": "https://claude.com/blog/introducing-the-claude-apps-gateway",
       "publishedAt": "2026-06-29T21:22:33.048Z"
-    },
-    {
-      "topic": "模型",
-      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
-      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
-      "source": "X：Emad Mostaque (@EMostaque)",
-      "href": "https://x.com/EMostaque/status/2071701921241448574",
-      "publishedAt": "2026-06-29T21:06:43.000Z"
     },
     {
       "topic": "行业",
@@ -169,22 +177,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
       "publishedAt": "2026-06-29T08:17:41.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
-      "summary": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "publishedAt": "2026-06-29T07:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
-      "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/969/953.htm",
-      "publishedAt": "2026-06-29T06:44:15.000Z"
     }
   ]
 }
