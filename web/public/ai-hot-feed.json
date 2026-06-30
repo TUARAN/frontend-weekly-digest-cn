@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-06-30T18:41:04.284Z",
-  "count": 24,
+  "updatedAt": "2026-06-30T19:37:08.677Z",
+  "count": 23,
   "items": [
-    {
-      "topic": "模型",
-      "title": "Anthropic 发布 Claude Sonnet 5：最具智能体能力的 Sonnet 模型",
-      "summary": "Anthropic 发布 Claude Sonnet 5，定位为迄今最具智能体能力的 Sonnet 模型。它在推理、工具使用、编码和知识工作等智能体性能上较前代 Sonnet 4.6 显著提升，表现接近 Opus 4.8 但价格更低。即日起在所有计划中可用，成为 Free 和 Pro 计划的默认模型，并支持 Claude Code 及 Claude 平台。API 推出优惠定价：每百万输入 token $2、每百万输出 token $10（持续至 2026 年 8 月 31 日），之后恢复为 $3 和 $15。安全评估显示，Sonnet 5 在拒绝恶意请求、抵抗提示注入攻击、减少幻觉和谄媚行为上优于前代，但在网络安全任务上的能力显著弱于 Opus 4.8。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedAt": "2026-06-30T18:19:05.316Z"
-    },
     {
       "topic": "模型",
       "title": "Claude Sonnet 5 发布",
