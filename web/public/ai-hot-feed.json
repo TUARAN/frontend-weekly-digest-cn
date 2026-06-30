@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-30T13:41:43.133Z",
-  "count": 16,
+  "updatedAt": "2026-06-30T14:55:23.082Z",
+  "count": 15,
   "items": [
     {
       "topic": "行业",
@@ -121,14 +121,6 @@
       "source": "X：Berry Xia (@berryxia)",
       "href": "https://x.com/berryxia/status/2071610700213191075",
       "publishedAt": "2026-06-29T15:04:14.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
-      "summary": "Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/ogulcancelik/herdr",
-      "publishedAt": "2026-06-29T14:03:06.351Z"
     }
   ]
 }
