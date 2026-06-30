@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-06-30",
+      "displayDate": "Jun 30",
+      "json": "/ai-daily/2026-06-30.json",
+      "count": 5,
+      "highlights": [
+        "Anthropic工程师Margot V",
+        "为 Amazon Bedrock 和 G",
+        "美团LongCat Owl Alpha：",
+        "Claude 在 Microsoft F",
+        "美军用AI选目标却误炸伊朗学校，Anth"
+      ]
+    },
+    {
       "date": "2026-06-29",
       "displayDate": "Jun 29",
       "json": "/ai-daily/2026-06-29.json",
@@ -422,5 +435,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-29"
+  "latest": "2026-06-30"
 }
