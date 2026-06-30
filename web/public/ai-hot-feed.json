@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-30T07:22:44.428Z",
+  "updatedAt": "2026-06-30T09:10:57.102Z",
   "count": 22,
   "items": [
+    {
+      "topic": "行业",
+      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+      "summary": "黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/970/583.htm",
+      "publishedAt": "2026-06-30T07:56:46.000Z"
+    },
     {
       "topic": "行业",
       "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
@@ -169,14 +177,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/970/097.htm",
       "publishedAt": "2026-06-29T09:27:36.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
-      "summary": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至20%才可能缓解。两家公司合计控制全球近80%的高带宽内存芯片市场。内存涨价已推高消费电子产品成本，苹果已上调Mac和MacBook售价。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
-      "publishedAt": "2026-06-29T08:17:41.000Z"
     }
   ]
 }
