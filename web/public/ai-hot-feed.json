@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-06-30T19:37:08.677Z",
+  "updatedAt": "2026-06-30T20:41:12.241Z",
   "count": 23,
   "items": [
+    {
+      "topic": "产品",
+      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+      "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2072043680442245276",
+      "publishedAt": "2026-06-30T19:44:44.000Z"
+    },
     {
       "topic": "模型",
       "title": "Claude Sonnet 5 发布",
@@ -177,14 +185,6 @@
       "source": "X：SemiAnalysis (@SemiAnalysis_)",
       "href": "https://x.com/SemiAnalysis_/status/2071700428249596290",
       "publishedAt": "2026-06-29T21:00:47.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
-      "source": "X：OpenClaw (@openclaw)",
-      "href": "https://x.com/openclaw/status/2071688039114342592",
-      "publishedAt": "2026-06-29T20:11:33.000Z"
     }
   ]
 }
