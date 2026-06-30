@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-30T20:41:12.241Z",
-  "count": 23,
+  "updatedAt": "2026-06-30T21:33:59.646Z",
+  "count": 22,
   "items": [
     {
       "topic": "产品",
@@ -177,14 +177,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/introducing-genebench-pro",
       "publishedAt": "2026-06-30T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Rubin Ultra取消，新版尺寸性能减半",
-      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "href": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-      "publishedAt": "2026-06-29T21:00:47.000Z"
     }
   ]
 }
