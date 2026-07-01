@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-01T13:00:54.995Z",
-  "count": 19,
+  "updatedAt": "2026-07-01T15:02:29.730Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Meta效仿SpaceX，将过剩AI算力变现",
+      "summary": "据Bloomberg报道，Meta正计划推出云基础设施业务Meta Compute，对外出售AI计算能力和模型访问权限，直接与AWS、Google Cloud及Azure竞争。Meta已承诺未来几年投入1829亿美元建设AI基础设施，其中俄亥俄州数据中心（规模如曼哈顿）将于今年上线。新业务由基础设施主管Santosh Janardhan、Meta超级智能实验室负责人Daniel Gross和总裁Dina Powell McCormick领导。Meta可能效仿CoreWeave出售裸计算能力，并像AWS一样托管AI模型（包括近期发布的闭源模型Muse Spark）。扎克伯格此前已表示云业务\"definitely on the table\"。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+      "publishedAt": "2026-07-01T13:43:07.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Cloudflare 推出全新AI流量管理选项：区分搜索、智能体与训练爬虫，保护广告页面",
+      "summary": "Cloudflare 为所有网站所有者提供更精细的AI流量管控选项，取代一刀切的屏蔽方式。用户可轻松区分并管理搜索爬虫、AI智能体爬虫和训练爬虫，同时新增保护广告变现页面的能力。",
+      "source": "Cloudflare Blog",
+      "href": "https://blog.cloudflare.com/content-independence-day-ai-options",
+      "publishedAt": "2026-07-01T13:00:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
