@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-01T22:31:23.619Z",
-  "count": 16,
+  "updatedAt": "2026-07-01T23:31:59.174Z",
+  "count": 15,
   "items": [
     {
       "topic": "产品",
@@ -121,14 +121,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/970/810.htm",
       "publishedAt": "2026-06-30T23:43:32.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-      "summary": "AI Safety Memes 推文指出，AI 刚刚解决了 9 个未解决的数学问题，但全球没有记者报道。引用 @WeinsteinOmri 的推文称，采用\"prover-verifier\"LLM 循环的方法，成功解决了理论计算机科学中 9 个重大开放问题，其中包括一个困扰其长达 2 年的难题。该研究由哥伦比亚大学合作者完成，并计划将这一方法扩展到所有科学领域。",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "href": "https://x.com/AISafetyMemes/status/2072085914558558402",
-      "publishedAt": "2026-06-30T22:32:34.000Z"
     }
   ]
 }
