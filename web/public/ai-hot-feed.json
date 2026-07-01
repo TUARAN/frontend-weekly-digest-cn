@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-01T11:08:32.322Z",
-  "count": 20,
+  "updatedAt": "2026-07-01T13:00:54.995Z",
+  "count": 19,
   "items": [
     {
       "topic": "行业",
@@ -153,14 +153,6 @@
       "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
       "href": "https://www.dwarkesh.com/p/grant-sanderson-2",
       "publishedAt": "2026-06-30T15:53:19.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
-      "summary": "Meta通过承包商Covelen发起代号\"Cannes\"的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送关于自杀、自残、饮食障碍和毒品的敏感提示，并将回复录入表格。2025年8月一轮测试中发送了超过4.5万条提示。Meta称这是行业标准安全测试，未将数据用于训练自家模型。被测试公司不知情--Character.AI表示违反其服务条款，OpenAI已调查，Google称未批准。青少年使用AI聊天机器人引发的担忧持续，此前已有用户自杀事件。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-      "publishedAt": "2026-06-30T11:14:52.000Z"
     }
   ]
 }
