@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-01",
+      "displayDate": "Jul 1",
+      "json": "/ai-daily/2026-07-01.json",
+      "count": 5,
+      "highlights": [
+        "Claude Sonnet 5 发布",
+        "美团 LongCat 发布旗舰模型 Lo",
+        "X（Twitter）发布 hosted ",
+        "Anthropic在Claude Cod",
+        "Claude Science 科研工作台"
+      ]
+    },
+    {
       "date": "2026-06-30",
       "displayDate": "Jun 30",
       "json": "/ai-daily/2026-06-30.json",
@@ -435,5 +448,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-06-30"
+  "latest": "2026-07-01"
 }
