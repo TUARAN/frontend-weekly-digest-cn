@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-01T20:37:10.769Z",
-  "count": 15,
+  "updatedAt": "2026-07-01T21:34:04.618Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Claude Code v2.1.198 发布",
+      "summary": "Claude Code v2.1.198 更新。Claude in Chrome 现已全面可用。为 claude agents 新增后台智能体通知（agent_needs_input / agent_completed）。新增 /dataviz 技能，提供图表与仪表盘设计指导及配色验证器。Gateway 增加 AWS 上的 Claude Platform 作为上游提供商。后台智能体在 worktree 中完成代码后自动提交、推送并创建草稿 PR。内置 Explore 智能体现继承主会话模型（上限 opus）。修复网络短暂断开导致响应中断、后台任务卡在\"Running\"状态、智能体团队队友因 API 错误失败等问题。",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "publishedAt": "2026-07-01T20:45:36.000Z"
+    },
     {
       "topic": "产品",
       "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
