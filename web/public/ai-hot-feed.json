@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T17:38:42.816Z",
+  "updatedAt": "2026-07-01T18:43:01.073Z",
   "count": 15,
   "items": [
     {
@@ -9,6 +9,14 @@
       "source": "Google Developers Blog（RSS）",
       "href": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
       "publishedAt": "2026-07-01T17:17:56.374Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Meta 大规模 AI 存储蓝图",
+      "summary": "Meta 运营数百 EB 级存储集群，基于 Tectonic 分层存储层构建 BLOB 存储架构，以应对两大挑战：最大化 GPU 利用率与研究迭代速度。传统 BLOB 架构的多层元数据查询可导致数百毫秒延迟，使 GPU 因 I/O 等待停顿。新架构将训练栈逐步迁移到 BLOB 存储接口上，利用闪存提供可预测的低 pMax 延迟，避免单 GPU 慢速拖慢整批任务。同时，统一的数据湖访问支持地理分布 GPU 间的数据高速注入与跨区移动，提升研究效率。",
+      "source": "Meta Engineering Blog（RSS）",
+      "href": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
+      "publishedAt": "2026-07-01T16:00:36.000Z"
     },
     {
       "topic": "产品",
@@ -113,14 +121,6 @@
       "source": "X：NotebookLM (@NotebookLM)",
       "href": "https://x.com/NotebookLM/status/2072043680442245276",
       "publishedAt": "2026-06-30T19:44:44.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Acti 将 AI 智能体直接放入手机键盘",
-      "summary": "新加坡初创公司 Acti 发布基于 Google Gemini 的智能体键盘，可代替用户在应用中执行操作。核心功能 Skills 允许用自然语言创建快捷方式，如长按 T 键翻译消息、C 键发送会议链接。早期测试者两周内创建超 1000 个 Skills。采用本地优先架构，默认不访问私人消息。公司获 530 万美元种子轮融资，由 BITKRAFT Ventures 领投，现已开放下载。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-      "publishedAt": "2026-06-30T17:52:46.000Z"
     }
   ]
 }
