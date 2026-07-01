@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-01T16:52:14.385Z",
-  "count": 17,
+  "updatedAt": "2026-07-01T17:38:42.816Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
+      "summary": "Google Cloud Workbench Notebooks 扩展正式上线，开发者可在 VS Code 中直接连接可扩展的云端 Jupyter 环境，无需切换上下文即可利用高性能 Google Cloud 基础设施完成机器学习全流程。该扩展已完全开源，可在 GitHub 和 VS Code Marketplace 获取。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
+      "publishedAt": "2026-07-01T17:17:56.374Z"
+    },
     {
       "topic": "产品",
       "title": "智谱推出GLM-5.2官方开发环境ZCode",
@@ -113,30 +121,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
       "publishedAt": "2026-06-30T17:52:46.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
-      "summary": "Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/announcing-adk-go-20",
-      "publishedAt": "2026-06-30T17:17:40.302Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Apple Creator Studio 更新：更智能、更快速、更互联",
-      "summary": "Apple Creator Studio 推出多项 AI 增强更新。Final Cut Pro 新增 on-device AI 驱动的 Generate Captions（自动转录音频生成字幕）和 Edit Detection（自动检测剪辑点）。Mac 版加入 Auto Mask（自动识别皮肤、天空等主体）、增强的 Match Color 和 Advanced Trimming。支持将帧发送至 Pixelmator Pro 编辑，并在 Keynote、Pages、Numbers 中直接调用 Pixelmator Pro 修改图片。Logic Pro 新增 Grammy 制作人制作的 Producer Project 及 Chord ID 改进。订阅价 $12.99/月或 $129/年，新用户免费试用一个月，教育用户 $2.99/月。",
-      "source": "Apple：Newsroom（RSS）",
-      "href": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected",
-      "publishedAt": "2026-06-30T16:59:24.233Z"
-    },
-    {
-      "topic": "产品",
-      "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
-      "summary": "shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。演示视频展示了 Datasette 中从粘贴的 CSV/TSV/JSON 数据创建新表的功能。该功能依赖 Playwright 1.61.0 新增的 screencast 机制，解决了此前视频开头白帧、宽度固定 800px 等问题。开发者 Simon Willison 强调，将 --help 输出设计得足够详细，可使编码 Agent 直接利用该命令生成演示视频。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
-      "publishedAt": "2026-06-30T16:54:26.000Z"
     }
   ]
 }
