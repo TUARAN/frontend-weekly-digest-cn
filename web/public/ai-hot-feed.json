@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-01T03:12:24.831Z",
-  "count": 23,
+  "updatedAt": "2026-07-01T05:36:03.234Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "模型",
+      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+      "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
+      "source": "公众号：龙猫LongCat（美团）",
+      "href": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
+      "publishedAt": "2026-07-01T02:24:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
@@ -153,38 +161,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/970/539.htm",
       "publishedAt": "2026-06-30T06:45:03.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
-      "summary": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "href": "https://x.com/SiliconFlowAI/status/2071831773076746715",
-      "publishedAt": "2026-06-30T05:42:42.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
-      "summary": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
-      "source": "X：歸藏 (@op7418)",
-      "href": "https://x.com/op7418/status/2071816099986022650",
-      "publishedAt": "2026-06-30T04:40:25.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI就业争论变得更加混乱",
-      "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22，000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具--降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
-      "publishedAt": "2026-06-30T04:01:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
-      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows：review一次并发14个agent审查代码，/workflows：plan在ultrathink模式下可并发40多个研究agent。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2071796715162857477",
-      "publishedAt": "2026-06-30T03:23:23.000Z"
     }
   ]
 }
