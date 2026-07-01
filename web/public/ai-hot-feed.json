@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-06-30T23:30:03.053Z",
-  "count": 23,
+  "updatedAt": "2026-07-01T00:53:52.197Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
+      "publishedAt": "2026-07-01T00:11:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+      "summary": "苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出\"可信系统代理\"方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/970/810.htm",
+      "publishedAt": "2026-06-30T23:43:32.000Z"
+    },
     {
       "topic": "论文",
       "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
@@ -177,14 +193,6 @@
       "source": "公众号：卡尔的AI沃茨",
       "href": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
       "publishedAt": "2026-06-30T01:47:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
-      "summary": "OpenAI 发布 GeneBench-Pro，用于评估 AI 智能体在计算生物学中处理模糊性和做出判断性分析的能力。该基准包含 129 个问题，覆盖统计遗传学、群体遗传学等 10 个领域 21 个子领域。每个问题提供真实混乱的数据集和实验背景，要求模型探索数据、选择分析路径并迭代实验。采用合成数据构建，已知完整因果结构。82 个问题已由外部领域专家审核确认其现实性。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/introducing-genebench-pro",
-      "publishedAt": "2026-06-30T00:00:00.000Z"
     }
   ]
 }
