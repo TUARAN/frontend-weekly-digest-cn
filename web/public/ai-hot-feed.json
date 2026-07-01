@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-01T09:12:18.030Z",
+  "updatedAt": "2026-07-01T11:08:32.322Z",
   "count": 20,
   "items": [
     {
-      "topic": "技巧",
-      "title": "实测美团LongCat-2.0，国产芯片长出来的万亿大模型",
-      "summary": "美团发布LongCat-2.0，总参数1.6万亿、每个token仅激活约480亿参数的MoE模型，从预训练到大规模部署全程运行在5万张国产算力芯片上，训练消耗超35万亿tokens，无回滚、无不可恢复loss突刺。Agent场景表现突出：在Terminal-Bench 2.1和SWE-bench Pro编程任务上追平Gemini 3.1 Pro，FORTE通用Agent任务与Claude Opus 4.6持平。最大输出128K，最高提供1M上下文，采用LSA稀疏注意力机制和N-gram Embedding优化长上下文与工具调用。已开放API接入，支持OpenAI Compatible和Anthropic API生态，可直接接入Claude Code和Codex等工作流。",
-      "source": "公众号：卡尔的AI沃茨",
-      "href": "https://mp.weixin.qq.com/s/pqR8XyOSejvDNcNHjiy8mg",
-      "publishedAt": "2026-07-01T08:59:35.000Z"
+      "topic": "行业",
+      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "publishedAt": "2026-07-01T10:03:41.000Z"
     },
     {
       "topic": "模型",
