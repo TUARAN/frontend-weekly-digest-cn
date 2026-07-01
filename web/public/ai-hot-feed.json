@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T19:34:54.491Z",
+  "updatedAt": "2026-07-01T20:37:10.769Z",
   "count": 15,
   "items": [
     {
@@ -91,6 +91,14 @@
       "publishedAt": "2026-07-01T00:11:00.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "构建AI智能体应优先设计路由",
+      "summary": "构建AI智能体时，应优先设计路由（router）而非选择模型。路由决定每个请求由哪层模型处理。正确路由可使70-80%流量运行在免费本地模型或异步推理上，将AI开销降低90%+。Brian Armstrong指出Coinbase通过更好的默认设置、路由和缓存，在token使用量增长的同时将AI支出减半。路由分三层：技能分类器、路由器、模型选择器。本地计算近乎零成本，异步批量推理比实时推理便宜两个数量级。大多数工作无需秒级返回。同步预测器标记复杂任务，夜间批量评估器更新路由权重。技能蒸馏后，非编码类任务中70-80%智能体流量可由本地模型处理。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/ai-execution-routing",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "xAI 发布 Voice Agent Builder 测试版",
       "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 0.01 美元，提供 80+ 种语音及声音克隆，每个账户附赠一个免费电话号码。",
@@ -113,14 +121,6 @@
       "source": "X：AI Safety Memes (@AISafetyMemes)",
       "href": "https://x.com/AISafetyMemes/status/2072085914558558402",
       "publishedAt": "2026-06-30T22:32:34.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
-      "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。",
-      "source": "X：NotebookLM (@NotebookLM)",
-      "href": "https://x.com/NotebookLM/status/2072043680442245276",
-      "publishedAt": "2026-06-30T19:44:44.000Z"
     }
   ]
 }
