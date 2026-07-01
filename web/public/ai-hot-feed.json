@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-01T15:02:29.730Z",
-  "count": 21,
+  "updatedAt": "2026-07-01T16:52:14.385Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "产品",
+      "title": "智谱推出GLM-5.2官方开发环境ZCode",
+      "summary": "推出 ZCode，GLM-5.2 的官方开发环境\n\n- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额\n- 支持 BYOK：可与您现有的订阅和 API 配合使用\n- 适用于 macOS、Windows 和 Linux\n\n立即下载：http：//zcode.z.ai/en",
+      "source": "X：智谱 Z.ai (@Zai_org)",
+      "href": "https://x.com/Zai_org/status/2072349453361557898",
+      "publishedAt": "2026-07-01T15:59:46.000Z"
+    },
     {
       "topic": "行业",
       "title": "Meta效仿SpaceX，将过剩AI算力变现",
@@ -67,6 +75,14 @@
       "publishedAt": "2026-07-01T00:11:00.000Z"
     },
     {
+      "topic": "产品",
+      "title": "xAI 发布 Voice Agent Builder 测试版",
+      "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 0.01 美元，提供 80+ 种语音及声音克隆，每个账户附赠一个免费电话号码。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/grok-voice-agent-builder",
+      "publishedAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
       "topic": "行业",
       "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
       "summary": "苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出\"可信系统代理\"方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。",
@@ -91,36 +107,12 @@
       "publishedAt": "2026-06-30T19:44:44.000Z"
     },
     {
-      "topic": "模型",
-      "title": "Claude Sonnet 5 发布",
-      "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力弱于 Opus 4.8。即日起在所有套餐及 Claude Code、Claude API 中可用。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedAt": "2026-06-30T18:02:06.984Z"
-    },
-    {
       "topic": "产品",
       "title": "Acti 将 AI 智能体直接放入手机键盘",
       "summary": "新加坡初创公司 Acti 发布基于 Google Gemini 的智能体键盘，可代替用户在应用中执行操作。核心功能 Skills 允许用自然语言创建快捷方式，如长按 T 键翻译消息、C 键发送会议链接。早期测试者两周内创建超 1000 个 Skills。采用本地优先架构，默认不访问私人消息。公司获 530 万美元种子轮融资，由 BITKRAFT Ventures 领投，现已开放下载。",
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
       "publishedAt": "2026-06-30T17:52:46.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Science 科研工作台正式上线",
-      "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。生成含代码和环境的可审计成果（3D蛋白质结构、基因组浏览器轨迹等），内置reviewer agent自动检查引用与计算错误。通过NVIDIA BioNeMo接入Evo 2、Boltz-2等模型，也支持连接自有模型与管道。今日以beta版面向Claude Pro、Max、Team和Enterprise用户开放。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "publishedAt": "2026-06-30T17:32:06.724Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Code 入门：智能体循环",
-      "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用 `/schedule` 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/getting-started-with-loops",
-      "publishedAt": "2026-06-30T17:28:28.530Z"
     },
     {
       "topic": "产品",
@@ -145,30 +137,6 @@
       "source": "Simon Willison 博客",
       "href": "https://simonwillison.net/2026/Jun/30/shot-scraper-video",
       "publishedAt": "2026-06-30T16:54:26.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Desktop 推出 Linux 公测版",
-      "summary": "Claude Desktop 现已在 Linux（Ubuntu 和 Debian）上推出测试版。\n\n除了浏览器和终端，你现在可以在所有付费计划中获得一流的桌面体验，包括 Claude Code、Claude Cowork 和聊天。",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2071988881717871065",
-      "publishedAt": "2026-06-30T16:06:59.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-      "summary": "Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.10/秒，面向开发者开放 API。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "href": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-      "publishedAt": "2026-06-30T16:02:40.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Grant Sanderson 谈 AI 与数学的未来",
-      "summary": "3Blue1Brown 创办人 Grant Sanderson 正在制作记录 AI 在数学领域进展的新项目。他在与 Dwarkesh Patel 的对谈中指出，AI 在 IMO 获金牌并不等于 AGI，只是又一个被攻克的基准。即使 AI 未来解决千禧年大奖难题，仍可能存在大量人类任务无法被自动化。对话还探讨了概念突破验证周期可长达一个世纪、Riemann 假设的 AI 证明能否被人类理解、AI 能否在已有文献间发现隐藏联系，以及现实经济任务难以套用强化学习环境等话题。",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "href": "https://www.dwarkesh.com/p/grant-sanderson-2",
-      "publishedAt": "2026-06-30T15:53:19.000Z"
     }
   ]
 }
