@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-01T00:53:52.197Z",
+  "updatedAt": "2026-07-01T01:49:26.287Z",
   "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2072126769986220157",
+      "publishedAt": "2026-07-01T01:14:54.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
@@ -185,14 +193,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
       "publishedAt": "2026-06-30T01:58:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
-      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
-      "source": "公众号：卡尔的AI沃茨",
-      "href": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-      "publishedAt": "2026-06-30T01:47:00.000Z"
     }
   ]
 }
