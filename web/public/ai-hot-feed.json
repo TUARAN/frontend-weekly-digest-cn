@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-01T05:36:03.234Z",
+  "updatedAt": "2026-07-01T09:12:18.030Z",
   "count": 20,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "实测美团LongCat-2.0，国产芯片长出来的万亿大模型",
+      "summary": "美团发布LongCat-2.0，总参数1.6万亿、每个token仅激活约480亿参数的MoE模型，从预训练到大规模部署全程运行在5万张国产算力芯片上，训练消耗超35万亿tokens，无回滚、无不可恢复loss突刺。Agent场景表现突出：在Terminal-Bench 2.1和SWE-bench Pro编程任务上追平Gemini 3.1 Pro，FORTE通用Agent任务与Claude Opus 4.6持平。最大输出128K，最高提供1M上下文，采用LSA稀疏注意力机制和N-gram Embedding优化长上下文与工具调用。已开放API接入，支持OpenAI Compatible和Anthropic API生态，可直接接入Claude Code和Codex等工作流。",
+      "source": "公众号：卡尔的AI沃茨",
+      "href": "https://mp.weixin.qq.com/s/pqR8XyOSejvDNcNHjiy8mg",
+      "publishedAt": "2026-07-01T08:59:35.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "summary": "NVIDIA 发布 Nemotron-Labs-TwoTower，基于冻结的自回归骨干 Nemotron-3-Nano-30B-A3B 的扩散语言模型。采用双塔架构：上下文塔冻结，降噪器塔训练，通过层对齐交叉注意力和状态播种协作。在 2×H100 上 BF16 评估，保留 98.7% 的 AR 基线质量，生成吞吐量提升 2.42 倍（γ=0.8，块大小 S=16）。降噪器在约 2.1T token 上训练，骨干使用 25T token 预训练。总参数约 60B，每 token 活跃参数约 3B/塔。支持扩散、模拟 AR 和 AR 三种解码模式。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "publishedAt": "2026-07-01T08:10:17.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+      "summary": "亚马逊 AWS 宣布设立新部门，组建前置驻场工程师团队，先期投入 10 亿美元（约 67.97 亿元人民币）。团队分批派驻客户企业，每批 5-6 组工程师，驻场周期 45 天，协助客户落地人工智能软件与智能体应用。该模式在 Palantir、Salesforce、Anthropic、谷歌云等企业已有先例，领英数据显示 2023 至 2025 年间同类岗位需求增长 42 倍。新部门员工规模将达数千人，首批客户包括 NBA 与理光。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/971/071.htm",
+      "publishedAt": "2026-07-01T06:57:42.000Z"
+    },
     {
       "topic": "模型",
       "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
@@ -137,30 +161,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
       "publishedAt": "2026-06-30T11:14:52.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-      "summary": "OpenAI Signals 数据显示，用户注册六个月后日均消息量增加50%，尝试任务种类翻倍。自2023年7月以来，各大洲活跃用户均大幅增长，非洲和亚洲增速最快，低人类发展指数国家增长尤为显著。用户群体更加多元化，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户显著多于男性。非英语用户占活跃用户半数以上，领先语言为西班牙语、葡萄牙语和阿拉伯语；乌兹别克语、哈萨克语和缅甸语用户占比增长百分比最大。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "publishedAt": "2026-06-30T09:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
-      "summary": "黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/970/583.htm",
-      "publishedAt": "2026-06-30T07:56:46.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试",
-      "summary": "2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/970/539.htm",
-      "publishedAt": "2026-06-30T06:45:03.000Z"
     }
   ]
 }
