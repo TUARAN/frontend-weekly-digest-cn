@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-02T14:48:07.804Z",
-  "count": 16,
+  "updatedAt": "2026-07-02T15:48:29.639Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "行业",
+      "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
+      "summary": "据404 Media获取的内部资料，Atlassian、Adobe、亚马逊等六家企业正限制员工使用AI工具，要求改用能力较低的大模型避免成本失控。至少一家企业月度AI开销增至三倍，超1500万美元。花旗银行因GitHub改为按量计费，于6月24日禁用Claude Opus 4.6、4.7及GPT-5.5等旗舰模型。Adobe于6月30日终止Claude无限制使用协议。Atlassian数据显示其AI月支出从500万美元飙升至1500万美元，本财年预计超1.2亿美元。GitHub计划改用开源模型并测试单人按量计费模式。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/971/937.htm",
+      "publishedAt": "2026-07-02T14:22:49.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Fable 5 在 RLI 基准中达成 16.1% 自动化率，较八个月前提升六倍",
