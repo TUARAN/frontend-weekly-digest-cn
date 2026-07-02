@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-01T23:31:59.174Z",
-  "count": 15,
+  "updatedAt": "2026-07-02T00:50:27.254Z",
+  "count": 11,
   "items": [
     {
       "topic": "产品",
@@ -89,38 +89,6 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2072126769986220157",
       "publishedAt": "2026-07-01T01:14:54.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-      "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-      "publishedAt": "2026-07-01T00:11:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "构建AI智能体应优先设计路由",
-      "summary": "构建AI智能体时，应优先设计路由（router）而非选择模型。路由决定每个请求由哪层模型处理。正确路由可使70-80%流量运行在免费本地模型或异步推理上，将AI开销降低90%+。Brian Armstrong指出Coinbase通过更好的默认设置、路由和缓存，在token使用量增长的同时将AI支出减半。路由分三层：技能分类器、路由器、模型选择器。本地计算近乎零成本，异步批量推理比实时推理便宜两个数量级。大多数工作无需秒级返回。同步预测器标记复杂任务，夜间批量评估器更新路由权重。技能蒸馏后，非编码类任务中70-80%智能体流量可由本地模型处理。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/ai-execution-routing",
-      "publishedAt": "2026-07-01T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "xAI 发布 Voice Agent Builder 测试版",
-      "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 0.01 美元，提供 80+ 种语音及声音克隆，每个账户附赠一个免费电话号码。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/grok-voice-agent-builder",
-      "publishedAt": "2026-07-01T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-      "summary": "苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出\"可信系统代理\"方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/970/810.htm",
-      "publishedAt": "2026-06-30T23:43:32.000Z"
     }
   ]
 }
