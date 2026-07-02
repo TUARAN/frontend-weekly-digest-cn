@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-02T01:44:29.140Z",
-  "count": 11,
+  "updatedAt": "2026-07-02T03:09:51.987Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "产品",
+      "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
+      "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
+      "source": "公众号：昆仑万维（天工）",
+      "href": "https://mp.weixin.qq.com/s/OqL6ID-mAel8XN-slYgXOA",
+      "publishedAt": "2026-07-02T02:53:26.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "AI 版支付宝开放公测，蚂蚁阿宝无需邀请码即可体验",
+      "summary": "支付宝阿宝 AI 助手今日正式开放公测，iOS 和安卓用户可在应用商店或支付宝 App 搜索\"阿宝\"或\"蚂蚁阿宝\"直接体验。开通后右滑进入新版，以对话方式安排办事，例如说出\"查公积金\"，阿宝会自动匹配对应小程序和服务入口，用户点击确认即可完成。支付宝承诺所有资金变动与支付环节均需用户本人确认，扫码、转账等功能已预留入口。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/971/469.htm",
+      "publishedAt": "2026-07-02T02:51:10.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
@@ -81,14 +97,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/971/071.htm",
       "publishedAt": "2026-07-01T06:57:42.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-      "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
-      "source": "公众号：龙猫LongCat（美团）",
-      "href": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-      "publishedAt": "2026-07-01T02:24:00.000Z"
     }
   ]
 }
