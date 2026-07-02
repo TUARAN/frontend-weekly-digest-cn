@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-02T20:30:52.889Z",
-  "count": 23,
+  "updatedAt": "2026-07-02T21:27:04.043Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "产品",
+      "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
+      "summary": "阿里巴巴发布 Page Agent，一个开源的 JavaScript 客户端库，嵌入网页后可通过自然语言指令直接操作 DOM 元素。与 Playwright、Puppeteer 等外部浏览器自动化工具不同，Page Agent 不依赖截图或多模态模型，而是将实时 DOM 脱水压缩为 FlatDomTree 文本映射，让纯文本模型精准执行点击、表单填写等操作。它继承用户 cookies 和会话，无需独立后端，并支持任意 OpenAI 兼容端点的模型（示例使用 `qwen3.5-plus`）。项目采用 MIT 许可证，适合在自有应用内构建 AI 副驾、智能表单填充或无障碍控制等场景，但限于单页面范围，风险操作仍需服务端验证。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
+      "publishedAt": "2026-07-02T20:51:39.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "关于Mythos和网络安全的讨论并非炒作",
+      "summary": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
+      "source": "X：Ethan Mollick (@emollick)",
+      "href": "https://x.com/emollick/status/2072778376494895139",
+      "publishedAt": "2026-07-02T20:24:09.000Z"
+    },
     {
       "topic": "行业",
       "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
@@ -177,14 +193,6 @@
       "source": "Apple Machine Learning Research（RSS）",
       "href": "https://machinelearning.apple.com/research/multi-agent-teams-experts",
       "publishedAt": "2026-07-02T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Code v2.1.198 发布",
-      "summary": "Claude Code v2.1.198 更新。Claude in Chrome 现已全面可用。为 claude agents 新增后台智能体通知（agent_needs_input / agent_completed）。新增 /dataviz 技能，提供图表与仪表盘设计指导及配色验证器。Gateway 增加 AWS 上的 Claude Platform 作为上游提供商。后台智能体在 worktree 中完成代码后自动提交、推送并创建草稿 PR。内置 Explore 智能体现继承主会话模型（上限 opus）。修复网络短暂断开导致响应中断、后台任务卡在\"Running\"状态、智能体团队队友因 API 错误失败等问题。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
-      "publishedAt": "2026-07-01T20:45:36.000Z"
     }
   ]
 }
