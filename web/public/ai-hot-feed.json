@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-02T09:07:39.207Z",
-  "count": 12,
+  "updatedAt": "2026-07-02T10:56:14.586Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
+      "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结\"多快好省\"方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出\"情商\"是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调\"低功耗，够用就行\"。",
+      "source": "公众号：千问APP（阿里）",
+      "href": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
+      "publishedAt": "2026-07-02T10:22:07.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "证监会同意宇树科技科创板 IPO 注册申请",
+      "summary": "7月2日，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。宇树科技是国内头部民用足式、人形机器人研发企业，全球四足机器人销量领先，2016年由王兴兴在杭州创立，截至2025年6月员工总数超1000人。公司核心优势在于实现关节电机、减速器、控制器等核心零部件全栈自研，关键部件成本仅为进口产品的约1/3。批复自同意注册之日起12个月内有效。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/971/790.htm",
+      "publishedAt": "2026-07-02T09:10:36.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google Health API 推出 CLI：ghealth 是一款针对 Fitbit 数据的开源工具",
+      "summary": "ghealth 是一款封装 Google Health API v4 的开源命令行工具，以单个 Go 二进制文件发布（Apache 2.0 协议）。它提供 40 种已验证的数据类型（包括步数、心率、睡眠、体重、血氧饱和度、心率变异性等）的结构化 JSON 输出。工具采用 Agent 优先设计，具备确定性退出码、--dry-run 和 --raw 标志，并附带两个 SKILL.md 文件供 AI 智能体使用。用户需自行创建 OAuth 凭据，通过 PKCE S256 认证。数据来源覆盖 Fitbit、Pixel Watch 及连接的第三方设备。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
+      "publishedAt": "2026-07-02T08:46:56.000Z"
+    },
     {
       "topic": "产品",
       "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
@@ -89,14 +113,6 @@
       "source": "Cloudflare Blog",
       "href": "https://blog.cloudflare.com/content-independence-day-ai-options",
       "publishedAt": "2026-07-01T13:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
-      "summary": "OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-      "publishedAt": "2026-07-01T10:03:41.000Z"
     }
   ]
 }
