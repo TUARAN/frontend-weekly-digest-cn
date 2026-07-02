@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-02",
+      "displayDate": "Jul 2",
+      "json": "/ai-daily/2026-07-02.json",
+      "count": 5,
+      "highlights": [
+        "Emil Kowalski 发布设计工程",
+        "OpenAI论文揭示GPT-5.6三个P",
+        "美团 LongCat-2.0 正式发布：",
+        "Google Cloud Workben",
+        "智谱推出GLM-5.2官方开发环境ZCo"
+      ]
+    },
+    {
       "date": "2026-07-01",
       "displayDate": "Jul 1",
       "json": "/ai-daily/2026-07-01.json",
@@ -448,5 +461,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-01"
+  "latest": "2026-07-02"
 }
