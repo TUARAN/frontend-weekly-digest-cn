@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-02T16:37:25.523Z",
-  "count": 17,
+  "updatedAt": "2026-07-02T17:34:28.473Z",
+  "count": 19,
   "items": [
     {
       "topic": "行业",
@@ -123,20 +123,36 @@
       "publishedAt": "2026-07-02T00:56:56.000Z"
     },
     {
+      "topic": "论文",
+      "title": "RL微调VLM的鲁棒性与思维链一致性研究",
+      "summary": "强化学习（RL）微调被扩展至视觉语言模型（VLM）。研究发现，简单的文本扰动--误导性标题或错误思维链（CoT）--会显著降低模型鲁棒性和置信度，且开源模型衰退更明显。闭源模型呈现类似失败模式，但鲁棒性和推理一致性更强。进一步分析揭示准确性与忠实性的权衡：微调提升基准准确率，但同时侵蚀CoT的可靠性及对上下文变化的鲁棒性；对抗性增强可改善鲁棒性，却无法阻止忠实性漂移。引入忠实性感知奖励能恢复答案与推理的对齐，但与增强结合时训练易崩溃到捷径策略。这些发现强调需联合关注正确性、鲁棒性与视觉推理的忠实性。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "VideoFlexTok：可变长度粗到细视频分词",
+      "summary": "VideoFlexTok提出一种可变长度token序列的视频表示方法，采用粗到细结构--首个token捕捉语义和运动等抽象信息，后续token添加精细细节，生成流解码器支持任意token数量的视频重建。相比传统3D网格分词，该结构允许根据下游需求调整token数，在相同预算下编码更长视频。在类别和文本到视频生成任务中，VideoFlexTok以1.1B参数（5.2B的1/5）达到可比生成质量（gFVD和ViCLIP Score）。训练一个处理10秒81帧视频的文本到视频模型仅需672个token，比同等3D网格分词器少8倍。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/videoflextok",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "多智能体团队阻碍专家发挥",
+      "summary": "在自我组织的多智能体LLM系统中，团队无法有效利用专家成员的专业知识。在多个基准测试中，即使明确告知专家身份，团队表现仍落后于最佳成员（专家智能体）的独立能力，性能损失最高达41.1%。失败主因是未能有效利用专家意见，而非识别专家。对话分析显示，团队倾向于\"整合性妥协\"--平均化专家与非专家观点，随团队规模增大而加剧，且与表现负相关。这种寻求共识的行为同时提升了对抗恶意智能体的鲁棒性，揭示了协同对齐与专业利用之间的根本性权衡。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/multi-agent-teams-experts",
+      "publishedAt": "2026-07-02T00:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Claude Code v2.1.198 发布",
       "summary": "Claude Code v2.1.198 更新。Claude in Chrome 现已全面可用。为 claude agents 新增后台智能体通知（agent_needs_input / agent_completed）。新增 /dataviz 技能，提供图表与仪表盘设计指导及配色验证器。Gateway 增加 AWS 上的 Claude Platform 作为上游提供商。后台智能体在 worktree 中完成代码后自动提交、推送并创建草稿 PR。内置 Explore 智能体现继承主会话模型（上限 opus）。修复网络短暂断开导致响应中断、后台任务卡在\"Running\"状态、智能体团队队友因 API 错误失败等问题。",
       "source": "Claude Code：GitHub Releases（RSS）",
       "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "publishedAt": "2026-07-01T20:45:36.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
-      "summary": "Google Cloud Workbench Notebooks 扩展正式上线，开发者可在 VS Code 中直接连接可扩展的云端 Jupyter 环境，无需切换上下文即可利用高性能 Google Cloud 基础设施完成机器学习全流程。该扩展已完全开源，可在 GitHub 和 VS Code Marketplace 获取。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
-      "publishedAt": "2026-07-01T17:17:56.374Z"
     }
   ]
 }
