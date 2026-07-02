@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-02T15:48:29.639Z",
+  "updatedAt": "2026-07-02T16:37:25.523Z",
   "count": 17,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
+      "summary": "WSJ法庭文件显示，Anthropic CEO Dario Amodei与五角大楼副部长Emil Michael数月邮件往来，核心分歧在于Claude的军事用途护栏。Anthropic要求禁止全自主武器及某些监控用途，五角大楼则希望Claude可用于所有合法国家安全场景。Michael称若分歧太大不愿\"强行推动\"。随后五角大楼将Anthropic列为供应链风险，阻止合作伙伴在国防部项目中使用其模型。法官暂停部分措施，政府正在上诉。Michael称原先采用Anthropic的操作中已有三分之二切换至其他AI工具。",
+      "source": "X：Kim (@kimmonismus)",
+      "href": "https://x.com/kimmonismus/status/2072718147279335507",
+      "publishedAt": "2026-07-02T16:24:50.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
+      "summary": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/971/954.htm",
+      "publishedAt": "2026-07-02T15:36:38.000Z"
+    },
     {
       "topic": "行业",
       "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
@@ -121,22 +137,6 @@
       "source": "Google Developers Blog（RSS）",
       "href": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
       "publishedAt": "2026-07-01T17:17:56.374Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Meta 大规模 AI 存储蓝图",
-      "summary": "Meta 运营数百 EB 级存储集群，基于 Tectonic 分层存储层构建 BLOB 存储架构，以应对两大挑战：最大化 GPU 利用率与研究迭代速度。传统 BLOB 架构的多层元数据查询可导致数百毫秒延迟，使 GPU 因 I/O 等待停顿。新架构将训练栈逐步迁移到 BLOB 存储接口上，利用闪存提供可预测的低 pMax 延迟，避免单 GPU 慢速拖慢整批任务。同时，统一的数据湖访问支持地理分布 GPU 间的数据高速注入与跨区移动，提升研究效率。",
-      "source": "Meta Engineering Blog（RSS）",
-      "href": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
-      "publishedAt": "2026-07-01T16:00:36.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "智谱推出GLM-5.2官方开发环境ZCode",
-      "summary": "推出 ZCode，GLM-5.2 的官方开发环境\n\n- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额\n- 支持 BYOK：可与您现有的订阅和 API 配合使用\n- 适用于 macOS、Windows 和 Linux\n\n立即下载：http://zcode.z.ai/en",
-      "source": "X：智谱 Z.ai (@Zai_org)",
-      "href": "https://x.com/Zai_org/status/2072349453361557898",
-      "publishedAt": "2026-07-01T15:59:46.000Z"
     }
   ]
 }
