@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-02T05:21:42.477Z",
-  "count": 12,
+  "updatedAt": "2026-07-02T07:11:57.828Z",
+  "count": 11,
   "items": [
     {
       "topic": "产品",
@@ -89,14 +89,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
       "publishedAt": "2026-07-01T08:10:17.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
-      "summary": "亚马逊 AWS 宣布设立新部门，组建前置驻场工程师团队，先期投入 10 亿美元（约 67.97 亿元人民币）。团队分批派驻客户企业，每批 5-6 组工程师，驻场周期 45 天，协助客户落地人工智能软件与智能体应用。该模式在 Palantir、Salesforce、Anthropic、谷歌云等企业已有先例，领英数据显示 2023 至 2025 年间同类岗位需求增长 42 倍。新部门员工规模将达数千人，首批客户包括 NBA 与理光。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/971/071.htm",
-      "publishedAt": "2026-07-01T06:57:42.000Z"
     }
   ]
 }
