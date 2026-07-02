@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-02T00:50:27.254Z",
+  "updatedAt": "2026-07-02T01:44:29.140Z",
   "count": 11,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+      "summary": "Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，使 Codex、Claude Code、Cursor 等 Coding Agents 具备资深设计工程师的审美判断。核心规则：动画必须有理由；每天 100+ 次的高频操作禁用动画；UI 动画控制在 300ms 内；只动画 transform 和 opacity；入口从 scale（0.95）+opacity：0 开始；尊重 prefers-reduced-motion（仅移除位移动画）。review-animations 以严格标准审查动画代码，输出 Before/After/Why 表格。animation-vocabulary 将模糊描述（如\"弹一下的效果\"）转为专业动效术语。",
+      "source": "X：邵猛 (@shao__meng)",
+      "href": "https://x.com/shao__meng/status/2072484635955900792",
+      "publishedAt": "2026-07-02T00:56:56.000Z"
+    },
     {
       "topic": "产品",
       "title": "Claude Code v2.1.198 发布",
@@ -81,14 +89,6 @@
       "source": "公众号：龙猫LongCat（美团）",
       "href": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
       "publishedAt": "2026-07-01T02:24:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2072126769986220157",
-      "publishedAt": "2026-07-01T01:14:54.000Z"
     }
   ]
 }
