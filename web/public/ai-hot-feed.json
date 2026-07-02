@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-02T19:31:47.568Z",
-  "count": 22,
+  "updatedAt": "2026-07-02T20:30:52.889Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
+      "summary": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
+      "publishedAt": "2026-07-02T19:18:29.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Agent辅助的SGLang开发：初步探索",
