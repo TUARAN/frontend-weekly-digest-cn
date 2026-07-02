@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-02T07:11:57.828Z",
-  "count": 11,
+  "updatedAt": "2026-07-02T09:07:39.207Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
+      "summary": "Kimi K2.7 Code 开源权重模型已在 GitHub Copilot 中正式可用，成为 Copilot 模型选择器首个可选的开源权重模型，为编程工作流提供更低成本选择。该模型由 GitHub 托管于 Microsoft Azure，按供应商列表价格以用量计费。逐步向 Copilot Pro、Pro+ 和 Max 计划用户推送，用户可在 Visual Studio Code 1.127.0 或更新版本、Visual Studio 17.14.6 或更新版本、JetBrains 1.9.1-251 或更新版本、Xcode、Eclipse 等 IDE 及 Copilot CLI、GitHub.com、GitHub Mobile 等平台中选用。后续几周将扩展至 Copilot Business 和 Enterprise，当前默认关闭，需管理员在 Copilot 设置中启用策略。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "publishedAt": "2026-07-02T08:24:53.347Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI提议美国政府持股5%估值426亿美元",
+      "summary": "据Financial Times和CNBC报道，OpenAI提议向美国政府提供公司5%的股份，按近期8520亿美元估值计算，价值约426亿美元。OpenAI CEO Sam Altman表示，此举是与公众分享AI发展红利的最佳方式。",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "href": "https://x.com/testingcatalog/status/2072585845542969583",
+      "publishedAt": "2026-07-02T07:39:07.000Z"
+    },
     {
       "topic": "产品",
       "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
@@ -81,14 +97,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
       "publishedAt": "2026-07-01T10:03:41.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-      "summary": "NVIDIA 发布 Nemotron-Labs-TwoTower，基于冻结的自回归骨干 Nemotron-3-Nano-30B-A3B 的扩散语言模型。采用双塔架构：上下文塔冻结，降噪器塔训练，通过层对齐交叉注意力和状态播种协作。在 2×H100 上 BF16 评估，保留 98.7% 的 AR 基线质量，生成吞吐量提升 2.42 倍（γ=0.8，块大小 S=16）。降噪器在约 2.1T token 上训练，骨干使用 25T token 预训练。总参数约 60B，每 token 活跃参数约 3B/塔。支持扩散、模拟 AR 和 AR 三种解码模式。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-      "publishedAt": "2026-07-01T08:10:17.000Z"
     }
   ]
 }
