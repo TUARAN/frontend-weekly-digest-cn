@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-03T19:31:43.093Z",
+  "updatedAt": "2026-07-03T20:27:11.328Z",
   "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "pxpipe：通过图像化压缩输入token降低Claude Code成本",
+      "summary": "pxpipe是一个本地代理，将系统提示、工具文档和历史记录等密集文本渲染为PNG图像，利用图像token成本取决于像素尺寸的特性压缩输入token。在Fable 5模型上，约25k文本token压缩为约2.7k图像token，端到端账单降低59-70%。SWE-bench Lite 10个实例全部通过，成本从$54降至$27；SWE-bench Pro 19对测试中18对判定一致，单次请求成本降低约60%。该方法有损（精确ID等需保持文本），默认仅处理`claude-fable-5`请求，可通过`PXPIPE_MODELS`变量控制。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/teamchong/pxpipe",
+      "publishedAt": "2026-07-03T19:19:45.726Z"
+    },
     {
       "topic": "技巧",
       "title": "Fable 的判断力：Simon Willison 从 Claude Code 团队获得的效率技巧",
@@ -129,14 +137,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
       "publishedAt": "2026-07-02T20:51:39.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "关于Mythos和网络安全的讨论并非炒作",
-      "summary": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
-      "source": "X：Ethan Mollick (@emollick)",
-      "href": "https://x.com/emollick/status/2072778376494895139",
-      "publishedAt": "2026-07-02T20:24:09.000Z"
     }
   ]
 }
