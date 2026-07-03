@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-07-03T09:06:35.889Z",
-  "count": 21,
+  "updatedAt": "2026-07-03T10:56:15.367Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "产品",
+      "title": "面向 Web 开发者的 Safari MCP 服务器",
+      "summary": "Safari Technology Preview 247 推出 Safari MCP 服务器，基于 Model Context Protocol，允许任何 MCP 兼容客户端连接 Safari 浏览器窗口。智能体可获取 DOM、网络请求、截图、控制台输出等信息，自主完成调试、性能分析、可访问性检查等任务。内置 `browser_console_messages`、`screenshot`、`evaluate_javascript`、`list_network_requests` 等工具。开发者安装后启用\"远程自动化与外部智能体\"选项，即可通过命令接入，减少窗口切换。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers",
+      "publishedAt": "2026-07-03T09:59:42.679Z"
+    },
+    {
+      "topic": "行业",
+      "title": "国家网信办就《互联网信息服务管理办法》再次征求意见，首设\"智能信息服务\"专章规范AI服务",
+      "summary": "7月3日，国家互联网信息办公室就《互联网信息服务管理办法（修订草案征求意见稿）》再次公开征求意见。草案新增\"智能信息服务\"专章，要求AI服务提供者公示技术基本原理、训练数据来源，对生成合成内容进行标识，禁止强制用户使用智能服务或利用算法扰乱网络舆论。草案还强化用户账号管理，明确对超过6个月不登录账号可依约注销；要求平台建立网络暴力信息特征库，提供屏蔽、禁止转载等防护选项。意见反馈截止8月2日。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/972/341.htm",
+      "publishedAt": "2026-07-03T09:15:08.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+      "summary": "面壁智能发布全球首个完全由AI编写、无人类干预的生产级大模型预训练框架ForgeTrain。该框架针对特定模型和硬件从零自动\"锻造\"专用训练代码。基准测试显示，ForgeTrain在8小时内追平Megatron-LM，1.5至2天内实现稳定反超，模型FLOPS利用率提升约8%~10%，且可迁移至不同模型（MiniCPM4-0.5B/8B）和硬件（H100及昇腾NPU）。其采用四阶段Harness优化流程，全程自动判定。面壁智能将其工程思想概括为Forge Engineering。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "href": "https://mp.weixin.qq.com/s/JVBbqU1O967ktzfEPuDERQ",
+      "publishedAt": "2026-07-03T09:12:17.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Wan Video 推出\"音乐伴舞\"新功能",
+      "summary": "Wan Video 新功能：**音乐伴舞** 💃\n上传一个角色，添加一首歌曲，让 Wan Video 生成与节奏同步的舞蹈视频。\n可用舞种：\n• 街舞\n• 踢踏舞\n• 拉丁舞\n• K-Pop\n• 中国古典舞\n从节拍至动作，你的角色随音乐起舞。\n\n前往 wan.video 体验音乐伴舞 👉 https://int.alibabacloud.com/m/1000412428/",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "href": "https://x.com/alibaba_cloud/status/2072967570441834771",
+      "publishedAt": "2026-07-03T08:55:57.000Z"
+    },
     {
       "topic": "技巧",
       "title": "《Fable》通关指南：短绳AI编程法",
@@ -153,22 +185,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://senior-swe-bench.snorkel.ai/",
       "publishedAt": "2026-07-02T11:04:07.048Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
-      "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结\"多快好省\"方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出\"情商\"是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调\"低功耗，够用就行\"。",
-      "source": "公众号：千问APP（阿里）",
-      "href": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
-      "publishedAt": "2026-07-02T10:22:07.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "证监会同意宇树科技科创板 IPO 注册申请",
-      "summary": "7月2日，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。宇树科技是国内头部民用足式、人形机器人研发企业，全球四足机器人销量领先，2016年由王兴兴在杭州创立，截至2025年6月员工总数超1000人。公司核心优势在于实现关节电机、减速器、控制器等核心零部件全栈自研，关键部件成本仅为进口产品的约1/3。批复自同意注册之日起12个月内有效。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/971/790.htm",
-      "publishedAt": "2026-07-02T09:10:36.000Z"
     }
   ]
 }
