@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T00:41:25.386Z",
-  "count": 24,
+  "updatedAt": "2026-07-03T01:36:30.099Z",
+  "count": 23,
   "items": [
     {
       "topic": "技巧",
@@ -185,14 +185,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/971/469.htm",
       "publishedAt": "2026-07-02T02:51:10.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
-      "summary": "Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，使 Codex、Claude Code、Cursor 等 Coding Agents 具备资深设计工程师的审美判断。核心规则：动画必须有理由；每天 100+ 次的高频操作禁用动画；UI 动画控制在 300ms 内；只动画 transform 和 opacity；入口从 scale（0.95）+opacity：0 开始；尊重 prefers-reduced-motion（仅移除位移动画）。review-animations 以严格标准审查动画代码，输出 Before/After/Why 表格。animation-vocabulary 将模糊描述（如\"弹一下的效果\"）转为专业动效术语。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2072484635955900792",
-      "publishedAt": "2026-07-02T00:56:56.000Z"
     }
   ]
 }
