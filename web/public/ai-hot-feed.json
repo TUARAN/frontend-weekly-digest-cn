@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-02T23:26:17.995Z",
+  "updatedAt": "2026-07-03T00:41:25.386Z",
   "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+      "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23：30 切换域名解析，10 分钟后 616 个海外请求走新线路。最终生成运维文档，提醒边缘证书 10 月 2 日到期并附续期步骤。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
+      "publishedAt": "2026-07-03T00:16:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
+      "summary": "44岁的迈克尔·巴特勒驾驶特斯拉Model 3冲入得州住宅，致76岁玛莎·阿维拉死亡，现被控过失杀人。警方从其手机发现2026年5月多次搜索\"FSD不够激进\"\"特斯拉FSD过于保守\"等记录。特斯拉AI负责人称驾驶员将加速踏板踩到底（100%），手动操作覆盖了FSD。车辆数据显示，约6秒内加速踏板被完全踩下，时速升至117公里（超限速两倍），制动踏板始终未踩。阿维拉家属已起诉特斯拉和巴特勒，美国NHTSA和NTSB已介入调查。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/971/971.htm",
+      "publishedAt": "2026-07-02T23:43:15.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "扎克伯格称AI智能体开发速度未如预期",
+      "summary": "Meta CEO 扎克伯格在本周内部全体会议上表示，AI 智能体的开发速度并未像高管们此前预期的那样加速。今年早些时候Meta裁减约8000名员工（约占10%），并将另外7000人调至多个AI团队，包括Agent Transformation小组。扎克伯格称裁员不够\"干净\"，原因是高管担心公司无法足够快地适应技术行业变化。他还指出以AI为中心的新公司结构所预期的好处尚未实现，但相信未来三到六个月将开始看到AI投资的改善。路透社报道，Meta今年预计在AI基础设施上投入高达1450亿美元。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
+      "publishedAt": "2026-07-02T23:38:10.000Z"
+    },
     {
       "topic": "产品",
       "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
@@ -169,30 +193,6 @@
       "source": "X：邵猛 (@shao__meng)",
       "href": "https://x.com/shao__meng/status/2072484635955900792",
       "publishedAt": "2026-07-02T00:56:56.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "RL微调VLM的鲁棒性与思维链一致性研究",
-      "summary": "强化学习（RL）微调被扩展至视觉语言模型（VLM）。研究发现，简单的文本扰动--误导性标题或错误思维链（CoT）--会显著降低模型鲁棒性和置信度，且开源模型衰退更明显。闭源模型呈现类似失败模式，但鲁棒性和推理一致性更强。进一步分析揭示准确性与忠实性的权衡：微调提升基准准确率，但同时侵蚀CoT的可靠性及对上下文变化的鲁棒性；对抗性增强可改善鲁棒性，却无法阻止忠实性漂移。引入忠实性感知奖励能恢复答案与推理的对齐，但与增强结合时训练易崩溃到捷径策略。这些发现强调需联合关注正确性、鲁棒性与视觉推理的忠实性。",
-      "source": "Apple Machine Learning Research（RSS）",
-      "href": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
-      "publishedAt": "2026-07-02T00:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "VideoFlexTok：可变长度粗到细视频分词",
-      "summary": "VideoFlexTok提出一种可变长度token序列的视频表示方法，采用粗到细结构--首个token捕捉语义和运动等抽象信息，后续token添加精细细节，生成流解码器支持任意token数量的视频重建。相比传统3D网格分词，该结构允许根据下游需求调整token数，在相同预算下编码更长视频。在类别和文本到视频生成任务中，VideoFlexTok以1.1B参数（5.2B的1/5）达到可比生成质量（gFVD和ViCLIP Score）。训练一个处理10秒81帧视频的文本到视频模型仅需672个token，比同等3D网格分词器少8倍。",
-      "source": "Apple Machine Learning Research（RSS）",
-      "href": "https://machinelearning.apple.com/research/videoflextok",
-      "publishedAt": "2026-07-02T00:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "多智能体团队阻碍专家发挥",
-      "summary": "在自我组织的多智能体LLM系统中，团队无法有效利用专家成员的专业知识。在多个基准测试中，即使明确告知专家身份，团队表现仍落后于最佳成员（专家智能体）的独立能力，性能损失最高达41.1%。失败主因是未能有效利用专家意见，而非识别专家。对话分析显示，团队倾向于\"整合性妥协\"--平均化专家与非专家观点，随团队规模增大而加剧，且与表现负相关。这种寻求共识的行为同时提升了对抗恶意智能体的鲁棒性，揭示了协同对齐与专业利用之间的根本性权衡。",
-      "source": "Apple Machine Learning Research（RSS）",
-      "href": "https://machinelearning.apple.com/research/multi-agent-teams-experts",
-      "publishedAt": "2026-07-02T00:00:00.000Z"
     }
   ]
 }
