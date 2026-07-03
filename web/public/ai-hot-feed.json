@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-03T14:47:54.103Z",
+  "updatedAt": "2026-07-03T15:41:00.662Z",
   "count": 20,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Leanstral 1.5：人人可用的证明丰富性",
+      "summary": "Mistral AI 今日发布 Leanstral 1.5，一款 Apache-2.0 许可的开源形式化验证模型，119B 总参数仅 6B 活跃。在 miniF2F 上达 100% 饱和，PutnamBench 解决 587/672 题，FATE-H（87%）和 FATE-X（34%）创 SOTA。训练经历 mid-training、SFT 和基于 CISPO 的强化学习。具备智能体式证明能力，在 57 个开源仓库中发现 5 个未知 bug。模型已通过 HuggingFace 和免费 API 开放使用。",
+      "source": "Mistral AI：News（网页）",
+      "href": "https://mistral.ai/news/leanstral-1-5",
+      "publishedAt": "2026-07-03T15:19:52.792Z"
+    },
     {
       "topic": "技巧",
       "title": "藏师傅PPT与Pencil结合使用技巧",
@@ -153,14 +161,6 @@
       "source": "X：Kim (@kimmonismus)",
       "href": "https://x.com/kimmonismus/status/2072718147279335507",
       "publishedAt": "2026-07-02T16:24:50.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
-      "summary": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/971/954.htm",
-      "publishedAt": "2026-07-02T15:36:38.000Z"
     }
   ]
 }
