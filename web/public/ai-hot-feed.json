@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-03T18:30:43.892Z",
+  "updatedAt": "2026-07-03T19:31:43.093Z",
   "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Fable 的判断力：Simon Willison 从 Claude Code 团队获得的效率技巧",
+      "summary": "Simon Willison 在 AIE 上与 Claude Code 团队交流后建议，让 Fable（以及 Opus）用自己的判断力工作，而非硬性规定行为。例如，直接让 Fable 自行决定何时编写测试，比给出具体规则更好。为应对价格即将上涨、节省 Fable token，Jesse Vincent 的另一个技巧是告诉 Fable 将较小任务委托给较低功耗模型（Sonnet 用于实质性实现、Haiku 用于机械修改），主循环保留判断、审计和数据合成等任务。Willison 已将提示词存入 Claude Code 记忆文件，实际效果良好，Fable token 消耗速度明显下降。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/Jul/3/judgement",
+      "publishedAt": "2026-07-03T18:51:06.000Z"
+    },
     {
       "topic": "技巧",
       "title": "藏师傅PPT与Pencil结合使用技巧",
@@ -129,14 +137,6 @@
       "source": "X：Ethan Mollick (@emollick)",
       "href": "https://x.com/emollick/status/2072778376494895139",
       "publishedAt": "2026-07-02T20:24:09.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
-      "summary": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
-      "publishedAt": "2026-07-02T19:18:29.000Z"
     }
   ]
 }
