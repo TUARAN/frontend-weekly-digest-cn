@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T01:36:30.099Z",
-  "count": 23,
+  "updatedAt": "2026-07-03T03:07:35.074Z",
+  "count": 21,
   "items": [
     {
       "topic": "技巧",
@@ -169,22 +169,6 @@
       "source": "X：Testing Catalog (@testingcatalog)",
       "href": "https://x.com/testingcatalog/status/2072585845542969583",
       "publishedAt": "2026-07-02T07:39:07.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-      "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
-      "source": "公众号：昆仑万维（天工）",
-      "href": "https://mp.weixin.qq.com/s/OqL6ID-mAel8XN-slYgXOA",
-      "publishedAt": "2026-07-02T02:53:26.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "AI 版支付宝开放公测，蚂蚁阿宝无需邀请码即可体验",
-      "summary": "支付宝阿宝 AI 助手今日正式开放公测，iOS 和安卓用户可在应用商店或支付宝 App 搜索\"阿宝\"或\"蚂蚁阿宝\"直接体验。开通后右滑进入新版，以对话方式安排办事，例如说出\"查公积金\"，阿宝会自动匹配对应小程序和服务入口，用户点击确认即可完成。支付宝承诺所有资金变动与支付环节均需用户本人确认，扫码、转账等功能已预留入口。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/971/469.htm",
-      "publishedAt": "2026-07-02T02:51:10.000Z"
     }
   ]
 }
