@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-03T05:19:38.157Z",
-  "count": 23,
+  "updatedAt": "2026-07-03T07:09:12.706Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "《Fable》通关指南：短绳AI编程法",
+      "summary": "专业开发者经过一年多研究，总结出使用AI编码代理的\"短绳方法\"。该方法要求开发者全程参与：先规划并分解任务，从不使用YOLO模式，每次变更前审查差异并拒绝不想要的更改，每个子任务后提交以防止AI误操作（如Opus曾出现破坏性行为）。最终需进行人工与AI双重PR审查，PR须注明使用模型，提交者须亲自审查自己PR的代码。即便不用前沿模型，此法也能产出超越Fable 5的代码质量。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
+      "publishedAt": "2026-07-03T06:16:11.377Z"
+    },
     {
       "topic": "技巧",
       "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
