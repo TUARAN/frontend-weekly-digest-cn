@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-03T03:07:35.074Z",
-  "count": 21,
+  "updatedAt": "2026-07-03T05:19:38.157Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
+      "summary": "claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解。它通过场景变化检测提取关键帧、滑动窗口去重并转录音频，生成干净的本地文件夹供模型读取。支持 YouTube 链接或本地文件，依赖 ffmpeg 和 Whisper，通过 pip 安装。全部处理在本地完成，不上传云端。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "publishedAt": "2026-07-03T04:56:06.814Z"
+    },
+    {
+      "topic": "论文",
+      "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
+      "summary": "7月3日，阿里达摩院联合中国人民大学、中国科学院大学发布首个超导材料发现AI智能体Elements Claw。该智能体采用\"专通融合\"架构，基于1.25亿分子/晶体结构预训练的1B参数原子基础模型Elements，判断超导性AUC达0.996，预测临界温度平均误差小于1K。AI仅用28个GPU小时筛选240万晶体结构，预测出6.8万个候选材料，其中4种（Hf21Re25、Zr4VRe7、HfZrRe4、Zr3ScRe8）已合成并验证超导性，临界温度最高6.5K。全部240万稳定晶体数据库已开放。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/972/089.htm",
+      "publishedAt": "2026-07-03T03:27:15.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
