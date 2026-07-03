@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T17:31:49.804Z",
-  "count": 18,
+  "updatedAt": "2026-07-03T18:30:43.892Z",
+  "count": 17,
   "items": [
     {
       "topic": "技巧",
@@ -137,14 +137,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
       "publishedAt": "2026-07-02T19:18:29.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
-      "summary": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2072738704922439689",
-      "publishedAt": "2026-07-02T17:46:31.000Z"
     }
   ]
 }
