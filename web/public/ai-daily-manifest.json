@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-03",
+      "displayDate": "Jul 3",
+      "json": "/ai-daily/2026-07-03.json",
+      "count": 5,
+      "highlights": [
+        "browser-use 发布开源 AI ",
+        "Senior SWE-Bench：评估A",
+        "阿里巴巴发布 Page Agent：开源",
+        "证监会同意宇树科技科创板 IPO 注册申",
+        "Claude Fable 5 自主优化 "
+      ]
+    },
+    {
       "date": "2026-07-02",
       "displayDate": "Jul 2",
       "json": "/ai-daily/2026-07-02.json",
@@ -461,5 +474,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-02"
+  "latest": "2026-07-03"
 }
