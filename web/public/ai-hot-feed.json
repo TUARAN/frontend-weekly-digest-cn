@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-07-03T15:41:00.662Z",
-  "count": 20,
+  "updatedAt": "2026-07-03T16:33:06.820Z",
+  "count": 19,
   "items": [
-    {
-      "topic": "模型",
-      "title": "Leanstral 1.5：人人可用的证明丰富性",
-      "summary": "Mistral AI 今日发布 Leanstral 1.5，一款 Apache-2.0 许可的开源形式化验证模型，119B 总参数仅 6B 活跃。在 miniF2F 上达 100% 饱和，PutnamBench 解决 587/672 题，FATE-H（87%）和 FATE-X（34%）创 SOTA。训练经历 mid-training、SFT 和基于 CISPO 的强化学习。具备智能体式证明能力，在 57 个开源仓库中发现 5 个未知 bug。模型已通过 HuggingFace 和免费 API 开放使用。",
-      "source": "Mistral AI：News（网页）",
-      "href": "https://mistral.ai/news/leanstral-1-5",
-      "publishedAt": "2026-07-03T15:19:52.792Z"
-    },
     {
       "topic": "技巧",
       "title": "藏师傅PPT与Pencil结合使用技巧",
@@ -25,6 +17,22 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/972/424.htm",
       "publishedAt": "2026-07-03T11:57:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "生数科技发布 Vidu S1，推动视频生成迈向\"实时交互\"新时代",
+      "summary": "7月3日，生数科技在2026全球数字经济大会上发布Vidu S1实时交互模型，支持实时视频通话和语音控制视频走向，实现无限时长连续互动。模型采用自回归扩散路线，基于已生成画面和语音指令持续预测后续内容；无需传统建模，一张图片即可创建角色并自定义音色。Vidu S1在540P分辨率下实现25FPS（最高42FPS）实时生成，通过TurboDiffusion等技术降低计算成本，已开启内测。",
+      "source": "公众号：生数科技（Vidu·视频）",
+      "href": "https://mp.weixin.qq.com/s/RuukpnoOA2tI0ERCNrLgtQ",
+      "publishedAt": "2026-07-03T11:17:47.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "JoyAI App 上线 UGC 数字人功能，用户可\"捏\"出专属虚拟玩伴",
+      "summary": "JoyAI App 近日上线 UGC 数字人功能，用户只需上传一张照片即可生成专属虚拟数字分身，支持一键复刻写实形象或通过模板重塑为卡通风格，搭配用户自己的语音即可解锁专属陪伴。该功能复用\"万能博士\"技术底座，集成 JoyAI 语言、语音、数字人大模型，实现行业领先的全双工对话，支持随时打断、自然接话。数字人兼具情绪陪伴与全能助手属性，可提供点外卖、金融咨询、学英语、规划行程等生活服务。",
+      "source": "公众号：京东JoyAI",
+      "href": "https://mp.weixin.qq.com/s/XfpxdblzNWa5HxahRoT9pg",
+      "publishedAt": "2026-07-03T10:03:25.000Z"
     },
     {
       "topic": "产品",
@@ -139,28 +147,12 @@
       "publishedAt": "2026-07-02T18:37:56.676Z"
     },
     {
-      "topic": "产品",
-      "title": "Claude Enterprise 新增用量与成本分析及支出管控功能",
-      "summary": "Claude Enterprise 推出更丰富的管理分析工具和成本控制功能。仪表板现可按群组和用户分析用量与成本，支持按 SCIM 群组筛选，展示制品创建、文件编辑、技能和连接器对应的成本。Claude Code 管理控制台新增\"使用量\"和\"价值\"选项卡，分别显示活跃开发者、会话次数、常用命令，以及生产力提升估算、每次提交成本和年度价值估算。分析聊天支持自然语言查询并返回可导出图表。Analytics API 可将数据接入 Datadog Cloud Cost Management 和 CloudZero。管理员可设置模型默认和权限控制，并配置组织级支出限额的 75%、90% 告警通知；用户在 75% 和 95% 时收到应用内提醒。Admin API 支持自动审批额度增加、标记接近限额用户及快速变化的用量。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-      "publishedAt": "2026-07-02T18:03:22.345Z"
-    },
-    {
       "topic": "技巧",
       "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
       "summary": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2072738704922439689",
       "publishedAt": "2026-07-02T17:46:31.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
-      "summary": "WSJ法庭文件显示，Anthropic CEO Dario Amodei与五角大楼副部长Emil Michael数月邮件往来，核心分歧在于Claude的军事用途护栏。Anthropic要求禁止全自主武器及某些监控用途，五角大楼则希望Claude可用于所有合法国家安全场景。Michael称若分歧太大不愿\"强行推动\"。随后五角大楼将Anthropic列为供应链风险，阻止合作伙伴在国防部项目中使用其模型。法官暂停部分措施，政府正在上诉。Michael称原先采用Anthropic的操作中已有三分之二切换至其他AI工具。",
-      "source": "X：Kim (@kimmonismus)",
-      "href": "https://x.com/kimmonismus/status/2072718147279335507",
-      "publishedAt": "2026-07-02T16:24:50.000Z"
     }
   ]
 }
