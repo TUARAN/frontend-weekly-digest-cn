@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T10:56:15.367Z",
-  "count": 23,
+  "updatedAt": "2026-07-03T11:49:11.538Z",
+  "count": 20,
   "items": [
     {
       "topic": "产品",
@@ -161,30 +161,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
       "publishedAt": "2026-07-02T12:37:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
-      "summary": "browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话人分离、事件标记），仅在决策点调用 timeline_view.py 生成 PNG 帧图。技术流水线包括转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染及最多 3 轮自评估。渲染关键细节：分段提取 + `-c copy` 拼接、30ms 音频淡入淡出、PTS 时移、字幕最后叠加、HDR 自动映射、竖屏缩放、两-pass loudnorm。动画支持 HyperFrames、Remotion、Manim 等引擎。项目附带 12 条硬规则确保生产正确性。",
-      "source": "X：邵猛 (@shao__meng)",
-      "href": "https://x.com/shao__meng/status/2072644710523691110",
-      "publishedAt": "2026-07-02T11:33:01.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "谷歌AI建设导致2025年用电量增长37%",
-      "summary": "2025年，谷歌年度用电量同比上涨37%，创历史最大增幅。数据中心全年消耗超4200万兆瓦时，超过新西兰、丹麦、尼日利亚等国总用电量。自2019年以来，谷歌总用电量已增长超250%。用电激增主要来自Google Cloud、YouTube视频流及支撑AI产品和服务的数据中心建设与运营。公司表示，AI基础设施建设速度超过电网脱碳速度，但仍致力于扩大全球清洁电力规模，并通过技术创新降低运营排放。2024年谷歌用电量增幅为27%。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
-      "publishedAt": "2026-07-02T11:15:49.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Senior SWE-Bench：评估AI智能体作为高级工程师的基准测试",
-      "summary": "Senior SWE-Bench是一个开源基准测试，用于评估AI智能体完成高级软件工程师级别任务的能力。任务分功能开发与Bug修复两类：功能任务指令类似自然语言消息，采用验证智能体基于专家配方自动生成行为测试；Bug任务要求根据日志、profiling等运行时信息深入调查。排行榜显示，Claude Opus 4.8搭配Mini-SWE-Agent（max effort）通过率24.0%，Claude Sonnet 5为19.4%，GPT-5.5为16.0%，最强前沿模型在超75%任务中未能达到高级工程师级别的正确性与品味。每个功能任务平均涉及11个文件，最强智能体也需数百步完成；中位指令长度仅为SWE-Bench Pro的31%。任务来源于从库到多服务应用的仓库PR，由拥有数百次提交的工程师编写。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://senior-swe-bench.snorkel.ai/",
-      "publishedAt": "2026-07-02T11:04:07.048Z"
     }
   ]
 }
