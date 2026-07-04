@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-03T21:26:46.434Z",
-  "count": 16,
+  "updatedAt": "2026-07-04T07:03:45.078Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "论文",
+      "title": "NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分",
+      "summary": "NVIDIA 联合密歇根大学、UIUC、UC Berkeley 等提出 ASPIRE，一个持续学习机器人框架。它通过协调器-执行器架构、闭环执行引擎、技能库和进化搜索，编写并优化机器人控制程序。编程智能体使用 Claude Code（Claude Opus 4.6，1M token 上下文窗口）。在 LIBERO-Pro 上最高比最强基线提升 77 分；Robosuite 双手交接成功率从 20% 提升至 92%；BEHAVIOR-1K 收音机拾取任务从 56% 提升至 88%。利用 LIBERO-90 积累的技能，ASPIRE 在零样本条件下对 LIBERO-Pro Long 任务达到约 31% 成功率，此前方法饱和在 4% 附近。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
+      "publishedAt": "2026-07-04T06:32:47.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "我国研制全球首款基于可控存内计算的忆阻器神经动力学芯片",
+      "summary": "北京大学集成电路学院联合中科院上海微系统所，发布全球首款基于可控存内计算的忆阻器神经动力学芯片，首次将单步运算时延压缩至2.12毫秒。芯片采用40纳米工艺，存内计算阵列与外围电路总面积0.28平方毫米，运行频率50 MHz，单步积分仅需9级流水。在脑皮层重建等任务中较当前GPU提速50至478倍，突破神经动力学实时计算瓶颈。相关成果7月3日发表于《科学》。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/972/526.htm",
+      "publishedAt": "2026-07-04T05:01:02.000Z"
+    },
     {
       "topic": "技巧",
       "title": "pxpipe：通过图像化压缩输入token降低Claude Code成本",
@@ -81,54 +97,6 @@
       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "href": "https://x.com/alibaba_cloud/status/2072967570441834771",
       "publishedAt": "2026-07-03T08:55:57.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "《Fable》通关指南：短绳AI编程法",
-      "summary": "专业开发者经过一年多研究，总结出使用AI编码代理的\"短绳方法\"。该方法要求开发者全程参与：先规划并分解任务，从不使用YOLO模式，每次变更前审查差异并拒绝不想要的更改，每个子任务后提交以防止AI误操作（如Opus曾出现破坏性行为）。最终需进行人工与AI双重PR审查，PR须注明使用模型，提交者须亲自审查自己PR的代码。即便不用前沿模型，此法也能产出超越Fable 5的代码质量。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
-      "publishedAt": "2026-07-03T06:16:11.377Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
-      "summary": "claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解。它通过场景变化检测提取关键帧、滑动窗口去重并转录音频，生成干净的本地文件夹供模型读取。支持 YouTube 链接或本地文件，依赖 ffmpeg 和 Whisper，通过 pip 安装。全部处理在本地完成，不上传云端。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-      "publishedAt": "2026-07-03T04:56:06.814Z"
-    },
-    {
-      "topic": "论文",
-      "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
-      "summary": "7月3日，阿里达摩院联合中国人民大学、中国科学院大学发布首个超导材料发现AI智能体Elements Claw。该智能体采用\"专通融合\"架构，基于1.25亿分子/晶体结构预训练的1B参数原子基础模型Elements，判断超导性AUC达0.996，预测临界温度平均误差小于1K。AI仅用28个GPU小时筛选240万晶体结构，预测出6.8万个候选材料，其中4种（Hf21Re25、Zr4VRe7、HfZrRe4、Zr3ScRe8）已合成并验证超导性，临界温度最高6.5K。全部240万稳定晶体数据库已开放。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/972/089.htm",
-      "publishedAt": "2026-07-03T03:27:15.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
-      "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23：30 切换域名解析，10 分钟后 616 个海外请求走新线路。最终生成运维文档，提醒边缘证书 10 月 2 日到期并附续期步骤。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
-      "publishedAt": "2026-07-03T00:16:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
-      "summary": "44岁的迈克尔·巴特勒驾驶特斯拉Model 3冲入得州住宅，致76岁玛莎·阿维拉死亡，现被控过失杀人。警方从其手机发现2026年5月多次搜索\"FSD不够激进\"\"特斯拉FSD过于保守\"等记录。特斯拉AI负责人称驾驶员将加速踏板踩到底（100%），手动操作覆盖了FSD。车辆数据显示，约6秒内加速踏板被完全踩下，时速升至117公里（超限速两倍），制动踏板始终未踩。阿维拉家属已起诉特斯拉和巴特勒，美国NHTSA和NTSB已介入调查。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/971/971.htm",
-      "publishedAt": "2026-07-02T23:43:15.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "扎克伯格称AI智能体开发速度未如预期",
-      "summary": "Meta CEO 扎克伯格在本周内部全体会议上表示，AI 智能体的开发速度并未像高管们此前预期的那样加速。今年早些时候Meta裁减约8000名员工（约占10%），并将另外7000人调至多个AI团队，包括Agent Transformation小组。扎克伯格称裁员不够\"干净\"，原因是高管担心公司无法足够快地适应技术行业变化。他还指出以AI为中心的新公司结构所预期的好处尚未实现，但相信未来三到六个月将开始看到AI投资的改善。路透社报道，Meta今年预计在AI基础设施上投入高达1450亿美元。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
-      "publishedAt": "2026-07-02T23:38:10.000Z"
     }
   ]
 }
