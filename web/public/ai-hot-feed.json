@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-04T07:03:45.078Z",
-  "count": 12,
+  "updatedAt": "2026-07-04T11:31:38.056Z",
+  "count": 7,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "26000名学生研究显示AI隐藏学习成本需两年才显现",
+      "summary": "一项追踪26000名7-12年级中学生30个月的面板数据研究发现：使用AI后作业分数提升18%，完成时间从64分钟降至45分钟，但闭卷考试分数下降20%，升学考试成绩下降18%至24%，且完全影响约两年才显现。81%长期用户作业完成时间低于50分钟（外包迹象）。社会学科下降27%，STEM下降22%，英语下降17%，语文下降9%。每周使用AI一小时损失约5%，五小时损失30%。早期损失从约25%降至16%但未消失。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface",
+      "publishedAt": "2026-07-04T09:08:41.000Z"
+    },
     {
       "topic": "论文",
       "title": "NVIDIA 联合多所大学提出 ASPIRE：自我改进机器人框架，零样本成功率最高提升 77 分",
@@ -49,54 +57,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/972/424.htm",
       "publishedAt": "2026-07-03T11:57:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "生数科技发布 Vidu S1，推动视频生成迈向\"实时交互\"新时代",
-      "summary": "7月3日，生数科技在2026全球数字经济大会上发布Vidu S1实时交互模型，支持实时视频通话和语音控制视频走向，实现无限时长连续互动。模型采用自回归扩散路线，基于已生成画面和语音指令持续预测后续内容；无需传统建模，一张图片即可创建角色并自定义音色。Vidu S1在540P分辨率下实现25FPS（最高42FPS）实时生成，通过TurboDiffusion等技术降低计算成本，已开启内测。",
-      "source": "公众号：生数科技（Vidu·视频）",
-      "href": "https://mp.weixin.qq.com/s/RuukpnoOA2tI0ERCNrLgtQ",
-      "publishedAt": "2026-07-03T11:17:47.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "JoyAI App 上线 UGC 数字人功能，用户可\"捏\"出专属虚拟玩伴",
-      "summary": "JoyAI App 近日上线 UGC 数字人功能，用户只需上传一张照片即可生成专属虚拟数字分身，支持一键复刻写实形象或通过模板重塑为卡通风格，搭配用户自己的语音即可解锁专属陪伴。该功能复用\"万能博士\"技术底座，集成 JoyAI 语言、语音、数字人大模型，实现行业领先的全双工对话，支持随时打断、自然接话。数字人兼具情绪陪伴与全能助手属性，可提供点外卖、金融咨询、学英语、规划行程等生活服务。",
-      "source": "公众号：京东JoyAI",
-      "href": "https://mp.weixin.qq.com/s/XfpxdblzNWa5HxahRoT9pg",
-      "publishedAt": "2026-07-03T10:03:25.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "面向 Web 开发者的 Safari MCP 服务器",
-      "summary": "Safari Technology Preview 247 推出 Safari MCP 服务器，基于 Model Context Protocol，允许任何 MCP 兼容客户端连接 Safari 浏览器窗口。智能体可获取 DOM、网络请求、截图、控制台输出等信息，自主完成调试、性能分析、可访问性检查等任务。内置 `browser_console_messages`、`screenshot`、`evaluate_javascript`、`list_network_requests` 等工具。开发者安装后启用\"远程自动化与外部智能体\"选项，即可通过命令接入，减少窗口切换。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers",
-      "publishedAt": "2026-07-03T09:59:42.679Z"
-    },
-    {
-      "topic": "行业",
-      "title": "国家网信办就《互联网信息服务管理办法》再次征求意见，首设\"智能信息服务\"专章规范AI服务",
-      "summary": "7月3日，国家互联网信息办公室就《互联网信息服务管理办法（修订草案征求意见稿）》再次公开征求意见。草案新增\"智能信息服务\"专章，要求AI服务提供者公示技术基本原理、训练数据来源，对生成合成内容进行标识，禁止强制用户使用智能服务或利用算法扰乱网络舆论。草案还强化用户账号管理，明确对超过6个月不登录账号可依约注销；要求平台建立网络暴力信息特征库，提供屏蔽、禁止转载等防护选项。意见反馈截止8月2日。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/972/341.htm",
-      "publishedAt": "2026-07-03T09:15:08.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
-      "summary": "面壁智能发布全球首个完全由AI编写、无人类干预的生产级大模型预训练框架ForgeTrain。该框架针对特定模型和硬件从零自动\"锻造\"专用训练代码。基准测试显示，ForgeTrain在8小时内追平Megatron-LM，1.5至2天内实现稳定反超，模型FLOPS利用率提升约8%~10%，且可迁移至不同模型（MiniCPM4-0.5B/8B）和硬件（H100及昇腾NPU）。其采用四阶段Harness优化流程，全程自动判定。面壁智能将其工程思想概括为Forge Engineering。",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "href": "https://mp.weixin.qq.com/s/JVBbqU1O967ktzfEPuDERQ",
-      "publishedAt": "2026-07-03T09:12:17.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Wan Video 推出\"音乐伴舞\"新功能",
-      "summary": "Wan Video 新功能：**音乐伴舞** 💃\n上传一个角色，添加一首歌曲，让 Wan Video 生成与节奏同步的舞蹈视频。\n可用舞种：\n• 街舞\n• 踢踏舞\n• 拉丁舞\n• K-Pop\n• 中国古典舞\n从节拍至动作，你的角色随音乐起舞。\n\n前往 wan.video 体验音乐伴舞 👉 https://int.alibabacloud.com/m/1000412428/",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "href": "https://x.com/alibaba_cloud/status/2072967570441834771",
-      "publishedAt": "2026-07-03T08:55:57.000Z"
     }
   ]
 }
