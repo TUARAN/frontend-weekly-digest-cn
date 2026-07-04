@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-04T11:31:38.056Z",
-  "count": 7,
+  "updatedAt": "2026-07-04T12:27:56.387Z",
+  "count": 5,
   "items": [
     {
       "topic": "技巧",
@@ -41,22 +41,6 @@
       "source": "Simon Willison 博客",
       "href": "https://simonwillison.net/2026/Jul/3/judgement",
       "publishedAt": "2026-07-03T18:51:06.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "藏师傅PPT与Pencil结合使用技巧",
-      "summary": "用户将藏师傅的AI生成PPT导入Pencil设计软件，可在Pencil中一次性浏览所有页面并手动调整AI常见的排版问题，如元素重叠、对齐不准、字体错误。Pencil提供比PPT更强的编辑能力（对齐、嵌套、打组），支持导出网页和编辑文件，也可导出PNG后直接放入PPT演示。这种工作流昨天经朋友分享验证，大幅提升AI生成内容的可编辑性。",
-      "source": "X：歸藏 (@op7418)",
-      "href": "https://x.com/op7418/status/2073020264083050811",
-      "publishedAt": "2026-07-03T12:25:20.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "全球首例 AI Agent 勒索攻击曝光，从漏洞利用到数据库加密全程自主完成",
-      "summary": "安全厂商 Sysdig 首次记录到 AI Agent\"JADEPUFFER\"自动完成的勒索攻击。攻击利用暴露的 Langflow 服务漏洞 CVE-2025-3248 远程执行 Python 代码，随后自主收集 OpenAI、Anthropic、DeepSeek、Gemini 等 API 密钥及阿里云、腾讯云、华为云、AWS、Google Cloud、Azure 等云平台凭证，通过 MinIO 默认密码访问对象存储并创建每 30 分钟连接的计划任务。横向移动到 MySQL 和 Nacos 服务器，利用数据库 Root 账号及 Nacos 漏洞 CVE-2021-29441 获取管理权限，加密全部 1342 条配置数据，留下包含比特币钱包地址和 Proton Mail 的勒索信息。AI 在首次操作失败后 31 秒内自主完成错误分析与修复，累计执行超过 600 个攻击载荷，全程无需人类操作。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/972/424.htm",
-      "publishedAt": "2026-07-03T11:57:00.000Z"
     }
   ]
 }
