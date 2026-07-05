@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-05T20:26:07.453Z",
-  "count": 6,
+  "updatedAt": "2026-07-05T21:24:34.527Z",
+  "count": 7,
   "items": [
+    {
+      "topic": "行业",
+      "title": "NVIDIA Kyber NVL144 延迟超 12 个月至 2028",
+      "summary": "重大延迟：Jensen 在 GTC 上展示 Kyber NVL144 仅 3 个月后，该项目遭遇重大挫折，已推迟超过 12 个月，延至 2028 年。下文我们将解释 Kyber 为何面临大幅延迟，以及 NVIDIA 的 NVL72x2 背靠背机架架构为何也被取消，导致 Rubin Ultra 的扩展域受限。👇️ 1/6🧵",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "href": "https://x.com/SemiAnalysis_/status/2073874671498387899",
+      "publishedAt": "2026-07-05T21:00:27.000Z"
+    },
     {
       "topic": "行业",
       "title": "扎克伯格：建千兆瓦级AI集群，集中精英与资本",
