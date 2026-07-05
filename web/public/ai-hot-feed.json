@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-05T16:24:52.154Z",
-  "count": 2,
+  "updatedAt": "2026-07-05T17:27:39.173Z",
+  "count": 3,
   "items": [
+    {
+      "topic": "行业",
+      "title": "欧盟理事会通过快速通道强制推行\"聊天管控\"（Chat Control 2.0）",
+      "summary": "欧盟理事会通过书面程序快速通过一项新法规，强制要求科技集团对加密通信进行无差别扫描（Chat Control 2.0），以填补过渡性规定4月3日到期后的法律漏洞，并向欧洲议会施压。批评者指责该做法试图绕过民主监督。草案将在夏季休会前以紧急程序提交议会表决，多数议员可能已离会，反对需绝对多数，几乎无法阻止。理事会称扫描限于必要范围，处理的数据须在检测后12个月内不可撤销地删除。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
+      "publishedAt": "2026-07-05T16:23:44.440Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic Claude Design 反向工程提示词开源更新",
