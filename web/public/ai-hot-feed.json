@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-05T17:27:39.173Z",
-  "count": 3,
+  "updatedAt": "2026-07-05T18:25:34.586Z",
+  "count": 5,
   "items": [
+    {
+      "topic": "行业",
+      "title": "扎克伯格：建千兆瓦级AI集群，集中精英与资本",
+      "summary": "\"我们正在建设这个 Prometheus 集群，首个千兆瓦以上的单一集群……我们是在谈论数千亿美元的资本投入。\"\n\nMark Zuckerberg 表示，他的职责就是集中精英人才、资本和基础设施。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2073834219659534816",
+      "publishedAt": "2026-07-05T18:19:42.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "三周前，我不小心创办了一家小公司",
+      "summary": "一位父亲为患有自闭症的非语言儿子开发了一款沟通应用，在言语治疗室的等候区展示时，所有非语言儿童的母亲看到后都忍不住流泪，言语治疗师也啜泣了五分钟。他意外发现产品市场匹配，决定腾出时间让更多孩子能用上，即使这意味着几周睡眠不足。应用本身是专为理解语言困难的儿童设计的，与传统的AAC设备不同--后者主要面向身体障碍但语言理解正常的成人。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://extelligence.substack.com/p/i-accidentally-started-a-small-business",
+      "publishedAt": "2026-07-05T17:43:57.442Z"
+    },
     {
       "topic": "行业",
       "title": "欧盟理事会通过快速通道强制推行\"聊天管控\"（Chat Control 2.0）",
