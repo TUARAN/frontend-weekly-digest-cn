@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-04T23:22:30.996Z",
-  "count": 3,
+  "updatedAt": "2026-07-05T05:21:49.178Z",
+  "count": 2,
   "items": [
     {
       "topic": "技巧",
@@ -17,14 +17,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
       "publishedAt": "2026-07-04T06:32:47.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "我国研制全球首款基于可控存内计算的忆阻器神经动力学芯片",
-      "summary": "北京大学集成电路学院联合中科院上海微系统所，发布全球首款基于可控存内计算的忆阻器神经动力学芯片，首次将单步运算时延压缩至2.12毫秒。芯片采用40纳米工艺，存内计算阵列与外围电路总面积0.28平方毫米，运行频率50 MHz，单步积分仅需9级流水。在脑皮层重建等任务中较当前GPU提速50至478倍，突破神经动力学实时计算瓶颈。相关成果7月3日发表于《科学》。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/972/526.htm",
-      "publishedAt": "2026-07-04T05:01:02.000Z"
     }
   ]
 }
