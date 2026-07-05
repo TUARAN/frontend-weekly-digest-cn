@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-05T15:28:33.535Z",
-  "count": 1,
+  "updatedAt": "2026-07-05T16:24:52.154Z",
+  "count": 2,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Anthropic Claude Design 反向工程提示词开源更新",
+      "summary": "Anthropic 旗下 Claude Design 的反向工程系统提示词在 GitHub 以 MIT 许可证开源，包含 20 章提示词和 14 项技能，覆盖内容纪律、美学、无障碍（WCAG、语义 HTML、键盘导航）、交互状态、系统思维等。近日针对 Fable 5/Opus 4.7+ 系列校准，新增自主决策条款：小决定直接执行记录而不询问。项目支持 Claude Code/Claude.ai 及 Codex 两种变体。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "publishedAt": "2026-07-05T15:35:42.919Z"
+    },
     {
       "topic": "技巧",
       "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
