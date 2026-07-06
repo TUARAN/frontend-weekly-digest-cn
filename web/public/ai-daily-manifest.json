@@ -1,6 +1,18 @@
 {
   "list": [
     {
+      "date": "2026-07-06",
+      "displayDate": "Jul 6",
+      "json": "/ai-daily/2026-07-06.json",
+      "count": 4,
+      "highlights": [
+        "美团 LongCat-2.0 完全开源（",
+        "LlamaIndex 发布 legal-",
+        "Anthropic Claude Des",
+        "分享8个Claude Fable 5下线"
+      ]
+    },
+    {
       "date": "2026-07-03",
       "displayDate": "Jul 3",
       "json": "/ai-daily/2026-07-03.json",
@@ -474,5 +486,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-03"
+  "latest": "2026-07-06"
 }
