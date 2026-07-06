@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-06T05:29:27.427Z",
-  "count": 10,
+  "updatedAt": "2026-07-06T07:37:41.635Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Fun-ASR-Realtime 发布：单模型支持30种语言与16种方言，识别准确率领先",
+      "summary": "通义实验室发布Fun-ASR-Realtime实时语音识别模型。单模型覆盖30种语言及16种方言，针对东亚、东南亚地区重点优化。在工业级方言测评inhouse上取得87.8%的语义准确率，大幅领先，多地方言接近人工水平。引入上下文理解与动态热词注入，实现同音词、品牌名等语义消歧。流式识别首字延迟控制在百毫秒级，准确率接近离线水平，支持多语言无缝切换。API已上线阿里云百炼平台。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/ntw0SliBi4f8LROnFY26kA",
+      "publishedAt": "2026-07-06T06:09:29.000Z"
+    },
     {
       "topic": "产品",
       "title": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
