@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-06T11:33:48.955Z",
-  "count": 13,
+  "updatedAt": "2026-07-06T13:18:36.273Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "模型",
+      "title": "腾讯发布295B参数开源MoE模型Hy3",
+      "summary": "腾讯发布了 Hy3（非预览版），一个 295B 参数的 MoE 开源模型，拥有 21B 活跃参数和 3.8B MTP 层参数。",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "href": "https://x.com/testingcatalog/status/2074107127849791552",
+      "publishedAt": "2026-07-06T12:24:08.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "AI颠覆初级程序员就业市场：斯坦福数据揭示年轻开发者就业锐减19%",
+      "summary": "斯坦福数字经济实验室基于ADP薪资数据发现，美国22-25岁软件开发人员就业较2022年峰值下降19%，而41-49岁增长14%。入门级岗位招聘减少28%，计算机科学毕业生失业率达6.1%，高于文科专业。核心推手是2024-2025年兴起的智能体编程（Agentic programming）。总程序员就业增长4.4%，但全部来自年长群体。GitHub一年新增3600万账号，80%新用户一周内使用Copilot。编程工作未消失，但\"初级程序员\"头衔正在消亡。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers",
+      "publishedAt": "2026-07-06T11:51:40.808Z"
+    },
     {
       "topic": "行业",
       "title": "Meta 被曝让外包人员伪装未成年人，诱导竞争对手 AI 聊敏感话题",
