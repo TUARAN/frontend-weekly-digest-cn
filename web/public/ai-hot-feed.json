@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-06T13:18:36.273Z",
-  "count": 15,
+  "updatedAt": "2026-07-06T15:06:51.527Z",
+  "count": 14,
   "items": [
     {
-      "topic": "模型",
-      "title": "腾讯发布295B参数开源MoE模型Hy3",
-      "summary": "腾讯发布了 Hy3（非预览版），一个 295B 参数的 MoE 开源模型，拥有 21B 活跃参数和 3.8B MTP 层参数。",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "href": "https://x.com/testingcatalog/status/2074107127849791552",
-      "publishedAt": "2026-07-06T12:24:08.000Z"
+      "topic": "技巧",
+      "title": "免费开源API中转站监测网站tokhub.me上线",
+      "summary": "作者与姚老师合作开发中转站评测网站tokhub.me，通过真实充值调用API进行模型监控，区别于单纯速度评测。代码完全开源，支持一键Docker部署，还可作为公司内部Token和网关管理系统，省去繁杂的API Key和Base URL管理。开源代码见Github评论区。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2074130700421456089",
+      "publishedAt": "2026-07-06T13:57:49.000Z"
     },
     {
       "topic": "技巧",
@@ -113,14 +113,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/Trystan-SA/claude-design-system-prompt",
       "publishedAt": "2026-07-05T15:35:42.919Z"
-    },
-    {
-      "topic": "模型",
-      "title": "美团 LongCat-2.0 完全开源（MIT 许可），1.6T MoE 模型开放权重与推理代码",
-      "summary": "美团今日宣布 LongCat-2.0 完全开源（MIT 许可），公开模型权重与推理代码。该模型为 MoE 架构，总参数量 1.6T，每 token 激活约 48B，支持 1M token 上下文。技术亮点包括 LongCat Sparse Attention 高效处理长文本、Zero-Compute Experts 动态激活 33B-56B 零浪费计算、MOPD 按任务路由 Agent/Reasoning/Interaction 三组专家。Benchmark 成绩：Terminal-Bench 2.1 70.8；SWE-bench Pro 59.5（超越 GPT-5.5 的 58.6）；SWE-bench Multilingual 77.3；FORTE 73.2；RWSearch 78.8；BrowseComp 79.9。原生集成 Claude Code、OpenClaw、Hermes Agent 等工具，支持 GPU 与 NPU 部署，已在大规模国内集群验证。",
-      "source": "X：美团 LongCat (@Meituan_LongCat)",
-      "href": "https://x.com/Meituan_LongCat/status/2073768940078317713",
-      "publishedAt": "2026-07-05T14:00:18.000Z"
     }
   ]
 }
