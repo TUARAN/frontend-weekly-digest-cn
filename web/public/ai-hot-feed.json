@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-06T17:03:04.395Z",
-  "count": 12,
+  "updatedAt": "2026-07-06T21:33:06.396Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Claude Code 团队详解四种智能体循环类型",
+      "summary": "Claude Code 团队将\"设计循环\"定义为智能体重复工作直到满足停止条件，划分四种类型：1）回合循环--手动提示触发，Claude 自判完成，适合短任务，可通过 SKILL.md 提升验证；2）目标循环--`/goal` 手动触发，达成目标或达最大轮数停止，需确定性完成标准（如测试通过数）；3）时间循环--`/loop` 和 `/schedule` 按间隔触发，适合同步消息、检查 PR 等重复任务，可云端运行；4）主动循环--事件或计划触发，无人实时参与，每个子任务独立退出。建议从最简单方案开始，选择性使用复杂循环。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "publishedAt": "2026-07-06T19:08:45.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "2026年科技公司AI裁员名单：Microsoft、Oracle、GitLab等十家公司裁减数千岗位",
+      "summary": "2026年以来，多家科技公司以AI为由大规模裁员。Microsoft裁减约4800岗位（2.1%），Oracle裁减21000人（13%），GitLab裁减350人（14%）以投资AI基础设施，Google Cloud持续裁减员工（外界估计1500-3000+工程师），Intuit裁减3000人（17%），Meta裁减8000人（10%）并转岗7000人至AI，Cisco裁减近4000人（5%），Cloudflare裁减1100人（20%），GM裁减500-600 IT岗位，Coinbase裁减700人（14%）。据Layoffs.fyi统计，2026年累计已裁约12万个技术岗位。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "publishedAt": "2026-07-06T18:35:00.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude Fable实地指南：发现你的未知",
+      "summary": "Claude Fable是第一款要求用户主动澄清未知才能获得高质量工作的模型。与Claude Fable协作是一个在实现前后迭代发现未知的过程。通过将问题分解为已知的已知、已知的未知、未知的已知和未知的未知四类，用户可以借助Claude Fable和Claude Code进行盲点检查、头脑风暴、原型设计、实现笔记记录以及答辩解释，从而高效挖掘并解决深藏于代码库和设计与实现中的潜在问题。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+      "publishedAt": "2026-07-06T18:20:11.364Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenClaw 登陆 HuggingFace 本地应用",
+      "summary": "OpenClaw 登陆 @huggingface 本地应用 🦞🤝🤗\n\n1. 在 hf 上挑任意 GGUF/MLX 模型\n2. 复制 openclaw onboard 设置\n3. Voila，你得到一个完全本地的工具调用智能体。无云端、无密钥、无人监控。\n\n让你的 claw 本地化到极致。抵抗是徒劳的 🦞",
+      "source": "X：OpenClaw (@openclaw)",
+      "href": "https://x.com/openclaw/status/2074187998602871212",
+      "publishedAt": "2026-07-06T17:45:30.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "SGLang 集成 DSpark 推测解码：置信度驱动的可变长度验证",
+      "summary": "SGLang 团队将 DSpark 推测解码算法集成到开源推理引擎中。该算法采用半自回归块起草器一次生成一组 token，并利用置信度头与顺序温度缩放（STS）为每个请求动态分配可变验证长度，从而在高负载下裁剪无效验证成本。SGLang 支持密集模型（如 Qwen3）和稀疏模型（如 DeepSeek-V4），通过全 CUDA 图处理不规则的每请求验证长度。提供三种验证模式：`static`（全长）、`compact`（生产路径）和 `cap-accept`（接受上限测量）。还引入了零开销调度、基于离线成本表的在线调度器、融合 Triton 核等优化。在 H200 上使用 DeepSeek-V4-Flash 的测试中，DSpark 在整个并发扫描范围内比 MTP 和非推测基线实现了更优的吞吐量-延迟权衡。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "href": "https://www.lmsys.org/blog/2026-07-06-dspark-sglang",
+      "publishedAt": "2026-07-06T17:11:47.280Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Google 更新隐私设置，默认用媒体数据训练 AI，用户可手动退出",
+      "summary": "Google 于 6 月通过客户邮件低调更新了搜索服务隐私设置，新增\"搜索服务历史\"和\"个性化推荐\"两项开关，默认将用户上传的图片、文件、音频和视频录制等媒体数据保存并用于训练 AI 模型。该更新适用于搜索、地图、购物、航班、酒店、翻译、新闻等服务。用户可通过取消勾选\"保存媒体\"框来退出，同时可设置数据自动删除周期（3/18/36 个月）。此前独立的网络与应用活动设置不再影响搜索服务数据保留。Meta 等其他公司也在大规模收集用户媒体数据用于 AI 训练。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
+      "publishedAt": "2026-07-06T17:04:58.000Z"
+    },
     {
       "topic": "技巧",
       "title": "免费开源API中转站监测网站tokhub.me上线",
@@ -75,28 +123,20 @@
       "publishedAt": "2026-07-06T01:09:29.000Z"
     },
     {
-      "topic": "行业",
-      "title": "NVIDIA Kyber NVL144 延迟超 12 个月至 2028",
-      "summary": "重大延迟：Jensen 在 GTC 上展示 Kyber NVL144 仅 3 个月后，该项目遭遇重大挫折，已推迟超过 12 个月，延至 2028 年。下文我们将解释 Kyber 为何面临大幅延迟，以及 NVIDIA 的 NVL72x2 背靠背机架架构为何也被取消，导致 Rubin Ultra 的扩展域受限。👇️ 1/6🧵",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "href": "https://x.com/SemiAnalysis_/status/2073874671498387899",
-      "publishedAt": "2026-07-05T21:00:27.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "扎克伯格：建千兆瓦级AI集群，集中精英与资本",
-      "summary": "\"我们正在建设这个 Prometheus 集群，首个千兆瓦以上的单一集群……我们是在谈论数千亿美元的资本投入。\"\n\nMark Zuckerberg 表示，他的职责就是集中精英人才、资本和基础设施。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2073834219659534816",
-      "publishedAt": "2026-07-05T18:19:42.000Z"
+      "topic": "论文",
+      "title": "用可解释性理解标注者安全策略",
+      "summary": "标注分歧可源于操作失败、政策模糊或价值多元。Annotator Policy Models（APMs）是一种可解释模型，仅从标注行为学习标注者内在的安全策略，无需额外负担。验证表明模型准确率超过80%，能忠实预测反事实编辑并恢复已知差异。将APMs应用于LLM和人类标注者，可揭示不同标注者对安全指令解释的差异（政策模糊）以及不同人口群体在安全优先级上的系统性差异（价值多元），支持更具针对性、透明和包容的安全策略设计。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/annotator-safety-policy-interpretability",
+      "publishedAt": "2026-07-06T00:00:00.000Z"
     },
     {
       "topic": "技巧",
-      "title": "三周前，我不小心创办了一家小公司",
-      "summary": "一位父亲为患有自闭症的非语言儿子开发了一款沟通应用，在言语治疗室的等候区展示时，所有非语言儿童的母亲看到后都忍不住流泪，言语治疗师也啜泣了五分钟。他意外发现产品市场匹配，决定腾出时间让更多孩子能用上，即使这意味着几周睡眠不足。应用本身是专为理解语言困难的儿童设计的，与传统的AAC设备不同--后者主要面向身体障碍但语言理解正常的成人。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://extelligence.substack.com/p/i-accidentally-started-a-small-business",
-      "publishedAt": "2026-07-05T17:43:57.442Z"
+      "title": "AI 世界观",
+      "summary": "《经济学人》以世界价值观调查评测 25 个前沿 AI 模型。实验室来源对世界观的预测力弱于训练与对齐选择：Gemini 与 Qwen 立场接近，GPT-4o 与 DeepSeek R1 近乎相同，而 DeepSeek R1 与 DeepSeek V4 Flash 则截然不同。模型的世界观在代码生成中不可见，但在商业分析、预测、招聘与政策工作中是活跃的输入变量。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/godless-hippies-ai-models-values",
+      "publishedAt": "2026-07-06T00:00:00.000Z"
     }
   ]
 }
