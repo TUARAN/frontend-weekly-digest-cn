@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-07T20:37:08.703Z",
-  "count": 27,
+  "updatedAt": "2026-07-07T21:31:25.396Z",
+  "count": 28,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Krea 2 身份保留功能上线",
+      "summary": "Krea 2 的身份保留功能已发布，配套模型和 ComfyUI 节点也已上线。🔥",
+      "source": "X：Krea AI (@krea_ai)",
+      "href": "https://x.com/krea_ai/status/2074589965653303321",
+      "publishedAt": "2026-07-07T20:22:46.000Z"
+    },
     {
       "topic": "模型",
       "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
