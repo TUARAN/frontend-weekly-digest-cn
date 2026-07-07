@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-07T17:40:25.853Z",
+  "updatedAt": "2026-07-07T18:43:20.660Z",
   "count": 25,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效",
+      "summary": "Y Combinator CEO Garry Tan在X上宣称，他与AI编码代理每天在五个项目中部署37000行代码，并保持连续72天发布记录。波兰开发者Gregorein深入审查Tan网站前端代码，发现大量臃肿与低效问题：页面加载169次请求、总计6.42MB数据（对比Hacker News仅7次12KB）；包含28个测试文件、78个未使用的JavaScript控制器、八种格式Logo（含空文件）、未压缩的旧PNG等。Gregorein指出，AI虽能快速生成代码，但质量仍应优先于数量。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "publishedAt": "2026-07-07T17:52:12.864Z"
+    },
+    {
+      "topic": "产品",
+      "title": "NotebookLM短视频概览正式上线",
+      "summary": "短视频概览功能已正式在移动端和网页端面向所有英语用户全面上线！\n\n一如既往，您的意见对我们至关重要。请在下方分享您最喜欢的作品，并告诉我们接下来需要添加哪些功能！❤️",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "href": "https://x.com/NotebookLM/status/2074551227594264799",
+      "publishedAt": "2026-07-07T17:48:50.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法",
@@ -185,22 +201,6 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2074208949205881033",
       "publishedAt": "2026-07-06T19:08:45.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "2026年科技公司AI裁员名单：Microsoft、Oracle、GitLab等十家公司裁减数千岗位",
-      "summary": "2026年以来，多家科技公司以AI为由大规模裁员。Microsoft裁减约4800岗位（2.1%），Oracle裁减21000人（13%），GitLab裁减350人（14%）以投资AI基础设施，Google Cloud持续裁减员工（外界估计1500-3000+工程师），Intuit裁减3000人（17%），Meta裁减8000人（10%）并转岗7000人至AI，Cisco裁减近4000人（5%），Cloudflare裁减1100人（20%），GM裁减500-600 IT岗位，Coinbase裁减700人（14%）。据Layoffs.fyi统计，2026年累计已裁约12万个技术岗位。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
-      "publishedAt": "2026-07-06T18:35:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenClaw 登陆 HuggingFace 本地应用",
-      "summary": "OpenClaw 登陆 @huggingface 本地应用 🦞🤝🤗\n\n1. 在 hf 上挑任意 GGUF/MLX 模型\n2. 复制 openclaw onboard 设置\n3. Voila，你得到一个完全本地的工具调用智能体。无云端、无密钥、无人监控。\n\n让你的 claw 本地化到极致。抵抗是徒劳的 🦞",
-      "source": "X：OpenClaw (@openclaw)",
-      "href": "https://x.com/openclaw/status/2074187998602871212",
-      "publishedAt": "2026-07-06T17:45:30.000Z"
     }
   ]
 }
