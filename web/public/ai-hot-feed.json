@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-07T07:15:13.100Z",
-  "count": 19,
+  "updatedAt": "2026-07-07T09:10:17.405Z",
+  "count": 17,
   "items": [
     {
       "topic": "技巧",
@@ -137,22 +137,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/973/207.htm",
       "publishedAt": "2026-07-06T09:23:28.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AT&T 1956年专利法令：公共天才的私有化",
-      "summary": "1956年1月24日，全球最大私营公司AT&T签署专利法令，将其7，820项未过期专利免费授权给所有美国企业，并承诺未来专利按\"合理费率\"许可。作为交换，AT&T得以保留Western Electric，但被禁止进入电信以外的业务。贝尔实验室69%的非电信专利（涵盖化学、半导体、光学等）迅速公开，在短短几年内催生了约35亿美元衍生专利价值，并直接推动了肖克利半导体、仙童半导体及英特尔的诞生。戈登·摩尔称该法令是\"商业半导体行业最重要的进展之一\"，为美国硅谷的起飞奠定了基础。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.wysr.xyz/p/the-private-capture-of-public-genius",
-      "publishedAt": "2026-07-06T08:55:43.404Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Runway 宣布设立巴黎办公室",
-      "summary": "原文正文仅包含网站 Cookie 设置说明，未提供关于巴黎办公室的部门、规模、职能或开业时间等具体信息。",
-      "source": "Runway：News（网页）",
-      "href": "https://runwayml.com/news/announcing-our-paris-office",
-      "publishedAt": "2026-07-06T08:33:02.716Z"
     }
   ]
 }
