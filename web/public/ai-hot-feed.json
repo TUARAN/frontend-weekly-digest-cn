@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-07-06T22:28:41.069Z",
-  "count": 17,
+  "updatedAt": "2026-07-07T07:15:13.100Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "在网络不稳定的地区，小型AI模型正逐渐普及",
+      "summary": "2019年，Adebayo Alonge因服务器远在美国致RxScanner单次扫描超5分钟，工程师2小时内将AI模型缩小至可在Android手机本地运行，此后RxScanner能在无宽带、缺电地区验药。小AI模型参数通常至多几十亿，可在手机或Raspberry Pi上运行，功耗仅数瓦。类似案例包括印度腰果病害检测无人机、乌拉圭蚂蚁入侵识别、疟蚊检测及巴西基于Arduino的心电图设备。世界银行报告显示，全球最穷国家仅0.7%互联网用户用过ChatGPT，发达国家达四分之一；行长认为小AI是为缺乏算力与电力的地区提供生命救助服务的关键。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "publishedAt": "2026-07-07T06:45:06.341Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Grok Imagine 更新：支持 15 秒视频",
+      "summary": "Grok Imagine 更新。请更新你的 Grok 应用！15 秒 Imagine 视频现已可用，质量令人难以置信。",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "href": "https://x.com/elonmusk/status/2074378653501128833",
+      "publishedAt": "2026-07-07T06:23:05.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "MIRA：可玩多人世界模型，20 FPS实时生成\"火箭联盟的梦\"",
+      "summary": "MIRA是一个可玩、多人的世界模型，被形容为\"火箭联盟的梦\"。它基于10k小时公开机器人收集的数据训练，学习四玩家游戏动态，根据按键实时生成画面，帧率达20 FPS。模型由General Intuition与Kyutai Labs联合构建，Epic Games提供协作。Ethan Mollick称从最早的扩散DOOM玩过来，多人20 FPS效果出色。演示、技术报告及开源代码已公开，在ICML Booth 111现场展示。",
+      "source": "X：Ethan Mollick (@emollick)",
+      "href": "https://x.com/emollick/status/2074348274136346871",
+      "publishedAt": "2026-07-07T04:22:22.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Sysdig 澄清首例\"智能体勒索软件\"JadePuffer：AI 执行攻击但人类仍负责设置与选目标",
+      "summary": "云安全公司 Sysdig 记录了首例\"智能体勒索软件\"攻击 JadePuffer，AI 智能体独立完成入侵、窃取凭证、横向移动、加密超 1，300 条配置记录并撰写赎金信，还能在 31 秒内修复失败登录并以自然语言注释解释推理过程。但 Sysdig 高级威胁研究总监 Michael Clark 澄清，人类仍负责设置攻击基础设施、选择受害目标、提供通过此前入侵获取的数据库凭证。Sysdig 未能识别驱动该智能体的具体模型；AI 智能体在攻击中窃取了 OpenAI、Anthropic、DeepSeek 和 Gemini 的 API 密钥，Clark 表示这些密钥属于\"战利品\"而非驱动模型。微软研究员 Geoff McDonald 推测模型为移除安全训练的开源权重模型。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human",
+      "publishedAt": "2026-07-06T23:56:14.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Gemini Spark 可智能追踪话题实时反应",
+      "summary": "Gemini Spark 现在可以智能追踪话题并实时反应事件。\n\n试试下一篇帖子中的提示词，在你支持的球队比赛结束后，获取定制化的比赛分析邮件。",
+      "source": "X：Gemini (@GeminiApp)",
+      "href": "https://x.com/GeminiApp/status/2074280473581572600",
+      "publishedAt": "2026-07-06T23:52:57.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OfficeCLI：为AI智能体设计的开源Office套件",
+      "summary": "OfficeCLI是全球首个专为AI智能体设计的开源Office套件，以单二进制文件运行，无需安装Office或任何依赖。它内置HTML渲染引擎，可将.docx/.xlsx/.pptx转换为HTML或PNG，形成\"渲染→查看→修复\"的视觉闭环，使AI代理能自主创建、读取和修改Word、Excel、PowerPoint文档。支持公式、图表、条件格式、RTL布局、修订追踪、表格、数据透视表等复杂功能。提供CLI命令和基于自然语言的桌面应用AionUi，并可一键安装到Claude Code、Cursor、Windsurf、GitHub Copilot等AI编码工具中。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/iOfficeAI/OfficeCLI",
+      "publishedAt": "2026-07-06T23:03:34.910Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Code v2.1.202 发布",
+      "summary": "Claude Code v2.1.202 在 `/config` 中新增\"Dynamic workflow size\"设置，可控制动态工作流的 agent 数量规模（小/中/大），作为指导性建议而非硬性上限。工作流派生的 agent 现在会发射 `workflow.run_id` 和 `workflow.name` 的 OpenTelemetry 属性。修复了 mTLS 握手失败、远程控制发送命令失败、移动端发送无说明图片被静默丢弃、语音听写在麦克风故障时无限重试（改为暂停输入）、重载已有技能导致重复指令等问题。改进了工作流 agent 列表布局，MCP 错误消息更清晰。`/review <pr>` 恢复为快速单次审查，多 agent 审查请使用 `/code-review`。",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+      "publishedAt": "2026-07-06T22:51:16.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Claude Code 团队详解四种智能体循环类型",
@@ -51,6 +107,14 @@
       "publishedAt": "2026-07-06T17:04:58.000Z"
     },
     {
+      "topic": "论文",
+      "title": "字节 Seed 发布 EdgeBench：衡量真实世界环境学习，发现新 Scaling Law",
+      "summary": "字节 Seed 发布超长程评测集 EdgeBench，含 134 个真实任务（覆盖六大领域），每个任务支持 Agent 持续工作至少 12 小时。基于约 38000 小时交互数据，发现 Agent 环境学习表现遵循高精度 log-sigmoid 曲线（平均 R2=0.998）；自 2025 年 9 月至 2026 年 5 月，前沿模型学习速度约每三个月翻一倍。EdgeBench 已开源 51 个任务及完整评测框架。",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "href": "https://seed.bytedance.com/zh/blog/edgebench-%E8%A1%A1%E9%87%8F%E7%9C%9F%E5%AE%9E%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E5%AD%A6%E4%B9%A0-%E5%8F%91%E7%8E%B0%E6%96%B0-scaling-law",
+      "publishedAt": "2026-07-06T16:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "免费开源API中转站监测网站tokhub.me上线",
       "summary": "作者与姚老师合作开发中转站评测网站tokhub.me，通过真实充值调用API进行模型监控，区别于单纯速度评测。代码完全开源，支持一键Docker部署，还可作为公司内部Token和网关管理系统，省去繁杂的API Key和Base URL管理。开源代码见Github评论区。",
@@ -89,54 +153,6 @@
       "source": "Runway：News（网页）",
       "href": "https://runwayml.com/news/announcing-our-paris-office",
       "publishedAt": "2026-07-06T08:33:02.716Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Fun-ASR-Realtime 发布：单模型支持30种语言与16种方言，识别准确率领先",
-      "summary": "通义实验室发布Fun-ASR-Realtime实时语音识别模型。单模型覆盖30种语言及16种方言，针对东亚、东南亚地区重点优化。在工业级方言测评inhouse上取得87.8%的语义准确率，大幅领先，多地方言接近人工水平。引入上下文理解与动态热词注入，实现同音词、品牌名等语义消歧。流式识别首字延迟控制在百毫秒级，准确率接近离线水平，支持多语言无缝切换。API已上线阿里云百炼平台。",
-      "source": "公众号：通义实验室（千问）",
-      "href": "https://mp.weixin.qq.com/s/ntw0SliBi4f8LROnFY26kA",
-      "publishedAt": "2026-07-06T06:09:29.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
-      "summary": "Synthetic Sciences 推出开源（Apache 2.0）AI 科研工作台 OpenScience，覆盖机器学习、生物学、物理学、化学。它运行从文献、假设、代码、实验到分析与撰写的完整科研循环，支持按请求切换任意模型（Claude、GPT、Gemini、GLM、Kimi、DeepSeek 及本地微调模型）。内置 250 余项可编辑技能和 UniProt、PDB、ChEMBL、arXiv 等约 30 个科学数据库作为智能体工具。用户可自带 API 密钥在自己的基础设施上免费运行，安装命令为 `npm install -g @synsci/openscience`，运行 `openscience` 启动浏览器工作台。另提供可选托管层 Atlas。该项目定位为 Anthropic Claude Science 的开源替代方案。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",
-      "publishedAt": "2026-07-06T05:07:12.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "分享8个Claude Fable 5下线前必跑的超实用Prompt",
-      "summary": "Claude Fable 5即将下线，作者整理了8个经实战验证的提示词：/goal提示语让模型自主跑25次实验（花费165美元，构建速度提高50%、token开销降60%）；工作模式提示语将用户习惯转化为可复用Skills；行动规范提示语约束subagent行为；subagent分配提示语智能分配任务；25个定时循环工作流（含Shadow prompt loop做A/B测试）；自治运行+自动暂停提示语；记忆系统提示语保留错题本；反向面试提示语确保95%把握再执行。这些提示词可迁移至API计费后继续使用，核心是让模型研究用户而非限制能力。",
-      "source": "公众号：卡尔的AI沃茨",
-      "href": "https://mp.weixin.qq.com/s/ZkMsdeTK6wmgkaER0iPT8w",
-      "publishedAt": "2026-07-06T01:19:09.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "SK 海力士将启动 280 亿美元美股上市，有望成史上第二大 IPO",
-      "summary": "SK 海力士于本周一启动规模约 280 亿美元的美股上市计划，将在纳斯达克通过存托凭证发行 1779 万股新股，每 10 份存托凭证对应 1 股普通股。发行价区间周一公布，最终发行价周四敲定，股票周五挂牌交易。受益于全球人工智能热潮，该股年内涨幅超 270%。本次募资规模预计为史上第二大新股发行，仅次于上月 SpaceX 的 857 亿美元 IPO。SK 海力士是高带宽内存芯片核心供应商，产品用于英伟达、谷歌等 AI 设备。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/972/896.htm",
-      "publishedAt": "2026-07-06T01:09:29.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "用可解释性理解标注者安全策略",
-      "summary": "标注分歧可源于操作失败、政策模糊或价值多元。Annotator Policy Models（APMs）是一种可解释模型，仅从标注行为学习标注者内在的安全策略，无需额外负担。验证表明模型准确率超过80%，能忠实预测反事实编辑并恢复已知差异。将APMs应用于LLM和人类标注者，可揭示不同标注者对安全指令解释的差异（政策模糊）以及不同人口群体在安全优先级上的系统性差异（价值多元），支持更具针对性、透明和包容的安全策略设计。",
-      "source": "Apple Machine Learning Research（RSS）",
-      "href": "https://machinelearning.apple.com/research/annotator-safety-policy-interpretability",
-      "publishedAt": "2026-07-06T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI 世界观",
-      "summary": "《经济学人》以世界价值观调查评测 25 个前沿 AI 模型。实验室来源对世界观的预测力弱于训练与对齐选择：Gemini 与 Qwen 立场接近，GPT-4o 与 DeepSeek R1 近乎相同，而 DeepSeek R1 与 DeepSeek V4 Flash 则截然不同。模型的世界观在代码生成中不可见，但在商业分析、预测、招聘与政策工作中是活跃的输入变量。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/godless-hippies-ai-models-values",
-      "publishedAt": "2026-07-06T00:00:00.000Z"
     }
   ]
 }
