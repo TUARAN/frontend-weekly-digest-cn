@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-07T16:49:07.875Z",
-  "count": 24,
+  "updatedAt": "2026-07-07T17:40:25.853Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法",
+      "summary": "Liquid AI 开源了 Antidoom，一种基于 Final Token Preference Optimization （FTPO） 的针对性修复方法，用于减少推理模型中的 doom loop（死循环）问题。该方法定位循环开始的第一个 token，训练模型选择连贯替代项，而不改变整体输出分布。在 LFM2.5-2.6B 上，硬数学和编程任务中的循环率从 10.2% 降至 1.4%；Qwen3.5-4B 上从 22.9% 降至 1%。整套流程可在数小时内完成，全部代码和数据集（LiquidAI/antidoom-mix-v1.0）已开源。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
+      "publishedAt": "2026-07-07T16:50:50.000Z"
+    },
     {
       "topic": "技巧",
       "title": "人们如何使用Claude Cowork",
@@ -17,14 +25,6 @@
       "source": "Claude：Blog（网页）",
       "href": "https://claude.com/blog/cowork-web-mobile",
       "publishedAt": "2026-07-07T16:24:13.051Z"
-    },
-    {
-      "topic": "行业",
-      "title": "欧盟议会通过《聊天控制法案》第一轮审议",
-      "summary": "欧洲议会本周二以331票赞成、304票反对、11票弃权通过紧急动议，允许周四对延长《聊天控制法案》过渡期重新投票。该过渡期4月已到期，曾允许Meta、Google等科技公司无具体嫌疑下自愿扫描私密通信中的儿童性虐待材料。反对者斥责该程序性操作企图恢复大规模监控。IT安全研究人员警告所用AI扫描错误率高不可接受，民权活动家担心此举阻碍制定更有效的永久法规。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
-      "publishedAt": "2026-07-07T16:17:31.015Z"
     },
     {
       "topic": "行业",
@@ -59,12 +59,28 @@
       "publishedAt": "2026-07-07T14:14:57.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "智能免费，然后呢？--Data Systems for， of， and by Agents",
+      "summary": "AI推理成本急剧下降。GPT-4级能力从2023年初每百万token约30美元降至今天不到1美元，部分供应商已低于0.10美元。推理价格每年下降9至900倍，中位数约50倍。知识工作级智能即将近乎免费。这给数据系统带来三重变革：面向智能体的数据系统需支持智能体推测式探索--单个",
+      "source": "BAIR：Berkeley AI Research Blog",
+      "href": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
+      "publishedAt": "2026-07-07T09:00:00.000Z"
+    },
+    {
       "topic": "行业",
       "title": "美国首批自主地面车辆在乌克兰参战",
       "summary": "美国自动驾驶车辆公司 Forterra 宣布，过去九个月已向乌克兰战场部署超过 100 辆基于 Polaris ATV 的 Lancer 自主地面车辆。这些汽油动力车辆可携带 750 公斤货物，加装 Starlink 天线实现远程操控，已执行 1100 多次任务，行驶 2500 英里，运送 777，440 磅物资，完成 52 次伤员撤离。目前车辆主要采用远程操作，因自主系统尚无法实时识别并应对敌方威胁。Forterra 已融资超 5 亿美元，正将经典机器人方法与生成式 AI 结合以提升自主能力。美军专家认为地面自主技术已具实战价值。",
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
       "publishedAt": "2026-07-07T09:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Gemini API Managed Agents 新增后台执行、远程 MCP 与自定义函数等能力",
+      "summary": "Google 为 Gemini API 的 Managed Agents 新增后台执行、远程 MCP 服务器集成、自定义函数调用与凭证刷新功能。后台执行通过传入 `background： true` 异步运行任务，立即返回 ID 供轮询状态或流式获取进度。Managed Agents 可直接连接远程 MCP 服务器，无需自定义代理中间件，并能与内置沙箱工具（如 Google 搜索、代码执行）混合使用。自定义函数调用支持本地执行业务逻辑，内置工具自动在服务端运行。凭证刷新通过传递现有环境 ID 和新网络配置完成，沙箱内文件系统、已安装包和仓库保持不变。这些更新旨在帮助开发者构建可靠的生产级 AI 智能体。",
+      "source": "Google Blog：AI（RSS）",
+      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
+      "publishedAt": "2026-07-07T08:54:00.000Z"
     },
     {
       "topic": "技巧",
@@ -89,6 +105,14 @@
       "source": "X：Ethan Mollick (@emollick)",
       "href": "https://x.com/emollick/status/2074348274136346871",
       "publishedAt": "2026-07-07T04:22:22.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "FDE爆发：AI公司12个月承诺97.5亿美元部署工程",
+      "summary": "AI公司在12个月内合计承诺97.5亿美元用于建设前部署工程（FDE）团队。三种结构模型浮现：资产负债模型（微软、亚马逊从现有编制调配，Salesforce承诺1000个FDE岗位）；独立实体模型（OpenAI Deployment Company融资40亿美元，投后估值140亿；Anthropic从黑石等融资15亿美元）；合作伙伴生态系统模型（Google Cloud承诺7.5亿美元合作伙伴基金）。瓶颈从模型能力转向部署--GPT-4、Claude、Gemini已足够强大，但多数企业无法自行安装配置。FDE投资构成护城河：嵌入式工程师教育客户、获取专有工作流与数据反馈模型调优，切换成本为制度性而非技术性。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/the-10b-fde-boom",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -177,22 +201,6 @@
       "source": "X：OpenClaw (@openclaw)",
       "href": "https://x.com/openclaw/status/2074187998602871212",
       "publishedAt": "2026-07-06T17:45:30.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "SGLang 集成 DSpark 推测解码：置信度驱动的可变长度验证",
-      "summary": "SGLang 团队将 DSpark 推测解码算法集成到开源推理引擎中。该算法采用半自回归块起草器一次生成一组 token，并利用置信度头与顺序温度缩放（STS）为每个请求动态分配可变验证长度，从而在高负载下裁剪无效验证成本。SGLang 支持密集模型（如 Qwen3）和稀疏模型（如 DeepSeek-V4），通过全 CUDA 图处理不规则的每请求验证长度。提供三种验证模式：`static`（全长）、`compact`（生产路径）和 `cap-accept`（接受上限测量）。还引入了零开销调度、基于离线成本表的在线调度器、融合 Triton 核等优化。在 H200 上使用 DeepSeek-V4-Flash 的测试中，DSpark 在整个并发扫描范围内比 MTP 和非推测基线实现了更优的吞吐量-延迟权衡。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-07-06-dspark-sglang",
-      "publishedAt": "2026-07-06T17:11:47.280Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Google 更新隐私设置，默认用媒体数据训练 AI，用户可手动退出",
-      "summary": "Google 于 6 月通过客户邮件低调更新了搜索服务隐私设置，新增\"搜索服务历史\"和\"个性化推荐\"两项开关，默认将用户上传的图片、文件、音频和视频录制等媒体数据保存并用于训练 AI 模型。该更新适用于搜索、地图、购物、航班、酒店、翻译、新闻等服务。用户可通过取消勾选\"保存媒体\"框来退出，同时可设置数据自动删除周期（3/18/36 个月）。此前独立的网络与应用活动设置不再影响搜索服务数据保留。Meta 等其他公司也在大规模收集用户媒体数据用于 AI 训练。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
-      "publishedAt": "2026-07-06T17:04:58.000Z"
     }
   ]
 }
