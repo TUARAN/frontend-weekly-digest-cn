@@ -1,7 +1,71 @@
 {
-  "updatedAt": "2026-07-07T09:10:17.405Z",
-  "count": 17,
+  "updatedAt": "2026-07-07T16:49:07.875Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "人们如何使用Claude Cowork",
+      "summary": "基于2026年5月11-31日120万次匿名会话样本，Claude Cowork最大用途为业务流程与运营（33.4%），如整理报告、核对表格；其次为内容创作与文案（16.4%），如起草稿件、制作幻灯片；软件开发仅占8.7%。用户多用它处理跨团队衔接性任务，例如律师处理文档格式、招聘经理汇总面试反馈。Claude Cowork面向所有Claude用户开放。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/how-people-are-using-claude-cowork",
+      "publishedAt": "2026-07-07T16:24:13.051Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Cowork 向移动端和网页端开放",
+      "summary": "Claude Cowork 正在向移动端和网页端开放，让会话和文件跨设备同步。Beta 版将在未来几周内首先面向 Max 用户推出。Cowork 可让 Claude 跨文件、日历、邮件、即时通讯等工具完成复杂任务，其中超过 90% 的使用场景并非软件开发，而是日常知识工作（业务运营和内容创作）。工作可跨设备跟随用户：在桌面端开始任务，从手机查看进度；关闭笔记本后 Claude 可继续后台运行，支持定时任务（如周一 6 点自动准备客户简报）。当需要用户决策时，Claude 会将问题推送到手机。桌面端保留完整 Cowork 体验，支持无法安装桌面应用的用户。聊天和 Cowork 已在网页端和桌面端合并。为庆祝上线，双倍 Cowork 使用额度延长至 8 月 5 日。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/cowork-web-mobile",
+      "publishedAt": "2026-07-07T16:24:13.051Z"
+    },
+    {
+      "topic": "行业",
+      "title": "欧盟议会通过《聊天控制法案》第一轮审议",
+      "summary": "欧洲议会本周二以331票赞成、304票反对、11票弃权通过紧急动议，允许周四对延长《聊天控制法案》过渡期重新投票。该过渡期4月已到期，曾允许Meta、Google等科技公司无具体嫌疑下自愿扫描私密通信中的儿童性虐待材料。反对者斥责该程序性操作企图恢复大规模监控。IT安全研究人员警告所用AI扫描错误率高不可接受，民权活动家担心此举阻碍制定更有效的永久法规。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
+      "publishedAt": "2026-07-07T16:17:31.015Z"
+    },
+    {
+      "topic": "行业",
+      "title": "中国拟限制外国访问最强AI模型",
+      "summary": "中国计划限制外国访问其最强AI模型，近期与阿里巴巴、字节跳动、Z.ai等企业会谈，拟将先进模型（含未发布）留在中国国内。商务部主导、国家发改委参与，表明此举属出口管制而非平台监管。目标涵盖闭源和开源模型，不仅限API访问，还包括可下载权重。同时讨论将模型泄漏视为国家安全犯罪，并限制外国资本投资中国AI初创。若实施，外国公司将失去低成本模型访问权。此前华盛顿已限制美国先进模型出口，此举可能进一步分裂全球AI市场。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2074512389526237609",
+      "publishedAt": "2026-07-07T15:14:30.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Elvis Saravia 通过 HITL 和 DialAgent 提升 agentic loops 可靠性",
+      "summary": "Elvis Saravia 介绍使用 human-in-the-loop（HITL）来提升 agentic loops 的可靠性。他所有 Claude 和 Codex agent 会话都通过 @DialAgent MCP 服务器，该服务器为 agent 提供专属号码，支持语音、SMS、iMessage 作为原生工具。当循环/自动化处理 PR 或新功能时，agent 会通过简短电话将决策升级给人类，尤其适合在路上或离开电脑时。用户可粘贴指令让 agent 拨打电话测试。DialAgent 提供 $5 免费额度：http://getdial.ai",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "href": "https://x.com/omarsar0/status/2074506169352180108",
+      "publishedAt": "2026-07-07T14:49:47.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "在 Claude Code 中选择 Claude 模型与努力级别",
+      "summary": "Claude Code 提供模型（model）和努力级别（effort）两种设置。模型选择决定能力范围，更大模型（如 Claude Fable 5）在基准上优于 Claude Sonnet。努力级别不单是思考时间，还控制读取文件数、验证步骤及多步任务的推进深度。较高努力下 Claude 会自行读取文件、运行测试并复核；较低努力则更倾向请求用户提供上下文。若 Claude 已掌握上下文但仍出错，应换更强大模型；若因跳读文件或未运行测试而出错，则应提高努力级别。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+      "publishedAt": "2026-07-07T14:21:59.722Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Ethan Mollick：开放权重模型供给难持续",
+      "summary": "这是一个关键原因，我不期望前沿开放权重模型的流动会无限期持续，甚至不会持续更长时间。",
+      "source": "X：Ethan Mollick (@emollick)",
+      "href": "https://x.com/emollick/status/2074497401578996154",
+      "publishedAt": "2026-07-07T14:14:57.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "美国首批自主地面车辆在乌克兰参战",
+      "summary": "美国自动驾驶车辆公司 Forterra 宣布，过去九个月已向乌克兰战场部署超过 100 辆基于 Polaris ATV 的 Lancer 自主地面车辆。这些汽油动力车辆可携带 750 公斤货物，加装 Starlink 天线实现远程操控，已执行 1100 多次任务，行驶 2500 英里，运送 777，440 磅物资，完成 52 次伤员撤离。目前车辆主要采用远程操作，因自主系统尚无法实时识别并应对敌方威胁。Forterra 已融资超 5 亿美元，正将经典机器人方法与生成式 AI 结合以提升自主能力。美军专家认为地面自主技术已具实战价值。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
+      "publishedAt": "2026-07-07T09:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "在网络不稳定的地区，小型AI模型正逐渐普及",
@@ -25,6 +89,38 @@
       "source": "X：Ethan Mollick (@emollick)",
       "href": "https://x.com/emollick/status/2074348274136346871",
       "publishedAt": "2026-07-07T04:22:22.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "在LLM中选择最佳图像输入细节级别",
+      "summary": "在5个模型上测试了1730道视觉推理题，发现将图像细节降至\"low\"会损失准确率，且在gpt-5.5上费用反而上升。真正可靠降低成本的手段是调节推理努力（reasoning effort）。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/image-detail-low-cost",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "苹果研究：单个神经元即可绕过大型语言模型的安全对齐",
+      "summary": "苹果研究人员发现，安全对齐由两类神经元调控：拒绝神经元控制有害知识是否表达，概念神经元编码有害知识本身。在七个模型（1.7B至70B参数）中，仅需抑制单个拒绝神经元即可绕过安全对齐，回答有害请求；或放大单个概念神经元，从无害提示诱导出有害内容。整个过程无需训练或提示工程。结果表明安全对齐由个别神经元因果控制。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/single-neuron-safety-alignment",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Weblica：面向视觉网页智能体的可扩展可复现训练环境",
+      "summary": "苹果研究团队提出Weblica框架，通过HTTP级缓存保存网页稳定视觉状态并保留交互行为，结合大语言模型基于真实网站与核心导航技能合成环境，构建可复现、可扩展的训练环境。该框架将强化学习训练扩展到数千个多样化的环境和任务。最佳模型Weblica-8B在多个网页导航基准上超越同等规模的开源模型，推理步骤更少，测试时计算扩展性良好，性能与API模型相当。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/weblica-visual-web-agents",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "DynaMiCS：带性能约束的大语言模型动态混合微调",
+      "summary": "DynaMiCS是一种动态混合优化器，将多领域微调建模为带性能约束的优化问题。它通过短领域特定探测运行估计跨领域效应斜率矩阵，再基于概率单纯形优化计算混合权重，在提升目标领域性能的同时将约束领域损失维持在参考水平以下。实验表明，DynaMiCS相比固定混合基线取得更强的目标领域提升和约束满足，且计算成本更低，无需参考模型、逐样本评分或手动调节混合权重。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "href": "https://machinelearning.apple.com/research/dynamics-fine-tuning-llms",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -75,14 +171,6 @@
       "publishedAt": "2026-07-06T18:35:00.000Z"
     },
     {
-      "topic": "技巧",
-      "title": "Claude Fable实地指南：发现你的未知",
-      "summary": "Claude Fable是第一款要求用户主动澄清未知才能获得高质量工作的模型。与Claude Fable协作是一个在实现前后迭代发现未知的过程。通过将问题分解为已知的已知、已知的未知、未知的已知和未知的未知四类，用户可以借助Claude Fable和Claude Code进行盲点检查、头脑风暴、原型设计、实现笔记记录以及答辩解释，从而高效挖掘并解决深藏于代码库和设计与实现中的潜在问题。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
-      "publishedAt": "2026-07-06T18:20:11.364Z"
-    },
-    {
       "topic": "产品",
       "title": "OpenClaw 登陆 HuggingFace 本地应用",
       "summary": "OpenClaw 登陆 @huggingface 本地应用 🦞🤝🤗\n\n1. 在 hf 上挑任意 GGUF/MLX 模型\n2. 复制 openclaw onboard 设置\n3. Voila，你得到一个完全本地的工具调用智能体。无云端、无密钥、无人监控。\n\n让你的 claw 本地化到极致。抵抗是徒劳的 🦞",
@@ -105,38 +193,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
       "publishedAt": "2026-07-06T17:04:58.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "字节 Seed 发布 EdgeBench：衡量真实世界环境学习，发现新 Scaling Law",
-      "summary": "字节 Seed 发布超长程评测集 EdgeBench，含 134 个真实任务（覆盖六大领域），每个任务支持 Agent 持续工作至少 12 小时。基于约 38000 小时交互数据，发现 Agent 环境学习表现遵循高精度 log-sigmoid 曲线（平均 R2=0.998）；自 2025 年 9 月至 2026 年 5 月，前沿模型学习速度约每三个月翻一倍。EdgeBench 已开源 51 个任务及完整评测框架。",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "href": "https://seed.bytedance.com/zh/blog/edgebench-%E8%A1%A1%E9%87%8F%E7%9C%9F%E5%AE%9E%E4%B8%96%E7%95%8C%E7%8E%AF%E5%A2%83%E5%AD%A6%E4%B9%A0-%E5%8F%91%E7%8E%B0%E6%96%B0-scaling-law",
-      "publishedAt": "2026-07-06T16:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "免费开源API中转站监测网站tokhub.me上线",
-      "summary": "作者与姚老师合作开发中转站评测网站tokhub.me，通过真实充值调用API进行模型监控，区别于单纯速度评测。代码完全开源，支持一键Docker部署，还可作为公司内部Token和网关管理系统，省去繁杂的API Key和Base URL管理。开源代码见Github评论区。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2074130700421456089",
-      "publishedAt": "2026-07-06T13:57:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI颠覆初级程序员就业市场：斯坦福数据揭示年轻开发者就业锐减19%",
-      "summary": "斯坦福数字经济实验室基于ADP薪资数据发现，美国22-25岁软件开发人员就业较2022年峰值下降19%，而41-49岁增长14%。入门级岗位招聘减少28%，计算机科学毕业生失业率达6.1%，高于文科专业。核心推手是2024-2025年兴起的智能体编程（Agentic programming）。总程序员就业增长4.4%，但全部来自年长群体。GitHub一年新增3600万账号，80%新用户一周内使用Copilot。编程工作未消失，但\"初级程序员\"头衔正在消亡。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers",
-      "publishedAt": "2026-07-06T11:51:40.808Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Meta 被曝让外包人员伪装未成年人，诱导竞争对手 AI 聊敏感话题",
-      "summary": "据《连线》报道，Meta 通过外包公司 Covalen 开展代号\"Cannes\"的项目，让数百名外包人员伪装成未成年人，向 OpenAI ChatGPT、谷歌 Gemini 及 Character.AI 发送涉及自杀、自残、进食障碍等高风险提示词，以测试竞品聊天机器人的安全拦截机制。项目持续至 4 月 21 日，单轮测试发送超 4.5 万个提示词，外包人员创建 18 岁以下虚假账号并上传药片、刀具等图片。Meta 称这是常规安全测试，且不会用竞品测试数据训练自家模型。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/973/207.htm",
-      "publishedAt": "2026-07-06T09:23:28.000Z"
     }
   ]
 }
