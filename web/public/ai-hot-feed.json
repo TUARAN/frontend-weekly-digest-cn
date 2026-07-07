@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-07T18:43:20.660Z",
-  "count": 25,
+  "updatedAt": "2026-07-07T19:34:34.095Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Meta AI 推出 Muse Image：MSL 首个图像生成模型",
+      "summary": "Meta 在 Meta AI 应用中推出 Muse Image，这是 MSL 首个图像生成模型。该模型同时登陆 WhatsApp 和 Instagram，后续将扩展至 Messenger 和 Facebook。Muse Image 利用高级推理理解复杂提示，能将多张照片无缝融合生成高质量图像，支持预设、在提示中引用图片以及直接编辑。结合引用推文，Muse Image 具备智能体特性：与 Muse Spark 配对，先推理用户提示、搜索网络并规划，再生成图像，旨在首次尝试即得到用户期望结果。",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "href": "https://x.com/testingcatalog/status/2074571946642059555",
+      "publishedAt": "2026-07-07T19:11:10.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型",
+      "summary": "微软正用自研MAI模型替换Copilot产品中的OpenAI和Anthropic模型以降低支出。MAI模型已在Excel和Outlook中每周处理数万次请求，但占比仍小。Build大会上发布推理模型MAI-Thinking 1，声称编码媲美Sonnet 4.6和Opus 4.6，但基准测试大幅落后，仅与DeepSeek V3.2相当。AI负责人承认目标是削减并消除对Anthropic的支出。CEO暗示未来可能按用量计费，MAI为默认，第三方模型付费附加。微软称MAI使用干净商业许可数据，实际基于Common Crawl。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
+      "publishedAt": "2026-07-07T18:35:58.000Z"
+    },
     {
       "topic": "技巧",
       "title": "YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效",
@@ -123,6 +139,14 @@
       "publishedAt": "2026-07-07T04:22:22.000Z"
     },
     {
+      "topic": "产品",
+      "title": "Hugging Face Storage 成为 SkyPilot 一级后端：零出站费跨云存储",
+      "summary": "Hugging Face Storage 现为 SkyPilot 的一级后端。用户通过 `hf：//` URL 和现有 HFTOKEN 即可将 Hugging Face Bucket（读写）或模型/数据集/Space 仓库（只读）挂载到 SkyPilot 任务中，支持 MOUNT（FUSE 懒加载）或 COPY 模式。SkyPilot 可将任务调度到 20+ 云、Kubernetes、Slurm 及本地集群的任意可用 GPU 上。Hugging Face 不收取出站及 CDN 费用，故跨云读取数据无额外成本。存储价格 $12-18/TB/月，低于 AWS S3 加出站费。Bucket 基于 Xet，增量检查点和模型变体仅存储和传输改动部分。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/skypilot-hf-storage",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "FDE爆发：AI公司12个月承诺97.5亿美元部署工程",
       "summary": "AI公司在12个月内合计承诺97.5亿美元用于建设前部署工程（FDE）团队。三种结构模型浮现：资产负债模型（微软、亚马逊从现有编制调配，Salesforce承诺1000个FDE岗位）；独立实体模型（OpenAI Deployment Company融资40亿美元，投后估值140亿；Anthropic从黑石等融资15亿美元）；合作伙伴生态系统模型（Google Cloud承诺7.5亿美元合作伙伴基金）。瓶颈从模型能力转向部署--GPT-4、Claude、Gemini已足够强大，但多数企业无法自行安装配置。FDE投资构成护城河：嵌入式工程师教育客户、获取专有工作流与数据反馈模型调优，切换成本为制度性而非技术性。",
@@ -193,14 +217,6 @@
       "source": "Claude Code：GitHub Releases（RSS）",
       "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
       "publishedAt": "2026-07-06T22:51:16.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Code 团队详解四种智能体循环类型",
-      "summary": "Claude Code 团队将\"设计循环\"定义为智能体重复工作直到满足停止条件，划分四种类型：1）回合循环--手动提示触发，Claude 自判完成，适合短任务，可通过 SKILL.md 提升验证；2）目标循环--`/goal` 手动触发，达成目标或达最大轮数停止，需确定性完成标准（如测试通过数）；3）时间循环--`/loop` 和 `/schedule` 按间隔触发，适合同步消息、检查 PR 等重复任务，可云端运行；4）主动循环--事件或计划触发，无人实时参与，每个子任务独立退出。建议从最简单方案开始，选择性使用复杂循环。",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2074208949205881033",
-      "publishedAt": "2026-07-06T19:08:45.000Z"
     }
   ]
 }
