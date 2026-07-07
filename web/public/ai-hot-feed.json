@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-07T19:34:34.095Z",
+  "updatedAt": "2026-07-07T20:37:08.703Z",
   "count": 27,
   "items": [
     {
       "topic": "模型",
-      "title": "Meta AI 推出 Muse Image：MSL 首个图像生成模型",
-      "summary": "Meta 在 Meta AI 应用中推出 Muse Image，这是 MSL 首个图像生成模型。该模型同时登陆 WhatsApp 和 Instagram，后续将扩展至 Messenger 和 Facebook。Muse Image 利用高级推理理解复杂提示，能将多张照片无缝融合生成高质量图像，支持预设、在提示中引用图片以及直接编辑。结合引用推文，Muse Image 具备智能体特性：与 Muse Spark 配对，先推理用户提示、搜索网络并规划，再生成图像，旨在首次尝试即得到用户期望结果。",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "href": "https://x.com/testingcatalog/status/2074571946642059555",
-      "publishedAt": "2026-07-07T19:11:10.000Z"
+      "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
+      "summary": "Meta Superintelligence Labs 发布首个媒体生成模型 Muse Image 和 Muse Video。Muse Image 是目前最先进的图像生成模型，能精确遵循指令、精准编辑、多参考构图，并利用 Instagram 社交上下文。它还具备智能体工具使用能力并集成 Muse Spark。用户可通过 Meta AI 应用、网页、Instagram Stories 和 WhatsApp 试用，初始限于部分国家。Muse Video 基于相同预训练基础，实现高视觉保真度并原生支持音频。",
+      "source": "X：AI at Meta (@AIatMeta)",
+      "href": "https://x.com/AIatMeta/status/2074577662840832382",
+      "publishedAt": "2026-07-07T19:33:53.000Z"
     },
     {
       "topic": "行业",
