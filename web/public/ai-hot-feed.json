@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-08T03:06:06.703Z",
-  "count": 23,
+  "updatedAt": "2026-07-08T05:06:08.846Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "AI 审计代理在 Cloudflare CIRCL 中发现 7 个漏洞",
+      "summary": "zkSecurity 的 AI 审计代理 zkao 持续扫描 Cloudflare 的 CIRCL 密码学库，使用 Opus 4.6 + skills 和 GPT-5.3 + skills 等模型发现并确认了 7 个真实漏洞。其中包括阈值 RSA 中 float64 精度丢失（AI 自评 Critical）和属性基加密（CP-ABE）访问控制完全失效（Critical，由 zkao 自行发现）。所有漏洞已在上游修复，多数在 HackerOne 上获得确认和奖励。AI 生成的候选发现仍需人工验证，但 zkao 已能自动完成大部分验证工作。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.zksecurity.xyz/posts/circl-bugs",
+      "publishedAt": "2026-07-08T04:29:33.609Z"
+    },
+    {
+      "topic": "行业",
+      "title": "美国商务部批准OpenAI大规模发布GPT-5.6，Sol明日亮相",
+      "summary": "美国商务部正式批准OpenAI大规模发布GPT-5.6。OpenAI宣布GPT-5.6 Sol将于本周四完成最后准备后，与Terra和Luna一同面向公众推出。此前因国家安全考量，美国政府要求分阶段发布，仅允许向经批准的有限实体开放。此次全面放行标志着临时管控结束。获批前，美国商务部下属AI标准与创新中心执行了测试，OpenAI技术团队驻扎华盛顿配合沟通。美国最新AI行政令即将出台，旨在为先进AI模型发布建立正式评估框架。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/973/922.htm",
+      "publishedAt": "2026-07-08T03:30:52.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "蚂蚁集团旗下Robbyant开源LingBot-Vision：1B参数边界中心视觉基础模型，用于密集空间感知",
+      "summary": "蚂蚁集团旗下具身智能公司Robbyant开源LingBot-Vision，一套自监督视觉Transformer家族，专为密集空间感知设计。旗舰ViT-g/16参数约1.1B，采用掩膜边界建模训练，将边界作为原生预训练信号。在密集空间任务中，该1B模型匹配或超越参数规模高达7倍的大模型（如7B DINOv3）。模型以Apache-2.0许可证在Hugging Face开源，提供ViT-g、ViT-L（300M）、ViT-B（86M）、ViT-S四个规模。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
+      "publishedAt": "2026-07-08T03:03:22.000Z"
+    },
     {
       "topic": "模型",
       "title": "Pulpie：用于清理网络的Pareto最优模型",
@@ -177,14 +201,6 @@
       "source": "X：Elon Musk (@elonmusk, xAI)",
       "href": "https://x.com/elonmusk/status/2074378653501128833",
       "publishedAt": "2026-07-07T06:23:05.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "MIRA：可玩多人世界模型，20 FPS实时生成\"火箭联盟的梦\"",
-      "summary": "MIRA是一个可玩、多人的世界模型，被形容为\"火箭联盟的梦\"。它基于10k小时公开机器人收集的数据训练，学习四玩家游戏动态，根据按键实时生成画面，帧率达20 FPS。模型由General Intuition与Kyutai Labs联合构建，Epic Games提供协作。Ethan Mollick称从最早的扩散DOOM玩过来，多人20 FPS效果出色。演示、技术报告及开源代码已公开，在ICML Booth 111现场展示。",
-      "source": "X：Ethan Mollick (@emollick)",
-      "href": "https://x.com/emollick/status/2074348274136346871",
-      "publishedAt": "2026-07-07T04:22:22.000Z"
     }
   ]
 }
