@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-08T15:47:12.762Z",
-  "count": 26,
+  "updatedAt": "2026-07-08T16:33:47.709Z",
+  "count": 22,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "OpenRouter 自动升级至 Grok 4.5",
+      "summary": "使用来自 @SpaceXAI 的 Grok 4.5，一旦它上线，无需更改代码。\n\n~x-ai/grok-latest 始终路由到最新的 Grok。现在指向它（今天为 Grok 4.3），当 4.5 发布时它会自动升级到 4.5。\n\n尝试：https://openrouter.ai/~x-ai/grok-latest",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2074881863030812832",
+      "publishedAt": "2026-07-08T15:42:40.000Z"
+    },
     {
       "topic": "产品",
       "title": "Runway Dev 发布",
@@ -25,14 +33,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2074870468394250461",
       "publishedAt": "2026-07-08T14:57:23.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
-      "summary": "Robostral Navigate 是 Mistral AI 首个具身导航模型（8B 参数），仅用单 RGB 摄像头，在 R2R-CE 验证集上取得 76.6%（unseen）和 79.4%（seen）的成功率，超越最佳单摄像头方法 9.7 个百分点，超越使用深度或多摄像头的系统 4.5 个百分点。模型通过 pointing 预测目标坐标并结合强化学习持续改进，全部在模拟中训练（约 40 万轨迹、6000 场景），采用 prefix-caching 实现高效训练。通用适配轮式、腿式和飞行机器人，能适应真实环境中未训练的障碍。",
-      "source": "Mistral AI：News（网页）",
-      "href": "https://mistral.ai/news/robostral-navigate",
-      "publishedAt": "2026-07-08T14:33:24.981Z"
     },
     {
       "topic": "技巧",
@@ -177,38 +177,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
       "publishedAt": "2026-07-07T16:50:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "人们如何使用Claude Cowork",
-      "summary": "基于2026年5月11-31日120万次匿名会话样本，Claude Cowork最大用途为业务流程与运营（33.4%），如整理报告、核对表格；其次为内容创作与文案（16.4%），如起草稿件、制作幻灯片；软件开发仅占8.7%。用户多用它处理跨团队衔接性任务，例如律师处理文档格式、招聘经理汇总面试反馈。Claude Cowork面向所有Claude用户开放。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/how-people-are-using-claude-cowork",
-      "publishedAt": "2026-07-07T16:24:13.051Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Cowork 向移动端和网页端开放",
-      "summary": "Claude Cowork 正在向移动端和网页端开放，让会话和文件跨设备同步。Beta 版将在未来几周内首先面向 Max 用户推出。Cowork 可让 Claude 跨文件、日历、邮件、即时通讯等工具完成复杂任务，其中超过 90% 的使用场景并非软件开发，而是日常知识工作（业务运营和内容创作）。工作可跨设备跟随用户：在桌面端开始任务，从手机查看进度；关闭笔记本后 Claude 可继续后台运行，支持定时任务（如周一 6 点自动准备客户简报）。当需要用户决策时，Claude 会将问题推送到手机。桌面端保留完整 Cowork 体验，支持无法安装桌面应用的用户。聊天和 Cowork 已在网页端和桌面端合并。为庆祝上线，双倍 Cowork 使用额度延长至 8 月 5 日。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/cowork-web-mobile",
-      "publishedAt": "2026-07-07T16:24:13.051Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Rowboat：开源、本地优先的桌面AI助手",
-      "summary": "Rowboat 是一个开源、本地优先的桌面 AI 助手，将邮件、会议、Slack 等数据索引为 Obsidian 风格的知识图谱，提供持久上下文记忆。内置邮件客户端、浏览器、会议记录器、代码模式（可调用 Claude Code 或 Codex 代理），并支持按事件或定时运行的背景代理。用户可通过 MCP 协议接入 Exa 搜索、GitHub 等外部工具。所有数据以纯 Markdown 格式本地存储，无供应商锁定，支持 Ollama/LM Studio 本地模型或使用 API 密钥的托管模型。",
-      "source": "Hacker News：AI 热帖",
-      "href": "https://github.com/rowboatlabs/rowboat",
-      "publishedAt": "2026-07-07T16:10:44.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Seedream 5.0 Pro 发布：不止\"生成\"，更懂\"设计\"",
-      "summary": "字节 Seed 今日发布多模态图像创作模型 Seedream 5.0 Pro，在图文匹配、结构合理性、文字渲染与画面美感上全面升级。四大核心突破：复杂信息可视化，可生成高密度信息图；交互式精准编辑，支持点选、圈选、草图渲染、色彩与材质替换、图层分离及多图融合，实现像素级编辑；真实的影像与人像质感，还原光影、材质与皮肤肌理；原生多语种输入与生成，支持十余种语言及本地化视觉特征。已陆续在豆包、即梦、火山方舟等平台上线。",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "href": "https://seed.bytedance.com/zh/blog/%E4%B8%8D%E6%AD%A2-%E7%94%9F%E6%88%90-%E6%9B%B4%E6%87%82-%E8%AE%BE%E8%AE%A1-seedream-5-0-pro-%E5%8F%91%E5%B8%83",
-      "publishedAt": "2026-07-07T16:00:00.000Z"
     }
   ]
 }
