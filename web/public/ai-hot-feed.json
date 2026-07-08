@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-07-08T14:50:07.469Z",
-  "count": 23,
+  "updatedAt": "2026-07-08T15:47:12.762Z",
+  "count": 26,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Runway Dev 发布",
+      "summary": "Runway 官网以 Cookie 设置页面代替了产品介绍，未提供 Runway Dev 的功能、参数、可用性等任何具体信息。",
+      "source": "Runway：News（网页）",
+      "href": "https://runwayml.com/news/introducing-runway-dev",
+      "publishedAt": "2026-07-08T15:35:51.878Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit 推出社区档案与力量排名",
+      "summary": "本周新功能 🚀 Replit 社区档案--vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2074871322220339515",
+      "publishedAt": "2026-07-08T15:00:47.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter聊天室推出一键零数据保留",
+      "summary": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2074870468394250461",
+      "publishedAt": "2026-07-08T14:57:23.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Robostral Navigate：Mistral AI 首个具身导航模型",
+      "summary": "Robostral Navigate 是 Mistral AI 首个具身导航模型（8B 参数），仅用单 RGB 摄像头，在 R2R-CE 验证集上取得 76.6%（unseen）和 79.4%（seen）的成功率，超越最佳单摄像头方法 9.7 个百分点，超越使用深度或多摄像头的系统 4.5 个百分点。模型通过 pointing 预测目标坐标并结合强化学习持续改进，全部在模拟中训练（约 40 万轨迹、6000 场景），采用 prefix-caching 实现高效训练。通用适配轮式、腿式和飞行机器人，能适应真实环境中未训练的障碍。",
+      "source": "Mistral AI：News（网页）",
+      "href": "https://mistral.ai/news/robostral-navigate",
+      "publishedAt": "2026-07-08T14:33:24.981Z"
+    },
     {
       "topic": "技巧",
       "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
@@ -177,14 +209,6 @@
       "source": "字节 Seed：Research Feed（网页内嵌数据）",
       "href": "https://seed.bytedance.com/zh/blog/%E4%B8%8D%E6%AD%A2-%E7%94%9F%E6%88%90-%E6%9B%B4%E6%87%82-%E8%AE%BE%E8%AE%A1-seedream-5-0-pro-%E5%8F%91%E5%B8%83",
       "publishedAt": "2026-07-07T16:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "中国拟限制外国访问最强AI模型",
-      "summary": "中国计划限制外国访问其最强AI模型，近期与阿里巴巴、字节跳动、Z.ai等企业会谈，拟将先进模型（含未发布）留在中国国内。商务部主导、国家发改委参与，表明此举属出口管制而非平台监管。目标涵盖闭源和开源模型，不仅限API访问，还包括可下载权重。同时讨论将模型泄漏视为国家安全犯罪，并限制外国资本投资中国AI初创。若实施，外国公司将失去低成本模型访问权。此前华盛顿已限制美国先进模型出口，此举可能进一步分裂全球AI市场。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "href": "https://x.com/rohanpaul_ai/status/2074512389526237609",
-      "publishedAt": "2026-07-07T15:14:30.000Z"
     }
   ]
 }
