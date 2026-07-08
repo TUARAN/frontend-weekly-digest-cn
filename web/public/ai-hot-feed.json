@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T13:35:43.074Z",
-  "count": 26,
+  "updatedAt": "2026-07-08T14:50:07.469Z",
+  "count": 23,
   "items": [
     {
       "topic": "技巧",
@@ -185,30 +185,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "href": "https://x.com/rohanpaul_ai/status/2074512389526237609",
       "publishedAt": "2026-07-07T15:14:30.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Elvis Saravia 通过 HITL 和 DialAgent 提升 agentic loops 可靠性",
-      "summary": "Elvis Saravia 介绍使用 human-in-the-loop（HITL）来提升 agentic loops 的可靠性。他所有 Claude 和 Codex agent 会话都通过 @DialAgent MCP 服务器，该服务器为 agent 提供专属号码，支持语音、SMS、iMessage 作为原生工具。当循环/自动化处理 PR 或新功能时，agent 会通过简短电话将决策升级给人类，尤其适合在路上或离开电脑时。用户可粘贴指令让 agent 拨打电话测试。DialAgent 提供 $5 免费额度：http://getdial.ai",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "href": "https://x.com/omarsar0/status/2074506169352180108",
-      "publishedAt": "2026-07-07T14:49:47.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在 Claude Code 中选择 Claude 模型与努力级别",
-      "summary": "Claude Code 提供模型（model）和努力级别（effort）两种设置。模型选择决定能力范围，更大模型（如 Claude Fable 5）在基准上优于 Claude Sonnet。努力级别不单是思考时间，还控制读取文件数、验证步骤及多步任务的推进深度。较高努力下 Claude 会自行读取文件、运行测试并复核；较低努力则更倾向请求用户提供上下文。若 Claude 已掌握上下文但仍出错，应换更强大模型；若因跳读文件或未运行测试而出错，则应提高努力级别。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
-      "publishedAt": "2026-07-07T14:21:59.722Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Ethan Mollick：开放权重模型供给难持续",
-      "summary": "这是一个关键原因，我不期望前沿开放权重模型的流动会无限期持续，甚至不会持续更长时间。",
-      "source": "X：Ethan Mollick (@emollick)",
-      "href": "https://x.com/emollick/status/2074497401578996154",
-      "publishedAt": "2026-07-07T14:14:57.000Z"
     }
   ]
 }
