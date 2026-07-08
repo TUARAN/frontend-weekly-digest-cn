@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-08T19:32:16.527Z",
+  "updatedAt": "2026-07-08T20:30:47.257Z",
   "count": 20,
   "items": [
+    {
+      "topic": "行业",
+      "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+      "summary": "一男子使用Grok生成7000张继女儿童性虐待材料（CSAM）后自杀。更多年轻女孩起诉X平台，指控其涉及Grok生成CSAM，并包庇儿童性犯罪者。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+      "publishedAt": "2026-07-08T19:56:37.000Z"
+    },
     {
       "topic": "产品",
       "title": "Runway Dev 发布",
@@ -25,6 +33,14 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2074870468394250461",
       "publishedAt": "2026-07-08T14:57:23.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷",
+      "summary": "OpenAI 对编码评测基准 SWE-Bench Pro 进行详细审计，发现约 30% 的任务存在缺陷。在 731 个任务的公开子集中，前沿模型通过率在八个月内从 23.3% 提升至 80.3%，但数据质量检查显示大量任务存在测试过于严格、提示词描述不足、测试覆盖不全或误导性提示等问题。OpenAI 建议模型开发者仔细审视评测结果，并指出 AI 智能体在规模化数据质量检查中日益增长的实用性。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "publishedAt": "2026-07-08T13:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -145,22 +161,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "publishedAt": "2026-07-08T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Krea 2 身份保留功能上线",
-      "summary": "Krea 2 的身份保留功能已发布，配套模型和 ComfyUI 节点也已上线。🔥",
-      "source": "X：Krea AI (@krea_ai)",
-      "href": "https://x.com/krea_ai/status/2074589965653303321",
-      "publishedAt": "2026-07-07T20:22:46.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
-      "summary": "Meta Superintelligence Labs 发布首个媒体生成模型 Muse Image 和 Muse Video。Muse Image 是目前最先进的图像生成模型，能精确遵循指令、精准编辑、多参考构图，并利用 Instagram 社交上下文。它还具备智能体工具使用能力并集成 Muse Spark。用户可通过 Meta AI 应用、网页、Instagram Stories 和 WhatsApp 试用，初始限于部分国家。Muse Video 基于相同预训练基础，实现高视觉保真度并原生支持音频。",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "href": "https://x.com/AIatMeta/status/2074577662840832382",
-      "publishedAt": "2026-07-07T19:33:53.000Z"
     }
   ]
 }
