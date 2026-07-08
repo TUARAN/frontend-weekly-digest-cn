@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-08T16:33:47.709Z",
-  "count": 22,
+  "updatedAt": "2026-07-08T17:32:23.965Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "ChatGPT Voice：口述文章的新体验",
+      "summary": "Jason Liu分享使用ChatGPT Voice功能写作的体验。他每天回家路上通过语音与模型对话，要求模型在他口述文章时除非有值得追问的点否则不打断。他连续讲20分钟，模型仅插话五六次（如\"嗯\"\"好主意\"），且当用户继续说话时会礼貌停止回应。结束后可追问模型刚才想提的点。他还测试了用此功能与不同语言的人交谈、头脑风暴和学习新概念。他认为这种流畅的语音交互是实现AGI造福人类的重要一步。",
+      "source": "X：Jason Liu (@jxnlco)",
+      "href": "https://x.com/jxnlco/status/2074905289237942512",
+      "publishedAt": "2026-07-08T17:15:45.000Z"
+    },
     {
       "topic": "技巧",
       "title": "OpenRouter 自动升级至 Grok 4.5",
@@ -131,6 +139,22 @@
       "publishedAt": "2026-07-08T00:12:06.000Z"
     },
     {
+      "topic": "模型",
+      "title": "OpenAI 发布 GPT-Live 新一代全双工语音模型",
+      "summary": "OpenAI 今日推出 GPT-Live，基于全双工架构实现同时听与说，支持自然打断与实时回馈。该模型每秒多次判断是否说话、倾听、打断或调用工具，并将搜索、推理等复杂任务委托给后台 GPT-5.5，保持对话流畅。即日起向全球 ChatGPT 用户提供 GPT-Live-1 和 GPT-Live-1 mini 两个版本。人类评估显示，在 5-10 分钟对话中，GPT-Live-1 系列在自然度、轮流、打断等方面显著优于 Advanced Voice Mode；在 GPQA、BrowseComp 和 τ3-Voice Telecom 基准测试中也表现更强。未来将开放 API。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/introducing-gpt-live",
+      "publishedAt": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "原生速度的 vLLM transformers 建模后端",
+      "summary": "Hugging Face 宣布 transformers vLLM 后端现与手写原生 vLLM 实现速度相当甚至更快。模型作者无需移植代码，即可自动利用 transformers 获得超快推理。测试使用 Qwen3-4B（单 GPU）、Qwen3-32B（张量并行）和 Qwen3-235B-A22B-FP8 MoE（数据+专家并行）三种配置，吞吐量均达到或超过原生。该后端通过 torch.fx 静态分析图、AST 重写代码实现动态层融合，支持张量/管道/专家并行及 torch.compile。用户仅需添加 `--model-impl transformers` 标志。目前不支持线性注意力模型但即将支持。",
+      "source": "Hugging Face：Blog（RSS）",
+      "href": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "publishedAt": "2026-07-08T00:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "Krea 2 身份保留功能上线",
       "summary": "Krea 2 的身份保留功能已发布，配套模型和 ComfyUI 节点也已上线。🔥",
@@ -169,14 +193,6 @@
       "source": "X：NotebookLM (@NotebookLM)",
       "href": "https://x.com/NotebookLM/status/2074551227594264799",
       "publishedAt": "2026-07-07T17:48:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Liquid AI 开源 Antidoom：基于最终 Token 偏好优化的推理模型死循环修复方法",
-      "summary": "Liquid AI 开源了 Antidoom，一种基于 Final Token Preference Optimization （FTPO） 的针对性修复方法，用于减少推理模型中的 doom loop（死循环）问题。该方法定位循环开始的第一个 token，训练模型选择连贯替代项，而不改变整体输出分布。在 LFM2.5-2.6B 上，硬数学和编程任务中的循环率从 10.2% 降至 1.4%；Qwen3.5-4B 上从 22.9% 降至 1%。整套流程可在数小时内完成，全部代码和数据集（LiquidAI/antidoom-mix-v1.0）已开源。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
-      "publishedAt": "2026-07-07T16:50:50.000Z"
     }
   ]
 }
