@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-08T05:06:08.846Z",
-  "count": 25,
+  "updatedAt": "2026-07-08T06:53:26.816Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "行业",
+      "title": "工信部发布Claude Code后门安全风险提示",
+      "summary": "中国工信部发布风险提示，指出 Claude Code 2.1.91 至 2.1.196 版本内置监控机制，未经用户同意即向远程服务器回传用户地域、身份标识等敏感信息。建议相关单位立即全面排查，对受影响版本卸载或升级至已清除后门代码的最新安全版本，并加强开发工具外联权限管控与流量监测，防止敏感数据违规外传。",
+      "source": "X：小互 (@xiaohu)",
+      "href": "https://x.com/xiaohu/status/2074736623284256881",
+      "publishedAt": "2026-07-08T06:05:32.000Z"
+    },
     {
       "topic": "技巧",
       "title": "AI 审计代理在 Cloudflare CIRCL 中发现 7 个漏洞",
@@ -185,22 +193,6 @@
       "source": "Google Blog：AI（RSS）",
       "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
       "publishedAt": "2026-07-07T08:54:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在网络不稳定的地区，小型AI模型正逐渐普及",
-      "summary": "2019年，Adebayo Alonge因服务器远在美国致RxScanner单次扫描超5分钟，工程师2小时内将AI模型缩小至可在Android手机本地运行，此后RxScanner能在无宽带、缺电地区验药。小AI模型参数通常至多几十亿，可在手机或Raspberry Pi上运行，功耗仅数瓦。类似案例包括印度腰果病害检测无人机、乌拉圭蚂蚁入侵识别、疟蚊检测及巴西基于Arduino的心电图设备。世界银行报告显示，全球最穷国家仅0.7%互联网用户用过ChatGPT，发达国家达四分之一；行长认为小AI是为缺乏算力与电力的地区提供生命救助服务的关键。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-      "publishedAt": "2026-07-07T06:45:06.341Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Grok Imagine 更新：支持 15 秒视频",
-      "summary": "Grok Imagine 更新。请更新你的 Grok 应用！15 秒 Imagine 视频现已可用，质量令人难以置信。",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "href": "https://x.com/elonmusk/status/2074378653501128833",
-      "publishedAt": "2026-07-07T06:23:05.000Z"
     }
   ]
 }
