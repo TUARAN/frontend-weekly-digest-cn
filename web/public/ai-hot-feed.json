@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-08T11:36:22.540Z",
-  "count": 24,
+  "updatedAt": "2026-07-08T12:37:28.540Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
+      "summary": "在校研究生Kunkun开源了一套管理大量互相调用Skill的方法。核心方案包括：1）搭建HTML后台，按运行模式（手动/自动）、链路位置、专业领域三类标签筛选Skill；2）将连环调用的Skill绘制成Mermaid流程图，根据debug、新功能、合PR、改设计等阶段定位对应技能组；3）仿照Matt的ask Matt技能开发\"ask me\"技能，将调用决策浓缩成上下文喂给模型。该方法避免将所有调用交给模型自行判断，保持工程复杂场景下的人机对齐与可控性。项目已开源至GitHub。",
+      "source": "X：Berry Xia (@berryxia)",
+      "href": "https://x.com/berryxia/status/2074827915779580055",
+      "publishedAt": "2026-07-08T12:08:18.000Z"
+    },
     {
       "topic": "行业",
       "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
