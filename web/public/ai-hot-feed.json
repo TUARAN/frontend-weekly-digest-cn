@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T18:32:31.983Z",
-  "count": 21,
+  "updatedAt": "2026-07-08T19:32:16.527Z",
+  "count": 20,
   "items": [
     {
       "topic": "产品",
@@ -161,14 +161,6 @@
       "source": "X：AI at Meta (@AIatMeta)",
       "href": "https://x.com/AIatMeta/status/2074577662840832382",
       "publishedAt": "2026-07-07T19:33:53.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "微软为降成本在Copilot中用自研MAI模型替换OpenAI和Anthropic模型",
-      "summary": "微软正用自研MAI模型替换Copilot产品中的OpenAI和Anthropic模型以降低支出。MAI模型已在Excel和Outlook中每周处理数万次请求，但占比仍小。Build大会上发布推理模型MAI-Thinking 1，声称编码媲美Sonnet 4.6和Opus 4.6，但基准测试大幅落后，仅与DeepSeek V3.2相当。AI负责人承认目标是削减并消除对Anthropic的支出。CEO暗示未来可能按用量计费，MAI为默认，第三方模型付费附加。微软称MAI使用干净商业许可数据，实际基于Common Crawl。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
-      "publishedAt": "2026-07-07T18:35:58.000Z"
     }
   ]
 }
