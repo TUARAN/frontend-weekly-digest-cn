@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T08:54:33.125Z",
-  "count": 25,
+  "updatedAt": "2026-07-08T09:50:15.250Z",
+  "count": 23,
   "items": [
     {
       "topic": "行业",
@@ -185,22 +185,6 @@
       "source": "X：Ethan Mollick (@emollick)",
       "href": "https://x.com/emollick/status/2074497401578996154",
       "publishedAt": "2026-07-07T14:14:57.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "智能免费，然后呢？--Data Systems for， of， and by Agents",
-      "summary": "AI推理成本急剧下降。GPT-4级能力从2023年初每百万token约30美元降至今天不到1美元，部分供应商已低于0.10美元。推理价格每年下降9至900倍，中位数约50倍。知识工作级智能即将近乎免费。这给数据系统带来三重变革：面向智能体的数据系统需支持智能体推测式探索--单个",
-      "source": "BAIR：Berkeley AI Research Blog",
-      "href": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
-      "publishedAt": "2026-07-07T09:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国首批自主地面车辆在乌克兰参战",
-      "summary": "美国自动驾驶车辆公司 Forterra 宣布，过去九个月已向乌克兰战场部署超过 100 辆基于 Polaris ATV 的 Lancer 自主地面车辆。这些汽油动力车辆可携带 750 公斤货物，加装 Starlink 天线实现远程操控，已执行 1100 多次任务，行驶 2500 英里，运送 777，440 磅物资，完成 52 次伤员撤离。目前车辆主要采用远程操作，因自主系统尚无法实时识别并应对敌方威胁。Forterra 已融资超 5 亿美元，正将经典机器人方法与生成式 AI 结合以提升自主能力。美军专家认为地面自主技术已具实战价值。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
-      "publishedAt": "2026-07-07T09:00:00.000Z"
     }
   ]
 }
