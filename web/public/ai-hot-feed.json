@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-09T20:36:18.358Z",
-  "count": 17,
+  "updatedAt": "2026-07-09T21:32:00.766Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Google 推出 LiteRT.js：高性能 Web AI 推理运行时",
+      "summary": "Google 发布 LiteRT.js，这是 LiteRT 跨平台边缘 AI 运行时的最新成员，专为 JavaScript 开发者设计，可直接在浏览器中运行机器学习模型。LiteRT.js 基于 WebGPU 和即将推出的 WebNN 实现 SOTA 推理性能，同时支持回退到 WebAssembly CPU 方案。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference",
+      "publishedAt": "2026-07-09T21:21:08.292Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic发起\"硬问题\"倡议，邀请公众提出AI相关尖锐问题",
