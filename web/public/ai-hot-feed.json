@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-09T11:03:03.437Z",
-  "count": 13,
+  "updatedAt": "2026-07-09T13:03:40.454Z",
+  "count": 11,
   "items": [
     {
       "topic": "模型",
@@ -89,22 +89,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/government-national-security-partnerships",
       "publishedAt": "2026-07-08T13:30:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 审计 SWE-Bench Pro 发现约 30% 的评测任务存在缺陷",
-      "summary": "OpenAI 对编码评测基准 SWE-Bench Pro 进行详细审计，发现约 30% 的任务存在缺陷。在 731 个任务的公开子集中，前沿模型通过率在八个月内从 23.3% 提升至 80.3%，但数据质量检查显示大量任务存在测试过于严格、提示词描述不足、测试覆盖不全或误导性提示等问题。OpenAI 建议模型开发者仔细审视评测结果，并指出 AI 智能体在规模化数据质量检查中日益增长的实用性。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "publishedAt": "2026-07-08T13:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
-      "summary": "在校研究生Kunkun开源了一套管理大量互相调用Skill的方法。核心方案包括：1）搭建HTML后台，按运行模式（手动/自动）、链路位置、专业领域三类标签筛选Skill；2）将连环调用的Skill绘制成Mermaid流程图，根据debug、新功能、合PR、改设计等阶段定位对应技能组；3）仿照Matt的ask Matt技能开发\"ask me\"技能，将调用决策浓缩成上下文喂给模型。该方法避免将所有调用交给模型自行判断，保持工程复杂场景下的人机对齐与可控性。项目已开源至GitHub。",
-      "source": "X：Berry Xia (@berryxia)",
-      "href": "https://x.com/berryxia/status/2074827915779580055",
-      "publishedAt": "2026-07-08T12:08:18.000Z"
     }
   ]
 }
