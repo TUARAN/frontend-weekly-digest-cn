@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-09T22:32:07.614Z",
-  "count": 27,
+  "updatedAt": "2026-07-09T23:29:30.174Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
+      "summary": "colibrì v1.0 引擎以纯 C 实现、零运行时依赖，可在约 25 GB RAM 的消费级电脑上运行 744B 参数的 GLM-5.2 MoE 模型。模型经 int4 量化后磁盘占用约 370 GB，常驻内存仅 9.9 GB，通过流式加载磁盘专家实现推理。冷解码速度约",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/JustVugg/colibri",
+      "publishedAt": "2026-07-09T22:18:12.902Z"
+    },
     {
       "topic": "行业",
       "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
@@ -17,22 +25,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
       "publishedAt": "2026-07-09T21:47:50.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "GPT-5.6 系列模型发布",
-      "summary": "OpenAI 发布 GPT-5.6 系列，包括旗舰 Sol、日常平衡 Terra 和最高性价比 Luna。Sol 在 Agents' Last Exam 上取得 53.6 分，超 Claude Fable 5（自适应推理）13.1 分；在 Coding Agent Index 上 80 分，超 Fable 5 2.8 分，同时输出 token 减少一半以上、时间缩短一半以上、成本降低约三分之一。Terra 和 Luna 以约十六分之一成本超越 Fable 5。模型支持 Programmatic Tool Calling 和 ultra 模式（协调多个智能体并行工作），配备多层安全防护。现已正式可用。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://openai.com/index/gpt-5-6",
-      "publishedAt": "2026-07-09T21:46:30.443Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 推出 ChatGPT Work 智能体",
-      "summary": "OpenAI 于 7 月 9 日推出 ChatGPT Work，这是一款能跨应用和文件执行操作的智能体，基于最新前沿模型 GPT-5.6。ChatGPT Work 可将复杂项目拆解为小步骤自主完成，生成表格、幻灯片、文档和网页应用，并支持 Scheduled Tasks 在用户离线时推进工作。内置 Codex 技术，每周超 500 万人使用 Codex，其中超 100 万人用于非软件开发场景。即日起向 Pro、Enterprise、Edu 用户开放，未来几天覆盖 Plus 和 Business 计划；桌面端免费用户也可使用 Chat、Work 和 Codex。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "publishedAt": "2026-07-09T21:46:30.429Z"
     },
     {
       "topic": "技巧",
@@ -60,7 +52,7 @@
     },
     {
       "topic": "模型",
-      "title": "title",
+      "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
       "summary": "",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://cognition.com/blog/swe-1-7",
@@ -164,14 +156,6 @@
     },
     {
       "topic": "模型",
-      "title": "GPT-5.6 系列模型发布：Sol、Terra、Luna",
-      "summary": "OpenAI 推出 GPT-5.6 系列，包括旗舰 Sol、平衡型 Terra 和成本最优 Luna。在 Agents' Last Exam 上，Sol 以 53.6 分超越 Claude Fable 5（自适应推理）13.1 分；中等推理时以约四分之一成本领先 11.4 分。Terra 和 Luna 以约十六分之一成本超越 Fable 5。在 Artificial Analysis Coding Agent Index 上，Sol 以 80 分创 SOTA，高于 Fable 5 的 2.8 分，使用不到一半输出 token、一半时间，成本低约三分之一。引入 Programmatic Tool Calling 减少中间数据往返，ultra 模式协调多个智能体加速复杂任务。模型配备迄今最强安全防护，经人类红队和自动化测试验证。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/gpt-5-6",
-      "publishedAt": "2026-07-09T10:00:00.000Z"
-    },
-    {
-      "topic": "模型",
       "title": "NVIDIA 发布 Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型，服务器吞吐量提升 2.03 倍",
       "summary": "NVIDIA 发布 Nemotron-3-Super 的压缩变体 Nemotron-Labs-3-Puzzle-75B-A9B，总参数从 120.7B 降至 75.3B，活跃参数从 12.8B 降至 9.3B，保持 88 块混合布局（40 Mamba、40 MoE、8 注意力）。在 8×B200 节点上，8K/64K 场景匹配用户吞吐量≥100 tok/s 时，服务器吞吐量提升 2.03 倍。单 H100 上 1M-token 并发从 1 增至 8，权重占用从 70 GB 降至 44.5 GB。迭代式 Puzzle 方法平均得分比单步高 0.57。代价：Arena-Hard-V2 降 4.2 分、SWE-Bench 降 2.6 分。Hugging Face 提供 BF16、FP8、NVFP4 检查点。",
       "source": "MarkTechPost（RSS）",
@@ -201,14 +185,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
       "publishedAt": "2026-07-09T00:45:39.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "GPT-5.6 成为 Microsoft 365 Copilot 首选模型",
-      "summary": "OpenAI 宣布 GPT-5.6 将作为 Microsoft 365 Copilot 的首选模型，覆盖 Word、Excel、PowerPoint、Chat 和 Cowork。该集成使用户能在日常工具中以更少提示轮次创建更高质量文档、进行更深入数据分析、生成更精美演示，并完成跨职能协作。GPT-5.6 在每个 token 上提供更实用的工作产出，性价比更强，并支持按需处理最复杂任务。微软通过 OpenAI API 直接调用该模型服务 Microsoft 365 客户。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "publishedAt": "2026-07-09T00:00:00.000Z"
     },
     {
       "topic": "行业",
