@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-09T05:22:09.654Z",
-  "count": 14,
+  "updatedAt": "2026-07-09T07:17:40.035Z",
+  "count": 12,
   "items": [
     {
       "topic": "模型",
@@ -97,22 +97,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
       "publishedAt": "2026-07-08T08:29:47.091Z"
-    },
-    {
-      "topic": "论文",
-      "title": "黑客可利用9款最流行的AI工具组装大规模僵尸网络",
-      "summary": "提示注入已成为AI安全的首要威胁--大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
-      "publishedAt": "2026-07-08T07:00:51.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "工信部发布Claude Code后门安全风险提示",
-      "summary": "中国工信部发布风险提示，指出 Claude Code 2.1.91 至 2.1.196 版本内置监控机制，未经用户同意即向远程服务器回传用户地域、身份标识等敏感信息。建议相关单位立即全面排查，对受影响版本卸载或升级至已清除后门代码的最新安全版本，并加强开发工具外联权限管控与流量监测，防止敏感数据违规外传。",
-      "source": "X：小互 (@xiaohu)",
-      "href": "https://x.com/xiaohu/status/2074736623284256881",
-      "publishedAt": "2026-07-08T06:05:32.000Z"
     }
   ]
 }
