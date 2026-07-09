@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-09T13:59:17.921Z",
-  "count": 12,
+  "updatedAt": "2026-07-09T15:09:02.112Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Mistral 推出 Studio，为 AI 提示词和技能提供系统记录",
+      "summary": "Mistral 今日推出 Studio，为 AI 提示词和技能提供集中式系统记录。平台将 prompts 和 skills 视为生产资产，支持不可变版本、回滚、明确所有权、分类标签和审计日志，保证变更可追溯。非开发者可直接编辑测试，通过标签将变更推送至生产，保留原有 CI/CD 流程。可观测性让生产输出回溯到对应资产版本，形成闭环治理。现面向 Mistral Studio 客户开放。",
+      "source": "Mistral AI：News（网页）",
+      "href": "https://mistral.ai/news/manage-prompts-and-skills-in-studio",
+      "publishedAt": "2026-07-09T14:33:44.761Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "TeXada：基于MiniCPM的本地数学Agent发布",
+      "summary": "社区开发者基于MiniCPM5-1B和MiniCPM-V 4.6构建了本地优先的数学智能体TeXada。该Agent支持自然语言直接转LaTeX、手写/图像公式OCR转可编辑LaTeX、LaTeX补全与错误修复等核心功能。所有推理在本地完成，无需依赖云服务，保障隐私安全，适用于学生、研究人员和开发者随时随地处理数学表达式。已开源至GitHub，并提供HuggingFace模型下载。",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2075218678027850154",
+      "publishedAt": "2026-07-09T14:01:03.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Meta 发布 Muse Spark 1.1 模型",
+      "summary": "来自 @finkd 的消息 - Muse Spark 1.1 已上线。",
+      "source": "X：AI at Meta (@AIatMeta)",
+      "href": "https://x.com/AIatMeta/status/2075218647359111460",
+      "publishedAt": "2026-07-09T14:00:55.000Z"
+    },
     {
       "topic": "产品",
       "title": "Claude 推出反思功能（Beta）",
@@ -51,6 +75,14 @@
       "publishedAt": "2026-07-09T00:45:39.000Z"
     },
     {
+      "topic": "行业",
+      "title": "Ollama 开发者数达890万，B轮融资由Theory领投",
+      "summary": "Ollama 让开源模型在本地或云端轻松运行，保持体验一致。目前拥有890万开发者、6.7万集成，并与各大模型实验室及硬件供应商建立合作。B轮融资由Theory领投。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "href": "https://www.tomtunguz.com/ollama-series-b",
+      "publishedAt": "2026-07-09T00:00:00.000Z"
+    },
+    {
       "topic": "论文",
       "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
       "summary": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后\"遗忘\"技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
@@ -81,22 +113,6 @@
       "source": "Ars Technica：AI（RSS）",
       "href": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
       "publishedAt": "2026-07-08T19:56:37.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit 推出社区档案与力量排名",
-      "summary": "本周新功能 🚀 Replit 社区档案--vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2074871322220339515",
-      "publishedAt": "2026-07-08T15:00:47.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter聊天室推出一键零数据保留",
-      "summary": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "href": "https://x.com/OpenRouter/status/2074870468394250461",
-      "publishedAt": "2026-07-08T14:57:23.000Z"
     }
   ]
 }
