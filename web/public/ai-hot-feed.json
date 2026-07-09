@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-09T17:39:10.380Z",
+  "updatedAt": "2026-07-09T18:38:25.449Z",
   "count": 18,
   "items": [
     {
-      "topic": "模型",
-      "title": "GPT-5.6 系列 Sol/Terra/Luna 发布",
-      "summary": "Sol、Terra 和 Luna，我们的 GPT-5.6 模型系列，现在开始在 ChatGPT、Codex 和 API 中推出。",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2075271421149020426",
-      "publishedAt": "2026-07-09T17:30:38.000Z"
+      "topic": "行业",
+      "title": "Anthropic发起\"硬问题\"倡议，邀请公众提出AI相关尖锐问题",
+      "summary": "Anthropic作为公益公司，发起\"硬问题\"倡议，邀请公众就AI对就业、社会、家庭、科学医学等领域的影响提出最尖锐的问题。此前已通过多种方式收集看法：首轮调查询问5.2万美国人；通过Anthropic Interviewer调查了159个国家70种语言的8.1万Claude用户；开展数十场线下焦点小组；并基于匿名真实数据研究Claude使用情况。公司还设立了Anthropic Institute和Long-Term Benefit Trust以监督公益使命进展。Anthropic承诺将公开追踪并报告针对这些问题的具体行动及成效。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/hard-questions",
+      "publishedAt": "2026-07-09T17:40:42.612Z"
     },
     {
       "topic": "模型",
