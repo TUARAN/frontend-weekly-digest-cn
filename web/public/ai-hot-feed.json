@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-09T15:09:02.112Z",
-  "count": 14,
+  "updatedAt": "2026-07-09T16:52:52.415Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic长期利益信托任命本·伯南克为受托人",
+      "summary": "Anthropic的长期利益信托（LTBT）任命前美联储主席、2022年诺贝尔经济学奖得主本·伯南克为最新受托人。他将与另外三位受托人共同监督公司以对社会长期有益的方式负责任开发先进AI的使命。LTBT独立于管理团队和投资者，受托人不持股、不分红，仅按服务时间获酬。该信托有权向Anthropic董事会任命成员，并就AI风险与社会影响等关键决策提供建议。伯南克将参与公司的经济研究，帮助理解AI对全球劳动力与经济的影响。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/ben-bernanke",
+      "publishedAt": "2026-07-09T16:40:37.929Z"
+    },
+    {
+      "topic": "行业",
+      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
+      "summary": "据晚点LatePost报道，特斯拉Optimus Gen 3经马斯克评审通过，即将量产。供应链要求供应商9月产能达1000台/周，年底升至2000-2500台/周，届时年产能可达10万台。马斯克六月底高管会上要求年底前实现产能目标，否则开除整个Optimus采购团队。弗里蒙特工厂已改造为Optimus生产线，Model S/X于5月停产。马斯克表示初期生产极其缓慢，低产量夏季启动，高产量2027年展开。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/974/782.htm",
+      "publishedAt": "2026-07-09T15:48:31.000Z"
+    },
     {
       "topic": "产品",
       "title": "Mistral 推出 Studio，为 AI 提示词和技能提供系统记录",
@@ -81,14 +97,6 @@
       "source": "Tomer Tunguz 博客（VC 分析）",
       "href": "https://www.tomtunguz.com/ollama-series-b",
       "publishedAt": "2026-07-09T00:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
-      "summary": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后\"遗忘\"技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "href": "https://www.anthropic.com/research/off-switch-dual-use",
-      "publishedAt": "2026-07-08T23:27:02.554Z"
     },
     {
       "topic": "行业",
