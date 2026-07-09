@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-09T16:52:52.415Z",
-  "count": 15,
+  "updatedAt": "2026-07-09T17:39:10.380Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "模型",
+      "title": "GPT-5.6 系列 Sol/Terra/Luna 发布",
+      "summary": "Sol、Terra 和 Luna，我们的 GPT-5.6 模型系列，现在开始在 ChatGPT、Codex 和 API 中推出。",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2075271421149020426",
+      "publishedAt": "2026-07-09T17:30:38.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "OpenAI 发布最强模型与最佳博文",
+      "summary": "显然是我们有史以来最好的模型，也是我们写得最好的博文之一：\n\nhttps://openai.com/index/gpt-5-6/",
+      "source": "X：Sam Altman (@sama)",
+      "href": "https://x.com/sama/status/2075266471316615436",
+      "publishedAt": "2026-07-09T17:10:58.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic长期利益信托任命本·伯南克为受托人",
@@ -57,6 +73,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/974/744.htm",
       "publishedAt": "2026-07-09T13:01:09.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
+      "summary": "OpenAI 发布 ChatGPT Work，一个能跨应用和文件收集信息、将复杂项目分解为小步骤独立完成并持续工作数小时的 AI 智能体。它内置 Codex 技术，目前每周超 500 万用户使用 Codex，其中超 100 万用于非软件开发场景。ChatGPT Work 由今天同步推出的最新前沿模型 GPT-5.6 驱动，具备多步骤推理和按模板生成材料的能力。该功能今天起面向 Pro、Enterprise 和 Edu 计划推出，未来几天扩展至 Plus 和 Business 计划。桌面版 ChatGPT 在所有计划（含免费版）中提供 Chat、Work 和 Codex 模式，且 Codex 应用已合并至新的桌面应用。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "publishedAt": "2026-07-09T10:00:00.000Z"
     },
     {
       "topic": "模型",
