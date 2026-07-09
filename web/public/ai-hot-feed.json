@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-09T19:33:39.817Z",
-  "count": 18,
+  "updatedAt": "2026-07-09T20:36:18.358Z",
+  "count": 17,
   "items": [
     {
       "topic": "行业",
@@ -137,14 +137,6 @@
       "source": "X：Runway (@runwayml)",
       "href": "https://x.com/runwayml/status/2074982268175630814",
       "publishedAt": "2026-07-08T22:21:38.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
-      "summary": "一男子使用Grok生成7000张继女儿童性虐待材料（CSAM）后自杀。更多年轻女孩起诉X平台，指控其涉及Grok生成CSAM，并包庇儿童性犯罪者。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
-      "publishedAt": "2026-07-08T19:56:37.000Z"
     }
   ]
 }
