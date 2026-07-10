@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-10T07:14:10.932Z",
-  "count": 23,
+  "updatedAt": "2026-07-10T09:09:02.748Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "行业",
+      "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+      "summary": "Meta CEO 扎克伯格首次正面回应公司筹划云基础设施业务一事，否认\"算力过剩\"猜测，称内部算力需求依然旺盛、满负荷运转。但他同时表示，当前市场对算力出价极高，将部分 AI 基础设施对外出租在财务上更划算。Meta 正制定代号\"Meta Compute\"的云计算计划，包括开放模型访问权限和直接出租裸算力两条路线。扎克伯格还提及 SpaceX 以每月 12.5 亿美元将数据中心租给 Anthropic 的模式。Meta 2026 年资本支出指引达 1250 亿至 1450 亿美元，计划 2026 年 9 月量产自研 AI 芯片，目标 2027 年部署算力提升至 14 吉瓦。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/975/078.htm",
+      "publishedAt": "2026-07-10T07:26:10.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "马斯克承认Anthropic是当前AI领导者",
+      "summary": "马斯克在X上发文承认自己此前对Anthropic的判断有误，称其\"显然是当前AI领域的领导者\"。他表示，没有公司发布过像Mythos/Fable这样优秀的模型，并相信Anthropic很快会推出Mythos 2。他还强调，即使作为竞争对手，也不会以伤害对方的方式切断合作，并列举了特斯拉开源专利、开放超级充电网络等先例。该推文被Rohan Paul转发，称这是Anthropic\"最强有力的炫耀\"。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "href": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+      "publishedAt": "2026-07-10T07:20:46.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+      "summary": "Elon Musk 转发用户 @0x0funky 对 Grok Build 的称赞。该用户称 Grok Build 是目前唯一集大成的 coding agentic workflow，内建图像生成和图片生视频功能，生图速度快且品质不输 Codex。Agent 可直接完成图像与视频生成，无需额外串接 MCP 或外部服务。用户结合 Agent Sprite Forge 工具，利用 Grok Build 的视频生成能力，先产出 6 秒角色动作视频再反编译为 game sprite，大幅减少对齐问题，制作 2D 横版游戏耗时不到 30 分钟，而此前用 Codex 需 1-2 小时且品质更优。",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "href": "https://x.com/elonmusk/status/2075478792273842370",
+      "publishedAt": "2026-07-10T07:14:39.000Z"
+    },
     {
       "topic": "产品",
       "title": "Claude Code v2.1.206 发布",
@@ -25,14 +49,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/JustVugg/colibri",
       "publishedAt": "2026-07-09T22:18:12.902Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
-      "summary": "Elon Musk近日在X上承认此前对Anthropic的判断有误，称其\"显然是当前AI领域的领导者\"，盛赞Mythos/Fable模型\"目前最好\"，并承诺不会恶意切断其计算资源。2026年7月起，Anthropic成为SpaceX最大客户之一--双方5月签署协议，Anthropic以每月12.5亿美元（至2029年5月，总计约400亿美元）购买xAI旗下Colossus 1数据中心300兆瓦全部算力。Musk以特斯拉开放专利、超充网络等先例佐证其\"不挤压竞争对手\"的风格，合同条款也提供了保障。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
-      "publishedAt": "2026-07-09T21:57:42.000Z"
     },
     {
       "topic": "技巧",
@@ -177,14 +193,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "publishedAt": "2026-07-09T10:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "NVIDIA 发布 Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型，服务器吞吐量提升 2.03 倍",
-      "summary": "NVIDIA 发布 Nemotron-3-Super 的压缩变体 Nemotron-Labs-3-Puzzle-75B-A9B，总参数从 120.7B 降至 75.3B，活跃参数从 12.8B 降至 9.3B，保持 88 块混合布局（40 Mamba、40 MoE、8 注意力）。在 8×B200 节点上，8K/64K 场景匹配用户吞吐量≥100 tok/s 时，服务器吞吐量提升 2.03 倍。单 H100 上 1M-token 并发从 1 增至 8，权重占用从 70 GB 降至 44.5 GB。迭代式 Puzzle 方法平均得分比单步高 0.57。代价：Arena-Hard-V2 降 4.2 分、SWE-Bench 降 2.6 分。Hugging Face 提供 BF16、FP8、NVFP4 检查点。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
-      "publishedAt": "2026-07-09T08:47:37.000Z"
     }
   ]
 }
