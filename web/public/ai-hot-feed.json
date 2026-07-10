@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T05:22:12.769Z",
-  "count": 25,
+  "updatedAt": "2026-07-10T07:14:10.932Z",
+  "count": 23,
   "items": [
     {
       "topic": "产品",
@@ -185,22 +185,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
       "publishedAt": "2026-07-09T08:47:37.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video",
-      "summary": "蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型。总参数30B，推理时仅激活约3B，效率较同规模Dense架构提升约3倍。模型引入7万小时VLA、VLN、Ego等机器人数据，并通过多维强化学习奖励系统对齐物理合理性与任务完成度。在RBench上总分0.620，超越Wan2.6等模型；在Physics-IQ Verified评测中排名第一。可用于机器人动作预测、仿真数据生成等方向。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/974/517.htm",
-      "publishedAt": "2026-07-09T07:06:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-      "summary": "蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演化，并支持多人同时交互。模型采用因果预训练范式和混合双向自回归注意力掩码（MoBA），可稳定输出 720p/60fps 实时画面，长达一小时测试画质不衰减。通过一致性蒸馏与 DMD 降低采样成本，结合注意力 kernel 优化、混合并行推理、动态 KV 缓存调度和异步流媒体传输实现低延迟交互。模型权重及推理代码以非商用协议开源，SGLang 已适配，并提供 Reactor PC 端和灵光 APP 在线体验。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/974/508.htm",
-      "publishedAt": "2026-07-09T06:53:40.000Z"
     }
   ]
 }
