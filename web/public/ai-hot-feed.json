@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-10T14:56:54.833Z",
+  "updatedAt": "2026-07-10T15:51:02.055Z",
   "count": 19,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Perplexity 推出跨模型信用额度分析功能",
+      "summary": "推出 Computer Analytics：你现在可以跨模型跟踪信用额度支出。\n\n该功能现已面向个人和企业用户开放，可在账户设置的 Analytics 下使用。",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2075599540640714863",
+      "publishedAt": "2026-07-10T15:14:27.000Z"
+    },
     {
       "topic": "产品",
       "title": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
@@ -145,14 +153,6 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/ben-bernanke",
       "publishedAt": "2026-07-09T16:40:37.929Z"
-    },
-    {
-      "topic": "行业",
-      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
-      "summary": "据晚点LatePost报道，特斯拉Optimus Gen 3经马斯克评审通过，即将量产。供应链要求供应商9月产能达1000台/周，年底升至2000-2500台/周，届时年产能可达10万台。马斯克六月底高管会上要求年底前实现产能目标，否则开除整个Optimus采购团队。弗里蒙特工厂已改造为Optimus生产线，Model S/X于5月停产。马斯克表示初期生产极其缓慢，低产量夏季启动，高产量2027年展开。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/974/782.htm",
-      "publishedAt": "2026-07-09T15:48:31.000Z"
     }
   ]
 }
