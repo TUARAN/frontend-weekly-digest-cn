@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-10T22:23:23.334Z",
-  "count": 12,
+  "updatedAt": "2026-07-10T23:21:46.764Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "论文",
+      "title": "博科圣地如何利用前沿AI技术",
+      "summary": "2025至2026年间对尼日利亚东北部27名前\"博科圣地\"成员的半结构化访谈揭示了该组织在2024年系统性地利用前沿AI技术。两大派系均使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek辅助作战与日常运作，AI应用已通过专门小组和内部培训实现制度化。成员成功绕过部分安全限制，将AI用于袭击策划、武器故障排查及爆炸装置设计。相关技术通过跨国圣战网络传播，伊斯兰国特工提供了面对面培训。受访者对AI表现出强烈热情，部分人对大规模杀伤性武器持开放态度，但记录在案的使用仍限于常规手段。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://casp.ac/reports/ai-enabled-terrorism",
+      "publishedAt": "2026-07-10T22:07:19.177Z"
+    },
     {
       "topic": "行业",
       "title": "Apple 起诉 OpenAI 窃取商业机密",
