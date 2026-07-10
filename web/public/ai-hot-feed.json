@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-10T20:32:53.704Z",
-  "count": 19,
+  "updatedAt": "2026-07-10T21:24:49.688Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "行业",
+      "title": "苹果起诉OpenAI窃取商业机密",
+      "summary": "Apple vs OpenAI 🍿\n\n据彭博社报道，苹果正在起诉OpenAI，指控其窃取商业机密。\n\n硬件大战即将来临 🤖",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "href": "https://x.com/testingcatalog/status/2075688202967363996",
+      "publishedAt": "2026-07-10T21:06:46.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Apple 起诉 OpenAI 窃取商业机密",
+      "summary": "Apple 于周五向美国加州北区联邦法院提起诉讼，指控 OpenAI 窃取商业机密并违反合同。诉状称，OpenAI 高级领导层（包括首席硬件官 Tang Tan）指使前 Apple 员工在招聘过程中窃取机密，包括使用未发布产品的项目代号、要求应聘者携带硬件组件参加面试。Apple 还指控前高级系统电气工程师 Chang Liu 在 2026 年离职加入 OpenAI 后未归还公司笔记本电脑，并用其下载机密技术文档。Apple 称其机密信息已被 OpenAI 用于开发自有硬件产品，例如一项专有金属精加工技术。Apple 要求法院禁止 OpenAI 使用或披露其商业机密，并归还相关材料。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
+      "publishedAt": "2026-07-10T20:32:00.000Z"
+    },
     {
       "topic": "论文",
       "title": "宇树G1人形机器人完成首例活体微创手术",
@@ -145,14 +161,6 @@
       "source": "X：OpenAI Developers (@OpenAIDevs)",
       "href": "https://x.com/OpenAIDevs/status/2075331020090687666",
       "publishedAt": "2026-07-09T21:27:27.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google 推出 LiteRT.js：高性能 Web AI 推理运行时",
-      "summary": "Google 发布 LiteRT.js，这是 LiteRT 跨平台边缘 AI 运行时的最新成员，专为 JavaScript 开发者设计，可直接在浏览器中运行机器学习模型。LiteRT.js 基于 WebGPU 和即将推出的 WebNN 实现 SOTA 推理性能，同时支持回退到 WebAssembly CPU 方案。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference",
-      "publishedAt": "2026-07-09T21:21:08.292Z"
     }
   ]
 }
