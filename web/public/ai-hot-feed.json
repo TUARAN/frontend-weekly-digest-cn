@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-09T23:29:30.174Z",
+  "updatedAt": "2026-07-10T00:41:26.301Z",
   "count": 24,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
+      "summary": "Google Research 发布 SensorFM，一个在超过 100 万亿分钟多模态传感器数据上预训练的大规模基础模型，数据来自 500 万同意参与者，涵盖 100 多个国家及 20 余款 Fitbit 和 Pixel Watch 设备。SensorFM 学习通用的人体生理表征，可迁移至心血管、代谢、睡眠、心理健康及生活方式等 35 项健康预测任务，支持标签高效适配与数据填充，并可作为个人健康智能体的基础工具。该模型旨在解决传统可穿戴健康模型针对单一终点、难以泛化的问题。",
+      "source": "Google Research：Blog（网页）",
+      "href": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
+      "publishedAt": "2026-07-10T00:20:20.110Z"
+    },
     {
       "topic": "产品",
       "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
@@ -185,14 +193,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
       "publishedAt": "2026-07-09T00:45:39.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Ollama 开发者数达890万，B轮融资由Theory领投",
-      "summary": "Ollama 让开源模型在本地或云端轻松运行，保持体验一致。目前拥有890万开发者、6.7万集成，并与各大模型实验室及硬件供应商建立合作。B轮融资由Theory领投。",
-      "source": "Tomer Tunguz 博客（VC 分析）",
-      "href": "https://www.tomtunguz.com/ollama-series-b",
-      "publishedAt": "2026-07-09T00:00:00.000Z"
     }
   ]
 }
