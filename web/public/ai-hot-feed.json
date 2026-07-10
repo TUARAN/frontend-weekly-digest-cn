@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-10T09:09:02.748Z",
+  "updatedAt": "2026-07-10T11:03:13.279Z",
   "count": 24,
   "items": [
+    {
+      "topic": "论文",
+      "title": "小红书发布大模型新架构 PIPO",
+      "summary": "小红书提出 PIPO 架构，通过输入侧压缩器将两个 token 折叠为一个 latent，输出侧 MTP head 将隐藏状态展开为额外 token，实现输入长度减半、每步输出翻倍。基于 Qwen3.5-4B/9B backbone，在 AIME 2025 等基准上最高带来 +7.15 pass@4 提升。部署测评中，TTFT 加速约 1.23×，TPOT 加速约 1.86×。训练采用 SFT 和 On-Policy Distillation 两阶段，将 verifier 校验能力蒸馏进轻量 confidence head。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "href": "https://mp.weixin.qq.com/s/1eo7rrCAH-OA0TnXwwqJEg",
+      "publishedAt": "2026-07-10T09:59:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
@@ -185,14 +193,6 @@
       "source": "公众号：龙猫LongCat（美团）",
       "href": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
       "publishedAt": "2026-07-09T11:58:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
-      "summary": "OpenAI 发布 ChatGPT Work，一个能跨应用和文件收集信息、将复杂项目分解为小步骤独立完成并持续工作数小时的 AI 智能体。它内置 Codex 技术，目前每周超 500 万用户使用 Codex，其中超 100 万用于非软件开发场景。ChatGPT Work 由今天同步推出的最新前沿模型 GPT-5.6 驱动，具备多步骤推理和按模板生成材料的能力。该功能今天起面向 Pro、Enterprise 和 Edu 计划推出，未来几天扩展至 Plus 和 Business 计划。桌面版 ChatGPT 在所有计划（含免费版）中提供 Chat、Work 和 Codex 模式，且 Codex 应用已合并至新的桌面应用。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "publishedAt": "2026-07-09T10:00:00.000Z"
     }
   ]
 }
