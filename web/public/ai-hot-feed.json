@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T03:08:02.940Z",
-  "count": 24,
+  "updatedAt": "2026-07-10T05:22:12.769Z",
+  "count": 25,
   "items": [
     {
       "topic": "产品",
@@ -68,8 +68,8 @@
     },
     {
       "topic": "模型",
-      "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
-      "summary": "",
+      "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
+      "summary": "Cognition 发布迄今最强模型 SWE-1.7，基于 Kimi K2.7 基座训练，通过强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）实现前沿智能水平并大幅降低成本。在 FrontierCode 1.1 Main 基准上达 42.3%（Kimi K2.7 Code 为 30.1%，GPT-5.5 为 43.0%，Opus 4.8 为 46.5%），Terminal-Bench 2.1 达 81.5%，SWE-Bench Multilingual 达 77.8%。模型针对长周期异步任务优化，现已在 Devin（Web、桌面、CLI）通过 Cerebras 以 1000 TPS 提供。",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://cognition.com/blog/swe-1-7",
       "publishedAt": "2026-07-09T21:46:17.901Z"
@@ -161,6 +161,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/974/744.htm",
       "publishedAt": "2026-07-09T13:01:09.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
+      "summary": "美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计。模型引入 LongCat 稀疏注意力机制与 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力。LongCat-2.0 是业界首个在五万卡国产算力集群上完成推理的万亿参数模型，从模型架构、芯片适配到部署策略进行深度协同优化，支持百万上下文高效推理。开源同步提供 BF16、FP8、INT8 等多精度版本及针对国产算力极致优化的推理代码。",
+      "source": "公众号：龙猫LongCat（美团）",
+      "href": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
+      "publishedAt": "2026-07-09T11:58:00.000Z"
     },
     {
       "topic": "模型",
