@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-10T17:35:07.044Z",
-  "count": 17,
+  "updatedAt": "2026-07-10T18:32:37.774Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "论文",
+      "title": "宇树G1人形机器人完成首例活体微创手术",
+      "summary": "一篇新的《自然》论文展示了宇树G1人形机器人执行研究人员所称的首例由人形机器人完成的活体标准微创手术。加州大学圣地亚哥团队使用G1，以常规手术器械完成了对两只活猪的腹腔镜胆囊切除术；第二次手术耗时32分钟。该机器人仍需反复校正，且尚无法满足手术无菌标准，但其成本可能仅为达芬奇系统的约5%。",
+      "source": "X：X.PIN (@thexpin)",
+      "href": "https://x.com/thexpin/status/2075640168896516139",
+      "publishedAt": "2026-07-10T17:55:54.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Code桌面版新增应用内浏览器",
+      "summary": "Claude Code 桌面版现在有了应用内浏览器。\n\nClaude 可以调出文档、设计稿或任何其他网站。它可以像操作本地开发服务器一样，进行阅读、点击浏览和交互。\n\n该浏览器采用沙盒机制且可配置：你可以自行选择会话是否持久保留。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2075635283211772279",
+      "publishedAt": "2026-07-10T17:36:29.000Z"
+    },
     {
       "topic": "论文",
       "title": "DeepSeek-V4 Flash 强化学习训练登陆 AMD Instinct MI355X GPU，由 Miles 框架支持",
