@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-10T13:40:36.612Z",
-  "count": 21,
+  "updatedAt": "2026-07-10T14:56:54.833Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "产品",
+      "title": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
+      "summary": "百度搭子在成都百度AI Day上发布四项更新。个人版新增浏览器调用、智能路由（平均任务耗时降20%，Token利用率提升25%）、多端共享记忆及强化PPT生成，并上架\"一镜\"数字人制作、\"灵医\"报告解读等Skill。行业首个自媒体专业套件支持选题到复盘全链路。企业版支持团队协作与权限管理。搭子联盟启动，中国联通等已加入。上线三个月，日均提问量增长20倍。",
+      "source": "公众号：百度智能云（文心）",
+      "href": "https://mp.weixin.qq.com/s/Haqbjim9YGmRu1XpxG_VvA",
+      "publishedAt": "2026-07-10T13:58:07.000Z"
+    },
     {
       "topic": "论文",
       "title": "小红书发布大模型新架构 PIPO",
@@ -145,30 +153,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/974/782.htm",
       "publishedAt": "2026-07-09T15:48:31.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Mistral 推出 Studio，为 AI 提示词和技能提供系统记录",
-      "summary": "Mistral 今日推出 Studio，为 AI 提示词和技能提供集中式系统记录。平台将 prompts 和 skills 视为生产资产，支持不可变版本、回滚、明确所有权、分类标签和审计日志，保证变更可追溯。非开发者可直接编辑测试，通过标签将变更推送至生产，保留原有 CI/CD 流程。可观测性让生产输出回溯到对应资产版本，形成闭环治理。现面向 Mistral Studio 客户开放。",
-      "source": "Mistral AI：News（网页）",
-      "href": "https://mistral.ai/news/manage-prompts-and-skills-in-studio",
-      "publishedAt": "2026-07-09T14:33:44.761Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "TeXada：基于MiniCPM的本地数学Agent发布",
-      "summary": "社区开发者基于MiniCPM5-1B和MiniCPM-V 4.6构建了本地优先的数学智能体TeXada。该Agent支持自然语言直接转LaTeX、手写/图像公式OCR转可编辑LaTeX、LaTeX补全与错误修复等核心功能。所有推理在本地完成，无需依赖云服务，保障隐私安全，适用于学生、研究人员和开发者随时随地处理数学表达式。已开源至GitHub，并提供HuggingFace模型下载。",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2075218678027850154",
-      "publishedAt": "2026-07-09T14:01:03.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Meta 发布 Muse Spark 1.1 模型",
-      "summary": "来自 @finkd 的消息 - Muse Spark 1.1 已上线。",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "href": "https://x.com/AIatMeta/status/2075218647359111460",
-      "publishedAt": "2026-07-09T14:00:55.000Z"
     }
   ]
 }
