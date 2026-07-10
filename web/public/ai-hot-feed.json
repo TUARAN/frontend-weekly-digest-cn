@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T00:41:26.301Z",
-  "count": 24,
+  "updatedAt": "2026-07-10T01:37:16.262Z",
+  "count": 23,
   "items": [
     {
       "topic": "模型",
@@ -185,14 +185,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/974/508.htm",
       "publishedAt": "2026-07-09T06:53:40.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型",
-      "summary": "Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型。它以 Qwen3-VL-4B-Instruct 为骨干，采用 MoE 动作专家架构，通过 55 维规范向量统一表示不同机器人的状态和动作。训练数据涵盖约 60，000 小时高质量数据（50，000 小时机器人轨迹 + 10，000 小时第一人称人类视频），覆盖 20 种机器人配置。在 GM-100 双机械臂基准测试中，模型在多个平台上超越 π0.5 和之前版本。模型权重、代码和技术报告已以 Apache-2.0 许可开源。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
-      "publishedAt": "2026-07-09T00:45:39.000Z"
     }
   ]
 }
