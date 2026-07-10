@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-07-10T21:24:49.688Z",
-  "count": 20,
+  "updatedAt": "2026-07-10T22:23:23.334Z",
+  "count": 12,
   "items": [
-    {
-      "topic": "行业",
-      "title": "苹果起诉OpenAI窃取商业机密",
-      "summary": "Apple vs OpenAI 🍿\n\n据彭博社报道，苹果正在起诉OpenAI，指控其窃取商业机密。\n\n硬件大战即将来临 🤖",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "href": "https://x.com/testingcatalog/status/2075688202967363996",
-      "publishedAt": "2026-07-10T21:06:46.000Z"
-    },
     {
       "topic": "行业",
       "title": "Apple 起诉 OpenAI 窃取商业机密",
@@ -105,62 +97,6 @@
       "source": "Thinking Machines Lab：官方博客（RSS）",
       "href": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human",
       "publishedAt": "2026-07-10T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
-      "summary": "colibrì v1.0 引擎以纯 C 实现、零运行时依赖，可在约 25 GB RAM 的消费级电脑上运行 744B 参数的 GLM-5.2 MoE 模型。模型经 int4 量化后磁盘占用约 370 GB，常驻内存仅 9.9 GB，通过流式加载磁盘专家实现推理。冷解码速度约",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/JustVugg/colibri",
-      "publishedAt": "2026-07-09T22:18:12.902Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI 能否回答 3 万亿美元的问题？",
-      "summary": "Sequoia 合伙人 David Cahn 更新 AI 基础设施支出估算：2026 年全球投入达 1.5 万亿美元，行业需产生 3 万亿美元收入才能回本。Anthropic 年化收入（ARR）达 600 亿美元，OpenAI 2025 年收入 130 亿美元（11 月称 ARR 200 亿美元），但缺口仍大。Apollo 首席经济学家指出，谷歌、Meta、微软、亚马逊均预测 2028 年自由现金流加速，但风险在于更多组织转向更便宜的开放权重模型（尤其中国模型），且 OpenAI 最新模型编码任务 token 效率提升 54%，导致 token 价格持续下降。若超大规模厂商现金流目标落空，可能引发经济衰退和标普 500 回调。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
-      "publishedAt": "2026-07-09T21:47:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "社交媒体AI生成内容泛滥：LinkedIn超过40%长文为AI写作",
-      "summary": "安全公司Pangram通过Chrome扩展收集超100万条帖子，分析发现社交媒体AI生成内容泛滥。整体AI检测率13.8%，长文（超250词）中25.72%完全由AI生成。LinkedIn最为严重，超40%长文帖子被标记为完全AI生成，占全部AI内容的62%；X/Twitter近一半文章（23.9%完全AI+22.9%混合）为AI写作。Reddit整体AI率仅4.4%，但顶层帖子AI率达11.6%。分析使用Pangram 3.3模型，假阳性率0.01%。Substack上长文AI率反而略低。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.pangram.com/blog/ai-in-your-feed",
-      "publishedAt": "2026-07-09T21:46:29.789Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Bun 被 Anthropic 收购后用 Rust 重写，月下载超 2200 万",
-      "summary": "Bun 于 2025 年 12 月被 Anthropic 收购，作者使用预发布版 Claude Fable 5 进行了大量 Rust 重写。Bun 最初用 Zig 在一年内构建，如今 CLI 月下载超 2200 万，被 Claude Code 等采用。广泛功能带来稳定性挑战，v1.3.14 修复了多项 use-after-free、内存泄漏等 bug。团队通过 ASAN、Fuzzilli 模糊测试等系统性预防，并借助 Rust 的内存安全特性减少此类缺陷。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://bun.com/blog/bun-in-rust",
-      "publishedAt": "2026-07-09T21:46:21.422Z"
-    },
-    {
-      "topic": "产品",
-      "title": "微软发布Flint：面向AI智能体的可视化语言",
-      "summary": "微软研究院推出Flint，一种可视化中间语言，让AI智能体通过简洁的人类可编辑spec自动生成美观图表。用户只需提供数据、语义类型和图表类型，Flint编译器即可推导坐标轴、配色、布局等底层参数。支持46种图表类型，可渲染到Vega-Lite、ECharts和Chart.js三个后端。项目通过npm安装（TypeScript/JavaScript），并提供MCP服务器用于智能体工作流集成。采用弹性布局模型自动优化图表尺寸与间距，已开源。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://microsoft.github.io/flint-chart",
-      "publishedAt": "2026-07-09T21:46:19.253Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
-      "summary": "Cognition 发布迄今最强模型 SWE-1.7，基于 Kimi K2.7 基座训练，通过强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）实现前沿智能水平并大幅降低成本。在 FrontierCode 1.1 Main 基准上达 42.3%（Kimi K2.7 Code 为 30.1%，GPT-5.5 为 43.0%，Opus 4.8 为 46.5%），Terminal-Bench 2.1 达 81.5%，SWE-Bench Multilingual 达 77.8%。模型针对长周期异步任务优化，现已在 Devin（Web、桌面、CLI）通过 Cerebras 以 1000 TPS 提供。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://cognition.com/blog/swe-1-7",
-      "publishedAt": "2026-07-09T21:46:17.901Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT Sites将创意变可发布网站",
-      "summary": "将一个想法变成可发布和分享的实时网站\n\n以下是OpenAI团队的一些成员用Sites构建的示例👇\n\n@prd_008 用Sites将一个想法变成了个人专注应用：",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2075331020090687666",
-      "publishedAt": "2026-07-09T21:27:27.000Z"
     }
   ]
 }
