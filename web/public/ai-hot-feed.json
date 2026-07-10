@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T15:51:02.055Z",
-  "count": 19,
+  "updatedAt": "2026-07-10T16:43:04.393Z",
+  "count": 17,
   "items": [
     {
       "topic": "产品",
@@ -59,12 +59,12 @@
       "publishedAt": "2026-07-10T01:45:26.000Z"
     },
     {
-      "topic": "模型",
-      "title": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
-      "summary": "Google Research 发布 SensorFM，一个在超过 100 万亿分钟多模态传感器数据上预训练的大规模基础模型，数据来自 500 万同意参与者，涵盖 100 多个国家及 20 余款 Fitbit 和 Pixel Watch 设备。SensorFM 学习通用的人体生理表征，可迁移至心血管、代谢、睡眠、心理健康及生活方式等 35 项健康预测任务，支持标签高效适配与数据填充，并可作为个人健康智能体的基础工具。该模型旨在解决传统可穿戴健康模型针对单一终点、难以泛化的问题。",
-      "source": "Google Research：Blog（网页）",
-      "href": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
-      "publishedAt": "2026-07-10T00:20:20.110Z"
+      "topic": "技巧",
+      "title": "Thinking Machines Lab：构建延伸人类意志与判断的 AI",
+      "summary": "Thinking Machines Lab 在官方博客中阐述其使命：构建能够延伸人类意志与判断的 AI。文章指出，当前多数 AI 在少数地方训练后便冻结，无法被使用者塑造。该实验室正致力于训练具备多模态交互和可定制化能力的强模型，开发允许用户训练模型权重的工具，并构建拓宽人机沟通渠道的界面。其核心理念是让 AI 服务于分布式的人类知识，使每个组织都能利用自身独特知识微调模型，并持续适应知识演变。",
+      "source": "Thinking Machines Lab：官方博客（RSS）",
+      "href": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human",
+      "publishedAt": "2026-07-10T00:00:00.000Z"
     },
     {
       "topic": "产品",
@@ -131,28 +131,12 @@
       "publishedAt": "2026-07-09T21:21:08.292Z"
     },
     {
-      "topic": "行业",
-      "title": "Anthropic发起\"硬问题\"倡议，邀请公众提出AI相关尖锐问题",
-      "summary": "Anthropic作为公益公司，发起\"硬问题\"倡议，邀请公众就AI对就业、社会、家庭、科学医学等领域的影响提出最尖锐的问题。此前已通过多种方式收集看法：首轮调查询问5.2万美国人；通过Anthropic Interviewer调查了159个国家70种语言的8.1万Claude用户；开展数十场线下焦点小组；并基于匿名真实数据研究Claude使用情况。公司还设立了Anthropic Institute和Long-Term Benefit Trust以监督公益使命进展。Anthropic承诺将公开追踪并报告针对这些问题的具体行动及成效。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/hard-questions",
-      "publishedAt": "2026-07-09T17:40:42.612Z"
-    },
-    {
       "topic": "模型",
       "title": "OpenAI 发布最强模型与最佳博文",
       "summary": "显然是我们有史以来最好的模型，也是我们写得最好的博文之一：\n\nhttps://openai.com/index/gpt-5-6/",
       "source": "X：Sam Altman (@sama)",
       "href": "https://x.com/sama/status/2075266471316615436",
       "publishedAt": "2026-07-09T17:10:58.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic长期利益信托任命本·伯南克为受托人",
-      "summary": "Anthropic的长期利益信托（LTBT）任命前美联储主席、2022年诺贝尔经济学奖得主本·伯南克为最新受托人。他将与另外三位受托人共同监督公司以对社会长期有益的方式负责任开发先进AI的使命。LTBT独立于管理团队和投资者，受托人不持股、不分红，仅按服务时间获酬。该信托有权向Anthropic董事会任命成员，并就AI风险与社会影响等关键决策提供建议。伯南克将参与公司的经济研究，帮助理解AI对全球劳动力与经济的影响。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/ben-bernanke",
-      "publishedAt": "2026-07-09T16:40:37.929Z"
     }
   ]
 }
