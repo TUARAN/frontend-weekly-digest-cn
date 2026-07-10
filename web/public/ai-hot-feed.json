@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T11:03:13.279Z",
-  "count": 24,
+  "updatedAt": "2026-07-10T12:48:04.090Z",
+  "count": 23,
   "items": [
     {
       "topic": "论文",
@@ -185,14 +185,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/974/744.htm",
       "publishedAt": "2026-07-09T13:01:09.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
-      "summary": "美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计。模型引入 LongCat 稀疏注意力机制与 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力。LongCat-2.0 是业界首个在五万卡国产算力集群上完成推理的万亿参数模型，从模型架构、芯片适配到部署策略进行深度协同优化，支持百万上下文高效推理。开源同步提供 BF16、FP8、INT8 等多精度版本及针对国产算力极致优化的推理代码。",
-      "source": "公众号：龙猫LongCat（美团）",
-      "href": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
-      "publishedAt": "2026-07-09T11:58:00.000Z"
     }
   ]
 }
