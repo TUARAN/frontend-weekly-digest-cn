@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-10",
+      "displayDate": "Jul 10",
+      "json": "/ai-daily/2026-07-10.json",
+      "count": 5,
+      "highlights": [
+        "OpenAI 推出 ChatGPT Wo",
+        "OpenAI 发布最强模型与最佳博文",
+        "蚂蚁灵波开源全球首个面向具身智能的MoE",
+        "AI 能否回答 3 万亿美元的问题？",
+        "ChatGPT Sites将创意变可发布"
+      ]
+    },
+    {
       "date": "2026-07-06",
       "displayDate": "Jul 6",
       "json": "/ai-daily/2026-07-06.json",
@@ -486,5 +499,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-06"
+  "latest": "2026-07-10"
 }
