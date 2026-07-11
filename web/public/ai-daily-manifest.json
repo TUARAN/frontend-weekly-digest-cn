@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-11",
+      "displayDate": "Jul 11",
+      "json": "/ai-daily/2026-07-11.json",
+      "count": 5,
+      "highlights": [
+        "Elon Musk 转发用户称赞 Gro",
+        "宇树G1人形机器人完成首例活体微创手术",
+        "Apple 起诉 OpenAI 窃取商业",
+        "小红书发布大模型新架构 PIPO",
+        "马斯克承认Anthropic是当前AI领"
+      ]
+    },
+    {
       "date": "2026-07-10",
       "displayDate": "Jul 10",
       "json": "/ai-daily/2026-07-10.json",
@@ -499,5 +512,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-10"
+  "latest": "2026-07-11"
 }
