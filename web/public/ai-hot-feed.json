@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T12:21:18.668Z",
-  "count": 9,
+  "updatedAt": "2026-07-11T13:32:06.013Z",
+  "count": 13,
   "items": [
     {
       "topic": "模型",
@@ -12,11 +12,43 @@
     },
     {
       "topic": "行业",
+      "title": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
+      "summary": "开发者Jarred Sumner借助Claude Fable 5模型，11天内将Bun从Zig重写为Rust，64个实例并行编写超100万行代码，API费用约16.5万美元。重构主因是Zig频繁内存错误，Rust可在编译时捕获。Bun v1.4.0以Canary版本发布，修复128个错误，速度提高约2%到5%。Bun团队已于2025年12月被Anthropic收购。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/975/469.htm",
+      "publishedAt": "2026-07-11T07:33:08.000Z"
+    },
+    {
+      "topic": "行业",
       "title": "OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘",
       "summary": "知名 AI 创业者 Matt Shumer 的 Mac 硬盘被 OpenAI 最新 Agent 模型 GPT-5.6-Sol 彻底清空。他在本地 Agent 上开启 Full Access 权限，让 subagent 执行文件清理任务，结果 shell 变量 $HOME 路径解析错误，Agent 直接执行 `rm -rf /Users/mattsdevbox`，导致数年代码、文件、照片丢失。该任务此前已安全运行数百次。事后 Agent 自动生成事故报告承认错误。Matt 表示\"1000x 更信任 Anthropic 的 Fable\"。事件暴露 Agent 行业核心风险：顶级模型仍会在变量展开、路径等细节翻车；Subagent + 长时自主运行 + 全权限构成灾难放大器；模型厂商安全底线差异巨大。",
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2075761215251312722",
       "publishedAt": "2026-07-11T01:56:54.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Code v2.1.207 发布",
+      "summary": "Claude Code v2.1.207 发布。Auto 模式在 Bedrock、Vertex AI 和 Foundry 上无需 `CLAUDE_CODE_ENABLE_AUTO_MODE` 即可使用，可通过 `disableAutoMode` 设置关闭。修复了流式响应中包含超长列表、表格、段落或代码块时终端冻结和按键延迟的问题；修复了非交互式运行中远程托管设置被永久记录为已同意而未显示安全同意对话框的问题；修复了自动更新程序每次发布时覆盖 `~/.local/bin/claude` 自定义启动脚本或符号链接的问题。Bedrock、Vertex 和 Claude Platform on AWS 默认切换为 Claude Opus 4.8。Auto 模式不再从 `.claude/settings.local.json` 读取 `autoMode`，改为使用 `~/.claude/settings.json`。修复了 Windows 上 AWS 凭证解析卡住时无限挂起的问题，60 秒超时保护现在生效。",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "publishedAt": "2026-07-11T00:52:10.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Meta 关闭 Instagram 用户可基于公开账户生成 AI 深度伪造图片的功能",
+      "summary": "在遭到强烈反对后，Meta 关闭了本周早些时候推出的一项 Instagram 功能。该功能允许用户通过 @ 提及公开 Instagram 账户，基于其内容生成 AI 图片，且无需账户所有者许可。Meta 在关于其新 Muse Image AI 模型的博客文章更新中表示，其初衷是提供有用的创意工具并给予用户认可，但用户反馈表明该功能可能被滥用。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "publishedAt": "2026-07-10T23:49:50.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "苹果起诉OpenAI窃取商业机密开发AI硬件",
+      "summary": "苹果公司今日在加州北区联邦地方法院对OpenAI提起诉讼，指控其系统性窃取苹果商业机密，用于开发AI硬件设备。被告包括OpenAI、其硬件负责人Tang Tan（前苹果iPhone和Apple Watch产品设计副总裁，在苹果任职24年）、前苹果高级系统电气工程师Chang Liu，以及Jony Ive联合创立的io Products。Jony Ive本人未被列为被告。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2075712647723397452",
+      "publishedAt": "2026-07-10T22:43:54.000Z"
     },
     {
       "topic": "论文",
@@ -27,12 +59,12 @@
       "publishedAt": "2026-07-10T22:07:19.177Z"
     },
     {
-      "topic": "行业",
-      "title": "Apple 起诉 OpenAI 窃取商业机密",
-      "summary": "Apple 于周五向美国加州北区联邦法院提起诉讼，指控 OpenAI 窃取商业机密并违反合同。诉状称，OpenAI 高级领导层（包括首席硬件官 Tang Tan）指使前 Apple 员工在招聘过程中窃取机密，包括使用未发布产品的项目代号、要求应聘者携带硬件组件参加面试。Apple 还指控前高级系统电气工程师 Chang Liu 在 2026 年离职加入 OpenAI 后未归还公司笔记本电脑，并用其下载机密技术文档。Apple 称其机密信息已被 OpenAI 用于开发自有硬件产品，例如一项专有金属精加工技术。Apple 要求法院禁止 OpenAI 使用或披露其商业机密，并归还相关材料。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
-      "publishedAt": "2026-07-10T20:32:00.000Z"
+      "topic": "论文",
+      "title": "OpenAI 论文：GPT-5.6 Sol Ultra 证明图论\"循环双覆盖猜想\"",
+      "summary": "OpenAI 发布论文，称 GPT-5.6 Sol Ultra 证明了图论中悬而未决的\"循环双覆盖猜想\"。该猜想断言每个无桥无向图都存在一组环，每条边恰好被覆盖两次。论文利用 GPT-5.6 Sol Ultra 完成证明，并借助 Codex 撰写。证明过程首先将问题简化为三次图，利用 8-流定理和 Tutte 的结果将边标记为 F32 的非零元，再转化为每个顶点处每个元素出现零次或两次的二元集标记，最终归结为线性代数论证。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "publishedAt": "2026-07-10T19:59:11.362Z"
     },
     {
       "topic": "论文",
