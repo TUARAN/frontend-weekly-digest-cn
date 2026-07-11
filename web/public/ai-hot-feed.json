@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T22:18:24.679Z",
-  "count": 9,
+  "updatedAt": "2026-07-11T23:19:40.827Z",
+  "count": 8,
   "items": [
     {
       "topic": "行业",
@@ -65,14 +65,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
       "publishedAt": "2026-07-10T23:49:50.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果起诉OpenAI窃取商业机密开发AI硬件",
-      "summary": "苹果公司今日在加州北区联邦地方法院对OpenAI提起诉讼，指控其系统性窃取苹果商业机密，用于开发AI硬件设备。被告包括OpenAI、其硬件负责人Tang Tan（前苹果iPhone和Apple Watch产品设计副总裁，在苹果任职24年）、前苹果高级系统电气工程师Chang Liu，以及Jony Ive联合创立的io Products。Jony Ive本人未被列为被告。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2075712647723397452",
-      "publishedAt": "2026-07-10T22:43:54.000Z"
     }
   ]
 }
