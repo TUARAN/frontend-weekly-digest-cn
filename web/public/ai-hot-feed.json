@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T13:32:06.013Z",
-  "count": 13,
+  "updatedAt": "2026-07-11T14:28:35.960Z",
+  "count": 12,
   "items": [
     {
       "topic": "模型",
@@ -97,14 +97,6 @@
       "source": "X：Perplexity (@perplexity_ai)",
       "href": "https://x.com/perplexity_ai/status/2075599540640714863",
       "publishedAt": "2026-07-10T15:14:27.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "百度搭子在成都AI Day发布四项更新：个人版升级、自媒体套件、企业版及搭子联盟",
-      "summary": "百度搭子在成都百度AI Day上发布四项更新。个人版新增浏览器调用、智能路由（平均任务耗时降20%，Token利用率提升25%）、多端共享记忆及强化PPT生成，并上架\"一镜\"数字人制作、\"灵医\"报告解读等Skill。行业首个自媒体专业套件支持选题到复盘全链路。企业版支持团队协作与权限管理。搭子联盟启动，中国联通等已加入。上线三个月，日均提问量增长20倍。",
-      "source": "公众号：百度智能云（文心）",
-      "href": "https://mp.weixin.qq.com/s/Haqbjim9YGmRu1XpxG_VvA",
-      "publishedAt": "2026-07-10T13:58:07.000Z"
     }
   ]
 }
