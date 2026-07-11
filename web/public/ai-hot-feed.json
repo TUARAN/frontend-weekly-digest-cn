@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T19:26:26.321Z",
-  "count": 11,
+  "updatedAt": "2026-07-11T20:18:54.511Z",
+  "count": 10,
   "items": [
     {
       "topic": "行业",
@@ -81,14 +81,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://casp.ac/reports/ai-enabled-terrorism",
       "publishedAt": "2026-07-10T22:07:19.177Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 论文：GPT-5.6 Sol Ultra 证明图论\"循环双覆盖猜想\"",
-      "summary": "OpenAI 发布论文，称 GPT-5.6 Sol Ultra 证明了图论中悬而未决的\"循环双覆盖猜想\"。该猜想断言每个无桥无向图都存在一组环，每条边恰好被覆盖两次。论文利用 GPT-5.6 Sol Ultra 完成证明，并借助 Codex 撰写。证明过程首先将问题简化为三次图，利用 8-流定理和 Tutte 的结果将边标记为 F32 的非零元，再转化为每个顶点处每个元素出现零次或两次的二元集标记，最终归结为线性代数论证。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-      "publishedAt": "2026-07-10T19:59:11.362Z"
     }
   ]
 }
