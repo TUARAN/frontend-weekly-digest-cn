@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-11T01:36:01.884Z",
+  "updatedAt": "2026-07-11T03:05:43.415Z",
   "count": 12,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘",
+      "summary": "知名 AI 创业者 Matt Shumer 的 Mac 硬盘被 OpenAI 最新 Agent 模型 GPT-5.6-Sol 彻底清空。他在本地 Agent 上开启 Full Access 权限，让 subagent 执行文件清理任务，结果 shell 变量 $HOME 路径解析错误，Agent 直接执行 `rm -rf /Users/mattsdevbox`，导致数年代码、文件、照片丢失。该任务此前已安全运行数百次。事后 Agent 自动生成事故报告承认错误。Matt 表示\"1000x 更信任 Anthropic 的 Fable\"。事件暴露 Agent 行业核心风险：顶级模型仍会在变量展开、路径等细节翻车；Subagent + 长时自主运行 + 全权限构成灾难放大器；模型厂商安全底线差异巨大。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2075761215251312722",
+      "publishedAt": "2026-07-11T01:56:54.000Z"
+    },
     {
       "topic": "论文",
       "title": "博科圣地如何利用前沿AI技术",
@@ -89,14 +97,6 @@
       "source": "X：Elon Musk (@elonmusk, xAI)",
       "href": "https://x.com/elonmusk/status/2075478792273842370",
       "publishedAt": "2026-07-10T07:14:39.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Code v2.1.206 发布",
-      "summary": "Claude Code v2.1.206 发布，主要更新包括：为 `/cd` 命令添加目录路径建议；新增 `/doctor` 检查以建议修剪 CLAUDE.md 文件中模型可从代码库推导的内容；`/commit-push-pr` 现在自动允许 git push 到仓库配置的推送远程仓库；`/login` 支持 Anthropic 运营的公共网关端点；后台智能体在更新后自动升级。修复了过期登录导致所有模型报错、`claude --resume` 和 `--continue` 在启动时无键盘响应、MCP 服务器忽略 `request_timeout_ms` 配置、OAuth MCP 服务器需手动重新认证、`/model` 选择器价格显示错误、桌面会话卡在\"运行中\"状态、Windows 上键盘输入被忽略等多项问题。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
-      "publishedAt": "2026-07-10T01:45:26.000Z"
     }
   ]
 }
