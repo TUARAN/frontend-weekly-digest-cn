@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T14:28:35.960Z",
-  "count": 12,
+  "updatedAt": "2026-07-11T15:22:49.005Z",
+  "count": 11,
   "items": [
     {
       "topic": "模型",
@@ -89,14 +89,6 @@
       "source": "LMSYS：Blog（Chatbot Arena 团队）",
       "href": "https://www.lmsys.org/blog/2026-07-10-rocm-miles-dsv4",
       "publishedAt": "2026-07-10T17:19:11.037Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Perplexity 推出跨模型信用额度分析功能",
-      "summary": "推出 Computer Analytics：你现在可以跨模型跟踪信用额度支出。\n\n该功能现已面向个人和企业用户开放，可在账户设置的 Analytics 下使用。",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2075599540640714863",
-      "publishedAt": "2026-07-10T15:14:27.000Z"
     }
   ]
 }
