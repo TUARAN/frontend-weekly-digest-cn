@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-11T16:19:21.457Z",
-  "count": 11,
+  "updatedAt": "2026-07-11T17:22:17.709Z",
+  "count": 12,
   "items": [
+    {
+      "topic": "模型",
+      "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
+      "summary": "OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果。最小变体 GPT-5.6 Luna 在最低推理强度下即超越最高推理强度的 GPT-5.5，且成本低 25 倍；最大变体 GPT-5.6 Sol 树立新标杆。在涵盖患者端与临床端的多样化任务中，专科医生被要求以无限时间和网络访问权限撰写回答，随后由其他医生盲评。评估基于准确性、沟通、完整性、指令遵循及健康决策帮助性五个维度，共 20000 次评分。结果显示，所有 GPT-5.6 模型表现均显著优于医生，且医生发现 GPT-5.6 回答中的缺陷少于医生自己撰写的回答。",
+      "source": "X：Sam Altman (@sama)",
+      "href": "https://x.com/sama/status/2075985056846451123",
+      "publishedAt": "2026-07-11T16:46:22.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
+      "summary": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系统或AI视觉感知基准测试。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.mixfont.com/ghost-font",
+      "publishedAt": "2026-07-11T16:31:09.615Z"
+    },
     {
       "topic": "模型",
       "title": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
@@ -81,14 +97,6 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2075635283211772279",
       "publishedAt": "2026-07-10T17:36:29.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "DeepSeek-V4 Flash 强化学习训练登陆 AMD Instinct MI355X GPU，由 Miles 框架支持",
-      "summary": "DeepSeek-V4 Flash 的强化学习训练现已在 AMD Instinct MI355X GPU 上通过 Miles 框架获得支持，基于 ROCm 软件栈运行。该 2840 亿参数 MoE 模型（每 token 激活 130 亿参数）需 SGLang 进行 rollout 生成、Megatron 进行策略更新，Miles 负责异步循环与权重同步。团队解决了 SGLang 与 Megatron 间模型对齐、量化状态在线更新及多节点并行稳定性三大挑战，最终在四个八 GPU 节点上完成端到端验证：超过 100 个优化器步骤中训练-rollout 对数概率差可控，在线奖励持续提升，离线 AIME-2024 基准分数同步上涨。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-07-10-rocm-miles-dsv4",
-      "publishedAt": "2026-07-10T17:19:11.037Z"
     }
   ]
 }
