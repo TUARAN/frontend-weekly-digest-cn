@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-12T08:46:45.872Z",
-  "count": 9,
+  "updatedAt": "2026-07-12T09:35:28.622Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论",
+      "summary": "OpenAI CEO Sam Altman 表示，他\"相当确信\"AI 迄今为止净创造了就业，并承认\"这并非我预期\"。此前他曾警告 AI 影响可能快得\"有点吓人\"。Anthropic CEO Dario Amodei 也修正了早期言论，将自动化描述为生产力倍增器而非岗位杀手。然而，多项研究未发现 AI 对整体生产力或劳动力市场产生显著影响。一项多校联合研究指出，程序员和文案的就业危机始于 2022 年初，早于 ChatGPT 发布。耶鲁预算实验室也未发现与 AI 相关的就业市场变化。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
+      "publishedAt": "2026-07-12T09:15:49.000Z"
+    },
     {
       "topic": "技巧",
       "title": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
