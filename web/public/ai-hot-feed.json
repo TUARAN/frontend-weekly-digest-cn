@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-12T06:56:20.141Z",
-  "count": 11,
+  "updatedAt": "2026-07-12T07:46:38.954Z",
+  "count": 10,
   "items": [
     {
       "topic": "技巧",
@@ -81,14 +81,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
       "publishedAt": "2026-07-11T07:56:11.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
-      "summary": "开发者Jarred Sumner借助Claude Fable 5模型，11天内将Bun从Zig重写为Rust，64个实例并行编写超100万行代码，API费用约16.5万美元。重构主因是Zig频繁内存错误，Rust可在编译时捕获。Bun v1.4.0以Canary版本发布，修复128个错误，速度提高约2%到5%。Bun团队已于2025年12月被Anthropic收购。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/975/469.htm",
-      "publishedAt": "2026-07-11T07:33:08.000Z"
     }
   ]
 }
