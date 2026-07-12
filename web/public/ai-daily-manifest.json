@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-12",
+      "displayDate": "Jul 12",
+      "json": "/ai-daily/2026-07-12.json",
+      "count": 5,
+      "highlights": [
+        "OpenAI GPT-5.6-Sol 删",
+        "OpenAI GPT-5.6 Sol U",
+        "研究：博科圣地已使用ChatGPT、Cl",
+        "OpenAI 发布 GPT-5.6 系列",
+        "蚂蚁集团 Robbyant 发布 Lin"
+      ]
+    },
+    {
       "date": "2026-07-11",
       "displayDate": "Jul 11",
       "json": "/ai-daily/2026-07-11.json",
@@ -512,5 +525,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-11"
+  "latest": "2026-07-12"
 }
