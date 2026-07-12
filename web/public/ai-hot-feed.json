@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-12T18:20:32.393Z",
-  "count": 10,
+  "updatedAt": "2026-07-12T19:26:31.901Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Codex 移除5小时限制，GPT 5.6 Sol 效率提升",
+      "summary": "Codex 和 ChatGPT Work 发布三项更新：1）临时移除所有 Plus、Business 和 Pro 计划的5小时使用限制；2）推出 GPT 5.6 Sol 的全面效率改进，使其更省 token，具体影响待量化公布；3）活跃用户达600万，下一小时内进行使用量重置。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2076372677577576864",
+      "publishedAt": "2026-07-12T18:26:38.000Z"
+    },
     {
       "topic": "模型",
       "title": "腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户",
