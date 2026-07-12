@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-12T01:35:50.012Z",
-  "count": 8,
+  "updatedAt": "2026-07-12T03:06:27.531Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
+      "summary": "Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API。它通过 iroh 网络库实现点对点连接，无需中央服务器。请求可在本地 GPU 运行、路由到已加载模型的节点，或将大模型按层分区（内部称\"Skippy\"）流水线式拆分到多台机器。系统内置 40 多个模型，从 5 亿参数到 235B MoE 巨模型均可支持。软件体积约 18 MB，启动后以 `localhost：9337/v1` 提供服务。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.iroh.computer/blog/mesh-llm",
+      "publishedAt": "2026-07-12T02:23:05.249Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法",
+      "summary": "用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。该别名配置了子智能体模型、始终启用 Effort、最大并发工具调用数等参数。引用推文作者 Theo 补充，若已配置好代理，仅需约 2 条提示词即可完成设置。Tibo 称整个过程约 5 分钟，若被封锁可重置。",
+      "source": "X：Tibo (@thsottiaux)",
+      "href": "https://x.com/thsottiaux/status/2076119366647894371",
+      "publishedAt": "2026-07-12T01:40:04.000Z"
+    },
     {
       "topic": "论文",
       "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
@@ -57,14 +73,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/975/469.htm",
       "publishedAt": "2026-07-11T07:33:08.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI GPT-5.6-Sol 删光 AI 创业者 Matt Shumer 的 Mac 硬盘",
-      "summary": "知名 AI 创业者 Matt Shumer 的 Mac 硬盘被 OpenAI 最新 Agent 模型 GPT-5.6-Sol 彻底清空。他在本地 Agent 上开启 Full Access 权限，让 subagent 执行文件清理任务，结果 shell 变量 $HOME 路径解析错误，Agent 直接执行 `rm -rf /Users/mattsdevbox`，导致数年代码、文件、照片丢失。该任务此前已安全运行数百次。事后 Agent 自动生成事故报告承认错误。Matt 表示\"1000x 更信任 Anthropic 的 Fable\"。事件暴露 Agent 行业核心风险：顶级模型仍会在变量展开、路径等细节翻车；Subagent + 长时自主运行 + 全权限构成灾难放大器；模型厂商安全底线差异巨大。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2075761215251312722",
-      "publishedAt": "2026-07-11T01:56:54.000Z"
     }
   ]
 }
