@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-12T16:21:10.066Z",
-  "count": 12,
+  "updatedAt": "2026-07-12T17:24:03.423Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "模型",
+      "title": "腾讯混元发布Hy3模型：295B参数MoE架构，Agent向LLM定位，已集成微信服务10亿+用户",
+      "summary": "腾讯混元团队发布Hy3模型，采用295B总参数、21B激活参数的MoE架构，推理效率可打平参数规模2-5倍的旗舰模型。Hy3定位为Agent向LLM，从preview到正式版基于50多个真实业务反馈迭代，内部WorkBuddy任务成功率从72%提升至90%，耗时降低34%，幻觉和常识错误持续下降。实测显示其在coding、办公、复杂任务规划方面表现突出，纯视觉能力为短板。Hy3已集成至微信服务10亿+用户，视频演示包括生成HTML网页、Agent网页和10页PPT，模型具备自检和主动说明不足的能力。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2076341952023310580",
+      "publishedAt": "2026-07-12T16:24:32.000Z"
+    },
     {
       "topic": "技巧",
       "title": "纳德拉提出\"反向信息悖论\"：企业使用AI时需保护自身知识",
@@ -73,30 +81,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/975/634.htm",
       "publishedAt": "2026-07-11T23:21:57.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
-      "summary": "剑桥大学CASP研究员Antonia Jülich对27名前成员的57次访谈显示，博科圣地已使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek等主流AI聊天机器人，用于袭击策划、制造更强爆炸装置、武器维护及行动安全。该组织两个派系均设立了专门的AI部门。ISIS自2023年起便提供提示工程和越狱培训，并训练尼日利亚的博科圣地指挥官绕过AI安全过滤器。研究指出，安全过滤器未能可靠防止滥用。Anthropic近期承认，越狱可能永远无法完全消除。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
-      "publishedAt": "2026-07-11T17:04:28.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
-      "summary": "OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果。最小变体 GPT-5.6 Luna 在最低推理强度下即超越最高推理强度的 GPT-5.5，且成本低 25 倍；最大变体 GPT-5.6 Sol 树立新标杆。在涵盖患者端与临床端的多样化任务中，专科医生被要求以无限时间和网络访问权限撰写回答，随后由其他医生盲评。评估基于准确性、沟通、完整性、指令遵循及健康决策帮助性五个维度，共 20000 次评分。结果显示，所有 GPT-5.6 模型表现均显著优于医生，且医生发现 GPT-5.6 回答中的缺陷少于医生自己撰写的回答。",
-      "source": "X：Sam Altman (@sama)",
-      "href": "https://x.com/sama/status/2075985056846451123",
-      "publishedAt": "2026-07-11T16:46:22.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
-      "summary": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系统或AI视觉感知基准测试。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.mixfont.com/ghost-font",
-      "publishedAt": "2026-07-11T16:31:09.615Z"
     }
   ]
 }
