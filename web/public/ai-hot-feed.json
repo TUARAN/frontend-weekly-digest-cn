@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-12T00:37:39.463Z",
+  "updatedAt": "2026-07-12T01:35:50.012Z",
   "count": 8,
   "items": [
+    {
+      "topic": "论文",
+      "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
+      "summary": "OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题\"循环双覆盖猜想\"的完整证明。该猜想由数学家 George Szekeres 和 Paul Seymour 于 1970 年代提出，悬而未决超过 50 年。模型通过调用 64 个并行子智能体及对抗智能体，在预留的 8 小时计算时间内仅用约 1 小时完成证明。OpenAI 已将证明及提示词以 PDF 形式发布。该证明尚未经同行评审，也未使用 Lean 等形式化工具验证。若通过验证，这将是 LLM 首次独立解决维基百科\"未解决数学问题\"列表中的难题。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/975/646.htm",
+      "publishedAt": "2026-07-12T00:44:43.000Z"
+    },
     {
       "topic": "行业",
       "title": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
@@ -57,14 +65,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2075761215251312722",
       "publishedAt": "2026-07-11T01:56:54.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Code v2.1.207 发布",
-      "summary": "Claude Code v2.1.207 发布。Auto 模式在 Bedrock、Vertex AI 和 Foundry 上无需 `CLAUDE_CODE_ENABLE_AUTO_MODE` 即可使用，可通过 `disableAutoMode` 设置关闭。修复了流式响应中包含超长列表、表格、段落或代码块时终端冻结和按键延迟的问题；修复了非交互式运行中远程托管设置被永久记录为已同意而未显示安全同意对话框的问题；修复了自动更新程序每次发布时覆盖 `~/.local/bin/claude` 自定义启动脚本或符号链接的问题。Bedrock、Vertex 和 Claude Platform on AWS 默认切换为 Claude Opus 4.8。Auto 模式不再从 `.claude/settings.local.json` 读取 `autoMode`，改为使用 `~/.claude/settings.json`。修复了 Windows 上 AWS 凭证解析卡住时无限挂起的问题，60 秒超时保护现在生效。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "href": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
-      "publishedAt": "2026-07-11T00:52:10.000Z"
     }
   ]
 }
