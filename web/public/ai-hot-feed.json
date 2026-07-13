@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-13T21:21:18.257Z",
-  "count": 8,
+  "updatedAt": "2026-07-13T22:20:33.809Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "前沿模型实际成本：tokenizer 差异导致隐性涨价",
+      "summary": "同一份 TypeScript 文件在 GPT-5.x 上为 681 个 token，在 Claude 最新 tokenizer 下为 1，178 个，相差 1.73 倍。Anthropic 新 tokenizer 比旧版多产生约 30% 的 token，标价不变，构成隐性涨价。Claude Opus 4.6 与 Opus 4.8 标价同为 $5.00 / $25.00，但新 tokenizer 使同一代码的 token 数增加约 32%。Claude Sonnet 5 的 $2.00 / $10.00 为促销价，2026 年 8 月 31 日后恢复 $3.00 / $15.00，届时相同代码成本将比 Sonnet 4.6 高出约 32%。跨厂商对比中，Claude 新 tokenizer 在代码上比 GPT 多产生 1.50x 至 1.73x 的 token，TypeScript 差距最大。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://playcode.io/blog/real-price-of-frontier-models",
+      "publishedAt": "2026-07-13T21:50:30.963Z"
+    },
     {
       "topic": "技巧",
       "title": "OpenAI 面向普通用户发布提示词指南：从结果出发，少写步骤",
