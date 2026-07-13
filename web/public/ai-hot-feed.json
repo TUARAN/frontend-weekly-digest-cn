@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-13T13:43:01.840Z",
-  "count": 11,
+  "updatedAt": "2026-07-13T15:01:21.390Z",
+  "count": 10,
   "items": [
     {
       "topic": "模型",
@@ -81,14 +81,6 @@
       "source": "X：Satya Nadella (@satyanadella)",
       "href": "https://x.com/satyanadella/status/2076323181154230284",
       "publishedAt": "2026-07-12T15:09:57.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Mindwalk：在代码库 3D 地图上回放编码代理会话",
-      "summary": "Mindwalk 是一款可视化工具，可将 Claude Code 和 Codex 的会话日志在代码库的 3D 地图上回放。它将仓库绘制成夜间地图，代理搜索、读取和编辑过的文件会发光，未触及区域保持黑暗，让用户一眼看清代理对任务的理解范围。单个 Go 二进制文件即可运行，所有会话数据完全本地处理，不会离开机器。支持树状图/地形图两种视图，文件触达状态分为未访问、已查看、已读取、已编辑四种颜色标记。播放界面包含错误率、文件修改量等摩擦信号面板，以及上下文压缩、子代理启动、用户交互等时间轴标记。支持键盘快捷键控制播放速度、跳转编辑点或错误点。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/cosmtrek/mindwalk",
-      "publishedAt": "2026-07-12T13:51:05.035Z"
     }
   ]
 }
