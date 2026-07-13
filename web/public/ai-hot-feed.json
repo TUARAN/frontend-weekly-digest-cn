@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-13T11:04:06.210Z",
-  "count": 9,
+  "updatedAt": "2026-07-13T12:51:50.757Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "模型",
+      "title": "德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先",
+      "summary": "德国AI协会协调的研究联盟发布开源大语言模型Soofi S 30B-A3B。该模型总参数量316亿，每个token仅激活约32亿参数，采用Mamba-2与标准注意力层混合的MoE架构。模型完全在德国电信慕尼黑工业AI云上训练，训练数据中德语占比从第一阶段的7.2%提升至第二阶段的15.3%。在基准测试中，Soofi S在所有完全开源模型中取得英语和德语综合最高分，超越OLMo 3 32B和Apertus 70B。在HumanEval上得分73.8%，MBPP得分70.2，德语版MBPP得分84.2。上下文窗口支持最高100万token，在4万token长度下，生成吞吐量约为同规模稠密模型的8倍。模型权重已开源。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
+      "publishedAt": "2026-07-13T11:41:01.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "腾讯混元发布 HyOCR-1.5：端到端 OCR 大模型全栈开源，推理提速 6.37 倍",
+      "summary": "腾讯混元发布 HyOCR-1.5，这是端到端 OCR 大模型领域首个将训练、推理、模型权重完整开源的专家模型。仅 1B 参数，覆盖 8 种以上 text-centric 任务。引入 DFlash 投机解码框架，在 Transformers 下实现 6.37× 加速，vLLM 下 2.14× 加速，端到端推理达每页 1.408s。支持 4K 分辨率与 128K 上下文窗口，通过 Agentic Data Flow 扩展低资源 OCR（331 种语言）、古文字识别与多图问答能力。在 OmniDocBench v1.6 上以 94.74 分居端到端第一。",
+      "source": "公众号：腾讯混元",
+      "href": "https://mp.weixin.qq.com/s/vKFCa9FfoGBUGK8J1MhFag",
+      "publishedAt": "2026-07-13T11:12:59.000Z"
+    },
     {
       "topic": "行业",
       "title": "Meta 宣布扩建路易斯安那州数据中心至 5GW，总投资超 500 亿美元",
