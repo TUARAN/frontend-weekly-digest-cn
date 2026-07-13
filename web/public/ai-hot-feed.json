@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-13T00:37:21.662Z",
+  "updatedAt": "2026-07-13T01:36:53.633Z",
   "count": 12,
   "items": [
+    {
+      "topic": "行业",
+      "title": "黄仁勋：英伟达季度收入逼近千亿美元，Rubin Ultra 架构未延期",
+      "summary": "英伟达CEO黄仁勋在摩根士丹利路演中表示，公司季度营收即将逼近1000亿美元，且增长速度仍在加快。他否认下一代旗舰架构Rubin Ultra延期传闻，称其仍按计划于明年出货，当前机架设计调整仅为系统架构优化。一个此前主要依赖ASIC的前沿AI模型项目，如今英伟达GPU算力占比已接近50%，市场普遍指向Anthropic。英伟达预计本财年CPU业务收入约200亿美元，下一代Vera CPU将进军通用服务器市场。摩根士丹利维持英伟达\"增持\"评级，目标价288美元。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/975/865.htm",
+      "publishedAt": "2026-07-13T00:55:29.000Z"
+    },
     {
       "topic": "行业",
       "title": "xAI 官方 Grok CLI 被曝静默上传整个代码库及用户密钥",
@@ -89,14 +97,6 @@
       "source": "X：Tibo (@thsottiaux)",
       "href": "https://x.com/thsottiaux/status/2076119366647894371",
       "publishedAt": "2026-07-12T01:40:04.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
-      "summary": "OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题\"循环双覆盖猜想\"的完整证明。该猜想由数学家 George Szekeres 和 Paul Seymour 于 1970 年代提出，悬而未决超过 50 年。模型通过调用 64 个并行子智能体及对抗智能体，在预留的 8 小时计算时间内仅用约 1 小时完成证明。OpenAI 已将证明及提示词以 PDF 形式发布。该证明尚未经同行评审，也未使用 Lean 等形式化工具验证。若通过验证，这将是 LLM 首次独立解决维基百科\"未解决数学问题\"列表中的难题。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/975/646.htm",
-      "publishedAt": "2026-07-12T00:44:43.000Z"
     }
   ]
 }
