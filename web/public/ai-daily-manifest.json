@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-13",
+      "displayDate": "Jul 13",
+      "json": "/ai-daily/2026-07-13.json",
+      "count": 5,
+      "highlights": [
+        "Ploy 将 AI 智能体默认模型从 C",
+        "腾讯混元发布Hy3模型：295B参数Mo",
+        "Mindwalk：在代码库 3D 地图上",
+        "OpenAI CEO Altman 改口",
+        "Tibo 分享通过 CLIProxyAP"
+      ]
+    },
+    {
       "date": "2026-07-12",
       "displayDate": "Jul 12",
       "json": "/ai-daily/2026-07-12.json",
@@ -525,5 +538,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-12"
+  "latest": "2026-07-13"
 }
