@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-13T17:39:20.174Z",
-  "count": 8,
+  "updatedAt": "2026-07-13T18:35:44.282Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "行业",
+      "title": "苹果诉OpenAI窃取商业机密：指控涉及400多名前员工及\"LOL\"消息",
+      "summary": "苹果在一份41页诉状中指控OpenAI系统性窃取其商业机密。诉状称，OpenAI前硬件主管Tang Yew Tan（曾在苹果任职24年）指示面试者携带苹果\"实际零件\"和\"原型机\"参加面试。苹果声称，一名前员工在发现可访问苹果网络存储后发消息称\"LOL，太搞笑了\"，并利用认证漏洞从同事电脑持续窃取数据。诉状透露，已有超过400名前苹果员工在OpenAI任职。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
+      "publishedAt": "2026-07-13T18:22:10.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 面向普通用户发布提示词指南：从结果出发，少写步骤",
+      "summary": "OpenAI 整合了一份面向普通用户的提示词指南，涵盖目标、上下文、输出格式和边界四个可选模块。指南建议以结果而非步骤开头，用一两条硬性规则替代逐步骤脚本。Chat 处理快速任务，基于 Codex 技术和 GPT-5.6 模型的 ChatGPT Work 负责多源、多步骤的复杂项目。Codex 新增 Steer（重定向当前运行）、Queue（排队下一条消息）和沙盒模式，支持 `/plan`、`/goal` 和 `/review` 等斜杠命令。用户无需一次性写对提示词，后续追问是预期调整方式。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result",
+      "publishedAt": "2026-07-13T17:47:39.000Z"
+    },
     {
       "topic": "模型",
       "title": "德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先",
@@ -57,14 +73,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "publishedAt": "2026-07-12T23:41:11.951Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex与ChatGPT Work多项更新：取消5小时限制",
-      "summary": "早上好。过去48小时里，Codex和ChatGPT Work非常忙碌！三项重要更新：\n\n- 暂时取消所有Plus、Business和Pro计划的5小时使用限制\n- 正在推出变更，使GPT 5.6 Sol整体更高效，这将体现在使用量减少上，从而让你能走得更远。具体影响待量化后公布\n- 我们已达到600万活跃用户，并将在接下来一小时内进行使用量重置\n\n去创造吧。",
-      "source": "X：Tibo (@thsottiaux)",
-      "href": "https://x.com/thsottiaux/status/2076365965915467978",
-      "publishedAt": "2026-07-12T17:59:57.000Z"
     }
   ]
 }
