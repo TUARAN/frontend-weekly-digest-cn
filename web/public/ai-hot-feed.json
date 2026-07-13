@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-13T01:36:53.633Z",
-  "count": 12,
+  "updatedAt": "2026-07-13T03:07:11.078Z",
+  "count": 9,
   "items": [
     {
       "topic": "行业",
@@ -73,30 +73,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
       "publishedAt": "2026-07-12T03:59:09.632Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
-      "summary": "苹果在美国起诉OpenAI，指控其挖角400名员工、窃取工程机和机密文件。分析师Paolo Pescatore认为，即使指控最终无法证实，OpenAI的硬件计划仍可能受拖累，双方本就脆弱的合作关系将进一步削弱。斯坦福大学教授Mark Lemley指出，若前苹果员工确实带走机密文件并在OpenAI使用，问题将变得严重。该案涉及消费级硬件产品，预计未来将有更多信息曝光。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/975/666.htm",
-      "publishedAt": "2026-07-12T02:37:22.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
-      "summary": "Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API。它通过 iroh 网络库实现点对点连接，无需中央服务器。请求可在本地 GPU 运行、路由到已加载模型的节点，或将大模型按层分区（内部称\"Skippy\"）流水线式拆分到多台机器。系统内置 40 多个模型，从 5 亿参数到 235B MoE 巨模型均可支持。软件体积约 18 MB，启动后以 `localhost：9337/v1` 提供服务。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.iroh.computer/blog/mesh-llm",
-      "publishedAt": "2026-07-12T02:23:05.249Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法",
-      "summary": "用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。该别名配置了子智能体模型、始终启用 Effort、最大并发工具调用数等参数。引用推文作者 Theo 补充，若已配置好代理，仅需约 2 条提示词即可完成设置。Tibo 称整个过程约 5 分钟，若被封锁可重置。",
-      "source": "X：Tibo (@thsottiaux)",
-      "href": "https://x.com/thsottiaux/status/2076119366647894371",
-      "publishedAt": "2026-07-12T01:40:04.000Z"
     }
   ]
 }
