@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-13T18:35:44.282Z",
+  "updatedAt": "2026-07-13T19:31:32.328Z",
   "count": 9,
   "items": [
     {
       "topic": "行业",
-      "title": "苹果诉OpenAI窃取商业机密：指控涉及400多名前员工及\"LOL\"消息",
-      "summary": "苹果在一份41页诉状中指控OpenAI系统性窃取其商业机密。诉状称，OpenAI前硬件主管Tang Yew Tan（曾在苹果任职24年）指示面试者携带苹果\"实际零件\"和\"原型机\"参加面试。苹果声称，一名前员工在发现可访问苹果网络存储后发消息称\"LOL，太搞笑了\"，并利用认证漏洞从同事电脑持续窃取数据。诉状透露，已有超过400名前苹果员工在OpenAI任职。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai",
-      "publishedAt": "2026-07-13T18:22:10.000Z"
+      "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
+      "summary": "Apple 对 OpenAI 提起诉讼，指控其与一名前 Apple 工程师合谋窃取商业机密。该工程师被指利用系统漏洞，在离职前获取了包括 AI 模型研发细节在内的敏感数据，并随后将这些信息提供给 OpenAI。诉讼文件称，OpenAI 在知情情况下仍接收并使用这些机密，涉嫌不正当竞争。目前双方均未就具体指控细节发表公开声明。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
+      "publishedAt": "2026-07-13T19:17:51.000Z"
     },
     {
       "topic": "技巧",
