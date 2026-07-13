@@ -1,15 +1,7 @@
 {
-  "updatedAt": "2026-07-13T19:31:32.328Z",
-  "count": 9,
+  "updatedAt": "2026-07-13T20:28:18.761Z",
+  "count": 8,
   "items": [
-    {
-      "topic": "行业",
-      "title": "Apple 起诉 OpenAI，指控前工程师利用漏洞窃取商业机密",
-      "summary": "Apple 对 OpenAI 提起诉讼，指控其与一名前 Apple 工程师合谋窃取商业机密。该工程师被指利用系统漏洞，在离职前获取了包括 AI 模型研发细节在内的敏感数据，并随后将这些信息提供给 OpenAI。诉讼文件称，OpenAI 在知情情况下仍接收并使用这些机密，涉嫌不正当竞争。目前双方均未就具体指控细节发表公开声明。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
-      "publishedAt": "2026-07-13T19:17:51.000Z"
-    },
     {
       "topic": "技巧",
       "title": "OpenAI 面向普通用户发布提示词指南：从结果出发，少写步骤",
