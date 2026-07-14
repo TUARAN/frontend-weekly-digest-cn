@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-14T13:33:58.986Z",
-  "count": 12,
+  "updatedAt": "2026-07-14T14:36:18.809Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Sam Altman 不需要又一场官司：Apple 起诉 OpenAI 窃取商业机密",
+      "summary": "OpenAI 上周五遭到 Apple 在加州北区联邦法院提起的高调诉讼。Apple 指控前员工\"为 OpenAI 的利益窃取 Apple 商业机密\"，41 页诉状称 Apple 对产品开发、制造、供应链、技术研究等创新保密，且\"涉及 Apple 的商业机密范围广泛\"。这是 OpenAI 今年遭遇的又一起重大法律纠纷，此前已面临包括世界首富在内的多起诉讼。该案直接威胁 OpenAI 昂贵的硬件押注。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+      "publishedAt": "2026-07-14T14:01:07.000Z"
+    },
     {
       "topic": "论文",
       "title": "Anthropic 经济指数：加拿大 Claude 使用情况分析",
