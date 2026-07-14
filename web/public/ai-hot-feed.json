@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-14T05:02:16.360Z",
-  "count": 9,
+  "updatedAt": "2026-07-14T06:47:33.303Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "行业",
+      "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
+      "summary": "独立安全研究者 @cereblab 通过钓鱼仓库证实，SpaceXAI 旗下 AI 编程 agent Grok Build 在用户关闭\"帮助改进模型\"开关后仍将整个代码仓库上传至 Google Cloud 存储桶。一个 12GB 测试仓库被拆成 73 个数据包共传输 5.1GB，而正常对话仅用 192KB。另一研究者复现发现日志记录 339 次自动上传，其中一次涉及整个电脑主目录。事件曝光后，Elon Musk 亲自回应承认属实，承诺彻底删除所有此前上传的用户数据。Grok Build 已上线 `/privacy` 命令供用户一键关闭数据留存并追溯删除已上传数据。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/976/453.htm",
+      "publishedAt": "2026-07-14T05:43:25.000Z"
+    },
     {
       "topic": "技巧",
       "title": "面壁智能CTO曾国洋专访：端侧模型是AI落地关键路径",
