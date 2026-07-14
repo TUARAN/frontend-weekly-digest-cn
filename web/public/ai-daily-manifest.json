@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-14",
+      "displayDate": "Jul 14",
+      "json": "/ai-daily/2026-07-14.json",
+      "count": 5,
+      "highlights": [
+        "前沿模型实际成本：tokenizer 差",
+        "OpenAI 面向普通用户发布提示词指南",
+        "视频生成创企 PixVerse 完成 4",
+        "腾讯混元发布 HyOCR-1.5：端到端",
+        "Seedream 5.0 Pro 测评："
+      ]
+    },
+    {
       "date": "2026-07-13",
       "displayDate": "Jul 13",
       "json": "/ai-daily/2026-07-13.json",
@@ -538,5 +551,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-13"
+  "latest": "2026-07-14"
 }
