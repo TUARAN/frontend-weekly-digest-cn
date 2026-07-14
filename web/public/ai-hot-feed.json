@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-14T14:36:18.809Z",
+  "updatedAt": "2026-07-14T15:32:04.609Z",
   "count": 13,
   "items": [
     {
-      "topic": "行业",
-      "title": "Sam Altman 不需要又一场官司：Apple 起诉 OpenAI 窃取商业机密",
-      "summary": "OpenAI 上周五遭到 Apple 在加州北区联邦法院提起的高调诉讼。Apple 指控前员工\"为 OpenAI 的利益窃取 Apple 商业机密\"，41 页诉状称 Apple 对产品开发、制造、供应链、技术研究等创新保密，且\"涉及 Apple 的商业机密范围广泛\"。这是 OpenAI 今年遭遇的又一起重大法律纠纷，此前已面临包括世界首富在内的多起诉讼。该案直接威胁 OpenAI 昂贵的硬件押注。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
-      "publishedAt": "2026-07-14T14:01:07.000Z"
+      "topic": "产品",
+      "title": "Anthropic 推出 Claude for Teachers",
+      "summary": "Anthropic 发布 Claude for Teachers，为美国认证的 K-12 教师免费提供高级 Claude 功能、教学技能库及对接全美 50 州学术标准的课程资源。该工具连接 Learning Commons，可调用 OpenSciEd、IM v.360 等课程资源，并集成 ASSISTments、Brisk Teaching、Canva Education 等第三方工具。教师可基于高质量教材规划课程、为不同水平学生差异化教学，还能通过 Claude Code 和 Cowork 自动分析班级数据、安排重复任务。教师数据不用于模型训练，学生信息受 FERPA 合规的 K-12 数据处理附录保护。Anthropic 同时发布与 Teach for America 及美国教师联合会共创的 AI 素养课程。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/claude-for-teachers",
+      "publishedAt": "2026-07-14T15:11:11.440Z"
     },
     {
       "topic": "论文",
