@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-14T16:29:46.604Z",
-  "count": 15,
+  "updatedAt": "2026-07-14T17:28:41.108Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Google 在 I/O Connect India 展示由 Tensor SoC 和 TPU 驱动的 Pixel 10 端侧 AI 未来",
+      "summary": "在 Google I/O Connect India 上，Google 展示了由定制 Tensor SoC 和 TPU 驱动的 Pixel 10 系列所支持的 100% 私有端侧 AI 未来。活动首次推出轻量级 Gemma 4 E2B 模型，该模型原生运行于设备端，可实现完全离线的多模态功能，包括 AI 聊天、实时图像识别和个人智能体任务。开发者即日起可通过新发布的 Tensor SDK beta 及其配套开源资源，开始构建这些安全的边缘应用。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel",
+      "publishedAt": "2026-07-14T16:51:42.219Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "如何让 Claude 不再说\"honest takes\"和\"load-bearing seams\"",
+      "summary": "用户可通过 Claude 的 MessageDisplay Hook 机制自定义词汇替换。编写 Python 脚本，将\"seam\"替换为\"whatchamacallit\"、\"you're absolutely right\"替换为\"I'm a complete clown\"、\"honest take\"替换为\"spicy doodad\"、\"load-bearing\"替换为\"cooked\"，保存为 `~/.claude/hooks/wordswap.sh` 并赋予执行权限，再在 `~/.claude/settings.json` 的 hooks 块中配置该命令。Hook 在启动时加载，新会话即生效。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "publishedAt": "2026-07-14T16:39:15.519Z"
+    },
     {
       "topic": "行业",
       "title": "纽约州暂停所有新建大型数据中心项目",
@@ -73,14 +89,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
       "publishedAt": "2026-07-14T07:07:34.621Z"
-    },
-    {
-      "topic": "行业",
-      "title": "马斯克承认 Grok Build 上传用户代码，SpaceXAI 承诺彻底删除数据",
-      "summary": "独立安全研究者 @cereblab 通过钓鱼仓库证实，SpaceXAI 旗下 AI 编程 agent Grok Build 在用户关闭\"帮助改进模型\"开关后仍将整个代码仓库上传至 Google Cloud 存储桶。一个 12GB 测试仓库被拆成 73 个数据包共传输 5.1GB，而正常对话仅用 192KB。另一研究者复现发现日志记录 339 次自动上传，其中一次涉及整个电脑主目录。事件曝光后，Elon Musk 亲自回应承认属实，承诺彻底删除所有此前上传的用户数据。Grok Build 已上线 `/privacy` 命令供用户一键关闭数据留存并追溯删除已上传数据。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/976/453.htm",
-      "publishedAt": "2026-07-14T05:43:25.000Z"
     },
     {
       "topic": "技巧",
