@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-14T00:32:45.145Z",
+  "updatedAt": "2026-07-14T01:35:31.226Z",
   "count": 8,
   "items": [
+    {
+      "topic": "模型",
+      "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
+      "summary": "商汤发布并完全开源 SenseNova-Vision-7B-MoT，一个统一处理检测、OCR、GUI、深度与法线估计、分割、多视图等主要视觉任务的模型。该模型支持通过自然语言定义新的视觉任务变体，跨传统任务边界重组视觉能力。开源内容包括模型权重及 SenseNova-Vision Corpus（含 5000 万示例子集及复现剩余公开数据的完整工具包）。",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "href": "https://x.com/SenseTime_AI/status/2076828658531262619",
+      "publishedAt": "2026-07-14T00:38:32.000Z"
+    },
     {
       "topic": "行业",
       "title": "视频生成创企 PixVerse 完成 4.39 亿美元 C 轮扩展融资，估值超 20 亿美元",
@@ -57,14 +65,6 @@
       "source": "X：歸藏 (@op7418)",
       "href": "https://x.com/op7418/status/2076604797202161800",
       "publishedAt": "2026-07-13T09:48:59.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "黄仁勋：英伟达季度收入逼近千亿美元，Rubin Ultra 架构未延期",
-      "summary": "英伟达CEO黄仁勋在摩根士丹利路演中表示，公司季度营收即将逼近1000亿美元，且增长速度仍在加快。他否认下一代旗舰架构Rubin Ultra延期传闻，称其仍按计划于明年出货，当前机架设计调整仅为系统架构优化。一个此前主要依赖ASIC的前沿AI模型项目，如今英伟达GPU算力占比已接近50%，市场普遍指向Anthropic。英伟达预计本财年CPU业务收入约200亿美元，下一代Vera CPU将进军通用服务器市场。摩根士丹利维持英伟达\"增持\"评级，目标价288美元。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/975/865.htm",
-      "publishedAt": "2026-07-13T00:55:29.000Z"
     }
   ]
 }
