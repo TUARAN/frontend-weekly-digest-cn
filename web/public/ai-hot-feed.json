@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-14T15:32:04.609Z",
-  "count": 13,
+  "updatedAt": "2026-07-14T16:29:46.604Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "纽约州暂停所有新建大型数据中心项目",
+      "summary": "纽约州成为全美首个暂停数据中心建设的州。州长Kathy Hochul签署行政令，暂时禁止州政府批准50兆瓦及以上大型数据中心的新建许可，可能影响十余个项目。Hochul表示数据中心不应带来更高的电费、水资源消耗或噪音污染，且不能豁免地方区划和审批。禁令将在州政府完成数据中心环境审查流程后解除，预计耗时约一年。Hochul还考虑要求数据中心为州电网提供资金支持，并阻止超大规模数据中心享受税收优惠。此举正值纽约州立法机构推进更严格措施之际，上月一项法案已推进暂停20兆瓦以上数据中心建设一年。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
+      "publishedAt": "2026-07-14T15:17:59.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言近实时语音到语音翻译",
+      "summary": "Google AI 发布 Gemini 3.5 Live Translate，支持 70+ 语言、近实时延迟的语音到语音翻译。该模型直接处理原始音频流，保留说话者语调、节奏和音高。东南亚超级应用 Grab 正探索将其用于司机与乘客间的跨语言沟通，其用户每月发起超 1000 万次语音通话。开发者可通过 Gemini Live API 集成 LiveKit、Fishjam、Pipecat 或 Vision Agents 构建应用。LiveKit 已实现虚拟会议室多语言即时理解；Software Mansion 结合 MoQ 协议突破流媒体瓶颈；VisionAgents AI 展示了动态多语言切换能力。开发者可在 Google AI Studio 试用并获取 Cookbook 示例代码。",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "href": "https://x.com/googleaidevs/status/2077049898059354565",
+      "publishedAt": "2026-07-14T15:17:40.000Z"
+    },
     {
       "topic": "产品",
       "title": "Anthropic 推出 Claude for Teachers",
