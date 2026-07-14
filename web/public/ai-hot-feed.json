@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-14T08:46:25.039Z",
-  "count": 12,
+  "updatedAt": "2026-07-14T09:36:16.374Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Demis Hassabis：AGI 数年可至，影响达工业革命10倍",
+      "summary": "Google DeepMind 联合创始人 Demis Hassabis 发文称，AGI 可能仅需数年即可实现，其影响将达工业革命的10倍且速度更快。他指出，前沿模型在网络安全、核与生物风险方面已构成挑战，未来需对日益智能体化、递归自我改进的系统建立稳健防护。Hassabis 呼吁美国率先建立类似 FINRA 的前沿AI标准机构，采用联邦监督下的公私合作或自律组织模式，由独立技术专家和开源代表组成董事会，资金主要来自行业以吸引顶尖人才和算力。他强调，当前商业与地缘竞赛导致技术进步快于理解，需以谨慎乐观态度推进公共政策，兼顾创新与安全。",
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "href": "https://x.com/demishassabis/status/2076957440109625718",
+      "publishedAt": "2026-07-14T09:10:16.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "实测LibTV Agent：100个AI视频工作流重组为Skill，实现创意自由",
+      "summary": "LibTV推出Agent功能并内置Skill Hub，提供100多个覆盖武侠电影、皮克斯动画广告、电商口播等类型的视频Skill。用户输入想法后，Agent会分析需求并询问方向，自动生成视频分镜并串联成完整节点工作流，每个节点可查看和修改提示语。生成后LibTV会启动自查机制，自动检测并返修有问题的镜头。故事板视图提供图片与视频资产总览，支持在成片中直接打开剪辑时间线进行精细调整。用户还可自行创建Skill，上传三个文件即可，无需编程。实测中，Agent能输出剧情连贯、带粤语配音的成片，并支持双语字幕生成。",
+      "source": "公众号：卡尔的AI沃茨",
+      "href": "https://mp.weixin.qq.com/s/39fw1L1E8fa80PGW7qIUdw",
+      "publishedAt": "2026-07-14T09:04:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "腾讯混元 Hy3 量化版发布：1bit 版本单卡可部署，4bit 版本接近满血性能",
+      "summary": "腾讯混元团队为旗舰模型 Hy3（295B 参数）推出量化版本。1bit 版本（IQ1_M）将权重从 598 GB 压缩至 85.5 GiB，缩小 6.7 倍，单张 96GB 推理显卡即可部署；4bit 版本（Q4_K_M）体积 169.9 GiB，两张显卡可承载。量化版在 Agent、多语言代码、工具调用、长文理解等任务上表现接近满血模型。团队还提供 GPTQ Int4 版本，支持 vLLM 部署。配合 MTP 投机解码，1bit 版本解码速度提升约 50%，4bit 版本提升近 60%。所有版本已开源并打包为 GGUF 格式，适配 llama.cpp 生态。",
+      "source": "公众号：腾讯混元",
+      "href": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
+      "publishedAt": "2026-07-14T08:56:07.000Z"
+    },
     {
       "topic": "产品",
       "title": "高德发布通用世界模型工坊 ABot-WorldStudio，已开放测试",
