@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-14T23:19:26.826Z",
+  "updatedAt": "2026-07-15T00:30:18.694Z",
   "count": 19,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "每天Vibe Coding 16小时，作者分享Fable 5与GPT-5.6 Sol的AI开发流程",
+      "summary": "作者每天Vibe Coding约16小时，认为Claude Fable 5在大型方案初版设计上\"当世独一档\"，GPT-5.6 Sol能有效纠错并优化方案。核心流程为：Fable 5出方案初版 → GPT-5.6 Sol审查纠错 → 在Codex中开启\"目标模式\"全自动化执行，最长曾连续运行17小时。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/wm_LM83gyLM-auidBxprZw",
+      "publishedAt": "2026-07-15T00:02:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "Codex 周活超700万，两月更新150+项",
@@ -145,14 +153,6 @@
       "source": "X：商汤 SenseTime (@SenseTime_AI)",
       "href": "https://x.com/SenseTime_AI/status/2076828658531262619",
       "publishedAt": "2026-07-14T00:38:32.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "视频生成创企 PixVerse 完成 4.39 亿美元 C 轮扩展融资，估值超 20 亿美元",
-      "summary": "新加坡视频生成初创公司 PixVerse 完成 C 轮扩展融资，共筹集 4.39 亿美元，估值突破 20 亿美元。公司提供 V 系列（消费者及 API）、C 系列（专业影视）及今年初发布的 R 系列世界模型（游戏开发）。用户可生成最高 4k 分辨率并自带音频的视频，消费端注册用户超 1.5 亿，月活超 1500 万，图生视频每分钟 4.80 美元。本轮投资者包括阿里巴巴等。公司计划今年推出新 V 系列模型及新版世界模型，并全球拓展企业客户。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b",
-      "publishedAt": "2026-07-14T00:00:00.000Z"
     }
   ]
 }
