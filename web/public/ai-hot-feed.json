@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T22:22:08.689Z",
-  "count": 10,
+  "updatedAt": "2026-07-15T23:21:29.063Z",
+  "count": 9,
   "items": [
     {
       "topic": "产品",
@@ -73,14 +73,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/wm_LM83gyLM-auidBxprZw",
       "publishedAt": "2026-07-15T00:02:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Codex 周活超700万，两月更新150+项",
-      "summary": "7M+ 周活跃 Codex 用户。两月内 150+ 项更新。\n\n@romainhuet 为你梳理 Codex 新动态：GPT-5.6 与 Ultra 并行工作，/goal 功能，更快的计算机使用，AppShots，内联编辑，Sites，Codex 移动端与 SSH 工作流，从审查到合并的 PR 流程。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "href": "https://x.com/OpenAIDevs/status/2077166520392970529",
-      "publishedAt": "2026-07-14T23:01:05.000Z"
     }
   ]
 }
