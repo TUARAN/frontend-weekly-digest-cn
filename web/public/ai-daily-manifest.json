@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-15",
+      "displayDate": "Jul 15",
+      "json": "/ai-daily/2026-07-15.json",
+      "count": 5,
+      "highlights": [
+        "OpenAI GPT-5.6 Sol 被",
+        "Cursor IDE 0day 漏洞：打",
+        "腾讯混元 Hy3 量化版发布：1bit ",
+        "每天Vibe Coding 16小时，作",
+        "Google AI 发布 Gemini "
+      ]
+    },
+    {
       "date": "2026-07-14",
       "displayDate": "Jul 14",
       "json": "/ai-daily/2026-07-14.json",
@@ -551,5 +564,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-14"
+  "latest": "2026-07-15"
 }
