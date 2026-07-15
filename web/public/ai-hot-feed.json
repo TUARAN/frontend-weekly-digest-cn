@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-15T07:38:15.292Z",
-  "count": 20,
+  "updatedAt": "2026-07-15T08:49:19.759Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "行业",
+      "title": "国行 Apple 智能完成备案，阿里千问将集成至苹果 AI 能力",
+      "summary": "苹果技术开发（上海）有限公司的\"Apple 智能\"大模型已于 2026 年 7 月 8 日完成备案，适用场景为苹果手机。阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS、iPadOS、macOS 和 visionOS 的中国用户提供文本与图像理解、内容生成等功能，用户无需在应用间切换即可直接体验。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/977/109.htm",
+      "publishedAt": "2026-07-15T08:41:23.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "金山办公推出 WPS Comate AI 办公客户端",
+      "summary": "金山办公在2026 AI生产力大会上推出面向员工的AI办公客户端WPS Comate，可连接组织数据与流程。该产品提供AI岗位专家、Skill技能生态、自动化任务等六大模块，并支持云端与本地双任务模式，个人用户可直接下载体验。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/977/105.htm",
+      "publishedAt": "2026-07-15T08:39:58.000Z"
+    },
     {
       "topic": "技巧",
       "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
@@ -153,14 +169,6 @@
       "source": "公众号：腾讯混元",
       "href": "https://mp.weixin.qq.com/s/Kq30ftirASryPrUtjK2xSw",
       "publishedAt": "2026-07-14T08:56:07.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "高德发布通用世界模型工坊 ABot-WorldStudio，已开放测试",
-      "summary": "阿里巴巴旗下高德发布通用世界模型工坊 ABot-WorldStudio，并开放测试。该产品将交互式视频生成与 3DGS 场景生成统一，用户输入文字或图片即可生成可实时交互、可分享的 AI 世界。工坊内置\"时空任意门\"，穿越后可跃迁至另一完整 3D 世界。官方实测单次连续推理稳定运行超1小时，无崩溃、无质量衰减。底层模型 ABot-World0 与 ABot-3DWorld0 均可在单张 5090 上本地部署，已全面开源。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/976/538.htm",
-      "publishedAt": "2026-07-14T07:46:46.000Z"
     }
   ]
 }
