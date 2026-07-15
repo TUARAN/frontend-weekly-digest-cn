@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T06:48:38.683Z",
-  "count": 21,
+  "updatedAt": "2026-07-15T07:38:15.292Z",
+  "count": 20,
   "items": [
     {
       "topic": "技巧",
@@ -161,14 +161,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/976/538.htm",
       "publishedAt": "2026-07-14T07:46:46.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "普林斯顿教授 Narayanan 在 ICML 2026 发表主旨演讲：AI 作为正常技术，人类应主动适应而非躺平",
-      "summary": "普林斯顿大学教授 Arvind Narayanan 在首尔 ICML 2026 上发表主旨演讲，提出三个核心论点：第一，\"AI 作为正常技术\"框架是思考 AI 影响的正确方式；第二，即使应认真对待递归自我改进，实验室中没有任何里程碑会突然让所有人失业；第三，未来工作将发生根本性变化，需要大量适应。他呼吁 AI 社区不应接受工作被取代，而应主动建立与 AI 互补的技能（如判断力、品味），并展望了人类与 AI 的\"共超智能\"愿景。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-      "publishedAt": "2026-07-14T07:07:34.621Z"
     }
   ]
 }
