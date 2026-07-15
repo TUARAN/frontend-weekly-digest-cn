@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-15T00:30:18.694Z",
-  "count": 19,
+  "updatedAt": "2026-07-15T03:05:20.684Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "模型",
+      "title": "阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一",
+      "summary": "阿里通义实验室发布实时语音交互模型 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 的 Speech Reasoning 子项中综合排名第一，超越 OpenAI GPT-Realtime-2。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/hFp5rtV8-6KVRrgZoCj03A",
+      "publishedAt": "2026-07-15T02:30:26.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Airtap iMessage 新功能：发条短信让 AI 替你操作手机",
+      "summary": "Airtap 推出 iMessage 新功能，用户只需给美国号码发一条 iMessage，其云手机上的 AI Agent 就能通过视觉模拟点击，替用户完成 TikTok 刷视频、星巴克点单等操作，无需安装对应 App。其架构分为三层：大脑（理解指令）、AutoPilot（视觉操控屏幕）、云手机（24小时在线）。但支付等敏感操作仍需用户手动完成，信任与授权仍是所有 Agent 厂商的难题。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2077217295504490992",
+      "publishedAt": "2026-07-15T02:22:50.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "开源 LLM TODO Skill\"阿福\"：用 Claude Code 和 Codex 实现知识管理到排期自动化",
+      "summary": "作者基于 API 版 Fable5 和 Codex 开发了开源 TODO Skill\"阿福\"，用于将收件箱中的待办资料自动转为 Markdown 任务卡，识别信息不完整项（如视频链接需通过 yt-dlp 和本地 Whisper 提取字幕），并支持批量排期、AI 分组合并、拖拽调整周视图及同步到 Mac 日历或飞书日历。项目已开源在 GitHub，安装仅需一条命令。",
+      "source": "公众号：卡尔的AI沃茨",
+      "href": "https://mp.weixin.qq.com/s/QcGHxKohg0gW9e84Nd_9jA",
+      "publishedAt": "2026-07-15T01:52:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "每天Vibe Coding 16小时，作者分享Fable 5与GPT-5.6 Sol的AI开发流程",
@@ -137,22 +161,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
       "publishedAt": "2026-07-14T07:07:34.621Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "面壁智能CTO曾国洋专访：端侧模型是AI落地关键路径",
-      "summary": "面壁智能CTO曾国洋指出，端侧模型是AI落地的关键路径。其原创方法论\"模型风洞\"可在小规模实验中预测完整训练效果，并基于\"知识密度\"提出\"面壁定律\"：知识密度每3.5个月翻一番。2B参数的MiniCPM表现优于同期8B竞品。面壁已完成高通、联发科、英特尔、英伟达、AMD等芯片适配，新发布的BitCPM-CANN模型系列可在华为昇腾芯片上让同一内存多装约6倍模型。全双工全模态模型MiniCPM-o4.5支持实时打断与情绪调整。团队开发了全球首个完全由AI编写的生产级训练框架ForgeTrain，并引入行为模式库实现无需开口的\"默契系统\"。",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "href": "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
-      "publishedAt": "2026-07-14T02:29:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "商汤开源 SenseNova-Vision-7B-MoT 多任务视觉模型",
-      "summary": "商汤发布并完全开源 SenseNova-Vision-7B-MoT，一个统一处理检测、OCR、GUI、深度与法线估计、分割、多视图等主要视觉任务的模型。该模型支持通过自然语言定义新的视觉任务变体，跨传统任务边界重组视觉能力。开源内容包括模型权重及 SenseNova-Vision Corpus（含 5000 万示例子集及复现剩余公开数据的完整工具包）。",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "href": "https://x.com/SenseTime_AI/status/2076828658531262619",
-      "publishedAt": "2026-07-14T00:38:32.000Z"
     }
   ]
 }
