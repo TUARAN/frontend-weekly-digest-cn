@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-15T03:05:20.684Z",
-  "count": 20,
+  "updatedAt": "2026-07-15T05:02:27.449Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
+      "summary": "数据中心对电力的需求已导致美国公众电费增加230亿美元，这一涨价将持续至2028年底。由于电价由州公用事业委员会根据复杂的成本分摊规则设定，数据中心可利用其用电灵活性（如避开系统峰值负荷）规避部分成本分摊，而普通居民难以效仿。监管机构正面临如何公平分配电网基础设施投资成本的挑战。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
+      "publishedAt": "2026-07-15T03:51:16.524Z"
+    },
     {
       "topic": "模型",
       "title": "阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一",
