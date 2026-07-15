@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T19:29:38.755Z",
-  "count": 13,
+  "updatedAt": "2026-07-15T20:23:56.979Z",
+  "count": 12,
   "items": [
     {
       "topic": "产品",
@@ -97,14 +97,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "publishedAt": "2026-07-14T21:27:11.693Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
-      "summary": "Bonsai 27B 基于 Qwen3.6 27B，提供三元（1.71 有效比特/权重，5.9 GB）和 1-bit（1.125 有效比特/权重，3.9 GB）两个变体，后者首次将 27B 级模型装入 iPhone 17 Pro。模型支持多步推理、结构化工具调用、视觉任务和计算机使用智能体循环，拥有 262K token 上下文窗口，支持推测解码加速。在 15 项基准测试中，三元变体保留全精度基线 95% 的性能，1-bit 变体保留 90%，数学和编码能力几乎无损。采用 Apache 2.0 许可证开源。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://prismml.com/news/bonsai-27b",
-      "publishedAt": "2026-07-14T19:51:19.560Z"
     }
   ]
 }
