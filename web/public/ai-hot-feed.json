@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T16:33:03.857Z",
-  "count": 16,
+  "updatedAt": "2026-07-15T17:30:08.966Z",
+  "count": 14,
   "items": [
     {
       "topic": "产品",
@@ -113,22 +113,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
       "publishedAt": "2026-07-14T18:33:31.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Google 在 I/O Connect India 展示由 Tensor SoC 和 TPU 驱动的 Pixel 10 端侧 AI 未来",
-      "summary": "在 Google I/O Connect India 上，Google 展示了由定制 Tensor SoC 和 TPU 驱动的 Pixel 10 系列所支持的 100% 私有端侧 AI 未来。活动首次推出轻量级 Gemma 4 E2B 模型，该模型原生运行于设备端，可实现完全离线的多模态功能，包括 AI 聊天、实时图像识别和个人智能体任务。开发者即日起可通过新发布的 Tensor SDK beta 及其配套开源资源，开始构建这些安全的边缘应用。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel",
-      "publishedAt": "2026-07-14T16:51:42.219Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "如何让 Claude 不再说\"honest takes\"和\"load-bearing seams\"",
-      "summary": "用户可通过 Claude 的 MessageDisplay Hook 机制自定义词汇替换。编写 Python 脚本，将\"seam\"替换为\"whatchamacallit\"、\"you're absolutely right\"替换为\"I'm a complete clown\"、\"honest take\"替换为\"spicy doodad\"、\"load-bearing\"替换为\"cooked\"，保存为 `~/.claude/hooks/wordswap.sh` 并赋予执行权限，再在 `~/.claude/settings.json` 的 hooks 块中配置该命令。Hook 在启动时加载，新会话即生效。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "publishedAt": "2026-07-14T16:39:15.519Z"
     }
   ]
 }
