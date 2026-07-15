@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-15T15:32:58.492Z",
-  "count": 15,
+  "updatedAt": "2026-07-15T16:33:03.857Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Telegram 无服务器架构",
+      "summary": "Telegram Serverless 允许开发者直接在 Telegram 基础设施上运行 Bot 和 Mini App 的后端代码，无需配置服务器或容器。开发者编写普通 JavaScript 模块，通过 `npx tgcloud push` 单命令部署，代码在靠近 Bot API 和内建数据库的轻量级 V8 隔离沙箱中执行。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://core.telegram.org/bots/serverless",
+      "publishedAt": "2026-07-15T15:37:19.450Z"
+    },
     {
       "topic": "行业",
       "title": "阿里Qwen将集成至Apple Intelligence服务中国用户",
