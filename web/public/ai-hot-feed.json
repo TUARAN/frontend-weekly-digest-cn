@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T10:40:42.842Z",
-  "count": 18,
+  "updatedAt": "2026-07-16T11:33:17.779Z",
+  "count": 17,
   "items": [
     {
       "topic": "论文",
@@ -137,14 +137,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://core.telegram.org/bots/serverless",
       "publishedAt": "2026-07-15T15:37:19.450Z"
-    },
-    {
-      "topic": "行业",
-      "title": "阿里Qwen将集成至Apple Intelligence服务中国用户",
-      "summary": "阿里巴巴的Qwen模型将被集成到Apple Intelligence中，为中国的iOS、iPadOS、macOS和visionOS用户提供文本与图像理解、内容生成等AI功能。中国网信办已公布包括Apple Intelligence、华为小艺大模型、OPPO AndesGPT在内的七项移动端生成式AI服务备案信息。阿里巴巴董事会主席蔡崇信表示，苹果在选定阿里前曾与多家中国公司洽谈。",
-      "source": "X：X.PIN (@thexpin)",
-      "href": "https://x.com/thexpin/status/2077346752219521469",
-      "publishedAt": "2026-07-15T10:57:15.000Z"
     }
   ]
 }
