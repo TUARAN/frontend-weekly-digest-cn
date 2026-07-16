@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-16T01:35:52.067Z",
-  "count": 18,
+  "updatedAt": "2026-07-16T03:05:32.981Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "产品",
+      "title": "天工短剧工作台发布\"Agent智能分镜+无限画布\"双轨创作模式",
+      "summary": "天工短剧工作台推出双轨创作模式，通过导演Agent自动解析剧本、规划站位与机位，并支持多视细节图生成，解决AI短剧角色变脸和站位漂移问题。该工具内置影视级提示词模板、720°全景图及3D导演台，实现可控生产。已有三部作品上线DramaWave 7天实现百万美元级营收。",
+      "source": "公众号：昆仑万维（天工）",
+      "href": "https://mp.weixin.qq.com/s/WlGAeogkF_N5122nHA0TtQ",
+      "publishedAt": "2026-07-16T02:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "MiniMax Code 2.0 桌面端焕新：底层架构全面升级，金融模块即将上线",
+      "summary": "MiniMax Code 2.0 桌面端发布，基于 Pi Agent 框架重构底层架构，显著提升会话启动速度与长程复杂任务的执行稳定性。新版本优化了图表加载与文件预览框选编辑功能，并已与恒生金融数据库、企查查 MCP 打通，金融模块即将上线，支持多源数据实时检索与专业报告生成。桌面端现已开放下载，本月还将上线远程控制、浏览器操控等功能。",
+      "source": "公众号：MiniMax（稀宇科技）",
+      "href": "https://mp.weixin.qq.com/s/mQeBO0xC6Z1R0LqZX5TvNg",
+      "publishedAt": "2026-07-16T01:36:13.000Z"
+    },
     {
       "topic": "技巧",
       "title": "xAI 开源 Grok CLI 代码库中发现 Mermaid 转 Unicode 框图工具",
@@ -121,30 +137,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
       "publishedAt": "2026-07-15T03:51:16.524Z"
-    },
-    {
-      "topic": "模型",
-      "title": "阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一",
-      "summary": "阿里通义实验室发布实时语音交互模型 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 的 Speech Reasoning 子项中综合排名第一，超越 OpenAI GPT-Realtime-2。",
-      "source": "公众号：通义实验室（千问）",
-      "href": "https://mp.weixin.qq.com/s/hFp5rtV8-6KVRrgZoCj03A",
-      "publishedAt": "2026-07-15T02:30:26.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Airtap iMessage 新功能：发条短信让 AI 替你操作手机",
-      "summary": "Airtap 推出 iMessage 新功能，用户只需给美国号码发一条 iMessage，其云手机上的 AI Agent 就能通过视觉模拟点击，替用户完成 TikTok 刷视频、星巴克点单等操作，无需安装对应 App。其架构分为三层：大脑（理解指令）、AutoPilot（视觉操控屏幕）、云手机（24小时在线）。但支付等敏感操作仍需用户手动完成，信任与授权仍是所有 Agent 厂商的难题。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "href": "https://x.com/AYi_AInotes/status/2077217295504490992",
-      "publishedAt": "2026-07-15T02:22:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "开源 LLM TODO Skill\"阿福\"：用 Claude Code 和 Codex 实现知识管理到排期自动化",
-      "summary": "作者基于 API 版 Fable5 和 Codex 开发了开源 TODO Skill\"阿福\"，用于将收件箱中的待办资料自动转为 Markdown 任务卡，识别信息不完整项（如视频链接需通过 yt-dlp 和本地 Whisper 提取字幕），并支持批量排期、AI 分组合并、拖拽调整周视图及同步到 Mac 日历或飞书日历。项目已开源在 GitHub，安装仅需一条命令。",
-      "source": "公众号：卡尔的AI沃茨",
-      "href": "https://mp.weixin.qq.com/s/QcGHxKohg0gW9e84Nd_9jA",
-      "publishedAt": "2026-07-15T01:52:00.000Z"
     }
   ]
 }
