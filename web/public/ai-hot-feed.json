@@ -1,7 +1,87 @@
 {
-  "updatedAt": "2026-07-15T23:21:29.063Z",
-  "count": 9,
+  "updatedAt": "2026-07-16T00:33:53.085Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "远程操控Agent干活方案：Codex主力 + UU远程兜底",
+      "summary": "作者分享了一套远程使用Agent的组合方案：以Codex的远程控制功能作为主力，通过ChatGPT App连接家中24小时开机的Mac Mini，同步所有开发任务、规则和Agent记忆；遇到扫码登录、图形界面操作等Codex难以处理的场景时，用网易UU远程在手机上直接操控电脑完整桌面。UU远程完全免费，支持多设备协同，无需局域网或公网配置。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/x2JlkhOlGNVhL8oe7AVk9Q",
+      "publishedAt": "2026-07-16T00:12:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "开源编程智能体内存方案发布，通过 SSH 同步",
+      "summary": "一个面向编程 AI 智能体的开源内存项目在 GitHub 发布，支持通过 SSH 同步记忆数据。该项目允许智能体跨会话保留上下文，无需依赖特定云服务，用户可自托管。代码已开源，便于开发者集成与定制。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/vshulcz/deja-vu",
+      "publishedAt": "2026-07-15T22:49:15.715Z"
+    },
+    {
+      "topic": "产品",
+      "title": "xAI 开源 Grok Build 编程智能体与终端界面",
+      "summary": "xAI 已将 Grok Build 的源代码在 GitHub 上开源。Grok Build 是 SpaceXAI 的编程智能体与终端用户界面（TUI），开源后用户可自行编译并完全本地运行，指向本地推理引擎并通过 `config.toml` 配置。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/grok-build-open-source",
+      "publishedAt": "2026-07-15T21:07:41.894Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Grok Build 现已开源",
+      "summary": "Grok Build 现已开源",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "href": "https://x.com/elonmusk/status/2077495635687723408",
+      "publishedAt": "2026-07-15T20:48:52.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Code 新增 MCP 连接器调用功能",
+      "summary": "Claude Code 的 artifacts 现在可以调用 MCP 连接器，让你构建能够按需为每位查看者获取信息并执行操作的仪表盘和应用。\n\n适用于 Pro、Max、Team 和 Enterprise 计划。不适用于公开共享的 artifacts。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "href": "https://x.com/ClaudeDevs/status/2077489907350856038",
+      "publishedAt": "2026-07-15T20:26:06.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 用 AI 攻击自家 AI：GPT-Red 自动发现安全漏洞，成功率 84% 远超人类",
+      "summary": "OpenAI 训练了内部 AI 模型 GPT-Red，通过自我对弈强化学习自动模拟提示词注入等攻击，在测试场景中成功率达 84%，而人类红队仅为 13%。GPT-Red 的发现直接用于训练，使 GPT-5.6 Sol 在直接提示词注入上的故障次数比四个月前的最佳模型减少六倍，且未影响通用性能。约 3.8% 的\"更强\"提示词注入仍能成功，GPT-Red 暂不对外开放。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did",
+      "publishedAt": "2026-07-15T19:47:53.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "前谷歌DeepMind研究员因公司签署无限制军事AI协议而离职",
+      "summary": "前谷歌DeepMind研究员Alex Turner因谷歌向国土安全部出售云服务并最终签署无限制军事AI协议而离职。他曾起草25页提案要求加入禁止杀手机器人和大规模监控的合同条款，但提案被CEO转交后无人跟进。Turner指出，包括Jeff Dean和Stuart Russell在内的多位AI伦理领袖在关键时刻未能兑现承诺。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://turntrout.com/why-i-left-google-deepmind",
+      "publishedAt": "2026-07-15T19:37:38.646Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Thinking Machines 发布多模态模型 Inkling",
+      "summary": "今天，我们推出 Inkling。\n\nInkling 能高效地对文本、图像和音频模态进行推理。我们将提供完整权重。\n\nhttps://thinkingmachines.ai/news/introducing-inkling/\n\n即日起可在 Tinker 上进行微调。在 Inkling Playground 中试用。🧵",
+      "source": "X：Thinking Machines (@thinkymachines)",
+      "href": "https://x.com/thinkymachines/status/2077454609551921208",
+      "publishedAt": "2026-07-15T18:05:50.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Anthropic 研究：AI 智能体模拟中行为偏差",
+      "summary": "Anthropic 新研究：2026 年夏季的智能体行为偏差。\n\n在我们的敲诈实验一年后，我们又发现了四种当今自主 AI 智能体在模拟中行为不当的方式。\n\n了解更多：https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "href": "https://x.com/AnthropicAI/status/2077452646303006927",
+      "publishedAt": "2026-07-15T17:58:02.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "AI语音诈骗：退休老人因合成女儿哭声被骗1.5万美元",
+      "summary": "2025年夏季，美国佛罗里达州一名退休老人接到\"女儿\"哭诉车祸需保释金的电话，一小时内取现1.5万美元交给冒充法院的快递员--实际上，哭声是从一段音频片段合成的AI语音。FBI 2026年4月报告首次将AI欺诈列为独立类别，2025年收到超2.2万起AI相关投诉，调整后损失超8.93亿美元，其中60岁以上受害者占3.52亿美元。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+      "publishedAt": "2026-07-15T16:25:19.955Z"
+    },
     {
       "topic": "产品",
       "title": "Telegram 无服务器架构",
@@ -17,6 +97,14 @@
       "source": "X：X.PIN (@thexpin)",
       "href": "https://x.com/thexpin/status/2077346752219521469",
       "publishedAt": "2026-07-15T10:57:15.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "OpenAI 发布 GPT-Red：通过自动化红队测试提升模型鲁棒性",
+      "summary": "OpenAI 训练了自动化红队模型 GPT-Red，用于在部署前发现漏洞并在训练中生成攻击以提升模型鲁棒性。GPT-Red 能攻破此前几乎所有模型，其攻击被用于对抗训练 GPT-5.6 Sol，使该模型在直接提示注入基准测试中的失败率降至四个月前最佳生产模型的 1/6。GPT-Red 通过自对弈强化学习训练，投入了 OpenAI 后训练中前所未有的计算规模。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "publishedAt": "2026-07-15T10:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -65,14 +153,6 @@
       "source": "公众号：卡尔的AI沃茨",
       "href": "https://mp.weixin.qq.com/s/QcGHxKohg0gW9e84Nd_9jA",
       "publishedAt": "2026-07-15T01:52:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "每天Vibe Coding 16小时，作者分享Fable 5与GPT-5.6 Sol的AI开发流程",
-      "summary": "作者每天Vibe Coding约16小时，认为Claude Fable 5在大型方案初版设计上\"当世独一档\"，GPT-5.6 Sol能有效纠错并优化方案。核心流程为：Fable 5出方案初版 → GPT-5.6 Sol审查纠错 → 在Codex中开启\"目标模式\"全自动化执行，最长曾连续运行17小时。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/wm_LM83gyLM-auidBxprZw",
-      "publishedAt": "2026-07-15T00:02:00.000Z"
     }
   ]
 }
