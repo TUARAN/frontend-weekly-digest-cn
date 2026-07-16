@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-16T16:31:07.485Z",
-  "count": 19,
+  "updatedAt": "2026-07-16T17:30:48.940Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
+      "summary": "对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限。尽管信任度低，66%的企业已允许或正计划在12个月内实现低风险智能体的全自动、无人工干预部署。",
+      "source": "VentureBeat：AI（RSS）",
+      "href": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+      "publishedAt": "2026-07-16T16:40:48.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
+      "summary": "Google Vids 推出两项更新：Gemini Omni 支持用户通过自然语言提示词和图片参考生成、逐步编辑高质量视频片段；个人数字分身功能允许用户上传自拍和语音录制后，输入文字即可让数字分身出镜。两项功能面向 Google AI Pro 和 Ultra 订阅者及 Google Workspace 商业客户开放，所有生成内容均含不可见的 SynthID 数字水印。",
+      "source": "Google Blog：AI（RSS）",
+      "href": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
+      "publishedAt": "2026-07-16T16:00:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "世界人工智能合作组织协定签署仪式在上海举行，总部设中国上海",
