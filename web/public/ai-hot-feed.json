@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-16T09:43:06.588Z",
-  "count": 17,
+  "updatedAt": "2026-07-16T10:40:42.842Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "论文",
+      "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+      "summary": "HYPIC 在混合注意力大模型上实现了位置无关缓存，将首 token 延迟平均降低 3.25 倍。在 4 个生产级模型上，同 SLO 下可持续 QPS 提升 1.66 倍，任务质量与完全重算仅相差 1.71 分。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "href": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+      "publishedAt": "2026-07-16T10:00:00.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Gemini Enterprise Agent Platform 新增 Parallel Web Search 网络接地提供商",
+      "summary": "Google Cloud 与 Parallel Web Systems 合作，将 Parallel 的搜索基础设施作为新的网络接地提供商原生集成到 Gemini Enterprise Agent Platform 中。该集成使开发者能将 AI 智能体锚定在可验证的实时网络结果上，以提升企业工作流的事实准确性。用户还可编程提取、永久缓存并与其他大语言模型一起处理网络数据。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search",
+      "publishedAt": "2026-07-16T09:58:51.914Z"
+    },
     {
       "topic": "行业",
       "title": "台积电上调2026年资本支出预测至600~640亿美元，A14制程进展顺利",
@@ -129,14 +145,6 @@
       "source": "X：X.PIN (@thexpin)",
       "href": "https://x.com/thexpin/status/2077346752219521469",
       "publishedAt": "2026-07-15T10:57:15.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI 发布 GPT-Red：通过自动化红队测试提升模型鲁棒性",
-      "summary": "OpenAI 训练了自动化红队模型 GPT-Red，用于在部署前发现漏洞并在训练中生成攻击以提升模型鲁棒性。GPT-Red 能攻破此前几乎所有模型，其攻击被用于对抗训练 GPT-5.6 Sol，使该模型在直接提示注入基准测试中的失败率降至四个月前最佳生产模型的 1/6。GPT-Red 通过自对弈强化学习训练，投入了 OpenAI 后训练中前所未有的计算规模。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "publishedAt": "2026-07-15T10:00:00.000Z"
     }
   ]
 }
