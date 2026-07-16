@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-16T07:42:59.628Z",
+  "updatedAt": "2026-07-16T08:49:11.106Z",
   "count": 17,
   "items": [
+    {
+      "topic": "行业",
+      "title": "台积电上调2026年资本支出预测至600~640亿美元，A14制程进展顺利",
+      "summary": "台积电在2026Q2财报说明会上将2026年资本支出预测上调至600~640亿美元，此前预测接近560亿美元。董事长魏哲家表示，预计2028年量产的A14制程（1.4nm）开发进展顺利，移动和HPC客户兴趣强烈，将成为比2nm更大、更持久的工艺。台积电预计2026Q3合并营收446~458亿美元，2026全年美元收入增幅将超过40%。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/977/544.htm",
+      "publishedAt": "2026-07-16T07:59:15.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Patter SDK 教程：构建餐厅预订电话智能体，支持动态变量、护栏、延迟仪表盘与评估检查",
+      "summary": "Patter SDK 发布教程，演示如何构建一个餐厅预订场景的语音智能体工作流。该流程支持动态调用变量、注册可调用工具、应用输出护栏（如PII脱敏、脏话过滤、话题范围限制），并可在无需实时电话凭证的情况下运行脚本化通话模拟。教程还涵盖延迟与成本指标追踪、回归式评估检查，以及将智能体逻辑、工具调用、安全检查和通话模拟整合为单一结构化管线。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
+      "publishedAt": "2026-07-16T07:42:49.000Z"
+    },
     {
       "topic": "技巧",
       "title": "千问APP联合武汉发布举办AI求职实战课，演示简历诊断与办公自动化",
@@ -121,22 +137,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "publishedAt": "2026-07-15T10:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "国行 Apple 智能完成备案，阿里千问将集成至苹果 AI 能力",
-      "summary": "苹果技术开发（上海）有限公司的\"Apple 智能\"大模型已于 2026 年 7 月 8 日完成备案，适用场景为苹果手机。阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS、iPadOS、macOS 和 visionOS 的中国用户提供文本与图像理解、内容生成等功能，用户无需在应用间切换即可直接体验。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/977/109.htm",
-      "publishedAt": "2026-07-15T08:41:23.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "金山办公推出 WPS Comate AI 办公客户端",
-      "summary": "金山办公在2026 AI生产力大会上推出面向员工的AI办公客户端WPS Comate，可连接组织数据与流程。该产品提供AI岗位专家、Skill技能生态、自动化任务等六大模块，并支持云端与本地双任务模式，个人用户可直接下载体验。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/977/105.htm",
-      "publishedAt": "2026-07-15T08:39:58.000Z"
     }
   ]
 }
