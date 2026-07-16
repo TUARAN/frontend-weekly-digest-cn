@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-07-16T18:27:14.123Z",
-  "count": 20,
+  "updatedAt": "2026-07-16T19:28:55.580Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
+      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
+      "source": "Moonshot AI：Kimi Blog",
+      "href": "https://www.kimi.com/blog/perception-bench",
+      "publishedAt": "2026-07-16T19:11:01.192Z"
+    },
+    {
+      "topic": "行业",
+      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
+      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。",
+      "source": "VentureBeat：AI（RSS）",
+      "href": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+      "publishedAt": "2026-07-16T19:02:38.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
+      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。",
+      "source": "X：ChatGPT (@ChatGPTapp)",
+      "href": "https://x.com/ChatGPTapp/status/2077826846373380535",
+      "publishedAt": "2026-07-16T18:44:58.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
+      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.mixfont.com/experiments/decoy-font",
+      "publishedAt": "2026-07-16T18:32:23.680Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
