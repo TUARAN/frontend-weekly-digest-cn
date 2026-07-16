@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-16T00:33:53.085Z",
-  "count": 19,
+  "updatedAt": "2026-07-16T01:35:52.067Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "xAI 开源 Grok CLI 代码库中发现 Mermaid 转 Unicode 框图工具",
+      "summary": "xAI 开源的 Grok CLI 编码智能体代码库中包含一个用 Rust 编写的 Mermaid 图表示例终端渲染器 `xai-grok-markdown/src/mermaid.rs`。开发者通过 Claude Code for web （Fable 5） 将其编译为 WebAssembly，实现在浏览器中运行该工具。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/Jul/16/grok-mermaid",
+      "publishedAt": "2026-07-16T00:33:18.000Z"
+    },
     {
       "topic": "技巧",
       "title": "远程操控Agent干活方案：Codex主力 + UU远程兜底",
@@ -28,27 +36,11 @@
     },
     {
       "topic": "产品",
-      "title": "Grok Build 现已开源",
-      "summary": "Grok Build 现已开源",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "href": "https://x.com/elonmusk/status/2077495635687723408",
-      "publishedAt": "2026-07-15T20:48:52.000Z"
-    },
-    {
-      "topic": "产品",
       "title": "Claude Code 新增 MCP 连接器调用功能",
       "summary": "Claude Code 的 artifacts 现在可以调用 MCP 连接器，让你构建能够按需为每位查看者获取信息并执行操作的仪表盘和应用。\n\n适用于 Pro、Max、Team 和 Enterprise 计划。不适用于公开共享的 artifacts。",
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2077489907350856038",
       "publishedAt": "2026-07-15T20:26:06.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 用 AI 攻击自家 AI：GPT-Red 自动发现安全漏洞，成功率 84% 远超人类",
-      "summary": "OpenAI 训练了内部 AI 模型 GPT-Red，通过自我对弈强化学习自动模拟提示词注入等攻击，在测试场景中成功率达 84%，而人类红队仅为 13%。GPT-Red 的发现直接用于训练，使 GPT-5.6 Sol 在直接提示词注入上的故障次数比四个月前的最佳模型减少六倍，且未影响通用性能。约 3.8% 的\"更强\"提示词注入仍能成功，GPT-Red 暂不对外开放。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did",
-      "publishedAt": "2026-07-15T19:47:53.000Z"
     },
     {
       "topic": "技巧",
