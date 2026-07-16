@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T15:33:32.136Z",
-  "count": 22,
+  "updatedAt": "2026-07-16T16:31:07.485Z",
+  "count": 19,
   "items": [
     {
       "topic": "行业",
@@ -124,14 +124,6 @@
     },
     {
       "topic": "产品",
-      "title": "xAI 开源 Grok Build 编程智能体与终端界面",
-      "summary": "xAI 已将 Grok Build 的源代码在 GitHub 上开源。Grok Build 是 SpaceXAI 的编程智能体与终端用户界面（TUI），开源后用户可自行编译并完全本地运行，指向本地推理引擎并通过 `config.toml` 配置。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/grok-build-open-source",
-      "publishedAt": "2026-07-15T21:07:41.894Z"
-    },
-    {
-      "topic": "产品",
       "title": "Claude Code 新增 MCP 连接器调用功能",
       "summary": "Claude Code 的 artifacts 现在可以调用 MCP 连接器，让你构建能够按需为每位查看者获取信息并执行操作的仪表盘和应用。\n\n适用于 Pro、Max、Team 和 Enterprise 计划。不适用于公开共享的 artifacts。",
       "source": "X：Claude Devs (@ClaudeDevs)",
@@ -161,22 +153,6 @@
       "source": "X：Anthropic (@AnthropicAI)",
       "href": "https://x.com/AnthropicAI/status/2077452646303006927",
       "publishedAt": "2026-07-15T17:58:02.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI语音诈骗：退休老人因合成女儿哭声被骗1.5万美元",
-      "summary": "2025年夏季，美国佛罗里达州一名退休老人接到\"女儿\"哭诉车祸需保释金的电话，一小时内取现1.5万美元交给冒充法院的快递员--实际上，哭声是从一段音频片段合成的AI语音。FBI 2026年4月报告首次将AI欺诈列为独立类别，2025年收到超2.2万起AI相关投诉，调整后损失超8.93亿美元，其中60岁以上受害者占3.52亿美元。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
-      "publishedAt": "2026-07-15T16:25:19.955Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Telegram 无服务器架构",
-      "summary": "Telegram Serverless 允许开发者直接在 Telegram 基础设施上运行 Bot 和 Mini App 的后端代码，无需配置服务器或容器。开发者编写普通 JavaScript 模块，通过 `npx tgcloud push` 单命令部署，代码在靠近 Bot API 和内建数据库的轻量级 V8 隔离沙箱中执行。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://core.telegram.org/bots/serverless",
-      "publishedAt": "2026-07-15T15:37:19.450Z"
     }
   ]
 }
