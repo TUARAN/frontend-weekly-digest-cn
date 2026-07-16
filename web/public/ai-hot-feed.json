@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-16T20:20:24.375Z",
-  "count": 23,
+  "updatedAt": "2026-07-16T22:03:02.416Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
+      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/grok-automations",
+      "publishedAt": "2026-07-16T21:39:40.165Z"
+    },
+    {
+      "topic": "行业",
+      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
+      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。",
+      "source": "Ars Technica：AI（RSS）",
+      "href": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
+      "publishedAt": "2026-07-16T20:26:23.000Z"
+    },
     {
       "topic": "论文",
       "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
@@ -177,14 +193,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/vshulcz/deja-vu",
       "publishedAt": "2026-07-15T22:49:15.715Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Code 新增 MCP 连接器调用功能",
-      "summary": "Claude Code 的 artifacts 现在可以调用 MCP 连接器，让你构建能够按需为每位查看者获取信息并执行操作的仪表盘和应用。\n\n适用于 Pro、Max、Team 和 Enterprise 计划。不适用于公开共享的 artifacts。",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "href": "https://x.com/ClaudeDevs/status/2077489907350856038",
-      "publishedAt": "2026-07-15T20:26:06.000Z"
     }
   ]
 }
