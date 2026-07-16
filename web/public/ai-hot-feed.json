@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-16T13:34:15.600Z",
-  "count": 20,
+  "updatedAt": "2026-07-16T14:42:00.734Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "产品",
+      "title": "在 Claude Cowork 中使用 Claude Fable 5",
+      "summary": "Anthropic 发布最强通用模型 Claude Fable 5，专为长时间、多步骤的复杂异步工作设计，可在 Claude Cowork 中自主执行深度研究、尽职调查等任务。该模型需手动选择，默认模型为 Claude Sonnet 5。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+      "publishedAt": "2026-07-16T14:32:22.664Z"
+    },
     {
       "topic": "产品",
       "title": "面壁智能开源企业AI数字员工平台StaffDeck",
