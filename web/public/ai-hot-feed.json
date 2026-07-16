@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-16T12:36:20.740Z",
-  "count": 19,
+  "updatedAt": "2026-07-16T13:34:15.600Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "产品",
+      "title": "面壁智能开源企业AI数字员工平台StaffDeck",
+      "summary": "面壁智能联合多团队开源StaffDeck，一个用于构建与管理数字员工的企业平台。该平台旨在将专业知识、标准作业程序（SOP）和决策规则转化为持续工作、改进并保留组织知识的数字员工，而非传统聊天机器人。项目代码已发布于GitHub。",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "href": "https://x.com/OpenBMB/status/2077741814799548451",
+      "publishedAt": "2026-07-16T13:07:05.000Z"
+    },
     {
       "topic": "产品",
       "title": "秒哒 3.5 全球首发 iOS App，无代码开发与多端共享后端能力升级",
