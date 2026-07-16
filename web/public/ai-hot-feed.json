@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T19:28:55.580Z",
-  "count": 24,
+  "updatedAt": "2026-07-16T20:20:24.375Z",
+  "count": 23,
   "items": [
     {
       "topic": "论文",
@@ -185,14 +185,6 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "href": "https://x.com/ClaudeDevs/status/2077489907350856038",
       "publishedAt": "2026-07-15T20:26:06.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "前谷歌DeepMind研究员因公司签署无限制军事AI协议而离职",
-      "summary": "前谷歌DeepMind研究员Alex Turner因谷歌向国土安全部出售云服务并最终签署无限制军事AI协议而离职。他曾起草25页提案要求加入禁止杀手机器人和大规模监控的合同条款，但提案被CEO转交后无人跟进。Turner指出，包括Jeff Dean和Stuart Russell在内的多位AI伦理领袖在关键时刻未能兑现承诺。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://turntrout.com/why-i-left-google-deepmind",
-      "publishedAt": "2026-07-15T19:37:38.646Z"
     }
   ]
 }
