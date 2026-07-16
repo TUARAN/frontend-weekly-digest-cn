@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-16T17:30:48.940Z",
-  "count": 21,
+  "updatedAt": "2026-07-16T18:27:14.123Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
+      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/ai-code-migration",
+      "publishedAt": "2026-07-16T17:32:26.540Z"
+    },
     {
       "topic": "技巧",
       "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
@@ -153,22 +161,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://turntrout.com/why-i-left-google-deepmind",
       "publishedAt": "2026-07-15T19:37:38.646Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Thinking Machines 发布多模态模型 Inkling",
-      "summary": "今天，我们推出 Inkling。\n\nInkling 能高效地对文本、图像和音频模态进行推理。我们将提供完整权重。\n\nhttps://thinkingmachines.ai/news/introducing-inkling/\n\n即日起可在 Tinker 上进行微调。在 Inkling Playground 中试用。🧵",
-      "source": "X：Thinking Machines (@thinkymachines)",
-      "href": "https://x.com/thinkymachines/status/2077454609551921208",
-      "publishedAt": "2026-07-15T18:05:50.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Anthropic 研究：AI 智能体模拟中行为偏差",
-      "summary": "Anthropic 新研究：2026 年夏季的智能体行为偏差。\n\n在我们的敲诈实验一年后，我们又发现了四种当今自主 AI 智能体在模拟中行为不当的方式。\n\n了解更多：https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2077452646303006927",
-      "publishedAt": "2026-07-15T17:58:02.000Z"
     }
   ]
 }
