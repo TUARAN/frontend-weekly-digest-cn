@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-16T11:33:17.779Z",
-  "count": 17,
+  "updatedAt": "2026-07-16T12:36:20.740Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "产品",
+      "title": "秒哒 3.5 全球首发 iOS App，无代码开发与多端共享后端能力升级",
+      "summary": "百度智能云在 WAIC2026 发布秒哒 3.5，新增 iOS 打包能力，用户无需 Mac 或 Xcode 即可将应用打包为 IPA 文件或上架 App Store。3.5 版本还内置 SEO Agent 实现搜索优化自动化，支持多应用共享同一后端数据库，并推出数据库多环境隔离与后端资源分级功能。秒哒累计服务超 3500 万用户，已创造 350 万个商业应用。",
+      "source": "公众号：百度智能云（文心）",
+      "href": "https://mp.weixin.qq.com/s/W3QACoSYgwK0TW4zG-KFsg",
+      "publishedAt": "2026-07-16T12:17:11.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "欧盟裁定 Google 必须向竞争对手开放 Android 和 Search，影响 Gemini 等 AI 服务",
+      "summary": "欧盟依据《数字市场法案》（DMA）裁定 Google 必须向竞争对手开放 Android 和 Google Search 的关键部分，包括允许第三方 AI 助手和搜索引擎获得更大访问权限。这两项决定可能削弱 Google 对两大核心平台的控制，并为其 AI 工具 Gemini 的未来格局带来深远影响，同时为竞争对手创造新的发展机会。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "publishedAt": "2026-07-16T12:06:51.000Z"
+    },
     {
       "topic": "论文",
       "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
