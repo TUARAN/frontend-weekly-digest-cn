@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T22:03:02.416Z",
-  "count": 24,
+  "updatedAt": "2026-07-16T23:57:55.812Z",
+  "count": 23,
   "items": [
     {
       "topic": "产品",
@@ -185,14 +185,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/x2JlkhOlGNVhL8oe7AVk9Q",
       "publishedAt": "2026-07-16T00:12:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "开源编程智能体内存方案发布，通过 SSH 同步",
-      "summary": "一个面向编程 AI 智能体的开源内存项目在 GitHub 发布，支持通过 SSH 同步记忆数据。该项目允许智能体跨会话保留上下文，无需依赖特定云服务，用户可自托管。代码已开源，便于开发者集成与定制。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/vshulcz/deja-vu",
-      "publishedAt": "2026-07-15T22:49:15.715Z"
     }
   ]
 }
