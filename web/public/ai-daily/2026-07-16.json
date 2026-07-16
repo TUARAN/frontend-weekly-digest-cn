@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-16",
+  "displayDate": "Jul 16",
+  "dateNum": "0716",
+  "year": 2026,
+  "dayOfWeek": "THU",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "Hacker News 热门（buzzing.cc 中文翻译） · OpenAI：官网动态（RSS · 排除企业/客户案例） · 公众号：通义实验室（千问） 等",
+  "count": 5,
+  "highlights": [
+    "开源编程智能体内存方案发布，通过 SSH",
+    "OpenAI 发布 GPT-Red：通过",
+    "阿里发布 Qwen-Audio-3.0-",
+    "xAI 开源 Grok CLI 代码库中",
+    "远程操控Agent干活方案：Codex主"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "开源编程智能体内存方案发布，通过 SSH 同步",
+      "summary": "一个面向编程 AI 智能体的开源内存项目在 GitHub 发布，支持通过 SSH 同步记忆数据。该项目允许智能体跨会话保留上下文，无需依赖特定云服务，用户可自托管。代码已开源，便于开发者集成与定制。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "OpenAI 发布 GPT-Red：通过自动化红队测试提升模型鲁棒性",
+      "summary": "OpenAI 训练了自动化红队模型 GPT-Red，用于在部署前发现漏洞并在训练中生成攻击以提升模型鲁棒性。GPT-Red 能攻破此前几乎所有模型，其攻击被用于对抗训练 GPT-5.6 Sol，使该模型在直接提示注入基准测试中的失败率降至四个月前最佳生产模型的 1/6。GPT-Red 通过自对弈强化学习训练，投入了 OpenAI 后训练中前所未有的计算规模。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "阿里发布 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 语音推理子项中综合排名第一",
+      "summary": "阿里通义实验室发布实时语音交互模型 Qwen-Audio-3.0-Realtime，在 Artificial Analysis 的 Speech Reasoning 子项中综合排名第一，超越 OpenAI GPT-Realtime-2。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "xAI 开源 Grok CLI 代码库中发现 Mermaid 转 Unicode 框图工具",
+      "summary": "xAI 开源的 Grok CLI 编码智能体代码库中包含一个用 Rust 编写的 Mermaid 图表示例终端渲染器 `xai-grok-markdown/src/mermaid.rs`。开发者通过 Claude Code for web （Fable 5） 将其编译为 WebAssembly，实现在浏览器中运行该工具。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "远程操控Agent干活方案：Codex主力 + UU远程兜底",
+      "summary": "作者分享了一套远程使用Agent的组合方案：以Codex的远程控制功能作为主力，通过ChatGPT App连接家中24小时开机的Mac Mini，同步所有开发任务、规则和Agent记忆；遇到扫码登录、图形界面操作等Codex难以处理的场景时，用网易UU远程在手机上直接操控电脑完整桌面。UU远程完全免费，支持多设备协同，无需局域网或公网配置。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    }
+  ]
+}

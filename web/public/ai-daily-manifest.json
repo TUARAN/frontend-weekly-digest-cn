@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-16",
+      "displayDate": "Jul 16",
+      "json": "/ai-daily/2026-07-16.json",
+      "count": 5,
+      "highlights": [
+        "开源编程智能体内存方案发布，通过 SSH",
+        "OpenAI 发布 GPT-Red：通过",
+        "阿里发布 Qwen-Audio-3.0-",
+        "xAI 开源 Grok CLI 代码库中",
+        "远程操控Agent干活方案：Codex主"
+      ]
+    },
+    {
       "date": "2026-07-15",
       "displayDate": "Jul 15",
       "json": "/ai-daily/2026-07-15.json",
@@ -564,5 +577,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-15"
+  "latest": "2026-07-16"
 }
