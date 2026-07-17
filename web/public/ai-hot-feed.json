@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-17T09:08:09.585Z",
-  "count": 21,
+  "updatedAt": "2026-07-17T11:20:14.531Z",
+  "count": 20,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
+      "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
+      "publishedAt": "2026-07-17T09:41:25.000Z"
+    },
     {
       "topic": "论文",
       "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
@@ -153,22 +161,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
       "publishedAt": "2026-07-16T12:06:51.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
-      "summary": "HYPIC 在混合注意力大模型上实现了位置无关缓存，将首 token 延迟平均降低 3.25 倍。在 4 个生产级模型上，同 SLO 下可持续 QPS 提升 1.66 倍，任务质量与完全重算仅相差 1.71 分。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "href": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
-      "publishedAt": "2026-07-16T10:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Gemini Enterprise Agent Platform 新增 Parallel Web Search 网络接地提供商",
-      "summary": "Google Cloud 与 Parallel Web Systems 合作，将 Parallel 的搜索基础设施作为新的网络接地提供商原生集成到 Gemini Enterprise Agent Platform 中。该集成使开发者能将 AI 智能体锚定在可验证的实时网络结果上，以提升企业工作流的事实准确性。用户还可编程提取、永久缓存并与其他大语言模型一起处理网络数据。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search",
-      "publishedAt": "2026-07-16T09:58:51.914Z"
     }
   ]
 }
