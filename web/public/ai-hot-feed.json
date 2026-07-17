@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-17T13:24:56.772Z",
+  "updatedAt": "2026-07-17T15:11:52.074Z",
   "count": 18,
   "items": [
+    {
+      "topic": "论文",
+      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
+      "summary": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在BrowseComp上约90%的成绩；上下文策略仅带来+6.8个百分点的提升。该基准包含544道问题、11个领域，采用树与图结构，已开源。",
+      "source": "X：美团 LongCat (@Meituan_LongCat)",
+      "href": "https://x.com/Meituan_LongCat/status/2078119654632124547",
+      "publishedAt": "2026-07-17T14:08:29.000Z"
+    },
     {
       "topic": "行业",
       "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
@@ -9,6 +17,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/978/277.htm",
       "publishedAt": "2026-07-17T11:10:01.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
+      "summary": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "publishedAt": "2026-07-17T10:00:00.000Z"
     },
     {
       "topic": "技巧",
@@ -129,22 +145,6 @@
       "source": "Google Blog：AI（RSS）",
       "href": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
       "publishedAt": "2026-07-16T16:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "世界人工智能合作组织协定签署仪式在上海举行，总部设中国上海",
-      "summary": "7月16日，成立世界人工智能合作组织协定签署仪式在上海举行，中共中央政治局委员、外交部长王毅代表中国政府签署协定。该组织是独立的政府间国际组织，总部设在中国上海，旨在促进人工智能国际合作与全球治理。哈萨克斯坦、老挝、巴基斯坦等29个国家代表签署协定成为创始成员国。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/977/793.htm",
-      "publishedAt": "2026-07-16T14:38:08.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "在 Claude Cowork 中使用 Claude Fable 5",
-      "summary": "Anthropic 发布最强通用模型 Claude Fable 5，专为长时间、多步骤的复杂异步工作设计，可在 Claude Cowork 中自主执行深度研究、尽职调查等任务。该模型需手动选择，默认模型为 Claude Sonnet 5。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
-      "publishedAt": "2026-07-16T14:32:22.664Z"
     }
   ]
 }
