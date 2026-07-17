@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-17",
+      "displayDate": "Jul 17",
+      "json": "/ai-daily/2026-07-17.json",
+      "count": 5,
+      "highlights": [
+        "Anthropic 用 Claude C",
+        "面壁智能开源企业AI数字员工平台Staf",
+        "秒哒 3.5 全球首发 iOS App，",
+        "MiniMax Code 2.0 桌面端",
+        "在 Claude Cowork 中使用 "
+      ]
+    },
+    {
       "date": "2026-07-16",
       "displayDate": "Jul 16",
       "json": "/ai-daily/2026-07-16.json",
@@ -577,5 +590,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-16"
+  "latest": "2026-07-17"
 }
