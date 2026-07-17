@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-17T03:19:58.772Z",
+  "updatedAt": "2026-07-17T06:13:54.617Z",
   "count": 20,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
+      "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "href": "https://x.com/AYi_AInotes/status/2077981025905316253",
+      "publishedAt": "2026-07-17T04:57:38.000Z"
+    },
     {
       "topic": "技巧",
       "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
@@ -153,14 +161,6 @@
       "source": "MarkTechPost（RSS）",
       "href": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
       "publishedAt": "2026-07-16T07:42:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "千问APP联合武汉发布举办AI求职实战课，演示简历诊断与办公自动化",
-      "summary": "千问APP与武汉发布在武汉举办AI求职实战课，现场演示了用千问进行简历诊断、PPT制作和表格分析。产品经理提出\"给全材料、说明目标、定义标准、划定边界、索要可编辑文件\"五步法，并展示了将486行杂乱销售数据浓缩为一页结论PPT的\"建、理、算、析、呈\"方法论。",
-      "source": "公众号：千问APP（阿里）",
-      "href": "https://mp.weixin.qq.com/s/dCk6IXbFyOSSc1JxcWsglA",
-      "publishedAt": "2026-07-16T03:27:08.000Z"
     }
   ]
 }
