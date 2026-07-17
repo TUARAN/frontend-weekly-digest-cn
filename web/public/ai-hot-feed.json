@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-17T15:11:52.074Z",
-  "count": 18,
+  "updatedAt": "2026-07-17T17:09:50.009Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Sora 2 视频克隆效果惊人，真假难辨",
+      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
+      "source": "X：Gabriel (@gabriel1)",
+      "href": "https://x.com/gabriel1/status/2078156277247881438",
+      "publishedAt": "2026-07-17T16:34:01.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
+      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "publishedAt": "2026-07-17T16:32:51.023Z"
+    },
     {
       "topic": "论文",
       "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
@@ -75,28 +91,12 @@
       "publishedAt": "2026-07-17T00:40:20.333Z"
     },
     {
-      "topic": "产品",
-      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
-      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/grok-automations",
-      "publishedAt": "2026-07-16T21:39:40.165Z"
-    },
-    {
       "topic": "行业",
       "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
       "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。",
       "source": "Ars Technica：AI（RSS）",
       "href": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
       "publishedAt": "2026-07-16T20:26:23.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
-      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
-      "source": "Moonshot AI：Kimi Blog",
-      "href": "https://www.kimi.com/blog/perception-bench",
-      "publishedAt": "2026-07-16T19:11:01.192Z"
     },
     {
       "topic": "行业",
@@ -121,30 +121,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.mixfont.com/experiments/decoy-font",
       "publishedAt": "2026-07-16T18:32:23.680Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
-      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/ai-code-migration",
-      "publishedAt": "2026-07-16T17:32:26.540Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
-      "summary": "对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限。尽管信任度低，66%的企业已允许或正计划在12个月内实现低风险智能体的全自动、无人工干预部署。",
-      "source": "VentureBeat：AI（RSS）",
-      "href": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-      "publishedAt": "2026-07-16T16:40:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
-      "summary": "Google Vids 推出两项更新：Gemini Omni 支持用户通过自然语言提示词和图片参考生成、逐步编辑高质量视频片段；个人数字分身功能允许用户上传自拍和语音录制后，输入文字即可让数字分身出镜。两项功能面向 Google AI Pro 和 Ultra 订阅者及 Google Workspace 商业客户开放，所有生成内容均含不可见的 SynthID 数字水印。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
-      "publishedAt": "2026-07-16T16:00:00.000Z"
     }
   ]
 }
