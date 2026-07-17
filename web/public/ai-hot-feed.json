@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-17T11:20:14.531Z",
-  "count": 20,
+  "updatedAt": "2026-07-17T13:24:56.772Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "行业",
+      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+      "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/978/277.htm",
+      "publishedAt": "2026-07-17T11:10:01.000Z"
+    },
     {
       "topic": "技巧",
       "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
@@ -137,30 +145,6 @@
       "source": "Claude：Blog（网页）",
       "href": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
       "publishedAt": "2026-07-16T14:32:22.664Z"
-    },
-    {
-      "topic": "产品",
-      "title": "面壁智能开源企业AI数字员工平台StaffDeck",
-      "summary": "面壁智能联合多团队开源StaffDeck，一个用于构建与管理数字员工的企业平台。该平台旨在将专业知识、标准作业程序（SOP）和决策规则转化为持续工作、改进并保留组织知识的数字员工，而非传统聊天机器人。项目代码已发布于GitHub。",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2077741814799548451",
-      "publishedAt": "2026-07-16T13:07:05.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "秒哒 3.5 全球首发 iOS App，无代码开发与多端共享后端能力升级",
-      "summary": "百度智能云在 WAIC2026 发布秒哒 3.5，新增 iOS 打包能力，用户无需 Mac 或 Xcode 即可将应用打包为 IPA 文件或上架 App Store。3.5 版本还内置 SEO Agent 实现搜索优化自动化，支持多应用共享同一后端数据库，并推出数据库多环境隔离与后端资源分级功能。秒哒累计服务超 3500 万用户，已创造 350 万个商业应用。",
-      "source": "公众号：百度智能云（文心）",
-      "href": "https://mp.weixin.qq.com/s/W3QACoSYgwK0TW4zG-KFsg",
-      "publishedAt": "2026-07-16T12:17:11.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "欧盟裁定 Google 必须向竞争对手开放 Android 和 Search，影响 Gemini 等 AI 服务",
-      "summary": "欧盟依据《数字市场法案》（DMA）裁定 Google 必须向竞争对手开放 Android 和 Google Search 的关键部分，包括允许第三方 AI 助手和搜索引擎获得更大访问权限。这两项决定可能削弱 Google 对两大核心平台的控制，并为其 AI 工具 Gemini 的未来格局带来深远影响，同时为竞争对手创造新的发展机会。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-      "publishedAt": "2026-07-16T12:06:51.000Z"
     }
   ]
 }
