@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T19:05:34.291Z",
-  "count": 15,
+  "updatedAt": "2026-07-17T20:53:03.893Z",
+  "count": 14,
   "items": [
     {
       "topic": "行业",
@@ -113,14 +113,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
       "publishedAt": "2026-07-17T00:40:20.333Z"
-    },
-    {
-      "topic": "行业",
-      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
-      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。",
-      "source": "Ars Technica：AI（RSS）",
-      "href": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
-      "publishedAt": "2026-07-16T20:26:23.000Z"
     }
   ]
 }
