@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-17T17:09:50.009Z",
+  "updatedAt": "2026-07-17T19:05:34.291Z",
   "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+      "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "publishedAt": "2026-07-17T17:41:32.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
+      "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2078172517085085951",
+      "publishedAt": "2026-07-17T17:38:33.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
+      "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "href": "https://x.com/ArtificialAnlys/status/2078165665278730490",
+      "publishedAt": "2026-07-17T17:11:19.000Z"
+    },
     {
       "topic": "模型",
       "title": "Sora 2 视频克隆效果惊人，真假难辨",
@@ -97,30 +121,6 @@
       "source": "Ars Technica：AI（RSS）",
       "href": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
       "publishedAt": "2026-07-16T20:26:23.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
-      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。",
-      "source": "VentureBeat：AI（RSS）",
-      "href": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-      "publishedAt": "2026-07-16T19:02:38.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
-      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "href": "https://x.com/ChatGPTapp/status/2077826846373380535",
-      "publishedAt": "2026-07-16T18:44:58.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
-      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.mixfont.com/experiments/decoy-font",
-      "publishedAt": "2026-07-16T18:32:23.680Z"
     }
   ]
 }
