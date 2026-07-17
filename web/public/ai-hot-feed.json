@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-17T06:13:54.617Z",
-  "count": 20,
+  "updatedAt": "2026-07-17T09:08:09.585Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://schema-harness.github.io/",
+      "publishedAt": "2026-07-17T08:41:53.383Z"
+    },
+    {
+      "topic": "模型",
+      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
+      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32，768 tokens。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
+      "publishedAt": "2026-07-17T07:53:02.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
+      "summary": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并采用 Thinker-Performer 双通路架构在提升画质的同时维持了极低延迟。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg",
+      "publishedAt": "2026-07-17T07:14:00.000Z"
+    },
     {
       "topic": "模型",
       "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
@@ -145,22 +169,6 @@
       "source": "Google Developers Blog（RSS）",
       "href": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search",
       "publishedAt": "2026-07-16T09:58:51.914Z"
-    },
-    {
-      "topic": "行业",
-      "title": "台积电上调2026年资本支出预测至600~640亿美元，A14制程进展顺利",
-      "summary": "台积电在2026Q2财报说明会上将2026年资本支出预测上调至600~640亿美元，此前预测接近560亿美元。董事长魏哲家表示，预计2028年量产的A14制程（1.4nm）开发进展顺利，移动和HPC客户兴趣强烈，将成为比2nm更大、更持久的工艺。台积电预计2026Q3合并营收446~458亿美元，2026全年美元收入增幅将超过40%。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/977/544.htm",
-      "publishedAt": "2026-07-16T07:59:15.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Patter SDK 教程：构建餐厅预订电话智能体，支持动态变量、护栏、延迟仪表盘与评估检查",
-      "summary": "Patter SDK 发布教程，演示如何构建一个餐厅预订场景的语音智能体工作流。该流程支持动态调用变量、注册可调用工具、应用输出护栏（如PII脱敏、脏话过滤、话题范围限制），并可在无需实时电话凭证的情况下运行脚本化通话模拟。教程还涵盖延迟与成本指标追踪、回归式评估检查，以及将智能体逻辑、工具调用、安全检查和通话模拟整合为单一结构化管线。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
-      "publishedAt": "2026-07-16T07:42:49.000Z"
     }
   ]
 }
