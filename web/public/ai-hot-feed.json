@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T09:23:27.669Z",
-  "count": 11,
+  "updatedAt": "2026-07-18T11:02:03.302Z",
+  "count": 9,
   "items": [
     {
       "topic": "技巧",
@@ -73,22 +73,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/978/277.htm",
       "publishedAt": "2026-07-17T11:10:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
-      "summary": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "publishedAt": "2026-07-17T10:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
-      "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。",
-      "source": "公众号：通义实验室（千问）",
-      "href": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
-      "publishedAt": "2026-07-17T09:41:25.000Z"
     }
   ]
 }
