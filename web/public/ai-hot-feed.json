@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T11:02:03.302Z",
-  "count": 9,
+  "updatedAt": "2026-07-18T13:11:53.763Z",
+  "count": 7,
   "items": [
     {
       "topic": "技巧",
@@ -57,22 +57,6 @@
       "source": "X：美团 LongCat (@Meituan_LongCat)",
       "href": "https://x.com/Meituan_LongCat/status/2078119654632124547",
       "publishedAt": "2026-07-17T14:08:29.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
-      "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter",
-      "publishedAt": "2026-07-17T12:11:11.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
-      "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/978/277.htm",
-      "publishedAt": "2026-07-17T11:10:01.000Z"
     }
   ]
 }
