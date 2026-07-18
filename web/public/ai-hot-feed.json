@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T23:51:05.996Z",
-  "count": 14,
+  "updatedAt": "2026-07-18T02:22:46.545Z",
+  "count": 13,
   "items": [
     {
       "topic": "行业",
@@ -105,14 +105,6 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "href": "https://x.com/AYi_AInotes/status/2077981025905316253",
       "publishedAt": "2026-07-17T04:57:38.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-      "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
-      "publishedAt": "2026-07-17T00:40:20.333Z"
     }
   ]
 }
