@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T07:47:09.251Z",
-  "count": 13,
+  "updatedAt": "2026-07-18T09:23:27.669Z",
+  "count": 11,
   "items": [
     {
       "topic": "技巧",
@@ -89,22 +89,6 @@
       "source": "公众号：通义实验室（千问）",
       "href": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
       "publishedAt": "2026-07-17T09:41:25.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
-      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://schema-harness.github.io/",
-      "publishedAt": "2026-07-17T08:41:53.383Z"
-    },
-    {
-      "topic": "模型",
-      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
-      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32，768 tokens。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
-      "publishedAt": "2026-07-17T07:53:02.000Z"
     }
   ]
 }
