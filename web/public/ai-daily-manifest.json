@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-18",
+      "displayDate": "Jul 18",
+      "json": "/ai-daily/2026-07-18.json",
+      "count": 5,
+      "highlights": [
+        "八天四款前沿模型发布，Kimi K3 跻",
+        "Cursor 评估负责人确认 Claud",
+        "Apple 起诉 OpenAI：诉讼背后",
+        "Schema Harness 在 ARC",
+        "月之暗面在GTC 2026披露Kimi "
+      ]
+    },
+    {
       "date": "2026-07-17",
       "displayDate": "Jul 17",
       "json": "/ai-daily/2026-07-17.json",
@@ -590,5 +603,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-17"
+  "latest": "2026-07-18"
 }
