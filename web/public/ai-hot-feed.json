@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T15:55:46.659Z",
-  "count": 6,
+  "updatedAt": "2026-07-18T16:57:51.945Z",
+  "count": 4,
   "items": [
     {
       "topic": "技巧",
@@ -33,22 +33,6 @@
       "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "href": "https://x.com/ArtificialAnlys/status/2078165665278730490",
       "publishedAt": "2026-07-17T17:11:19.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Sora 2 视频克隆效果惊人，真假难辨",
-      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
-      "source": "X：Gabriel (@gabriel1)",
-      "href": "https://x.com/gabriel1/status/2078156277247881438",
-      "publishedAt": "2026-07-17T16:34:01.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
-      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/working-at-the-frontier-cursor",
-      "publishedAt": "2026-07-17T16:32:51.023Z"
     }
   ]
 }
