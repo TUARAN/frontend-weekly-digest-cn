@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-19T11:56:51.080Z",
-  "count": 4,
+  "updatedAt": "2026-07-19T13:22:55.090Z",
+  "count": 5,
   "items": [
+    {
+      "topic": "模型",
+      "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
+      "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+      "source": "公众号：昆仑万维（天工）",
+      "href": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
+      "publishedAt": "2026-07-19T12:35:56.000Z"
+    },
     {
       "topic": "模型",
       "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
