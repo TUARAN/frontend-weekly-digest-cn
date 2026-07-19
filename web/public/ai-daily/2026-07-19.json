@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-19",
+  "displayDate": "Jul 19",
+  "dateNum": "0719",
+  "year": 2026,
+  "dayOfWeek": "SUN",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "count": 1,
+  "highlights": [
+    "transcribe.cpp 发布：基于"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+      "summary": "transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}

@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "date": "2026-07-19",
+      "displayDate": "Jul 19",
+      "json": "/ai-daily/2026-07-19.json",
+      "count": 1,
+      "highlights": [
+        "transcribe.cpp 发布：基于"
+      ]
+    },
+    {
       "date": "2026-07-18",
       "displayDate": "Jul 18",
       "json": "/ai-daily/2026-07-18.json",
@@ -603,5 +612,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-18"
+  "latest": "2026-07-19"
 }
