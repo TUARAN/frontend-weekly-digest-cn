@@ -1,14 +1,30 @@
 {
-  "updatedAt": "2026-07-19T02:35:08.826Z",
-  "count": 1,
+  "updatedAt": "2026-07-19T05:51:01.758Z",
+  "count": 3,
   "items": [
     {
       "topic": "技巧",
-      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
-      "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-      "publishedAt": "2026-07-18T04:47:25.000Z"
+      "title": "AI 热潮正在瓦解全球决策机制",
+      "summary": "一位拥有 300 多次行业交流经验的从业者观察到，全球公私机构正陷入集体性 AI 狂热，决策层要么没有计划，要么只能低头回避。过去一年半中，其团队所见的所有 AI 项目均以失败告终（成功率 0%），失败原因常与 LLM 能力无关，而是企业本就难以有效运行软件项目，且 AI 项目叠加了额外风险。内部聊天机器人几乎无人使用，客户服务聊天机器人也极少带来良好体验，例如三菱的语音客服承诺回电却六周未兑现。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "publishedAt": "2026-07-19T05:13:24.607Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ChatGPT Work 功能：建站、邮件、文档处理",
+      "summary": "ChatGPT Work 适用于\n\n✅ 创建和托管网站 ✅ 为你管理电子邮件 ✅ 总结海量文档 ✅ 制作一流的文档、表格和幻灯片\n\n已在你的移动应用或 http://chatgpt.com 上提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中。",
+      "source": "X：Tibo (@thsottiaux)",
+      "href": "https://x.com/thsottiaux/status/2078697631019303273",
+      "publishedAt": "2026-07-19T04:25:10.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+      "summary": "transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "publishedAt": "2026-07-19T02:49:15.657Z"
     }
   ]
 }
