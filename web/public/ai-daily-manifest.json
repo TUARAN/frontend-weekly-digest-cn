@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-20",
+      "displayDate": "Jul 20",
+      "json": "/ai-daily/2026-07-20.json",
+      "count": 5,
+      "highlights": [
+        "Ollama 获 8800 万美元融资，",
+        "不会代码也能做产品：一份从0开始的Vib",
+        "面壁智能发布首个具身智能成果 MiniC",
+        "黄仁勋访日：Nvidia 联手日本打造物",
+        "字节跳动发布 Seed Audio 1."
+      ]
+    },
+    {
       "date": "2026-07-19",
       "displayDate": "Jul 19",
       "json": "/ai-daily/2026-07-19.json",
@@ -612,5 +625,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-19"
+  "latest": "2026-07-20"
 }
