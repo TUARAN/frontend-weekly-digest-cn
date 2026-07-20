@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-20T13:04:30.829Z",
-  "count": 11,
+  "updatedAt": "2026-07-20T15:48:22.655Z",
+  "count": 10,
   "items": [
     {
       "topic": "产品",
@@ -81,14 +81,6 @@
       "source": "字节 Seed：Research Feed（网页内嵌数据）",
       "href": "https://seed.bytedance.com/zh/blog/%E4%BB%8E-%E4%BC%9A%E8%AF%B4-%E8%B5%B0%E5%90%91-%E4%BC%9A%E5%88%9B%E4%BD%9C-seed-audio-1-0-%E9%9F%B3%E9%A2%91%E5%88%9B%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
       "publishedAt": "2026-07-19T16:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
-      "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "href": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
-      "publishedAt": "2026-07-19T13:12:39.000Z"
     }
   ]
 }
