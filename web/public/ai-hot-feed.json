@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-20T06:17:22.339Z",
-  "count": 8,
+  "updatedAt": "2026-07-20T10:08:58.576Z",
+  "count": 10,
   "items": [
+    {
+      "topic": "模型",
+      "title": "通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型",
+      "summary": "通义实验室发布 Qwen-Audio-3.0-TTS，含 Flash（首包延迟约300ms）和 Plus 两个版本。Plus 版本在 Artificial Analysis 榜单夺冠，支持16种语言和20种中文方言，平均 WER/CER 低至3.87（Flash），说话人相似度最高达82.75（Plus）。",
+      "source": "公众号：通义实验室（千问）",
+      "href": "https://mp.weixin.qq.com/s/INvrqTrWLMm2WCLIqhqTrg",
+      "publishedAt": "2026-07-20T08:53:11.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
+      "summary": "小红书与北大提出 UltraEP，首次将基于精确路由信息的实时负载均衡引入生产系统，在每个 microbatch 和每一层动态复制热点专家。在 Qwen3-235B 等模型上，训练吞吐平均达到理想性能的 94.6%，相比 Megatron-LM 提升 42%；推理 prefill 吞吐相比 SGLang 提升 1.56 倍。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "href": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
+      "publishedAt": "2026-07-20T08:00:45.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
+      "summary": "上海科学智能研究院开放科学多模态基础模型\"神珍\"，总参数约110亿，可处理DNA、RNA、蛋白质、小分子、地球系统和医学影像六类数据。在生物序列20项任务中，该模型9项取得最优结果；医学影像分割平均Dice得分91.20，在7种参评方法中最优。模型权重及代码已在星河启智、Hugging Face和GitHub开放。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/979/017.htm",
+      "publishedAt": "2026-07-20T07:00:15.000Z"
+    },
     {
       "topic": "模型",
       "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
@@ -57,14 +81,6 @@
       "source": "公众号：昆仑万维（天工）",
       "href": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
       "publishedAt": "2026-07-19T12:35:56.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
-      "summary": "Qwen3.8 即将发布并很快开源权重！🌐\n\n该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。\n\n你无需等待即可测试。就在刚才，Qwen3.8-Max-Preview 已在阿里巴巴的 Token Plan、Qoder 和 QoderWork 上首次亮相。快来抢先体验吧。\n\n期待你的作品。敬请关注！🚀",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "href": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
-      "publishedAt": "2026-07-19T08:10:39.000Z"
     }
   ]
 }
