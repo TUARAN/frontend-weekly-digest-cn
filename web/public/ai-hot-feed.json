@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-19T23:55:30.857Z",
-  "count": 8,
+  "updatedAt": "2026-07-20T02:54:14.769Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Ollama 获 8800 万美元融资，加速开放模型生态发展",
+      "summary": "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://ollama.com/blog/all-aboard-open-models",
+      "publishedAt": "2026-07-20T01:45:09.765Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
+      "summary": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
+      "publishedAt": "2026-07-20T00:08:00.000Z"
+    },
     {
       "topic": "行业",
       "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
@@ -57,14 +73,6 @@
       "source": "X：Tibo (@thsottiaux)",
       "href": "https://x.com/thsottiaux/status/2078697631019303273",
       "publishedAt": "2026-07-19T04:25:10.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
-      "summary": "transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://workshop.cjpais.com/projects/transcribe-cpp",
-      "publishedAt": "2026-07-19T02:49:15.657Z"
     }
   ]
 }
