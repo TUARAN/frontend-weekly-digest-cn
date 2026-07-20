@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-20T10:08:58.576Z",
-  "count": 10,
+  "updatedAt": "2026-07-20T13:04:30.829Z",
+  "count": 11,
   "items": [
+    {
+      "topic": "产品",
+      "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
+      "summary": "LoRA Speedrun项目推出公开排行榜，在固定硬件（单张L40S）上比拼Qwen2.5-1.5B的微调运行时间。当前纪录由@Saivineeth147以6分05秒保持，采用序列打包与仅完成损失掩码技术，相比基线11分57秒提速约2倍且准确率更高（61.1%）。项目提供免费Modal沙箱验证，任何提交需经3次独立复现确认。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/Saivineeth147/lora-speedrun",
+      "publishedAt": "2026-07-20T12:21:09.021Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Hugging Face 遭自主AI智能体入侵，用AI工具完成数小时取证分析",
+      "summary": "Hugging Face 披露其部分生产基础设施遭一个自主AI智能体系统入侵，攻击者通过恶意数据集利用数据处理管道中的代码执行漏洞，窃取了内部数据集和多项服务凭证。该公司部署LLM驱动的分析智能体，在数小时内完成了对17000多条攻击行为的取证分析，而此类工作通常需要数天。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
+      "publishedAt": "2026-07-20T12:12:47.000Z"
+    },
     {
       "topic": "模型",
       "title": "通义实验室发布 Qwen-Audio-3.0-TTS 实时语音合成模型",
@@ -73,14 +89,6 @@
       "source": "公众号：面壁智能（MiniCPM）",
       "href": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
       "publishedAt": "2026-07-19T13:12:39.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
-      "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
-      "source": "公众号：昆仑万维（天工）",
-      "href": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
-      "publishedAt": "2026-07-19T12:35:56.000Z"
     }
   ]
 }
