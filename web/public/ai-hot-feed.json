@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-20T02:54:14.769Z",
-  "count": 9,
+  "updatedAt": "2026-07-20T06:17:22.339Z",
+  "count": 8,
   "items": [
+    {
+      "topic": "模型",
+      "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
+      "summary": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "href": "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
+      "publishedAt": "2026-07-20T03:54:08.000Z"
+    },
     {
       "topic": "行业",
       "title": "Ollama 获 8800 万美元融资，加速开放模型生态发展",
@@ -27,12 +35,12 @@
       "publishedAt": "2026-07-19T21:16:07.000Z"
     },
     {
-      "topic": "模型",
-      "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
-      "summary": "面壁智能开源首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。同时发布高性能推理框架 PhyAI，旨在让机器人实现理解、记忆与行动。",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "href": "https://x.com/OpenBMB/status/2078839529591759025",
-      "publishedAt": "2026-07-19T13:49:01.000Z"
+      "topic": "产品",
+      "title": "字节跳动发布 Seed Audio 1.0 音频创作模型，统一建模人声与音效实现端到端影视级音频生成",
+      "summary": "字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "href": "https://seed.bytedance.com/zh/blog/%E4%BB%8E-%E4%BC%9A%E8%AF%B4-%E8%B5%B0%E5%90%91-%E4%BC%9A%E5%88%9B%E4%BD%9C-seed-audio-1-0-%E9%9F%B3%E9%A2%91%E5%88%9B%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
+      "publishedAt": "2026-07-19T16:00:00.000Z"
     },
     {
       "topic": "模型",
@@ -57,22 +65,6 @@
       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "href": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
       "publishedAt": "2026-07-19T08:10:39.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "AI 热潮正在瓦解全球决策机制",
-      "summary": "一位拥有 300 多次行业交流经验的从业者观察到，全球公私机构正陷入集体性 AI 狂热，决策层要么没有计划，要么只能低头回避。过去一年半中，其团队所见的所有 AI 项目均以失败告终（成功率 0%），失败原因常与 LLM 能力无关，而是企业本就难以有效运行软件项目，且 AI 项目叠加了额外风险。内部聊天机器人几乎无人使用，客户服务聊天机器人也极少带来良好体验，例如三菱的语音客服承诺回电却六周未兑现。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
-      "publishedAt": "2026-07-19T05:13:24.607Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT Work 功能：建站、邮件、文档处理",
-      "summary": "ChatGPT Work 适用于\n\n✅ 创建和托管网站 ✅ 为你管理电子邮件 ✅ 总结海量文档 ✅ 制作一流的文档、表格和幻灯片\n\n已在你的移动应用或 http://chatgpt.com 上提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中。",
-      "source": "X：Tibo (@thsottiaux)",
-      "href": "https://x.com/thsottiaux/status/2078697631019303273",
-      "publishedAt": "2026-07-19T04:25:10.000Z"
     }
   ]
 }
