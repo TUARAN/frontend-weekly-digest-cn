@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-20T18:01:03.854Z",
-  "count": 15,
+  "updatedAt": "2026-07-20T20:19:11.836Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "论文",
+      "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
+      "summary": "一项对12，750篇ArXiv论文全文的检测显示，截至2026年7月，约32%的新投稿文本特征与AI撰写一致，该比例在2026年初峰值接近39%。计算机科学领域最高（65%），数学领域最低（0.7%）。检测器在0.4%假阳性率下可识别85%的AI学术文本。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
+      "publishedAt": "2026-07-20T18:28:23.600Z"
+    },
     {
       "topic": "行业",
       "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
@@ -57,6 +65,14 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
       "publishedAt": "2026-07-20T12:12:47.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
+      "summary": "Cursor 测试了新型 AI 智能体集群，将任务分解为规划者（使用最强模型）和执行者（使用快速廉价模型）。使用 Grok 4.5 时，新集群在 4 小时内通过了 80% 的 SQL 测试套件，而旧集群在第二小时前失败。该系统已用于构建浏览器、修复漏洞和生成数十亿 token 合成训练数据。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/agent-swarm-model-economics",
+      "publishedAt": "2026-07-20T12:00:00.000Z"
     },
     {
       "topic": "技巧",
