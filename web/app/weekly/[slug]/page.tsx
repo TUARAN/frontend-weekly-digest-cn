@@ -4,8 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
-import SyncToBlogButton from '@/components/SyncToBlogButton';
-import { buildBrandUrl, buildWeeklyUrl } from '@/lib/site-matrix';
+import { buildBrandUrl } from '@/lib/site-matrix';
 
 interface PageProps {
   params: { slug: string } | Promise<{ slug: string }>;
@@ -28,8 +27,6 @@ export default async function WeeklyPage({ params }: PageProps) {
     notFound();
   }
 
-  const canonicalUrl = buildWeeklyUrl(`/weekly/${slug}`);
-
   return (
     <div className="container mx-auto px-4 py-12 md:px-6">
       <div className="mb-8 flex items-center justify-between">
@@ -47,11 +44,6 @@ export default async function WeeklyPage({ params }: PageProps) {
           >
             返回主站 frontendnext.com
           </Link>
-          <SyncToBlogButton
-            title={post.title}
-            markdown={post.content}
-            canonicalUrl={canonicalUrl}
-          />
         </div>
       </div>
 

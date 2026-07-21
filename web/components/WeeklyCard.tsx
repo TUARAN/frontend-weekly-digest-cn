@@ -1,16 +1,12 @@
 import Link from 'next/link';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { WeeklyPost } from '@/lib/weekly';
-import SyncToBlogButton from '@/components/SyncToBlogButton';
-import { buildWeeklyUrl } from '@/lib/site-matrix';
 
 interface WeeklyCardProps {
   post: WeeklyPost;
 }
 
 export default function WeeklyCard({ post }: WeeklyCardProps) {
-  const canonicalUrl = buildWeeklyUrl(`/weekly/${post.slug}`);
-
   return (
     <div className="group relative rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md hover:border-blue-200 dark:border-gray-800 dark:bg-gray-950 dark:hover:border-blue-900">
       <Link
@@ -44,16 +40,6 @@ export default function WeeklyCard({ post }: WeeklyCardProps) {
           </div>
         </div>
       </Link>
-
-      {/* 同步按钮 - 绝对定位在卡片右上角 */}
-      <div className="absolute right-4 top-4">
-        <SyncToBlogButton
-          title={post.title}
-          markdown={post.content}
-          canonicalUrl={canonicalUrl}
-          variant="compact"
-        />
-      </div>
     </div>
   );
 }

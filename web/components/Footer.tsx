@@ -15,7 +15,6 @@ const subscriptionLinks = [
 ];
 
 const communityLinks = [
-  { label: '博主联盟同步工具', href: 'https://syncblog.cn/sync', external: true },
   { label: 'GitHub 仓库', href: 'https://github.com/TUARAN/frontend-weekly-digest-cn', external: true },
   { label: '公众号《前端周看》', href: '#', external: false },
   { label: '微信群（备注"前端周刊"）', href: '#', external: false },
