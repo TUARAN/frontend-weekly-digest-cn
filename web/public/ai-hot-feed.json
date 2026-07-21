@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-20T23:06:21.825Z",
+  "updatedAt": "2026-07-21T02:33:15.408Z",
   "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "一个随机数就能识别AI模型身份：行为指纹技术可检测API中转站偷换模型",
+      "summary": "布拉格经济大学研究员托马什·布鲁克纳发现，通过让模型反复输出1到100的随机数，可生成独一无二的\"行为指纹\"。对165个模型各问30次后发现，GPT-4o偏爱42和37，Claude Sonnet 5疯狂输出47，Qwen3-Max则30次全部回答42。该方法仅需约120条请求即可识别模型身份，错误率约10.6%，为验证API是否被偷换模型提供了轻量级方案。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/pqFZreEZj8kB4KDirl4MSQ",
+      "publishedAt": "2026-07-21T01:10:49.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
+      "summary": "一项实验证明，将任务分解为规划者与执行者的树状结构后，代理群在四小时内用 Grok 4.5 达到 80% 的 SQL 测试通过率，而旧版代理群在第二小时前即失败。新系统峰值提交速度达每秒 1，000 次，为此团队从零构建了专用版本控制系统。该架构已在构建浏览器、修复漏洞及生成数十亿 token 合成数据等任务中验证。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://cursor.com/blog/agent-swarm-model-economics",
+      "publishedAt": "2026-07-21T00:35:26.928Z"
+    },
     {
       "topic": "论文",
       "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
@@ -113,22 +129,6 @@
       "source": "公众号：面壁智能（MiniCPM）",
       "href": "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
       "publishedAt": "2026-07-20T03:54:08.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Ollama 获 8800 万美元融资，加速开放模型生态发展",
-      "summary": "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://ollama.com/blog/all-aboard-open-models",
-      "publishedAt": "2026-07-20T01:45:09.765Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
-      "summary": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
-      "publishedAt": "2026-07-20T00:08:00.000Z"
     }
   ]
 }
