@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-21T11:06:48.587Z",
-  "count": 17,
+  "updatedAt": "2026-07-21T13:46:09.295Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "模型",
+      "title": "小红书 dots 模型获 IMO 2026 满分金牌",
+      "summary": "小红书 dots 团队携内部版本 dots-note 3.0 参加第 67 届 IMO 2026，六道题均获满分，以 42/42 分取得满分金牌，全球仅 7 位人类选手获此成绩。模型不依赖形式化语言，直接读取原始 LaTeX 题目，通过递归自我批判能力端到端完成解题。dots-note 3.0 是 dots3 系列最轻量级模型，预期将开源。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "href": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
+      "publishedAt": "2026-07-21T11:06:49.000Z"
+    },
     {
       "topic": "模型",
       "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
@@ -59,14 +67,6 @@
       "publishedAt": "2026-07-20T18:28:23.600Z"
     },
     {
-      "topic": "产品",
-      "title": "Grok for Excel 上线，支持金融建模与图表生成",
-      "summary": "Grok for Excel 现已上线。",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "href": "https://x.com/elonmusk/status/2079261553136734239",
-      "publishedAt": "2026-07-20T17:45:59.000Z"
-    },
-    {
       "topic": "行业",
       "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
       "summary": "Neill Blomkamp发布了13分钟科幻恐怖短片《Nightborne》，完全使用Seedance 2.0视频生成模型通过文本提示逐帧创作。影片采用纪录片风格，使用了32位真实人物的面部和声音（已获授权），人类艺术家负责概念艺术。Blomkamp表示计划以相同格式拍摄一部长片，并已创立AI电影工作室Barley Studios。",
@@ -105,38 +105,6 @@
       "source": "Hugging Face：Blog（RSS）",
       "href": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "publishedAt": "2026-07-20T15:58:51.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "昆仑万维发布并开源可交互世界模型 Matrix-Game 3.5",
-      "summary": "昆仑万维在 WAIC 2026 发布并开源新一代可交互世界模型 Matrix-Game 3.5。该模型通过 Patch Memory 与 Warped PRoPE 实现长期记忆与几何一致性建模，可在单张 GPU 上以 720P 分辨率、约 20FPS 实时生成流式视频。",
-      "source": "公众号：昆仑万维（天工）",
-      "href": "https://mp.weixin.qq.com/s/TUVv2wvp4RixsblDLrvSGg",
-      "publishedAt": "2026-07-20T13:45:18.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
-      "summary": "LoRA Speedrun项目推出公开排行榜，在固定硬件（单张L40S）上比拼Qwen2.5-1.5B的微调运行时间。当前纪录由@Saivineeth147以6分05秒保持，采用序列打包与仅完成损失掩码技术，相比基线11分57秒提速约2倍且准确率更高（61.1%）。项目提供免费Modal沙箱验证，任何提交需经3次独立复现确认。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/Saivineeth147/lora-speedrun",
-      "publishedAt": "2026-07-20T12:21:09.021Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Hugging Face 遭自主AI智能体入侵，用AI工具完成数小时取证分析",
-      "summary": "Hugging Face 披露其部分生产基础设施遭一个自主AI智能体系统入侵，攻击者通过恶意数据集利用数据处理管道中的代码执行漏洞，窃取了内部数据集和多项服务凭证。该公司部署LLM驱动的分析智能体，在数小时内完成了对17000多条攻击行为的取证分析，而此类工作通常需要数天。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
-      "publishedAt": "2026-07-20T12:12:47.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cursor 测试新型 AI 智能体集群：规划者+执行者分工，4小时通过80% SQL测试",
-      "summary": "Cursor 测试了新型 AI 智能体集群，将任务分解为规划者（使用最强模型）和执行者（使用快速廉价模型）。使用 Grok 4.5 时，新集群在 4 小时内通过了 80% 的 SQL 测试套件，而旧集群在第二小时前失败。该系统已用于构建浏览器、修复漏洞和生成数十亿 token 合成训练数据。",
-      "source": "Cursor Blog",
-      "href": "https://cursor.com/blog/agent-swarm-model-economics",
-      "publishedAt": "2026-07-20T12:00:00.000Z"
     }
   ]
 }
