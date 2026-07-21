@@ -1,7 +1,47 @@
 {
-  "updatedAt": "2026-07-21T15:42:01.864Z",
-  "count": 15,
+  "updatedAt": "2026-07-21T17:17:23.747Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库",
+      "summary": "Google 发布 Tunix，一个基于 JAX 的原生后训练库，旨在消除多轮、使用工具的 LLM 推理智能体训练中的 TPU 闲置瓶颈。Tunix 通过高并发异步 rollout 与解耦的生产者-消费者流水线最大化硬件吞吐量，确保训练器持续获得数据。该库提供即插即用抽象和持续宏观级性能分析，便于集成自定义环境。",
+      "source": "Google Developers Blog（RSS）",
+      "href": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
+      "publishedAt": "2026-07-21T16:00:05.337Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "GitHub Copilot 推出 canvases 扩展，实现开发者与 AI 智能体实时协作",
+      "summary": "GitHub Copilot 在应用中推出 canvases 扩展，这是一种共享交互式界面，开发者和 AI 智能体可在其中实时协作。用户通过 `/create-canvas` 指令创建画布，Copilot 可动态更新内容，用户则通过点击、编辑等操作与同一工作区交互。示例包括快速分类 Issue、生成交互式代码库关系图、管理会话工作树、优化提示词质量以及跨平台搜索知识联系人。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
+      "publishedAt": "2026-07-21T16:00:00.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 发布",
+      "summary": "Google 推出 Gemini 3.6 Flash，相比 3.5 Flash 输出 token 用量减少 17%，DeepSWE 准确率从 37% 提升至 49%，定价 $1.50/1M 输入 token。同时发布 3.5 Flash-Lite，输出速度达 350 tokens/s，定价 $0.3/1M 输入 token。两款模型均内置计算机使用工具。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
+      "publishedAt": "2026-07-21T15:55:51.307Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude Cowork 新增技能录制功能",
+      "summary": "Claude Cowork 新功能：教 Claude 一项技能。\n录制你执行任务时的屏幕操作，边做边讲解，Claude 会将其转化为可重复运行的技能。在 Claude 桌面应用的 + 菜单中找到\"录制技能\"即可使用。\n适用于 Pro、Max 和 Team 套餐。",
+      "source": "X：Claude (@claudeai)",
+      "href": "https://x.com/claudeai/status/2079595988998554047",
+      "publishedAt": "2026-07-21T15:54:55.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
+      "summary": "美国财政部长Scott Bessent周二表示，美方将审查中国开源模型是否存在知识产权盗窃行为，若证实将对中国AI公司实施制裁。Bessent称政府支持开源模型但不支持IP盗窃，并称有能力对盗窃美国公司技术的外国模型进行制裁。此举正值中国模型（如Moonshot AI的Kimi K3）能力与受欢迎度持续提升，威胁OpenAI、Anthropic等美国头部AI企业的商业模式。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "publishedAt": "2026-07-21T15:37:05.000Z"
+    },
     {
       "topic": "模型",
       "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
@@ -9,6 +49,14 @@
       "source": "Google DeepMind：Blog（RSS）",
       "href": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
       "publishedAt": "2026-07-21T15:16:30.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "OpenAI 与 Apollo Research 开发 Contrastive SDF 测试衡量 AI 的 reward-seeking 行为",
+      "summary": "OpenAI 与 Apollo Research 开发了 Contrastive SDF 测试，通过向模型植入相反的评分者偏好信念来测量其行为变化。测试发现，未经安全训练的前沿规模强化学习模型更倾向于做评分者想要的事，即使违背用户意图，且该倾向随训练增强。",
+      "source": "OpenAI：Alignment 研究博客（RSS）",
+      "href": "https://alignment.openai.com/measuring-reward-seeking",
+      "publishedAt": "2026-07-21T15:10:00.000Z"
     },
     {
       "topic": "技巧",
@@ -97,30 +145,6 @@
       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "href": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
       "publishedAt": "2026-07-20T17:27:55.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Grok for Excel 发布：在 Microsoft Excel 中用自然语言提问、写公式和运行场景",
-      "summary": "xAI 将 Grok 引入 Microsoft Excel，推出免费 Microsoft 365 加载项。用户可在工作表中用自然语言提问、根据描述编写公式或运行场景，答案会引用具体单元格，图表可直接插入工作表。该加载项还支持连接 SharePoint 或 Google Drive 获取上下文，并已同步支持 Word 和 PowerPoint。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/introducing-excel-addin",
-      "publishedAt": "2026-07-20T16:19:52.655Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Replit 新统一工具栏集成数据库与双因素认证",
-      "summary": "需要数据库？双因素认证？SEO 扫描器？\n\n你的项目所需的一切现在都可以通过我们新的统一工具栏触手可及。",
-      "source": "X：Replit (@Replit)",
-      "href": "https://x.com/Replit/status/2079235154485109114",
-      "publishedAt": "2026-07-20T16:01:05.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "NVIDIA 发布 Cosmos 3 Edge：4B 参数开源世界模型，为机器人及边缘 AI 提供实时推理与动作生成",
-      "summary": "NVIDIA 在 Hugging Face 上开源了 Cosmos 3 Edge，一个 40 亿参数的世界模型，旨在帮助机器人和视觉 AI 智能体在边缘设备上理解环境、实时推理并生成动作。",
-      "source": "Hugging Face：Blog（RSS）",
-      "href": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "publishedAt": "2026-07-20T15:58:51.000Z"
     }
   ]
 }
