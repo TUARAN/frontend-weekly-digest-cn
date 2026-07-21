@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-21T21:07:30.991Z",
-  "count": 25,
+  "updatedAt": "2026-07-21T22:55:08.050Z",
+  "count": 26,
   "items": [
     {
-      "topic": "模型",
-      "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
-      "summary": "Poolside 发布 Laguna S 2.1，一个 118B 总参数、8B 激活参数的 MoE 模型，支持 1M token 上下文窗口，从训练到发布用时不到九周。在 Terminal-Bench 2.1 上以 70.2% 的得分超越多数同尺寸模型，在 DeepSWE 上得分 40.4%。模型权重已开源，完整评估轨迹可在 trajectories.poolside.ai 获取。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "publishedAt": "2026-07-21T20:43:27.067Z"
+      "topic": "产品",
+      "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
+      "summary": "今日在 OpenRouter 上线：Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite！\n两者均为其模型系列的重大更新，具备高吞吐量（150+ tok/s），适用于智能体场景，从高效 token 的编码与知识工作，到低延迟、高并发的子智能体。\n详情如下 🧵",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "href": "https://x.com/OpenRouter/status/2079686435247186015",
+      "publishedAt": "2026-07-21T21:54:19.000Z"
     },
     {
       "topic": "行业",
@@ -25,6 +25,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://ads.openai.com/",
       "publishedAt": "2026-07-21T19:39:29.689Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Laguna S 2.1 免费开源上线 OpenCode",
+      "summary": "Laguna S 2.1 现已在 OpenCode 上免费提供\n\n1M 上下文窗口 · 完全开源\n\nPoolside 迄今为止最强大的模型",
+      "source": "X：opencode (@opencode)",
+      "href": "https://x.com/opencode/status/2079631772770242808",
+      "publishedAt": "2026-07-21T18:17:06.000Z"
     },
     {
       "topic": "论文",
