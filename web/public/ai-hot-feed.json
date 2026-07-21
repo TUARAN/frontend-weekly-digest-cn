@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-21T05:49:05.382Z",
+  "updatedAt": "2026-07-21T08:25:47.658Z",
   "count": 17,
   "items": [
+    {
+      "topic": "模型",
+      "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
+      "summary": "通义千问发布第三代图像生成基座模型 Qwen-Image-3.0，核心关键词为\"实\"。该模型支持最长 4.5k token 指令输入，可单次生成包含 9 个复杂信息图的 3×3 网格布局；文本渲染精度达 10px，并支持 12 种语言原生渲染，旨在将图像转化为可部署的生产力工具。",
+      "source": "Qwen：Blog Retrieval（API）",
+      "href": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "publishedAt": "2026-07-21T06:00:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
+      "summary": "日经研究显示，Meta、Oracle等五家美国科技巨头的隐性债务在约四年内膨胀八倍，达到约1.65万亿美元，超过其实际债务。这些债务主要来自数据中心租赁和GPU供应合同，其中Meta的表外债务约4200亿美元，是其透明债务的近三倍。隐性债务的激增使投资者更难评估风险。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "publishedAt": "2026-07-21T05:54:05.672Z"
+    },
     {
       "topic": "产品",
       "title": "腾讯混元推出Hyra-1.0递归自我改进研究智能体",
@@ -121,22 +137,6 @@
       "source": "公众号：通义实验室（千问）",
       "href": "https://mp.weixin.qq.com/s/INvrqTrWLMm2WCLIqhqTrg",
       "publishedAt": "2026-07-20T08:53:11.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "小红书与北大开源 UltraEP：面向大规模 MoE 训推的实时负载均衡方案",
-      "summary": "小红书与北大提出 UltraEP，首次将基于精确路由信息的实时负载均衡引入生产系统，在每个 microbatch 和每一层动态复制热点专家。在 Qwen3-235B 等模型上，训练吞吐平均达到理想性能的 94.6%，相比 Megatron-LM 提升 42%；推理 prefill 吞吐相比 SGLang 提升 1.56 倍。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "href": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
-      "publishedAt": "2026-07-20T08:00:45.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "上海科学智能研究院开放科学多模态基础模型\"神珍\"",
-      "summary": "上海科学智能研究院开放科学多模态基础模型\"神珍\"，总参数约110亿，可处理DNA、RNA、蛋白质、小分子、地球系统和医学影像六类数据。在生物序列20项任务中，该模型9项取得最优结果；医学影像分割平均Dice得分91.20，在7种参评方法中最优。模型权重及代码已在星河启智、Hugging Face和GitHub开放。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/979/017.htm",
-      "publishedAt": "2026-07-20T07:00:15.000Z"
     }
   ]
 }
