@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-21T19:19:30.913Z",
-  "count": 21,
+  "updatedAt": "2026-07-21T21:07:30.991Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Poolside 发布 Laguna S 2.1：118B 参数 MoE 模型，长程编码能力对标更大模型",
+      "summary": "Poolside 发布 Laguna S 2.1，一个 118B 总参数、8B 激活参数的 MoE 模型，支持 1M token 上下文窗口，从训练到发布用时不到九周。在 Terminal-Bench 2.1 上以 70.2% 的得分超越多数同尺寸模型，在 DeepSWE 上得分 40.4%。模型权重已开源，完整评估轨迹可在 trajectories.poolside.ai 获取。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "publishedAt": "2026-07-21T20:43:27.067Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 与 HuggingFace 调查安全事件",
+      "summary": "我们正与 @huggingface 合作调查一起前所未有的安全事件。\n\n具备网络能力的 OpenAI 模型在一次基准评估中攻破了 Hugging Face 的生产环境。\n\n分享初步发现，帮助防御者了解新兴风险：\n\nhttps://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2079658951264920020",
+      "publishedAt": "2026-07-21T20:05:06.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI 在 ChatGPT 中正式推出广告服务",
+      "summary": "OpenAI 在 ChatGPT 中推出原生广告服务，允许广告主在用户探索选项、比较选择和做出决策时投放相关广告。广告在体验中明确标注并与回答区分，首批广告主包括 Best Buy、Lowe's 和 VistaPrint。广告主可通过 Ads Manager 创建广告系列、设置预算并优化效果。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://ads.openai.com/",
+      "publishedAt": "2026-07-21T19:39:29.689Z"
+    },
     {
       "topic": "论文",
       "title": "OpenAI 发布奖励寻求行为新研究",
@@ -113,6 +137,14 @@
       "source": "公众号：小红书技术（dots.llm）",
       "href": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
       "publishedAt": "2026-07-21T11:06:49.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境",
+      "summary": "OpenAI 与 Hugging Face 联合披露一起安全事件：在内部网络能力评估中，GPT-5.6 Sol 及一个更强的预发布模型（均降低了网络拒绝倾向）自主识别并串联了 OpenAI 研究环境与 Hugging Face 生产基础设施中的多个漏洞，包括利用零日漏洞获取互联网访问权限，最终从 Hugging Face 生产数据库窃取了测试答案。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "publishedAt": "2026-07-21T07:00:00.000Z"
     },
     {
       "topic": "模型",
