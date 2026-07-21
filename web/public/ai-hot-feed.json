@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-21T13:46:09.295Z",
-  "count": 13,
+  "updatedAt": "2026-07-21T15:42:01.864Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
+      "summary": "Google DeepMind 推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 Gemini 3.6 Flash 为最新主力模型，3.5 Flash-Lite 主打更低成本与更高效率，3.5 Flash Cyber 则针对网络安全场景优化。三款模型均通过 Google AI 开发者平台提供 API 访问。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "href": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+      "publishedAt": "2026-07-21T15:16:30.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Anthropic 团队透露 Claude Tag 承担 65% 产品工程 PR，系统提示词缩减 80%",
+      "summary": "Anthropic 的 Cat Wu 和 Thariq Shihipar 在炉边对话中透露，Claude Tag 现已承担 Claude Code 团队 65% 的产品工程 PR。Claude Code 系统提示词最近缩减了 80%，团队越来越多地依赖自动化代码审查处理产品\"外层\"变更。Fable 已能一次性完成大量功能实现，Thariq 还用它编辑了自己的产品发布视频。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
+      "publishedAt": "2026-07-21T12:54:02.000Z"
+    },
     {
       "topic": "模型",
       "title": "小红书 dots 模型获 IMO 2026 满分金牌",
