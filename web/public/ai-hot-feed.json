@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-21T17:17:23.747Z",
-  "count": 18,
+  "updatedAt": "2026-07-21T19:19:30.913Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "论文",
+      "title": "OpenAI 发布奖励寻求行为新研究",
+      "summary": "我们正与 @apolloaievals 分享关于奖励寻求行为的新研究--即模型遵循其认为评分者奖励的内容，而非用户或开发者期望的内容--以及一种新方法 Contrastive SDF，用于衡量这些信念对行为的影响程度。\n\nhttps://alignment.openai.com/measuring-reward-seeking/",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2079628886950994005",
+      "publishedAt": "2026-07-21T18:05:38.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Anthropic 如何保障AI原生软件开发生命周期的安全",
+      "summary": "Anthropic副首席信息安全官Jason Clinton披露，其软件工程师每季度交付的代码量是2021-2025年平均水平的8倍，Claude编写了约80%合并入库的代码。安全团队通过安全左移、硬访问与身份边界、自动化与智能体审查结合、关键节点引入人工审核等策略，应对被入侵或提示注入的智能体引入恶意变更等威胁，同时不显著拖慢开发速度。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+      "publishedAt": "2026-07-21T17:54:42.493Z"
+    },
+    {
+      "topic": "产品",
+      "title": "xAI 推出 Grok for Outlook 加载项",
+      "summary": "xAI 今日推出 Grok for Outlook，一个 Microsoft 365 加载项，可将 Grok 智能体嵌入邮箱，用于总结长邮件线程、以用户风格起草回复并整理收件箱。该工具即日起对所有付费 X 和 SuperGrok 用户开放，可从 Microsoft Marketplace 添加。",
+      "source": "xAI：News（网页）",
+      "href": "https://x.ai/news/introducing-outlook-addin",
+      "publishedAt": "2026-07-21T17:22:49.842Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude 不是编译器--它比编译器更好",
+      "summary": "Claude 等大语言模型能跨越战略、产品、架构、代码到机器码的整个技术栈垂直工作，无需安排会议或请求许可，因此比传统编译器更强大。以 exe.dev 为例，团队用 LLM 研究分布式 DNS 系统设计、历史安全缺陷和替代实现策略，并通过多智能体循环构建了完整系统。LLM 虽在单项任务上不及资深人类，但能同时处理所有层级，实现跨层协作。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "publishedAt": "2026-07-21T17:15:35.727Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
+      "summary": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 3.6 Flash 在编码和多模态性能上提升，token 用量降低 17%，成本低于前代；3.5 Flash Cyber 专为修复网络安全漏洞微调，仅限政府及可信合作伙伴使用。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
+      "publishedAt": "2026-07-21T17:11:50.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Karpathy：用语音与LLM长谈可提升理解效率",
+      "summary": "Andrej Karpathy分享了一种与LLM协作的有效模式：开启语音输入，进行10分钟左右的自由漫谈，即使内容混乱、意识流式也无妨。他发现LLM擅长从长篇不连贯的语音中重构意图，回应的内容往往比用户最初的思路更清晰，从而减少后续修正次数、提升人机对齐效率。",
+      "source": "X：Andrej Karpathy (@karpathy)",
+      "href": "https://x.com/karpathy/status/2079610838143623371",
+      "publishedAt": "2026-07-21T16:53:55.000Z"
+    },
     {
       "topic": "产品",
       "title": "Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库",
@@ -17,14 +65,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
       "publishedAt": "2026-07-21T16:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 发布",
-      "summary": "Google 推出 Gemini 3.6 Flash，相比 3.5 Flash 输出 token 用量减少 17%，DeepSWE 准确率从 37% 提升至 49%，定价 $1.50/1M 输入 token。同时发布 3.5 Flash-Lite，输出速度达 350 tokens/s，定价 $0.3/1M 输入 token。两款模型均内置计算机使用工具。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
-      "publishedAt": "2026-07-21T15:55:51.307Z"
     },
     {
       "topic": "产品",
@@ -123,28 +163,12 @@
       "publishedAt": "2026-07-21T00:35:26.928Z"
     },
     {
-      "topic": "论文",
-      "title": "ArXiv上超30%新投稿文本特征与AI撰写一致",
-      "summary": "一项对12，750篇ArXiv论文全文的检测显示，截至2026年7月，约32%的新投稿文本特征与AI撰写一致，该比例在2026年初峰值接近39%。计算机科学领域最高（65%），数学领域最低（0.7%）。检测器在0.4%假阳性率下可识别85%的AI学术文本。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-      "publishedAt": "2026-07-20T18:28:23.600Z"
-    },
-    {
-      "topic": "行业",
-      "title": "《第九区》导演Neill Blomkamp发布首部完全由AI生成的短片《Nightborne》",
-      "summary": "Neill Blomkamp发布了13分钟科幻恐怖短片《Nightborne》，完全使用Seedance 2.0视频生成模型通过文本提示逐帧创作。影片采用纪录片风格，使用了32位真实人物的面部和声音（已获授权），人类艺术家负责概念艺术。Blomkamp表示计划以相同格式拍摄一部长片，并已创立AI电影工作室Barley Studios。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-      "publishedAt": "2026-07-20T17:32:41.000Z"
-    },
-    {
       "topic": "技巧",
-      "title": "中国AI几乎追平美国，Kimi K3开源模型引发市场震荡",
-      "summary": "中国公司月之暗面（Moonshot.AI）发布Kimi K3模型，性能与最佳美国模型相当，且为开源权重模型，用户可免费下载本地运行。受此消息影响，美国股市上周五下跌，OpenAI和Anthropic的商业模式及IPO前景受到严重质疑。美国在AI软件领域的护城河已不如预期，AI竞赛正演变为工业系统竞争。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "href": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
-      "publishedAt": "2026-07-20T17:27:55.000Z"
+      "title": "OpenRouter 推出 Prompt Caching + Sticky Routing，降低多轮 Agent 调用成本",
+      "summary": "OpenRouter 通过 Prompt Caching 与 Sticky Routing 降低多轮 Agent 的 token 成本。缓存读取价格仅为正常输入的 0.1x-0.5x，其中 Claude Sonnet 4.6 缓存读取为 $0.30/M（正常 $3.00/M）。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing",
+      "publishedAt": "2026-07-21T00:00:00.000Z"
     }
   ]
 }
