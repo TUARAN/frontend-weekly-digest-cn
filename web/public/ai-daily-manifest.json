@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-21",
+      "displayDate": "Jul 21",
+      "json": "/ai-daily/2026-07-21.json",
+      "count": 5,
+      "highlights": [
+        "中国AI几乎追平美国，Kimi K3开源",
+        "NVIDIA 发布 Cosmos 3 E",
+        "Anthropic 与作家群体15亿美元",
+        "一个随机数就能识别AI模型身份：行为指纹",
+        "代理群（Agent Swarm）通过树状"
+      ]
+    },
+    {
       "date": "2026-07-20",
       "displayDate": "Jul 20",
       "json": "/ai-daily/2026-07-20.json",
@@ -625,5 +638,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-20"
+  "latest": "2026-07-21"
 }
