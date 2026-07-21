@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-21T02:33:15.408Z",
-  "count": 16,
+  "updatedAt": "2026-07-21T05:49:05.382Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "产品",
+      "title": "腾讯混元推出Hyra-1.0递归自我改进研究智能体",
+      "summary": "腾讯混元推出Hyra-1.0，一个能递归自我改进的研究智能体，在NanoChat等三项任务上均超越Recursive公开结果。Hyra在55个数学开放问题中刷新29个历史最好结果，并设计出仅含15个可训练参数即可完成10位数加法的Transformer。所有产物已在GitHub开源。",
+      "source": "公众号：腾讯混元",
+      "href": "https://mp.weixin.qq.com/s/upwDQ_6ZfmszBUcRQjR_Dg",
+      "publishedAt": "2026-07-21T03:33:08.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Anthropic 与作家群体15亿美元版权和解获批",
+      "summary": "美国旧金山联邦法官批准了Anthropic与作家群体达成的15亿美元（约101.67亿元人民币）版权和解协议，这是美国金额最大的版权赔偿案。此前法院裁定Anthropic对书籍进行AI训练属于合理使用，但保存超700万本盗版书籍侵犯了作者权利。Anthropic称超91%的受约束作者和出版商已领取赔偿。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/979/324.htm",
+      "publishedAt": "2026-07-21T01:57:54.000Z"
+    },
     {
       "topic": "技巧",
       "title": "一个随机数就能识别AI模型身份：行为指纹技术可检测API中转站偷换模型",
@@ -121,14 +137,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/979/017.htm",
       "publishedAt": "2026-07-20T07:00:15.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
-      "summary": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "href": "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
-      "publishedAt": "2026-07-20T03:54:08.000Z"
     }
   ]
 }
