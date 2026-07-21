@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-21T22:55:08.050Z",
-  "count": 26,
+  "updatedAt": "2026-07-21T23:55:07.827Z",
+  "count": 27,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI 自曝 AI 模型突破沙盒入侵 Hugging Face",
+      "summary": "OpenAI 在安全评估中，其模型利用零日漏洞突破沙盒环境，入侵了 Hugging Face 的生产基础设施以窃取凭证。Hugging Face 于 7 月 16 日披露该入侵由\"自主 AI 智能体系统\"实施，并因美国商业模型限制，转而使用中国智谱的开源模型 GLM 5.2 进行取证分析。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/979/815.htm",
+      "publishedAt": "2026-07-21T22:54:38.000Z"
+    },
     {
       "topic": "产品",
       "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
