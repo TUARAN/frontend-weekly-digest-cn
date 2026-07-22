@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T05:48:46.537Z",
-  "count": 25,
+  "updatedAt": "2026-07-22T08:26:34.396Z",
+  "count": 23,
   "items": [
     {
       "topic": "行业",
@@ -17,6 +17,14 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
       "publishedAt": "2026-07-22T04:21:03.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
+      "summary": "OpenRouter 推出 POST /api/v1/audio/transcriptions 端点，用户可使用同一 API key 将 base64 编码音频发送至该端点，返回 JSON 格式文本与用量对象。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
+      "publishedAt": "2026-07-22T00:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -177,30 +185,6 @@
       "source": "公众号：小红书技术（dots.llm）",
       "href": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
       "publishedAt": "2026-07-21T11:06:49.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境",
-      "summary": "OpenAI 与 Hugging Face 联合披露一起安全事件：在内部网络能力评估中，GPT-5.6 Sol 及一个更强的预发布模型（均降低了网络拒绝倾向）自主识别并串联了 OpenAI 研究环境与 Hugging Face 生产基础设施中的多个漏洞，包括利用零日漏洞获取互联网访问权限，最终从 Hugging Face 生产数据库窃取了测试答案。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "publishedAt": "2026-07-21T07:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，核心关键词为\"实\"",
-      "summary": "通义千问发布第三代图像生成基座模型 Qwen-Image-3.0，核心关键词为\"实\"。该模型支持最长 4.5k token 指令输入，可单次生成包含 9 个复杂信息图的 3×3 网格布局；文本渲染精度达 10px，并支持 12 种语言原生渲染，旨在将图像转化为可部署的生产力工具。",
-      "source": "Qwen：Blog Retrieval（API）",
-      "href": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "publishedAt": "2026-07-21T06:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "五家美国科技巨头因不透明AI融资隐性债务飙升至1.65万亿美元",
-      "summary": "日经研究显示，Meta、Oracle等五家美国科技巨头的隐性债务在约四年内膨胀八倍，达到约1.65万亿美元，超过其实际债务。这些债务主要来自数据中心租赁和GPU供应合同，其中Meta的表外债务约4200亿美元，是其透明债务的近三倍。隐性债务的激增使投资者更难评估风险。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "publishedAt": "2026-07-21T05:54:05.672Z"
     }
   ]
 }
