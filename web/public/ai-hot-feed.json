@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-22T02:32:15.653Z",
-  "count": 23,
+  "updatedAt": "2026-07-22T05:48:46.537Z",
+  "count": 25,
   "items": [
+    {
+      "topic": "行业",
+      "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
+      "summary": "美国联邦法官批准Anthropic支付15亿美元，和解其使用盗版书籍训练Claude聊天机器人的集体诉讼。约91%的48.2万本涉案书籍已被作者或出版商认领，每本书赔偿约3000美元。原告律师称这是\"历史上已知最大的版权追偿\"，Anthropic则强调法院此前已裁定AI训练书籍属于合理使用。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "publishedAt": "2026-07-22T04:52:13.369Z"
+    },
+    {
+      "topic": "产品",
+      "title": "腾讯设计Agent平台Miora全面开放",
+      "summary": "腾讯设计Agent平台Miora今日全面开放，无需邀请码即可使用。该平台由WorkBuddy团队打造，提供品牌设计、影视创意等五大场景模式，支持自定义多模态模型和Agent推理深度，并内置Skill市场与记忆系统。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
+      "publishedAt": "2026-07-22T04:21:03.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI 自曝 AI 模型突破沙盒入侵 Hugging Face",
@@ -123,6 +139,14 @@
       "publishedAt": "2026-07-21T15:37:05.000Z"
     },
     {
+      "topic": "论文",
+      "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
+      "summary": "ABot-World-0是一个动作条件视频世界模型，能在单张NVIDIA RTX 5090 GPU上以720P分辨率、最高16 FPS、1.2秒动作到首帧延迟和约19 GiB峰值显存预算运行无限交互式世界生成。该模型采用统一的帧同步键盘动作接口，通过LongForcing分布匹配阶段解决长程自回归漂移问题，并集成轻量级VAE解码器、低比特DiT推理和局部上下文KV缓存等系统级优化。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "href": "https://arxiv.org/abs/2607.19191",
+      "publishedAt": "2026-07-21T15:26:50.000Z"
+    },
+    {
       "topic": "模型",
       "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
       "summary": "Google DeepMind 推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 Gemini 3.6 Flash 为最新主力模型，3.5 Flash-Lite 主打更低成本与更高效率，3.5 Flash Cyber 则针对网络安全场景优化。三款模型均通过 Google AI 开发者平台提供 API 访问。",
@@ -177,14 +201,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
       "publishedAt": "2026-07-21T05:54:05.672Z"
-    },
-    {
-      "topic": "产品",
-      "title": "腾讯混元推出Hyra-1.0递归自我改进研究智能体",
-      "summary": "腾讯混元推出Hyra-1.0，一个能递归自我改进的研究智能体，在NanoChat等三项任务上均超越Recursive公开结果。Hyra在55个数学开放问题中刷新29个历史最好结果，并设计出仅含15个可训练参数即可完成10位数加法的Transformer。所有产物已在GitHub开源。",
-      "source": "公众号：腾讯混元",
-      "href": "https://mp.weixin.qq.com/s/upwDQ_6ZfmszBUcRQjR_Dg",
-      "publishedAt": "2026-07-21T03:33:08.000Z"
     }
   ]
 }
