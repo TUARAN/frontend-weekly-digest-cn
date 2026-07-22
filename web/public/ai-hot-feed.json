@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-22T17:17:11.306Z",
-  "count": 15,
+  "updatedAt": "2026-07-22T19:15:49.629Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "产品",
+      "title": "微软 MagenticLite 模型全面开源",
+      "summary": "MagenticLite 的模型现已完全开源。\n\n此前在 Microsoft Foundry 上提供的 MagenticBrain 和 Fara 1.5，现已在 Hugging Face 上开放权重。\n\n该应用、测试工具以及堆栈中的每个模型现已全部开放。",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "href": "https://x.com/MSFTResearch/status/2079989338994069511",
+      "publishedAt": "2026-07-22T17:57:57.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "从提示词到任务：多模态交互单元提升AI智能体效率",
+      "summary": "DAIR.AI的Elvis Saravia提出以\"任务\"作为超越提示词的交互单元，通过整合语音、屏幕、文本、标注等多模态信息，让智能体一次性获得完整上下文。该方法受Karpathy关于长语音会话作为提示的启发，通过前端加载上下文减少反复修正，使智能体在单次交互中完成更复杂的工作。",
+      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+      "href": "https://x.com/omarsar0/status/2079982491578827214",
+      "publishedAt": "2026-07-22T17:30:44.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
+      "summary": "Anthropic 为 Claude 推出 Anthropic Economic Index 连接器，用户可在 claude.ai 中直接向 Claude 提问\"哪些职业使用 AI 最多\"等问题，答案基于 Index 的真实数据。该连接器无需安装，适用于任何 Claude 模型，并会引导用户查看原始数据及其局限性。完整数据集仍免费开放。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "publishedAt": "2026-07-22T17:23:31.324Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
@@ -67,6 +91,14 @@
       "publishedAt": "2026-07-22T04:21:03.000Z"
     },
     {
+      "topic": "产品",
+      "title": "Cursor 发布智能模型路由系统 Cursor Router",
+      "summary": "Cursor 推出 Cursor Router，可自动将每个编码请求分配给最合适的模型。在线 A/B 测试显示，Auto Intelligence 模式在用户满意度接近 Fable 的同时，成本降低约 60%；Auto Balance 模式满意度超过 Opus 4.8，成本降低约 36%。",
+      "source": "Cursor Blog",
+      "href": "https://cursor.com/blog/router",
+      "publishedAt": "2026-07-22T00:00:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
       "summary": "OpenRouter 推出 POST /api/v1/audio/transcriptions 端点，用户可使用同一 API key 将 base64 编码音频发送至该端点，返回 JSON 格式文本与用量对象。",
@@ -105,22 +137,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://ads.openai.com/",
       "publishedAt": "2026-07-21T19:39:29.689Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Laguna S 2.1 免费开源上线 OpenCode",
-      "summary": "Laguna S 2.1 现已在 OpenCode 上免费提供\n\n1M 上下文窗口 · 完全开源\n\nPoolside 迄今为止最强大的模型",
-      "source": "X：opencode (@opencode)",
-      "href": "https://x.com/opencode/status/2079631772770242808",
-      "publishedAt": "2026-07-21T18:17:06.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 发布奖励寻求行为新研究",
-      "summary": "我们正与 @apolloaievals 分享关于奖励寻求行为的新研究--即模型遵循其认为评分者奖励的内容，而非用户或开发者期望的内容--以及一种新方法 Contrastive SDF，用于衡量这些信念对行为的影响程度。\n\nhttps://alignment.openai.com/measuring-reward-seeking/",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2079628886950994005",
-      "publishedAt": "2026-07-21T18:05:38.000Z"
     }
   ]
 }
