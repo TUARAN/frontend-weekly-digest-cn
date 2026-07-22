@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-22T11:08:24.253Z",
-  "count": 23,
+  "updatedAt": "2026-07-22T13:49:27.863Z",
+  "count": 24,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "实测Qwen-Image-3.0：19大场景挑战GPT Image2，中文长文本与多图融合表现亮眼",
+      "summary": "Qwen-Image-3.0上线，支持最高4.5k token输入、12种语言、20多种字体，以及多图融合、图中图和图片编辑。实测显示，其在中文长文本生成、多语言混合排版、UI设计、多图融合与图片编辑等19个场景中均能稳定输出，文字不崩且信息对应准确，图片质量已能与GPT Image2媲美。该模型在国内可直接使用，速度快且价格不贵。",
+      "source": "公众号：卡尔的AI沃茨",
+      "href": "https://mp.weixin.qq.com/s/PnXGmmDYejrHBSpoRBOHkg",
+      "publishedAt": "2026-07-22T12:34:24.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "通义千问发布Qwen-Image-3.0：主打\"真实\"的第三代图像生成模型",
+      "summary": "通义千问发布第三代图像生成模型Qwen-Image-3.0，核心关键词为\"真实\"。模型支持最长4.5k token的提示词，可一次性生成复杂布局（如报纸、试卷、3×3信息图），并能渲染10px级文字、完整LaTeX论文页面及逼真皮肤纹理。它还支持12种语言、100多种艺术风格，并具备实时网络检索能力，旨在成为设计、教育等领域的实用生产力工具。",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "href": "https://x.com/Alibaba_Qwen/status/2079906336381509659",
+      "publishedAt": "2026-07-22T12:28:08.000Z"
+    },
     {
       "topic": "产品",
       "title": "小红书开源 BigMac：多模态大模型训练新范式",
@@ -177,14 +193,6 @@
       "source": "OpenAI：Alignment 研究博客（RSS）",
       "href": "https://alignment.openai.com/measuring-reward-seeking",
       "publishedAt": "2026-07-21T15:10:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 团队透露 Claude Tag 承担 65% 产品工程 PR，系统提示词缩减 80%",
-      "summary": "Anthropic 的 Cat Wu 和 Thariq Shihipar 在炉边对话中透露，Claude Tag 现已承担 Claude Code 团队 65% 的产品工程 PR。Claude Code 系统提示词最近缩减了 80%，团队越来越多地依赖自动化代码审查处理产品\"外层\"变更。Fable 已能一次性完成大量功能实现，Thariq 还用它编辑了自己的产品发布视频。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
-      "publishedAt": "2026-07-21T12:54:02.000Z"
     }
   ]
 }
