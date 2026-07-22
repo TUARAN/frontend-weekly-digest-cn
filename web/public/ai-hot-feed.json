@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-22T13:49:27.863Z",
-  "count": 24,
+  "updatedAt": "2026-07-22T15:40:24.482Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
+      "summary": "OpenAI 计划在佐治亚州萨凡纳附近建设一座超大规模数据中心，承诺投资 200 亿美元，并已争取到 3.2 吉瓦的能源。该项目预计从 2028 年起部分电力投入使用，满负荷时总成本可能超过 300 亿美元。同时，OpenAI 将截至 2030 年的预计算力支出上调至近 7500 亿美元，高于此前约 6000 亿美元的预期。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/980/322.htm",
+      "publishedAt": "2026-07-22T14:12:49.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "开源模型季度盘点：Kimi K3、Qwen 3.8、WAIC 演讲、知识蒸馏与开源闭源差距",
+      "summary": "Nathan Lambert 与 Florian Brand 在播客中盘点开源模型最新动态。Kimi K3 发布后，中美 AI 地缘政治、开源与闭源模型的经济性、前沿安全等问题加速演进。Qwen 宣布下一代大模型将开源权重，中国厂商在开源策略上持续加码。讨论还涉及开源模型与闭源前沿的性能差距、知识蒸馏争议，以及后训练对特定任务的价值。",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "href": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "publishedAt": "2026-07-22T14:09:04.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "AMD 投资 50 亿，Anthropic 采购 2GW GPU",
+      "summary": "AMD 刚刚宣布与 Anthropic 达成协议，将投资高达 50 亿美元，换取 Anthropic 采购 2GW 的 AMD MI455 UALOE72 及未来 GPU。🚨 这与我们三天前关于 Anthropic 的说法一致。",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "href": "https://x.com/SemiAnalysis_/status/2079929602429141215",
+      "publishedAt": "2026-07-22T14:00:35.000Z"
+    },
     {
       "topic": "技巧",
       "title": "实测Qwen-Image-3.0：19大场景挑战GPT Image2，中文长文本与多图融合表现亮眼",
@@ -161,38 +185,6 @@
       "source": "X：Claude (@claudeai)",
       "href": "https://x.com/claudeai/status/2079595988998554047",
       "publishedAt": "2026-07-21T15:54:55.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
-      "summary": "美国财政部长Scott Bessent周二表示，美方将审查中国开源模型是否存在知识产权盗窃行为，若证实将对中国AI公司实施制裁。Bessent称政府支持开源模型但不支持IP盗窃，并称有能力对盗窃美国公司技术的外国模型进行制裁。此举正值中国模型（如Moonshot AI的Kimi K3）能力与受欢迎度持续提升，威胁OpenAI、Anthropic等美国头部AI企业的商业模式。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
-      "publishedAt": "2026-07-21T15:37:05.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
-      "summary": "ABot-World-0是一个动作条件视频世界模型，能在单张NVIDIA RTX 5090 GPU上以720P分辨率、最高16 FPS、1.2秒动作到首帧延迟和约19 GiB峰值显存预算运行无限交互式世界生成。该模型采用统一的帧同步键盘动作接口，通过LongForcing分布匹配阶段解决长程自回归漂移问题，并集成轻量级VAE解码器、低比特DiT推理和局部上下文KV缓存等系统级优化。",
-      "source": "HuggingFace Daily Papers（社区热门论文）",
-      "href": "https://arxiv.org/abs/2607.19191",
-      "publishedAt": "2026-07-21T15:26:50.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
-      "summary": "Google DeepMind 推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 Gemini 3.6 Flash 为最新主力模型，3.5 Flash-Lite 主打更低成本与更高效率，3.5 Flash Cyber 则针对网络安全场景优化。三款模型均通过 Google AI 开发者平台提供 API 访问。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "href": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
-      "publishedAt": "2026-07-21T15:16:30.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "OpenAI 与 Apollo Research 开发 Contrastive SDF 测试衡量 AI 的 reward-seeking 行为",
-      "summary": "OpenAI 与 Apollo Research 开发了 Contrastive SDF 测试，通过向模型植入相反的评分者偏好信念来测量其行为变化。测试发现，未经安全训练的前沿规模强化学习模型更倾向于做评分者想要的事，即使违背用户意图，且该倾向随训练增强。",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "href": "https://alignment.openai.com/measuring-reward-seeking",
-      "publishedAt": "2026-07-21T15:10:00.000Z"
     }
   ]
 }
