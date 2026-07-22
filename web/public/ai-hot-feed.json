@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-21T23:55:07.827Z",
-  "count": 27,
+  "updatedAt": "2026-07-22T02:32:15.653Z",
+  "count": 23,
   "items": [
     {
       "topic": "行业",
@@ -185,38 +185,6 @@
       "source": "公众号：腾讯混元",
       "href": "https://mp.weixin.qq.com/s/upwDQ_6ZfmszBUcRQjR_Dg",
       "publishedAt": "2026-07-21T03:33:08.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 与作家群体15亿美元版权和解获批",
-      "summary": "美国旧金山联邦法官批准了Anthropic与作家群体达成的15亿美元（约101.67亿元人民币）版权和解协议，这是美国金额最大的版权赔偿案。此前法院裁定Anthropic对书籍进行AI训练属于合理使用，但保存超700万本盗版书籍侵犯了作者权利。Anthropic称超91%的受约束作者和出版商已领取赔偿。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/979/324.htm",
-      "publishedAt": "2026-07-21T01:57:54.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "一个随机数就能识别AI模型身份：行为指纹技术可检测API中转站偷换模型",
-      "summary": "布拉格经济大学研究员托马什·布鲁克纳发现，通过让模型反复输出1到100的随机数，可生成独一无二的\"行为指纹\"。对165个模型各问30次后发现，GPT-4o偏爱42和37，Claude Sonnet 5疯狂输出47，Qwen3-Max则30次全部回答42。该方法仅需约120条请求即可识别模型身份，错误率约10.6%，为验证API是否被偷换模型提供了轻量级方案。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/pqFZreEZj8kB4KDirl4MSQ",
-      "publishedAt": "2026-07-21T01:10:49.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
-      "summary": "一项实验证明，将任务分解为规划者与执行者的树状结构后，代理群在四小时内用 Grok 4.5 达到 80% 的 SQL 测试通过率，而旧版代理群在第二小时前即失败。新系统峰值提交速度达每秒 1，000 次，为此团队从零构建了专用版本控制系统。该架构已在构建浏览器、修复漏洞及生成数十亿 token 合成数据等任务中验证。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://cursor.com/blog/agent-swarm-model-economics",
-      "publishedAt": "2026-07-21T00:35:26.928Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter 推出 Prompt Caching + Sticky Routing，降低多轮 Agent 调用成本",
-      "summary": "OpenRouter 通过 Prompt Caching 与 Sticky Routing 降低多轮 Agent 的 token 成本。缓存读取价格仅为正常输入的 0.1x-0.5x，其中 Claude Sonnet 4.6 缓存读取为 $0.30/M（正常 $3.00/M）。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing",
-      "publishedAt": "2026-07-21T00:00:00.000Z"
     }
   ]
 }
