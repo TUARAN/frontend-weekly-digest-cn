@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-22",
+      "displayDate": "Jul 22",
+      "json": "/ai-daily/2026-07-22.json",
+      "count": 5,
+      "highlights": [
+        "Anthropic 团队透露 Claud",
+        "GitHub Copilot 推出 ca",
+        "OpenAI 与 Hugging Fac",
+        "OpenAI 与 HuggingFace",
+        "OpenAI 发布奖励寻求行为新研究"
+      ]
+    },
+    {
       "date": "2026-07-21",
       "displayDate": "Jul 21",
       "json": "/ai-daily/2026-07-21.json",
@@ -638,5 +651,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-21"
+  "latest": "2026-07-22"
 }
