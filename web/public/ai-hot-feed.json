@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T15:40:24.482Z",
-  "count": 23,
+  "updatedAt": "2026-07-22T17:17:11.306Z",
+  "count": 15,
   "items": [
     {
       "topic": "行业",
@@ -121,70 +121,6 @@
       "source": "X：OpenAI (@OpenAI)",
       "href": "https://x.com/OpenAI/status/2079628886950994005",
       "publishedAt": "2026-07-21T18:05:38.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 如何保障AI原生软件开发生命周期的安全",
-      "summary": "Anthropic副首席信息安全官Jason Clinton披露，其软件工程师每季度交付的代码量是2021-2025年平均水平的8倍，Claude编写了约80%合并入库的代码。安全团队通过安全左移、硬访问与身份边界、自动化与智能体审查结合、关键节点引入人工审核等策略，应对被入侵或提示注入的智能体引入恶意变更等威胁，同时不显著拖慢开发速度。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
-      "publishedAt": "2026-07-21T17:54:42.493Z"
-    },
-    {
-      "topic": "产品",
-      "title": "xAI 推出 Grok for Outlook 加载项",
-      "summary": "xAI 今日推出 Grok for Outlook，一个 Microsoft 365 加载项，可将 Grok 智能体嵌入邮箱，用于总结长邮件线程、以用户风格起草回复并整理收件箱。该工具即日起对所有付费 X 和 SuperGrok 用户开放，可从 Microsoft Marketplace 添加。",
-      "source": "xAI：News（网页）",
-      "href": "https://x.ai/news/introducing-outlook-addin",
-      "publishedAt": "2026-07-21T17:22:49.842Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude 不是编译器--它比编译器更好",
-      "summary": "Claude 等大语言模型能跨越战略、产品、架构、代码到机器码的整个技术栈垂直工作，无需安排会议或请求许可，因此比传统编译器更强大。以 exe.dev 为例，团队用 LLM 研究分布式 DNS 系统设计、历史安全缺陷和替代实现策略，并通过多智能体循环构建了完整系统。LLM 虽在单项任务上不及资深人类，但能同时处理所有层级，实现跨层协作。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://blog.exe.dev/claude-is-not-a-compiler",
-      "publishedAt": "2026-07-21T17:15:35.727Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Google DeepMind 发布三款新 Gemini 模型，但未包含 3.5 Pro",
-      "summary": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 3.6 Flash 在编码和多模态性能上提升，token 用量降低 17%，成本低于前代；3.5 Flash Cyber 专为修复网络安全漏洞微调，仅限政府及可信合作伙伴使用。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
-      "publishedAt": "2026-07-21T17:11:50.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Karpathy：用语音与LLM长谈可提升理解效率",
-      "summary": "Andrej Karpathy分享了一种与LLM协作的有效模式：开启语音输入，进行10分钟左右的自由漫谈，即使内容混乱、意识流式也无妨。他发现LLM擅长从长篇不连贯的语音中重构意图，回应的内容往往比用户最初的思路更清晰，从而减少后续修正次数、提升人机对齐效率。",
-      "source": "X：Andrej Karpathy (@karpathy)",
-      "href": "https://x.com/karpathy/status/2079610838143623371",
-      "publishedAt": "2026-07-21T16:53:55.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库",
-      "summary": "Google 发布 Tunix，一个基于 JAX 的原生后训练库，旨在消除多轮、使用工具的 LLM 推理智能体训练中的 TPU 闲置瓶颈。Tunix 通过高并发异步 rollout 与解耦的生产者-消费者流水线最大化硬件吞吐量，确保训练器持续获得数据。该库提供即插即用抽象和持续宏观级性能分析，便于集成自定义环境。",
-      "source": "Google Developers Blog（RSS）",
-      "href": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
-      "publishedAt": "2026-07-21T16:00:05.337Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "GitHub Copilot 推出 canvases 扩展，实现开发者与 AI 智能体实时协作",
-      "summary": "GitHub Copilot 在应用中推出 canvases 扩展，这是一种共享交互式界面，开发者和 AI 智能体可在其中实时协作。用户通过 `/create-canvas` 指令创建画布，Copilot 可动态更新内容，用户则通过点击、编辑等操作与同一工作区交互。示例包括快速分类 Issue、生成交互式代码库关系图、管理会话工作树、优化提示词质量以及跨平台搜索知识联系人。",
-      "source": "GitHub Blog",
-      "href": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
-      "publishedAt": "2026-07-21T16:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude Cowork 新增技能录制功能",
-      "summary": "Claude Cowork 新功能：教 Claude 一项技能。\n录制你执行任务时的屏幕操作，边做边讲解，Claude 会将其转化为可重复运行的技能。在 Claude 桌面应用的 + 菜单中找到\"录制技能\"即可使用。\n适用于 Pro、Max 和 Team 套餐。",
-      "source": "X：Claude (@claudeai)",
-      "href": "https://x.com/claudeai/status/2079595988998554047",
-      "publishedAt": "2026-07-21T15:54:55.000Z"
     }
   ]
 }
