@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-22T08:26:34.396Z",
+  "updatedAt": "2026-07-22T11:08:24.253Z",
   "count": 23,
   "items": [
+    {
+      "topic": "产品",
+      "title": "小红书开源 BigMac：多模态大模型训练新范式",
+      "summary": "小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式。它以 LLM 流水线为主干，在不打乱执行顺序的前提下嵌入编码器和生成器计算，相比基线实现 1.08x-1.9x 加速，同时保持激活显存有界。BigMac 已作为 dots 多模态模型训练的核心组件投入生产。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "href": "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
+      "publishedAt": "2026-07-22T10:04:51.000Z"
+    },
     {
       "topic": "行业",
       "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
@@ -177,14 +185,6 @@
       "source": "Simon Willison 博客",
       "href": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
       "publishedAt": "2026-07-21T12:54:02.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "小红书 dots 模型获 IMO 2026 满分金牌",
-      "summary": "小红书 dots 团队携内部版本 dots-note 3.0 参加第 67 届 IMO 2026，六道题均获满分，以 42/42 分取得满分金牌，全球仅 7 位人类选手获此成绩。模型不依赖形式化语言，直接读取原始 LaTeX 题目，通过递归自我批判能力端到端完成解题。dots-note 3.0 是 dots3 系列最轻量级模型，预期将开源。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "href": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
-      "publishedAt": "2026-07-21T11:06:49.000Z"
     }
   ]
 }
