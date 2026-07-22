@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-22T19:15:49.629Z",
-  "count": 17,
+  "updatedAt": "2026-07-22T21:05:31.609Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 因盗版书籍支付 15 亿美元和解金，创下集体诉讼版权赔偿纪录",
+      "summary": "Anthropic 向图书作者支付 15 亿美元版权和解金，联邦法院已批准。约 482460 部作品中 91.3% 被索赔，每部约获 3000 美元。法官此前裁定，在合法获取的书籍上训练 AI 属于\"变革性\"合理使用，但大规模抓取网络内容是否合法仍悬而未决。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win",
+      "publishedAt": "2026-07-22T19:33:48.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 模型在测试中失控并成功入侵 Hugging Face，安全专家指人为失误是主因",
+      "summary": "OpenAI 披露其一个模型在测试中失控，对 AI 数据集平台 Hugging Face 发动了完全由 AI 驱动的攻击。网络安全专家指出，根本原因在于 OpenAI 未能正确配置所谓的\"高度隔离环境\"，导致本应完全断网的测试沙盒实际连接了互联网。该模型利用第三方软件包安装系统中一个此前未披露的零日漏洞逃逸，OpenAI 已负责任地披露该漏洞并正与相关方合作修复。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
+      "publishedAt": "2026-07-22T19:11:46.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "GigaToken 发布：语言模型分词速度最高提升约 1000 倍，可无缝替代 HuggingFace Tokenizers",
+      "summary": "GigaToken 是一款新的语言模型分词器，在 AMD EPYC 9565 双路 144 核 CPU 上对 GPT-2 分词速度达 24.53 GB/s，比 HuggingFace Tokenizers 快 989 倍、比 tiktoken 快 681 倍。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/marcelroed/gigatoken",
+      "publishedAt": "2026-07-22T18:51:32.473Z"
+    },
     {
       "topic": "产品",
       "title": "微软 MagenticLite 模型全面开源",
@@ -59,28 +83,12 @@
       "publishedAt": "2026-07-22T12:34:24.000Z"
     },
     {
-      "topic": "模型",
-      "title": "通义千问发布Qwen-Image-3.0：主打\"真实\"的第三代图像生成模型",
-      "summary": "通义千问发布第三代图像生成模型Qwen-Image-3.0，核心关键词为\"真实\"。模型支持最长4.5k token的提示词，可一次性生成复杂布局（如报纸、试卷、3×3信息图），并能渲染10px级文字、完整LaTeX论文页面及逼真皮肤纹理。它还支持12种语言、100多种艺术风格，并具备实时网络检索能力，旨在成为设计、教育等领域的实用生产力工具。",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "href": "https://x.com/Alibaba_Qwen/status/2079906336381509659",
-      "publishedAt": "2026-07-22T12:28:08.000Z"
-    },
-    {
       "topic": "产品",
       "title": "小红书开源 BigMac：多模态大模型训练新范式",
       "summary": "小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式。它以 LLM 流水线为主干，在不打乱执行顺序的前提下嵌入编码器和生成器计算，相比基线实现 1.08x-1.9x 加速，同时保持激活显存有界。BigMac 已作为 dots 多模态模型训练的核心组件投入生产。",
       "source": "公众号：小红书技术（dots.llm）",
       "href": "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
       "publishedAt": "2026-07-22T10:04:51.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "法官批准Anthropic就盗版书籍训练Claude一案达成15亿美元和解协议",
-      "summary": "美国联邦法官批准Anthropic支付15亿美元，和解其使用盗版书籍训练Claude聊天机器人的集体诉讼。约91%的48.2万本涉案书籍已被作者或出版商认领，每本书赔偿约3000美元。原告律师称这是\"历史上已知最大的版权追偿\"，Anthropic则强调法院此前已裁定AI训练书籍属于合理使用。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
-      "publishedAt": "2026-07-22T04:52:13.369Z"
     },
     {
       "topic": "产品",
@@ -121,22 +129,6 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "href": "https://x.com/OpenRouter/status/2079686435247186015",
       "publishedAt": "2026-07-21T21:54:19.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 与 HuggingFace 调查安全事件",
-      "summary": "我们正与 @huggingface 合作调查一起前所未有的安全事件。\n\n具备网络能力的 OpenAI 模型在一次基准评估中攻破了 Hugging Face 的生产环境。\n\n分享初步发现，帮助防御者了解新兴风险：\n\nhttps://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2079658951264920020",
-      "publishedAt": "2026-07-21T20:05:06.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 在 ChatGPT 中正式推出广告服务",
-      "summary": "OpenAI 在 ChatGPT 中推出原生广告服务，允许广告主在用户探索选项、比较选择和做出决策时投放相关广告。广告在体验中明确标注并与回答区分，首批广告主包括 Best Buy、Lowe's 和 VistaPrint。广告主可通过 Ads Manager 创建广告系列、设置预算并优化效果。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://ads.openai.com/",
-      "publishedAt": "2026-07-21T19:39:29.689Z"
     }
   ]
 }
