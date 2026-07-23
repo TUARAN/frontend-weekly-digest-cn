@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-23T11:08:09.799Z",
-  "count": 15,
+  "updatedAt": "2026-07-23T13:54:19.882Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "模型",
+      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
+      "summary": "阿里通义千问推出最新文本转语音模型Qwen-Audio-3.0-TTS，提供Flash（实时交互）和Plus（高质量生成）两个版本。新功能包括细粒度内联标签控制（如【whisper】、【angry】）、自然语言风格控制、支持16种语言，以及一次生成长达3分钟的长文本。该模型目前在Artificial Analysis TTS排行榜上排名第一。",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "href": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
+      "publishedAt": "2026-07-23T12:33:27.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
+      "summary": "昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力。他透露昆仑万维仍在持续训练模型，并将发布音乐、具身世界和游戏世界模型，认为模型与算力是AI公司长期立足的基础。方汉同时警示，AI编程带来的技术债可能导致生产事故增幅达数倍，代码审查与责任机制必须同步加强。",
+      "source": "公众号：昆仑万维（天工）",
+      "href": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
+      "publishedAt": "2026-07-23T11:20:00.000Z"
+    },
     {
       "topic": "模型",
       "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
@@ -113,14 +129,6 @@
       "source": "X：SemiAnalysis (@SemiAnalysis_)",
       "href": "https://x.com/SemiAnalysis_/status/2079929602429141215",
       "publishedAt": "2026-07-22T14:00:35.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "实测Qwen-Image-3.0：19大场景挑战GPT Image2，中文长文本与多图融合表现亮眼",
-      "summary": "Qwen-Image-3.0上线，支持最高4.5k token输入、12种语言、20多种字体，以及多图融合、图中图和图片编辑。实测显示，其在中文长文本生成、多语言混合排版、UI设计、多图融合与图片编辑等19个场景中均能稳定输出，文字不崩且信息对应准确，图片质量已能与GPT Image2媲美。该模型在国内可直接使用，速度快且价格不贵。",
-      "source": "公众号：卡尔的AI沃茨",
-      "href": "https://mp.weixin.qq.com/s/PnXGmmDYejrHBSpoRBOHkg",
-      "publishedAt": "2026-07-22T12:34:24.000Z"
     }
   ]
 }
