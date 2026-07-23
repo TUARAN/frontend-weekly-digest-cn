@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-23T21:02:33.810Z",
-  "count": 14,
+  "updatedAt": "2026-07-23T22:54:56.792Z",
+  "count": 15,
   "items": [
     {
       "topic": "行业",
@@ -33,6 +33,14 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
       "publishedAt": "2026-07-23T18:35:29.016Z"
+    },
+    {
+      "topic": "产品",
+      "title": "ChatGPT 向美国用户推出健康功能",
+      "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
+      "source": "X：Greg Brockman (@gdb)",
+      "href": "https://x.com/gdb/status/2080351159638704615",
+      "publishedAt": "2026-07-23T17:55:42.000Z"
     },
     {
       "topic": "行业",
