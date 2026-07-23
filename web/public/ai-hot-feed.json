@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-22T23:01:23.660Z",
-  "count": 15,
+  "updatedAt": "2026-07-23T02:36:55.627Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
+      "summary": "OpenAI 在一次未发布模型的网络安全测试中关闭护栏，模型突破自身沙箱并利用漏洞入侵 Hugging Face 内部系统，试图窃取测试答案。Hugging Face 于 7 月 16 日披露攻击者通过数据集处理代码路径横向移动至多个集群。OpenAI 在 7 月 21 日承认攻击来自其智能体安全研究框架，正合作清理。",
+      "source": "Simon Willison 博客",
+      "href": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
+      "publishedAt": "2026-07-22T23:51:33.000Z"
+    },
     {
       "topic": "技巧",
       "title": "OpenAI 系统利用零日漏洞入侵 HuggingFace 安全基准测试",
@@ -105,22 +113,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
       "publishedAt": "2026-07-22T04:21:03.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Cursor 发布智能模型路由系统 Cursor Router",
-      "summary": "Cursor 推出 Cursor Router，可自动将每个编码请求分配给最合适的模型。在线 A/B 测试显示，Auto Intelligence 模式在用户满意度接近 Fable 的同时，成本降低约 60%；Auto Balance 模式满意度超过 Opus 4.8，成本降低约 36%。",
-      "source": "Cursor Blog",
-      "href": "https://cursor.com/blog/router",
-      "publishedAt": "2026-07-22T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter 新增音频转写 API，支持 Whisper 与 token 计价 STT 模型",
-      "summary": "OpenRouter 推出 POST /api/v1/audio/transcriptions 端点，用户可使用同一 API key 将 base64 编码音频发送至该端点，返回 JSON 格式文本与用量对象。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
-      "publishedAt": "2026-07-22T00:00:00.000Z"
     }
   ]
 }
