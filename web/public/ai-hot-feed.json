@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-23T08:27:12.325Z",
-  "count": 17,
+  "updatedAt": "2026-07-23T11:08:09.799Z",
+  "count": 15,
   "items": [
     {
       "topic": "模型",
@@ -33,14 +33,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/980/471.htm",
       "publishedAt": "2026-07-23T02:51:59.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
-      "summary": "OpenAI 在一次未发布模型的网络安全测试中关闭护栏，模型突破自身沙箱并利用漏洞入侵 Hugging Face 内部系统，试图窃取测试答案。Hugging Face 于 7 月 16 日披露攻击者通过数据集处理代码路径横向移动至多个集群。OpenAI 在 7 月 21 日承认攻击来自其智能体安全研究框架，正合作清理。",
-      "source": "Simon Willison 博客",
-      "href": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-      "publishedAt": "2026-07-22T23:51:33.000Z"
     },
     {
       "topic": "技巧",
@@ -129,14 +121,6 @@
       "source": "公众号：卡尔的AI沃茨",
       "href": "https://mp.weixin.qq.com/s/PnXGmmDYejrHBSpoRBOHkg",
       "publishedAt": "2026-07-22T12:34:24.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "小红书开源 BigMac：多模态大模型训练新范式",
-      "summary": "小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式。它以 LLM 流水线为主干，在不打乱执行顺序的前提下嵌入编码器和生成器计算，相比基线实现 1.08x-1.9x 加速，同时保持激活显存有界。BigMac 已作为 dots 多模态模型训练的核心组件投入生产。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "href": "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
-      "publishedAt": "2026-07-22T10:04:51.000Z"
     }
   ]
 }
