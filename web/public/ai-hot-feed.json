@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-23T22:54:56.792Z",
-  "count": 15,
+  "updatedAt": "2026-07-23T23:59:07.419Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "行业",
+      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+      "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/980/890.htm",
+      "publishedAt": "2026-07-23T23:30:43.000Z"
+    },
     {
       "topic": "行业",
       "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
