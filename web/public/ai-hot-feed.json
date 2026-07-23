@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-23T17:21:38.152Z",
-  "count": 15,
+  "updatedAt": "2026-07-23T19:14:50.419Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
+      "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "publishedAt": "2026-07-23T18:35:29.016Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
+      "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
+      "publishedAt": "2026-07-23T17:01:30.000Z"
+    },
     {
       "topic": "技巧",
       "title": "微软MAI模型：以更低成本实现前沿能力规模化",
@@ -97,30 +113,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win",
       "publishedAt": "2026-07-22T19:33:48.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "GigaToken 发布：语言模型分词速度最高提升约 1000 倍，可无缝替代 HuggingFace Tokenizers",
-      "summary": "GigaToken 是一款新的语言模型分词器，在 AMD EPYC 9565 双路 144 核 CPU 上对 GPT-2 分词速度达 24.53 GB/s，比 HuggingFace Tokenizers 快 989 倍、比 tiktoken 快 681 倍。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/marcelroed/gigatoken",
-      "publishedAt": "2026-07-22T18:51:32.473Z"
-    },
-    {
-      "topic": "产品",
-      "title": "微软 MagenticLite 模型全面开源",
-      "summary": "MagenticLite 的模型现已完全开源。\n\n此前在 Microsoft Foundry 上提供的 MagenticBrain 和 Fara 1.5，现已在 Hugging Face 上开放权重。\n\n该应用、测试工具以及堆栈中的每个模型现已全部开放。",
-      "source": "X：Microsoft Research (@MSFTResearch)",
-      "href": "https://x.com/MSFTResearch/status/2079989338994069511",
-      "publishedAt": "2026-07-22T17:57:57.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "从提示词到任务：多模态交互单元提升AI智能体效率",
-      "summary": "DAIR.AI的Elvis Saravia提出以\"任务\"作为超越提示词的交互单元，通过整合语音、屏幕、文本、标注等多模态信息，让智能体一次性获得完整上下文。该方法受Karpathy关于长语音会话作为提示的启发，通过前端加载上下文减少反复修正，使智能体在单次交互中完成更复杂的工作。",
-      "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-      "href": "https://x.com/omarsar0/status/2079982491578827214",
-      "publishedAt": "2026-07-22T17:30:44.000Z"
     }
   ]
 }
