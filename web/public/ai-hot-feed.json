@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-23T15:54:29.626Z",
+  "updatedAt": "2026-07-23T17:21:38.152Z",
   "count": 15,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
+      "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "href": "https://x.com/satyanadella/status/2080329851127669104",
+      "publishedAt": "2026-07-23T16:31:01.000Z"
+    },
     {
       "topic": "行业",
       "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
@@ -113,14 +121,6 @@
       "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
       "href": "https://x.com/omarsar0/status/2079982491578827214",
       "publishedAt": "2026-07-22T17:30:44.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
-      "summary": "Anthropic 为 Claude 推出 Anthropic Economic Index 连接器，用户可在 claude.ai 中直接向 Claude 提问\"哪些职业使用 AI 最多\"等问题，答案基于 Index 的真实数据。该连接器无需安装，适用于任何 Claude 模型，并会引导用户查看原始数据及其局限性。完整数据集仍免费开放。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "publishedAt": "2026-07-22T17:23:31.324Z"
     }
   ]
 }
