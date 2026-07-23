@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-23T13:54:19.882Z",
-  "count": 16,
+  "updatedAt": "2026-07-23T15:54:29.626Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
+      "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
+      "publishedAt": "2026-07-23T14:52:44.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Apple 起诉 OpenAI 窃取硬件制造机密",
+      "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行\"展示\"。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
+      "publishedAt": "2026-07-23T14:00:00.000Z"
+    },
     {
       "topic": "模型",
       "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
@@ -105,30 +121,6 @@
       "source": "Anthropic：Newsroom（网页）",
       "href": "https://www.anthropic.com/news/anthropic-economic-index-connector",
       "publishedAt": "2026-07-22T17:23:31.324Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 拟投资 200 亿美元在美新建数据中心，2030 年算力支出预期上调至近 7500 亿美元",
-      "summary": "OpenAI 计划在佐治亚州萨凡纳附近建设一座超大规模数据中心，承诺投资 200 亿美元，并已争取到 3.2 吉瓦的能源。该项目预计从 2028 年起部分电力投入使用，满负荷时总成本可能超过 300 亿美元。同时，OpenAI 将截至 2030 年的预计算力支出上调至近 7500 亿美元，高于此前约 6000 亿美元的预期。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/980/322.htm",
-      "publishedAt": "2026-07-22T14:12:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "开源模型季度盘点：Kimi K3、Qwen 3.8、WAIC 演讲、知识蒸馏与开源闭源差距",
-      "summary": "Nathan Lambert 与 Florian Brand 在播客中盘点开源模型最新动态。Kimi K3 发布后，中美 AI 地缘政治、开源与闭源模型的经济性、前沿安全等问题加速演进。Qwen 宣布下一代大模型将开源权重，中国厂商在开源策略上持续加码。讨论还涉及开源模型与闭源前沿的性能差距、知识蒸馏争议，以及后训练对特定任务的价值。",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "href": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-      "publishedAt": "2026-07-22T14:09:04.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "AMD 投资 50 亿，Anthropic 采购 2GW GPU",
-      "summary": "AMD 刚刚宣布与 Anthropic 达成协议，将投资高达 50 亿美元，换取 Anthropic 采购 2GW 的 AMD MI455 UALOE72 及未来 GPU。🚨 这与我们三天前关于 Anthropic 的说法一致。",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "href": "https://x.com/SemiAnalysis_/status/2079929602429141215",
-      "publishedAt": "2026-07-22T14:00:35.000Z"
     }
   ]
 }
