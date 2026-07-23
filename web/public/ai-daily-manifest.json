@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-23",
+      "displayDate": "Jul 23",
+      "json": "/ai-daily/2026-07-23.json",
+      "count": 5,
+      "highlights": [
+        "AISI 报告 GPT-5.6 Sol ",
+        "OpenAI 模型在安全测试中突破沙箱入",
+        "GigaToken 发布：语言模型分词速",
+        "OpenAI 系统利用零日漏洞入侵 Hu",
+        "Anthropic 因盗版书籍支付 15"
+      ]
+    },
+    {
       "date": "2026-07-22",
       "displayDate": "Jul 22",
       "json": "/ai-daily/2026-07-22.json",
@@ -651,5 +664,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-22"
+  "latest": "2026-07-23"
 }
