@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-24T19:23:02.120Z",
-  "count": 15,
+  "updatedAt": "2026-07-24T21:01:31.349Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "行业",
+      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
+      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "publishedAt": "2026-07-24T19:07:52.324Z"
+    },
     {
       "topic": "技巧",
       "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
@@ -105,22 +113,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/980/890.htm",
       "publishedAt": "2026-07-23T23:30:43.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-      "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "publishedAt": "2026-07-23T20:11:31.906Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT 桌面版上线语音控制多智能体",
-      "summary": "ChatGPT 语音功能现已登陆桌面应用。\n\n只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。\n\n该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。\n\n今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
-      "source": "X：OpenAI (@OpenAI)",
-      "href": "https://x.com/OpenAI/status/2080378182469857576",
-      "publishedAt": "2026-07-23T19:43:04.000Z"
     }
   ]
 }
