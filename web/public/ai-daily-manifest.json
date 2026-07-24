@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-24",
+      "displayDate": "Jul 24",
+      "json": "/ai-daily/2026-07-24.json",
+      "count": 5,
+      "highlights": [
+        "昆仑万维方汉：Token堆不出AI原生组",
+        "佛州男子因相信 ChatGPT 拒绝就医",
+        "ChatGPT 桌面版上线语音控制多智能",
+        "OpenAI Workspace Age",
+        "微软MAI模型：以更低成本实现前沿能力规"
+      ]
+    },
+    {
       "date": "2026-07-23",
       "displayDate": "Jul 23",
       "json": "/ai-daily/2026-07-23.json",
@@ -664,5 +677,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-23"
+  "latest": "2026-07-24"
 }
