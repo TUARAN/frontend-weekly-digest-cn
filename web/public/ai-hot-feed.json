@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-24T03:33:36.208Z",
-  "count": 15,
+  "updatedAt": "2026-07-24T06:24:31.053Z",
+  "count": 13,
   "items": [
     {
       "topic": "行业",
@@ -91,36 +91,20 @@
       "publishedAt": "2026-07-23T12:33:27.000Z"
     },
     {
+      "topic": "论文",
+      "title": "MineExplorer：首个《我的世界》分钟级长程任务评测基准发布",
+      "summary": "美团 LongCat 团队发布 MineExplorer，这是首个在《我的世界》开放世界中实现分钟级长程任务的评测基准，包含 813 个人工验证实例。评测 18 款顶级多模态大模型发现，最强模型 Claude-Opus-4.6 整体任务成功率仅 41%，从 1 跳任务的 77% 骤降至 4 跳任务的 12%，近 60% 的失败源于导航失败。MineExplorer 已全面开源。",
+      "source": "公众号：龙猫LongCat（美团）",
+      "href": "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
+      "publishedAt": "2026-07-23T11:58:00.000Z"
+    },
+    {
       "topic": "技巧",
       "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
       "summary": "昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力。他透露昆仑万维仍在持续训练模型，并将发布音乐、具身世界和游戏世界模型，认为模型与算力是AI公司长期立足的基础。方汉同时警示，AI编程带来的技术债可能导致生产事故增幅达数倍，代码审查与责任机制必须同步加强。",
       "source": "公众号：昆仑万维（天工）",
       "href": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
       "publishedAt": "2026-07-23T11:20:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
-      "summary": "Cactus 推出基于 Gemma 4 的混合模型\"Cactus Hybrid\"，在模型检查点内嵌入置信度探针，为每个生成答案输出 0-1 之间的结构化置信度分数。高置信度时在设备端直接回答，低分时可自动路由至更大模型。该探针在零音频训练数据下，于四个音频基准上达到 0.79-0.88 AUROC，远超 token 熵基线（均值 0.549），且 MIT 协议开源。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/cactus-compute/cactus-hybrid",
-      "publishedAt": "2026-07-23T05:47:29.042Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "北京发布智能体新政，首次将Harness Engineering、Token经济、OPC等写入政策",
-      "summary": "北京市发布《关于加快智能体引领发展的若干措施》，共十条，首次将Harness Engineering（驾驭层工程）、Token经济、OPC（一人公司）等前沿概念写入正式政策。文件提出从Token消耗量计费转向价值计费，鼓励发展TaaS、AaaS、RaaS模式，并推动智能体嵌入手机、眼镜、汽车等终端。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
-      "publishedAt": "2026-07-23T05:13:37.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-      "summary": "小红书引擎架构团队在OSDI 2026提出HELMSMAN，一个面向全闪存服务器的高性能向量近似最近邻搜索系统。该系统通过聚类式索引、定制化存储栈和分层学习式搜索剪枝，用约40台全闪存服务器承载了过去约35，000 CPU Core和约350 TB DRAM的负载，硬件成本节省超过90%。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "href": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-      "publishedAt": "2026-07-23T04:00:00.000Z"
     }
   ]
 }
