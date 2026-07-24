@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-24T09:20:44.328Z",
-  "count": 14,
+  "updatedAt": "2026-07-24T11:40:28.443Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+      "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "publishedAt": "2026-07-24T09:48:32.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/izeigerman/claude-thermos",
+      "publishedAt": "2026-07-24T09:47:29.601Z"
+    },
     {
       "topic": "模型",
       "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
@@ -105,14 +121,6 @@
       "source": "公众号：龙猫LongCat（美团）",
       "href": "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
       "publishedAt": "2026-07-23T11:58:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
-      "summary": "昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力。他透露昆仑万维仍在持续训练模型，并将发布音乐、具身世界和游戏世界模型，认为模型与算力是AI公司长期立足的基础。方汉同时警示，AI编程带来的技术债可能导致生产事故增幅达数倍，代码审查与责任机制必须同步加强。",
-      "source": "公众号：昆仑万维（天工）",
-      "href": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
-      "publishedAt": "2026-07-23T11:20:00.000Z"
     }
   ]
 }
