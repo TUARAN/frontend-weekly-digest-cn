@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-24T17:36:10.644Z",
-  "count": 17,
+  "updatedAt": "2026-07-24T19:23:02.120Z",
+  "count": 15,
   "items": [
     {
       "topic": "技巧",
@@ -121,22 +121,6 @@
       "source": "X：OpenAI (@OpenAI)",
       "href": "https://x.com/OpenAI/status/2080378182469857576",
       "publishedAt": "2026-07-23T19:43:04.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-      "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "publishedAt": "2026-07-23T18:35:29.016Z"
-    },
-    {
-      "topic": "产品",
-      "title": "ChatGPT 向美国用户推出健康功能",
-      "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
-      "source": "X：Greg Brockman (@gdb)",
-      "href": "https://x.com/gdb/status/2080351159638704615",
-      "publishedAt": "2026-07-23T17:55:42.000Z"
     }
   ]
 }
