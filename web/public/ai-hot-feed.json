@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-24T13:41:57.009Z",
-  "count": 16,
+  "updatedAt": "2026-07-24T17:36:10.644Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
+      "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
+      "source": "Claude：Blog（网页）",
+      "href": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "publishedAt": "2026-07-24T17:25:50.349Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Anthropic 发布 Claude Opus 5",
+      "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
+      "source": "Anthropic：Newsroom（网页）",
+      "href": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedAt": "2026-07-24T17:24:25.589Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
+      "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "href": "https://www.anthropic.com/research/project-pilot",
+      "publishedAt": "2026-07-24T15:25:45.300Z"
+    },
+    {
+      "topic": "模型",
+      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+      "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "href": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+      "publishedAt": "2026-07-24T13:40:30.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Runway Agent 推出自然语言工作流功能",
+      "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
+      "source": "X：Runway (@runwayml)",
+      "href": "https://x.com/runwayml/status/2080649234672439389",
+      "publishedAt": "2026-07-24T13:40:08.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "微软阐述开源模型助力美国竞争力路径",
+      "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "href": "https://x.com/satyanadella/status/2080646162483417097",
+      "publishedAt": "2026-07-24T13:27:56.000Z"
+    },
     {
       "topic": "产品",
       "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
@@ -68,14 +116,6 @@
     },
     {
       "topic": "产品",
-      "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
-      "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
-      "source": "Claude：Blog（网页）",
-      "href": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-      "publishedAt": "2026-07-23T19:55:29.530Z"
-    },
-    {
-      "topic": "产品",
       "title": "ChatGPT 桌面版上线语音控制多智能体",
       "summary": "ChatGPT 语音功能现已登陆桌面应用。\n\n只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。\n\n该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。\n\n今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
       "source": "X：OpenAI (@OpenAI)",
@@ -97,38 +137,6 @@
       "source": "X：Greg Brockman (@gdb)",
       "href": "https://x.com/gdb/status/2080351159638704615",
       "publishedAt": "2026-07-23T17:55:42.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
-      "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-      "publishedAt": "2026-07-23T17:01:30.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-      "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "href": "https://x.com/satyanadella/status/2080329851127669104",
-      "publishedAt": "2026-07-23T16:31:01.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
-      "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-      "publishedAt": "2026-07-23T14:52:44.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Apple 起诉 OpenAI 窃取硬件制造机密",
-      "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行\"展示\"。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "publishedAt": "2026-07-23T14:00:00.000Z"
     }
   ]
 }
