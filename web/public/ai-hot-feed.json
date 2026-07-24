@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-24T06:24:31.053Z",
-  "count": 13,
+  "updatedAt": "2026-07-24T09:20:44.328Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "summary": "Black Forest Labs 以 Early Access 方式推出 FLUX 3 多模态基础模型，采用统一架构联合学习图像、视频和音频。该模型基于 Self-Flow 学习框架扩展，可在单次生成中输出最长 20 秒视频并附带原生音频，支持文生视频、图生视频、多镜头串联等任务。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/981/137.htm",
+      "publishedAt": "2026-07-24T06:48:04.000Z"
+    },
     {
       "topic": "行业",
       "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
