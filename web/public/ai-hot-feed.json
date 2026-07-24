@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-24T21:01:31.349Z",
-  "count": 14,
+  "updatedAt": "2026-07-24T22:59:55.991Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
+      "summary": "Midjourney 今日推出 V8.2 图像模型，重点提升美学质量、图像创意与个性化表现。低质量图像出现频率将显著降低，个性化功能能更精准理解用户审美偏好。V8.2 的个性化配置文件拥有更大、更优的图像选择池，建议用户尝试新旧配置文件体验最新版本。",
+      "source": "Midjourney：Updates（RSS）",
+      "href": "https://updates.midjourney.com/version-8-2",
+      "publishedAt": "2026-07-24T22:18:48.000Z"
+    },
     {
       "topic": "行业",
       "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
