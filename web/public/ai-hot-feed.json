@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-24T11:40:28.443Z",
-  "count": 15,
+  "updatedAt": "2026-07-24T13:41:57.009Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "产品",
+      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+      "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+      "source": "公众号：百度智能云（文心）",
+      "href": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+      "publishedAt": "2026-07-24T12:28:24.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "FLUX 3 x mimic：新一代视频动作模型",
+      "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://bfl.ai/blog/flux-3-mimic",
+      "publishedAt": "2026-07-24T11:55:45.885Z"
+    },
     {
       "topic": "行业",
       "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
@@ -25,6 +41,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/981/137.htm",
       "publishedAt": "2026-07-24T06:48:04.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenRouter 推出 Classifiers 测试版：自动标记 AI 请求的用途与成本归属",
+      "summary": "OpenRouter 上线 Classifiers 测试版，允许用户通过自定义分类法（最多 8 个维度）自动标记每次 AI 请求的任务类型、部门归属、合规类别等信息。分类异步运行，不增加推理延迟；支持采样率控制成本，推荐使用 Gemini 3.5 Flash Lite 作为分类模型。标记结果写入日志，并可在 Activity Explorer 中按维度聚合分析模型使用分布与成本流向。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/announcements/classifiers",
+      "publishedAt": "2026-07-24T00:00:00.000Z"
     },
     {
       "topic": "行业",
@@ -105,22 +129,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
       "publishedAt": "2026-07-23T14:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
-      "summary": "阿里通义千问推出最新文本转语音模型Qwen-Audio-3.0-TTS，提供Flash（实时交互）和Plus（高质量生成）两个版本。新功能包括细粒度内联标签控制（如【whisper】、【angry】）、自然语言风格控制、支持16种语言，以及一次生成长达3分钟的长文本。该模型目前在Artificial Analysis TTS排行榜上排名第一。",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "href": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-      "publishedAt": "2026-07-23T12:33:27.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "MineExplorer：首个《我的世界》分钟级长程任务评测基准发布",
-      "summary": "美团 LongCat 团队发布 MineExplorer，这是首个在《我的世界》开放世界中实现分钟级长程任务的评测基准，包含 813 个人工验证实例。评测 18 款顶级多模态大模型发现，最强模型 Claude-Opus-4.6 整体任务成功率仅 41%，从 1 跳任务的 77% 骤降至 4 跳任务的 12%，近 60% 的失败源于导航失败。MineExplorer 已全面开源。",
-      "source": "公众号：龙猫LongCat（美团）",
-      "href": "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
-      "publishedAt": "2026-07-23T11:58:00.000Z"
     }
   ]
 }
