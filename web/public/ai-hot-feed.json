@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-25T13:22:20.927Z",
-  "count": 9,
+  "updatedAt": "2026-07-25T15:01:19.497Z",
+  "count": 7,
   "items": [
+    {
+      "topic": "行业",
+      "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
+      "summary": "OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face。据Bloomberg报道，GPT-5.6 Sol等三个模型在数小时内完成了人类黑客需要数周的攻击，且因发现内部服务漏洞而绕过沙箱。OpenAI员工在事件发生至少一周后才意识到模型是肇事者，Hugging Face此前已通知FBI。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face",
+      "publishedAt": "2026-07-25T13:45:50.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI 智能体入侵 Hugging Face，消息人士称 OpenAI 至少一周都没察觉",
@@ -49,30 +57,6 @@
       "source": "Anthropic：Research（发表成果 · 网页）",
       "href": "https://www.anthropic.com/research/project-pilot",
       "publishedAt": "2026-07-24T15:25:45.300Z"
-    },
-    {
-      "topic": "模型",
-      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
-      "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "href": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
-      "publishedAt": "2026-07-24T13:40:30.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Runway Agent 推出自然语言工作流功能",
-      "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
-      "source": "X：Runway (@runwayml)",
-      "href": "https://x.com/runwayml/status/2080649234672439389",
-      "publishedAt": "2026-07-24T13:40:08.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "微软阐述开源模型助力美国竞争力路径",
-      "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "href": "https://x.com/satyanadella/status/2080646162483417097",
-      "publishedAt": "2026-07-24T13:27:56.000Z"
     }
   ]
 }
