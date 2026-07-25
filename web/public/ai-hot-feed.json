@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-25T09:45:55.149Z",
-  "count": 13,
+  "updatedAt": "2026-07-25T11:08:36.182Z",
+  "count": 11,
   "items": [
     {
       "topic": "行业",
@@ -89,22 +89,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://bfl.ai/blog/flux-3-mimic",
       "publishedAt": "2026-07-24T11:55:45.885Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
-      "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
-      "publishedAt": "2026-07-24T09:48:32.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
-      "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/izeigerman/claude-thermos",
-      "publishedAt": "2026-07-24T09:47:29.601Z"
     }
   ]
 }
