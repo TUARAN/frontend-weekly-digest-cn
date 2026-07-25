@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-25",
+      "displayDate": "Jul 25",
+      "json": "/ai-daily/2026-07-25.json",
+      "count": 5,
+      "highlights": [
+        "Claude 5 代模型上下文工程新规则",
+        "Anthropic 发布 Claude ",
+        "OpenAI 智能体入侵 Hugging",
+        "英伟达、微软和Meta联合警告：应避免对",
+        "Anthropic 联合 Andon L"
+      ]
+    },
+    {
       "date": "2026-07-24",
       "displayDate": "Jul 24",
       "json": "/ai-daily/2026-07-24.json",
@@ -677,5 +690,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-24"
+  "latest": "2026-07-25"
 }
