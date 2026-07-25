@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-25T17:57:44.150Z",
-  "count": 4,
+  "updatedAt": "2026-07-25T19:16:04.401Z",
+  "count": 3,
   "items": [
     {
       "topic": "行业",
@@ -25,14 +25,6 @@
       "source": "Midjourney：Updates（RSS）",
       "href": "https://updates.midjourney.com/version-8-2",
       "publishedAt": "2026-07-24T22:18:48.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
-      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "publishedAt": "2026-07-24T19:07:52.324Z"
     }
   ]
 }
