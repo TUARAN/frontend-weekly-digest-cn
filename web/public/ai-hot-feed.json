@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-24T22:59:55.991Z",
-  "count": 15,
+  "updatedAt": "2026-07-25T00:12:03.044Z",
+  "count": 13,
   "items": [
     {
       "topic": "模型",
@@ -105,22 +105,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/981/137.htm",
       "publishedAt": "2026-07-24T06:48:04.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenRouter 推出 Classifiers 测试版：自动标记 AI 请求的用途与成本归属",
-      "summary": "OpenRouter 上线 Classifiers 测试版，允许用户通过自定义分类法（最多 8 个维度）自动标记每次 AI 请求的任务类型、部门归属、合规类别等信息。分类异步运行，不增加推理延迟；支持采样率控制成本，推荐使用 Gemini 3.5 Flash Lite 作为分类模型。标记结果写入日志，并可在 Activity Explorer 中按维度聚合分析模型使用分布与成本流向。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/announcements/classifiers",
-      "publishedAt": "2026-07-24T00:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-      "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/980/890.htm",
-      "publishedAt": "2026-07-23T23:30:43.000Z"
     }
   ]
 }
