@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-25T11:08:36.182Z",
-  "count": 11,
+  "updatedAt": "2026-07-25T13:22:20.927Z",
+  "count": 9,
   "items": [
     {
       "topic": "行业",
@@ -73,22 +73,6 @@
       "source": "X：Satya Nadella (@satyanadella)",
       "href": "https://x.com/satyanadella/status/2080646162483417097",
       "publishedAt": "2026-07-24T13:27:56.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
-      "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
-      "source": "公众号：百度智能云（文心）",
-      "href": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
-      "publishedAt": "2026-07-24T12:28:24.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "FLUX 3 x mimic：新一代视频动作模型",
-      "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://bfl.ai/blog/flux-3-mimic",
-      "publishedAt": "2026-07-24T11:55:45.885Z"
     }
   ]
 }
