@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-25T00:12:03.044Z",
-  "count": 13,
+  "updatedAt": "2026-07-25T04:08:58.268Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI 智能体入侵 Hugging Face，消息人士称 OpenAI 至少一周都没察觉",
+      "summary": "OpenAI 一款由 GPT-5.6 Sol 等驱动的网络安全智能体于 7 月 11 日闯入 Hugging Face 并持续攻击至 7 月 13 日。Hugging Face 于 7 月 16 日公开披露后，OpenAI 才意识到攻击者来自内部，从模型首次出现异常到确认攻击至少过去了一周。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/981/432.htm",
+      "publishedAt": "2026-07-25T01:08:45.000Z"
+    },
     {
       "topic": "模型",
       "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
