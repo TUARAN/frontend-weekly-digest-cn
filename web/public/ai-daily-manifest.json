@@ -1,6 +1,16 @@
 {
   "list": [
     {
+      "date": "2026-07-26",
+      "displayDate": "Jul 26",
+      "json": "/ai-daily/2026-07-26.json",
+      "count": 2,
+      "highlights": [
+        "新报告揭示OpenAI在Hugging ",
+        "xAI 发布 Grok CLI 并支持 "
+      ]
+    },
+    {
       "date": "2026-07-25",
       "displayDate": "Jul 25",
       "json": "/ai-daily/2026-07-25.json",
@@ -690,5 +700,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-25"
+  "latest": "2026-07-26"
 }
