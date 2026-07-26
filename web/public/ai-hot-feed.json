@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-26T03:46:12.037Z",
-  "count": 2,
+  "updatedAt": "2026-07-26T06:35:12.809Z",
+  "count": 4,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
+      "summary": "开发者 Eversmile1 在 GitHub 上公开了 Claude Opus 5 的完整系统提示词，包含 30 个工具的 JSON schema、严格的版权合规规则（单次引用不超过 15 词）和跨会话记忆系统。泄露后 24 小时内，已有开发者用 Opus 5 成功生成 3D 射击游戏和《火箭联盟》克隆版等复杂 Demo。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/981/688.htm",
+      "publishedAt": "2026-07-26T05:33:44.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型",
+      "summary": "开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/slvDev/esp32-ai",
+      "publishedAt": "2026-07-26T03:54:52.332Z"
+    },
     {
       "topic": "产品",
       "title": "xAI 发布 Grok CLI 并支持 /tutorial 命令",
