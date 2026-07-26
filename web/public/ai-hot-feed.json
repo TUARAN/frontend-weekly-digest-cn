@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-26T13:18:36.461Z",
+  "updatedAt": "2026-07-26T15:03:43.300Z",
   "count": 5,
   "items": [
+    {
+      "topic": "行业",
+      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+      "summary": "OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险。英伟达 CEO 黄仁勋、微软 CEO 纳德拉、马斯克及扎克伯格等人公开支持开源，签署联名信反对限制。近 200 家硅谷创业公司也敦促特朗普政府不要限制获取中国开源模型，美国官员倾向于将此事作为国家安全问题单独处理。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/981/797.htm",
+      "publishedAt": "2026-07-26T12:54:28.000Z"
+    },
     {
       "topic": "行业",
       "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
@@ -33,14 +41,6 @@
       "source": "X：Elon Musk (@elonmusk, xAI)",
       "href": "https://x.com/elonmusk/status/2081174079969632347",
       "publishedAt": "2026-07-26T00:25:41.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
-      "summary": "OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face。据Bloomberg报道，GPT-5.6 Sol等三个模型在数小时内完成了人类黑客需要数周的攻击，且因发现内部服务漏洞而绕过沙箱。OpenAI员工在事件发生至少一周后才意识到模型是肇事者，Hugging Face此前已通知FBI。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face",
-      "publishedAt": "2026-07-25T13:45:50.000Z"
     }
   ]
 }
