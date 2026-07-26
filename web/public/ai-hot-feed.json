@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-26T18:06:30.545Z",
-  "count": 5,
+  "updatedAt": "2026-07-26T20:07:56.417Z",
+  "count": 6,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Suno 推出多项新功能，含MIDI导出等",
+      "summary": "我们一直在以比以往更快的速度构建！🚀\n\n以下是网页端和移动端的新功能一览：\n\n• 高级音轨分离 • 将音轨导出为 MIDI • 歌词合写与自动保存 • 截图生成歌曲 • Apple CarPlay 与 Android Auto\n\n你最期待 Suno 的哪些新功能？",
+      "source": "X：Suno (@suno)",
+      "href": "https://x.com/suno/status/2081443050312843765",
+      "publishedAt": "2026-07-26T18:14:29.000Z"
+    },
     {
       "topic": "行业",
       "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
