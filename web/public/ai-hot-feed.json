@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-25T23:59:32.272Z",
+  "updatedAt": "2026-07-26T03:46:12.037Z",
   "count": 2,
   "items": [
+    {
+      "topic": "产品",
+      "title": "xAI 发布 Grok CLI 并支持 /tutorial 命令",
+      "summary": "下载 Grok Build 并输入 /tutorial\n\nhttp://X.ai/cli",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "href": "https://x.com/elonmusk/status/2081174079969632347",
+      "publishedAt": "2026-07-26T00:25:41.000Z"
+    },
     {
       "topic": "行业",
       "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
@@ -9,14 +17,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face",
       "publishedAt": "2026-07-25T13:45:50.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 智能体入侵 Hugging Face，消息人士称 OpenAI 至少一周都没察觉",
-      "summary": "OpenAI 一款由 GPT-5.6 Sol 等驱动的网络安全智能体于 7 月 11 日闯入 Hugging Face 并持续攻击至 7 月 13 日。Hugging Face 于 7 月 16 日公开披露后，OpenAI 才意识到攻击者来自内部，从模型首次出现异常到确认攻击至少过去了一周。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/981/432.htm",
-      "publishedAt": "2026-07-25T01:08:45.000Z"
     }
   ]
 }
