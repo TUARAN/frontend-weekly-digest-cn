@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-07-27T18:23:28.812Z",
-  "count": 9,
+  "updatedAt": "2026-07-27T20:20:58.987Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "OpenAI 称越来越多员工用 ChatGPT 做其他岗位的工作",
+      "summary": "OpenAI 分析超 80 万条与工作相关的 ChatGPT 消息后发现，43.5% 的岗位特定查询涉及另一职业，营销和工程任务交叉最多。用户用 AI 处理合同审查、数据分析、网站故障排查等原由专家负责的工作。OpenAI 认为这是岗位职责正在变化的早期信号，该趋势在缺乏专业团队的小公司尤为明显。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs",
+      "publishedAt": "2026-07-27T19:08:51.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Kimi 发布视觉感知基准 PerceptionBench",
+      "summary": "Kimi.ai 发布 PerceptionBench，一个从当前前沿模型在 42 个基准上的失败模式中归纳出的视觉感知基准。该基准将视觉感知拆解为 10 种原子能力，并构建了 3000 道验证题，每道题只考察单一感知能力，无需推理或外部知识。",
+      "source": "X：Kimi.ai (@Kimi_Moonshot)",
+      "href": "https://x.com/Kimi_Moonshot/status/2081813202514681878",
+      "publishedAt": "2026-07-27T18:45:20.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "用Claude和Python构建技能驱动的金融分析智能体",
+      "summary": "本教程基于Anthropic的financial-services仓库，用纯Python复现其技能驱动架构。通过解析SKILL.md文件构建可搜索技能注册表，并创建可复用SkillAgent，将金融分析剧本注入Anthropic Messages API，支持迭代工具调用循环。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
+      "publishedAt": "2026-07-27T18:08:24.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查",
+      "summary": "GitHub Copilot 推出\"Harness\"工作流，让开发者通过单一 AI 工具完成从原型设计、规划、实现到代码审查的完整软件开发流程，无需追逐多种新 AI 工具。该工作流强调实用性与集成性，旨在减少工具切换带来的效率损耗。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
+      "publishedAt": "2026-07-27T18:00:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持",
