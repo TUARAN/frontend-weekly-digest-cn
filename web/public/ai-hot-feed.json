@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-27T02:48:18.417Z",
+  "updatedAt": "2026-07-27T06:28:51.803Z",
   "count": 5,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "用AI Skill自动生成可协作HTML PPT",
+      "summary": "Vista 基于 bento PPT 改造了一个 Skill，输入内容或主题即可自动生成可编辑、在线演示并支持协作的 HTML PPT。安装指令为 `npx skills add joeseesun/qiaomu-bento-ppt`，推荐使用 Kimi K3 或 Opus 4.8+ 等前端审美好的模型。",
+      "source": "X：Vista (@vista8)",
+      "href": "https://x.com/vista8/status/2081568902241513786",
+      "publishedAt": "2026-07-27T02:34:34.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
+      "summary": "作者开源了Leader.skill，用于将模糊的人类需求转化为Agent可独立执行数小时的目标任务书。该Skill基于\"目标七问\"方法论，涵盖目的、完成态、反作弊、边界等维度，并推荐用Claude Fable 5或Kimi K3规划目标，再交由GPT-5.6 Sol或GLM-5.2等模型长程执行。项目已开源。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg",
+      "publishedAt": "2026-07-27T00:12:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "Suno 推出多项新功能，含MIDI导出等",
@@ -25,22 +41,6 @@
       "source": "The Decoder：AI News（RSS）",
       "href": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides",
       "publishedAt": "2026-07-26T08:35:49.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
-      "summary": "开发者 Eversmile1 在 GitHub 上公开了 Claude Opus 5 的完整系统提示词，包含 30 个工具的 JSON schema、严格的版权合规规则（单次引用不超过 15 词）和跨会话记忆系统。泄露后 24 小时内，已有开发者用 Opus 5 成功生成 3D 射击游戏和《火箭联盟》克隆版等复杂 Demo。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/981/688.htm",
-      "publishedAt": "2026-07-26T05:33:44.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型",
-      "summary": "开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/slvDev/esp32-ai",
-      "publishedAt": "2026-07-26T03:54:52.332Z"
     }
   ]
 }
