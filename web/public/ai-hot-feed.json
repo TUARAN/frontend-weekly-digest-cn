@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T23:03:13.014Z",
-  "count": 6,
+  "updatedAt": "2026-07-27T02:48:18.417Z",
+  "count": 5,
   "items": [
     {
       "topic": "产品",
@@ -41,14 +41,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/slvDev/esp32-ai",
       "publishedAt": "2026-07-26T03:54:52.332Z"
-    },
-    {
-      "topic": "产品",
-      "title": "xAI 发布 Grok CLI 并支持 /tutorial 命令",
-      "summary": "下载 Grok Build 并输入 /tutorial\n\nhttp://X.ai/cli",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "href": "https://x.com/elonmusk/status/2081174079969632347",
-      "publishedAt": "2026-07-26T00:25:41.000Z"
     }
   ]
 }
