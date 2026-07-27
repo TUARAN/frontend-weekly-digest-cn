@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-27T16:17:07.042Z",
-  "count": 8,
+  "updatedAt": "2026-07-27T18:23:28.812Z",
+  "count": 9,
   "items": [
+    {
+      "topic": "产品",
+      "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持",
+      "summary": "SGLang 和 Miles 为月之暗面开源的 2.8T 参数模型 Kimi K3 提供发布当日支持，分别负责推理和 RL 训练。K3 采用 69 层 KDA 线性注意力与 24 层 MLA 交错的混合架构，在 SGLang 上单卡 batch-1 解码速度达约 113 tok/s，结合 DSpark 推测解码可达约 423 tok/s。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "href": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
+      "publishedAt": "2026-07-27T17:50:17.260Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
+      "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过 `/create-canvas` 命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
+      "source": "GitHub Blog",
+      "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
+      "publishedAt": "2026-07-27T16:00:00.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "Google AI Overviews 搜索结果出现率升至43%",
+      "summary": "Google AI Overviews 在搜索结果中的出现率一年内从15%升至43%，AI Mode月访问量从1.26亿增至2.79亿。用户搜索长度增加，正从短关键词转向更长的自然对话式查询。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "publishedAt": "2026-07-27T15:57:12.000Z"
+    },
     {
       "topic": "模型",
       "title": "Kimi K3 上线 Modal，支持无损加速推理",
@@ -36,14 +60,6 @@
     },
     {
       "topic": "技巧",
-      "title": "当编码不再是瓶颈：Berkeley RDI 提出软件自主开发三级框架",
-      "summary": "Berkeley RDI等机构提出三级软件自主开发框架：代码自主（AI完成设计与实现，人类决定构建内容并审核PR）、流水线自主（AI运行从设计到部署的全流程，人类仅评估结果）、需求自主（AI自主决定构建内容）。该框架旨在为能力声明、部署选择与问责提供清晰分类。",
-      "source": "Berkeley RDI：Blog（AI 安全与评测）",
-      "href": "https://rdi.berkeley.edu/blog/auto-software-dev",
-      "publishedAt": "2026-07-27T07:51:26.272Z"
-    },
-    {
-      "topic": "技巧",
       "title": "用AI Skill自动生成可协作HTML PPT",
       "summary": "Vista 基于 bento PPT 改造了一个 Skill，输入内容或主题即可自动生成可编辑、在线演示并支持协作的 HTML PPT。安装指令为 `npx skills add joeseesun/qiaomu-bento-ppt`，推荐使用 Kimi K3 或 Opus 4.8+ 等前端审美好的模型。",
       "source": "X：Vista (@vista8)",
@@ -57,14 +73,6 @@
       "source": "公众号：数字生命卡兹克",
       "href": "https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg",
       "publishedAt": "2026-07-27T00:12:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Suno 推出多项新功能，含MIDI导出等",
-      "summary": "我们一直在以比以往更快的速度构建！🚀\n\n以下是网页端和移动端的新功能一览：\n\n• 高级音轨分离 • 将音轨导出为 MIDI • 歌词合写与自动保存 • 截图生成歌曲 • Apple CarPlay 与 Android Auto\n\n你最期待 Suno 的哪些新功能？",
-      "source": "X：Suno (@suno)",
-      "href": "https://x.com/suno/status/2081443050312843765",
-      "publishedAt": "2026-07-26T18:14:29.000Z"
     }
   ]
 }
