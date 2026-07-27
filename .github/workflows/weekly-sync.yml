@@ -1,0 +1,60 @@
+name: 前端周刊
+
+on:
+  schedule:
+    # 每周一北京时间 07:00；源刊偶尔延迟，所以周四再补检一次
+    - cron: '0 23 * * 0'
+    - cron: '0 23 * * 3'
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: 补齐 RSS 中所有缺失期数
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 同步周刊
+        env:
+          BACKFILL: ${{ inputs.backfill || 'false' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/weekly-sync.mjs
+
+      - name: 提交并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md weekly/
+
+          if git diff --cached --quiet; then
+            echo "No weekly changes to commit"
+            exit 0
+          fi
+
+          git commit -m "weekly: 自动同步最新前端周刊"
+          git pull --rebase --autostash origin main
+          git push
