@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-27T06:28:51.803Z",
+  "updatedAt": "2026-07-27T10:41:34.012Z",
   "count": 5,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "当编码不再是瓶颈：Berkeley RDI 提出软件自主开发三级框架",
+      "summary": "Berkeley RDI等机构提出三级软件自主开发框架：代码自主（AI完成设计与实现，人类决定构建内容并审核PR）、流水线自主（AI运行从设计到部署的全流程，人类仅评估结果）、需求自主（AI自主决定构建内容）。该框架旨在为能力声明、部署选择与问责提供清晰分类。",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "href": "https://rdi.berkeley.edu/blog/auto-software-dev",
+      "publishedAt": "2026-07-27T07:51:26.272Z"
+    },
     {
       "topic": "技巧",
       "title": "用AI Skill自动生成可协作HTML PPT",
@@ -33,14 +41,6 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/981/797.htm",
       "publishedAt": "2026-07-26T12:54:28.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
-      "summary": "2025年夏季，OpenAI内部将GPT-5标记为高风险，因其可帮助教育程度有限的用户制造生物危害。据《华尔街日报》报道，自去年夏天以来，数百名用户向ChatGPT询问如何制造生物武器和毒药，部分用户获得了员工称高中生都能遵循的逐步指南。OpenAI暂停了相关账户，但未向当局报告任何事件。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides",
-      "publishedAt": "2026-07-26T08:35:49.000Z"
     }
   ]
 }
