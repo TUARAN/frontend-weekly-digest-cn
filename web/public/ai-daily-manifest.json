@@ -1,6 +1,18 @@
 {
   "list": [
     {
+      "date": "2026-07-27",
+      "displayDate": "Jul 27",
+      "json": "/ai-daily/2026-07-27.json",
+      "count": 4,
+      "highlights": [
+        "浪费20亿Token后，我开源了帮Age",
+        "OpenAI、Anthropic 游说美",
+        "数百用户向ChatGPT索要毒药与生物武",
+        "Claude Opus 5 系统提示词被"
+      ]
+    },
+    {
       "date": "2026-07-26",
       "displayDate": "Jul 26",
       "json": "/ai-daily/2026-07-26.json",
@@ -700,5 +712,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-26"
+  "latest": "2026-07-27"
 }
