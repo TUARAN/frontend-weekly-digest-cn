@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-27T10:41:34.012Z",
-  "count": 5,
+  "updatedAt": "2026-07-27T13:38:14.800Z",
+  "count": 4,
   "items": [
     {
       "topic": "技巧",
@@ -33,14 +33,6 @@
       "source": "X：Suno (@suno)",
       "href": "https://x.com/suno/status/2081443050312843765",
       "publishedAt": "2026-07-26T18:14:29.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-      "summary": "OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险。英伟达 CEO 黄仁勋、微软 CEO 纳德拉、马斯克及扎克伯格等人公开支持开源，签署联名信反对限制。近 200 家硅谷创业公司也敦促特朗普政府不要限制获取中国开源模型，美国官员倾向于将此事作为国家安全问题单独处理。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/981/797.htm",
-      "publishedAt": "2026-07-26T12:54:28.000Z"
     }
   ]
 }
