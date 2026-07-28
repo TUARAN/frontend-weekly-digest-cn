@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-28T04:07:24.896Z",
+  "updatedAt": "2026-07-28T07:36:30.830Z",
   "count": 13,
   "items": [
+    {
+      "topic": "行业",
+      "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
+      "summary": "德里高等法院认定 OpenAI 利用亚洲国际新闻（ANI）社的内容训练人工智能不构成侵犯版权。法官 Amit Bansal 认为该行为符合印度《版权法》中研究类\"合理使用\"例外情形，且 ANI 未能证明 ChatGPT 直接复制其受版权保护内容。法院同时指出，现阶段颁布临时禁令将不利于印度正在开发的 LLM 及大量免费使用 ChatGPT 的用户。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/982/520.htm",
+      "publishedAt": "2026-07-28T06:21:07.000Z"
+    },
+    {
+      "topic": "模型",
+      "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+      "summary": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://usefeyn.com/blog/feynobg",
+      "publishedAt": "2026-07-28T04:57:13.190Z"
+    },
     {
       "topic": "技巧",
       "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
@@ -51,14 +67,6 @@
       "publishedAt": "2026-07-27T18:00:00.000Z"
     },
     {
-      "topic": "产品",
-      "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持",
-      "summary": "SGLang 和 Miles 为月之暗面开源的 2.8T 参数模型 Kimi K3 提供发布当日支持，分别负责推理和 RL 训练。K3 采用 69 层 KDA 线性注意力与 24 层 MLA 交错的混合架构，在 SGLang 上单卡 batch-1 解码速度达约 113 tok/s，结合 DSpark 推测解码可达约 423 tok/s。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "href": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
-      "publishedAt": "2026-07-27T17:50:17.260Z"
-    },
-    {
       "topic": "技巧",
       "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
       "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过 `/create-canvas` 命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
@@ -73,14 +81,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
       "publishedAt": "2026-07-27T15:57:12.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Kimi K3 上线 Modal，支持无损加速推理",
-      "summary": "很高兴 @modal 成为 Kimi K3 的 Day 0 发布合作伙伴！\n\n他们为 K3 的架构训练了自定义 DFlash 投机器，实现更快推理且无质量损失。",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "href": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-      "publishedAt": "2026-07-27T15:44:05.000Z"
     },
     {
       "topic": "模型",
