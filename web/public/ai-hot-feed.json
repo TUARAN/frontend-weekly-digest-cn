@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-28T07:36:30.830Z",
-  "count": 13,
+  "updatedAt": "2026-07-28T10:33:08.005Z",
+  "count": 14,
   "items": [
+    {
+      "topic": "模型",
+      "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
+      "summary": "Microsoft 发布 MAI-Cyber-1-Flash，一款 137B 总参数（5B 活跃参数）、256k 上下文窗口的稀疏 MoE 网络安全模型，是 MAI-Code-1-Flash 的微调版本。",
+      "source": "MarkTechPost（RSS）",
+      "href": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym",
+      "publishedAt": "2026-07-28T08:33:30.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "火山引擎上线豆包搜索服务，为AI Agent提供实时可信搜索能力",
+      "summary": "火山引擎正式上线豆包搜索服务，为AI Agent提供跨语言、多模态、多垂类联网信息查询，融合全域互联网信息、行业知识与字节跳动独家内容资源。该服务从网站站点和创作者维度建立权威分级体系，过滤低质信息，在SimpleQA、FreshQA、BrowseComp-ZH等评测中表现优异。豆包搜索支持API、Skill、MCP等多种接入形态，面向企业和开发者提供每月500次免费搜索额度。",
+      "source": "公众号：火山引擎",
+      "href": "https://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA",
+      "publishedAt": "2026-07-28T07:51:54.000Z"
+    },
     {
       "topic": "行业",
       "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
@@ -97,14 +113,6 @@
       "source": "X：Kimi.ai (@Kimi_Moonshot)",
       "href": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
       "publishedAt": "2026-07-27T15:25:45.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
-      "summary": "NVIDIA、Microsoft、Hugging Face、IBM 等数十家机构联合成立 Open Secure AI Alliance，旨在通过开源模型、工具和框架构建可审查、可定制的 AI 安全防御体系。",
-      "source": "NVIDIA Blog（RSS）",
-      "href": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
-      "publishedAt": "2026-07-27T09:00:07.000Z"
     }
   ]
 }
