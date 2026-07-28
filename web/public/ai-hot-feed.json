@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-28T00:00:33.876Z",
-  "count": 14,
+  "updatedAt": "2026-07-28T04:07:24.896Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
+      "summary": "同一模型在不同提供商端点上的表现因基础设施、量化、负载处理和路由默认设置而异。评估需测量延迟、吞吐量、正常运行时间和精度，并将测量结果转化为路由策略。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance",
+      "publishedAt": "2026-07-28T00:00:00.000Z"
+    },
     {
       "topic": "技巧",
       "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试",
@@ -75,6 +83,14 @@
       "publishedAt": "2026-07-27T15:44:05.000Z"
     },
     {
+      "topic": "模型",
+      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+      "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
+      "source": "公众号：月之暗面（Kimi）",
+      "href": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
+      "publishedAt": "2026-07-27T15:34:59.000Z"
+    },
+    {
       "topic": "产品",
       "title": "Kimi K3 开源分布式智能体环境 AgentENV",
       "summary": "我们与 kvcache-ai 合作开源了 AgentENV。\n\nAgentENV 是一个用于大规模运行智能体环境的分布式系统。其组件为 Kimi K3 的智能体强化学习训练提供支持，具备快速快照、恢复和分支功能，适用于大规模并行智能体工作流。\n\n在 GitHub 上探索：http://github.com/kvcache-ai/AgentEnv",
@@ -83,36 +99,12 @@
       "publishedAt": "2026-07-27T15:25:45.000Z"
     },
     {
-      "topic": "模型",
-      "title": "Kimi K3 开源：2.8T MoE 模型与技术报告",
-      "summary": "Kimi 发布其最强模型 Kimi K3，这是一个 2.8T 参数的 MoE 模型，具备原生视觉理解和 1M token 上下文窗口。新架构实现了每单位计算 2.5 倍的智能提升。除模型权重外，Kimi 还开源了高性能注意力内核、MoE 通信库及大规模智能体运行环境基础设施。",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "href": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
-      "publishedAt": "2026-07-27T15:14:40.000Z"
-    },
-    {
       "topic": "行业",
       "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
       "summary": "NVIDIA、Microsoft、Hugging Face、IBM 等数十家机构联合成立 Open Secure AI Alliance，旨在通过开源模型、工具和框架构建可审查、可定制的 AI 安全防御体系。",
       "source": "NVIDIA Blog（RSS）",
       "href": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
       "publishedAt": "2026-07-27T09:00:07.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "用AI Skill自动生成可协作HTML PPT",
-      "summary": "Vista 基于 bento PPT 改造了一个 Skill，输入内容或主题即可自动生成可编辑、在线演示并支持协作的 HTML PPT。安装指令为 `npx skills add joeseesun/qiaomu-bento-ppt`，推荐使用 Kimi K3 或 Opus 4.8+ 等前端审美好的模型。",
-      "source": "X：Vista (@vista8)",
-      "href": "https://x.com/vista8/status/2081568902241513786",
-      "publishedAt": "2026-07-27T02:34:34.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
-      "summary": "作者开源了Leader.skill，用于将模糊的人类需求转化为Agent可独立执行数小时的目标任务书。该Skill基于\"目标七问\"方法论，涵盖目的、完成态、反作弊、边界等维度，并推荐用Claude Fable 5或Kimi K3规划目标，再交由GPT-5.6 Sol或GLM-5.2等模型长程执行。项目已开源。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg",
-      "publishedAt": "2026-07-27T00:12:00.000Z"
     }
   ]
 }
