@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-28T22:56:28.794Z",
+  "updatedAt": "2026-07-28T23:58:55.470Z",
   "count": 19,
   "items": [
+    {
+      "topic": "产品",
+      "title": "OpenAI 发布 Codex 安全 CLI 与 SDK",
+      "summary": "更多开源福利。我们刚刚发布了一个 CLI 和 TypeScript SDK，用于查找、验证和修复代码中的安全漏洞。扫描仓库、审查变更、随时间追踪发现，并在 CI 中运行安全检查。\n\nhttps://github.com/openai/codex-security",
+      "source": "X：Tibo (@thsottiaux)",
+      "href": "https://x.com/thsottiaux/status/2082241164850364555",
+      "publishedAt": "2026-07-28T23:05:54.000Z"
+    },
     {
       "topic": "行业",
       "title": "Anthropic 支持 AI 发展节奏请愿",
@@ -9,14 +17,6 @@
       "source": "X：Anthropic (@AnthropicAI)",
       "href": "https://x.com/AnthropicAI/status/2082228994653696371",
       "publishedAt": "2026-07-28T22:17:32.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 开源 Codex Security 代码安全扫描工具",
-      "summary": "OpenAI 开源了 Codex Security，一个基于 AI 的代码安全扫描 CLI 与 SDK，采用 Apache-2.0 协议。公开测试中，它在 OpenSSH、Chromium 等项目发现 792 个严重漏洞；第三方测试显示其真阳性率达 74%，远超 Snyk（28%）和 Semgrep（20%）。",
-      "source": "X：宝玉 (@dotey)",
-      "href": "https://x.com/dotey/status/2082227259096944689",
-      "publishedAt": "2026-07-28T22:10:39.000Z"
     },
     {
       "topic": "行业",
