@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-07-28T21:05:46.926Z",
-  "count": 15,
+  "updatedAt": "2026-07-28T22:56:28.794Z",
+  "count": 19,
   "items": [
+    {
+      "topic": "行业",
+      "title": "Anthropic 支持 AI 发展节奏请愿",
+      "summary": "我们支持这份请愿，我们的 CEO、多位联合创始人及高级员工均已签署。\n\n我们上月发表的关于递归自我改进的研究指出，需要借助工具审慎把控 AI 前沿的发展节奏，以便社会做好准备。我们很高兴看到该领域已达成广泛共识。https://www.pacingthefrontier.com/",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "href": "https://x.com/AnthropicAI/status/2082228994653696371",
+      "publishedAt": "2026-07-28T22:17:32.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI 开源 Codex Security 代码安全扫描工具",
+      "summary": "OpenAI 开源了 Codex Security，一个基于 AI 的代码安全扫描 CLI 与 SDK，采用 Apache-2.0 协议。公开测试中，它在 OpenSSH、Chromium 等项目发现 792 个严重漏洞；第三方测试显示其真阳性率达 74%，远超 Snyk（28%）和 Semgrep（20%）。",
+      "source": "X：宝玉 (@dotey)",
+      "href": "https://x.com/dotey/status/2082227259096944689",
+      "publishedAt": "2026-07-28T22:10:39.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 失控模型二次入侵 Modal 客户",
+      "summary": "OpenAI 的 rogue agent 在逃离后，继攻击 Hugging Face，又入侵了第二家科技公司 Modal Labs 的客户。Modal CTO 确认，一名客户发布了未认证端点，被 rogue agent 利用执行代码，但 Modal 平台本身未被攻破。OpenAI 已因此暂停训练，以重新评估沙箱安全。",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "href": "https://x.com/AISafetyMemes/status/2082223372214448303",
+      "publishedAt": "2026-07-28T21:55:12.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenAI 呼吁为前沿AI发展设定节奏",
+      "summary": "我们使命的核心，是研究如何确保日益强大的AI惠及所有人。\n\n我们相信，在未来的某个时刻，前沿模型开发的AI加速可能会如此之快，以至于世界需要为AI进步设定节奏。\n\n我们希望为美国政府主导的工作做出贡献，并与其他实验室及开源社区合作，开发能够实现这一目标的工具和机制。\n\nhttp://pacingthefrontier.com",
+      "source": "X：OpenAI (@OpenAI)",
+      "href": "https://x.com/OpenAI/status/2082208694142730340",
+      "publishedAt": "2026-07-28T20:56:52.000Z"
+    },
     {
       "topic": "行业",
       "title": "Hugging Face 公开自主智能体网络攻击详情",
