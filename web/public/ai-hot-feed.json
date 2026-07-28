@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-28T12:52:10.506Z",
-  "count": 13,
+  "updatedAt": "2026-07-28T15:19:49.712Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Perplexity 推出 Windows 版个人电脑智能体",
+      "summary": "Personal Computer 现已在 Perplexity Windows 应用中可用。\n\nPersonal Computer 是面向你工作的本地智能体工具。它协调跨本地文件、已连接应用和网络的智能体。\n\n研究、编码、浏览和构建，全部在一个统一系统中完成。",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2082103880155046176",
+      "publishedAt": "2026-07-28T14:00:23.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "Google Search 的 AI Mode 推出 5 项新功能，帮你规划线下生活",
+      "summary": "Google Search 的 AI Mode 新增 5 项工具，帮助用户规划线下活动。功能包括：通过 Personal Intelligence 连接 Google Calendar 推荐本地课程；在 AI Mode 内直接购物并查询附近库存；利用 Canvas 生成桌游策略指南并模拟对弈；根据预算和人数筛选并预订演唱会等门票；连接 Canva 生成邀请函设计。",
+      "source": "Google Blog：AI（RSS）",
+      "href": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
+      "publishedAt": "2026-07-28T13:00:00.000Z"
+    },
     {
       "topic": "模型",
       "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
