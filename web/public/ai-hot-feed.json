@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-28T15:19:49.712Z",
-  "count": 15,
+  "updatedAt": "2026-07-28T17:25:12.078Z",
+  "count": 13,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Gemini API Managed Agents 默认升级为 3.6 Flash，新增环境钩子与免费套餐",
+      "summary": "Google DeepMind 将 Gemini API Managed Agents 的默认模型升级为 Gemini 3.6 Flash，并支持显式选择 3.5 Flash 或 3.5 Flash-Lite。新增环境钩子允许在沙箱内工具调用前后执行自定义脚本，用于安全审查或代码格式化。此外，还推出了免费套餐、预算控制和基于 cron 的定时触发功能。",
+      "source": "Google Blog：AI（RSS）",
+      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "publishedAt": "2026-07-28T16:00:00.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "Kimi Linear：一种表现力强且高效的注意力架构",
+      "summary": "月之暗面推出 Kimi Linear，一种混合线性注意力架构，首次在短上下文、长上下文和强化学习场景下全面超越全注意力机制。其 3B 激活参数模型在所有评估任务上显著优于全 MLA，同时将 KV cache 使用量降低最多 75%，并在 1M 上下文下实现最高 6 倍解码吞吐量。月之暗面已开源 KDA 内核、vLLM 实现及模型权重。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://arxiv.org/abs/2510.26692",
+      "publishedAt": "2026-07-28T15:21:28.545Z"
+    },
     {
       "topic": "产品",
       "title": "Perplexity 推出 Windows 版个人电脑智能体",
@@ -89,38 +105,6 @@
       "source": "GitHub Blog",
       "href": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
       "publishedAt": "2026-07-27T18:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
-      "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过 `/create-canvas` 命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
-      "source": "GitHub Blog",
-      "href": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-      "publishedAt": "2026-07-27T16:00:00.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Google AI Overviews 搜索结果出现率升至43%",
-      "summary": "Google AI Overviews 在搜索结果中的出现率一年内从15%升至43%，AI Mode月访问量从1.26亿增至2.79亿。用户搜索长度增加，正从短关键词转向更长的自然对话式查询。",
-      "source": "TechCrunch：AI（RSS）",
-      "href": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
-      "publishedAt": "2026-07-27T15:57:12.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
-      "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
-      "source": "公众号：月之暗面（Kimi）",
-      "href": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
-      "publishedAt": "2026-07-27T15:34:59.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Kimi K3 开源分布式智能体环境 AgentENV",
-      "summary": "我们与 kvcache-ai 合作开源了 AgentENV。\n\nAgentENV 是一个用于大规模运行智能体环境的分布式系统。其组件为 Kimi K3 的智能体强化学习训练提供支持，具备快速快照、恢复和分支功能，适用于大规模并行智能体工作流。\n\n在 GitHub 上探索：http://github.com/kvcache-ai/AgentEnv",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "href": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-      "publishedAt": "2026-07-27T15:25:45.000Z"
     }
   ]
 }
