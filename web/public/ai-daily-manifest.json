@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-28",
+      "displayDate": "Jul 28",
+      "json": "/ai-daily/2026-07-28.json",
+      "count": 5,
+      "highlights": [
+        "GitHub Copilot 发布\"Ha",
+        "用Claude和Python构建技能驱动",
+        "GitHub Copilot app 入",
+        "Kimi K3 开放日：模型权重、技术报",
+        "黄仁勋、Kimi K3，与一场即将到来的"
+      ]
+    },
+    {
       "date": "2026-07-27",
       "displayDate": "Jul 27",
       "json": "/ai-daily/2026-07-27.json",
@@ -712,5 +725,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-27"
+  "latest": "2026-07-28"
 }

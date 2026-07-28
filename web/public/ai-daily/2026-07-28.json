@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-28",
+  "displayDate": "Jul 28",
+  "dateNum": "0728",
+  "year": 2026,
+  "dayOfWeek": "TUE",
+  "topics": [
+    "AI Coding"
+  ],
+  "sources": "GitHub Blog · MarkTechPost（RSS） · 公众号：月之暗面（Kimi） 等",
+  "count": 5,
+  "highlights": [
+    "GitHub Copilot 发布\"Ha",
+    "用Claude和Python构建技能驱动",
+    "GitHub Copilot app 入",
+    "Kimi K3 开放日：模型权重、技术报",
+    "黄仁勋、Kimi K3，与一场即将到来的"
+  ],
+  "items": [
+    {
+      "num": "01",
+      "topic": "AI Coding",
+      "title": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查",
+      "summary": "GitHub Copilot 推出\"Harness\"工作流，让开发者通过单一 AI 工具完成从原型设计、规划、实现到代码审查的完整软件开发流程，无需追逐多种新 AI 工具。该工作流强调实用性与集成性，旨在减少工具切换带来的效率损耗。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "02",
+      "topic": "AI Coding",
+      "title": "用Claude和Python构建技能驱动的金融分析智能体",
+      "summary": "本教程基于Anthropic的financial-services仓库，用纯Python复现其技能驱动架构。通过解析SKILL.md文件构建可搜索技能注册表，并创建可复用SkillAgent，将金融分析剧本注入Anthropic Messages API，支持迭代工具调用循环。",
+      "reason": "对 AI 开发者工具链有潜在影响，值得持续跟踪"
+    },
+    {
+      "num": "03",
+      "topic": "AI Coding",
+      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
+      "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过 `/create-canvas` 命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
+      "reason": "行业整合信号值得关注，可能影响生态格局"
+    },
+    {
+      "num": "04",
+      "topic": "AI Coding",
+      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+      "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    },
+    {
+      "num": "05",
+      "topic": "AI Coding",
+      "title": "黄仁勋、Kimi K3，与一场即将到来的开源战争",
+      "summary": "7月27日，月之暗面正式开源全球首个3T级模型Kimi K3，含2.8万亿总参数、1040亿激活参数，并公开47页技术报告及MoonEP、FlashKDA等关键基础设施。此前美国白宫指控K3蒸馏Claude模型，黄仁勋联合英伟达、微软、OpenAI等77家组织反对封禁中国开源模型。",
+      "reason": "新能力发布直接影响开发者工具链，值得第一时间关注"
+    }
+  ]
+}
