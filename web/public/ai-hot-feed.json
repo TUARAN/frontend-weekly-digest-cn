@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-28T10:33:08.005Z",
-  "count": 14,
+  "updatedAt": "2026-07-28T12:52:10.506Z",
+  "count": 13,
   "items": [
     {
       "topic": "模型",
@@ -41,14 +41,6 @@
       "source": "OpenRouter：Announcements（RSS）",
       "href": "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance",
       "publishedAt": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试",
-      "summary": "Anthropic CEO Dario Amodei 明确表示公司从未主张禁止开源权重模型，并认为不具备危险能力的开源权重模型是公共产品。他提出三项实际措施：对华芯片出口管制、打击工业级知识蒸馏、对所有足够强大的模型进行强制性安全测试。Amodei 指出，保护主义禁令无法解决其最担忧的国家安全威胁，包括威权政府利用更强大 AI 实现军事优势或深度监控。",
-      "source": "Anthropic：Newsroom（网页）",
-      "href": "https://www.anthropic.com/news/position-open-weights-models",
-      "publishedAt": "2026-07-27T22:26:00.307Z"
     },
     {
       "topic": "技巧",
