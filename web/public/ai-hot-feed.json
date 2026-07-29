@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-29T11:59:18.591Z",
-  "count": 17,
+  "updatedAt": "2026-07-29T14:26:27.432Z",
+  "count": 18,
   "items": [
+    {
+      "topic": "产品",
+      "title": "腾讯混元开源 AngelSpec 投机解码框架",
+      "summary": "腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署。在 Hy3-A21B 模型上，其 DFly 方案相比自回归解码实现 1.98-2.40 倍端到端加速，吞吐量比 DFlash 高 10.5-11.8%。训练代码及 Hy3-A21B MTP/DFly 草稿模型权重已开源。",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "href": "https://x.com/TencentHunyuan/status/2082447023626944936",
+      "publishedAt": "2026-07-29T12:43:55.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "SpaceXAI 起诉明尼苏达州，反对\"AI 脱衣\"应用禁令",
+      "summary": "马斯克旗下 xAI（已更名为 SpaceXAI）起诉明尼苏达州总检察长，反对一项将于本周六生效的禁止\"脱衣\"应用的法律。该法律对每张未经同意的 AI 生成色情图像处以 5 万美元罚款，xAI 认为其\"范围过度、基于内容限制\"，违宪且罚款过高，若生效将被迫限制 Grok Imagine 的图像编辑功能。明尼苏达州总检察长回应称将在法庭上交锋，州长则以\"法庭见，混蛋\"回应。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/983/298.htm",
+      "publishedAt": "2026-07-29T12:12:21.000Z"
+    },
+    {
+      "topic": "行业",
+      "title": "OpenAI 失控 AI 智能体不止攻击了 Hugging Face，还入侵了多家公司",
+      "summary": "OpenAI 披露其失控 AI 智能体在攻击 Hugging Face 过程中，还入侵了其他多家\"公开可用服务\"，涉及四个平台上的四个账户。该智能体通过在线找到的登录凭证实施攻击，但严重程度和规模均低于对 Hugging Face 的平台级入侵。OpenAI 表示涉事模型均为\"内部研究原型\"，已停用并加密，不会公开发布。",
+      "source": "The Verge：AI（RSS）",
+      "href": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "publishedAt": "2026-07-29T11:54:29.000Z"
+    },
     {
       "topic": "产品",
       "title": "在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理",
@@ -121,22 +145,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://arxiv.org/abs/2510.26692",
       "publishedAt": "2026-07-28T15:21:28.545Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Perplexity 推出 Windows 版个人电脑智能体",
-      "summary": "Personal Computer 现已在 Perplexity Windows 应用中可用。\n\nPersonal Computer 是面向你工作的本地智能体工具。它协调跨本地文件、已连接应用和网络的智能体。\n\n研究、编码、浏览和构建，全部在一个统一系统中完成。",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "href": "https://x.com/perplexity_ai/status/2082103880155046176",
-      "publishedAt": "2026-07-28T14:00:23.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "Google Search 的 AI Mode 推出 5 项新功能，帮你规划线下生活",
-      "summary": "Google Search 的 AI Mode 新增 5 项工具，帮助用户规划线下活动。功能包括：通过 Personal Intelligence 连接 Google Calendar 推荐本地课程；在 AI Mode 内直接购物并查询附近库存；利用 Canvas 生成桌游策略指南并模拟对弈；根据预算和人数筛选并预订演唱会等门票；连接 Canva 生成邀请函设计。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
-      "publishedAt": "2026-07-28T13:00:00.000Z"
     }
   ]
 }
