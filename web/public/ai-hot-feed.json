@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-07-29T16:20:29.706Z",
-  "count": 17,
+  "updatedAt": "2026-07-29T18:06:13.775Z",
+  "count": 23,
   "items": [
+    {
+      "topic": "论文",
+      "title": "Miles 在 Blackwell 架构上实现端到端 MXFP8 与逐 token NVFP4 强化学习方案",
+      "summary": "Miles 团队在 Blackwell 架构上实现了两种原生低精度强化学习方案：端到端 MXFP8 和 MoE 专家权重的逐 token NVFP4。在 8x B200 上对 Qwen3-30B-A3B 的消融实验中，BF16 与所有五种低精度配置的原始奖励曲线高度重合，且 MXFP8 和 NVFP4 减少了推理时间。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "href": "https://www.lmsys.org/blog/2026-07-29-mxfp8-nvfp4-rl",
+      "publishedAt": "2026-07-29T17:50:30.529Z"
+    },
+    {
+      "topic": "产品",
+      "title": "OpenAI 为学术研究者免费提供前沿模型",
+      "summary": "ChatGPT for Academic Researchers - 免费（！！）使用我们的前沿模型，包括 GPT-5.6-Sol Pro，面向数学家、科学家、研究人员和学者。\n\n让未解难题倒下！",
+      "source": "X：Sherwin Wu（@sherwinwu）",
+      "href": "https://x.com/sherwinwu/status/2082517015944741342",
+      "publishedAt": "2026-07-29T17:22:02.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Perplexity 开源智能体检测层 Numbat",
+      "summary": "今天我们开源了 Numbat，这是一个智能体检测与响应层，旨在跨多种智能体框架工作。\n\nNumbat 为安全团队提供对智能体活动的可见性，并可在执行前阻止选定操作。\n\n了解更多：https://research.perplexity.ai/articles/securing-agents-across-perplexity%E2%80%99s-client-endpoints-with-numbat",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "href": "https://x.com/perplexity_ai/status/2082511900580196596",
+      "publishedAt": "2026-07-29T17:01:42.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "Replit 用环境智能重塑 AI 设计体验",
+      "summary": "Replit Design 通过环境智能重新构想 AI 设计的用户体验。\n\n你无需输入提示词，也无需设计语言。\n\n每一步，智能体都会建议下一步最佳操作，一键即可执行，助你快速从创意生成惊艳成果。",
+      "source": "X：Replit (@Replit)",
+      "href": "https://x.com/Replit/status/2082504096095903811",
+      "publishedAt": "2026-07-29T16:30:42.000Z"
+    },
+    {
+      "topic": "产品",
+      "title": "开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B",
+      "summary": "一个开源引擎让 Gemma 4 26B 模型能在任何 M 系列 Mac 上运行，仅需 2 GB 内存。该项目已发布在 GitHub 上，大幅降低了本地运行大语言模型的硬件门槛。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/drumih/turbo-fieldfare",
+      "publishedAt": "2026-07-29T16:09:22.496Z"
+    },
+    {
+      "topic": "模型",
+      "title": "Google DeepMind 在 Flow Music 中推出 Lyria 3.5，提升音乐性、歌词、人声与创作控制",
+      "summary": "Google DeepMind 今日在 Google Flow Music 中发布新一代音乐生成模型 Lyria 3.5，带来音乐性、歌词质量、人声表现力与创作控制的多项提升。新模型能生成更自然复杂的旋律结构，歌词对提示词的遵循度和结构意识更强，人声更逼真且富有情感，同时支持更便捷地控制输出节奏与时长。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "href": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
+      "publishedAt": "2026-07-29T16:02:10.000Z"
+    },
     {
       "topic": "产品",
       "title": "Martha Stewart 联合创办 AI 初创公司 Hint，为房主提供家居管理 AI 助手",
@@ -9,6 +57,14 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
       "publishedAt": "2026-07-29T15:35:09.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "算力价格未来可能上涨 10 倍以上",
+      "summary": "AI 算力现货价格自 2 月低点已上涨 40% 以上，Google 和 Anthropic 从 SpaceX 租用 11 万块 GPU 的月租金达 9 亿美元，约为现货价格的 2 倍。若 AI 达到人类水平软件工程师能力，单块 H100 等效算力年租金可达 25 万美元，是当前现货价格的 15 倍。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "href": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+      "publishedAt": "2026-07-29T15:01:35.000Z"
     },
     {
       "topic": "产品",
@@ -129,14 +185,6 @@
       "source": "TechCrunch：AI（RSS）",
       "href": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
       "publishedAt": "2026-07-28T20:17:08.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Claude 发现加密算法弱点研究发布",
-      "summary": "Anthropic 新研究：用 Claude 发现加密弱点。\n\nClaude Mythos 预览版已帮助我们的研究人员发现加密算法中的弱点--这些数学方法用于保护数据隐私。\n\n了解更多：https://anthropic.com/research/discovering-cryptographic-weaknesses",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2082153297670992134",
-      "publishedAt": "2026-07-28T17:16:45.000Z"
     }
   ]
 }
