@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T03:27:01.191Z",
-  "count": 21,
+  "updatedAt": "2026-07-29T06:29:23.214Z",
+  "count": 19,
   "items": [
     {
       "topic": "产品",
@@ -17,6 +17,14 @@
       "source": "IT之家（RSS）",
       "href": "https://www.ithome.com/0/982/816.htm",
       "publishedAt": "2026-07-29T00:20:32.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "我的Claude账号被封了",
+      "summary": "Anthropic因支付系统SEPA验证漏洞引发\"零元购\"事件，随后大规模回收漏洞账号并封禁关联账户，作者自用半年多的账号于7月29日被封。作者认为当前已非Claude一家独大，推荐编程用户使用Kimi K3和GPT-5.6 Sol，办公用户选择WorkBuddy+Kimi K3，并指出国产模型已凭二十分之一算力摸到第一梯队。",
+      "source": "公众号：数字生命卡兹克",
+      "href": "https://mp.weixin.qq.com/s/Sb4YYeEYsBAAczDo8n41UA",
+      "publishedAt": "2026-07-29T00:06:00.000Z"
     },
     {
       "topic": "技巧",
@@ -92,14 +100,6 @@
     },
     {
       "topic": "论文",
-      "title": "Anthropic 的 Claude Mythos Preview 模型发现 AES 和 HAWK 加密算法漏洞",
-      "summary": "Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法。",
-      "source": "The Decoder：AI News（RSS）",
-      "href": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
-      "publishedAt": "2026-07-28T19:12:27.000Z"
-    },
-    {
-      "topic": "论文",
       "title": "Claude 发现加密算法弱点研究发布",
       "summary": "Anthropic 新研究：用 Claude 发现加密弱点。\n\nClaude Mythos 预览版已帮助我们的研究人员发现加密算法中的弱点--这些数学方法用于保护数据隐私。\n\n了解更多：https://anthropic.com/research/discovering-cryptographic-weaknesses",
       "source": "X：Anthropic (@AnthropicAI)",
@@ -153,22 +153,6 @@
       "source": "公众号：火山引擎",
       "href": "https://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA",
       "publishedAt": "2026-07-28T07:51:54.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
-      "summary": "德里高等法院认定 OpenAI 利用亚洲国际新闻（ANI）社的内容训练人工智能不构成侵犯版权。法官 Amit Bansal 认为该行为符合印度《版权法》中研究类\"合理使用\"例外情形，且 ANI 未能证明 ChatGPT 直接复制其受版权保护内容。法院同时指出，现阶段颁布临时禁令将不利于印度正在开发的 LLM 及大量免费使用 ChatGPT 的用户。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/982/520.htm",
-      "publishedAt": "2026-07-28T06:21:07.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
-      "summary": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://usefeyn.com/blog/feynobg",
-      "publishedAt": "2026-07-28T04:57:13.190Z"
     }
   ]
 }
