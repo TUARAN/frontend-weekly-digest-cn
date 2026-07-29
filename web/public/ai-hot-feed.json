@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T21:59:54.685Z",
-  "count": 19,
+  "updatedAt": "2026-07-29T23:06:18.463Z",
+  "count": 17,
   "items": [
     {
       "topic": "产品",
@@ -137,22 +137,6 @@
       "source": "OpenRouter：Announcements（RSS）",
       "href": "https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup",
       "publishedAt": "2026-07-29T00:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "OpenAI 发布 Codex 安全 CLI 与 SDK",
-      "summary": "更多开源福利。我们刚刚发布了一个 CLI 和 TypeScript SDK，用于查找、验证和修复代码中的安全漏洞。扫描仓库、审查变更、随时间追踪发现，并在 CI 中运行安全检查。\n\nhttps://github.com/openai/codex-security",
-      "source": "X：Tibo (@thsottiaux)",
-      "href": "https://x.com/thsottiaux/status/2082241164850364555",
-      "publishedAt": "2026-07-28T23:05:54.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "Anthropic 支持 AI 发展节奏请愿",
-      "summary": "我们支持这份请愿，我们的 CEO、多位联合创始人及高级员工均已签署。\n\n我们上月发表的关于递归自我改进的研究指出，需要借助工具审慎把控 AI 前沿的发展节奏，以便社会做好准备。我们很高兴看到该领域已达成广泛共识。https://www.pacingthefrontier.com/",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "href": "https://x.com/AnthropicAI/status/2082228994653696371",
-      "publishedAt": "2026-07-28T22:17:32.000Z"
     }
   ]
 }
