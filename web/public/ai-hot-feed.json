@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-07-28T23:58:55.470Z",
-  "count": 19,
+  "updatedAt": "2026-07-29T03:27:01.191Z",
+  "count": 21,
   "items": [
+    {
+      "topic": "产品",
+      "title": "在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理",
+      "summary": "Deltafin 项目成功在 64 GB M1 Max 上运行了 2.8T 参数的 MoE 模型 Kimi K3，当前中位推理速度为 0.0687 token/s（14.6 秒/token）。完整安装需约 1.7 TB 本地磁盘，流式模式仅需 215 GB 但推理速度降至 3 分钟以上/token。项目提供 OpenAI 兼容 API 服务器，支持聊天和代码补全，但建议客户端超时设为小时级别。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "href": "https://github.com/gavamedia/deltafin",
+      "publishedAt": "2026-07-29T02:49:20.833Z"
+    },
+    {
+      "topic": "行业",
+      "title": "1100多名AI员工联名呼吁美国政府控制AI发展速度，OpenAI CEO奥尔特曼表态支持",
+      "summary": "OpenAI、Anthropic、谷歌和Meta等公司的1100多名AI员工签署公开信，呼吁美国政府支持国际合作，以\"有意识地把控自动化AI开发的前沿进程\"。该倡议名为\"把控前沿\"，重点关注AI未来可能自行开发和改进AI系统的\"递归式自我改进\"能力。OpenAI CEO萨姆·奥尔特曼在播客采访中表示，可能需要\"把控\"AI发展速度，让社会有时间建立防护机制。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/982/816.htm",
+      "publishedAt": "2026-07-29T00:20:32.000Z"
+    },
+    {
+      "topic": "技巧",
+      "title": "OpenRouter 推出专用 LangChain 集成包，支持 400+ 模型与自动故障切换",
+      "summary": "OpenRouter 发布了 langchain-openrouter（Python）和 @langchain/openrouter（TypeScript）专用包，让 LangChain 应用无需改造即可调用 400+ 模型和 70+ 提供商。ChatOpenRouter 自动处理负载均衡与故障切换，切换模型只需修改 `provider/model` 格式的字符串。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "href": "https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup",
+      "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
     {
       "topic": "产品",
       "title": "OpenAI 发布 Codex 安全 CLI 与 SDK",
@@ -145,14 +169,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://usefeyn.com/blog/feynobg",
       "publishedAt": "2026-07-28T04:57:13.190Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "如何评估不同 LLM 提供商在延迟、吞吐量和正常运行时间上的性能",
-      "summary": "同一模型在不同提供商端点上的表现因基础设施、量化、负载处理和路由默认设置而异。评估需测量延迟、吞吐量、正常运行时间和精度，并将测量结果转化为路由策略。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance",
-      "publishedAt": "2026-07-28T00:00:00.000Z"
     }
   ]
 }
