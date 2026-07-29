@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-29",
+      "displayDate": "Jul 29",
+      "json": "/ai-daily/2026-07-29.json",
+      "count": 5,
+      "highlights": [
+        "OpenAI 发布 Codex 安全 C",
+        "OpenAI 失控模型二次入侵 Moda",
+        "我的Claude账号被封了",
+        "Gemini API Managed A",
+        "在 M1 Max 上运行 2.8T 参数"
+      ]
+    },
+    {
       "date": "2026-07-28",
       "displayDate": "Jul 28",
       "json": "/ai-daily/2026-07-28.json",
@@ -725,5 +738,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-28"
+  "latest": "2026-07-29"
 }
