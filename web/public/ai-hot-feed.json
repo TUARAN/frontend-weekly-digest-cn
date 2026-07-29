@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T06:29:23.214Z",
-  "count": 19,
+  "updatedAt": "2026-07-29T09:36:02.452Z",
+  "count": 17,
   "items": [
     {
       "topic": "产品",
@@ -137,22 +137,6 @@
       "source": "Google Blog：AI（RSS）",
       "href": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
       "publishedAt": "2026-07-28T13:00:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
-      "summary": "Microsoft 发布 MAI-Cyber-1-Flash，一款 137B 总参数（5B 活跃参数）、256k 上下文窗口的稀疏 MoE 网络安全模型，是 MAI-Code-1-Flash 的微调版本。",
-      "source": "MarkTechPost（RSS）",
-      "href": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym",
-      "publishedAt": "2026-07-28T08:33:30.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "火山引擎上线豆包搜索服务，为AI Agent提供实时可信搜索能力",
-      "summary": "火山引擎正式上线豆包搜索服务，为AI Agent提供跨语言、多模态、多垂类联网信息查询，融合全域互联网信息、行业知识与字节跳动独家内容资源。该服务从网站站点和创作者维度建立权威分级体系，过滤低质信息，在SimpleQA、FreshQA、BrowseComp-ZH等评测中表现优异。豆包搜索支持API、Skill、MCP等多种接入形态，面向企业和开发者提供每月500次免费搜索额度。",
-      "source": "公众号：火山引擎",
-      "href": "https://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA",
-      "publishedAt": "2026-07-28T07:51:54.000Z"
     }
   ]
 }
