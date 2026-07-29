@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-29T14:26:27.432Z",
-  "count": 18,
+  "updatedAt": "2026-07-29T16:20:29.706Z",
+  "count": 17,
   "items": [
+    {
+      "topic": "产品",
+      "title": "Martha Stewart 联合创办 AI 初创公司 Hint，为房主提供家居管理 AI 助手",
+      "summary": "Hint 今日上线，利用 AI 技术帮助房主管理维护计划、能耗、土壤与空气质量、保险理赔等事务，并支持存储和查询房屋相关合同与文件。该应用基于公开数据为每栋房屋建立档案，通过 AI 聊天机器人回答个性化问题，并提供主动维护提醒与\"房屋评分\"。Hint 目前免费提供 iOS 版，无订阅或广告，未来计划推出付费高级功能。",
+      "source": "TechCrunch：AI（RSS）",
+      "href": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
+      "publishedAt": "2026-07-29T15:35:09.000Z"
+    },
     {
       "topic": "产品",
       "title": "腾讯混元开源 AngelSpec 投机解码框架",
@@ -129,22 +137,6 @@
       "source": "X：Anthropic (@AnthropicAI)",
       "href": "https://x.com/AnthropicAI/status/2082153297670992134",
       "publishedAt": "2026-07-28T17:16:45.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "Gemini API Managed Agents 默认升级为 3.6 Flash，新增环境钩子与免费套餐",
-      "summary": "Google DeepMind 将 Gemini API Managed Agents 的默认模型升级为 Gemini 3.6 Flash，并支持显式选择 3.5 Flash 或 3.5 Flash-Lite。新增环境钩子允许在沙箱内工具调用前后执行自定义脚本，用于安全审查或代码格式化。此外，还推出了免费套餐、预算控制和基于 cron 的定时触发功能。",
-      "source": "Google Blog：AI（RSS）",
-      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
-      "publishedAt": "2026-07-28T16:00:00.000Z"
-    },
-    {
-      "topic": "论文",
-      "title": "Kimi Linear：一种表现力强且高效的注意力架构",
-      "summary": "月之暗面推出 Kimi Linear，一种混合线性注意力架构，首次在短上下文、长上下文和强化学习场景下全面超越全注意力机制。其 3B 激活参数模型在所有评估任务上显著优于全 MLA，同时将 KV cache 使用量降低最多 75%，并在 1M 上下文下实现最高 6 倍解码吞吐量。月之暗面已开源 KDA 内核、vLLM 实现及模型权重。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://arxiv.org/abs/2510.26692",
-      "publishedAt": "2026-07-28T15:21:28.545Z"
     }
   ]
 }
