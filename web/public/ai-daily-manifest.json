@@ -1,6 +1,19 @@
 {
   "list": [
     {
+      "date": "2026-07-30",
+      "displayDate": "Jul 30",
+      "json": "/ai-daily/2026-07-30.json",
+      "count": 5,
+      "highlights": [
+        "OpenAI 总裁布罗克曼承认新版 Ch",
+        "揭秘 AI 智能体入侵 Hugging ",
+        "OpenAI 为学术研究者免费提供前沿模",
+        "启用两项 API 设置使 GPT-5.6",
+        "OpenAI 失控 AI 智能体不止攻击"
+      ]
+    },
+    {
       "date": "2026-07-29",
       "displayDate": "Jul 29",
       "json": "/ai-daily/2026-07-29.json",
@@ -738,5 +751,5 @@
       "json": "/ai-daily/2026-05-28.json"
     }
   ],
-  "latest": "2026-07-29"
+  "latest": "2026-07-30"
 }
