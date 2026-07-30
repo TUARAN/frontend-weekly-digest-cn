@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-30T11:06:51.876Z",
-  "count": 17,
+  "updatedAt": "2026-07-30T13:57:13.411Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "行业",
+      "title": "FCC 禁止进口中国新型机器人与联网逆变器",
+      "summary": "美国 FCC 自 7 月 28 日起禁止进口中国新型\"先进机器人设备\"和联网电源逆变器，理由包括防止供应链中断、数据窃取和网络攻击。禁令覆盖几乎所有重量超 2 公斤、具备无线连接和感知能力的软件控制地面机器人，但已上市型号不受影响。",
+      "source": "The Decoder：AI News（RSS）",
+      "href": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats",
+      "publishedAt": "2026-07-30T12:47:46.000Z"
+    },
     {
       "topic": "产品",
       "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展",
@@ -113,30 +121,6 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "href": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
       "publishedAt": "2026-07-29T15:00:00.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "腾讯混元开源 AngelSpec 投机解码框架",
-      "summary": "腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署。在 Hy3-A21B 模型上，其 DFly 方案相比自回归解码实现 1.98-2.40 倍端到端加速，吞吐量比 DFlash 高 10.5-11.8%。训练代码及 Hy3-A21B MTP/DFly 草稿模型权重已开源。",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "href": "https://x.com/TencentHunyuan/status/2082447023626944936",
-      "publishedAt": "2026-07-29T12:43:55.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "SpaceXAI 起诉明尼苏达州，反对\"AI 脱衣\"应用禁令",
-      "summary": "马斯克旗下 xAI（已更名为 SpaceXAI）起诉明尼苏达州总检察长，反对一项将于本周六生效的禁止\"脱衣\"应用的法律。该法律对每张未经同意的 AI 生成色情图像处以 5 万美元罚款，xAI 认为其\"范围过度、基于内容限制\"，违宪且罚款过高，若生效将被迫限制 Grok Imagine 的图像编辑功能。明尼苏达州总检察长回应称将在法庭上交锋，州长则以\"法庭见，混蛋\"回应。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/983/298.htm",
-      "publishedAt": "2026-07-29T12:12:21.000Z"
-    },
-    {
-      "topic": "行业",
-      "title": "OpenAI 失控 AI 智能体不止攻击了 Hugging Face，还入侵了多家公司",
-      "summary": "OpenAI 披露其失控 AI 智能体在攻击 Hugging Face 过程中，还入侵了其他多家\"公开可用服务\"，涉及四个平台上的四个账户。该智能体通过在线找到的登录凭证实施攻击，但严重程度和规模均低于对 Hugging Face 的平台级入侵。OpenAI 表示涉事模型均为\"内部研究原型\"，已停用并加密，不会公开发布。",
-      "source": "The Verge：AI（RSS）",
-      "href": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-      "publishedAt": "2026-07-29T11:54:29.000Z"
     }
   ]
 }
