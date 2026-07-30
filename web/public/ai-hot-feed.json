@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-30T02:12:46.381Z",
-  "count": 15,
+  "updatedAt": "2026-07-30T05:39:39.833Z",
+  "count": 16,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "OpenAI 总裁布罗克曼承认新版 ChatGPT 桌面应用\"有点乱\"，目标年底实现\"零标签\"",
+      "summary": "OpenAI 联合创始人兼总裁格雷格·布罗克曼承认，合并 Codex 后的新版 ChatGPT 桌面应用界面\"有点乱\"，导致部分用户难以找到聊天记录。他透露，到 2026 年年底，ChatGPT 桌面应用将不再有 Work 标签页，功能会融入 ChatGPT。整合后，Codex 用户数在几天内从 500 万增至 1000 万。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/983/444.htm",
+      "publishedAt": "2026-07-30T02:49:47.000Z"
+    },
+    {
+      "topic": "论文",
+      "title": "腾讯混元Hyra破解50年数学难题",
+      "summary": "腾讯混元借助研究智能体Hyra及Hy3模型，构造出整数集A使|A+A|与|A-A|的指数比精确达到2，解决了自1969年以来悬而未决的极值问题。此前50余年最佳构造仅略超1.1，新成果证明最优指数即为2。论文及形式化证明已公开。",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "href": "https://x.com/TencentHunyuan/status/2082655737541726636",
+      "publishedAt": "2026-07-30T02:33:16.000Z"
+    },
     {
       "topic": "技巧",
       "title": "揭秘 AI 智能体入侵 Hugging Face 全过程：4 天半执行 17600 次操作",
@@ -113,14 +129,6 @@
       "source": "The Verge：AI（RSS）",
       "href": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
       "publishedAt": "2026-07-29T11:54:29.000Z"
-    },
-    {
-      "topic": "产品",
-      "title": "在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理",
-      "summary": "Deltafin 项目成功在 64 GB M1 Max 上运行了 2.8T 参数的 MoE 模型 Kimi K3，当前中位推理速度为 0.0687 token/s（14.6 秒/token）。完整安装需约 1.7 TB 本地磁盘，流式模式仅需 215 GB 但推理速度降至 3 分钟以上/token。项目提供 OpenAI 兼容 API 服务器，支持聊天和代码补全，但建议客户端超时设为小时级别。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "href": "https://github.com/gavamedia/deltafin",
-      "publishedAt": "2026-07-29T02:49:20.833Z"
     }
   ]
 }
