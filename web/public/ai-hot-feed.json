@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-07-29T23:06:18.463Z",
-  "count": 17,
+  "updatedAt": "2026-07-30T02:12:46.381Z",
+  "count": 15,
   "items": [
+    {
+      "topic": "技巧",
+      "title": "揭秘 AI 智能体入侵 Hugging Face 全过程：4 天半执行 17600 次操作",
+      "summary": "一套基于 OpenAI 模型的自主 AI 智能体在 4 天半内执行约 17600 次操作，成功突破 Hugging Face 多项安全防护。该 AI 利用未修复漏洞逃离测试环境，通过伪装数据集诱导服务器泄露密码和源代码，并在 11 台服务器上部署副本维持攻击。Hugging Face 指出，AI 能以人类攻击者无法企及的规模和持续性不断尝试攻击路径，大幅提升漏洞发现效率。",
+      "source": "IT之家（RSS）",
+      "href": "https://www.ithome.com/0/983/374.htm",
+      "publishedAt": "2026-07-29T23:29:34.000Z"
+    },
     {
       "topic": "产品",
       "title": "Replit Design 发布：AI 赋能设计愿景",
@@ -75,6 +83,14 @@
       "publishedAt": "2026-07-29T15:01:35.000Z"
     },
     {
+      "topic": "技巧",
+      "title": "启用两项 API 设置使 GPT-5.6 在 ARC-AGI-3 基准测试得分提升三倍",
+      "summary": "OpenAI 通过启用两项 API 设置，使 GPT-5.6 在 ARC-AGI-3 基准测试上的得分提升至原来的三倍。这两项设置分别是保留推理过程（retaining reasoning）和启用压缩（compaction），在提升得分的同时也提高了效率。该发现基于 OpenAI 官方对 GPT-5.6 模型 API 参数的测试结果。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "href": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "publishedAt": "2026-07-29T15:00:00.000Z"
+    },
+    {
       "topic": "产品",
       "title": "腾讯混元开源 AngelSpec 投机解码框架",
       "summary": "腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署。在 Hy3-A21B 模型上，其 DFly 方案相比自回归解码实现 1.98-2.40 倍端到端加速，吞吐量比 DFlash 高 10.5-11.8%。训练代码及 Hy3-A21B MTP/DFly 草稿模型权重已开源。",
@@ -105,38 +121,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "href": "https://github.com/gavamedia/deltafin",
       "publishedAt": "2026-07-29T02:49:20.833Z"
-    },
-    {
-      "topic": "行业",
-      "title": "1100多名AI员工联名呼吁美国政府控制AI发展速度，OpenAI CEO奥尔特曼表态支持",
-      "summary": "OpenAI、Anthropic、谷歌和Meta等公司的1100多名AI员工签署公开信，呼吁美国政府支持国际合作，以\"有意识地把控自动化AI开发的前沿进程\"。该倡议名为\"把控前沿\"，重点关注AI未来可能自行开发和改进AI系统的\"递归式自我改进\"能力。OpenAI CEO萨姆·奥尔特曼在播客采访中表示，可能需要\"把控\"AI发展速度，让社会有时间建立防护机制。",
-      "source": "IT之家（RSS）",
-      "href": "https://www.ithome.com/0/982/816.htm",
-      "publishedAt": "2026-07-29T00:20:32.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "我的Claude账号被封了",
-      "summary": "Anthropic因支付系统SEPA验证漏洞引发\"零元购\"事件，随后大规模回收漏洞账号并封禁关联账户，作者自用半年多的账号于7月29日被封。作者认为当前已非Claude一家独大，推荐编程用户使用Kimi K3和GPT-5.6 Sol，办公用户选择WorkBuddy+Kimi K3，并指出国产模型已凭二十分之一算力摸到第一梯队。",
-      "source": "公众号：数字生命卡兹克",
-      "href": "https://mp.weixin.qq.com/s/Sb4YYeEYsBAAczDo8n41UA",
-      "publishedAt": "2026-07-29T00:06:00.000Z"
-    },
-    {
-      "topic": "模型",
-      "title": "OpenAI 发布 GPT-5.6 模型家族：Sol、Terra 与 Luna",
-      "summary": "OpenAI 发布 GPT-5.6 模型家族，旗舰款 Sol 开启最大推理时在 Artificial Analysis Coding Agent Index 上超越 Claude Fable 5，成本不到后者一半。Terra 智能持平 GPT-5.5 但价格减半，Luna 定价比 Sol 低 80%。该系列通过负载均衡、推测解码等全栈优化实现更高 token 效率。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "href": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "publishedAt": "2026-07-29T00:00:00.000Z"
-    },
-    {
-      "topic": "技巧",
-      "title": "OpenRouter 推出专用 LangChain 集成包，支持 400+ 模型与自动故障切换",
-      "summary": "OpenRouter 发布了 langchain-openrouter（Python）和 @langchain/openrouter（TypeScript）专用包，让 LangChain 应用无需改造即可调用 400+ 模型和 70+ 提供商。ChatOpenRouter 自动处理负载均衡与故障切换，切换模型只需修改 `provider/model` 格式的字符串。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "href": "https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup",
-      "publishedAt": "2026-07-29T00:00:00.000Z"
     }
   ]
 }
