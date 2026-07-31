@@ -20,6 +20,7 @@ concurrency:
 permissions:
   contents: write
   models: read
+  id-token: write
 
 jobs:
   sync:
@@ -58,3 +59,6 @@ jobs:
           git commit -m "weekly: 自动同步最新前端周刊"
           git pull --rebase --autostash origin main
           git push
+
+      - name: 发布周刊索引到 2aran 内容数据层
+        run: node scripts/publish-2aran-feed.mjs weekly

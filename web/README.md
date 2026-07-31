@@ -29,6 +29,16 @@
 - **运行产物**
   - `.next/`、`output/` 等目录都属于构建或运行产物，可删除重建
 
+## 实时数据
+
+AI 情报实时流、每日精选和周刊索引由仓库根目录的 GitHub Actions 定时生成，写入主站的 `tuaran-content-feed` R2 bucket。展示页优先读取 `https://2aran.com/api/frontend-weekly`，仓库里的静态 JSON 只作为离线和接口故障时的兜底，不再由定时任务持续提交。
+
+- `scripts/publish-2aran-feed.mjs live`：发布实时流
+- `scripts/publish-2aran-feed.mjs daily`：发布每日精选
+- `scripts/publish-2aran-feed.mjs weekly`：发布周刊索引
+
+GitHub Actions 使用 OIDC 短期令牌调用主站写入接口，不需要配置长期 API 密钥。写入权限限定为本仓库 `main` 分支的工作流。
+
 ## 本地开发
 
 在 `web/` 目录下：

@@ -75,23 +75,31 @@ function payloadFromLiveItem(item: FeedItem): SharePayload {
 
 function ShareTemplateBody() {
   const searchParams = useSearchParams();
-  const [payload, setPayload] = useState<SharePayload>(EMPTY_PAYLOAD);
-  const [resolving, setResolving] = useState(false);
+  const [payload, setPayload] = useState<SharePayload>(() => {
+    const shortKind = searchParams.get('k');
+    return shortKind === 'l'
+      ? { ...EMPTY_PAYLOAD, kind: 'live', title: '加载中…', href: searchParams.get('u') || '' }
+      : parseLegacyPayload(searchParams);
+  });
+  const [resolving, setResolving] = useState(searchParams.get('k') === 'l');
 
   useEffect(() => {
     const shortKind = searchParams.get('k');
+    let cancelled = false;
 
     // 短链：?k=l&u=<href> — 7×24 实时资讯
     if (shortKind === 'l') {
       const u = searchParams.get('u') || '';
-      setResolving(true);
-      setPayload({ ...EMPTY_PAYLOAD, kind: 'live', title: '加载中…', href: u });
-      let cancelled = false;
-      fetch('/ai-hot-feed.json', { cache: 'no-store' })
+      Promise.resolve().then(() => {
+        if (cancelled) return;
+        setResolving(true);
+        setPayload({ ...EMPTY_PAYLOAD, kind: 'live', title: '加载中…', href: u });
+      });
+      fetch('https://2aran.com/api/frontend-weekly', { cache: 'no-store' })
         .then((r) => (r.ok ? r.json() : null))
-        .then((data: { items?: FeedItem[] } | null) => {
+        .then((data: { live?: { items?: FeedItem[] } } | null) => {
           if (cancelled) return;
-          const found = data?.items?.find((it) => it.href === u);
+          const found = data?.live?.items?.find((it) => it.href === u);
           if (found) {
             setPayload(payloadFromLiveItem(found));
           } else {
@@ -124,8 +132,14 @@ function ShareTemplateBody() {
     }
 
     // 旧长链兼容
-    setPayload(parseLegacyPayload(searchParams));
-    return undefined;
+    Promise.resolve().then(() => {
+      if (cancelled) return;
+      setResolving(false);
+      setPayload(parseLegacyPayload(searchParams));
+    });
+    return () => {
+      cancelled = true;
+    };
   }, [searchParams]);
 
   useEffect(() => {

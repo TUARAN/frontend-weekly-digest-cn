@@ -58,7 +58,7 @@ function ItemCard({ item }: { item: DailyItem }) {
 }
 
 export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
-  const list = manifest;
+  const [list, setList] = useState(manifest);
   const [cache, setCache] = useState<Record<string, DailyData>>(
     initial ? { [initial.date]: initial } : {},
   );
@@ -73,9 +73,24 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
   const isLatest = index === 0;
 
   useEffect(() => {
+    let alive = true;
+    fetch('https://2aran.com/api/frontend-weekly', { cache: 'no-store' })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((payload) => {
+        if (!alive || !payload?.daily?.list?.length) return;
+        setList(payload.daily.list);
+        setIndex(0);
+      })
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  useEffect(() => {
     if (!meta || cache[meta.date]) return;
     let alive = true;
-    fetch(`/ai-daily/${meta.date}.json`, { cache: 'no-store' })
+    fetch(`https://2aran.com/api/frontend-weekly/daily/${meta.date}`, { cache: 'no-store' })
       .then((r) => (r.ok ? r.json() : null))
       .then((d: DailyData | null) => {
         if (alive && d) setCache((c) => ({ ...c, [d.date]: d }));

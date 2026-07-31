@@ -6,16 +6,17 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
-# 避免与其它推送任务（每日精选）并发抢锁
+# 与每日精选共用串行组，避免同时改写 R2 索引。
 concurrency:
-  group: content-push
+  group: frontend-weekly-publish
   cancel-in-progress: false
 
 jobs:
   feed:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+      id-token: write
 
     steps:
       - name: Checkout
@@ -28,21 +29,5 @@ jobs:
         with:
           node-version: 22
 
-      - name: 抓取 7x24 资讯
-        run: node scripts/ai-hot-feed.mjs
-
-      - name: 提交 & 推送
-        run: |
-          git config user.name "CodeMiner-掘金安东尼"
-          git config user.email "729922845@qq.com"
-
-          git add web/public/ai-hot-feed.json
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          git pull --rebase --autostash origin main || true
-          git commit -m "chore: 7x24 资讯更新 $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
-          git push
+      - name: 发布到 2aran 内容数据层
+        run: node scripts/publish-2aran-feed.mjs live
