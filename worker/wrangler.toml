@@ -1,0 +1,14 @@
+name = "frontend-weekly-feed"
+main = "src/index.js"
+compatibility_date = "2026-07-31"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[r2_buckets]]
+binding = "CONTENT_FEED"
+bucket_name = "tuaran-content-feed"

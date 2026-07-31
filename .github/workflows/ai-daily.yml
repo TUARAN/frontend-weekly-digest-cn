@@ -1,12 +1,9 @@
 name: 每日精选
 
 on:
-  schedule:
-    # 每天 UTC 01:00 = CST 09:00
-    - cron: '0 1 * * *'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
-# 与 7x24 资讯任务共用一个串行组，避免同时改写 R2 索引。
+# Cloudflare Worker Cron 负责生产调度；此工作流只保留人工补发能力。
 concurrency:
   group: frontend-weekly-publish
   cancel-in-progress: false
