@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, CalendarDays, Mail, Map } from 'lucide-react';
+import { ArrowRight, CalendarDays, Mail } from 'lucide-react';
 import AiDailyBoard from '@/components/AiDailyBoard';
 import LiveSignalBoard from '@/components/LiveSignalBoard';
 import { getAllWeeklies } from '@/lib/weekly';
@@ -185,35 +185,11 @@ export default function AiRadarHome() {
           <LiveSignalBoard items={feed.items} updatedAt={feed.updatedAt} />
         </section>
 
-        {/* ── 4. 转型路线 + 订阅引导 ── */}
-        <section className="mt-10 grid gap-4 md:mt-16 md:grid-cols-2">
-          <Link
-            href="/roadmap"
-            className="group flex flex-col gap-4 rounded-3xl border border-gray-200 bg-gradient-to-br from-gray-50 to-white p-6 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:from-gray-900 dark:to-gray-950 md:p-7"
-          >
-            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-blue-600/10 text-blue-600 dark:bg-blue-400/10 dark:text-blue-400">
-              <Map className="h-6 w-6" />
-            </span>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-400 dark:text-gray-500">
-                Roadmap
-              </p>
-              <h3 className="mt-1 text-xl font-bold text-gray-900 dark:text-white">
-                前端 → AI Agent 转型路线图
-              </h3>
-              <p className="mt-1 text-sm leading-6 text-gray-500 dark:text-gray-400">
-                一张为 3-5 年前端打造的能力地图，把&ldquo;写组件&rdquo;到&ldquo;构建 Agent&rdquo;拆成可执行阶段。
-              </p>
-            </div>
-            <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400">
-              查看路线图
-              <ArrowRight className="h-4 w-4" />
-            </span>
-          </Link>
-
+        {/* ── 4. 订阅引导 ── */}
+        <section className="mt-10 md:mt-16">
           <Link
             href="/subscribe"
-            className="group flex flex-col gap-4 rounded-3xl border border-gray-200 bg-gradient-to-br from-gray-50 to-white p-6 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:from-gray-900 dark:to-gray-950 md:p-7"
+            className="group flex flex-col gap-4 rounded-3xl border border-gray-200 bg-gradient-to-br from-gray-50 to-white p-6 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-gray-800 dark:from-gray-900 dark:to-gray-950 md:flex-row md:items-center md:p-7"
           >
             <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-emerald-600/10 text-emerald-600 dark:bg-emerald-400/10 dark:text-emerald-400">
               <Mail className="h-6 w-6" />
@@ -229,7 +205,7 @@ export default function AiRadarHome() {
                 公开内容继续免费更新。留下邮箱，周刊和精选内容会按节奏发给你。
               </p>
             </div>
-            <span className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400">
+            <span className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 transition group-hover:gap-2 dark:text-blue-400 md:ml-auto">
               免费订阅
               <ArrowRight className="h-4 w-4" />
             </span>

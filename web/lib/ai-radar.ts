@@ -83,27 +83,6 @@ export const workflowSteps = [
   },
 ];
 
-export const roadmapLevels = [
-  {
-    name: 'Level 1',
-    title: '纯内容栏目',
-    duration: '1-2 天',
-    scope: '/ai-radar 路由、MDX 内容、日期/分类组织、SSG 发布',
-  },
-  {
-    name: 'Level 2',
-    title: '内容管理后台',
-    duration: '1-2 周',
-    scope: '接 Notion / Sanity / Contentlayer，增加翻译工作台和 ISR 发布',
-  },
-  {
-    name: 'Level 3',
-    title: '半自动化采集',
-    duration: '1-2 个月',
-    scope: 'Cron 拉 RSS / Twitter，Claude 初译进入待审队列，审校后订阅分发',
-  },
-];
-
 export const promptGuidelines = [
   '通俗化：把英文长句拆短，用中文技术圈惯用表达。',
   '保留：代码、命令、专有名词，首次出现给中文加英文括注。',

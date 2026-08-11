@@ -95,7 +95,7 @@ function ShareTemplateBody() {
         setResolving(true);
         setPayload({ ...EMPTY_PAYLOAD, kind: 'live', title: '加载中…', href: u });
       });
-      fetch('https://2aran.com/api/frontend-weekly', { cache: 'no-store' })
+      fetch('/api/frontend-weekly', { cache: 'no-store' })
         .then((r) => (r.ok ? r.json() : null))
         .then((data: { live?: { items?: FeedItem[] } } | null) => {
           if (cancelled) return;

@@ -3,7 +3,6 @@ import { BRAND_SITE_URL, buildWeeklyUrl } from '@/lib/site-matrix';
 
 const productLinks = [
   { label: '每日精选', href: '/' },
-  { label: '转型路线', href: '/roadmap' },
   { label: '前端周刊（子站）', href: buildWeeklyUrl('/weekly'), external: true },
   { label: '创作日历', href: buildWeeklyUrl('/weekly/calendar'), external: true },
 ];

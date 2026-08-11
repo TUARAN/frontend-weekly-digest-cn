@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, FileText, Download, Share2, Check } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import DailyCard from '@/components/DailyCard';
+import DailyDatePicker from '@/components/DailyDatePicker';
 import type { DailyData, DailyItem, DailyMeta } from '@/lib/ai-daily';
 
 interface AiDailyBoardProps {
@@ -74,7 +75,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
 
   useEffect(() => {
     let alive = true;
-    fetch('https://2aran.com/api/frontend-weekly', { cache: 'no-store' })
+    fetch('/api/frontend-weekly', { cache: 'no-store' })
       .then((response) => (response.ok ? response.json() : null))
       .then((payload) => {
         if (!alive || !payload?.daily?.list?.length) return;
@@ -90,7 +91,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
   useEffect(() => {
     if (!meta || cache[meta.date]) return;
     let alive = true;
-    fetch(`https://2aran.com/api/frontend-weekly/daily/${meta.date}`, { cache: 'no-store' })
+    fetch(`/api/frontend-weekly/daily/${meta.date}`, { cache: 'no-store' })
       .then((r) => (r.ok ? r.json() : null))
       .then((d: DailyData | null) => {
         if (alive && d) setCache((c) => ({ ...c, [d.date]: d }));
@@ -213,7 +214,7 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
               <ChevronLeft className="h-4 w-4" />
             </button>
 
-            <div className="flex flex-1 flex-wrap items-center gap-2 overflow-hidden">
+            <div className="flex flex-1 flex-wrap items-center gap-2">
               <span className="text-sm font-bold text-gray-900 dark:text-white">{meta.displayDate}</span>
               {isLatest && (
                 <span className="flex shrink-0 items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
@@ -225,18 +226,11 @@ export default function AiDailyBoard({ manifest, initial }: AiDailyBoardProps) {
                 {meta.count} 条精选{total > 1 && ` · ${index + 1}/${total}`}
               </span>
               {total > 1 && (
-                <div className="ml-auto flex gap-1">
-                  {list.map((_, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setIndex(i)}
-                      className={`rounded-full transition-all ${
-                        i === index ? 'h-1.5 w-5 bg-blue-500' : 'h-1.5 w-1.5 bg-gray-300 hover:bg-gray-400 dark:bg-gray-600'
-                      }`}
-                      aria-label={`第 ${i + 1} 期`}
-                    />
-                  ))}
-                </div>
+                <DailyDatePicker
+                  list={list}
+                  selectedDate={meta.date}
+                  onChange={setIndex}
+                />
               )}
             </div>
 

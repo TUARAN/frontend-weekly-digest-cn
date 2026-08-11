@@ -5,7 +5,7 @@
 - **AI情报站**：首页，面向 AI、Agent、前端、科技资讯的 7×24h 播报与导航入口。
 - **原·前端周刊**：保留历史周刊内容，并继续按周更新。
 
-> **部署**：本项目**只通过 Cloudflare Pages 部署**（DNS 解析也在 Cloudflare）。`next.config.ts` 锁定 `output: "export"`，所有路由必须可静态导出 —— 不允许新增动态 API 路由或使用 `await searchParams` 的 page。不要引入 Vercel 或 `vercel.json`。
+> **部署**：本项目**只通过 Cloudflare Pages 部署**（DNS 解析也在 Cloudflare）。`next.config.ts` 锁定 `output: "export"`，所有 Next.js 页面必须可静态导出 —— 不允许新增 Next.js 动态 API 路由或使用 `await searchParams` 的 page。`functions/` 仅用于同源代理运行时内容接口。不要引入 Vercel 或 `vercel.json`。
 
 ## 目录结构
 
@@ -31,7 +31,7 @@
 
 ## 实时数据
 
-AI 情报实时流和每日精选由 `worker/` 下的 Cloudflare Worker Cron 定时生成，周刊索引在编辑同步后发布，数据写入 `tuaran-content-feed` R2 bucket。展示页优先读取 `https://2aran.com/api/frontend-weekly`，仓库里的静态 JSON 只作为离线和接口故障时的兜底，不再由定时任务持续提交。
+AI 情报实时流和每日精选由 `worker/` 下的 Cloudflare Worker Cron 定时生成，周刊索引在编辑同步后发布，数据写入 `tuaran-content-feed` R2 bucket。展示页通过同源的 `/api/frontend-weekly` Pages Function 读取 `https://2aran.com/api/frontend-weekly`，避免浏览器跨域限制；仓库里的静态 JSON 只作为离线和接口故障时的兜底，不再由定时任务持续提交。
 
 - `scripts/publish-2aran-feed.mjs live`：发布实时流
 - `scripts/publish-2aran-feed.mjs daily`：发布每日精选

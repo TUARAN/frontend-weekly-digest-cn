@@ -22,7 +22,7 @@ function DailyContent() {
       setLoading(false);
       return;
     }
-    fetch(`https://2aran.com/api/frontend-weekly/daily/${date}`, { cache: 'no-store' })
+    fetch(`/api/frontend-weekly/daily/${date}`, { cache: 'no-store' })
       .then((res) => (res.ok ? res.json() : null))
       .then((d: DailyData | null) => setData(d))
       .catch(() => setData(null))

@@ -1,3 +1,4 @@
+@import "react-day-picker/style.css";
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
@@ -98,4 +99,46 @@ body {
 
 .signal-track-reverse {
   animation-name: signal-marquee-down;
+}
+
+.daily-calendar .rdp-root {
+  --rdp-accent-color: #2563eb;
+  --rdp-accent-background-color: #dbeafe;
+  --rdp-day-height: 2.4rem;
+  --rdp-day-width: 2.4rem;
+  --rdp-day_button-height: 2.25rem;
+  --rdp-day_button-width: 2.25rem;
+  margin: 0;
+  color: #374151;
+}
+
+.daily-calendar .rdp-day_button {
+  border-radius: 0.75rem;
+  font-size: 0.8125rem;
+}
+
+.daily-calendar .rdp-available:not(.rdp-selected) .rdp-day_button {
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.daily-calendar .rdp-footer {
+  padding-top: 0.75rem;
+  color: #9ca3af;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .daily-calendar .rdp-root {
+    --rdp-accent-color: #60a5fa;
+    --rdp-accent-background-color: #1e3a8a;
+    color: #e5e7eb;
+  }
+
+  .daily-calendar .rdp-available:not(.rdp-selected) .rdp-day_button {
+    background: rgb(30 58 138 / 0.35);
+    color: #93c5fd;
+  }
 }

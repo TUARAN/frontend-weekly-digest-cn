@@ -126,7 +126,7 @@ export default function LiveSignalBoard({ items, updatedAt }: LiveSignalBoardPro
 
   useEffect(() => {
     let active = true;
-    fetch('https://2aran.com/api/frontend-weekly', { cache: 'no-store' })
+    fetch('/api/frontend-weekly', { cache: 'no-store' })
       .then((response) => (response.ok ? response.json() : null))
       .then((payload) => {
         if (!active || !payload?.live?.items?.length) return;

@@ -21,13 +21,7 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
     { href: '/daily', label: '每日', match: (p) => p.startsWith('/daily') },
     { href: '/live', label: '每时', match: (p) => p.startsWith('/live') },
   ];
-  const serviceNav: NavItem[] = [
-    { href: '/roadmap', label: '路线图', match: (p) => p.startsWith('/roadmap') },
-  ];
-  const mobileNav: NavItem[] = [
-    ...contentNav,
-    ...serviceNav,
-  ];
+  const mobileNav = contentNav;
 
   const renderDesktopLink = (item: NavItem) => (
     <Link
@@ -56,8 +50,6 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
                 {renderDesktopLink(item)}
               </span>
             ))}
-            <span className="select-none text-gray-300 dark:text-gray-700">|</span>
-            {serviceNav.map(renderDesktopLink)}
           </nav>
         </div>
         <div className="flex items-center gap-3">
