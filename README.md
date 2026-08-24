@@ -49,7 +49,15 @@
 
 ### 2026年
 
-- [第476期（7月20日–7月26日）](./weekly/476/前端周刊第476期.md) ⭐ **最新**
+- [第480期（8月17日–8月23日）](./weekly/480/前端周刊第480期.md) ⭐ **最新**
+
+  - [Modern Web Guidance：让 AI Agent 写出更现代的 Web 代码](./weekly/480/Modern-Web-Guidance-让-AI-Agent-写出更现代的-Web-代码.md)
+  - [CSS：收件箱里的定时炸弹](./weekly/480/CSS-收件箱里的定时炸弹.md)
+  - [ECMAScript 2026 中有用的 JavaScript 新增能力](./weekly/480/ECMAScript-2026-中有用的-JavaScript-新增能力.md)
+  - [Oxlint 原生 React Compiler Lint：从 29 秒到 9 秒](./weekly/480/Oxlint-原生-React-Compiler-Lint-从-29-秒到-9-秒.md)
+  - [React 高频实时数据：从环形缓冲区到 OffscreenCanvas](./weekly/480/React-高频实时数据-从环形缓冲区到-OffscreenCanvas.md)
+
+- [第476期（7月20日–7月26日）](./weekly/476/前端周刊第476期.md)
 
 - [第475期（7月13日–7月19日）](./weekly/475/前端周刊第475期.md)
 
