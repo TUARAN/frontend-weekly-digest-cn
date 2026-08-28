@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { Github } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import BrandLogo from '@/components/BrandLogo';
+import PlatformAccount from '@/components/PlatformAccount';
 import { buildWeeklyUrl } from '@/lib/site-matrix';
 
 interface HeaderProps {
@@ -53,6 +54,7 @@ export default function Header({ weeklyHref = '/weekly' }: HeaderProps) {
           </nav>
         </div>
         <div className="flex items-center gap-3">
+          <PlatformAccount />
           <a
             href="https://github.com/TUARAN/frontend-weekly-digest-cn"
             target="_blank"

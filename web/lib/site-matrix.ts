@@ -1,5 +1,5 @@
-export const BRAND_SITE_URL = 'https://frontendnext.com';
-export const WEEKLY_SITE_URL = 'https://frontendweekly.cn';
+export const BRAND_SITE_URL = 'https://weekly.2aran.com';
+export const WEEKLY_SITE_URL = 'https://weekly.2aran.com';
 
 function trimTrailingSlash(value: string): string {
   return value.replace(/\/+$/, '');

@@ -109,7 +109,7 @@ export default function Footer() {
               本站访客数 <span id="busuanzi_value_site_uv"></span> 人
             </span>
           </div>
-          <p className="font-medium">主站：{BRAND_SITE_URL} · 周刊子站：frontendweekly.cn</p>
+          <p className="font-medium">周刊：{BRAND_SITE_URL} · <a href="https://2aran.com/" className="hover:underline">TUARAN 主站 ↗</a></p>
         </div>
       </div>
     </footer>
