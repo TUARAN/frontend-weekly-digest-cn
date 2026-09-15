@@ -226,34 +226,39 @@ async function generateEditorial(issue) {
     source: buildEditorialInput(issue),
   });
 
-  console.log(`调用 GitHub Models：${MODEL}`);
-  const response = await fetch('https://models.github.ai/inference/chat/completions', {
-    method: 'POST',
-    headers: {
-      Accept: 'application/vnd.github+json',
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json',
-      'X-GitHub-Api-Version': '2022-11-28',
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      temperature: 0.35,
-      response_format: { type: 'json_object' },
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: user },
-      ],
-    }),
-    signal: AbortSignal.timeout(120_000),
-  });
+  try {
+    console.log(`调用 GitHub Models：${MODEL}`);
+    const response = await fetch('https://models.github.ai/inference/chat/completions', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/vnd.github+json',
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28',
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        temperature: 0.35,
+        response_format: { type: 'json_object' },
+        messages: [
+          { role: 'system', content: system },
+          { role: 'user', content: user },
+        ],
+      }),
+      signal: AbortSignal.timeout(120_000),
+    });
 
-  if (!response.ok) {
-    const detail = (await response.text()).slice(0, 500);
-    throw new Error(`GitHub Models 请求失败：HTTP ${response.status} ${detail}`);
+    if (!response.ok) {
+      const detail = (await response.text()).slice(0, 500);
+      throw new Error(`GitHub Models 请求失败：HTTP ${response.status} ${detail}`);
+    }
+
+    const result = await response.json();
+    return parseModelJson(result.choices?.[0]?.message?.content || '');
+  } catch (error) {
+    console.warn(`GitHub Models 不可用，改用安全降级模板：${error.message}`);
+    return null;
   }
-
-  const result = await response.json();
-  return parseModelJson(result.choices?.[0]?.message?.content || '');
 }
 
 function indexEditorialItems(editorial) {

@@ -61,4 +61,5 @@ jobs:
           git push
 
       - name: 发布周刊索引到 2aran 内容数据层
+        if: ${{ always() }}
         run: node scripts/publish-2aran-feed.mjs weekly
