@@ -12,14 +12,13 @@
 import { writeFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { fetchAiHot } from '../feed-pipeline/payload.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const OUT = resolve(ROOT, 'web/public/ai-hot-feed.json');
 
-const TAKE = 60;
 const MAX_ITEMS = 30;
-const WINDOW_HOURS = 24;
 
 const CATEGORY_LABEL = {
   tip: '技巧',
@@ -38,22 +37,6 @@ const CATEGORY_LABEL = {
 function topicOf(item) {
   const c = (item.category || '').toLowerCase();
   return CATEGORY_LABEL[c] || (c ? c.toUpperCase() : '资讯');
-}
-
-async function fetchItems() {
-  const since = new Date(Date.now() - WINDOW_HOURS * 60 * 60 * 1000).toISOString();
-  const url = `https://aihot.virxact.com/api/public/items?mode=selected&since=${encodeURIComponent(since)}&take=${TAKE}`;
-  console.log(`抓取 AI HOT API: since=${since}`);
-
-  const res = await fetch(url, {
-    headers: { 'User-Agent': 'frontend-weekly-digest-cn/1.0' },
-  });
-  if (!res.ok) throw new Error(`API 返回 ${res.status}`);
-
-  const data = await res.json();
-  const items = Array.isArray(data) ? data : data.items || data.data || [];
-  console.log(`  获取 ${items.length} 条`);
-  return items;
 }
 
 function normalize(items) {
@@ -87,7 +70,7 @@ function normalize(items) {
 
 async function main() {
   console.log(`\n🛰️  前端周看 · 7×24 小时资讯 | ${new Date().toISOString()}\n`);
-  const raw = await fetchItems();
+  const raw = await fetchAiHot();
   const items = normalize(raw);
 
   if (items.length === 0) {

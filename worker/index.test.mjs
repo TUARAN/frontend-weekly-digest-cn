@@ -24,8 +24,8 @@ const sourceItems = [
     category: 'agent',
     title: 'OpenAI 发布 Agent 编程工具',
     summary: '开发者可以在代码仓库中运行任务。',
-    source: 'Example',
-    url: 'https://example.com/agent',
+    source: { name: 'Example' },
+    links: { original: 'https://example.com/agent', aihot: 'https://aihot.news/item/1' },
     publishedAt: '2026-07-31T00:30:00.000Z',
   },
 ]
@@ -43,6 +43,9 @@ test('hourly run writes live data and 01:00 UTC run also writes daily data', asy
   const hourly = await publishRuntimeFeeds(env, Date.parse('2026-07-31T00:00:00.000Z'))
   assert.deepEqual(hourly, { live: 1, daily: null })
   assert.ok(bucket.objects.has('frontend-weekly/live/current.json'))
+  const live = JSON.parse(bucket.objects.get('frontend-weekly/live/current.json').body)
+  assert.equal(live.items[0].source, 'Example')
+  assert.equal(live.items[0].href, 'https://example.com/agent')
   assert.equal(bucket.objects.has('frontend-weekly/daily/index.json'), false)
 
   const daily = await publishRuntimeFeeds(env, Date.parse('2026-07-31T01:00:00.000Z'))

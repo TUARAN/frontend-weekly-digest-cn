@@ -16,13 +16,16 @@ const KEYWORDS = ['Claude Code', 'Codex', 'Cursor', 'Copilot', 'Anthropic', 'Ope
 const NEGATIVE = ['npm', 'pip install', 'release notes', 'patch', 'bugfix', 'dependabot']
 
 export async function fetchAiHot() {
-  const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
-  const response = await fetch(`https://aihot.virxact.com/api/public/items?mode=selected&since=${encodeURIComponent(since)}&take=60`, {
+  const response = await fetch('https://aihot.news/api/v1/items?mode=selected&window=24h&by=timeline&limit=60', {
     headers: { 'User-Agent': 'frontend-weekly-digest-cn/2aran-pipeline' },
   })
-  if (!response.ok) throw new Error(`AI HOT API returned ${response.status}`)
-  const payload = await response.json()
-  return Array.isArray(payload) ? payload : payload.items || payload.data || []
+  if (!response.ok) throw new Error(`AIHOT API returned ${response.status}`)
+  const { items } = await response.json()
+  return items.map((item) => ({
+    ...item,
+    url: item.links.original || item.links.aihot,
+    source: item.source.name,
+  }))
 }
 
 export function livePayload(items) {
